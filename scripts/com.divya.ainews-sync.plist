@@ -14,7 +14,7 @@
     <string>com.divya.ainews-sync</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/node</string>
+        <string>/Users/divya/Library/pnpm/node</string>
         <string>/Users/divya/projects/astro-blog/scripts/sync-ainews.js</string>
     </array>
     <key>StartCalendarInterval</key>
