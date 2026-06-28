@@ -1,14 +1,14 @@
 ---
 title: "Building Data Agents at Hex: From Text-to-SQL to Multi-Agent Systems"
 description: "My learnings from the Max Agency podcast with Izzy Miller—how Hex evolved from single-shot SQL to a full multi-agent notebook platform, and what it took to get there."
-pubDate: 2026-04-12
+pubDate: 2026-04-11
 author: "Divya van Mahajan"
 categories: ["AI"]
 tags: ["ai-agent", "agents", "data-analytics", "evaluation", "llm", "hex", "notebooks"]
 heroImage: "/images/building-data-agents-at-hex-hero.png"
 linkedin: true
 linkedinMessage: "How do you build agents that actually reason about data? My notes from the Max Agency podcast with Izzy Miller at Hex—covering multi-agent architecture, evaluation philosophy, and a 90-day simulation benchmark."
-series: "ai_agents-009"
+series: "ai_agents-010"
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Building the Integration: Extracting LeanIX to Neo4j"
 description: "A deep dive into extracting LeanIX data and modeling it into a Neo4j Knowledge Graph using dvm-leanix and idempotent Cypher load scripts."
-pubDate: 2026-04-12
+pubDate: 2026-04-20
 author: "Divya van Mahajan"
 categories: ["AI", "Enterprise Architecture"]
 tags: ["Knowledge Graph", "Neo4j", "SAP LeanIX", "Integration", "Cypher"]

@@ -150,14 +150,22 @@ function parseEpisodeFilename(basename) {
   };
 }
 
-// Synthesis: YYYY-MM-ai-synthesis.md
-const SYNTHESIS_FILENAME_RE = /^(\d{4})-(\d{2})-ai-synthesis\.md$/;
+// Synthesis: YYYY-MM-ai-synthesis.md (monthly) or YYYY-ai-synthesis.md (annual)
+const SYNTHESIS_MONTHLY_RE = /^(\d{4})-(\d{2})-ai-synthesis\.md$/;
+const SYNTHESIS_ANNUAL_RE  = /^(\d{4})-ai-synthesis\.md$/;
 
 function parseSynthesisFilename(basename) {
-  const m = basename.match(SYNTHESIS_FILENAME_RE);
-  if (!m) return null;
-  const [, year, month] = m;
-  return { year, month };
+  const monthly = basename.match(SYNTHESIS_MONTHLY_RE);
+  if (monthly) {
+    const [, year, month] = monthly;
+    return { year, month, isAnnual: false };
+  }
+  const annual = basename.match(SYNTHESIS_ANNUAL_RE);
+  if (annual) {
+    const [, year] = annual;
+    return { year, month: null, isAnnual: true };
+  }
+  return null;
 }
 
 // ---------------------------------------------------------------------------
@@ -192,8 +200,8 @@ function transformSynthesisFrontmatter(data, meta) {
 
   out.title = data.title || '';
   if (data.description !== undefined && data.description !== null) out.description = data.description;
-  out.pubDate = data.date || data.pubDate || `${meta.year}-${meta.month}-01`;
-  out.type = 'synthesis';
+  out.pubDate = data.date || data.pubDate || (meta.isAnnual ? `${meta.year}-12-31` : `${meta.year}-${meta.month}-01`);
+  out.type = meta.isAnnual ? 'annual-synthesis' : 'synthesis';
   out.tags = data.tags || [];
   if (data.draft !== undefined) out.draft = data.draft;
 

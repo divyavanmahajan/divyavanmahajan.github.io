@@ -8,7 +8,7 @@ tags: ["Agents", "Evals", "Vending-Bench", "LLMs", "Long-Horizon"]
 heroImage: "/images/evaluating-long-horizon-agent-performance-hero.png"
 linkedin: true
 linkedinMessage: "How do AI agents perform when left alone to run a business for a year? I dive into new benchmarks like Vending-Bench 2 to see the reality of long-horizon AI agent coherence. The results? They still have a lot to learn! #AgenticAI #LLMs #AIResearch"
-series: "agent-evals-001"
+series: "ai_agents-009"
 draft: false
 ---
 

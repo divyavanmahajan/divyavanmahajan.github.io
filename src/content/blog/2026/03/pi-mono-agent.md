@@ -8,7 +8,7 @@ tags: ["ai-agent", "agents", "pi", "automation", "slack-bot"]
 heroImage: "/images/pi-mono-agent-hero.png"
 linkedin: true
 linkedinMessage: "Agents building agents! 🤯 Discover how Pi-mono and its Slack bot Master of Mischief (Mom) throw out predefined skills in favor of writing their own tools. Read the latest in the AI Agent series."
-series: "ai-agent"
+series: "ai_agents-008"
 draft: false
 ---
 

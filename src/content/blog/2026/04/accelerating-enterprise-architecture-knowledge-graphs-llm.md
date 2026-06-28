@@ -1,7 +1,7 @@
 ---
 title: "Accelerating Enterprise Architecture with Knowledge Graphs and LLMs"
 description: "Discover how combining SAP LeanIX, Neo4j, and LLMs can revolutionize Enterprise Architecture by enabling AI-driven architectural reasoning."
-pubDate: 2026-04-12
+pubDate: 2026-04-14
 author: "Divya van Mahajan"
 categories: ["AI", "Enterprise Architecture"]
 tags: ["Knowledge Graph", "Neo4j", "SAP LeanIX", "LLM", "MCP"]

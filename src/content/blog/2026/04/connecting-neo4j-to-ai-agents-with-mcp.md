@@ -1,7 +1,7 @@
 ---
 title: "Connecting Neo4j to AI Agents with MCP"
 description: "Learn how to use the Model Context Protocol (MCP) to connect your Neo4j Enterprise Architecture Knowledge Graph to AI agents like Copilot or Claude."
-pubDate: 2026-04-12
+pubDate: 2026-04-24
 author: "Divya van Mahajan"
 categories: ["AI", "Enterprise Architecture"]
 tags: ["MCP", "Neo4j", "LLM", "Copilot", "Claude", "Integration"]
@@ -9,7 +9,7 @@ heroImage: "/images/connecting-neo4j-to-ai-agents-with-mcp-hero.png"
 linkedin: true
 linkedinMessage: "The grand finale of our AI in Architecture series! 🚀 Discover how to wire your Neo4j Knowledge Graph directly into Claude or Copilot using the Model Context Protocol (MCP), enabling you to chat with your enterprise architecture. #AI #MCP #Neo4j #EnterpriseArchitecture"
 series: "ai_in_arch-003"
-draft: true
+draft: false
 ---
 
 # Introduction

@@ -43,7 +43,7 @@ const ainews = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		tags: z.array(z.string()).default([]),
 		url: z.string().optional(),
-		type: z.enum(['episode', 'synthesis']),
+		type: z.enum(['episode', 'synthesis', 'annual-synthesis']),
 		draft: z.boolean().default(false),
 	}),
 });
