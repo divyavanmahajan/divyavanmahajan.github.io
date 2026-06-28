@@ -406,25 +406,15 @@ function main() {
     return;
   }
 
-  // Git operations
+  // Stage any changed ainews files so they're included in the current commit.
+  // We intentionally do NOT run git commit here: if called from a pre-commit
+  // hook, doing so would recurse infinitely. Callers are responsible for
+  // committing (the hook's parent commit, or a manual `git commit` after a
+  // standalone run).
   try {
     execSync('git add src/content/ainews/', { cwd: projectRoot, stdio: 'pipe' });
-    const status = execSync('git status --porcelain src/content/ainews/', {
-      cwd: projectRoot,
-      stdio: 'pipe',
-    }).toString();
-
-    if (status.trim()) {
-      execSync('git commit -m "chore: sync ainews content from source"', {
-        cwd: projectRoot,
-        stdio: 'inherit',
-      });
-      console.log('Committed changes.');
-    } else {
-      console.log('No changes to commit.');
-    }
   } catch (err) {
-    console.error('Git operation failed:', err.message);
+    console.error('Git add failed:', err.message);
     process.exit(1);
   }
 }
