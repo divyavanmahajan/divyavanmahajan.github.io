@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Install:   cp scripts/com.divya.ainews-sync.plist ~/Library/LaunchAgents/
+             launchctl load ~/Library/LaunchAgents/com.divya.ainews-sync.plist
+  Uninstall: launchctl unload ~/Library/LaunchAgents/com.divya.ainews-sync.plist
+             rm ~/Library/LaunchAgents/com.divya.ainews-sync.plist
+  Check status: launchctl list | grep ainews
+  Run manually: launchctl start com.divya.ainews-sync
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.divya.ainews-sync</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/node</string>
+        <string>/Users/divya/projects/astro-blog/scripts/sync-ainews.js</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/tmp/ainews-sync.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/ainews-sync.error.log</string>
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

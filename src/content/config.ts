@@ -34,4 +34,18 @@ const til = defineCollection({
 	}),
 });
 
-export const collections = { blog, til };
+const ainews = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string().optional(),
+		pubDate: z.coerce.date(),
+		updatedDate: z.coerce.date().optional(),
+		tags: z.array(z.string()).default([]),
+		url: z.string().optional(),
+		type: z.enum(['episode', 'synthesis']),
+		draft: z.boolean().default(false),
+	}),
+});
+
+export const collections = { blog, til, ainews };

@@ -1,0 +1,285 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const allEntries = (await getCollection("ainews"))
+    .filter((entry) => !entry.data.draft)
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const syntheses = allEntries.filter((e) => e.data.type === "synthesis");
+const episodes = allEntries.filter((e) => e.data.type === "episode");
+
+// Group episodes by year-month
+const episodesByMonth = new Map<string, typeof episodes>();
+episodes.forEach((ep) => {
+    const date = ep.data.pubDate;
+    const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}`;
+    if (!episodesByMonth.has(key)) {
+        episodesByMonth.set(key, []);
+    }
+    episodesByMonth.get(key)!.push(ep);
+});
+
+// Sort month keys descending
+const sortedMonthKeys = Array.from(episodesByMonth.keys()).sort((a, b) =>
+    b.localeCompare(a),
+);
+
+function formatDate(date: Date): string {
+    return date.toLocaleDateString("en-us", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+    });
+}
+
+function formatMonthHeading(key: string): string {
+    const [year, month] = key.split("-");
+    const date = new Date(Number(year), Number(month) - 1, 1);
+    return date.toLocaleDateString("en-us", { year: "numeric", month: "long" });
+}
+---
+
+<BaseLayout
+    title="AI Brief"
+    description="AI news episodes and monthly syntheses"
+    withSidebar={false}
+>
+    <div class="ainews-page">
+        <header class="ainews-header">
+            <h1>AI Brief</h1>
+            <p class="ainews-intro">
+                Monthly syntheses and episode notes from the AI Daily Brief
+                podcast.
+            </p>
+        </header>
+
+        {
+            syntheses.length > 0 && (
+                <section class="syntheses-section">
+                    <h2 class="section-heading">Monthly Syntheses</h2>
+                    <div class="syntheses-grid">
+                        {syntheses.map((entry) => (
+                            <article class="synthesis-card">
+                                <a
+                                    href={`${import.meta.env.BASE_URL}ainews/${entry.slug}/`}
+                                    class="synthesis-title"
+                                >
+                                    {entry.data.title}
+                                </a>
+                                <div class="synthesis-meta">
+                                    <time
+                                        datetime={entry.data.pubDate.toISOString()}
+                                    >
+                                        {formatDate(entry.data.pubDate)}
+                                    </time>
+                                    {entry.data.description && (
+                                        <span class="synthesis-desc">
+                                            {entry.data.description}
+                                        </span>
+                                    )}
+                                </div>
+                            </article>
+                        ))}
+                    </div>
+                </section>
+            )
+        }
+
+        {
+            episodes.length > 0 && (
+                <section class="episodes-section">
+                    <h2 class="section-heading">Episodes</h2>
+                    {sortedMonthKeys.map((key) => (
+                        <div class="episode-month-group">
+                            <h3 class="month-heading">
+                                {formatMonthHeading(key)}
+                            </h3>
+                            <ul class="episode-list">
+                                {episodesByMonth.get(key)!.map((ep) => (
+                                    <li class="episode-entry">
+                                        <time
+                                            class="episode-date"
+                                            datetime={ep.data.pubDate.toISOString()}
+                                        >
+                                            {ep.data.pubDate.toLocaleDateString(
+                                                "en-us",
+                                                {
+                                                    month: "short",
+                                                    day: "numeric",
+                                                },
+                                            )}
+                                        </time>
+                                        <a
+                                            href={`${import.meta.env.BASE_URL}ainews/${ep.slug}/`}
+                                            class="episode-title"
+                                        >
+                                            {ep.data.title}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    ))}
+                </section>
+            )
+        }
+    </div>
+</BaseLayout>
+
+<style>
+    .ainews-page {
+        max-width: 900px;
+    }
+
+    .ainews-header {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .ainews-header h1 {
+        font-family: var(--font-title);
+        font-size: 2rem;
+        margin: 0 0 0.5rem;
+    }
+
+    .ainews-intro {
+        color: var(--color-text-light);
+        font-size: 0.95rem;
+        margin: 0;
+    }
+
+    /* Section headings */
+    .section-heading {
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--color-text-light);
+        margin: 0 0 1rem;
+    }
+
+    /* Syntheses */
+    .syntheses-section {
+        margin-bottom: 3rem;
+    }
+
+    .syntheses-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .synthesis-card {
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .synthesis-card:last-child {
+        border-bottom: none;
+    }
+
+    .synthesis-title {
+        display: block;
+        color: var(--color-text);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .synthesis-title:hover {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+
+    .synthesis-meta {
+        font-size: 0.85rem;
+        color: var(--color-text-light);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: baseline;
+    }
+
+    .synthesis-desc::before {
+        content: "— ";
+    }
+
+    /* Episodes */
+    .episodes-section {
+        margin-bottom: 2rem;
+    }
+
+    .episode-month-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .month-heading {
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--color-secondary);
+        margin: 0 0 0.5rem;
+        padding-bottom: 0.3rem;
+        border-bottom: 2px solid var(--color-secondary);
+        display: inline-block;
+    }
+
+    .episode-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .episode-entry {
+        display: flex;
+        align-items: baseline;
+        gap: 0.75rem;
+        padding: 0.3rem 0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .episode-entry:last-child {
+        border-bottom: none;
+    }
+
+    .episode-date {
+        font-family: monospace;
+        font-size: 0.8rem;
+        color: var(--color-text-light);
+        flex-shrink: 0;
+        min-width: 5rem;
+    }
+
+    .episode-title {
+        color: var(--color-text);
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+
+    .episode-title:hover {
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+        .ainews-header h1 {
+            font-size: 1.4rem;
+        }
+
+        .episode-entry {
+            flex-direction: column;
+            gap: 0.1rem;
+        }
+
+        .episode-date {
+            font-size: 0.75rem;
+        }
+    }
+</style>
