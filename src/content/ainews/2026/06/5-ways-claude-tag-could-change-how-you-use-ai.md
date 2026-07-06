@@ -9,6 +9,7 @@ pubDate: 2026-06-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=EpxZEvvOTL8'
 draft: false
 ---
 # Claude Tag and the Future of AI at Work

@@ -9,6 +9,7 @@ pubDate: 2025-05-17T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/129159603'
 draft: false
 ---
 # Study Document: The Wave of Crazy New AI Stuff Coming Next Month

@@ -9,6 +9,7 @@ pubDate: 2025-06-26T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/132319570'
 draft: false
 ---
 # Context Engineering: What It Is and Why It Matters

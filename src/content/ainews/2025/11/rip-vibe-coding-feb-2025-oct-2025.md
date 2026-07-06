@@ -9,6 +9,7 @@ pubDate: 2025-11-03T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/142727537'
 draft: false
 ---
 # RIP Vibe Coding (Feb 2025 – Oct 2025): AI Engineering in Transition

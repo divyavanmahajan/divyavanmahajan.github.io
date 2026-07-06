@@ -9,6 +9,7 @@ pubDate: 2025-07-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/134821126'
 draft: false
 ---
 # America's AI Action Plan: Study Document

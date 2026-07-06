@@ -9,6 +9,7 @@ pubDate: 2025-12-18T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/146108937'
 draft: false
 ---
 # GPT Image 1.5 vs. Nano Banana Pro: Four Reasons to Consider the Switch

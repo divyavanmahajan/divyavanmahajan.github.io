@@ -9,6 +9,7 @@ pubDate: 2026-06-03T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=yTPGY13ym5s'
 draft: false
 ---
 # The Next Wave of Enterprise AI

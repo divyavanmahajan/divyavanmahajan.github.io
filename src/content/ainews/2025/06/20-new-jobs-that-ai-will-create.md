@@ -9,6 +9,7 @@ pubDate: 2025-06-19T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=WhAAKxPlMhw'
 draft: false
 ---
 # Study Document: 20 New Jobs That AI Will Create

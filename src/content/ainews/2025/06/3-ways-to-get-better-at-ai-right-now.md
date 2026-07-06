@@ -9,6 +9,7 @@ pubDate: 2025-06-22T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/132001642'
 draft: false
 ---
 # 3 Ways to Get Better at AI Right Now

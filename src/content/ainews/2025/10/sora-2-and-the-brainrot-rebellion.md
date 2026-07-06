@@ -9,6 +9,7 @@ pubDate: 2025-10-01T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140221764'
 draft: false
 ---
 # Sora 2 and the Brain Rot Rebellion

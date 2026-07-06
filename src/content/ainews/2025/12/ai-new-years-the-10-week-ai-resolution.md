@@ -9,6 +9,7 @@ pubDate: 2025-12-31T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/147076337'
 draft: false
 ---
 # 2025-12-31 AI New Year's: The 10-Weekend AI Resolution

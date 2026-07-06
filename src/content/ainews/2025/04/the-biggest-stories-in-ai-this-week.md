@@ -9,6 +9,7 @@ pubDate: 2025-04-20T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/126995865'
 draft: false
 ---
 # Study Document: Biggest Stories in AI — Week of April 20, 2025

@@ -9,6 +9,7 @@ pubDate: 2026-07-01T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=ztCLWKwyMJY'
 draft: false
 ---
 # Study Document: Fable 5 Returns — AI Daily Brief (July 1, 2026)

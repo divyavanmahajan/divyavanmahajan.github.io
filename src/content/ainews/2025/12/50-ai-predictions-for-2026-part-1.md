@@ -9,6 +9,7 @@ pubDate: 2025-12-29T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/146939098'
 draft: false
 ---
 # 50 AI Predictions for 2026 (Part 1)

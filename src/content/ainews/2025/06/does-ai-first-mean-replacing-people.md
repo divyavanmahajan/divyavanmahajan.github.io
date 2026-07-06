@@ -9,6 +9,7 @@ pubDate: 2025-06-01T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/130424306'
 draft: false
 ---
 # Does AI First Mean Replacing People?

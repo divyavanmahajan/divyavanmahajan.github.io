@@ -9,6 +9,7 @@ pubDate: 2026-01-08T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/147688638'
 draft: false
 ---
 # Why Everyone Is Obsessed with Claude Code

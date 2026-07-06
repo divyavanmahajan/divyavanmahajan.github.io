@@ -9,6 +9,7 @@ pubDate: 2025-12-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/145094210'
 draft: false
 ---
 # Can Today's AI Really Replace 12% of Work?

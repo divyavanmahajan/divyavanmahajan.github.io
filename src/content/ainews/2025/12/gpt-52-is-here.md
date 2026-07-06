@@ -9,6 +9,7 @@ pubDate: 2025-12-11T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/145642838'
 draft: false
 ---
 # GPT-5.2 Is Here: Study Document

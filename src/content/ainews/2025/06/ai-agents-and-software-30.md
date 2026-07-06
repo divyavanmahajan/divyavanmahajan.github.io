@@ -9,6 +9,7 @@ pubDate: 2025-06-29T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/132719368'
 draft: false
 ---
 # Software 3.0: AI Agents and the Redesign of Software

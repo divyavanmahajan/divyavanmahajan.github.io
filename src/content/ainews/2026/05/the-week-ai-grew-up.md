@@ -9,6 +9,7 @@ pubDate: 2026-05-01T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=IpD1chtKILE'
 draft: false
 ---
 # The Week AI Grew Up — Study Document

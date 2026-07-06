@@ -9,6 +9,7 @@ pubDate: 2025-04-26T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/127503350'
 draft: false
 ---
 # How to Price AI Agents and Why It Matters

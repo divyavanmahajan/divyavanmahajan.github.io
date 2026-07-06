@@ -9,6 +9,7 @@ pubDate: 2025-10-22T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/141831692'
 draft: false
 ---
 # ChatGPT Atlas Launch & AI Browser Value: Study Document

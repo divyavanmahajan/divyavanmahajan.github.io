@@ -9,6 +9,7 @@ pubDate: 2026-04-18T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/155945480'
 draft: false
 ---
 # Agent Building Trends: Operator Bonus Episode — Study Document

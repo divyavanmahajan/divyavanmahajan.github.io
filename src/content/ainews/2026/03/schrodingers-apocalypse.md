@@ -9,6 +9,7 @@ pubDate: 2026-03-01T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/151987652'
 draft: false
 ---
 # Schrödinger's Apocalypse: AI Disruption, Economic Uncertainty, and the Limits of Prediction

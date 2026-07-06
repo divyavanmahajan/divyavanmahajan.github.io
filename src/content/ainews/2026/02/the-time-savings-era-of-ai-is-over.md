@@ -9,6 +9,7 @@ pubDate: 2026-02-13T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=5MPFyOKlASc'
 draft: false
 ---
 # The Time Savings Era of AI Is Over: AIDB Intel January AI Usage Pulse Survey Results

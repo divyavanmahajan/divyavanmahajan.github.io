@@ -9,6 +9,7 @@ pubDate: 2026-04-25T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=ntvkDnk_5jA'
 draft: false
 ---
 # How to Build a Personal Agentic Operating System

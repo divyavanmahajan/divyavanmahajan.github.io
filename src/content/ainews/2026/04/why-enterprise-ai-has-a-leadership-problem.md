@@ -9,6 +9,7 @@ pubDate: 2026-04-10T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/155298986'
 draft: false
 ---
 # Why Enterprise AI Has a Leadership Problem

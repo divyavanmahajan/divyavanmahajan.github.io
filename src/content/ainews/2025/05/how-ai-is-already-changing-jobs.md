@@ -9,6 +9,7 @@ pubDate: 2025-05-16T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/129072726'
 draft: false
 ---
 # How AI Is Already Changing Jobs — Study Document

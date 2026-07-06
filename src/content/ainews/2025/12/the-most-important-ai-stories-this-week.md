@@ -9,6 +9,7 @@ pubDate: 2025-12-19T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=G2HX30CelNk'
 draft: false
 ---
 # Study Document: Most Important AI Stories – Week of December 19, 2025

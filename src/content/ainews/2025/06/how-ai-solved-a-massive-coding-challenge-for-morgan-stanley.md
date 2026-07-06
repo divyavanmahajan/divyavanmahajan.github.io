@@ -9,6 +9,7 @@ pubDate: 2025-06-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/130741355'
 draft: false
 ---
 # How AI Solved a Massive Coding Challenge for Morgan Stanley

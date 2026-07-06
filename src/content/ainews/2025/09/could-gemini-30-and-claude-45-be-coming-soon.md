@@ -9,6 +9,7 @@ pubDate: 2025-09-25T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/139747903'
 draft: false
 ---
 # Study Document: AI Lab Competition, Rumor Mill & Industry Dynamics (September 25, 2025)

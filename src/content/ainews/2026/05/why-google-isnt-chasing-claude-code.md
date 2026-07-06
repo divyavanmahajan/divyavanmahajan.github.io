@@ -9,6 +9,7 @@ pubDate: 2026-05-20T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/158799675'
 draft: false
 ---
 # Study Document: Why Google Isn't Chasing Claude Code — Google I/O 2026 Analysis

@@ -9,6 +9,7 @@ pubDate: 2025-12-03T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/145010775'
 draft: false
 ---
 # Study Document: What We Learned About Amazon's AI Strategy from AWS re:Invent

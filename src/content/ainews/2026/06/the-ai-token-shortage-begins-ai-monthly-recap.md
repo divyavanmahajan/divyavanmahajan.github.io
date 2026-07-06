@@ -9,6 +9,7 @@ pubDate: 2026-06-01T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=ex6abzvzaIo'
 draft: false
 ---
 # AI Monthly Recap: The AI Token Shortage Begins (May 2026)

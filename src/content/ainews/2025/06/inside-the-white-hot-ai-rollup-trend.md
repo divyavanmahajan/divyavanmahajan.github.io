@@ -9,6 +9,7 @@ pubDate: 2025-06-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/130647173'
 draft: false
 ---
 # AI Roll-Ups: The New Private Equity Playbook — Study Document

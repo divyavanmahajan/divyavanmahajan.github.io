@@ -9,6 +9,7 @@ pubDate: 2025-10-31T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/142461232'
 draft: false
 ---
 # Study Document: Why OpenAI's $1 Trillion IPO Can't Come Soon Enough

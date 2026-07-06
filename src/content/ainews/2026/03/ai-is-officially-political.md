@@ -9,6 +9,7 @@ pubDate: 2026-03-06T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/152341278'
 draft: false
 ---
 # AI Is Officially Political — Study Document

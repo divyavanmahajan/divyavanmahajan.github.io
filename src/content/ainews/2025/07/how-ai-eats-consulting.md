@@ -9,6 +9,7 @@ pubDate: 2025-07-02T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/133055960'
 draft: false
 ---
 # How AI Eats Consulting

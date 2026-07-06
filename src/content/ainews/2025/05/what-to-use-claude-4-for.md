@@ -9,6 +9,7 @@ pubDate: 2025-05-28T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/130046941'
 draft: false
 ---
 # Claude 4 (Opus & Sonnet): Capabilities, Use Cases, and Safety Concerns

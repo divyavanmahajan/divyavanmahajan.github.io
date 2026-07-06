@@ -9,6 +9,7 @@ pubDate: 2026-05-21T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=9N3jEavj5Ps'
 draft: false
 ---
 # Anthropic Resets AI Expectations: Study Document

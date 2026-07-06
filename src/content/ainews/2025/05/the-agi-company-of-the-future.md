@@ -9,6 +9,7 @@ pubDate: 2025-05-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/128115295'
 draft: false
 ---
 # The AGI Company of the Future

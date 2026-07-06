@@ -9,6 +9,7 @@ pubDate: 2026-07-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/162961672'
 draft: false
 ---
 ## Overview

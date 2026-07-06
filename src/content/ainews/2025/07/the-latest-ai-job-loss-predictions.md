@@ -9,6 +9,7 @@ pubDate: 2025-07-08T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/133626560'
 draft: false
 ---
 # Study Document: AI Job Loss Predictions and the Shifting Internet Business Model

@@ -9,6 +9,7 @@ pubDate: 2025-09-28T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/139923277'
 draft: false
 ---
 # Don't Blame AI for WorkSlop

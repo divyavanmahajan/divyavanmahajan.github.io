@@ -9,6 +9,7 @@ pubDate: 2025-11-28T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/144588355'
 draft: false
 ---
 # 10 AI Projects to Learn New Models: Gemini 3, Nano Banana, and Opus 4.5

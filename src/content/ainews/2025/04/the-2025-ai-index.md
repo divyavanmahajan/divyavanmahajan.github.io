@@ -9,6 +9,7 @@ pubDate: 2025-04-12T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/126504982'
 draft: false
 ---
 # Stanford's 2025 AI Index Report: Key Trends and Analysis

@@ -9,6 +9,7 @@ pubDate: 2025-10-06T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140601609'
 draft: false
 ---
 # AI for Work: Top 50 AI Application Spending Report (A16Z × Mercury)

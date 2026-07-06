@@ -9,6 +9,7 @@ pubDate: 2025-06-18T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=ntvkDnk_5jA'
 draft: false
 ---
 # Should You Build Single Agents or Multi-Agent Systems?

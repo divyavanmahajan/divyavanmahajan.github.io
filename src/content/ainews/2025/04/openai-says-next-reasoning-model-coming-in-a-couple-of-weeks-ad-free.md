@@ -9,6 +9,7 @@ pubDate: 2025-04-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/125983946'
 draft: false
 ---
 # Study Document: AI Daily Brief – OpenAI Reasoning Models, Microsoft Data Center Pullback, and Public vs. Expert AI Attitudes

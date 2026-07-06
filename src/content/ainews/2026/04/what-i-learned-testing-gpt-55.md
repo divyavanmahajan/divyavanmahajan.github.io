@@ -9,6 +9,7 @@ pubDate: 2026-04-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=jblguhXunZs'
 draft: false
 ---
 # GPT-5.5 ("Spud"): First Reactions, Benchmarks, and Testing

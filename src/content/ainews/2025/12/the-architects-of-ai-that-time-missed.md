@@ -9,6 +9,7 @@ pubDate: 2025-12-14T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/145818713'
 draft: false
 ---
 # Study Document: Who's Missing from Time's "Architects of AI"?

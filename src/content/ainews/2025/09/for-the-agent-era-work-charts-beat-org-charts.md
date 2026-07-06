@@ -9,6 +9,7 @@ pubDate: 2025-09-07T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/138338237'
 draft: false
 ---
 # Work Charts Beat Org Charts in the Agent Era

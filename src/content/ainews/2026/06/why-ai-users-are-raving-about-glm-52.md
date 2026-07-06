@@ -9,6 +9,7 @@ pubDate: 2026-06-22T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=HkVpSoaIKsc'
 draft: false
 ---
 # Why AI Users Are Raving About GLM 5.2

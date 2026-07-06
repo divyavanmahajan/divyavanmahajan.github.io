@@ -9,6 +9,7 @@ pubDate: 2025-05-31T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/130346910'
 draft: false
 ---
 # AI Daily Brief: China AI Competition, NVIDIA Earnings, and Global AI Geopolitics

@@ -9,6 +9,7 @@ pubDate: 2025-06-12T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/131341804'
 draft: false
 ---
 # How This Totally Unhinged AI Ad Shows the Future of Advertising

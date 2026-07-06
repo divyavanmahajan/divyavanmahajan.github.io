@@ -9,6 +9,7 @@ pubDate: 2025-09-11T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/138626470'
 draft: false
 ---
 # Why You Need Different AIs for Different Jobs

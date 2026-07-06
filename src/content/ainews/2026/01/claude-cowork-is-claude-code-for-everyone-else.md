@@ -9,6 +9,7 @@ pubDate: 2026-01-13T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/148156079'
 draft: false
 ---
 # Claude Cowork: Is Claude Code for Everyone Else?

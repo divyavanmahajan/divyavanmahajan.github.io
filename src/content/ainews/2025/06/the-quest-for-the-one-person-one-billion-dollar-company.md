@@ -9,6 +9,7 @@ pubDate: 2025-06-25T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/132228859'
 draft: false
 ---
 # The Quest for the One-Person, $1 Billion Company

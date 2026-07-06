@@ -9,6 +9,7 @@ pubDate: 2025-06-17T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=RKpEI37RnfI'
 draft: false
 ---
 # 16 Ways Enterprise AI Is Changing (2025) — Study Document

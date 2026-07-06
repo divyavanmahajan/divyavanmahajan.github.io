@@ -9,6 +9,7 @@ pubDate: 2025-11-14T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/143598400'
 draft: false
 ---
 # Apps vs. Models: Who Wins AI?

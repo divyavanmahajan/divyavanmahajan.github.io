@@ -9,6 +9,7 @@ pubDate: 2026-04-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=ot-uGTfkrHo'
 draft: false
 ---
 # Headless Agents Will Change Work — AI Daily Brief (2026-04-24)

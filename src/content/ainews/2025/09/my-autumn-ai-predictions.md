@@ -9,6 +9,7 @@ pubDate: 2025-09-03T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/137998865'
 draft: false
 ---
 # Autumn AI Predictions: Study Document

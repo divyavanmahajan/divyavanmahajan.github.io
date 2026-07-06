@@ -9,6 +9,7 @@ pubDate: 2025-04-14T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/126556284'
 draft: false
 ---
 # AI Empowerment: How LLMs Flip the Script on Technology Diffusion

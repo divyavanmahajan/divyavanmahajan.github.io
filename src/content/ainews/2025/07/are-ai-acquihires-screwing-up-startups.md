@@ -9,6 +9,7 @@ pubDate: 2025-07-15T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/134146078'
 draft: false
 ---
 # Are AI Acquihires Screwing Up Startups?

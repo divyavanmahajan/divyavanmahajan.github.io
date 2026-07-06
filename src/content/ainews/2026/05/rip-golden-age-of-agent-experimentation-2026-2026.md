@@ -9,6 +9,7 @@ pubDate: 2026-05-14T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/158277908'
 draft: false
 ---
 # RIP Golden Age of Agent Experimentation: Anthropic's Pricing Shift and the End of the AI Subsidy Era

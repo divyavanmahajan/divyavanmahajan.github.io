@@ -9,6 +9,7 @@ pubDate: 2025-07-18T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/134445516'
 draft: false
 ---
 # All the Cool Things People Are Vibe Coding

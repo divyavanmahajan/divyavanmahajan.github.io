@@ -9,6 +9,7 @@ pubDate: 2025-08-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=gP8A3x2mFRM'
 draft: false
 ---
 # Welcome to the AI Economy — Study Document

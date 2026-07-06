@@ -9,6 +9,7 @@ pubDate: 2025-09-09T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=ud3Uuu64XXA'
 draft: false
 ---
 # Five Debates Shaping AI — Study Document

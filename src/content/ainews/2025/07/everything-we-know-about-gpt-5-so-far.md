@@ -9,6 +9,7 @@ pubDate: 2025-07-10T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/133783449'
 draft: false
 ---
 # Everything We Know About GPT-5 So Far

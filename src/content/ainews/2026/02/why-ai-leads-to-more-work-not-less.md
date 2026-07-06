@@ -9,6 +9,7 @@ pubDate: 2026-02-10T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/150438762'
 draft: false
 ---
 # Why AI Leads to More Work, Not Less

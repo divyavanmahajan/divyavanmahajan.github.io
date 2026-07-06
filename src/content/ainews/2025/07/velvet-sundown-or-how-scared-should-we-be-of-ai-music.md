@@ -9,6 +9,7 @@ pubDate: 2025-07-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/133294558'
 draft: false
 ---
 # Velvet Sundown: How Scared Should We Be of AI Music?

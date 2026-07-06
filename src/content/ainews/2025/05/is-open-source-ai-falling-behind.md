@@ -9,6 +9,7 @@ pubDate: 2025-05-01T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/127861498'
 draft: false
 ---
 # Is Open Source AI Falling Behind? — Study Document

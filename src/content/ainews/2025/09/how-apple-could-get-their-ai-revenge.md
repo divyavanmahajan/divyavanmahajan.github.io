@@ -9,6 +9,7 @@ pubDate: 2025-09-23T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/139513498'
 draft: false
 ---
 # How Apple Could Get Their AI Revenge — Study Document

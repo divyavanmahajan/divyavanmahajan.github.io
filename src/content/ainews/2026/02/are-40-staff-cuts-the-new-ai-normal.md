@@ -9,6 +9,7 @@ pubDate: 2026-02-28T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/151841479'
 draft: false
 ---
 # Are 40% Staff Cuts the New AI Normal?

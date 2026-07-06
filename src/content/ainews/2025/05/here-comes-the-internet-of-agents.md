@@ -9,6 +9,7 @@ pubDate: 2025-05-21T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/129488793'
 draft: false
 ---
 # Study Document: Here Comes the Internet of Agents — Microsoft Build 2025 & AI Agent Ecosystem

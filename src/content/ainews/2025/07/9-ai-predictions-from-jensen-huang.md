@@ -9,6 +9,7 @@ pubDate: 2025-07-26T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/134974038'
 draft: false
 ---
 # Study Document: Jensen Huang's 9 AI Predictions (AI Daily Brief, July 26, 2025)

@@ -9,6 +9,7 @@ pubDate: 2026-03-18T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/153378960'
 draft: false
 ---
 # How to Use Agent Skills: Lessons from the Claude Code Team

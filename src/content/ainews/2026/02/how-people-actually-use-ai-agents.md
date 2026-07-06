@@ -9,6 +9,7 @@ pubDate: 2026-02-19T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/151183424'
 draft: false
 ---
 # How People Actually Use AI Agents: Study Notes

@@ -9,6 +9,7 @@ pubDate: 2026-05-22T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=q9t1XCnHcM0'
 draft: false
 ---
 # AI's New Acceleration Phase: Weekly Recap (May 22, 2026)

@@ -9,6 +9,7 @@ pubDate: 2025-11-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/142846376'
 draft: false
 ---
 # Is OpenAI Becoming Too Big to Fail?

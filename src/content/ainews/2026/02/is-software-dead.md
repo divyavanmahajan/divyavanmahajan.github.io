@@ -9,6 +9,7 @@ pubDate: 2026-02-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/150047836'
 draft: false
 ---
 # Is Software Dead? — Study Document

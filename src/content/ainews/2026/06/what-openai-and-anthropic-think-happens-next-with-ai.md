@@ -9,6 +9,7 @@ pubDate: 2026-06-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=fOdPm7rPxCw'
 draft: false
 ---
 # What OpenAI and Anthropic Think Happens Next with AI

@@ -9,6 +9,7 @@ pubDate: 2025-08-07T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/135908178'
 draft: false
 ---
 # Is GPT-OSS Actually Any Good? — Day-One Reactions to Major Model Releases

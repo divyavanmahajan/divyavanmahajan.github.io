@@ -9,6 +9,7 @@ pubDate: 2026-04-03T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=TVJ8lt4UfLY'
 draft: false
 ---
 # How to Build a Personal Context Portfolio and MCP Server

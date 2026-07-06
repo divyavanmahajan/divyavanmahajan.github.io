@@ -9,6 +9,7 @@ pubDate: 2026-03-25T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=gmkURB_HmQI'
 draft: false
 ---
 # Work AGI Is the Only AGI That Matters

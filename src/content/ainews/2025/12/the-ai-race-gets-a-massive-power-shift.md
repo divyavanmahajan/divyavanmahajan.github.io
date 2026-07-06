@@ -9,6 +9,7 @@ pubDate: 2025-12-10T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/145484521'
 draft: false
 ---
 # Study Document: The AI Race Gets a Massive Power Shift

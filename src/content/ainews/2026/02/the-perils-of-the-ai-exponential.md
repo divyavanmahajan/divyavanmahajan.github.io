@@ -9,6 +9,7 @@ pubDate: 2026-02-23T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/151481340'
 draft: false
 ---
 # The Perils of the AI Exponential

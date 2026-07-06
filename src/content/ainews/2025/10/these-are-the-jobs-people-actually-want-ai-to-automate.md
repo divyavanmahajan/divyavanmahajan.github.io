@@ -9,6 +9,7 @@ pubDate: 2025-10-13T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/141149154'
 draft: false
 ---
 # Study Document: These Are the Jobs People Actually Want AI to Automate

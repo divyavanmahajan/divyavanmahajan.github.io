@@ -9,6 +9,7 @@ pubDate: 2025-09-18T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/139148376'
 draft: false
 ---
 # How People Actually Use ChatGPT — Study Document

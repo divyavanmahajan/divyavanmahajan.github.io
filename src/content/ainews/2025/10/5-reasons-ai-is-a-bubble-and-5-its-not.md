@@ -9,6 +9,7 @@ pubDate: 2025-10-08T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140778116'
 draft: false
 ---
 # Is AI a Bubble? — Five Reasons It Is and Five It's Not

@@ -9,6 +9,7 @@ pubDate: 2025-11-14T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/143537400'
 draft: false
 ---
 # GPT-5.1: Six Things It Does Better Than GPT-5

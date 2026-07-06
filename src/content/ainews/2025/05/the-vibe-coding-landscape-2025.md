@@ -9,6 +9,7 @@ pubDate: 2025-05-18T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/129255676'
 draft: false
 ---
 # The Vibe Coding Landscape: May 2025

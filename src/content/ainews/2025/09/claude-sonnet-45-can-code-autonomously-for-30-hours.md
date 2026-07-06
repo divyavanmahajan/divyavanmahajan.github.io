@@ -9,6 +9,7 @@ pubDate: 2025-09-30T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140128138'
 draft: false
 ---
 # Claude Sonnet 4.5: 30-Hour Autonomous Coding and the Expanding Autonomy Frontier

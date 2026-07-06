@@ -9,6 +9,7 @@ pubDate: 2025-05-13T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/128808203'
 draft: false
 ---
 # AI Competition Shifts from Model to App Layer

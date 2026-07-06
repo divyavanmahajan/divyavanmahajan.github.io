@@ -9,6 +9,7 @@ pubDate: 2025-10-10T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140932129'
 draft: false
 ---
 # Why the Future of AI Has a Body

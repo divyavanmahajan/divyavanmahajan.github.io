@@ -9,6 +9,7 @@ pubDate: 2026-05-25T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/159217972'
 draft: false
 ---
 # The 4 AI Team Members Execs Should Hire Right Now

@@ -9,6 +9,7 @@ pubDate: 2026-02-16T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/150945162'
 draft: false
 ---
 # OpenClaw Goes to OpenAI — Study Document

@@ -9,6 +9,7 @@ pubDate: 2025-06-10T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/131175088'
 draft: false
 ---
 # Study Document: Apple's WWDC Non-Event and the "Illusion of Thinking" Paper

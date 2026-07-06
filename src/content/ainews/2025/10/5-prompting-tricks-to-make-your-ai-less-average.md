@@ -9,6 +9,7 @@ pubDate: 2025-10-19T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/141566151'
 draft: false
 ---
 # 5 Prompting Tricks to Make Your AI Less Average

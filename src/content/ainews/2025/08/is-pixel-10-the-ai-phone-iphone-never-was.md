@@ -9,6 +9,7 @@ pubDate: 2025-08-21T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/137051670'
 draft: false
 ---
 # Study Document: Is Pixel 10 the AI Phone iPhone Never Was?

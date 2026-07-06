@@ -9,6 +9,7 @@ pubDate: 2026-05-11T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=NNxGQw1uQHc'
 draft: false
 ---
 # The Best Way to Talk to Your AI Agents

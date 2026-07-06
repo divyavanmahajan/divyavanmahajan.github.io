@@ -9,6 +9,7 @@ pubDate: 2026-03-14T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/153051436'
 draft: false
 ---
 # The Coolest Agents I've Built So Far (Agent Madness Tournament)

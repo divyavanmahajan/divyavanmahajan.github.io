@@ -9,6 +9,7 @@ pubDate: 2025-08-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/137220520'
 draft: false
 ---
 # The Problem of AI That Seems Alive

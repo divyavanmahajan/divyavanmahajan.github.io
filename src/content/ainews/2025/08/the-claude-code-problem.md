@@ -9,6 +9,7 @@ pubDate: 2025-08-16T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/136591346'
 draft: false
 ---
 # The Claude Code Problem: AI Coding Business Models Under Pressure

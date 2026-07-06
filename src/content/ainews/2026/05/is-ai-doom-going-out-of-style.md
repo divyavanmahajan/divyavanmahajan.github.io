@@ -9,6 +9,7 @@ pubDate: 2026-05-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=Bn43KmcMMB8'
 draft: false
 ---
 # Is AI Doom Going Out of Style?

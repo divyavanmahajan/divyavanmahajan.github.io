@@ -9,6 +9,7 @@ pubDate: 2025-11-12T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/143453809'
 draft: false
 ---
 # Are World Models AI's Next Big Frontier?

@@ -9,6 +9,7 @@ pubDate: 2026-05-29T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/159595955'
 draft: false
 ---
 # Claude Opus 4.8: First Impressions & AI Industry Roundup

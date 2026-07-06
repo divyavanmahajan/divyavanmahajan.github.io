@@ -9,6 +9,7 @@ pubDate: 2026-01-26T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/149093267'
 draft: false
 ---
 # How Pros Are Vibe Coding in 2026: Ralph Wiggum, ClawdBot, and Mac Minis

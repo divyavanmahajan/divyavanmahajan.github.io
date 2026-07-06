@@ -9,6 +9,7 @@ pubDate: 2026-01-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/147498112'
 draft: false
 ---
 # Context Graphs: AI's Next Big Idea

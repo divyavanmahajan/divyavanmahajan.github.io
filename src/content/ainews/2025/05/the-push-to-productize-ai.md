@@ -9,6 +9,7 @@ pubDate: 2025-05-22T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/129572687'
 draft: false
 ---
 # Google I/O 2025: The Push to Productize AI

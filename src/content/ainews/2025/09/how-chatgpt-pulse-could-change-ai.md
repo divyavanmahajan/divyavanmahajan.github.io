@@ -9,6 +9,7 @@ pubDate: 2025-09-27T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/139856486'
 draft: false
 ---
 # ChatGPT Pulse and the Rise of Background Agents

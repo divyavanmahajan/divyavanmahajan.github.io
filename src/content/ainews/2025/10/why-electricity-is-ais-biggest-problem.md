@@ -9,6 +9,7 @@ pubDate: 2025-10-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/141921789'
 draft: false
 ---
 # Why Electricity Is AI's Biggest Problem

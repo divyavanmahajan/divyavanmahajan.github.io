@@ -9,6 +9,7 @@ pubDate: 2025-09-17T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/139069100'
 draft: false
 ---
 # GPT-5 Codex and the Year of Agentic Coding

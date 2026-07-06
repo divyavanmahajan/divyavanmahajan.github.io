@@ -9,6 +9,7 @@ pubDate: 2025-09-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/139602200'
 draft: false
 ---
 # Study Document: NVIDIA and OpenAI's $100B Deal — AI Daily Brief (2025-09-24)

@@ -9,6 +9,7 @@ pubDate: 2026-04-27T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=qkKEV9rkFqI'
 draft: false
 ---
 # How DeepSeek V4 Connects to the U.S. Power Grid

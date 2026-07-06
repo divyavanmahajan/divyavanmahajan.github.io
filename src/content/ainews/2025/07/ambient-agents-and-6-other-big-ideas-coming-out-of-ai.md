@@ -9,6 +9,7 @@ pubDate: 2025-07-27T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/135070218'
 draft: false
 ---
 # Ambient Agents and 6 Other Big Ideas Coming Out of AI

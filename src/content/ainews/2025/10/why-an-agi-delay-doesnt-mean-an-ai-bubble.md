@@ -9,6 +9,7 @@ pubDate: 2025-10-21T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/141689264'
 draft: false
 ---
 # Why an AGI Delay Doesn't Mean an AI Bubble

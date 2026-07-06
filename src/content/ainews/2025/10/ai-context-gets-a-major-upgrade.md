@@ -9,6 +9,7 @@ pubDate: 2025-10-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=rNDaRO68JEc'
 draft: false
 ---
 # AI Context Gets a Major Upgrade — AI Daily Brief Study Document

@@ -9,6 +9,7 @@ pubDate: 2025-10-07T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140700699'
 draft: false
 ---
 # Study Document: Why OpenAI's AMD Deal Could Be Bigger News Than Dev Day

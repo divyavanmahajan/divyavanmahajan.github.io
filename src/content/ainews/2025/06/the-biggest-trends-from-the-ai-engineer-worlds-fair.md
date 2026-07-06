@@ -9,6 +9,7 @@ pubDate: 2025-06-07T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/130901921'
 draft: false
 ---
 # 2025-06-07: The Biggest Trends from the AI Engineer World's Fair

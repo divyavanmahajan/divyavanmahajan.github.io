@@ -9,6 +9,7 @@ pubDate: 2025-04-09T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/126244141'
 draft: false
 ---
 # Shopify's AI Memo and the Future of AI at Work

@@ -9,6 +9,7 @@ pubDate: 2025-11-26T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/144420826'
 draft: false
 ---
 # Why Opus 4.5 Changes Vibe Coding

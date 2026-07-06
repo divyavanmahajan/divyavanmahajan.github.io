@@ -9,6 +9,7 @@ pubDate: 2026-05-15T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/158361323'
 draft: false
 ---
 # Google's Big AI Test Comes Next Week — AI Daily Brief Study Document

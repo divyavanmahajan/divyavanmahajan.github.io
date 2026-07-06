@@ -9,6 +9,7 @@ pubDate: 2026-03-12T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/152895278'
 draft: false
 ---
 # What Vibe Coding Is Turning Into

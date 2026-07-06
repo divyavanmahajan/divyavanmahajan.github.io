@@ -9,6 +9,7 @@ pubDate: 2026-04-02T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=fs_Y3gvj7lk'
 draft: false
 ---
 # Agent Skills Masterclass – Study Document

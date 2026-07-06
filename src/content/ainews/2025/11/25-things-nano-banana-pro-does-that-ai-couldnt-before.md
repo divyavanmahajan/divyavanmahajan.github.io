@@ -9,6 +9,7 @@ pubDate: 2025-11-22T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/144122039'
 draft: false
 ---
 # NanoBanana Pro: 25 Things You Can Do That Weren't Possible Before

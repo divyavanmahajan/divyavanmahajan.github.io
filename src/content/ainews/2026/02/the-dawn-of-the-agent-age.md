@@ -9,6 +9,7 @@ pubDate: 2026-02-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/149966348'
 draft: false
 ---
 # The Dawn of the Agent Era — Study Document

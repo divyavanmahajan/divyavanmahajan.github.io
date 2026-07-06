@@ -9,6 +9,7 @@ pubDate: 2025-08-29T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/137637944'
 draft: false
 ---
 # Study Document: The Most-Used GenAI Tools — AI Daily Brief (2025-08-29)

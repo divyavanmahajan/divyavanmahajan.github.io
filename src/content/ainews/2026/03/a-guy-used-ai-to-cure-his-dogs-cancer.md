@@ -9,6 +9,7 @@ pubDate: 2026-03-16T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/153206011'
 draft: false
 ---
 # AI's Second Moment: Discourse, Dog Cancer, and the State of AI in 2026

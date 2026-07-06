@@ -9,6 +9,7 @@ pubDate: 2025-06-15T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/131538973'
 draft: false
 ---
 # The Gentle Singularity: Sam Altman's Vision of AI's Near Future

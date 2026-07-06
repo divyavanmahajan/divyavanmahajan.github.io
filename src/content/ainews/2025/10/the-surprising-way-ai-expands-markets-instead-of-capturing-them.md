@@ -9,6 +9,7 @@ pubDate: 2025-10-27T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/142201717'
 draft: false
 ---
 # AI Expands Markets Instead of Capturing Them: Suno, AI Music, and the Future of Creative Tools

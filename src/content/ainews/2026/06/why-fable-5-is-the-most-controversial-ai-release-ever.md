@@ -9,6 +9,7 @@ pubDate: 2026-06-11T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=LNXDoKPe06I'
 draft: false
 ---
 # Why Fable 5 Is the Most Controversial AI Release Ever

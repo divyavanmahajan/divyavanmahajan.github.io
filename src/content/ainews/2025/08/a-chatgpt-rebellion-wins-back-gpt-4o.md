@@ -9,6 +9,7 @@ pubDate: 2025-08-12T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/136276226'
 draft: false
 ---
 # Study Document: The GPT-5 Rollout Rebellion and What It Reveals About AI Integration

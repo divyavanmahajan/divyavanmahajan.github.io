@@ -9,6 +9,7 @@ pubDate: 2025-11-21T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/144052781'
 draft: false
 ---
 # Study Document: A Huge Week for AI Models Gets Even Bigger

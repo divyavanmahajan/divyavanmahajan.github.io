@@ -9,6 +9,7 @@ pubDate: 2025-12-15T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/145937361'
 draft: false
 ---
 # Study Document: Will This OpenAI Update Make AI Agents Work Better?

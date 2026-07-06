@@ -9,6 +9,7 @@ pubDate: 2025-07-09T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/133707816'
 draft: false
 ---
 # The 7 Types of AI Agents

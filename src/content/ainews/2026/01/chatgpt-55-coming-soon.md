@@ -9,6 +9,7 @@ pubDate: 2026-01-15T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/148245942'
 draft: false
 ---
 # Study Document: AI Daily Brief – ChatGPT 5.5 Coming Soon (2026-01-15)

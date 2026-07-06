@@ -9,6 +9,7 @@ pubDate: 2025-12-24T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/146539092'
 draft: false
 ---
 # How AI Starts Doing the Work in 2026 — With Anthropic CPO Mike Krieger

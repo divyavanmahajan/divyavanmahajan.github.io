@@ -9,6 +9,7 @@ pubDate: 2025-07-06T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=LZeMZgJszKU'
 draft: false
 ---
 # State of AI Mid-2025

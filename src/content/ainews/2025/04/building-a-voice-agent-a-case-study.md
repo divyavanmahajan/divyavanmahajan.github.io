@@ -9,6 +9,7 @@ pubDate: 2025-04-19T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/126995011'
 draft: false
 ---
 # Building a Voice Agent: A Case Study

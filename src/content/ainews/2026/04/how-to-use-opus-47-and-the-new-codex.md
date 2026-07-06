@@ -9,6 +9,7 @@ pubDate: 2026-04-17T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.youtube.com/watch?v=5LdCJHnGwNo'
 draft: false
 ---
 # How to Use Opus 4.7 and the New Codex
