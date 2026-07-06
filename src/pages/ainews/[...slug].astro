@@ -14,6 +14,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 const isSynthesis = entry.data.type === "synthesis";
+const isAnnualSynthesis = entry.data.type === "annual-synthesis";
 const isEpisode = entry.data.type === "episode";
 ---
 
@@ -26,7 +27,7 @@ const isEpisode = entry.data.type === "episode";
         <nav class="breadcrumb">
             <a href={`${import.meta.env.BASE_URL}ainews/`}>AI Brief</a>
             <span class="breadcrumb-sep">›</span>
-            <span>{isSynthesis ? "Monthly Synthesis" : "Episode"}</span>
+            <span>{isSynthesis ? "Monthly Synthesis" : isAnnualSynthesis ? "Annual Synthesis" : "Episode"}</span>
         </nav>
 
         <header class="ainews-post-header">
@@ -34,6 +35,13 @@ const isEpisode = entry.data.type === "episode";
                 isSynthesis && (
                     <span class="type-badge synthesis-badge">
                         Monthly Synthesis
+                    </span>
+                )
+            }
+            {
+                isAnnualSynthesis && (
+                    <span class="type-badge annual-badge">
+                        Annual Synthesis
                     </span>
                 )
             }
@@ -137,6 +145,11 @@ const isEpisode = entry.data.type === "episode";
 
     .synthesis-badge {
         background: var(--color-primary);
+        color: #fff;
+    }
+
+    .annual-badge {
+        background: var(--color-secondary);
         color: #fff;
     }
 

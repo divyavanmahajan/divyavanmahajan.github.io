@@ -25,6 +25,9 @@ const sortedMonthKeys = Array.from(episodesByMonth.keys()).sort((a, b) =>
     b.localeCompare(a),
 );
 
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const episodeYears = [...new Set(sortedMonthKeys.map((k) => parseInt(k.split("-")[0])))].sort((a, b) => b - a);
+
 function formatDate(date: Date): string {
     return date.toLocaleDateString("en-us", {
         year: "numeric",
@@ -49,49 +52,41 @@ function formatMonthHeading(key: string): string {
         <header class="ainews-header">
             <h1>AI Brief</h1>
             <p class="ainews-intro">
-                Monthly syntheses and episode notes from the AI Daily Brief
-                podcast.
+                Episode notes from the AI Daily Brief podcast. &middot;
+                <a href={`${import.meta.env.BASE_URL}ainews/periodic/`} class="periodic-link">Monthly &amp; annual summaries &rarr;</a>
             </p>
         </header>
 
-        {
-            syntheses.length > 0 && (
-                <section class="syntheses-section">
-                    <h2 class="section-heading">Monthly Syntheses</h2>
-                    <div class="syntheses-grid">
-                        {syntheses.map((entry) => (
-                            <article class="synthesis-card">
-                                <a
-                                    href={`${import.meta.env.BASE_URL}ainews/${entry.slug}/`}
-                                    class="synthesis-title"
-                                >
-                                    {entry.data.title}
-                                </a>
-                                <div class="synthesis-meta">
-                                    <time
-                                        datetime={entry.data.pubDate.toISOString()}
-                                    >
-                                        {formatDate(entry.data.pubDate)}
-                                    </time>
-                                    {entry.data.description && (
-                                        <span class="synthesis-desc">
-                                            {entry.data.description}
-                                        </span>
-                                    )}
-                                </div>
-                            </article>
-                        ))}
-                    </div>
-                </section>
-            )
-        }
+        <!-- Calendar grid -->
+        {episodeYears.length > 0 && (
+            <div class="calendar-wrapper">
+                <div class="calendar-grid">
+                    <div class="cal-corner"></div>
+                    {MONTHS.map((m) => <div class="cal-month-header">{m}</div>)}
+                    {episodeYears.map((year) => (
+                        <>
+                            <div class="cal-year-label">{year}</div>
+                            {MONTHS.map((_, i) => {
+                                const key = `${year}-${String(i + 1).padStart(2, "0")}`;
+                                return episodesByMonth.has(key) ? (
+                                    <div class="cal-cell">
+                                        <a href={`#month-${key}`} class="cal-btn">{MONTHS[i]}</a>
+                                    </div>
+                                ) : (
+                                    <div class="cal-cell"><span class="cal-dot">&middot;</span></div>
+                                );
+                            })}
+                        </>
+                    ))}
+                </div>
+            </div>
+        )}
 
         {
             episodes.length > 0 && (
                 <section class="episodes-section">
-                    <h2 class="section-heading">Episodes</h2>
                     {sortedMonthKeys.map((key) => (
-                        <div class="episode-month-group">
+                        <div class="episode-month-group" id={`month-${key}`}>
                             <h3 class="month-heading">
                                 {formatMonthHeading(key)}
                             </h3>
@@ -148,6 +143,86 @@ function formatMonthHeading(key: string): string {
         color: var(--color-text-light);
         font-size: 0.95rem;
         margin: 0;
+    }
+
+    .periodic-link {
+        color: var(--color-primary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .periodic-link:hover {
+        text-decoration: underline;
+    }
+
+    /* Calendar */
+    .calendar-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 2rem;
+    }
+
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: 3rem repeat(12, minmax(2.8rem, 1fr));
+        gap: 3px;
+        min-width: 480px;
+    }
+
+    .cal-corner { /* empty top-left */ }
+
+    .cal-month-header {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--color-text-light);
+        text-align: center;
+        padding: 0.2rem 0;
+    }
+
+    .cal-year-label {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--color-text-light);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 0.5rem;
+    }
+
+    .cal-cell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cal-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.2rem 0.1rem;
+        font-size: 0.65rem;
+        font-weight: 600;
+        background: #eeeae3;
+        color: #8a7355;
+        border: 1px solid #c4a97d;
+        border-radius: 4px;
+        text-decoration: none;
+        line-height: 1.4;
+        transition: background 0.15s, color 0.15s;
+    }
+
+    .cal-btn:hover {
+        background: #ddd7ce;
+        color: #6b5a3e;
+        text-decoration: none;
+    }
+
+    .cal-dot {
+        font-size: 1rem;
+        color: #ccc5b8;
+        line-height: 1;
     }
 
     /* Section headings */

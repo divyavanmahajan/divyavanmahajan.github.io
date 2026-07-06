@@ -1,0 +1,506 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const allEntries = (await getCollection("ainews")).filter((e) => !e.data.draft);
+const syntheses = allEntries
+    .filter((e) => e.data.type === "synthesis")
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const annualSyntheses = allEntries
+    .filter((e) => e.data.type === "annual-synthesis")
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const episodes = allEntries.filter((e) => e.data.type === "episode");
+
+const MONTHS = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+const MONTHS_LONG = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+];
+
+// Extract "YYYY-MM" from filename slug (e.g. "briefing/2026-06-ai-synthesis" -> "2026-06")
+function slugToYearMonth(slug: string): string | null {
+    const filename = slug.split("/").pop()!;
+    const m = filename.match(/^(\d{4})-(\d{2})-/);
+    return m ? `${m[1]}-${m[2]}` : null;
+}
+
+// Extract year from filename slug (e.g. "briefing/2026-ai-synthesis" -> 2026)
+function slugToYear(slug: string): number | null {
+    const filename = slug.split("/").pop()!;
+    const m = filename.match(/^(\d{4})/);
+    return m ? parseInt(m[1]) : null;
+}
+
+// Calendar: map "YYYY-MM" -> synthesis entry (keyed by filename)
+const synthesisMap = new Map();
+syntheses.forEach((s) => {
+    const key = slugToYearMonth(s.slug);
+    if (key && !synthesisMap.has(key)) synthesisMap.set(key, s);
+});
+
+// Determine years from filenames
+const synthesisYears = syntheses
+    .map((s) => { const ym = slugToYearMonth(s.slug); return ym ? parseInt(ym.split("-")[0]) : null; })
+    .filter((y): y is number => y !== null);
+const annualYears = annualSyntheses
+    .map((s) => slugToYear(s.slug))
+    .filter((y): y is number => y !== null);
+const allYears = [...new Set([...synthesisYears, ...annualYears])].sort(
+    (a, b) => b - a,
+);
+const yearMin = Math.min(...allYears);
+const yearMax = Math.max(...allYears);
+const totalBriefings = episodes.length + syntheses.length;
+
+// Annual synth by year (from filename)
+const annualByYear = new Map();
+annualSyntheses.forEach((s) => {
+    const year = slugToYear(s.slug);
+    if (year !== null) annualByYear.set(year, s);
+});
+
+// Monthly synths by year (from filename)
+const synthesesByYear = new Map();
+syntheses.forEach((s) => {
+    const ym = slugToYearMonth(s.slug);
+    if (!ym) return;
+    const year = parseInt(ym.split("-")[0]);
+    if (!synthesesByYear.has(year)) synthesesByYear.set(year, []);
+    synthesesByYear.get(year).push(s);
+});
+const sortedSynthesisYears = [...synthesesByYear.keys()].sort(
+    (a, b) => b - a,
+);
+
+function formatMonthYear(slug: string): string {
+    const ym = slugToYearMonth(slug);
+    if (!ym) return slug;
+    const [year, month] = ym.split("-");
+    return `${MONTHS_LONG[parseInt(month) - 1]} ${year}`;
+}
+
+function monthKeyFromSlug(slug: string): string {
+    return slugToYearMonth(slug) ?? "";
+}
+---
+
+<BaseLayout
+    title="AI Brief — Periodic"
+    description="Annual and monthly AI briefing syntheses"
+    withSidebar={false}
+>
+    <div class="periodic-page">
+
+        <!-- Header section -->
+        <header class="page-header">
+            <h1 class="page-title">AI Brief</h1>
+            <p class="page-subtitle">
+                {totalBriefings} briefings &middot; {yearMin}–{yearMax} &nbsp;&nbsp;
+                <a href="#monthly" class="subtitle-link">Monthly briefings &rarr;</a>
+                &nbsp;&middot;&nbsp;
+                <a href={`${import.meta.env.BASE_URL}ainews/`} class="subtitle-link">Daily briefings &rarr;</a>
+            </p>
+            <hr class="header-rule" />
+
+            <!-- Calendar grid -->
+            <div class="calendar-wrapper">
+                <div class="calendar-grid">
+                    <!-- Header row: months -->
+                    <div class="cal-year-label cal-header-cell"></div>
+                    {MONTHS.map((m) => (
+                        <div class="cal-month-header">{m}</div>
+                    ))}
+
+                    <!-- Data rows: one per year descending -->
+                    {allYears.map((year) => (
+                        <>
+                            <div class="cal-year-label">{year}</div>
+                            {MONTHS.map((_, monthIdx) => {
+                                const key = `${year}-${String(monthIdx + 1).padStart(2, "0")}`;
+                                const entry = synthesisMap.get(key);
+                                return entry ? (
+                                    <div class="cal-cell">
+                                        <a
+                                            href={`#monthly-${key}`}
+                                            class="cal-btn"
+                                            title={`${MONTHS[monthIdx]} ${year} synthesis`}
+                                        >
+                                            {MONTHS[monthIdx]}
+                                        </a>
+                                    </div>
+                                ) : (
+                                    <div class="cal-cell cal-empty">
+                                        <span class="cal-dot">&middot;</span>
+                                    </div>
+                                );
+                            })}
+                        </>
+                    ))}
+                </div>
+            </div>
+        </header>
+
+        <!-- Annual Briefings section -->
+        {annualSyntheses.length > 0 && (
+            <section class="annual-section">
+                <h2 class="section-label">Annual Briefings</h2>
+                <hr class="section-rule" />
+                <div class="annual-grid">
+                    {[...annualByYear.entries()]
+                        .sort((a, b) => b[0] - a[0])
+                        .map(([year, entry]) => (
+                            <div class="annual-card">
+                                <div class="annual-card-top">
+                                    <span class="annual-year">{year}</span>
+                                    <a
+                                        href={`${import.meta.env.BASE_URL}ainews/${entry.slug}/`}
+                                        class="btn-synthesis"
+                                    >
+                                        Synthesis
+                                    </a>
+                                </div>
+                                {entry.data.description && (
+                                    <p class="annual-desc">{entry.data.description}</p>
+                                )}
+                            </div>
+                        ))}
+                </div>
+            </section>
+        )}
+
+        <!-- Monthly section -->
+        {syntheses.length > 0 && (
+            <section class="monthly-section" id="monthly">
+                {sortedSynthesisYears.map((year) => {
+                    const yearSyntheses = (synthesesByYear.get(year) as typeof syntheses).sort(
+                        (a, b) => (monthKeyFromSlug(b.slug) > monthKeyFromSlug(a.slug) ? 1 : -1),
+                    );
+                    return (
+                        <div class="monthly-year-group">
+                            <h2 class="monthly-year-heading">
+                                {year} <span class="year-label-sub">— MONTHLY</span>
+                            </h2>
+                            <hr class="section-rule" />
+                            {yearSyntheses.map((entry, idx) => {
+                                const monthKey = monthKeyFromSlug(entry.slug);
+                                return (
+                                    <>
+                                        <div
+                                            class="monthly-entry"
+                                            id={`monthly-${monthKey}`}
+                                        >
+                                            <div class="monthly-entry-top">
+                                                <span class="monthly-month-name">
+                                                    {formatMonthYear(entry.slug)}
+                                                </span>
+                                                <a
+                                                    href={`${import.meta.env.BASE_URL}ainews/${entry.slug}/`}
+                                                    class="btn-synthesis"
+                                                >
+                                                    Synthesis
+                                                </a>
+                                            </div>
+                                            {entry.data.description && (
+                                                <p class="monthly-desc">
+                                                    {entry.data.description}
+                                                </p>
+                                            )}
+                                        </div>
+                                        {idx < yearSyntheses.length - 1 && (
+                                            <hr class="entry-rule" />
+                                        )}
+                                    </>
+                                );
+                            })}
+                        </div>
+                    );
+                })}
+            </section>
+        )}
+
+    </div>
+</BaseLayout>
+
+<style>
+    .periodic-page {
+        max-width: 900px;
+    }
+
+    /* ── Header ── */
+    .page-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .page-title {
+        font-family: var(--font-title);
+        font-size: 2rem;
+        margin: 0 0 0.4rem;
+        line-height: 1.2;
+    }
+
+    .page-subtitle {
+        font-size: 0.9rem;
+        color: var(--color-text-light);
+        margin: 0 0 1.25rem;
+    }
+
+    .subtitle-link {
+        color: #4a6fa5;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .subtitle-link:hover {
+        text-decoration: underline;
+    }
+
+    .header-rule {
+        border: none;
+        border-top: 2px solid var(--color-border);
+        margin: 0 0 1.5rem;
+    }
+
+    /* ── Calendar ── */
+    .calendar-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: 3rem repeat(12, minmax(2.8rem, 1fr));
+        gap: 3px;
+        min-width: 480px;
+    }
+
+    .cal-header-cell {
+        /* empty top-left corner */
+    }
+
+    .cal-month-header {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--color-text-light);
+        text-align: center;
+        padding: 0.2rem 0;
+    }
+
+    .cal-year-label {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--color-text-light);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 0.5rem;
+    }
+
+    .cal-cell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cal-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.2rem 0.1rem;
+        font-size: 0.65rem;
+        font-weight: 600;
+        background: #eeeae3;
+        color: #8a7355;
+        border: 1px solid #c4a97d;
+        border-radius: 4px;
+        text-decoration: none;
+        line-height: 1.4;
+        transition: background 0.15s, color 0.15s;
+    }
+
+    .cal-btn:hover {
+        background: #ddd7ce;
+        color: #6b5a3e;
+        text-decoration: none;
+    }
+
+    .cal-empty {
+        /* empty cells */
+    }
+
+    .cal-dot {
+        font-size: 1rem;
+        color: #ccc5b8;
+        line-height: 1;
+    }
+
+    /* ── Section shared ── */
+    .section-label {
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--color-text-light);
+        margin: 0 0 0.6rem;
+        font-variant: small-caps;
+    }
+
+    .section-rule {
+        border: none;
+        border-top: 1px solid var(--color-border);
+        margin: 0 0 1.25rem;
+    }
+
+    /* ── Synthesis button ── */
+    .btn-synthesis {
+        display: inline-block;
+        padding: 0.25rem 0.7rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        background: #e8eef8;
+        color: #4a6fa5;
+        border: 1px solid #f0c040;
+        border-radius: 4px;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: background 0.15s, color 0.15s;
+        flex-shrink: 0;
+    }
+
+    .btn-synthesis:hover {
+        background: #d4e0f5;
+        color: #2d4f8a;
+        text-decoration: none;
+    }
+
+    /* ── Annual section ── */
+    .annual-section {
+        margin-bottom: 3rem;
+    }
+
+    .annual-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .annual-card {
+        background: #eeeae3;
+        border-radius: 6px;
+        padding: 1rem 1.1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .annual-card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem;
+    }
+
+    .annual-year {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--color-text);
+        line-height: 1;
+    }
+
+    .annual-desc {
+        font-size: 0.85rem;
+        color: var(--color-text-light);
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    /* ── Monthly section ── */
+    .monthly-section {
+        margin-bottom: 2rem;
+    }
+
+    .monthly-year-group {
+        margin-bottom: 2.5rem;
+    }
+
+    .monthly-year-heading {
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--color-text);
+        margin: 0 0 0.6rem;
+    }
+
+    .year-label-sub {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--color-text-light);
+        letter-spacing: 0.1em;
+    }
+
+    .monthly-entry {
+        padding: 0.85rem 0;
+    }
+
+    .monthly-entry-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .monthly-month-name {
+        font-weight: 700;
+        font-size: 0.95rem;
+        color: var(--color-text);
+    }
+
+    .monthly-desc {
+        font-size: 0.85rem;
+        color: var(--color-text-light);
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    .entry-rule {
+        border: none;
+        border-top: 1px solid var(--color-border);
+        margin: 0;
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 640px) {
+        .page-title {
+            font-size: 1.5rem;
+        }
+
+        .annual-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .annual-year {
+            font-size: 1.3rem;
+        }
+
+        .monthly-entry-top {
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .calendar-grid {
+            grid-template-columns: 2.5rem repeat(12, minmax(2.2rem, 1fr));
+        }
+
+        .cal-btn {
+            font-size: 0.6rem;
+            padding: 0.15rem 0;
+        }
+    }
+</style>
