@@ -1,5 +1,8 @@
 ---
 title: AI Briefing Synthesis — 2025-09
+description: >-
+  Agent deployments quadruple; superhuman coding achieved; work slop problem
+  emerges; Accenture 11K layoffs as warning signal; AI skepticism declared over
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

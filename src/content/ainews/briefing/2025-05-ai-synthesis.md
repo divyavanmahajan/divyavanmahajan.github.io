@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-05
+description: >-
+  Experimentation era formally ends; open agentic web infrastructure confirmed;
+  Claude 4 task coherence; 57% of workers hiding AI use; AI as foreign policy
+  instrument
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

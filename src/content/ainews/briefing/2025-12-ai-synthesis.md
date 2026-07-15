@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-12
+description: >-
+  Compounding divergence becomes structural; process redesign (not tool
+  deployment) is the differentiator; MCP/Skills infrastructure standardises; 50
+  predictions for 2026
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

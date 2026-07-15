@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-08
+description: >-
+  AI reaches 1B+ users and $400B CapEx; GPT-5 router backlash; three major model
+  releases in one day; negative gross margins in vibe-coding sector; worker
+  trust deficit deepens
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

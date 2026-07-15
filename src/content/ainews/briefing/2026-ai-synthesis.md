@@ -1,5 +1,8 @@
 ---
 title: AI Briefing Synthesis — 2026 (Jan–May)
+description: >-
+  Economics reset; harness over model; leader/laggard gap structural; recursive
+  self-improvement begins; 125 source briefings
 pubDate: 2026-05-27T00:00:00.000Z
 type: annual-synthesis
 tags:

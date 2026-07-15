@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-06
+description: >-
+  Agent deployments triple; Software 3.0 paradigm emerges; O3 cost collapse;
+  evals as competitive moat; one-person unicorn thesis validated at AI Engineer
+  Worlds Fair
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

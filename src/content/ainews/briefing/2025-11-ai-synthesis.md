@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-11
+description: >-
+  Gemini 3 and Opus 4.5 reset competitive dynamics; 62% of enterprises still
+  stuck in pilots; autonomous coding enables domain experts to build; use case
+  portfolio balance matters more than individual tools
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

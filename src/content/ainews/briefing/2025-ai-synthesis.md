@@ -1,5 +1,8 @@
 ---
 title: AI Briefing Synthesis — 2025
+description: >-
+  Experimentation → deployment → infrastructure divergence; agent deployments
+  4x; compounding advantage emerges; 226 source briefings
 pubDate: 2026-05-27T00:00:00.000Z
 type: annual-synthesis
 tags:

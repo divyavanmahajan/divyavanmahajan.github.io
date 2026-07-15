@@ -1,5 +1,8 @@
 ---
 title: AI Briefing Synthesis — 2026-03
+description: >-
+  AI 'wakes up' — agents go from experiment to deployment; AI becomes explicitly
+  political; convergence of AI products; Q2 state of the industry
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

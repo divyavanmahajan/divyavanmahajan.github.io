@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — June 2026
+description: >-
+  Fable 5 crisis; US government kill switch precedent; token efficiency as
+  competitive moat; bot-sitting explains org/individual productivity gap; CEO
+  ownership = 3x ROI
 pubDate: 2026-07-06T00:00:00.000Z
 type: synthesis
 tags:

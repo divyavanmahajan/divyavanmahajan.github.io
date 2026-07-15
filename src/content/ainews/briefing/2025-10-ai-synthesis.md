@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-10
+description: >-
+  Data fragmentation confirmed as #1 agent deployment blocker; worker enthusiasm
+  high but organisations failing to harness it; ROI now measurable in specific
+  sectors; intentional opportunism as strategy framework
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

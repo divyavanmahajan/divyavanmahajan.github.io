@@ -1,5 +1,8 @@
 ---
 title: AI Briefing Synthesis — 2026-02
+description: >-
+  SaaSpocalypse for legacy software; Claude Code moment (iPhone analogy);
+  productivity J-curve finally shows up in data; anti-AI movement emerges
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

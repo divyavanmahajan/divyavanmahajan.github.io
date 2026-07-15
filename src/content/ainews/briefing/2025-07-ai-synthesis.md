@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-07
+description: >-
+  GPT-5 launches; AI wins IMO gold medal; Walmart agent orchestration as
+  enterprise blueprint; Jensen Huang's twin factories thesis; Grok 4 at
+  frontier; vibe coding matures
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

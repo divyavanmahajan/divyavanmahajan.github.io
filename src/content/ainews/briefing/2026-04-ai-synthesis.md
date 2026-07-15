@@ -1,5 +1,8 @@
 ---
 title: AI Briefing Synthesis — April 2026
+description: >-
+  Harness quality overtakes model quality; 93/7 people gap; AI divergence
+  widens; org chart restructuring begins; physical infrastructure limits bite
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

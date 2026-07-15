@@ -1,5 +1,8 @@
 ---
 title: AI Briefing Synthesis — May 2026
+description: >-
+  AI crosses into critical infrastructure; first lab profitable; subsidy era
+  ends; recursive self-improvement approaches threshold
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

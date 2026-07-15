@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2026-01
+description: >-
+  Code AGI as functional milestone; 3x ROI from deep integration proven;
+  capabilities overhang is a now problem; acceleration gap between leaders and
+  laggards
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:

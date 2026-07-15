@@ -1,5 +1,9 @@
 ---
 title: AI Briefing Synthesis — 2025-04
+description: >-
+  Agent capability acceleration quantified; frontier model step-change; Shopify
+  AI mandate as corporate template; $20T professional services disruption
+  thesis; seven organisational failure modes identified
 pubDate: 2026-05-27T00:00:00.000Z
 type: synthesis
 tags:
