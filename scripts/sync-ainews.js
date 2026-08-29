@@ -6,8 +6,8 @@
  * blog's ainews content collection.
  *
  * Source:
- *   /Users/divya/projects/volvo/ai-update/done/*_instructions.md  → episodes
- *   /Users/divya/projects/volvo/ai-update/done/briefing/*-ai-synthesis.md → synthesis
+ *   /Users/divya/projects/volvo/ai-update/notes/*.md  → episodes
+ *   /Users/divya/projects/volvo/ai-update/briefing/*-ai-synthesis.md → synthesis
  *
  * Destination:
  *   src/content/ainews/YYYY/MM/<short-slug>.md  (episodes)
@@ -31,8 +31,9 @@ const matter = require('gray-matter');
 // Paths
 // ---------------------------------------------------------------------------
 const projectRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const SOURCE_DIR = '/Users/divya/projects/volvo/ai-update/done';
-const BRIEFING_SUBDIR = path.join(SOURCE_DIR, 'briefing');
+const AI_UPDATE_ROOT = '/Users/divya/projects/volvo/ai-update';
+const SOURCE_DIR = path.join(AI_UPDATE_ROOT, 'notes');
+const BRIEFING_SUBDIR = path.join(AI_UPDATE_ROOT, 'briefing');
 const DEST_AINEWS_DIR = path.join(projectRoot, 'src', 'content', 'ainews');
 const DEST_BRIEFING_DIR = path.join(DEST_AINEWS_DIR, 'briefing');
 
@@ -105,7 +106,7 @@ function collectFiles(dir, predicate, results = []) {
 }
 
 function discoverEpisodes() {
-  // Only scan the top-level done/ dir (not briefing/ subdir) for _instructions.md
+  // notes/ is flat: one .md per episode, briefing/ is a separate sibling dir
   const results = [];
   if (!fs.existsSync(SOURCE_DIR)) {
     console.error(`Source directory not found: ${SOURCE_DIR}`);
@@ -115,8 +116,8 @@ function discoverEpisodes() {
     if (entry.startsWith('.')) continue;
     const fullPath = path.join(SOURCE_DIR, entry);
     const stat = fs.statSync(fullPath);
-    if (stat.isDirectory()) continue; // skip subdirs (briefing handled separately)
-    if (entry.endsWith('_instructions.md') && !isExcluded(fullPath)) {
+    if (stat.isDirectory()) continue;
+    if (entry.endsWith('.md') && !isExcluded(fullPath)) {
       results.push(fullPath);
     }
   }
@@ -135,8 +136,8 @@ function discoverSynthesis() {
 // Filename → metadata
 // ---------------------------------------------------------------------------
 
-// Episode: YYYY-MM-DD-slug-words_instructions.md
-const EPISODE_FILENAME_RE = /^(\d{4})-(\d{2})-(\d{2})-(.+)_instructions\.md$/;
+// Episode: YYYY-MM-DD-slug-words.md
+const EPISODE_FILENAME_RE = /^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/;
 
 function parseEpisodeFilename(basename) {
   const m = basename.match(EPISODE_FILENAME_RE);
@@ -213,10 +214,11 @@ function transformSynthesisFrontmatter(data, meta) {
 // ---------------------------------------------------------------------------
 
 /**
- * Transform [[../YYYY-MM-DD-slug_instructions]] or [[../YYYY-MM-DD-slug]]
+ * Transform [[notes/YYYY-MM-DD-slug]] (current) or the legacy
+ * [[../YYYY-MM-DD-slug_instructions]] / [[../YYYY-MM-DD-slug]] forms
  * → [short-slug](/ainews/YYYY/MM/short-slug)
  */
-const EPISODE_WIKILINK_RE = /\[\[\.\.\/(\d{4})-(\d{2})-(\d{2})-([\w-]+?)(?:_instructions)?\]\]/g;
+const EPISODE_WIKILINK_RE = /\[\[(?:notes\/|\.\.\/)(\d{4})-(\d{2})-(\d{2})-([\w-]+?)(?:_instructions)?\]\]/g;
 
 /**
  * Transform [[YYYY-MM-type]] briefing links (no ../ prefix)
