@@ -1,5 +1,5 @@
 ---
-title: How To Decide What Work Ai Should Do For You The Ai Deputization Audi
+title: 'How to Decide What Work AI Should Do for You: The AI Deputization Audit'
 description: >-
   This episode of the AI Daily Brief (hosted by Nathaniel Whittemore, though the
   speaker is not explicitly named in the transcript) introduces a practical
@@ -9,6 +9,7 @@ pubDate: 2026-08-14T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/166705342'
 draft: false
 ---
 # How to Decide What Work AI Should Do for You: The AI Deputization Audit

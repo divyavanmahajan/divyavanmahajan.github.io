@@ -1,5 +1,5 @@
 ---
-title: The 7 Biggest Mistakes Companies Are Making With Ai And Agent Adoptio
+title: The 7 Biggest Mistakes Companies Are Making with AI and Agent Adoption
 description: >-
   This talk features a conversation between the host of the AI Daily Brief
   (Nathaniel Whittemore) and Nufar Gaspar, an AI strategy consultant who
@@ -9,6 +9,7 @@ pubDate: 2025-04-16T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/126758741'
 draft: false
 ---
 ## Overview

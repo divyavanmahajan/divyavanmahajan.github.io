@@ -1,5 +1,7 @@
 ---
-title: The Masked Medici How To Build A Faceless Youtube Channel And Compani
+title: >-
+  The Masked Medici: How to Build a Faceless Youtube Channel and Companion 1990s
+  Strategy Game in a Single Afternoon with Google AI
 description: >-
   This talk is a sponsored bonus episode of The AI Daily Brief (Operators
   edition), in which the host — a self-described history enthusiast and former
@@ -9,6 +11,7 @@ pubDate: 2026-04-04T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/154759197'
 draft: false
 ---
 # The Masked Medici: How to Build a Faceless YouTube Channel and Companion Experiences with Google AI Tools

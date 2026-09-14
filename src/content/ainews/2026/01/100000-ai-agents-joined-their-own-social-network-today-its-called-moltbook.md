@@ -1,5 +1,5 @@
 ---
-title: 100000 Ai Agents Joined Their Own Social Network Today Its Called Mol
+title: '100,000 AI Agents Joined Their Own Social Network Today. It''s Called Moltbook.'
 description: >-
   This episode of The AI Daily Brief (published January 31, 2026) covers the
   emergence of Moltbook, a social network created for AI agents to interact with
@@ -9,6 +9,7 @@ pubDate: 2026-01-31T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/149546968'
 draft: false
 ---
 # Moltbook: AI Agents and Their Own Social Network

@@ -1,5 +1,7 @@
 ---
-title: Half Of Employees Still Hiding Ai From Their Bosses And Its Their Bos
+title: >-
+  Half of Employees Still Hiding AI from Their Bosses (And It's Their Bosses
+  Faults)
 description: >-
   This episode of the AI Daily Brief (published May 2, 2025) examines a
   persistent workplace phenomenon: a majority of employees continue to conceal
@@ -9,6 +11,7 @@ pubDate: 2025-05-02T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/127954663'
 draft: false
 ---
 # Half of Employees Still Hiding AI From Their Bosses — And It's Their Bosses' Fault

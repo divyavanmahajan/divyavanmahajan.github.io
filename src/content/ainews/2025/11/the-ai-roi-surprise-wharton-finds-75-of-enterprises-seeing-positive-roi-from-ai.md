@@ -1,5 +1,7 @@
 ---
-title: The Ai Roi Surprise Wharton Finds 75 Of Enterprises Seeing Positive R
+title: >-
+  The AI ROI Surprise: Wharton Finds 75% of Enterprises Seeing Positive ROI from
+  AI
 description: >-
   This episode of the AI Daily Brief (dated November 8, 2025) covers two primary
   topics: (1) a headlines segment reviewing major AI industry and market
@@ -9,6 +11,7 @@ pubDate: 2025-11-08T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/143113984'
 draft: false
 ---
 # Study Document: AI ROI Reality Check — Wharton Finds 75% of Enterprises Seeing Positive Returns

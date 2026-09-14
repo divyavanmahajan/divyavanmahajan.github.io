@@ -1,5 +1,5 @@
 ---
-title: I Tested Chatgpt As My Cofounder For A Week Heres Everything I Learne
+title: I Tested ChatGPT As My Cofounder for a Week - Here's Everything I Learned
 description: >-
   This episode of the AI Daily Brief offers hands-on evaluations of three AI
   products launched in the same week: ChatGPT Pulse, Sora 2 / the Sora app, and
@@ -9,6 +9,7 @@ pubDate: 2025-10-05T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140471474'
 draft: false
 ---
 # Study Document: Testing ChatGPT Pulse, Sora 2, and Imagine from Claude

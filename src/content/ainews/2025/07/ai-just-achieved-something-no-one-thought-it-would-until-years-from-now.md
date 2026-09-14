@@ -1,5 +1,5 @@
 ---
-title: Ai Just Achieved Something No One Thought It Would Until Years From N
+title: AI Just Achieved Something No One Thought it Would Until Years From Now
 description: >-
   This episode of the AI Daily Brief (recorded and published around July 22,
   2025) covers several major AI news stories, with the central focus being
@@ -9,6 +9,7 @@ pubDate: 2025-07-22T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/134658479'
 draft: false
 ---
 ## Overview

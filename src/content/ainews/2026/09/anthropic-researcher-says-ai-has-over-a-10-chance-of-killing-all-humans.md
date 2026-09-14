@@ -1,5 +1,5 @@
 ---
-title: Anthropic Researcher Says Ai Has Over A 10 Chance Of Killing All Huma
+title: Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans
 description: 'Speaker: Host of the AI Daily Brief podcast (unnamed)'
 pubDate: 2026-09-10T00:00:00.000Z
 type: episode

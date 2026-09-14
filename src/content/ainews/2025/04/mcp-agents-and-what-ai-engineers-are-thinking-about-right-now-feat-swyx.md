@@ -1,5 +1,5 @@
 ---
-title: Mcp Agents And What Ai Engineers Are Thinking About Right Now Feat Sw
+title: 'MCP, Agents and What AI Engineers Are Thinking About Right Now feat. Swyx'
 description: >-
   This episode of the AI Daily Brief features a conversation between host
   Nathaniel Whittemore and Swyx (Shawn Wang), co-creator of the Latent Space
@@ -9,6 +9,7 @@ pubDate: 2025-04-17T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/126832848'
 draft: false
 ---
 # Study Document: MCP, Agents, and What AI Engineers Are Thinking About Right Now

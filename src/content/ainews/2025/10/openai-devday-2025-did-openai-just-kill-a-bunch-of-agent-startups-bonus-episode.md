@@ -1,5 +1,7 @@
 ---
-title: Openai Devday 2025 Did Openai Just Kill A Bunch Of Agent Startups Bon
+title: >-
+  OpenAI DevDay 2025: Did OpenAI Just Kill a Bunch of Agent Startups? [Bonus
+  Episode]
 description: >-
   This is a same-day, first-impressions episode recorded while OpenAI Dev Day
   2025 was still ongoing. The host walks through the major announcements — the
@@ -9,6 +11,7 @@ pubDate: 2025-10-06T00:00:00.000Z
 type: episode
 tags:
   - ai-daily-brief-podcast
+url: 'https://www.patreon.com/posts/140621119'
 draft: false
 ---
 # OpenAI Dev Day 2025 — Rapid Reaction: Did OpenAI Just Kill a Bunch of Agent Startups?
