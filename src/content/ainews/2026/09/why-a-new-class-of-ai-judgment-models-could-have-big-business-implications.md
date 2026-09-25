@@ -12,8 +12,6 @@ tags:
 url: 'https://www.patreon.com/posts/169738513'
 draft: false
 ---
-No filesystem access was granted outside the working directory in this session, so here is the document as output rather than a written note.
-
 Two notes on the source: the transcript's `URL` and `Channel` fields were empty, so no video link could be included without fabricating one. The transcript also contains an ASR looping artifact — the Salesforce/Dreamforce paragraph repeats verbatim roughly sixty times in the headlines segment — treated below as a single occurrence.
 
 ---
