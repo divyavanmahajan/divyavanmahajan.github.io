@@ -147,10 +147,9 @@ The speaker argues that the AI debate has shifted from technical and commercial 
 
 ---
 
-Two gaps in the inputs, and one blocked step:
+Two gaps in the inputs:
 
 - **No source URL** was provided, so the Overview cannot link to a video. I did not invent one.
 - **The speaker is never named** in the transcript, nor is an affiliation given beyond the podcast itself.
-- I tried to save this to `ai-update/study-docs/2026-09-21-the-state-of-the-ai-debate.md` but the write was not permitted. Tell me where you'd like it and I'll write it there.
 
 A few names are phonetically garbled in the transcript (Bessent, Suleyman, Palihapitiya, Petersen, Demirors); I used standard spellings and flagged the Bessent variants inline. The transcript states the visit as Sept 23–25 with the meeting "reportedly set for Thursday, September 24" — I reported both as given rather than reconciling the weekday.
