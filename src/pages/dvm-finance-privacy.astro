@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Content, frontmatter } from "../legal/dvm-finance-privacy.md";
+---
+
+<BaseLayout
+    title={frontmatter.title}
+    description="Privacy policy for the DVM Finance app for iPhone and iPad."
+    withSidebar={false}
+>
+    <article class="post-single">
+        <div class="post-content">
+            <Content />
+        </div>
+    </article>
+</BaseLayout>
