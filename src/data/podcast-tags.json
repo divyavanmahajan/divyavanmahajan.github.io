@@ -1,4 +1,11 @@
 {
+ "practical-ai/2025-03-14-optimizing-for-efficiency-with-ibm-s-granite": [],
+ "practical-ai/2025-03-21-ai-assisted-coding-with-github-s-coo": [
+  "ai-coding"
+ ],
+ "practical-ai/2025-04-02-software-and-hardware-acceleration-with-groq": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2025-04-14-orchestrating-agents-apis-and-mcp-servers": [
   "context-engineering"
  ],
@@ -253,6 +260,13 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2025-03-14-building-snipd-the-ai-podcast-app-for-learning": [
+  "consumer-ai"
+ ],
+ "latent-space/2025-03-28-the-agent-network-dharmesh-shah": [
+  "context-engineering"
+ ],
+ "latent-space/2025-03-29-unsupervised-learning-x-latent-space-crossover-special": [],
  "latent-space/2025-04-03-the-creators-of-model-context-protocol": [
   "context-engineering",
   "anthropic"
@@ -743,6 +757,23 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-03-15-agency-over-ai-allan-dafoe-on-technological-determinism-deepmind-s-saf": [
+  "ai-safety",
+  "google"
+ ],
+ "cognitive-revolution/2025-03-19-a16z-on-ai-voices-call-centers-coaches-and-companions-with-olivia-moor": [
+  "consumer-ai"
+ ],
+ "cognitive-revolution/2025-03-23-unlocking-cells-secrets-diffusion-deconvolution-discovery-with-siyu-he": [],
+ "cognitive-revolution/2025-03-27-code-context-is-king-augment-s-ai-assistant-for-professional-software": [
+  "ai-coding"
+ ],
+ "cognitive-revolution/2025-03-29-shortwave-rides-the-tidal-wave-inbox-agents-hyper-growth-hiring-ai-man": [],
+ "cognitive-revolution/2025-04-02-reward-hacking-by-reasoning-models-loss-of-control-scenarios-w-jeffrey": [
+  "models-and-benchmarks",
+  "ai-safety",
+  "anthropic"
  ],
  "cognitive-revolution/2025-04-05-scaling-thinking-gemini-2-5-tech-lead-jack-rae-on-reasoning-long-conte": [
   "training-and-rl",
@@ -1413,6 +1444,9 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2025-03-25-ama-career-advice-given-agi-how-i-research-ft-sholto-trenton": [
+  "anthropic"
+ ],
  "dwarkesh/2025-04-03-ai-2027-month-by-month-model-of-intelligence-explosion-scott-alexander": [
   "ai-safety",
   "ai-coding"
@@ -1582,6 +1616,10 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2025-03-16-narendra-modi-prime-minister-of-india-power-democracy-war-peace": [],
+ "lex-fridman/2025-03-22-theprimeagen-programming-ai-adhd-productivity-addiction-and-god": [],
+ "lex-fridman/2025-03-26-ezra-klein-and-derek-thompson-politics-trump-aoc-elon-doge": [],
+ "lex-fridman/2025-03-30-douglas-murray-putin-zelenskyy-trump-israel-netanyahu-hamas-gaza": [],
  "lex-fridman/2025-04-09-dave-smith-israel-ukraine-epstein-mossad-conspiracies-antisemitism": [],
  "lex-fridman/2025-04-17-robert-rodriguez-sin-city-desperado-el-mariachi-alita-and-filmmaking": [],
  "lex-fridman/2025-04-24-jeffrey-wasserstrom-china-xi-jinping-trade-war-taiwan-hong-kong-mao": [
@@ -1676,6 +1714,15 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-03-20-the-robotics-revolution-with-physical-intelligence-s-cofounder-chelsea": [
+  "physical-ai"
+ ],
+ "no-priors/2025-03-27-conversations-are-the-source-of-truth-in-healthcare-with-abridge-ceo-s": [
+  "ai-for-science"
+ ],
+ "no-priors/2025-04-03-public-markets-image-gen-and-specialized-models-with-sarah-and-elad": [
+  "context-engineering"
+ ],
  "no-priors/2025-04-10-from-job-displacement-to-ai-trainers-brendan-foody-on-work-in-the-ai-a": [
   "jobs-and-work",
   "models-and-benchmarks"
