@@ -1,4 +1,5 @@
 {
+ "practical-ai/2025-04-30-seeing-beyond-the-scan-in-neuroimaging": [],
  "practical-ai/2025-05-08-model-context-protocol-deep-dive": [
   "context-engineering",
   "open-weight-models"
@@ -723,6 +724,11 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2025-04-26-fiverr-goes-all-in-on-ai-empowering-creators-not-replacing-them-with-m": [],
+ "cognitive-revolution/2025-05-01-blueprint-for-ai-armageddon-josh-clymer-imagines-ai-takeover-from-the": [
+  "training-and-rl",
+  "ai-safety"
+ ],
  "cognitive-revolution/2025-05-04-ai-control-using-untrusted-systems-safely-with-buck-shlegeris-redwood": [
   "ai-safety"
  ],
@@ -1363,6 +1369,11 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2025-04-24-why-rome-actually-fell-plagues-slavery-ice-age-kyle-harper": [],
+ "dwarkesh/2025-04-29-mark-zuckerberg-ai-will-write-most-meta-code-in-18-months": [
+  "open-weight-models",
+  "meta"
+ ],
  "dwarkesh/2025-05-22-is-rl-llms-enough-for-agi-sholto-douglas-trenton-bricken": [
   "training-and-rl",
   "interpretability",
@@ -1522,6 +1533,21 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2025-04-30-tim-sweeney-fortnite-unreal-engine-and-the-future-of-gaming": [
+  "apple",
+  "google"
+ ],
+ "lex-fridman/2025-05-05-janna-levin-black-holes-wormholes-aliens-paradoxes-extra-dimensions": [],
+ "lex-fridman/2025-05-20-oliver-anthony-country-music-blue-collar-america-fame-money-and-pain": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2025-05-24-james-holland-world-war-ii-hitler-churchill-stalin-biggest-battles": [],
+ "lex-fridman/2025-06-05-sundar-pichai-ceo-of-google-and-alphabet": [
+  "google"
+ ],
+ "lex-fridman/2025-06-15-terence-tao-hardest-problems-in-mathematics-physics-the-future-of-ai": [
+  "ai-for-science"
+ ],
  "lex-fridman/2025-06-26-iran-war-debate-nuclear-weapons-trump-peace-power-the-middle-east": [],
  "lex-fridman/2025-07-12-dhh-david-heinemeier-hansson-dhh-future-of-programming-ai-ruby-on-rail": [],
  "lex-fridman/2025-07-23-demis-hassabis-future-of-ai-simulating-reality-physics-and-video-games": [
@@ -1596,6 +1622,35 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-05-01-o3-and-the-next-leap-in-reasoning-with-openai-s-eric-mitchell-and-bran": [
+  "models-and-benchmarks",
+  "training-and-rl",
+  "openai"
+ ],
+ "no-priors/2025-05-08-gaming-as-the-future-of-education-with-duolingo-ceo-luis-von-ahn": [
+  "jobs-and-work"
+ ],
+ "no-priors/2025-05-15-ai-is-making-enterprise-search-relevant-with-arvind-jain-of-glean": [
+  "enterprise-adoption"
+ ],
+ "no-priors/2025-05-29-ai-consolidation-biotech-opportunities-and-world-models-with-sarah-and": [
+  "generative-media",
+  "physical-ai",
+  "ai-for-science"
+ ],
+ "no-priors/2025-06-05-teaching-ai-to-understand-the-physical-world-with-dr-fei-fei-li-of-wor": [
+  "physical-ai"
+ ],
+ "no-priors/2025-06-12-will-we-have-superintelligence-by-2028-with-anthropic-s-ben-mann": [
+  "ai-safety",
+  "agents",
+  "ai-coding",
+  "anthropic"
+ ],
+ "no-priors/2025-06-17-the-operating-system-for-self-driving-cars-and-tanks-and-trucks-with-q": [],
+ "no-priors/2025-06-26-meet-alphaevolve-the-autonomous-agent-that-discovers-algorithms-better": [
+  "google"
+ ],
  "no-priors/2025-07-10-why-platforms-win-and-point-solutions-fail-with-rippling-ceo-parker-co": [],
  "no-priors/2025-07-17-asimov-building-an-omniscient-rl-oracle-with-reflectionai-s-misha-lask": [
   "training-and-rl",
