@@ -263,6 +263,23 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-08-02-the-winds-of-ai-winter-q2-four-wars-recap-chatgpt-voice-mode-preview": [
+  "consumer-ai",
+  "open-weight-models",
+  "openai",
+  "meta"
+ ],
+ "latent-space/2024-08-07-segment-anything-2-demo-first-model-development": [
+  "meta"
+ ],
+ "latent-space/2024-08-16-ai-magic-shipping-1000s-of-successful-products-with-no-managers-and-a": [
+  "training-and-rl"
+ ],
+ "latent-space/2024-08-22-is-finetuning-gpt4o-worth-it-with-alistair-pullen-cosine-genie": [
+  "models-and-benchmarks",
+  "training-and-rl",
+  "openai"
+ ],
  "latent-space/2024-08-29-why-you-should-write-your-own-llm-benchmarks-with-nicholas-carlini-goo": [
   "models-and-benchmarks",
   "google"
@@ -873,6 +890,34 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-08-02-ai-avatars-the-future-of-video-with-heygen-ceo-joshua-xu-and-benchmark": [
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-08-03-underlord-descript-s-ai-video-editor-with-ceo-andrew-mason": [],
+ "cognitive-revolution/2024-08-07-self-driving-cars-timothy-b-lee-answers-all-the-questions-you-were-too": [
+  "physical-ai",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2024-08-10-ai-consciousness-exploring-the-possibility-with-prof-eric-schwitzgebel": [
+  "ai-consciousness"
+ ],
+ "cognitive-revolution/2024-08-14-understanding-ai-understanding-with-robert-wright-of-nonzero-newslette": [
+  "us-china"
+ ],
+ "cognitive-revolution/2024-08-17-popular-mechanistic-interpretability-goodfire-lights-the-way-to-ai-saf": [
+  "interpretability"
+ ],
+ "cognitive-revolution/2024-08-21-ai-automation-making-ai-work-for-you-now-with-gpt-4o-fine-tuning": [
+  "training-and-rl",
+  "openai"
+ ],
+ "cognitive-revolution/2024-08-24-final-analysis-on-ca-s-ai-bill-sb-1047-with-nathan-calvin-dean-w-ball": [
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2024-08-28-scaling-superforecasting-ai-forecasting-tournaments-road-to-epistemic": [
+  "generative-media",
+  "physical-ai"
  ],
  "cognitive-revolution/2024-08-30-computational-life-how-self-replicators-arise-from-randomness-with-goo": [
   "google"
@@ -1728,6 +1773,9 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-08-22-joe-carlsmith-preventing-an-ai-takeover": [
+  "ai-safety"
+ ],
  "dwarkesh/2024-08-29-david-reich-how-one-small-tribe-conquered-the-world-70-000-years-ago": [
   "ai-for-science"
  ],
@@ -1927,6 +1975,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-08-02-elon-musk-and-neuralink-team-elon-musk-neuralink-and-the-future-of-hum": [
+  "xai"
+ ],
+ "lex-fridman/2024-08-14-craig-jones-jiu-jitsu-2-million-prize-cji-adcc-ukraine-trolling": [],
+ "lex-fridman/2024-08-20-pieter-levels-programming-viral-ai-startups-and-digital-nomad-life": [],
  "lex-fridman/2024-08-30-cenk-uygur-trump-vs-harris-progressive-politics-communism-capitalism": [],
  "lex-fridman/2024-09-03-donald-trump-interview": [],
  "lex-fridman/2024-09-12-gregory-aldrete-the-roman-empire-rise-and-fall-of-ancient-rome": [],
@@ -2062,6 +2115,13 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-08-08-innovating-spend-management-through-ai-with-pedro-franceschi-from-brex": [],
+ "no-priors/2024-08-15-how-ai-can-help-build-smarter-systems-for-every-team-with-eric-glyman": [
+  "enterprise-adoption"
+ ],
+ "no-priors/2024-08-22-the-marketplace-for-ai-compute-with-jared-quincy-davis-from-foundry": [
+  "infrastructure-and-chips"
+ ],
  "no-priors/2024-08-29-cloud-strategy-in-the-ai-era-with-matt-garman-ceo-of-aws": [
   "amazon"
  ],
