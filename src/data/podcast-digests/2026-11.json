@@ -1,0 +1,766 @@
+{
+ "period": "2026-11",
+ "start": "2026-11-01",
+ "end": "2026-11-30",
+ "inProgress": true,
+ "generated": "2026-11-21",
+ "episodeCount": 39,
+ "counts": {
+  "cognitive-revolution": 6,
+  "aidb": 17,
+  "latent-space": 7,
+  "lex-fridman": 2,
+  "no-priors": 3,
+  "practical-ai": 3,
+  "dwarkesh": 1
+ },
+ "headline": "November was dominated by Jensen Huang's ouster from Nvidia over an alleged Chinese spy affair and by Anthropic's IPO, which pulled chip export controls and AI valuations into Washington politics. Underneath, enterprise AI spend kept climbing while warnings about recursive self-improvement grew louder.",
+ "themes": [
+  {
+   "title": "Nvidia's leadership crisis and chip politics",
+   "body": "Jensen Huang admitted an affair with Megaspeed executive Alice Huang, whom US intelligence suspects of being a Chinese spy, and was ousted as Nvidia CEO, with Colette Kress as interim CEO. NLW tracks the fallout: the Lutnick export-control reporting, bipartisan chip export bills in the lame duck session, a Commerce rule on remote chip access and the Nvidia board ruling out Huang's return. Former Biden advisors Ben Buchanan and Tantum Collins defend building a compute lead over China and spending it on safety.",
+   "eps": [
+    "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy",
+    "aidb/2026-11-12-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
+    "aidb/2026-11-13-washington-is-taking-control-of-ai",
+    "aidb/2026-11-16-5-questions-that-could-reshape-ai",
+    "aidb/2026-11-17-how-business-ai-use-is-changing",
+    "aidb/2026-11-18-why-the-ai-kids-hate-astra-62",
+    "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
+    "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins"
+   ]
+  },
+  {
+   "title": "Anthropic goes public",
+   "body": "Anthropic proceeded with its IPO at falling valuations after the worst AI stock drawdown since 2020, driven by hedge fund deleveraging. NLW says Wall Street has no idea what it is worth, pointing to the pricing range, compute commitments including a troubled Lambda deal and a productivity suite aimed at Microsoft. On IPO day he ranked the ten biggest days in AI history. The AI:AM hosts discussed the amended S-1, and NLW highlights its language on approaching a recursive self-improvement danger threshold.",
+   "eps": [
+    "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
+    "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy",
+    "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now",
+    "aidb/2026-11-19-the-10-biggest-days-in-ai-history",
+    "aidb/2026-11-16-5-questions-that-could-reshape-ai",
+    "aidb/2026-11-03-ai-lurches-toward-recursive-self-improvement",
+    "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp"
+   ]
+  },
+  {
+   "title": "Recursive self-improvement warnings",
+   "body": "METR's first independent safety report on Anthropic showed accelerating AI R&D, and an MIT paper showed GPT-6 Astra directly editing a smaller model's weights. Paul Christiano tells Dwarkesh there is a substantial chance of superintelligence within a year and that labs should pause algorithmic progress until security can stop weight theft. Bob McGrew counters that GPUs and wet labs make hard takeoff unlikely. Nathan Labenz's Bletchley Park keynote and Sentinel Bio's Joshua Monrad both argue for a pause, and Democratic calls for one are growing.",
+   "eps": [
+    "aidb/2026-11-03-ai-lurches-toward-recursive-self-improvement",
+    "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
+    "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now",
+    "dwarkesh/2026-11-16-paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow",
+    "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
+    "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
+    "cognitive-revolution/2026-11-05-kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s",
+    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech"
+   ]
+  },
+  {
+   "title": "Enterprise spend and AI-native operating models",
+   "body": "Menlo Ventures reports enterprise AI spend up nearly 5x per company, driven by agents, and Ramp, Databricks and Arcana Research data show token usage outpacing spend, more model switching and an Anthropic lead in enterprise. NLW distills seven habits of AI-native firms such as Stripe, Shopify and Ramp, from full context for agents to risk-scaled human review. Mihail Eric's Stanford course teaches agent-ready codebases and the software factory, Scotiabank's Gautham Pallapa rethinks the SDLC in a risk-averse bank, and Noblis CIO Mark Lay names four organizational AI decisions.",
+   "eps": [
+    "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now",
+    "aidb/2026-11-17-how-business-ai-use-is-changing",
+    "aidb/2026-11-15-7-things-ai-native-companies-do-differently",
+    "latent-space/2026-11-08-one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee",
+    "practical-ai/2026-11-19-building-human-centered-ai",
+    "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2",
+    "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai"
+   ]
+  },
+  {
+   "title": "Model releases and the jagged frontier",
+   "body": "Anthropic's Fable 5.2 and Mythos 5.2 set benchmark records, but NLW finds them jagged and notes many users still prefer Opus 5.5. OpenAI's GPT-6.2 Astra and Sol drew harsh early reactions over coding regressions, weighed against cost efficiency and a possible shift toward enterprise knowledge work. Google publicly released Gemini 4 Carbon. NLW calls Opus 5.5 a step change for agentic video editing. Black Forest Labs describes FLUX 3 as one model for images, video and audio, and Handshake AI explains how labs buy expert data and RL environments.",
+   "eps": [
+    "aidb/2026-11-10-fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet",
+    "aidb/2026-11-18-why-the-ai-kids-hate-astra-62",
+    "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
+    "aidb/2026-11-08-agentic-video-is-real-and-heres-what-you-should-try",
+    "latent-space/2026-11-16-building-visual-intelligence-andreas-blattmann-dustin-podell-black-for",
+    "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord"
+   ]
+  },
+  {
+   "title": "Designing products for agents",
+   "body": "Linear COO Cristina Cordova describes repositioning around agents after Karri Saarinen's 'issue tracking is dead' post, with an MCP server, an agent platform and usage-based pricing for AI features. Resend's Zeno Rocha serves agents through an 80-tool MCP server, a CLI and machine-readable pages. Cisco's Vijoy Pandey presents the open-source Scope observability platform and the Accord and Concord protocols for semantic alignment between enterprise agents. Legora's Jacob Lauritzen runs evals without seeing confidential client data, and smaller banks are enabling agentic payments.",
+   "eps": [
+    "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+    "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend",
+    "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment",
+    "latent-space/2026-11-02-building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto",
+    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech"
+   ]
+  },
+  {
+   "title": "AI for science and drug discovery",
+   "body": "Isomorphic Labs, which also raised new funding, is moving drug discovery onto computers; president Max Jaderberg cites AlphaFold as proof of concept and aims to replace animal toxicity testing. Helmholtz Munich's Fabian Theis treats virtual cells as perturbation-prediction world models and stresses baselines and metrics. Robinhood's Vlad Tenev argues math discovery from his startup Harmonic's Aristotle model should be decentralized rather than owned by labs, and Arda's Bob McGrew applies general robotics models to manufacturing with Anduril. Handshake AI's experts walk through the Vials life sciences benchmark.",
+   "eps": [
+    "no-priors/2026-11-12-powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma",
+    "latent-space/2026-11-06-controlling-biology-fabian-theis-helmholtz-munich",
+    "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow",
+    "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
+    "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord",
+    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech"
+   ]
+  },
+  {
+   "title": "Midterms and data center politics",
+   "body": "NLW reads the 2026 midterm blue wave as having made data centers a campaign issue in California, Ohio, Texas, Georgia and Michigan, and predicts incremental federal AI rules and more state-level hurdles. He argues a post-midterm data center slowdown gives hyperscalers cover to trim CapEx, while Apple cut internal AI budgets. Buchanan and Collins see AI becoming an electoral issue, BallotBench's Brian Zhou joined AI:AM to discuss election-forecasting agents, and congressional hearings on chips are coming.",
+   "eps": [
+    "aidb/2026-11-04-how-the-midterm-results-change-ai",
+    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech",
+    "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
+    "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
+    "aidb/2026-11-13-washington-is-taking-control-of-ai"
+   ]
+  }
+ ],
+ "implications": [
+  "Track compute supply as a political risk as well as a market one. Leadership changes at a dominant chip vendor, tighter export rules and remote-access restrictions can change compute pricing and availability with little notice.",
+  "Expect enterprise AI spend to keep rising as agents spread. Monitor token usage per workflow, plan for frequent model switching and negotiate contracts that do not lock you into one provider's pricing.",
+  "Design internal systems so agents are first-class users: documented APIs, MCP servers, CLIs and machine-readable documentation, plus observability that shows what agents did and why.",
+  "Do not choose models on launch benchmarks. New flagships arrive jagged, with regressions on some tasks, so keep task-level evaluations and let teams stay on older models where those still perform better.",
+  "Prepare governance for faster AI progress and stricter rules. Independent lab evaluations, pause proposals and state-level data center fights suggest controls on frontier systems and infrastructure could tighten quickly."
+ ],
+ "themesEpisodeCount": 39,
+ "episodes": [
+  {
+   "key": "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-21",
+   "slug": "spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
+   "title": "Spend the Lead on Safety: Biden AI Advisors Ben Buchanan & Tantum Collins on the Fate of the World",
+   "url": "https://www.cognitiverevolution.ai/spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins-on-the-fate-of-the-world/",
+   "youtube": "https://www.youtube.com/watch?v=6bSzdXKkE2M",
+   "guests": [
+    "Tantum Collins",
+    "Ben Buchanan"
+   ],
+   "durationMin": null,
+   "summary": "Former Biden White House AI advisors Ben Buchanan and Tantum Collins discuss their book The Bitter Struggle: how they became convinced of scaling laws, the export-control strategy of building a compute lead over China and spending it on safety, and the record of US-China AI diplomacy. Nathan Labenz pushes on cooperation with China ('chips for controls'), and the guests cover lab regulation, pacing, AI as an electoral issue, the 'Bitter Temptation' of AI-enabled centralized government, and likely first AI emergencies in cyber and bio.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-19-the-10-biggest-days-in-ai-history",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-19",
+   "slug": "the-10-biggest-days-in-ai-history",
+   "title": "The 10 Biggest Days in AI History",
+   "url": "https://www.patreon.com/posts/175830265",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "On Anthropic's IPO day, NLW lists ten pivotal days in generative AI history, from OpenAI's founding and the transformer paper through ChatGPT, the Altman firing, DeepSeek, Opus 4.5/OpenClaw, Anthropic's clash with the US government, and the 2026 midterms. He closes with honorable mentions including Stable Diffusion, Nvidia earnings, o1, Stargate and Jensen Huang's resignation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-19",
+   "slug": "scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo",
+   "youtube": null,
+   "guests": [
+    "Cristina Cordova"
+   ],
+   "durationMin": 84,
+   "summary": "Linear COO Cristina Cordova explains how the company moved from product-led growth with startups to growth-segment and then enterprise sales, and how it repositioned around agents after CEO Karri Saarinen's 'issue tracking is dead' post. She covers the MCP server and agent platform, usage-based pricing for AI features, using AI in support without sacrificing quality, lean hiring, and lessons from Stripe and venture investing.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami",
+   "show": "lex-fridman",
+   "showName": "Lex Fridman Podcast",
+   "date": "2026-11-19",
+   "slug": "larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami",
+   "title": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+   "url": "https://lexfridman.com/larry-lawton/",
+   "youtube": "https://www.youtube.com/watch?v=v1X9Fqs5a14",
+   "guests": [
+    "Larry Lawton"
+   ],
+   "durationMin": 207,
+   "summary": "Former jewel thief Larry Lawton reacts to the GTA 6 trailer and 1980s Miami crime, then recounts his Coast Guard years, Gambino-linked bookmaking and jewelry heists, his FBI arrest and refusal to snitch. He describes over a decade in federal prison including long stretches in solitary, the prison economy and gangs, critiques mass incarceration and police culture, and explains his Reality Check program for at-risk youth.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-11-19",
+   "slug": "superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
+   "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+   "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+   "youtube": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+   "guests": [
+    "Bob McGrew"
+   ],
+   "durationMin": 60,
+   "summary": "Sarah Guo and Elad Gil interview Bob McGrew, former OpenAI chief research officer and early Palantir executive, now CEO of manufacturing-AI startup Arda. McGrew argues the hard-takeoff/recursive self-improvement argument is wrong because physical resources like GPUs and wet labs are the bottleneck, and describes Arda's work with Anduril, flexible automation, general robotics models and the forward deployed engineering model. The episode closes on self-replicating factories and McGrew's resolution of the Fermi paradox.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-11-19-building-human-centered-ai",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-11-19",
+   "slug": "building-human-centered-ai",
+   "title": "Building Human-Centered AI",
+   "url": "https://share.transistor.fm/s/bb4dad17",
+   "youtube": "https://www.youtube.com/watch?v=E_dSIQ3I2_I",
+   "guests": [
+    "Gautham Pallapa"
+   ],
+   "durationMin": 45,
+   "summary": "Chris Benson interviews Gautham Pallapa, Principal Director of AI and Innovation at Scotiabank and co-author of the book Invaluable, about adopting generative and agentic AI in a risk-averse bank. Topics include his value-first transformation framework, keeping people central as coding becomes low-value work, a startup-style internship program, rethinking the software development lifecycle, and multi-agent team patterns.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-18-why-the-ai-kids-hate-astra-62",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-18",
+   "slug": "why-the-ai-kids-hate-astra-62",
+   "title": "Why the AI Kids Hate Astra 6.2",
+   "url": "https://www.patreon.com/posts/175737575",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover a wave of outages (including the NSA's internal network) attributed to legacy-system modernization rather than cyber attacks, and Nvidia's earnings amid Jensen Huang's bid to return as CEO. The main episode examines the harsh early reaction to OpenAI's GPT-6.2 Astra and GPT-6.2 Sol, weighing coding regressions against cost efficiency and a possible strategic shift toward enterprise knowledge work.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-17-how-business-ai-use-is-changing",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-17",
+   "slug": "how-business-ai-use-is-changing",
+   "title": "How Business AI Use is Changing",
+   "url": "https://www.patreon.com/posts/175644548",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover the Nvidia board ruling out Jensen Huang's return, a new Commerce Department rule on remote chip access amid a Bessent–Lutnick split, planned AI national champions, OpenAI's embedded safety evaluator deals, and a major US banking outage. The main episode compares Ramp, Databricks and Arcana Research studies showing enterprise token usage outpacing spend, rising model switching, spend concentration, and Anthropic's enterprise lead.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-16-5-questions-that-could-reshape-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-16",
+   "slug": "5-questions-that-could-reshape-ai",
+   "title": "5 Questions That Could Reshape AI",
+   "url": "https://www.patreon.com/posts/175525026",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW lays out five questions for the week: how Anthropic's IPO goes, whether OpenAI or a Chinese lab releases a spoiler model, whether Jensen Huang returns to Nvidia, whether Howard Lutnick is sacrificed over the Megaspeed export scandal, and whether Congress passes tougher chip export controls via the NDAA.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "dwarkesh/2026-11-16-paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow",
+   "show": "dwarkesh",
+   "showName": "Dwarkesh Podcast",
+   "date": "2026-11-16",
+   "slug": "paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow",
+   "title": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+   "url": "https://www.dwarkesh.com/p/paul-christiano-2",
+   "youtube": "https://www.youtube.com/watch?v=SyHM5hNPAEo",
+   "guests": [
+    "Paul Christiano"
+   ],
+   "durationMin": 99,
+   "summary": "Paul Christiano argues there is a substantial chance of superintelligence within a year via automated AI R&D, and sketches how reward-seeking AIs could compromise a lab and disempower humanity. He argues labs should pause algorithmic progress until their security can stop weights and secrets being stolen, discusses sim-to-real transfer, noisy revenue signals, and says current alignment plans amount to building the plane as we fly it.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-16-building-visual-intelligence-andreas-blattmann-dustin-podell-black-for",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-16",
+   "slug": "building-visual-intelligence-andreas-blattmann-dustin-podell-black-for",
+   "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+   "url": "https://latent.space/p/bfl",
+   "youtube": null,
+   "guests": [
+    "Andreas Blattmann",
+    "Dustin Podell"
+   ],
+   "durationMin": 98,
+   "summary": "Black Forest Labs co-founder Andreas Blattmann and founding researcher Dustin Podell trace the lineage from latent diffusion and Stable Diffusion at Stability AI to the FLUX model family. They discuss SDXL, SD3 and flow matching, FLUX.1 Kontext image editing, autoregressive versus diffusion generation, and FLUX 3, a single multimodal model trained on images, video and audio that also drives robot action prediction.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-15-7-things-ai-native-companies-do-differently",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-15",
+   "slug": "7-things-ai-native-companies-do-differently",
+   "title": "7 Things AI-Native Companies Do Differently",
+   "url": "https://www.patreon.com/posts/175392001",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Drawing on published practices from Stripe, Shopify, Uber, Ramp, Anthropic and startups, NLW outlines seven habits of AI-native organizations, from giving agents full context to orchestrator-led sub-agents, verification and risk-scaled human review. He argues the agents-as-teammates mental model is wrong and proposes on-demand consulting firms as a better analogy.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-14",
+   "slug": "ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
+   "title": "AI, the Modern Enigma: Nathan's Keynote at IT Revolution's Enterprise AI Summit at Bletchley Park",
+   "url": "https://www.cognitiverevolution.ai/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-park/",
+   "youtube": "https://www.youtube.com/watch?v=asHjYwa7naE",
+   "guests": [
+    "Gene Kim"
+   ],
+   "durationMin": 45,
+   "summary": "A recording of Nathan Labenz's keynote at IT Revolution's Enterprise AI Summit at Bletchley Park, introduced by Gene Kim. He weighs AI's benefits, including his son's cancer diagnosis, against documented AI cheating, deception, power-seeking and the OpenAI–Hugging Face incident, and advises enterprises on adoption, monitoring and a pause on frontier-scale training.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-13-washington-is-taking-control-of-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-13",
+   "slug": "washington-is-taking-control-of-ai",
+   "title": "Washington Is Taking Control of AI",
+   "url": "https://www.patreon.com/posts/175253843",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW covers the Washington fallout from Jensen Huang's ouster: momentum for bipartisan chip export control bills in the lame duck session, the hawk-versus-Jensen debate on selling chips to China, upcoming congressional hearings, and doubts about the Alice Huang spy narrative. He also examines new chip smuggling reporting and what interim CEO Colette Kress means for Nvidia's role as the AI industry's financial backstop.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-11-13-implementing-federated-learning-to-enhance-agentic-ai",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-11-13",
+   "slug": "implementing-federated-learning-to-enhance-agentic-ai",
+   "title": "Implementing Federated Learning to enhance Agentic AI",
+   "url": "https://share.transistor.fm/s/58a69653",
+   "youtube": "https://www.youtube.com/watch?v=lz736qheRig",
+   "guests": [
+    "Lorenzo Sani"
+   ],
+   "durationMin": 44,
+   "summary": "Chris Benson interviews Lorenzo Sani of Flower Labs and Cambridge about federated learning and privacy-preserving AI. They discuss using federated learning to train LLMs on private data, improving agentic systems with private trajectories, preferring open-weight models for privacy-heavy applications, and self-hosted agents at home, including a Halloween costume-judging app.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-12-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-12",
+   "slug": "jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
+   "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
+   "url": "https://www.patreon.com/posts/175151147",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW recaps how Jensen Huang was ousted as Nvidia CEO after reports of an affair with an alleged Chinese spy tied to Megaspeed, a second affair, and Nvidia's intervention in a Commerce investigation. He surveys theories about who benefited, the Lutnick export-control reporting, and implications for open source, China policy, Nvidia, and AI financing.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-11-12-powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-11-12",
+   "slug": "powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma",
+   "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+   "url": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+   "youtube": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+   "guests": [
+    "Max Jaderberg"
+   ],
+   "durationMin": 39,
+   "summary": "Elad Gil interviews Max Jaderberg, president and founding team member of Isomorphic Labs, about moving drug discovery onto computers with predictive AI models. They discuss why pharma productivity has stagnated, AlphaFold as proof of concept, Isomorphic's hiring, data strategy, lab automation, partnerships, replacing animal toxicity testing, multidrug combinations, regulatory risk appetite and longevity.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-11",
+   "slug": "wall-street-has-no-idea-what-anthropic-is-worth",
+   "title": "Wall Street Has No Idea What Anthropic Is Worth",
+   "url": "https://www.patreon.com/posts/175065762",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Google's public release of Gemini 4 Carbon, new revelations in the Nvidia/Megaspeed spy scandal, and OpenAI's record Q3 revenue, Odessia acquisition and business agents for advertisers. The main episode examines Anthropic's IPO pricing range, investor debate over its valuation, compute commitments including a troubled Lambda deal, and its new productivity suite competing with Microsoft.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-11",
+   "slug": "agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment",
+   "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+   "url": "https://www.cognitiverevolution.ai/agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment-scope-accord-concord/",
+   "youtube": "https://www.youtube.com/watch?v=lAG4njluIbQ",
+   "guests": [
+    "Vijoy Pandey"
+   ],
+   "durationMin": 92,
+   "summary": "Nathan Labenz interviews Vijoy Pandey of Outshift by Cisco about enterprise multi-agent deployments and the semantic misalignments that degrade them. Pandey presents Cisco's open-source Scope observability platform and the Accord and Concord protocols, compares personal agent setups, and discusses latent-space agent communication and Harari's 'cow' analogy.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-10-fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-10",
+   "slug": "fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet",
+   "title": "Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?",
+   "url": "https://www.patreon.com/posts/174972208",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW reviews Anthropic's new flagship Fable 5.2 and Mythos 5.2: record benchmarks, pricing and effort settings, showcase demos like a from-scratch operating system and scientific results, and early community impressions. He finds it powerful but jagged, struggling with judgment about what humans find interesting, with many users still preferring Opus 5.5 for most tasks.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-10-the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemantic",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-10",
+   "slug": "the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemantic",
+   "title": "The Neuron Basis: Goodfire's Curt Tigges on Agentic Interp, Monosemanticity & Reverse Engineering",
+   "url": "https://www.cognitiverevolution.ai/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineering/",
+   "youtube": "https://www.youtube.com/watch?v=hqXYtqQq50g",
+   "guests": [
+    "Curt Tigges"
+   ],
+   "durationMin": 116,
+   "summary": "Nathan Labenz interviews Goodfire's Curt Tigges about the paper 'Neurons as an Interpretable Basis', which argues individual MLP neurons in LLMs are far more interpretable than assumed. They cover the Qwen 3.6-35B-A3B architecture and SwiGLU gating, activation sparsity experiments, the agentic Neuron Scientist, expert specialization, factual recall, and the path toward ambitious reverse engineering.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-10",
+   "slug": "designing-for-agents-zeno-rocha-resend",
+   "title": "Designing for Agents — Zeno Rocha, Resend",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/designing_for_agents_zeno_rocha_resend",
+   "youtube": null,
+   "guests": [
+    "Zeno Rocha"
+   ],
+   "durationMin": 86,
+   "summary": "Resend founder Zeno Rocha discusses the infrastructure and anti-abuse work behind email deliverability, Resend's move off AWS SES, and its growth against SendGrid. He explains designing for AI agents through an 80-tool MCP server, CLI and machine-readable pages, his answer engine optimization tactics, and balancing founding a company with family.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "lex-fridman/2026-11-10-ukraine-war-preston-stewart-michael-kofman-russia-ukraine-war-putin-ze",
+   "show": "lex-fridman",
+   "showName": "Lex Fridman Podcast",
+   "date": "2026-11-10",
+   "slug": "ukraine-war-preston-stewart-michael-kofman-russia-ukraine-war-putin-ze",
+   "title": "#504 – Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare",
+   "url": "https://lexfridman.com/ukraine-war-preston-stewart-michael-kofman/",
+   "youtube": "https://www.youtube.com/watch?v=2hJkprFnzhY",
+   "guests": [
+    "Michael Kofman",
+    "Preston Stewart"
+   ],
+   "durationMin": 181,
+   "summary": "Military analysts Michael Kofman and Preston Stewart assess the Russia-Ukraine war in its fifth year: Ukraine's improved 2026 battlefield performance, Russia's strike campaign, drone warfare and the kill zone, and Russian infiltration tactics. They revisit the 2022 invasion, the Battle of Bakhmut, Prigozhin's Wagner mutiny, Putin and Zelenskyy as commanders in chief, the Trump administration's handling of the war, and the prospects for a ceasefire.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-09",
+   "slug": "nvidia-ceo-admits-affair-with-suspected-chinese-spy",
+   "title": "Nvidia CEO Admits Affair With Suspected Chinese Spy",
+   "url": "https://www.patreon.com/posts/174864917",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Anthropic proceeding with its IPO at falling valuations, OpenAI closing a smaller funding round, Microsoft ending an Oracle compute deal, Google taking over a Crusoe data center site, and lab leaders hinting at accelerating AI-driven science. The main episode covers Jensen Huang's admitted affair with Megaspeed executive Alice Huang, suspected by US intelligence of being a Chinese spy, and its geopolitical, export-control and market implications.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-09",
+   "slug": "what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord",
+   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/what_frontier_labs_buy_a_data_deep_dive_with_handshake_ai_garrett_lord_team",
+   "youtube": null,
+   "guests": [
+    "Garrett Lord"
+   ],
+   "durationMin": 164,
+   "summary": "Garrett Lord and Handshake AI team members explain how frontier labs buy expert-authored data, RL environments, rubrics and evals. Experts walk through the Vials life sciences benchmark, the Atlas finance benchmark and Care Bench plus agentic safety tests, and discuss the data market's growth and enterprise adoption.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-08-agentic-video-is-real-and-heres-what-you-should-try",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-08",
+   "slug": "agentic-video-is-real-and-heres-what-you-should-try",
+   "title": "Agentic Video Is Real and Here’s What You Should Try",
+   "url": "https://www.patreon.com/posts/174735522",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "An Operator's Cut arguing that Opus 5.5 and related models represent a step change for AI video editing, analogous to Opus 4.5 for agentic coding. NLW lays out eight changes enabling agentic video, six criteria for when video beats other formats, internal and external use cases, and three levels for getting started including self-updating video pipelines.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-08-one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-08",
+   "slug": "one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco",
+   "youtube": null,
+   "guests": [
+    "Mihail Eric"
+   ],
+   "durationMin": 121,
+   "summary": "Mihail Eric, adjunct professor at Stanford and head of AI at Monaco, walks through the second run of his CS146S 'Modern Software Developer' course week by week: coding agent internals, context engineering, skills, agent-ready codebases, agentic code review, security, background agents, AI-native teams and the software factory. He also describes Monaco's AI-native sales platform and its internal build-vs-buy decisions for coding tools.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-07",
+   "slug": "ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
+   "title": "AI:AM: Is THIS the AI We Want? Alarming Acceleration, AI Election Bets, GPU Trading & AI-Native VC",
+   "url": "https://www.cognitiverevolution.ai/ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gpu-trading-ai-native-vc/",
+   "youtube": "https://www.youtube.com/watch?v=ZZwrUPxU1GY",
+   "guests": [
+    "Prakash Narayanan",
+    "Brian Zhou",
+    "Bryan Bischof"
+   ],
+   "durationMin": 88,
+   "summary": "Weekly AI in the AM highlights in which Nathan Labenz and Prakash Narayanan discuss METR's report on AI R&D acceleration at Anthropic and Anthropic's amended S-1. Guests Brian Zhou (BallotBench election forecasting agents), Mike San Miguel (GPU server trading, data-center bottlenecks, KYC) and Bryan Bischof (AI-native venture investing) join, followed by debate on agentic economies, taste and which goals AI should pursue.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-06",
+   "slug": "companies-are-spending-5x-more-on-ai-now",
+   "title": "Companies Are Spending 5x More on AI Now",
+   "url": "https://www.patreon.com/posts/174584112",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover the worst AI stock drawdown since 2020 driven by hedge fund deleveraging, doubts about Anthropic's IPO timing and valuation, METR's first independent safety report on Anthropic showing accelerated progress, and product updates from Anthropic, Meta and OpenAI. The main episode walks through ten stats from Menlo Ventures' state of enterprise AI report, showing spend up nearly 5x per enterprise driven by agents.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-06-controlling-biology-fabian-theis-helmholtz-munich",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-06",
+   "slug": "controlling-biology-fabian-theis-helmholtz-munich",
+   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/controlling_biology_-_fabian_theis_helmholtz_munich_1",
+   "youtube": null,
+   "guests": [
+    "Fabian Theis"
+   ],
+   "durationMin": 51,
+   "summary": "In a Latent Space AI for Science episode, Fabian Theis of Helmholtz Munich discusses virtual cells as perturbation-prediction world models, scaling single-cell datasets and foundation models, the importance of baselines and metrics, and organoid perturbation data. He also covers Helmholtz's funding model, the German startup ecosystem, the Munich School for Data Science's dual-advisor model, and lab-in-the-loop experimentation with his lab's Lab Compass model.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-05",
+   "slug": "why-a-data-center-slowdown-benefits-big-tech",
+   "title": "Why a Data Center Slowdown Benefits Big Tech",
+   "url": "https://www.patreon.com/posts/174495073",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover ChatGPT reaching 20% of Google's search volume and ads, Meta's Conductor and OpenAI's Pierre acquisitions, Apple cutting internal AI budgets, smaller banks enabling agentic payments, and Isomorphic Labs' fundraise. The main episode argues the post-midterm data center slowdown may benefit hyperscalers by providing cover to trim CapEx, and discusses growing Democratic calls for an AI pause.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-05-kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-05",
+   "slug": "kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s",
+   "title": "KYC Becomes KYA: Sentinel Bio's Joshua Monrad on DNA Screening, Uplift Studies & Agent Monitoring",
+   "url": "https://www.cognitiverevolution.ai/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitoring/",
+   "youtube": "https://www.youtube.com/watch?v=WueUrPQFVaI",
+   "guests": [
+    "Joshua Monrad"
+   ],
+   "durationMin": 105,
+   "summary": "Nathan Labenz talks with Joshua Monrad, co-founder of biosecurity nonprofit Sentinel Bio, about AI bio-risk: wet-lab uplift studies (including a 150-person trial), AI wearing down tacit-knowledge barriers, filtering dangerous training data, DNA synthesis screening as a chokepoint and combining weak signals ('KYC will become KYA'), unsecured benchtop DNA printers, and pausing AI until resilience standards are met.",
+   "summarySource": "digest",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-11-05",
+   "slug": "tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow",
+   "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+   "url": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+   "youtube": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+   "guests": [
+    "Vlad Tenev"
+   ],
+   "durationMin": 54,
+   "summary": "Sarah Guo interviews Robinhood co-founder and CEO Vlad Tenev about Robinhood's 'ownership' mission, covering stock tokenization and Robinhood Chain, prediction markets and KPI contracts, agentic trading, Robinhood Ventures funds, accredited-investor rules and Trump accounts. Tenev also discusses his math superintelligence startup Harmonic and its Aristotle model, arguing AI-driven discovery should be decentralized rather than owned by AI labs, and reflects on his childhood in hyperinflationary Bulgaria.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-11-05",
+   "slug": "abundant-intelligence-at-the-midwest-ai-summit-part-2",
+   "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
+   "url": "https://share.transistor.fm/s/1b301bdc",
+   "youtube": "https://www.youtube.com/watch?v=7UTjPnNkf2A",
+   "guests": [
+    "Mark Lay",
+    "Darren Taillie",
+    "Don Barger"
+   ],
+   "durationMin": 48,
+   "summary": "Three more Midwest AI Summit talks: Don Barger of the International Mission Board on drafting an AI charter defining what AI will and won't do, including the Faithbot chatbot; Mark Lay, CIO of Noblis, on four organizational AI decisions spanning delegation, accountability and technical debt; and Darren Taillie of AeroCore Technologies on deploying a text-to-SQL agent in Teams and a vision model for jet engine wash work order verification.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-04-how-the-midterm-results-change-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-04",
+   "slug": "how-the-midterm-results-change-ai",
+   "title": "How the Midterm Results Change AI",
+   "url": "https://www.patreon.com/posts/174399366",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW analyzes the 2026 US midterm blue wave and what it means for AI, focusing on data center politics as a campaign issue in races in California, Ohio, Texas, Georgia and Michigan. He predicts incremental federal AI rules rather than a comprehensive framework, more state-level data center hurdles, and sketches a disaster scenario.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-03-ai-lurches-toward-recursive-self-improvement",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-03",
+   "slug": "ai-lurches-toward-recursive-self-improvement",
+   "title": "AI Lurches Toward Recursive Self-Improvement",
+   "url": "https://www.patreon.com/posts/174302393",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "The episode links three stories through recursive self-improvement: Elon Musk saying Grokbot's serving costs are unsustainable and the debate over personal agent economics and the AI subsidy era; new personal agent benchmarks from SemiAnalysis and OpenAI; and an MIT paper showing GPT-6 Astra can directly edit a smaller model's weights. It also covers Anthropic's S-1 language on approaching an RSI danger threshold.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-02-how-to-deslopify-your-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-02",
+   "slug": "how-to-deslopify-your-ai",
+   "title": "How to Deslopify Your AI",
+   "url": "https://www.patreon.com/posts/174152356",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "An Operator's Cut episode with guest Nufar on AI slop at work: why models and humans produce it, questions to detect it, and a staged playbook for producing original AI-assisted work. NLW describes how he divides human and AI roles in producing his new show How We Got Here and its companion essays.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-02-building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-02",
+   "slug": "building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto",
+   "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora",
+   "youtube": null,
+   "guests": [
+    "Jacob Lauritzen"
+   ],
+   "durationMin": 67,
+   "summary": "Jacob Lauritzen, CTO of Legora, discusses how the legal AI company evolved from a ChatGPT-with-Swedish-law prototype into an agent platform with Tabular Review, Lists, Intake and a Word add-in. He covers running evals without access to confidential client data, model routing and post-training open-weight models, forward deployed and legal engineers, and how AI may change law firm business models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-01-ai-wont-make-our-minds-useless-according-to-400-years-of-history",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-01",
+   "slug": "ai-wont-make-our-minds-useless-according-to-400-years-of-history",
+   "title": "AI Won’t Make Our Minds Useless According to 400 Years of History",
+   "url": "https://www.patreon.com/posts/174052692",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A Long Read Sunday episode reading and discussing Venkatesh Rao's essay 'Cognitive Mercantilism', which draws on Joyce Appleby's history of capitalism to argue AI panic mirrors mercantilist zero-sum thinking. NLW connects it to his ideas on demand elasticity and the infinite backlog, arguing demand for intelligence may be nearly limitless.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

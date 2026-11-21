@@ -1,0 +1,64 @@
+{
+  "period": "2026-10",
+  "episodeCount": 64,
+  "headline": "October was dominated by Anthropic's IPO filing and the money questions around it, from a 400-page S-1 to neocloud distress and GPU credit. Underneath, AI agents moved onto both sides of the ledger: finding vulnerabilities, producing mathematical results and running whole companies.",
+  "themes": [
+    {
+      "title": "Anthropic's IPO and bubble math",
+      "body": "NLW dissects Anthropic's 400-page S-1: rapid revenue growth, a first operating profit, large cash reserves and more than $600B in compute commitments, alongside customer concentration and founder control. A leaked prospectus had earlier shown an $80B accounting loss, and Microsoft and Meta reportedly cut Anthropic spend. NLW reads neocloud distress, warehoused GPUs at Amazon and data center debt held by insurers and pensions as bubble signals, and concludes that demand is the core question and the IPO its test.",
+      "eps": ["aidb/2026-10-27", "aidb/2026-10-23", "aidb/2026-10-21", "aidb/2026-10-19", "aidb/2026-10-26", "latent-space/2026-10-27", "aidb/2026-10-06", "aidb/2026-10-15"]
+    },
+    {
+      "title": "Agents on both sides of cyber",
+      "body": "NLW frames security as AI agents versus AI agents after the PHP2 Shell vulnerability found with GPT-5.6 Sol and key-theft attacks on Railway and OpenCode. CrowdStrike's George Kurtz says agents compress attacks to seconds and push attackers to unguarded open-weight models. Cloudflare CTO Dane Knecht expects engineering time and token spend to shift heavily to security within 18 months, and Greg Brockman calls this a defender's window. VulnCheck's Spencer McIntyre reports that over half of public PoCs are now illegitimate.",
+      "eps": ["aidb/2026-10-22", "no-priors/2026-10-22", "no-priors/2026-10-23", "practical-ai/2026-10-22", "no-priors/2026-10-15", "cognitive-revolution/2026-10-24", "cognitive-revolution/2026-10-31", "aidb/2026-10-19"]
+    },
+    {
+      "title": "AI-generated math and science",
+      "body": "OpenAI released 372 novel mathematical results, including 90 of Proof Atlas's top 500 open problems, and later claimed a disproof of the exponential time hypothesis. Lex Fridman's mathematician panel weighs roughly 700 AI proofs and Anthropic's 13-million-line Lean formalization of Fermat's Last Theorem, asking whether AI is solving or killing math. Labs are also moving into biology: OpenAI bought Orchestra Bio and Anthropic bought Mithril Medicine. Biohub's Alex Rives and Periodic Labs argue measurement and physical experiments remain the bottleneck.",
+      "eps": ["aidb/2026-10-09-what-happens", "lex-fridman/2026-10-26", "no-priors/2026-10-15", "aidb/2026-10-27", "aidb/2026-10-21", "aidb/2026-10-28", "latent-space/2026-10-08", "cognitive-revolution/2026-10-20", "latent-space/2026-10-10"]
+    },
+    {
+      "title": "Agent-native companies and the SDLC",
+      "body": "NLW details Spawn, a 10-person gaming startup run by a persistent agent fleet. Tenex pays engineers by story points and runs an internal meta harness for Fortune 2000 clients, while Arca's Aman Singh relies on persistent client memory, deterministic guardrails and verifiers for multi-day financial work. Serval's Jake Stauch targets ServiceNow with coding agents gated by approvals and audit trails, and OutSystems' Woodson Martin argues deterministic code generation keeps AI-built apps compliant. SEP offers a framework for choosing a team's level of agentic autonomy.",
+      "eps": ["aidb/2026-10-30", "latent-space/2026-10-21", "latent-space/2026-10-31", "no-priors/2026-10-29", "cognitive-revolution/2026-10-07", "practical-ai/2026-10-29", "latent-space/2026-10-28"]
+    },
+    {
+      "title": "Frontier releases and how to judge them",
+      "body": "Google's Gemini 4 Argon arrived with strong knowledge-work benchmarks but coding results that depend heavily on the harness, and Meta's Muse Wonder posted strong scores to mixed user reception. Artificial Analysis's Intelligence Index V5 moved to private, agentic benchmarks and reshuffled the rankings. NLW argues personality is becoming a competitive axis as intelligence commoditizes, and Nufar Gaspar shows how to build a blind-scored personal benchmark because published ones have limited value. Anthropic's Katelyn Lesse and Angela Jiang discuss the Opus 5.5 launch.",
+      "eps": ["aidb/2026-10-01", "aidb/2026-10-14", "aidb/2026-10-13", "aidb/2026-10-29", "aidb/2026-10-07", "aidb/2026-10-20", "latent-space/2026-10-27", "cognitive-revolution/2026-10-31"]
+    },
+    {
+      "title": "Open weights and owned intelligence",
+      "body": "ReflectionAI's Misha Laskin launched Beam, a 500B-parameter open-weight reasoning model, and describes enterprises moving from renting to owning intelligence. NLW covers sovereignty arguments from Alex Karp and Satya Nadella, and calls Microsoft's MAI Base 2 and Meta's Muse Spark Open overlooked options on cost and sovereignty. NVIDIA's Ming-Yu Liu explains why the company promotes open models, and George Kurtz sees enterprises moving to open weights. Artificial Analysis still reports a widening open-weights gap, and the AI:AM hosts debate keeping dangerous capabilities out of open models.",
+      "eps": ["no-priors/2026-10-09", "aidb/2026-10-05", "aidb/2026-10-16", "practical-ai/2026-10-01", "no-priors/2026-10-22", "aidb/2026-10-29", "cognitive-revolution/2026-10-31"]
+    },
+    {
+      "title": "Compute markets and chip supply",
+      "body": "SF Compute's Evan Conrad argues credit is the AI bottleneck and explains why Nvidia and the clouds can't run a neutral compute exchange. Modal's Erik Bernhardsson buys GPU capacity across about 25 clouds amid long-term 'rectangular' contracts, and Silicon Data's Steve Ho says hyperscalers charge 2-3x more. Fractile's Walter Goodwin says memory bandwidth limits fast long-running agents. Intel CTO Pushkar Ranade tells Dwarkesh that tool supply limits the response to AI chip demand, while Microsoft and Google earnings show signs of a CapEx slowdown.",
+      "eps": ["cognitive-revolution/2026-10-24", "latent-space/2026-10-20", "latent-space/2026-10-22-why-ai-compute", "cognitive-revolution/2026-10-01", "no-priors/2026-10-02", "dwarkesh/2026-10-22", "aidb/2026-10-29", "aidb/2026-10-11"]
+    },
+    {
+      "title": "Personal agents and who holds the wheel",
+      "body": "NLW offers a framework for choosing among eight personal agents, including Dots, Gemini Spark, Grokbot and Claude Duet, and finds OpenAI's Dots weak at proactivity while Claude Duet looks promising for work. Platforms are splitting: Walmart and Shopify opened to third-party shopping agents while JPMorgan blocked them. Control is the open question. Nathan Labenz describes Claude changing his passwords, and GovAI's Alan Chan proposes monitoring, logging and agent identifiers in light of rogue-agent incidents.",
+      "eps": ["aidb/2026-10-04", "aidb/2026-10-25", "aidb/2026-10-22", "aidb/2026-10-14", "no-priors/2026-10-15", "cognitive-revolution/2026-10-17", "cognitive-revolution/2026-10-14"]
+    },
+    {
+      "title": "Interpretability and superintelligence strategy",
+      "body": "Nick Cammarata's essay 'Neural Networks Are Already Clean' argues most neurons in large models are interpretable and that superposition was largely a tooling artifact, and NLW covers pushback from Neel Nanda and Liv Gorton. Goodfire's Eric Bigelow studies critical tokens and phase shifts during generation. On strategy, RAND argues the US should keep freedom of action on the path to superintelligence, frontier lab CEOs signed a White House superintelligence accord, and a lab executive at The Curve was reportedly open to capping pretraining compute.",
+      "eps": ["aidb/2026-10-18", "cognitive-revolution/2026-10-24", "cognitive-revolution/2026-10-10", "cognitive-revolution/2026-10-28", "cognitive-revolution/2026-10-08", "aidb/2026-10-01", "cognitive-revolution/2026-10-14"]
+    },
+    {
+      "title": "World models and physical AI",
+      "body": "Google DeepMind's Keerthana Gopalakrishnan describes Gemini Robotics 2, a three-model stack of a reasoning model, a VLA and an on-device model, with whole-body humanoid control. Dyna Robotics' Jason Ma presents Dyna-2, a world action model pretrained on over a million hours of data and deployed at Din Tai Fung and Best Western for hour-long tasks. NVIDIA's Ming-Yu Liu calls Cosmos 3 an omni model but says robots are not yet commercially ready, and NLW examines Genie 4's real-time world generation.",
+      "eps": ["cognitive-revolution/2026-10-03", "latent-space/2026-10-13", "practical-ai/2026-10-01", "aidb/2026-10-28"]
+    }
+  ],
+  "implications": [
+    "Treat AI-assisted attack speed as a planning assumption. Budget for agent-driven vulnerability discovery and patching, verify public proof-of-concept code before acting on it, and expect security to claim a growing share of engineering time and token spend.",
+    "Keep model choice portable. Rankings reshuffle within weeks and coding quality depends on the harness, so run your own blind evaluations on representative tasks and design architectures that can route between providers.",
+    "Evaluate open-weight models as a real option for cost, sovereignty and privacy-sensitive work, but pair them with your own guardrails, since the safety controls of hosted models do not travel with the weights.",
+    "Agent-run workflows in these accounts succeed when determinism surrounds them: approvals, audit trails, verifiers and evals built from staff feedback. Build these controls into the platform before scaling agent autonomy across teams.",
+    "Watch the financial health of AI vendors. Neocloud distress, compute debt and IPO scrutiny of the labs mean contracts, data portability and exit plans deserve the same attention as model capability."
+  ]
+}

@@ -136,6 +136,32 @@ src/content/podcast-periodic/<show>/<period>.md       (collection `podcast-perio
 | `/podcasts/tags/<tag>/` (free-form tags) | `src/pages/podcasts/tags/[tag].astro` |
 | `/podcasts/rss.xml` (all shows), `/podcasts/<show>/rss.xml` | `src/pages/podcasts/rss.xml.js`, `src/pages/podcasts/[show]/rss.xml.js` |
 | AIDB: `/podcasts/ai-daily-brief/{,periodic/,tags/}` | `src/pages/podcasts/ai-daily-brief/` |
+| `/podcasts/digest/`, `/podcasts/digest/YYYY-MM/` (monthly cross-show digest, IBM Carbon style) | `src/pages/podcasts/digest/` + `src/lib/podcast-digests.ts` + `src/layouts/WideLayout.astro` |
+
+## Monthly cross-show digest (/podcasts/digest/)
+
+One page per month covering ALL shows, AIDB included. It has a headline, 6-10 cross-show
+themes (chips jump to episodes), "What it means for enterprise architecture" and every
+episode with its summary, a link to the original episode and a link to this site's own
+summary page. The look follows IBM Carbon (Plex fonts, flat tiles, one blue accent).
+
+```
+wiki/blog/**/episodes + extractions (summary)        (read only)
+   fallbacks: published summary description -> podcast-digests/summaries.json -> show notes
+        |  node scripts/podcast-digest.mjs --pack --month P   (agent writes themes from the pack,
+        v                                                    scripts/PODCAST_DIGEST_INSTRUCTIONS.md)
+podcast-digests/themes/YYYY-MM.json                   (staging, committed)
+        |  node scripts/podcast-digest.mjs --month P | --year YYYY
+        v
+src/data/podcast-digests/YYYY-MM.json                 (committed; CI has no wiki)
+```
+
+- Status: `node scripts/podcast-digest.mjs --status --year YYYY` (episodes, gaps, theme
+  check, `STALE-DATA` when new episodes landed, `THEMES-STALE` when the themes were
+  written for fewer episodes). `--check` exits 1 on any problem.
+- Only months with themes get a page. The current month is marked "In progress".
+  Regenerate its themes once the month is over.
+- Implications are written for a public audience. No employer-internal content.
 
 Header nav has a "Podcasts" entry. Show metadata (name, description, homepage,
 URL slug = wiki folder name) is in `src/podcast-shows.mjs`, shared by the

@@ -1,0 +1,59 @@
+{
+  "period": "2026-04",
+  "episodeCount": 57,
+  "headline": "April was dominated by Anthropic's withheld Claude Mythos model and a dense release cycle of GPT-5.5, Opus 4.7, the new Codex and Claude Design. Underneath it, the shows converged on the harness around the model, and the usage-based pricing and compute limits that agentic workloads now force, as the real story.",
+  "themes": [
+    {
+      "title": "Claude Mythos and Project Glasswing",
+      "body": "Anthropic announced Claude Mythos Preview as a step-change model withheld from general release and offered to about 40 partners via Project Glasswing for cyber defense. NLW reviewed its zero-day findings and argued that fear serves no one, while Practical AI weighed the hype against the substance. Jensen Huang and Dwarkesh Patel framed their China export debate around Mythos, Cameron Berg examined its system card welfare findings, and AIDB later reported unauthorized Discord access via a third-party vendor and a White House-Anthropic detente.",
+      "eps": ["aidb/2026-04-08-should-we-be-scared-of-a", "practical-ai/2026-04-23", "dwarkesh/2026-04-15", "cognitive-revolution/2026-04-23", "latent-space/2026-04-23", "aidb/2026-04-21", "aidb/2026-04-22"]
+    },
+    {
+      "title": "Harness engineering becomes the discipline",
+      "body": "NLW positioned harness engineering, designing the systems, tools and context around a model, as the successor to prompt and context engineering, citing HumanLayer, LangChain, OpenAI and Anthropic's Managed Agents. OpenAI's Ryan Lopopolo described a million-line app built with zero human-written code in Codex. Notion's Simon Last and Sarah Sachs recounted four to five harness rebuilds since 2022. Practical AI dissected the leaked Claude Code harness, and NLW used Cursor's SDK to propose 'Harness as a Service' as a new infrastructure category.",
+      "eps": ["aidb/2026-04-13", "latent-space/2026-04-07", "latent-space/2026-04-15", "practical-ai/2026-04-09", "aidb/2026-04-30", "latent-space/2026-04-03", "aidb/2026-04-09"]
+    },
+    {
+      "title": "GPT-5.5, Opus 4.7 and the release wave",
+      "body": "The month brought Claude Opus 4.7, OpenAI's new Codex app with Mac computer use, Anthropic's Claude Design, ChatGPT Images 2.0 and GPT-5.5. NLW tested GPT-5.5 in Codex and noted Anthropic's post-mortem confirming Claude Code quality issues. He called Images 2.0 the first image model for the agentic era and argued coding tools are converging. Andon Labs reported Vending-Bench results for GPT-5.5 and Opus 4.7 on Cognitive Revolution. Earlier, Meta's Muse Spark and Z.ai's open-source GLM 5.1 arrived.",
+      "eps": ["aidb/2026-04-24-what-i-learned-testing-g", "aidb/2026-04-17", "aidb/2026-04-20", "aidb/2026-04-22", "aidb/2026-04-15-vibe-coding-gets-an-upgr", "cognitive-revolution/2026-04-26", "aidb/2026-04-09"]
+    },
+    {
+      "title": "The end of flat-fee AI",
+      "body": "NLW argued the AI subsidy era is ending because agentic usage consumes more tokens than flat-fee plans cover, citing GitHub Copilot's move to usage-based billing and Anthropic's compute strains. Anthropic also shifted enterprise customers to usage-based pricing. SAP CTO Philipp Herzig described moving from seat-based to hybrid consumption pricing, and Notion uses usage-based credits for its agents. NLW's headless agents episode questioned per-seat SaaS pricing, while ServiceNow's Bill McDermott argued enterprise platforms are not threatened by the 'SaaS apocalypse'.",
+      "eps": ["aidb/2026-04-28", "aidb/2026-04-15-vibe-coding-gets-an-upgr", "no-priors/2026-04-23", "latent-space/2026-04-15", "aidb/2026-04-24-how-headless-agents-will", "no-priors/2026-04-17", "latent-space/2026-04-22"]
+    },
+    {
+      "title": "Compute, power and capital",
+      "body": "AIDB tracked Anthropic reaching $30B ARR with a multi-gigawatt Google/Broadcom TPU deal, Google's investment of up to $40 billion in Anthropic, OpenAI's $122B round and 30-gigawatt compute target, and Nvidia hitting $5 trillion. The White House invoked the Defense Production Act for grid infrastructure as DeepSeek V4 arrived near-frontier at a fraction of the price. Jensen Huang defended Nvidia's supply chain moat against TPUs, MatX's Reiner Pope worked through inference economics, and Practical AI covered Allbirds' pivot to a neocloud.",
+      "eps": ["aidb/2026-04-08-openais-new-deal", "aidb/2026-04-27", "aidb/2026-04-06", "aidb/2026-04-24-how-headless-agents-will", "dwarkesh/2026-04-15", "dwarkesh/2026-04-29", "practical-ai/2026-04-23"]
+    },
+    {
+      "title": "Enterprise adoption and the leadership gap",
+      "body": "NLW introduced Superintelligent's maturity maps, drawn from 480+ studies, showing gaps in people investment, data and outcome measurement, and argued enterprise AI has a leadership problem. A PwC study found the top fifth of companies capture about 75% of AI's economic gains. Ramp's Glass platform was offered as a model for raising the floor across an organization. Shopify CTO Mikhail Parakhin described an unlimited token budget, and Block's world-model org chart was contrasted with Every's parallel org chart of personal agents.",
+      "eps": ["aidb/2026-04-01", "aidb/2026-04-10", "aidb/2026-04-16", "aidb/2026-04-19", "aidb/2026-04-12", "latent-space/2026-04-22", "no-priors/2026-04-17"]
+    },
+    {
+      "title": "Personal agent systems: skills, context, memory",
+      "body": "Nufar Gaspar ran an agent skills masterclass and introduced AIDB's Agent OS, seven layers from identity to automations, arguing the system matters more than the tool. NLW proposed a personal context portfolio of ten markdown files served via an MCP server to avoid context lock-in. His Agent Madness review named memory as the main infrastructure gap. Steve Newman demoed a Claude Code-built attention firewall, and Granola's Sam Stephenson discussed agent context and memory in note-taking.",
+      "eps": ["aidb/2026-04-02", "aidb/2026-04-03", "aidb/2026-04-25", "aidb/2026-04-18", "cognitive-revolution/2026-04-19", "cognitive-revolution/2026-04-08"]
+    },
+    {
+      "title": "Backlash, politics and safety",
+      "body": "NLW covered the attacks on Sam Altman's home and argued AI has become a cauldron for broader economic grievance, a topic Nathan Labenz's AI in the AM also discussed with Stanford's Andy Hall on AI governance. NLW critiqued OpenAI's industrial policy document against dire American sentiment, and read Alex Imas on a growing relational sector of human work. Ajeya Cotra described a 'crunch time' when AI automates AI R&D, and Nathan Labenz discussed his p(doom) and the Pentagon-Anthropic standoff.",
+      "eps": ["aidb/2026-04-15-ai-populism-turns-violen", "cognitive-revolution/2026-04-15", "aidb/2026-04-08-openais-new-deal", "aidb/2026-04-26", "aidb/2026-04-05", "cognitive-revolution/2026-04-11", "cognitive-revolution/2026-04-01"]
+    },
+    {
+      "title": "Physical AI, world models and science",
+      "body": "Applied Intuition's Qasar Younis and Peter Ludwig described autonomy models for cars, trucks, mining and defense, and Comma AI's Harald Schäfer explained training driving policies inside a learned world-model simulator. Moonlake's Chris Manning and Fan-yun Sun argued for multimodal, interactive world models. Roboflow's Joseph Nelson covered distilling vision models for the edge. Liam Fedus said AI science needs closed-loop physical experiments at Periodic Labs, and Noetik described a $50M model licensing deal with GSK for cancer trials.",
+      "eps": ["latent-space/2026-04-27", "practical-ai/2026-04-16", "latent-space/2026-04-02", "cognitive-revolution/2026-04-04", "no-priors/2026-04-03", "latent-space/2026-04-20", "dwarkesh/2026-04-07"]
+    }
+  ],
+  "implications": [
+    "Budget AI as metered consumption, not seats. Vendors including GitHub, Anthropic, SAP and Notion are moving to usage-based or hybrid pricing, so agentic workloads need token forecasting, cost attribution and guardrails before they scale across teams.",
+    "Treat the harness as owned architecture. Tools, context, memory, evals and review agents determined outcomes in the OpenAI and Notion accounts, and harnesses are being rebuilt repeatedly, so keep them modular and model-agnostic rather than tied to one vendor's app.",
+    "Plan for capability that arrives gated. Mythos shows frontier models may reach selected partners first under security programmes, so security teams should track vendor disclosure practices and prepare for faster discovery of vulnerabilities in their own software.",
+    "Invest in people and shared platforms, not only licences. The adoption studies point to gaps in leadership, training, data and outcome measurement, and organization-level platforms like Ramp's Glass raise the floor more than individual tool access does.",
+    "Standardize skills, context and memory as reusable assets. Skill libraries, portable context files and MCP servers reduce lock-in across converging agent tools, but they need governance, testing and ownership like any other shared enterprise component."
+  ]
+}

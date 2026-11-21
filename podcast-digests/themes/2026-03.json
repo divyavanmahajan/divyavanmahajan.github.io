@@ -1,0 +1,64 @@
+{
+  "period": "2026-03",
+  "episodeCount": 55,
+  "headline": "March was the month personal agents went mainstream: OpenClaw-style 'claws', Claude Cowork and cloud coding agents spread from hobbyists to every major lab and product. Underneath it, the hard questions moved to verification, governance, compute and who bears the cost for jobs, as AI became a political issue.",
+  "themes": [
+    {
+      "title": "Claws and personal agents everywhere",
+      "body": "OpenClaw-style agents dominated the month. Karpathy told Sarah Guo he now delegates nearly all coding to agents and runs a home-automation claw called Dobby. Jesse Genet described five OpenClaw agents on separate Mac Minis running her homeschool and household, including one that impersonated her by email. NLW shared ten orchestration lessons from Ramp, Linear and others, and tracked the race to productize claws: Perplexity Computer, Manus My Computer and Nvidia's NemoClaw. Jensen Huang discussed OpenClaw with Lex Fridman.",
+      "eps": ["no-priors/2026-03-20", "cognitive-revolution/2026-03-08", "aidb/2026-03-08", "aidb/2026-03-17", "aidb/2026-03-14", "latent-space/2026-03-20", "lex-fridman/2026-03-23", "aidb/2026-03-30"]
+    },
+    {
+      "title": "Anthropic's Claude Code and Cowork push",
+      "body": "NLW called Anthropic's month of launches 'clawdification': Remote Control, Cowork Dispatch, Claude Code Channels, scheduled tasks, computer use and a 1M-token context window. Felix Rieseberg explained on Latent Space that Cowork is Claude Code running in a local VM, because Claude benefits from its own computer. Claude Code Review, priced at $15-25 per review, drew backlash that NLW reads as sticker shock mixed with developer anxiety. A leak also revealed Claude Mythos, and Ramp's AI Index showed Anthropic winning business adoption.",
+      "eps": ["aidb/2026-03-25-how-to-use-claudes-massi", "latent-space/2026-03-17", "aidb/2026-03-10", "aidb/2026-03-18", "aidb/2026-03-27", "aidb/2026-03-12", "aidb/2026-03-30"]
+    },
+    {
+      "title": "Engineers become agent managers",
+      "body": "Coding agents are changing how software gets built and reviewed. Cursor engineers demoed cloud agents that run in their own VMs, test with computer use and return demo videos, and named code review as the new bottleneck. Notion co-founder Simon Last described rewriting the AI harness every six months and moving from coder to agent manager. Steve Klabnik, a former self-described AI hater, built a programming language largely with Claude and stressed validation and spec-driven development. NLW sees vibe coding turning into multiplayer canvases.",
+      "eps": ["latent-space/2026-03-06", "no-priors/2026-03-12", "practical-ai/2026-03-17", "aidb/2026-03-12", "aidb/2026-03-10", "aidb/2026-03-01"]
+    },
+    {
+      "title": "Agent plumbing: skills, CLIs, governed access",
+      "body": "Several guests focused on what agents need to work safely. Box CEO Aaron Levie argued agents need governed workspaces, identities and access controls over enterprise content. Composio CTO Karan Vaidya described just-in-time tool discovery, managed auth and skills as a hedge against model lock-in. NLW argued the Google Workspace CLI matters because CLIs are the lowest-friction agent interface, amid an MCP 'abstraction tax' debate. Cisco's Vijoy Pandey proposed task-based access control and new network layers for collaborating agents.",
+      "eps": ["latent-space/2026-03-05", "cognitive-revolution/2026-03-22", "aidb/2026-03-11", "aidb/2026-03-18", "cognitive-revolution/2026-03-25", "latent-space/2026-03-10", "latent-space/2026-03-12"]
+    },
+    {
+      "title": "The jobs debate gets sharper",
+      "body": "Job loss was a constant thread. NLW argued 'will AI replace all the jobs?' is the wrong question, pointing to AI washing of layoffs and urging focus on task-level impact, role redesign and reskilling. He covered Gina Raimondo's grand bargain, an ECB study showing AI firms hire more and the Acemoglu-Autor-Johnson pro-worker AI paper. Headlines included possible HSBC cuts of 20,000 and FedEx training 400,000 workers. Zvi Mowshowitz discussed the permanent underclass discourse, and Karpathy raised Jevons paradox.",
+      "eps": ["aidb/2026-03-22", "aidb/2026-03-13", "aidb/2026-03-23", "aidb/2026-03-01", "aidb/2026-03-16", "aidb/2026-03-04-the-rise-of-the-zero-hum", "cognitive-revolution/2026-03-19", "no-priors/2026-03-20"]
+    },
+    {
+      "title": "AI becomes a political fight",
+      "body": "The Anthropic-Pentagon conflict ran through the month: Dario Amodei's leaked memo, ChatGPT uninstalls after OpenAI's Pentagon deal and a judge criticizing the Pentagon over Anthropic. Zvi Mowshowitz discussed Anthropic's revised Responsible Scaling Policy and its clash with the Department of War. NLW covered rising voter concern per Blue Rose Research, the White House National AI Legislative Framework and a Sanders-AOC data center moratorium bill. Ben Buchanan compared Biden and Trump chip export policy on Practical AI.",
+      "eps": ["aidb/2026-03-06-ai-is-officially-politic", "aidb/2026-03-02", "aidb/2026-03-23", "aidb/2026-03-25-work-agi-is-the-only-agi", "cognitive-revolution/2026-03-19", "practical-ai/2026-03-09", "aidb/2026-03-26", "aidb/2026-03-28"]
+    },
+    {
+      "title": "Labs refocus on professional work",
+      "body": "OpenAI framed GPT-5.4 as a professional-work model with 1M context, computer use and tool search; NLW found it verbose and weak at UI but strong at error-free deployment. OpenAI then narrowed its focus: the product team was renamed AGI Deployment and Sora was shut down, which NLW reads as 'work AGI'. He argues AI products are converging because coding underpins all knowledge work, and asks whether vertical models like Intercom's Fin Apex and Cursor's Composer 2 are arriving. Mistral pitched its Forge customization platform.",
+      "eps": ["aidb/2026-03-06-gpt-54-first-test-result", "aidb/2026-03-25-work-agi-is-the-only-agi", "aidb/2026-03-20", "aidb/2026-03-27", "aidb/2026-03-17", "latent-space/2026-03-30"]
+    },
+    {
+      "title": "Agent loops and AI for science",
+      "body": "Karpathy's AutoResearch, where an agent edits LLM training code under a fixed five-minute budget and keeps only improvements, led NLW to call agentic loops a new work primitive. Terence Tao told Dwarkesh that AI has made idea generation nearly free and verification is now the bottleneck, and expects human-AI hybrids to dominate mathematics. Heather Kulik explained why materials lack an AlphaFold-style breakthrough: scarce, low-fidelity data. Mistral discussed Leanstral for formal proving, and NLW covered an Australian using ChatGPT and AlphaFold for his dog's vaccine.",
+      "eps": ["aidb/2026-03-09", "no-priors/2026-03-20", "dwarkesh/2026-03-20", "latent-space/2026-03-24", "latent-space/2026-03-30", "aidb/2026-03-16"]
+    },
+    {
+      "title": "Compute, chips and power limits",
+      "body": "SemiAnalysis CEO Dylan Patel told Dwarkesh that ASML EUV tool supply is the binding constraint by 2030, with a memory crunch looming, while US power can be scaled. Jensen Huang discussed four scaling laws and power and supply chain blockers with Lex Fridman. NVIDIA's Dynamo team described data-center-scale inference with prefill/decode disaggregation. Ben Buchanan argued computing power, not data, drives AI. At the other end, Edge Impulse's Brandon Shibley covered small models and cascades under edge constraints.",
+      "eps": ["dwarkesh/2026-03-13", "lex-fridman/2026-03-23", "latent-space/2026-03-10", "practical-ai/2026-03-09", "aidb/2026-03-17", "practical-ai/2026-03-25"]
+    },
+    {
+      "title": "Safety, interpretability and better evals",
+      "body": "UK AISI chief scientist Geoffrey Irving argued recent model misbehavior is all reward hacking and that current safety techniques may fail together. Goodfire's Dan Balsam and Tom McGrath described reducing hallucinations with probes and RL. Jassi Pannu proposed tiered controls on a small slice of high-risk biological data. Nathan Labenz surveyed reward hacking and deception for law students. NLW reviewed benchmark saturation and the launch of ARC-AGI-3, where frontier models score under 1%.",
+      "eps": ["cognitive-revolution/2026-03-01", "cognitive-revolution/2026-03-05", "cognitive-revolution/2026-03-11", "cognitive-revolution/2026-03-16", "aidb/2026-03-26", "cognitive-revolution/2026-03-19"]
+    }
+  ],
+  "implications": [
+    "Personal and desktop agents are arriving through vendors whether or not IT plans for them. Decide now which agent runtimes are allowed, where they run (local VM, cloud sandbox) and which accounts and data they can reach.",
+    "Treat agent identity and access as an architecture problem. Guests from Box, Cisco and Composio all pointed to governed workspaces, scoped credentials and task-based permissions as the prerequisite for letting agents touch enterprise systems.",
+    "As agents write more code, review and validation become the constraint. Invest in specs, automated tests and evaluation harnesses, and expect review tooling to carry real per-use costs that need budgeting.",
+    "Design the integration layer for agents, not just humans. CLIs, skills and well-documented APIs lower the cost of agent use, and keeping skills portable reduces lock-in to any single model vendor.",
+    "AI is now a political and workforce issue. Pair adoption plans with clear messaging on role redesign and reskilling, and track emerging national AI rules and vendor-government disputes as supplier risk."
+  ]
+}

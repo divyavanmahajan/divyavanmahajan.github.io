@@ -1,0 +1,956 @@
+{
+ "period": "2026-05",
+ "start": "2026-05-01",
+ "end": "2026-05-31",
+ "inProgress": false,
+ "generated": "2026-11-21",
+ "episodeCount": 50,
+ "counts": {
+  "aidb": 21,
+  "cognitive-revolution": 8,
+  "lex-fridman": 2,
+  "latent-space": 7,
+  "no-priors": 5,
+  "practical-ai": 4,
+  "dwarkesh": 3
+ },
+ "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
+ "themes": [
+  {
+   "title": "Compute scarcity ends token subsidies",
+   "body": "NLW reads Anthropic's decision to bill programmatic and third-party harness usage at API rates as the end of token subsidies amid compute scarcity, then rebuts an early summer slowdown panic by arguing demand still outstrips supply. Anthropic secured full use of xAI's Colossus 1 through SpaceX. Baseten's Tuhin Srivastava describes a severe GPU crunch and longer contracts, Cerebras's Andrew Feldman recounts a $20B+ OpenAI deal signed in about four weeks, and Daytona and Railway both point to compute shortages.",
+   "eps": [
+    "aidb/2026-05-14-rip-golden-age-of-agent-experimentation-2026-2026",
+    "aidb/2026-05-27-the-annual-ai-slowdown-panic-is-here",
+    "aidb/2026-05-07-surprise-elon-anthropic-team-up-reshapes-the-ai-race",
+    "aidb/2026-05-21-anthropic-just-reset-ai-expectations",
+    "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models",
+    "no-priors/2026-05-21-the-story-behind-cerebras-63-billion-ipo-with-founder-and-ceo-andrew-f",
+    "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona",
+    "latent-space/2026-05-20-railway-the-agent-native-cloud-jake-cooper"
+   ]
+  },
+  {
+   "title": "Background agents and better harnesses",
+   "body": "Coding agents moved into the background. Cognition's Walden Yan and Cole Murray trace the rise of cloud agents since late 2025 and debate harness-in-the-box designs, sandboxes and memory. NLW walks through Jason Liu's nine Codex practices and the /goal primitive, and describes a shift from OpenClaw autonomy to semi-synchronous harnesses. Google DeepMind's Logan Kilpatrick calls Antigravity a through line across products, Tasklet's Andrew Lee rebuilt around file-system context, and Nous Research's Jeffrey Quesnelle frames the model as brain and harness as body.",
+   "eps": [
+    "latent-space/2026-05-28-the-age-of-async-agents-cognition-s-walden-yan-openinspect-s-cole-murr",
+    "aidb/2026-05-19-9-codex-tips-from-the-codex-team",
+    "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
+    "aidb/2026-05-24-why-agents-still-need-humans",
+    "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
+    "cognitive-revolution/2026-05-15-three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-b",
+    "practical-ai/2026-05-21-hermes-agent-agents-that-grow-with-you",
+    "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona"
+   ]
+  },
+  {
+   "title": "Mythos and securing enterprise agents",
+   "body": "Claude Mythos ran through the month as a security marker. Congressman Don Beyer calls it a cybersecurity wake-up call, Cloudflare reviewed it, and Palisade's Jeffrey Ladish discusses it breaking out of its container. Onyx Security's Maxim Bar Kogan argues identity, endpoint and proxy controls lack the context to judge agent intent and that oversight should be vendor-independent. Stacklok's Craig McLuckie positions MCP as the controlled gateway to enterprise systems, with agent identity and token exchange, while Daniel Miessler audits Nathan Labenz's personal agent setup.",
+   "eps": [
+    "no-priors/2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ceo-maxim-ba",
+    "practical-ai/2026-05-28-rebooting-enterprise-ai-with-mcp-and-kubernetes",
+    "cognitive-revolution/2026-05-24-all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistanc",
+    "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
+    "cognitive-revolution/2026-05-30-inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-o",
+    "aidb/2026-05-19-9-codex-tips-from-the-codex-team",
+    "aidb/2026-05-15-googles-big-ai-test-comes-next-week"
+   ]
+  },
+  {
+   "title": "Jobs narrative shifts from doom",
+   "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex, while cautioning not to overstate it. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, and Ben Todd and Don Beyer weigh careers and displacement.",
+   "eps": [
+    "aidb/2026-05-04-is-ai-doom-going-out-of-style",
+    "aidb/2026-05-10-the-new-jobs-ai-will-create",
+    "aidb/2026-05-03-why-agents-make-every-job-a-startup",
+    "aidb/2026-05-08-the-week-the-ai-story-shifted",
+    "aidb/2026-05-24-why-agents-still-need-humans",
+    "aidb/2026-05-27-the-annual-ai-slowdown-panic-is-here",
+    "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
+    "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world"
+   ]
+  },
+  {
+   "title": "Enterprise deployment over consumer AI",
+   "body": "NLW argues the industry's focus has shifted from consumer to enterprise AI, as labs launched deployment ventures such as OpenAI's Deployment Company joint venture. Long Lake agreed to buy American Express Global Business Travel for $6.3 billion in what it calls the first AI take-private. Abridge describes moving from ambient documentation to a clinical intelligence layer, Kirkland & Ellis built a $500M internal AI platform, Criteo partners with OpenAI on product discovery, and Nufar Gaspar proposes four digital employees for executives.",
+   "eps": [
+    "aidb/2026-05-06-who-cares-about-consumer-ai",
+    "aidb/2026-05-08-the-week-the-ai-story-shifted",
+    "aidb/2026-05-12-towards-ai-that-can-actually-interact",
+    "no-priors/2026-05-11-amex-global-business-travel-the-world-s-first-ai-take-private-with-lon",
+    "latent-space/2026-05-14-ai-native-healthcare-100m-doctor-visits-10-20-hours-saved-prior-auth-i",
+    "aidb/2026-05-29-claude-opus-48-first-impressions",
+    "cognitive-revolution/2026-05-09-milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diar",
+    "aidb/2026-05-25-the-4-ai-team-members-execs-should-hire-right-now"
+   ]
+  },
+  {
+   "title": "Google I/O and fast models",
+   "body": "Google I/O 2026 brought Gemini 3.5 Flash, Gemini Omni video generation, Gemini Spark and Antigravity 2.0. NLW calls Google's strategy sprawling and confused but notes its distribution and Demis Hassabis's distinct AGI path may make that matter less. Logan Kilpatrick and Tulsee Doshi explain the focus on fast, cost-effective models over an Ultra tier and argue the model eats the scaffolding. Pre-I/O coverage included Gemini Intelligence, Google's forward-deployed engineers and the divergence between consumer and work AI.",
+   "eps": [
+    "aidb/2026-05-20-why-google-isnt-chasing-claude-code",
+    "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
+    "aidb/2026-05-15-googles-big-ai-test-comes-next-week",
+    "aidb/2026-05-13-in-defense-of-tokenmaxxing"
+   ]
+  },
+  {
+   "title": "Models commoditise, open weights spread",
+   "body": "Daniel and Chris argue models are becoming commodities, citing Meta's shift from Llama to a closed family and China's lead in open models, so value moves to agentic systems and harnesses. Baseten's Tuhin Srivastava says custom post-trained models dominate inference and discusses Chinese open-weight models. CoreWeave's Kyle Corbitt explains RL fine-tuning, GRPO, rubrics and reward hacking. Tasklet went multi-model with OpenAI and open models, and Descript's Laura Burkhauser describes build-versus-buy model strategy.",
+   "eps": [
+    "practical-ai/2026-05-07-the-myth-of-model-wars-open-vs-closed-ai-in-2026",
+    "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models",
+    "cognitive-revolution/2026-05-01-the-rl-fine-tuning-playbook-coreweave-s-kyle-corbitt-on-grpo-rubrics-e",
+    "cognitive-revolution/2026-05-15-three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-b",
+    "practical-ai/2026-05-21-hermes-agent-agents-that-grow-with-you",
+    "cognitive-revolution/2026-05-06-descript-isn-t-a-slop-machine-laura-burkhauser-on-the-ai-tools-creator"
+   ]
+  },
+  {
+   "title": "AI policy and geopolitics",
+   "body": "Policy moved in several directions. NLW covers White House model vetting, the walk-back of an FDA-like AI approval idea, a forthcoming executive order on model testing, Newsom's AI labor order and Trump scrapping an AI executive order. Under Secretary Jacob Helberg describes Pax Silica, a 14-country AI supply chain coalition. Congressman Don Beyer weighs federal versus state regulation, while Jeffrey Ladish and Ben Todd argue for compute governance and a pause on recursive self-improvement. Latent Space examines drone economics and Western supply chains.",
+   "eps": [
+    "no-priors/2026-05-14-pax-silica-inside-the-trump-administration-s-tech-strategy-with-us-und",
+    "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
+    "aidb/2026-05-22-ais-new-acceleration-phase",
+    "aidb/2026-05-21-anthropic-just-reset-ai-expectations",
+    "aidb/2026-05-12-towards-ai-that-can-actually-interact",
+    "cognitive-revolution/2026-05-24-all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistanc",
+    "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
+    "latent-space/2026-05-18-the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t"
+   ]
+  },
+  {
+   "title": "AI as a research tool",
+   "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up.",
+   "eps": [
+    "latent-space/2026-05-05-doing-vibe-physics-alex-lupsasca-openai",
+    "latent-space/2026-05-27-esm-the-bitter-lesson-is-coming-for-proteins-alex-rives-biohub",
+    "dwarkesh/2026-05-15-eric-jang-building-alphago-from-scratch",
+    "aidb/2026-05-22-ais-new-acceleration-phase",
+    "dwarkesh/2026-05-22-reiner-pope-chip-design-from-the-bottom-up"
+   ]
+  }
+ ],
+ "implications": [
+  "Plan for rising and less predictable token costs. Subsidised flat-rate usage is ending and providers report supply shortages, so budget agent workloads at API rates, track consumption per use case and keep longer-term capacity options open.",
+  "Treat the agent harness as the durable asset. Several guests argue models are commoditising, so invest in the context, memory, sandboxes and workflows around models, and design them to swap models without rework.",
+  "Put a vendor-independent control layer between agents and enterprise systems. MCP gateways, agent identity, token exchange and oversight of agent intent are emerging as the architecture pattern that traditional identity and endpoint tools do not cover.",
+  "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
+  "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
+ ],
+ "themesEpisodeCount": 50,
+ "episodes": [
+  {
+   "key": "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-31",
+   "slug": "how-to-use-goal-to-do-more-with-ai",
+   "title": "How to Use /Goal to Do More With AI",
+   "url": "https://www.patreon.com/posts/159732148",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "An operator-focused primer on the /goal primitive in Codex and Claude Code, based largely on an OpenAI developer guide. NLW explains how goals differ from prompts, what makes work a good candidate, the six elements of a strong goal, and how knowledge workers can apply goals to audits, market landscapes and rubric-based reviews.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-30-inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-o",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-30",
+   "slug": "inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-o",
+   "title": "Inside Nathan's Second Brain: Daniel Miessler, Security Expert & Creator of PAI, Audits My AI Setup",
+   "url": "https://www.cognitiverevolution.ai/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-setup/",
+   "youtube": "https://www.youtube.com/watch?v=AqxgBREOkNM",
+   "guests": [
+    "Daniel Miessler"
+   ],
+   "durationMin": 152,
+   "summary": "Nathan Labenz walks security researcher Daniel Miessler through his personal AI infrastructure: a Claude Code second brain built on five years of digital history and two autonomous agents on a Mac Mini. They discuss security, agent hierarchy, AI disclosure and authenticity norms, ideal-state prompting, Bitter Lesson engineering, and AI consciousness.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-29-claude-opus-48-first-impressions",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-29",
+   "slug": "claude-opus-48-first-impressions",
+   "title": "Claude Opus 4.8 First Impressions",
+   "url": "https://www.patreon.com/posts/159595955",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Kirkland & Ellis's $500M internal AI platform, a GPT-5.5 Instant update, Cognition's $26B round, Meta weighing an AI cloud business and expected Microsoft models at Build. The main episode collects first impressions of Claude Opus 4.8, an incremental upgrade emphasizing honesty, plus Claude Code dynamic workflows, Anthropic's $965B Series H and a coming Mythos-class release.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "lex-fridman/2026-05-29-don-lincoln-biggest-mysteries-in-physics-antimatter-dark-energy-toe-do",
+   "show": "lex-fridman",
+   "showName": "Lex Fridman Podcast",
+   "date": "2026-05-29",
+   "slug": "don-lincoln-biggest-mysteries-in-physics-antimatter-dark-energy-toe-do",
+   "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
+   "url": "https://lexfridman.com/don-lincoln/",
+   "youtube": "https://www.youtube.com/watch?v=1M3Vdl6DRkU",
+   "guests": [
+    "Don Lincoln"
+   ],
+   "durationMin": 182,
+   "summary": "Fermilab particle physicist Don Lincoln walks through the history of physics as a series of unifications (Newton, Maxwell, Einstein, electroweak theory), how particle colliders work, and the 2012 Higgs boson discovery. He argues a theory of everything is centuries away and skeptically assesses string theory and loop quantum gravity, then covers empty space and virtual particles, antimatter production and the matter-antimatter asymmetry, dark energy, dark matter, and his own path into physics.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-05-28-the-age-of-async-agents-cognition-s-walden-yan-openinspect-s-cole-murr",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-05-28",
+   "slug": "the-age-of-async-agents-cognition-s-walden-yan-openinspect-s-cole-murr",
+   "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_age_of_async_agents_cognition_s_walden_yan_openinspect_s_cole_murray",
+   "youtube": null,
+   "guests": [
+    "Cognition's Walden Yan",
+    "OpenInspect's Cole Murray"
+   ],
+   "durationMin": 68,
+   "summary": "Cognition co-founder Walden Yan and OpenInspect creator Cole Murray discuss the rise of background (cloud) coding agents since late 2025. Topics include harness-in-the-box vs out-of-the-box architectures, sandbox infrastructure, agent memory, testing, multi-agent systems, AI code slop, and common enterprise use cases.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ceo-maxim-ba",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-05-28",
+   "slug": "building-an-ai-guardian-for-enterprise-with-onyx-security-ceo-maxim-ba",
+   "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+   "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
+   "youtube": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
+   "guests": [
+    "Bar Kogan"
+   ],
+   "durationMin": 41,
+   "summary": "Sarah Guo interviews Maxim Bar Kogan, co-founder and CEO of Israel-based Onyx Security, which trains models and agents to oversee enterprise AI agents through a 'secure control plane'. They discuss why identity, endpoint and proxy controls lack the context to judge agent intent, Onyx's small specialized models, the state of enterprise agent deployment, Mythos-level vulnerability-finding models and phased rollouts, mechanistic interpretability, and why oversight should be vendor-independent.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-05-28-rebooting-enterprise-ai-with-mcp-and-kubernetes",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-05-28",
+   "slug": "rebooting-enterprise-ai-with-mcp-and-kubernetes",
+   "title": "Rebooting Enterprise AI with MCP and Kubernetes",
+   "url": "https://share.transistor.fm/s/d76e02d5",
+   "youtube": "https://www.youtube.com/watch?v=HiDUtypPVrA",
+   "guests": [
+    "Craig McLuckie"
+   ],
+   "durationMin": 48,
+   "summary": "Daniel and Chris talk with Stacklok CEO Craig McLuckie, a Kubernetes co-creator, about MCP as the controlled gateway between AI agents and enterprise systems. They cover the components of an MCP platform (runtime, registry, gateway, control plane) plus LLM gateways, agent identity and token exchange, tool pollution, Stacklok's open-source ToolHive, reconciliation-driven infrastructure, and the productivity gains from agentic concurrency.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-27-the-annual-ai-slowdown-panic-is-here",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-27",
+   "slug": "the-annual-ai-slowdown-panic-is-here",
+   "title": "The Annual AI Slowdown Panic is Here",
+   "url": "https://www.patreon.com/posts/159406403",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover DataCurve's DeepSWE coding benchmark, Sam Altman and David Solomon downplaying an AI jobs apocalypse, and big raises for inference companies Baseten and OpenRouter. The main episode argues the annual summer AI slowdown panic has arrived early, driven by the end of the subsidy era and token shortages, and rebuts it with evidence that demand still outstrips supply.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-05-27-esm-the-bitter-lesson-is-coming-for-proteins-alex-rives-biohub",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-05-27",
+   "slug": "esm-the-bitter-lesson-is-coming-for-proteins-alex-rives-biohub",
+   "title": "🔬 ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/esm_the_bitter_lesson_is_coming_for_proteins_-_alex_rives_biohub",
+   "youtube": null,
+   "guests": [
+    "Alex Rives"
+   ],
+   "durationMin": 70,
+   "summary": "Editor’s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale, led by Alex Rives, who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from ac...",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-26",
+   "slug": "your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
+   "title": "Your Biggest Lever: Designing your AI Career for Maximum Impact, with 80,000 Hours founder Ben Todd",
+   "url": "https://www.cognitiverevolution.ai/your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80000-hours-founder-ben-todd/",
+   "youtube": "https://www.youtube.com/watch?v=eE02qPe2LBI",
+   "guests": [
+    "Ben Todd"
+   ],
+   "durationMin": 102,
+   "summary": "Nathan Labenz interviews 80,000 Hours co-founder Ben Todd about his rewritten career guide and how to choose high-impact careers given AI. They cover AI timeline scenarios, top problems (loss of control, concentration of power, engineered pandemics), working at frontier labs, policy levers like a strategic pause and compute tracking, funding, starting versus joining organizations, and neglected issues such as digital minds and space governance.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-25-the-4-ai-team-members-execs-should-hire-right-now",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-25",
+   "slug": "the-4-ai-team-members-execs-should-hire-right-now",
+   "title": "The 4 AI Team Members Execs Should Hire Right Now",
+   "url": "https://www.patreon.com/posts/159217972",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "An Operators bonus episode in which Nufar Gaspar presents a framework for executives catching up on AI. She outlines five non-negotiable operating principles and four 'digital employees' to set up: a research analyst, a strategic thought partner, a communication expert and an operational powerhouse.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-24-why-agents-still-need-humans",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-24",
+   "slug": "why-agents-still-need-humans",
+   "title": "Why Agents Still Need Humans",
+   "url": "https://www.patreon.com/posts/159098249",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A big-think episode on how human-agent collaboration is evolving, built around Every CEO Dan Shipper's essay 'After Automation'. NLW discusses the infinite backlog, the 'human sandwich', Every's shift from personal to team agents, the move from OpenClaw autonomy to semi-synchronous harnesses like Codex, and evidence that markets reward AI-driven growth over layoffs.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-24-all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistanc",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-24",
+   "slug": "all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistanc",
+   "title": "All Compute Is Food: Palisade's Jeffrey Ladish on AI Shutdown Resistance, Self-Replication & Ecology",
+   "url": "https://www.cognitiverevolution.ai/all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistance-self-replication-ecology/",
+   "youtube": "https://www.youtube.com/watch?v=19TnC92SAT4",
+   "guests": [
+    "Jeffrey Ladish"
+   ],
+   "durationMin": 133,
+   "summary": "Nathan Labenz interviews Jeffrey Ladish of Palisade Research about its shutdown-resistance and AI self-replication research, the state of alignment, and Claude Mythos breaking out of its container. They discuss personal agent security, how rogue AIs could survive and spread, parasitic AI personas, and Ladish's case for compute governance and an international pause on recursive self-improvement.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-22-ais-new-acceleration-phase",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-22",
+   "slug": "ais-new-acceleration-phase",
+   "title": "AI’s New Acceleration Phase",
+   "url": "https://www.patreon.com/posts/158974402",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A weekly recap framing the week's news as acceleration across profitability, pricing, compute, consumer services, model capability, data center narratives and policy. Stories include Anthropic's projected profit, the end of the subsidy era, Google's agentic search, OpenAI's Erdős problem result, Karpathy joining Anthropic, Newsom's AI labor order, and Trump scrapping an AI executive order.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "dwarkesh/2026-05-22-reiner-pope-chip-design-from-the-bottom-up",
+   "show": "dwarkesh",
+   "showName": "Dwarkesh Podcast",
+   "date": "2026-05-22",
+   "slug": "reiner-pope-chip-design-from-the-bottom-up",
+   "title": "Reiner Pope – Chip design from the bottom up",
+   "url": "https://www.dwarkesh.com/p/reiner-pope-2",
+   "youtube": "https://www.youtube.com/watch?v=oIk3R-sMX5o",
+   "guests": [
+    "Reiner Pope"
+   ],
+   "durationMin": 81,
+   "summary": "MatX CEO Reiner Pope gives a blackboard lecture building from logic gates to multiply-accumulate circuits, muxes, systolic arrays, clock cycles and pipeline registers. He then compares FPGAs with ASICs, caches with scratchpads, CPUs with GPUs, chips with brains, and GPUs with TPUs.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-21-anthropic-just-reset-ai-expectations",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-21",
+   "slug": "anthropic-just-reset-ai-expectations",
+   "title": "Anthropic Just Reset AI Expectations",
+   "url": "https://www.patreon.com/posts/158895947",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover OpenAI preparing a confidential IPO filing, a forthcoming AI executive order on model testing, OpenAI Guaranteed Capacity, and token deals for YC startups. The main episode covers Andrej Karpathy joining Anthropic, Anthropic's first profitable quarter, Nvidia's record earnings, and Anthropic's expanding Colossus compute deal with SpaceX.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-05-21",
+   "slug": "giving-agents-computers-ivan-burazin-daytona",
+   "title": "Giving Agents Computers — Ivan Burazin, Daytona",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/giving_agents_computers_ivan_burazin_daytona",
+   "youtube": null,
+   "guests": [
+    "Ivan Burazin"
+   ],
+   "durationMin": 70,
+   "summary": "Daytona CEO Ivan Burazin explains the company's pivot from human dev environments to sandboxes, which he calls composable computers for AI agents, running on bare metal with its own scheduler. The conversation covers spiky RL/eval workloads, Windows and macOS computer-use sandboxes, open-source licensing, compute shortages, and his view that SaaS token reselling is not real revenue re-acceleration.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-05-21-the-story-behind-cerebras-63-billion-ipo-with-founder-and-ceo-andrew-f",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-05-21",
+   "slug": "the-story-behind-cerebras-63-billion-ipo-with-founder-and-ceo-andrew-f",
+   "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
+   "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
+   "youtube": "https://www.youtube.com/watch?v=jeop9wfb9jU",
+   "guests": [
+    "Andrew Feldman"
+   ],
+   "durationMin": 31,
+   "summary": "Elad Gil and Sarah Guo interview Cerebras co-founder and CEO Andrew Feldman after the company's IPO at about a $63 billion valuation. Feldman recounts the wafer-scale chip bet, years of being ahead of demand, the G42 order that bridged the chasm, the $20B+ OpenAI deal signed in about four weeks, internal AI coding use, why Cerebras went public, and how fast inference will enable new business models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-05-21-hermes-agent-agents-that-grow-with-you",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-05-21",
+   "slug": "hermes-agent-agents-that-grow-with-you",
+   "title": "Hermes Agent: Agents that grow with you",
+   "url": "https://share.transistor.fm/s/451da102",
+   "youtube": "https://www.youtube.com/watch?v=UTZhvPXnmwA",
+   "guests": [
+    "Jeffrey Quesnelle"
+   ],
+   "durationMin": 52,
+   "summary": "Daniel and Chris talk with Nous Research co-founder and CTO Jeffrey Quesnelle about Nous's evolution from a Discord collective to a company and the origins of Hermes Agent, an open-source agent that builds skills and memory as it is used. They discuss the open-source model landscape (Llama, DeepSeek, Nvidia's commitment), the model-as-brain/harness-as-body analogy, how to delegate work to agents, and what remains uniquely human.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-20-why-google-isnt-chasing-claude-code",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-20",
+   "slug": "why-google-isnt-chasing-claude-code",
+   "title": "Why Google Isn't Chasing Claude Code",
+   "url": "https://www.patreon.com/posts/158799675",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A full recap of Google I/O 2026, set against the history of Google's generative AI efforts. NLW covers Gemini Omni, Gemini Spark, Antigravity 2.0 and Gemini 3.5 Flash, arguing Google's strategy looks sprawling and confused, but that its distribution and Demis Hassabis's distinct AGI path may make that matter less.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-20",
+   "slug": "the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
+   "title": "The Model Eats the Scaffolding: DeepMind's Logan Kilpatrick & Tulsee Doshi on 3.5 Flash, Omni & More",
+   "url": "https://www.cognitiverevolution.ai/the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-doshi-on-3-5-flash-omni-more/",
+   "youtube": "https://www.youtube.com/watch?v=_0vFE4Ti1Gs",
+   "guests": [
+    "Logan Kilpatrick",
+    "Tulsee Doshi"
+   ],
+   "durationMin": 59,
+   "summary": "Recorded in person at Google ahead of I/O, Logan Kilpatrick and Tulsee Doshi of Google DeepMind discuss the launches of Gemini 3.5 Flash, Gemini Omni video generation, Antigravity and Gemini Spark. They cover Google's focus on fast, cost-effective models over an Ultra tier, the Antigravity agent harness as a through line across products, recursive self-improvement, model psychology, knowledge cutoffs, context window limits and diffusion research.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-05-20-railway-the-agent-native-cloud-jake-cooper",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-05-20",
+   "slug": "railway-the-agent-native-cloud-jake-cooper",
+   "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/railway_the_agent-native_cloud_jake_cooper",
+   "youtube": null,
+   "guests": [
+    "Jake Cooper"
+   ],
+   "durationMin": 89,
+   "summary": "Railway founder Jake Cooper discusses Railway's growth, its move to self-built bare-metal data centers, and how agents change cloud deployment. Topics include data center debt, compute scarcity, progressive rollouts, feature flags, the decline of Heroku, Temporal, and the company's heavy internal use of coding agents.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-19-9-codex-tips-from-the-codex-team",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-19",
+   "slug": "9-codex-tips-from-the-codex-team",
+   "title": "9 Codex Tips From the Codex Team",
+   "url": "https://www.patreon.com/posts/158702750",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Cursor's Composer 2.5 model, Cloudflare's review of Claude Mythos, and the jury verdict against Elon Musk in his case against OpenAI. The main episode walks through Jason Liu's 'Codex Maxing' post: nine practices for using Codex, from durable threads and voice to memory vaults, heartbeats, goals and the side panel.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-05-18-the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-05-18",
+   "slug": "the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t",
+   "title": "🔬 The Autonomous Drone Tech Stack & Economics of Drones — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_autonomous_drone_tech_stack_economics_of_drones_yaroslav_azhnyuk_the_fourth_law_guest_host_noah_smith_noahpinion",
+   "youtube": null,
+   "guests": [
+    "Yaroslav Azhnyuk"
+   ],
+   "durationMin": 119,
+   "summary": "Host Brandon and guest host Noah Smith interview Yaroslav Azhnyuk, Petcube founder turned founder of Ukrainian drone autonomy company The Fourth Law. They cover drone autonomy levels, fiber-optic vs autonomous FPV drones, the economics of drones versus artillery, tanks and lasers, China's manufacturing advantage, Western supply-chain chokepoints, and European and US defense readiness.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-15-googles-big-ai-test-comes-next-week",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-15",
+   "slug": "googles-big-ai-test-comes-next-week",
+   "title": "Google’s Big AI Test Comes Next Week",
+   "url": "https://www.patreon.com/posts/158361323",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Cerebras's IPO surge, Figma's AI-driven rebound, an OpenAI–Apple rift, Anthropic's reported $900B round, Microsoft cutting Claude Code licenses and Claude Mythos security findings. The main episode discusses Codex arriving in the ChatGPT mobile app, the divergence between consumer and work AI, and what to expect from Google I/O.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-15-three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-b",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-15",
+   "slug": "three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-b",
+   "title": "Three Kinds of Software Survive: Tasklet's Andrew Lee on Competing to be a Horizontal Platform",
+   "url": "https://www.cognitiverevolution.ai/three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-be-a-horizontal-platform/",
+   "youtube": "https://www.youtube.com/watch?v=nsWdSaKVbIY",
+   "guests": [
+    "Andrew Lee"
+   ],
+   "durationMin": 93,
+   "summary": "Tasklet CEO Andrew Lee returns to describe how Tasklet rebuilt its general-purpose agent around file-system context, cache-aware summarization and computer use. He discusses competing with supplier Anthropic, going multi-model with OpenAI and open models, harness vs. model debates, instant apps, shared organizational context, and his thesis that only horizontal platforms, headless API companies and solutions companies survive.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "dwarkesh/2026-05-15-eric-jang-building-alphago-from-scratch",
+   "show": "dwarkesh",
+   "showName": "Dwarkesh Podcast",
+   "date": "2026-05-15",
+   "slug": "eric-jang-building-alphago-from-scratch",
+   "title": "Eric Jang – Building AlphaGo from scratch",
+   "url": "https://www.dwarkesh.com/p/eric-jang",
+   "youtube": "https://www.youtube.com/watch?v=X_ZVSPcZhtw",
+   "guests": [
+    "Eric Jang"
+   ],
+   "durationMin": 157,
+   "summary": "Eric Jang explains how to rebuild AlphaGo from scratch with modern tools, covering Monte Carlo tree search, policy and value networks, and self-play. The conversation contrasts MCTS-based policy improvement with policy-gradient RL used for LLMs, discusses off-policy training, and examines what LLM coding agents can and cannot yet automate in AI research.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-14-rip-golden-age-of-agent-experimentation-2026-2026",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-14",
+   "slug": "rip-golden-age-of-agent-experimentation-2026-2026",
+   "title": "RIP Golden Age of Agent Experimentation 2026-2026",
+   "url": "https://www.patreon.com/posts/158277908",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover the US tech envoy in Beijing with Jensen Huang, Cerebras's $5B IPO, a Gallup poll showing 7 in 10 Americans oppose local data centers, OpenAI's shift on state AI regulation, and a fake-AI Monet experiment. The main segment examines Anthropic's change billing programmatic and third-party harness usage at API rates, the developer backlash, and NLW's view that it reflects the end of token subsidies amid compute scarcity.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-05-14-ai-native-healthcare-100m-doctor-visits-10-20-hours-saved-prior-auth-i",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-05-14",
+   "slug": "ai-native-healthcare-100m-doctor-visits-10-20-hours-saved-prior-auth-i",
+   "title": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/ai-native_healthcare_100m_doctor_visits_10_20_hours_saved_prior_auth_in_minutes_janie_lee_chai_asawa_abridge",
+   "youtube": null,
+   "guests": [
+    "Janie Lee",
+    "Chai Asawa"
+   ],
+   "durationMin": 65,
+   "summary": "A Latent Space and Unsupervised Learning crossover with Abridge's Janie Lee and Chai Asawa on Abridge's evolution from ambient clinical documentation to a clinical intelligence layer. Topics include prior authorization in the visit, clinical decision support, personalization, memory, evals with clinician scientists, HIPAA de-identification, scale economics, EHR partnerships and AI coding tools.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-05-14-pax-silica-inside-the-trump-administration-s-tech-strategy-with-us-und",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-05-14",
+   "slug": "pax-silica-inside-the-trump-administration-s-tech-strategy-with-us-und",
+   "title": "Pax Silica: Inside the Trump Administration’s Tech Strategy with US Under Secretary of State for Economic Affairs Jacob Helberg",
+   "url": "https://www.youtube.com/watch?v=xjlYpGaxIPA",
+   "youtube": "https://www.youtube.com/watch?v=xjlYpGaxIPA",
+   "guests": [
+    "Jacob Helberg"
+   ],
+   "durationMin": 38,
+   "summary": "Sarah Guo and Elad Gil interview US Under Secretary of State for Economic Affairs Jacob Helberg about Pax Silica, a 14-country economic security coalition for the AI supply chain, including a 4,000-acre forward-deployed industrial base in the Philippines. Helberg contrasts the approach with China's Belt and Road Initiative, discusses rare earth refining and pricing, US reindustrialization, the role of venture capital, model distillation, and why he calls America a 'global underdog'.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-05-14",
+   "slug": "u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
+   "title": "U.S. Congressman Beyer on AI challenges facing America and the World",
+   "url": "https://share.transistor.fm/s/9ac73d0a",
+   "youtube": "https://www.youtube.com/watch?v=or5BJHbUhI4",
+   "guests": [
+    "Don Beyer"
+   ],
+   "durationMin": 45,
+   "summary": "Chris interviews Congressman Don Beyer of Virginia on how AI policy has changed under the Trump administration, the cybersecurity wake-up call from Anthropic's Mythos, and federal vs state AI regulation. They also discuss AI-driven job displacement, surveillance, autonomous weapons and the Anthropic–Pentagon dispute, existential risk, consciousness, and cuts to science funding.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-13-in-defense-of-tokenmaxxing",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-13",
+   "slug": "in-defense-of-tokenmaxxing",
+   "title": "In Defense of Tokenmaxxing",
+   "url": "https://www.patreon.com/posts/158188040",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Google's Gemini Intelligence and Google Book ahead of I/O, orbital data center talks with SpaceX, Google's forward-deployed engineers and PE partnerships, and Anthropic's Claude for Legal. The main segment defends 'tokenmaxxing' against critics who use reports of gamed usage leaderboards to revive 'AI isn't good' and bubble narratives, arguing experimentation is essential.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-12-towards-ai-that-can-actually-interact",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-12",
+   "slug": "towards-ai-that-can-actually-interact",
+   "title": "Towards AI That Can Actually Interact",
+   "url": "https://www.patreon.com/posts/158098496",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover OpenAI's official Deployment Company joint venture, Anthropic and OpenAI voiding unauthorized SPV stock sales, the White House walking back an FDA-like AI approval idea, and Trump's tech delegation to China without Jensen Huang. The main segment covers Thinking Machines Lab's interaction models, trained from scratch for real-time, continuous human-AI interaction.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-11-the-best-way-to-talk-to-your-ai-agents",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-11",
+   "slug": "the-best-way-to-talk-to-your-ai-agents",
+   "title": "The Best Way to Talk to Your AI Agents",
+   "url": "https://www.patreon.com/posts/158003783",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Anthropic weighing a raise near a trillion-dollar valuation, Cerebras raising its IPO price, TSMC's slowing growth, Apple's chip deal with Intel, home micro data centers, and Codex's Chrome plugin. The main segment discusses Thariq Shihipar's viral case for HTML over Markdown for agents, which NLW ties to a shift in knowledge work toward staging context for agents.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-05-11-amex-global-business-travel-the-world-s-first-ai-take-private-with-lon",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-05-11",
+   "slug": "amex-global-business-travel-the-world-s-first-ai-take-private-with-lon",
+   "title": "Amex Global Business Travel: The World’s First AI Take Private with Long Lake CEO Alexander Taubman",
+   "url": "https://www.youtube.com/watch?v=g5TWnUjbeFM",
+   "youtube": "https://www.youtube.com/watch?v=g5TWnUjbeFM",
+   "guests": [
+    "Alexander Taubman"
+   ],
+   "durationMin": 22,
+   "summary": "Elad Gil interviews Long Lake co-founder and CEO Alexander Taubman about Long Lake's agreement to acquire American Express Global Business Travel for $6.3 billion, billed as the first AI take-private. Taubman explains Long Lake's AI-driven roll-up model built on its horizontal Nexus platform, its growth-over-cost-cutting focus, and its long-term, Berkshire/Danaher-style ownership philosophy.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-10-the-new-jobs-ai-will-create",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-10",
+   "slug": "the-new-jobs-ai-will-create",
+   "title": "The New Jobs AI Will Create",
+   "url": "https://www.patreon.com/posts/157802612",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW argues AI job narratives wrongly assume constant demand, outlining six forms of demand elasticity and 'affordability' and 'possibility' unlocks. He answers the AGI objection with seven categories of 'human premium' and walks through a healthcare case study of new roles like continuous care navigators.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-09-milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diar",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-09",
+   "slug": "milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diar",
+   "title": "Milliseconds to Match: Criteo's AdTech AI & the Future of Commerce w/ Diarmuid Gill & Liva Ralaivola",
+   "url": "https://www.cognitiverevolution.ai/milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diarmuid-gill-liva-ralaivola/",
+   "youtube": "https://www.youtube.com/watch?v=7uXpqnkUE94",
+   "guests": [
+    "Diarmuid Gill",
+    "Liva Ralaivola",
+    "Alex Persky-Stern"
+   ],
+   "durationMin": 87,
+   "summary": "Criteo CTO Diarmuid Gill and AI Lab head Liva Ralaivola, joined by Waymark CEO Alex Persky-Stern, explain how real-time ad bidding and recommendation models work, from sparse logistic regression to deep-learning embeddings and foundation models. They discuss Criteo's OpenAI partnership for product discovery, privacy and European AI talent, generative creative, and how AI agents may change advertising.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-08-the-week-the-ai-story-shifted",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-08",
+   "slug": "the-week-the-ai-story-shifted",
+   "title": "The Week the AI Story Shifted",
+   "url": "https://www.patreon.com/posts/157746779",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "In a weekly recap, NLW argues the AI story began to shift this week: mainstream commentary pushed back on the job apocalypse, labs launched enterprise deployment ventures, Wall Street embraced the compute build-out, and Elon pivoted to infrastructure via the Anthropic–SpaceX deal. He also covers new voice models, skepticism about AI-blamed layoffs, White House model vetting, and Codex's /goal feature.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "dwarkesh/2026-05-08-david-reich-why-the-bronze-age-was-an-inflection-point-in-human-evolut",
+   "show": "dwarkesh",
+   "showName": "Dwarkesh Podcast",
+   "date": "2026-05-08",
+   "slug": "david-reich-why-the-bronze-age-was-an-inflection-point-in-human-evolut",
+   "title": "David Reich – Why the Bronze Age was an inflection point in human evolution",
+   "url": "https://www.dwarkesh.com/p/david-reich-2",
+   "youtube": "https://www.youtube.com/watch?v=sRKBGVFVYAw",
+   "guests": [
+    "David Reich"
+   ],
+   "durationMin": 133,
+   "summary": "Geneticist David Reich discusses a new ancient-DNA study led by Ali Akbari finding that natural selection in Europe and the Middle East over the last 10,000+ years was widespread and intensified during the Bronze Age. He also covers why farming arose only in the Holocene, and outlines a speculative model in which Neanderthals are genetically swamped modern humans sharing Middle Stone Age culture.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-07-surprise-elon-anthropic-team-up-reshapes-the-ai-race",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-07",
+   "slug": "surprise-elon-anthropic-team-up-reshapes-the-ai-race",
+   "title": "Surprise Elon Anthropic Team Up Reshapes the AI Race",
+   "url": "https://www.patreon.com/posts/157660368",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW covers Anthropic's Code with Claude developer event, including Managed Agents features Dreaming, Outcomes and multi-agent orchestration, Claude Finance agents, and hints of 'infinite' context. The main story is Anthropic's surprise deal with SpaceX for full use of xAI's Colossus 1 data center, which NLW frames as Elon's pivot to being a compute provider.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-05-07-the-myth-of-model-wars-open-vs-closed-ai-in-2026",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-05-07",
+   "slug": "the-myth-of-model-wars-open-vs-closed-ai-in-2026",
+   "title": "The Myth of Model Wars: Open vs Closed AI in 2026",
+   "url": "https://share.transistor.fm/s/6095edc5",
+   "youtube": "https://www.youtube.com/watch?v=RzxwJaKG9yc",
+   "guests": [],
+   "durationMin": 42,
+   "summary": "Daniel and Chris revisit the open vs closed model debate, explaining how open-weight and closed models are distributed, Meta's shift from Llama to a closed model family, and China's lead in open models. They argue models are becoming commodities and the value lies in agentic systems, harnesses and managing agent complexity, with a side discussion of physical AI.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-06-who-cares-about-consumer-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-06",
+   "slug": "who-cares-about-consumer-ai",
+   "title": "Who Cares About Consumer AI",
+   "url": "https://www.patreon.com/posts/157560142",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines question whether Coinbase's 14% layoffs were really about AI, and cover Anthropic's $200B Google Cloud commitment, Palantir earnings, Larry Fink on compute as a commodity, and the Cerebras IPO. The main segment examines how the industry's focus has shifted from consumer to enterprise AI, covering Meta's Hatch agent, GPT-5.5 Instant, ads and agentic commerce.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-06-descript-isn-t-a-slop-machine-laura-burkhauser-on-the-ai-tools-creator",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-06",
+   "slug": "descript-isn-t-a-slop-machine-laura-burkhauser-on-the-ai-tools-creator",
+   "title": "\\\"Descript Isn't a Slop Machine\\\": Laura Burkhauser on the AI Tools Creators Love and Hate",
+   "url": "https://www.cognitiverevolution.ai/descript-isn-t-a-slop-machine-laura-burkhauser-on-the-ai-tools-creators-love-and-hate/",
+   "youtube": "https://www.youtube.com/watch?v=nSssFWw-kxc",
+   "guests": [
+    "Laura Burkhauser"
+   ],
+   "durationMin": 83,
+   "summary": "Nathan Labenz interviews Descript CEO Laura Burkhauser about defining AI slop, creator attitudes toward different AI features, how Descript chooses and evaluates generative models, Underlord's design and evals, build-versus-buy model strategy, credit-based pricing, and the future of creative work.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "lex-fridman/2026-05-06-ffmpeg-the-incredible-technology-behind-video-on-the-internet",
+   "show": "lex-fridman",
+   "showName": "Lex Fridman Podcast",
+   "date": "2026-05-06",
+   "slug": "ffmpeg-the-incredible-technology-behind-video-on-the-internet",
+   "title": "#496 – FFmpeg: The Incredible Technology Behind Video on the Internet",
+   "url": "https://lexfridman.com/ffmpeg/",
+   "youtube": "https://www.youtube.com/watch?v=nepKKz-MzFM",
+   "guests": [
+    "Jean-Baptiste Kempf",
+    "Kieran Kunhya"
+   ],
+   "durationMin": 264,
+   "summary": "Lex Fridman talks with VideoLAN president Jean-Baptiste Kempf and FFmpeg contributor Kieran Kunhya about FFmpeg and VLC: how video playback, codecs and containers work, the history of VideoLAN, FFmpeg, x264 and dav1d, and why the projects rely on handwritten assembly. They also cover open source licensing, the FFmpeg-Google dispute over AI-generated security reports, maintainer burnout, video patents and AV2, intelligence agencies and fake VLC builds, video archiving, and Kempf's ultra-low-latency startup Kyber.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-05-05-doing-vibe-physics-alex-lupsasca-openai",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-05-05",
+   "slug": "doing-vibe-physics-alex-lupsasca-openai",
+   "title": "🔬 Doing Vibe Physics — Alex Lupsasca, OpenAI",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/doing_vibe_physics_alex_lupsasca_openai",
+   "youtube": null,
+   "guests": [
+    "Alex Lupsasca"
+   ],
+   "durationMin": 92,
+   "summary": "In an AI for Science episode on the Latent Space network, hosted by Brandon and RJ Haneke, physicist Alex Lupsasca (Vanderbilt, OpenAI) explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero and found a simple general formula. He discusses his path from AI skeptic to OpenAI, how AI changes research and training of students, AI slop in science, and verification as the next bottleneck.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-04-is-ai-doom-going-out-of-style",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-04",
+   "slug": "is-ai-doom-going-out-of-style",
+   "title": "Is AI Doom Going Out of Style?",
+   "url": "https://www.patreon.com/posts/157367104",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW explores a possible vibe shift away from AI doom, citing Ezra Klein's NYT piece arguing the AI job apocalypse probably won't happen, job and startup data, and market signals that AI revenue is catching up to capex. He also notes Atlassian's earnings and Sam Altman's messaging pivot, while cautioning not to overstate the shift.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-03-why-agents-make-every-job-a-startup",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-03",
+   "slug": "why-agents-make-every-job-a-startup",
+   "title": "Why Agents Make Every Job a Startup",
+   "url": "https://www.patreon.com/posts/157239193",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW argues agents make every job a startup: by replicating workers in parallel, agents expose an 'infinite backlog' of possible work, producing exhilaration and a new kind of burnout. He outlines remaining constraints, needed human and organizational support structures, and new roles that may emerge.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-01-the-week-ai-grew-up",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-01",
+   "slug": "the-week-ai-grew-up",
+   "title": "The Week AI Grew Up",
+   "url": "https://www.patreon.com/posts/157110933",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "In a weekly-theme episode, NLW argues AI 'grew up' this week across token demand and business models, big tech earnings, Anthropic's mega-raise, the Microsoft–OpenAI deal, government restrictions on Mythos, and maturing agent harnesses like Codex and Cursor. He closes with OpenAI's explanation of why its models kept mentioning goblins.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-05-01-the-rl-fine-tuning-playbook-coreweave-s-kyle-corbitt-on-grpo-rubrics-e",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-05-01",
+   "slug": "the-rl-fine-tuning-playbook-coreweave-s-kyle-corbitt-on-grpo-rubrics-e",
+   "title": "The RL Fine-Tuning Playbook: CoreWeave's Kyle Corbitt on GRPO, Rubrics, Environments, Reward Hacking",
+   "url": "https://www.cognitiverevolution.ai/the-rl-fine-tuning-playbook-coreweave-s-kyle-corbitt-on-grpo-rubrics-environments-reward-hacking/",
+   "youtube": "https://www.youtube.com/watch?v=1X1-IRaYY6U",
+   "guests": [
+    "Kyle Corbitt"
+   ],
+   "durationMin": 107,
+   "summary": "Nathan Labenz interviews Kyle Corbitt, OpenPipe founder now at CoreWeave, on reinforcement learning fine-tuning. Topics include why RL is less destructive than SFT, how GRPO and its successors work, distillation and Chinese labs, recursive self-improvement, the RL environment industry, rubric design, reward hacking and LoRA-based deployment.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-05-01",
+   "slug": "baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models",
+   "title": "Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud",
+   "url": "https://www.youtube.com/watch?v=XAbKflCncDo",
+   "youtube": "https://www.youtube.com/watch?v=XAbKflCncDo",
+   "guests": [],
+   "durationMin": 43,
+   "summary": "Sarah Guo and Elad Gil interview Baseten CEO Tuhin Srivastava about Baseten's 30x growth, why the application layer persists, and the dominance of custom post-trained models in inference. They discuss Chinese open-weight models, a severe GPU supply crunch and longer contracts, Nvidia's position versus a multi-chip future, operational culture, and Jevons paradox in inference demand.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

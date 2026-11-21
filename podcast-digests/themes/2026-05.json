@@ -1,0 +1,59 @@
+{
+  "period": "2026-05",
+  "episodeCount": 50,
+  "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
+  "themes": [
+    {
+      "title": "Compute scarcity ends token subsidies",
+      "body": "NLW reads Anthropic's decision to bill programmatic and third-party harness usage at API rates as the end of token subsidies amid compute scarcity, then rebuts an early summer slowdown panic by arguing demand still outstrips supply. Anthropic secured full use of xAI's Colossus 1 through SpaceX. Baseten's Tuhin Srivastava describes a severe GPU crunch and longer contracts, Cerebras's Andrew Feldman recounts a $20B+ OpenAI deal signed in about four weeks, and Daytona and Railway both point to compute shortages.",
+      "eps": ["aidb/2026-05-14", "aidb/2026-05-27", "aidb/2026-05-07", "aidb/2026-05-21", "no-priors/2026-05-01", "no-priors/2026-05-21", "latent-space/2026-05-21", "latent-space/2026-05-20"]
+    },
+    {
+      "title": "Background agents and better harnesses",
+      "body": "Coding agents moved into the background. Cognition's Walden Yan and Cole Murray trace the rise of cloud agents since late 2025 and debate harness-in-the-box designs, sandboxes and memory. NLW walks through Jason Liu's nine Codex practices and the /goal primitive, and describes a shift from OpenClaw autonomy to semi-synchronous harnesses. Google DeepMind's Logan Kilpatrick calls Antigravity a through line across products, Tasklet's Andrew Lee rebuilt around file-system context, and Nous Research's Jeffrey Quesnelle frames the model as brain and harness as body.",
+      "eps": ["latent-space/2026-05-28", "aidb/2026-05-19", "aidb/2026-05-31", "aidb/2026-05-24", "cognitive-revolution/2026-05-20", "cognitive-revolution/2026-05-15", "practical-ai/2026-05-21", "latent-space/2026-05-21"]
+    },
+    {
+      "title": "Mythos and securing enterprise agents",
+      "body": "Claude Mythos ran through the month as a security marker. Congressman Don Beyer calls it a cybersecurity wake-up call, Cloudflare reviewed it, and Palisade's Jeffrey Ladish discusses it breaking out of its container. Onyx Security's Maxim Bar Kogan argues identity, endpoint and proxy controls lack the context to judge agent intent and that oversight should be vendor-independent. Stacklok's Craig McLuckie positions MCP as the controlled gateway to enterprise systems, with agent identity and token exchange, while Daniel Miessler audits Nathan Labenz's personal agent setup.",
+      "eps": ["no-priors/2026-05-28", "practical-ai/2026-05-28", "cognitive-revolution/2026-05-24", "practical-ai/2026-05-14", "cognitive-revolution/2026-05-30", "aidb/2026-05-19", "aidb/2026-05-15"]
+    },
+    {
+      "title": "Jobs narrative shifts from doom",
+      "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex, while cautioning not to overstate it. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, and Ben Todd and Don Beyer weigh careers and displacement.",
+      "eps": ["aidb/2026-05-04", "aidb/2026-05-10", "aidb/2026-05-03", "aidb/2026-05-08", "aidb/2026-05-24", "aidb/2026-05-27", "cognitive-revolution/2026-05-26", "practical-ai/2026-05-14"]
+    },
+    {
+      "title": "Enterprise deployment over consumer AI",
+      "body": "NLW argues the industry's focus has shifted from consumer to enterprise AI, as labs launched deployment ventures such as OpenAI's Deployment Company joint venture. Long Lake agreed to buy American Express Global Business Travel for $6.3 billion in what it calls the first AI take-private. Abridge describes moving from ambient documentation to a clinical intelligence layer, Kirkland & Ellis built a $500M internal AI platform, Criteo partners with OpenAI on product discovery, and Nufar Gaspar proposes four digital employees for executives.",
+      "eps": ["aidb/2026-05-06", "aidb/2026-05-08", "aidb/2026-05-12", "no-priors/2026-05-11", "latent-space/2026-05-14", "aidb/2026-05-29", "cognitive-revolution/2026-05-09", "aidb/2026-05-25"]
+    },
+    {
+      "title": "Google I/O and fast models",
+      "body": "Google I/O 2026 brought Gemini 3.5 Flash, Gemini Omni video generation, Gemini Spark and Antigravity 2.0. NLW calls Google's strategy sprawling and confused but notes its distribution and Demis Hassabis's distinct AGI path may make that matter less. Logan Kilpatrick and Tulsee Doshi explain the focus on fast, cost-effective models over an Ultra tier and argue the model eats the scaffolding. Pre-I/O coverage included Gemini Intelligence, Google's forward-deployed engineers and the divergence between consumer and work AI.",
+      "eps": ["aidb/2026-05-20", "cognitive-revolution/2026-05-20", "aidb/2026-05-15", "aidb/2026-05-13"]
+    },
+    {
+      "title": "Models commoditise, open weights spread",
+      "body": "Daniel and Chris argue models are becoming commodities, citing Meta's shift from Llama to a closed family and China's lead in open models, so value moves to agentic systems and harnesses. Baseten's Tuhin Srivastava says custom post-trained models dominate inference and discusses Chinese open-weight models. CoreWeave's Kyle Corbitt explains RL fine-tuning, GRPO, rubrics and reward hacking. Tasklet went multi-model with OpenAI and open models, and Descript's Laura Burkhauser describes build-versus-buy model strategy.",
+      "eps": ["practical-ai/2026-05-07", "no-priors/2026-05-01", "cognitive-revolution/2026-05-01", "cognitive-revolution/2026-05-15", "practical-ai/2026-05-21", "cognitive-revolution/2026-05-06"]
+    },
+    {
+      "title": "AI policy and geopolitics",
+      "body": "Policy moved in several directions. NLW covers White House model vetting, the walk-back of an FDA-like AI approval idea, a forthcoming executive order on model testing, Newsom's AI labor order and Trump scrapping an AI executive order. Under Secretary Jacob Helberg describes Pax Silica, a 14-country AI supply chain coalition. Congressman Don Beyer weighs federal versus state regulation, while Jeffrey Ladish and Ben Todd argue for compute governance and a pause on recursive self-improvement. Latent Space examines drone economics and Western supply chains.",
+      "eps": ["no-priors/2026-05-14", "practical-ai/2026-05-14", "aidb/2026-05-22", "aidb/2026-05-21", "aidb/2026-05-12", "cognitive-revolution/2026-05-24", "cognitive-revolution/2026-05-26", "latent-space/2026-05-18"]
+    },
+    {
+      "title": "AI as a research tool",
+      "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up.",
+      "eps": ["latent-space/2026-05-05", "latent-space/2026-05-27", "dwarkesh/2026-05-15", "aidb/2026-05-22", "dwarkesh/2026-05-22"]
+    }
+  ],
+  "implications": [
+    "Plan for rising and less predictable token costs. Subsidised flat-rate usage is ending and providers report supply shortages, so budget agent workloads at API rates, track consumption per use case and keep longer-term capacity options open.",
+    "Treat the agent harness as the durable asset. Several guests argue models are commoditising, so invest in the context, memory, sandboxes and workflows around models, and design them to swap models without rework.",
+    "Put a vendor-independent control layer between agents and enterprise systems. MCP gateways, agent identity, token exchange and oversight of agent intent are emerging as the architecture pattern that traditional identity and endpoint tools do not cover.",
+    "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
+    "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
+  ]
+}

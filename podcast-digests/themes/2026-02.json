@@ -1,0 +1,64 @@
+{
+  "period": "2026-02",
+  "episodeCount": 53,
+  "headline": "February was the month coding agents went from demo to default: Claude Opus 4.6 and GPT-5.3 Codex launched almost simultaneously, OpenClaw popularized personal agent teams, and software stocks sold off on the prospect. Underneath it ran a fight over who controls frontier AI, from the Anthropic-Pentagon standoff to the capital, chips and power needed to keep scaling.",
+  "themes": [
+    {
+      "title": "Coding agents become the inflection point",
+      "body": "NLW argues the near-simultaneous Opus 4.6 and GPT-5.3 Codex launches capped a run of recognitions that agents now do real work, shifting debate from an AI bubble to underbuilt compute, and reads SemiAnalysis's 'Claude Code is the Inflection Point'. SemiAnalysis's Doug O'Laughlin describes his own Claude Code 'psychosis' and tracks its share of GitHub commits. Blitzy pitches enterprise-scale autonomous code generation, Jeff Dean says coding agents change software work, and Spotify engineers reportedly no longer hand-code.",
+      "eps": ["aidb/2026-02-08-claude-code-killed-the-a", "aidb/2026-02-06", "aidb/2026-02-03", "latent-space/2026-02-24", "cognitive-revolution/2026-02-04", "latent-space/2026-02-12-owning-the-ai-pareto-fro", "aidb/2026-02-18", "aidb/2026-02-16-something-big-is-happeni"]
+    },
+    {
+      "title": "OpenClaw and personal agent teams",
+      "body": "OpenClaw was the month's breakout open-source agent. Lex Fridman's guest Peter Steinberger recounts its one-hour origin, the rename saga, security concerns and acquisition talks with Meta and OpenAI; he then joined OpenAI while OpenClaw moved to a foundation. NLW built a 10-agent OpenClaw team on a Mac Mini and argues products like Claude Code Remote Control, Perplexity Computer and Notion Custom Agents copy its primitives. Malware in its skills library and the Moltbook agent network showed the security risks.",
+      "eps": ["lex-fridman/2026-02-12", "aidb/2026-02-16-openclaw-goes-to-openai", "aidb/2026-02-12", "aidb/2026-02-26", "aidb/2026-02-02", "aidb/2026-02-09", "aidb/2026-02-19", "practical-ai/2026-02-02"]
+    },
+    {
+      "title": "The SaaSpocalypse and AI capital",
+      "body": "A software stock sell-off, triggered partly by a Claude Cowork legal plugin, spread to Monday.com, wealth managers and cybersecurity names. Sarah Guo and Elad Gil argue the panic projects small-startup vibe-coding onto large enterprises and point to bundling as a defense. a16z's Martin Casado and Sarah Wang say frontier labs' capital flywheel may let them outspend apps built on top. Meanwhile Anthropic raised $30B at $380B and OpenAI accelerated IPO plans.",
+      "eps": ["aidb/2026-02-05-is-software-dead", "no-priors/2026-02-19", "latent-space/2026-02-19", "aidb/2026-02-11", "aidb/2026-02-10", "aidb/2026-02-16-openclaw-goes-to-openai", "aidb/2026-02-01", "no-priors/2026-02-26"]
+    },
+    {
+      "title": "Work, jobs and productivity",
+      "body": "Block cut over 4,000 staff, about 40%, with Jack Dorsey citing intelligence tools, though skeptics blamed COVID overhiring. Erik Brynjolfsson reads revised US labor data as an AI productivity boom, while a Berkeley Haas study finds AI intensifies work. NLW's survey of 583 listeners puts time savings third behind output and new capabilities. Matt Shumer's viral essay says knowledge work is next. Deloitte's Deborah Golden stresses the cognitive load of working with agents.",
+      "eps": ["aidb/2026-02-28-are-40-staff-cuts-the-ne", "aidb/2026-02-17", "aidb/2026-02-10", "aidb/2026-02-13", "aidb/2026-02-16-something-big-is-happeni", "aidb/2026-02-22", "practical-ai/2026-02-18", "aidb/2026-02-20"]
+    },
+    {
+      "title": "Who controls frontier AI",
+      "body": "The Anthropic-Pentagon dispute escalated all month and ended with President Trump ordering agencies to stop using Anthropic and Hegseth designating it a supply chain risk, while OpenAI signed a classified deal with the Department of War. NLW surveys debates on corporate red lines and democratic control. Dario Amodei discusses state laws and export controls, Sam Hammond covers US policy and Gulf compute deals, and Jeremie Harris addresses US-China dynamics and export controls.",
+      "eps": ["aidb/2026-02-28-who-controls-ai", "aidb/2026-02-26", "aidb/2026-02-17", "dwarkesh/2026-02-13", "aidb/2026-02-11", "cognitive-revolution/2026-02-13", "cognitive-revolution/2026-02-14", "lex-fridman/2026-02-01"]
+    },
+    {
+      "title": "Compute, power and the buildout",
+      "body": "Google and Amazon earnings pushed big-tech 2026 AI capex to about $650 billion. Elon Musk tells Dwarkesh that power limits will make space the cheapest place for AI compute within about 36 months, as SpaceX acquired xAI at a combined $1.25 trillion. Magnetar's Neil Tiwari explains SPV debt backed by contracted cash flows and bottlenecks like steel and electricians. Doug O'Laughlin flags a DRAM/HBM shortage, and Dario Amodei explains how Anthropic sizes compute purchases.",
+      "eps": ["aidb/2026-02-06", "dwarkesh/2026-02-05", "aidb/2026-02-03", "no-priors/2026-02-26", "latent-space/2026-02-24", "dwarkesh/2026-02-13", "aidb/2026-02-26", "aidb/2026-02-11"]
+    },
+    {
+      "title": "Benchmarks break down",
+      "body": "OpenAI's Mia Glaese and Olivia Watkins explain why SWE-Bench Verified is retired as saturated and contaminated, recommending SWE-Bench Pro; Nathan Lambert and Sebastian Raschka discuss the same move and Anthropic's distillation allegations. METR's results put Opus 4.6 at about 14.5 hours, with noise caveats, and Joel Becker covers harness overfitting. Sean McGregor works on meta-evaluation of benchmarks, and NLW says benchmark leadership now rotates weekly, so cost and specific capabilities matter more.",
+      "eps": ["latent-space/2026-02-23", "latent-space/2026-02-26", "latent-space/2026-02-27", "aidb/2026-02-23", "practical-ai/2026-02-13", "aidb/2026-02-20", "aidb/2026-02-18"]
+    },
+    {
+      "title": "AI for science and health",
+      "body": "Several guests described AI aimed at discovery. OpenAI's Karan Singhal covers ChatGPT Health, HealthBench and the Penda Health copilot trial. Harmonic's Lean-based Aristotle reached IMO gold level. Boltz is open-sourcing structural biology models beyond AlphaFold, and CuspAI searches material space with humans in the loop. Mark Zuckerberg and Priscilla Chan pair a frontier biology lab with an AI lab at the Biohub, and James Zou and Abhi Mahajan discuss multi-agent science and cancer foundation models.",
+      "eps": ["cognitive-revolution/2026-02-25", "cognitive-revolution/2026-02-18", "latent-space/2026-02-12-beyond-alphafold-how-bol", "latent-space/2026-02-25", "cognitive-revolution/2026-02-01", "cognitive-revolution/2026-02-13", "cognitive-revolution/2026-02-14"]
+    },
+    {
+      "title": "Security, safety and interpretability",
+      "body": "Alexis Carlier of Asymmetric Security argues AI can make digital forensics continuous and that defensive capabilities should be accelerated. Goodfire AI, raising a $150M Series B, shows production interpretability such as Rakuten PII detection and live steering on Kimi K2. Helen Toner presents CSET's report on automated AI R&D, Shoshannah Tekofsky reports deception findings from AI Village, and Sean McGregor catalogues AI incidents. Claude Code Security prompted a cybersecurity stock selloff.",
+      "eps": ["cognitive-revolution/2026-02-08", "latent-space/2026-02-06", "cognitive-revolution/2026-02-14", "cognitive-revolution/2026-02-13", "practical-ai/2026-02-13", "aidb/2026-02-23", "latent-space/2026-02-26"]
+    },
+    {
+      "title": "Public backlash against AI",
+      "body": "Time's 'The People vs. AI' cover prompted NLW to sort anti-AI sentiment into groups, from safety advocates and bubble skeptics to data center opponents and job displacement concerns; he argues many concerns are good-faith and solvable. AI Super Bowl ads from Anthropic, OpenAI, Google and others ran against polling that shows American skepticism. Hollywood pushed back on ByteDance's Seedance 2.0, and data center politics drew a White House community pact.",
+      "eps": ["aidb/2026-02-24", "aidb/2026-02-09", "aidb/2026-02-05-is-software-dead", "aidb/2026-02-17", "aidb/2026-02-10", "aidb/2026-02-11", "practical-ai/2026-02-02"]
+    }
+  ],
+  "implications": [
+    "Coding agents now do sustained, multi-hour work. Treat agent-assisted development as the default engineering workflow and invest in review, testing and repository context so agent output can be trusted at scale.",
+    "Personal agent frameworks like OpenClaw spread faster than governance. Inventory where employees run agents, which credentials and skills they load, and set sandboxing and approval rules before an incident forces them.",
+    "Public benchmarks are saturating and contaminated, and leadership rotates weekly. Build internal evaluations on your own tasks, weigh cost and specific capabilities, and keep model choice swappable behind an abstraction layer.",
+    "Vendor access can change for political reasons, as the Anthropic-Pentagon dispute showed. Keep a multi-model strategy with tested fallbacks and contract terms that address usage restrictions and sudden policy shifts.",
+    "Evidence on productivity is mixed: output and new capabilities rise, but work can intensify. Measure outcomes rather than time saved, and plan for the cognitive load and role changes that come with supervising agents."
+  ]
+}

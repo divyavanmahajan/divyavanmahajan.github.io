@@ -2,6 +2,9 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { podcastShows } from "../../podcast-shows.mjs";
+import { getDigests } from "../../lib/podcast-digests";
+
+const latestDigest = getDigests()[0];
 
 const episodes = (await getCollection("podcasts"))
     .filter((e) => !e.data.draft)
@@ -66,6 +69,7 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
             </p>
             <p class="intro-links">
                 <a href={`${base}podcasts/topics/`}>Browse by topic (all shows) →</a>
+                {latestDigest && <> &middot; <a href={`${base}podcasts/digest/${latestDigest.period}/`}>Monthly digest, all shows: {monthLabel(latestDigest.period)} →</a> <a class="monthly-all" href={`${base}podcasts/digest/`}>all months</a></>}
             </p>
         </header>
 
