@@ -1,4 +1,19 @@
 {
+ "practical-ai/2020-10-06-r-data-science-computational-biology": [
+  "ai-coding",
+  "ai-for-science"
+ ],
+ "practical-ai/2020-10-13-productionizing-ai-at-linkedin": [
+  "jobs-and-work"
+ ],
+ "practical-ai/2020-10-20-when-data-leakage-turns-into-a-flood-of-trouble": [],
+ "practical-ai/2020-10-26-reinforcement-learning-for-search": [
+  "training-and-rl"
+ ],
+ "practical-ai/2020-11-09-killer-developer-tools-for-machine-learning": [],
+ "practical-ai/2020-11-17-building-a-deep-learning-workstation": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2020-11-24-a-casual-conversation-concerning-causal-inference": [],
  "practical-ai/2020-12-01-the-world-s-largest-open-library-dataset": [],
  "practical-ai/2020-12-07-from-research-to-product-at-azure-ai": [
@@ -3080,6 +3095,28 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2020-09-24-james-gosling-java-jvm-emacs-and-the-early-days-of-computing": [],
+ "lex-fridman/2020-09-26-joe-rogan-conversations-ideas-love-freedom-the-joe-rogan-experience": [],
+ "lex-fridman/2020-10-02-michael-malice-anarchy-democracy-libertarianism-love-and-trolling": [],
+ "lex-fridman/2020-10-04-lisa-feldman-barrett-counterintuitive-ideas-about-how-the-brain-works": [],
+ "lex-fridman/2020-10-12-scott-aaronson-computational-complexity-and-consciousness": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2020-10-19-chris-lattner-the-future-of-computing-and-programming-languages": [
+  "infrastructure-and-chips"
+ ],
+ "lex-fridman/2020-10-22-george-hotz-hacking-the-simulation-learning-to-drive-with-neural-nets": [
+  "physical-ai"
+ ],
+ "lex-fridman/2020-10-25-manolis-kellis-biology-of-disease": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2020-10-30-eric-weinstein-on-the-nature-of-good-and-evil-genius-and-madness": [],
+ "lex-fridman/2020-11-03-dan-carlin-hardcore-history": [],
+ "lex-fridman/2020-11-08-alex-filippenko-supernovae-dark-energy-aliens-the-expanding-universe": [],
+ "lex-fridman/2020-11-13-yaron-brook-ayn-rand-and-the-philosophy-of-objectivism": [],
+ "lex-fridman/2020-11-16-andrew-huberman-neuroscience-of-optimal-performance": [],
+ "lex-fridman/2020-11-20-lisa-feldman-barrett-love-evolution-and-the-human-brain": [],
  "lex-fridman/2020-11-30-manolis-kellis-meaning-of-life-the-universe-and-everything": [],
  "lex-fridman/2020-12-06-john-clarke-the-art-of-fighting-and-the-pursuit-of-excellence": [],
  "lex-fridman/2020-12-13-michael-littman-reinforcement-learning-and-the-future-of-ai": [
