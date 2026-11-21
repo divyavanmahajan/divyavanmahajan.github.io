@@ -1,4 +1,10 @@
 {
+ "practical-ai/2024-02-20-leading-the-charge-on-ai-in-national-security": [],
+ "practical-ai/2024-02-28-representation-engineering-activation-hacking": [
+  "open-weight-models",
+  "training-and-rl"
+ ],
+ "practical-ai/2024-03-06-yolov9-computer-vision-is-alive-and-well": [],
  "practical-ai/2024-03-12-generating-the-future-of-art-entertainment": [
   "generative-media"
  ],
@@ -367,6 +373,16 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2024-02-16-truly-serverless-infra-for-ai-engineers-with-erik-bernhardsson-of-moda": [
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2024-02-28-a-brief-history-of-the-open-source-ai-hacker-with-ben-firshman-of-repl": [
+  "open-weight-models",
+  "training-and-rl"
+ ],
+ "latent-space/2024-03-06-open-source-ai-is-ai-we-can-trust-with-soumith-chintala-of-meta-ai": [
+  "meta"
  ],
  "latent-space/2024-03-09-top-5-research-trends-openai-sora-google-gemini-groq-math-jan-feb-2024": [
   "generative-media",
@@ -1046,6 +1062,23 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-02-21-openai-sora-google-gemini-and-meta-with-zvi-mowshowitz": [
+  "generative-media",
+  "google",
+  "openai"
+ ],
+ "cognitive-revolution/2024-02-23-looking-up-the-ai-exponential-with-azeem-azhar-of-the-exponential-view": [],
+ "cognitive-revolution/2024-02-27-is-agi-far-with-robin-hanson-economist-at-george-mason-university": [
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2024-02-29-amazing-answers-richard-socher-on-how-you-com-is-reimagining-search-wi": [
+  "consumer-ai",
+  "google",
+  "openai"
+ ],
+ "cognitive-revolution/2024-03-05-the-example-engine-how-exa-is-creating-the-ai-librarian-for-the-web-wi": [
+  "google"
  ],
  "cognitive-revolution/2024-03-12-flow-engineering-and-code-integrity-at-scale-with-itamar-friedman-ceo": [
   "ai-coding"
@@ -2038,6 +2071,11 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-02-21-patrick-collison-why-silicon-valley-s-most-talented-should-leave": [],
+ "dwarkesh/2024-02-28-demis-hassabis-scaling-superhuman-ais-alphazero-atop-llms-alphafold": [
+  "ai-for-science",
+  "google"
+ ],
  "dwarkesh/2024-03-28-sholto-douglas-trenton-bricken-how-llms-actually-think": [
   "interpretability",
   "google"
@@ -2260,6 +2298,14 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-02-20-bill-ackman-investing-financial-battles-harvard-dei-x-free-speech": [],
+ "lex-fridman/2024-02-27-tucker-carlson-putin-navalny-trump-cia-nsa-war-politics-freedom": [],
+ "lex-fridman/2024-03-04-serhii-plokhy-history-of-ukraine-russia-soviet-union-kgb-nazis-war": [],
+ "lex-fridman/2024-03-07-yann-lecun-meta-ai-open-source-limits-of-llms-agi-the-future-of-ai": [
+  "generative-media",
+  "physical-ai",
+  "meta"
+ ],
  "lex-fridman/2024-03-10-kimbal-musk-the-art-of-cooking-tesla-spacex-zip2-and-family": [
   "xai"
  ],
@@ -2435,6 +2481,17 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-02-22-improving-search-with-rag-architecture-with-pinecone-ceo-edo-liberty": [
+  "training-and-rl"
+ ],
+ "no-priors/2024-02-29-competition-makes-for-better-chip-design-with-amd-cto-mark-papermaster": [
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2024-03-07-big-tech-earnings-and-the-current-ai-debates-with-sarah-guo-and-elad-g": [
+  "enterprise-adoption",
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
  "no-priors/2024-03-14-designing-the-future-dylan-field-on-ai-collaboration-and-independence": [],
  "no-priors/2024-03-21-speed-will-win-the-ai-computing-battle-with-tuhin-srivastava-from-base": [],
  "no-priors/2024-03-28-open-sourcing-ai-app-development-with-harrison-chase-from-langchain": [
