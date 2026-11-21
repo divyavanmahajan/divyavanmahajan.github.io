@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { podcastShowSlugs } from '../podcast-shows.mjs';
 
 const blog = defineCollection({
 	type: 'content',
@@ -48,4 +49,26 @@ const ainews = defineCollection({
 	}),
 });
 
-export const collections = { blog, til, ainews };
+// Podcast episode SUMMARIES for shows other than The AI Daily Brief.
+// Files: src/content/podcasts/<show>/YYYY/MM/<slug>.md, written by
+// scripts/sync-podcasts.js from podcast-summaries/<show>/. Never hand-edit
+// here; edit the staging file and re-sync. See docs/podcasts.md.
+const podcasts = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		pubDate: z.coerce.date(),
+		show: z.enum(podcastShowSlugs as [string, ...string[]]),
+		episode: z.number().optional(),
+		url: z.string().url(),
+		youtube: z.string().url().optional(),
+		durationMin: z.number().optional(),
+		hosts: z.array(z.string()).default([]),
+		guests: z.array(z.string()).default([]),
+		tags: z.array(z.string()).default([]),
+		draft: z.boolean().default(false),
+	}),
+});
+
+export const collections = { blog, til, ainews, podcasts };

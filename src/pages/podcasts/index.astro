@@ -1,0 +1,80 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { podcastShows } from "../../podcast-shows.mjs";
+
+const episodes = (await getCollection("podcasts"))
+    .filter((e) => !e.data.draft)
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const shows = podcastShows
+    .map((show) => {
+        const eps = episodes.filter((e) => e.data.show === show.slug);
+        return { ...show, count: eps.length, latest: eps[0] };
+    })
+    .filter((s) => s.count > 0);
+
+const recent = episodes.slice(0, 10);
+const showName = (slug: string) => podcastShows.find((s) => s.slug === slug)?.name ?? slug;
+const base = import.meta.env.BASE_URL;
+const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+---
+
+<BaseLayout title="Podcasts" description="Summaries of AI podcast episodes" withSidebar={false}>
+    <div class="podcasts-page">
+        <header class="podcasts-header">
+            <h1>Podcasts</h1>
+            <p class="intro">
+                Short summaries of AI podcast episodes I follow: the thesis, the key points and a quote or two, with a link to the original episode.
+                For The AI Daily Brief, see <a href={`${base}ainews/`}>AI Brief</a>.
+                &middot; <a href={`${base}podcasts/rss.xml`}>RSS</a>
+            </p>
+        </header>
+
+        <section class="shows">
+            {shows.map((show) => (
+                <a class="show-card" href={`${base}podcasts/${show.slug}/`}>
+                    <span class="show-name">{show.name}</span>
+                    <span class="show-desc">{show.description}</span>
+                    <span class="show-meta">
+                        {show.count} {show.count === 1 ? "summary" : "summaries"}
+                        {show.latest && <> &middot; latest {fmt(show.latest.data.pubDate)}</>}
+                    </span>
+                </a>
+            ))}
+        </section>
+
+        <h2 class="section-heading">Recent episodes</h2>
+        <ul class="recent">
+            {recent.map((ep) => (
+                <li>
+                    <time datetime={ep.data.pubDate.toISOString()}>{fmt(ep.data.pubDate)}</time>
+                    <span class="recent-show">{showName(ep.data.show)}</span>
+                    <a href={`${base}podcasts/${ep.slug}/`}>{ep.data.title}</a>
+                </li>
+            ))}
+        </ul>
+    </div>
+</BaseLayout>
+
+<style>
+    .podcasts-page { max-width: 900px; }
+    .podcasts-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); }
+    .podcasts-header h1 { font-family: var(--font-title); font-size: 2rem; margin: 0 0 0.5rem; }
+    .intro { color: var(--color-text-light); font-size: 0.95rem; margin: 0; }
+    .intro a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
+    .shows { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 1rem; margin-bottom: 2.5rem; }
+    .show-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem; border: 1px solid var(--color-border); border-radius: 6px; text-decoration: none; color: var(--color-text); }
+    .show-card:hover { border-color: var(--color-primary); text-decoration: none; }
+    .show-name { font-weight: 700; font-size: 1.05rem; color: var(--color-primary); }
+    .show-desc { font-size: 0.85rem; color: var(--color-text-light); }
+    .show-meta { font-size: 0.75rem; font-family: monospace; color: var(--color-text-light); }
+    .section-heading { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-light); margin: 0 0 0.75rem; }
+    .recent { list-style: none; margin: 0; padding: 0; }
+    .recent li { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; }
+    .recent time { font-family: monospace; font-size: 0.8rem; color: var(--color-text-light); min-width: 6.5rem; }
+    .recent-show { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-secondary); }
+    .recent a { color: var(--color-text); text-decoration: none; }
+    .recent a:hover { color: var(--color-primary); }
+    @media (max-width: 600px) { .podcasts-header h1 { font-size: 1.4rem; } }
+</style>

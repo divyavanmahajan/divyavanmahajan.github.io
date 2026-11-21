@@ -1,0 +1,48 @@
+// Registry of podcasts published under /podcasts/ (NOT The AI Daily Brief,
+// which has its own collection, sync script and routes under /ainews/).
+//
+// Shared by:
+//   - src/content/config.ts      (the `show` enum in the podcasts schema)
+//   - src/pages/podcasts/**      (listing, episode, RSS pages)
+//   - scripts/sync-podcasts.js   (staging -> src/content/podcasts)
+//   - scripts/podcast-pending.js (which episodes still need a summary)
+//
+// `slug` must equal the show's folder name in the blog wiki repo
+// (/Users/divya/projects/wiki/blog/<slug>/episodes/YYYY/MM/*.md) and is used
+// as the URL segment: /podcasts/<slug>/.
+//
+// To add a show: add an entry here, create podcast-summaries/<slug>/, then
+// follow scripts/PODCAST_SUMMARY_INSTRUCTIONS.md.
+
+export const podcastShows = [
+  {
+    slug: 'practical-ai',
+    name: 'Practical AI',
+    description: 'Making artificial intelligence practical, productive and accessible to everyone.',
+    homepage: 'https://practicalai.fm/',
+  },
+  {
+    slug: 'latent-space',
+    name: 'Latent Space',
+    description: 'The AI engineer podcast: models, agents, infrastructure and the companies building them.',
+    homepage: 'https://www.latent.space/podcast',
+  },
+  {
+    slug: 'cognitive-revolution',
+    name: 'The Cognitive Revolution',
+    description: 'Nathan Labenz interviews builders and researchers at the edge of AI.',
+    homepage: 'https://www.cognitiverevolution.ai/',
+  },
+  {
+    slug: 'dwarkesh',
+    name: 'Dwarkesh Podcast',
+    description: 'Deeply researched interviews on AI, history, science and economics.',
+    homepage: 'https://www.dwarkesh.com/podcast',
+  },
+];
+
+export const podcastShowSlugs = podcastShows.map((s) => s.slug);
+
+export function getPodcastShow(slug) {
+  return podcastShows.find((s) => s.slug === slug);
+}

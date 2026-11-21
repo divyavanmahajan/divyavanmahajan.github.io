@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { getPodcastShow } from "../../podcast-shows.mjs";
+
+export async function getStaticPaths() {
+    const entries = (await getCollection("podcasts")).filter((e) => !e.data.draft);
+    return entries.map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const show = getPodcastShow(entry.data.show)!;
+const base = import.meta.env.BASE_URL;
+const d = entry.data;
+---
+
+<BaseLayout title={`${d.title} (${show.name})`} description={d.description} withSidebar={false}>
+    <article class="podcast-post">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a>
+            <span>›</span>
+            <a href={`${base}podcasts/${show.slug}/`}>{show.name}</a>
+            <span>›</span>
+            <span>Episode</span>
+        </nav>
+
+        <header class="post-header">
+            <span class="show-badge">{show.name}{d.episode && ` #${d.episode}`}</span>
+            <h1>{d.title}</h1>
+            <dl class="meta">
+                <div>
+                    <dt>Date</dt>
+                    <dd>
+                        <time datetime={d.pubDate.toISOString()}>
+                            {d.pubDate.toLocaleDateString("en-us", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })}
+                        </time>
+                        {d.durationMin && <> &middot; {d.durationMin} min</>}
+                    </dd>
+                </div>
+                {d.hosts.length > 0 && (<div><dt>Host{d.hosts.length > 1 && "s"}</dt><dd>{d.hosts.join(", ")}</dd></div>)}
+                {d.guests.length > 0 && (<div><dt>Guest{d.guests.length > 1 && "s"}</dt><dd>{d.guests.join(", ")}</dd></div>)}
+            </dl>
+            {d.tags.length > 0 && (
+                <div class="tags">
+                    {d.tags.map((tag) => <a class="tag-badge" href={`${base}podcasts/tags/${tag}/`}>{tag}</a>)}
+                </div>
+            )}
+            <div class="listen">
+                <a href={d.url} class="listen-btn" target="_blank" rel="noopener noreferrer">Listen to the episode →</a>
+                {d.youtube && <a href={d.youtube} class="listen-btn secondary" target="_blank" rel="noopener noreferrer">Watch on YouTube →</a>}
+            </div>
+        </header>
+
+        <div class="post-content">
+            <Content />
+        </div>
+
+        <p class="disclaimer">
+            This is my summary of the episode, written from its transcript. Quotes are short excerpts; all rights remain with {show.name} and its guests. Listen to the <a href={d.url} target="_blank" rel="noopener noreferrer">full episode</a> for the complete conversation.
+        </p>
+
+        <footer class="post-footer">
+            <a href={`${base}podcasts/${show.slug}/`}>← All {show.name} summaries</a>
+        </footer>
+    </article>
+</BaseLayout>
+
+<style>
+    .podcast-post { max-width: 800px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1.25rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .post-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); }
+    .post-header h1 { font-size: 2rem; margin: 0.5rem 0 0.75rem; line-height: 1.2; }
+    .show-badge { display: inline-block; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.2rem 0.6rem; border-radius: 3px; background: var(--color-secondary); color: #fff; }
+    .meta { margin: 0 0 1rem; font-size: 0.9rem; color: var(--color-text-light); display: grid; gap: 0.2rem; }
+    .meta div { display: flex; gap: 0.5rem; }
+    .meta dt { font-weight: 600; min-width: 4rem; }
+    .meta dd { margin: 0; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+    .tag-badge { background: var(--color-secondary); color: #fff; padding: 0.2rem 0.6rem; border-radius: 3px; font-size: 0.8rem; text-decoration: none; }
+    .tag-badge:hover { opacity: 0.85; color: #fff; text-decoration: none; }
+    .listen { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .listen-btn { display: inline-block; background: var(--color-primary); color: #fff; padding: 0.5rem 1.25rem; border-radius: 4px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+    .listen-btn.secondary { background: transparent; color: var(--color-primary); border: 1px solid var(--color-primary); }
+    .listen-btn:hover { opacity: 0.85; text-decoration: none; }
+    .post-content { line-height: 1.7; }
+    .post-content :global(h2) { font-size: 1.3rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .post-content :global(ul) { margin: 1rem 0; padding-left: 1.5rem; }
+    .post-content :global(li) { margin-bottom: 0.6rem; }
+    .post-content :global(blockquote) { margin: 1rem 0; padding: 0.25rem 1rem; border-left: 3px solid var(--color-secondary); color: var(--color-text-light); font-style: italic; }
+    .disclaimer { margin-top: 2rem; font-size: 0.8rem; color: var(--color-text-light); }
+    .disclaimer a { color: var(--color-primary); }
+    .post-footer { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border); }
+    .post-footer a { color: var(--color-primary); text-decoration: none; }
+    @media (max-width: 600px) {
+        .post-header h1 { font-size: 1.3rem; }
+        .post-content :global(h2) { margin-top: 1rem; font-size: 1.05rem; }
+    }
+</style>

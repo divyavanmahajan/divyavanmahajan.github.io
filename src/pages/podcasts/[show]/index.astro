@@ -1,0 +1,48 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PodcastEpisodeList from "../../../components/PodcastEpisodeList.astro";
+import { getCollection } from "astro:content";
+import { podcastShows } from "../../../podcast-shows.mjs";
+
+export async function getStaticPaths() {
+    const all = (await getCollection("podcasts")).filter((e) => !e.data.draft);
+    // Only shows that have at least one published summary get a page.
+    return podcastShows
+        .map((show) => ({ show, episodes: all.filter((e) => e.data.show === show.slug) }))
+        .filter(({ episodes }) => episodes.length > 0)
+        .map(({ show, episodes }) => ({ params: { show: show.slug }, props: { show, episodes } }));
+}
+
+const { show, episodes } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title={show.name} description={`Episode summaries: ${show.description}`} withSidebar={false}>
+    <div class="podcast-page">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a>
+            <span>›</span>
+            <span>{show.name}</span>
+        </nav>
+        <header class="podcast-header">
+            <h1>{show.name}</h1>
+            <p class="podcast-intro">
+                {show.description} Summaries written from the episode transcripts; follow the links to listen to the original.
+                &middot; <a href={show.homepage} target="_blank" rel="noopener noreferrer">Show website</a>
+                &middot; <a href={`${base}podcasts/${show.slug}/rss.xml`}>RSS</a>
+            </p>
+        </header>
+        <PodcastEpisodeList episodes={episodes} />
+    </div>
+</BaseLayout>
+
+<style>
+    .podcast-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; display: flex; gap: 0.4rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    .podcast-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); }
+    .podcast-header h1 { font-family: var(--font-title); font-size: 2rem; margin: 0 0 0.5rem; }
+    .podcast-intro { color: var(--color-text-light); font-size: 0.95rem; margin: 0; }
+    .podcast-intro a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
+    @media (max-width: 600px) { .podcast-header h1 { font-size: 1.4rem; } }
+</style>
