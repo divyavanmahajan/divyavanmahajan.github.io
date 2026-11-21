@@ -177,10 +177,10 @@ const EPISODE_KEEP_FIELDS = new Set(['title', 'description', 'tags', 'url', 'dra
 const SYNTHESIS_DROP_FIELDS = new Set(['period', 'audience', 'created', 'status', 'type', 'date']);
 
 // Topic/company tags derived from the blog wiki extractions by
-// scripts/build-ainews-tags.mjs (vocabulary: src/data/ainews-taxonomy.json).
+// scripts/build-ainews-tags.mjs (vocabulary: src/data/podcast-taxonomy.json).
 const readJson = (p, fallback) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fallback; } };
 const AINEWS_TAGS = readJson(path.join(projectRoot, 'src', 'data', 'ainews-tags.json'), {});
-const DROP_TAGS = new Set(readJson(path.join(projectRoot, 'src', 'data', 'ainews-taxonomy.json'), {}).drop_tags || []);
+const DROP_TAGS = new Set(readJson(path.join(projectRoot, 'src', 'data', 'podcast-taxonomy.json'), {}).drop_tags || []);
 
 function episodeTags(data, meta) {
   const derived = AINEWS_TAGS[`${meta.date}-${meta.shortSlug}`] || [];

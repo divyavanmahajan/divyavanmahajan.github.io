@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-import taxonomy from "../../../../data/ainews-taxonomy.json";
+import taxonomy from "../../../../data/podcast-taxonomy.json";
 
 const episodes = (await getCollection("ainews")).filter((e) => !e.data.draft && e.data.type === "episode");
 const count: Record<string, number> = {};

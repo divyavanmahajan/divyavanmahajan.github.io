@@ -3,7 +3,7 @@ import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 // Topic/company tags for The AI Daily Brief episodes (vocabulary:
-// src/data/ainews-taxonomy.json, built by scripts/build-ainews-tags.mjs).
+// src/data/podcast-taxonomy.json, built by scripts/build-ainews-tags.mjs).
 export async function getStaticPaths() {
     const episodes = (await getCollection("ainews")).filter((e) => !e.data.draft && e.data.type === "episode");
     const tags = [...new Set(episodes.flatMap((e) => e.data.tags))];

@@ -4,7 +4,7 @@
  *
  * Derives topic and company tags for every AIDB episode from the blog wiki's
  * per-episode extractions (entities/concepts with role central|notable) and
- * the controlled vocabulary in src/data/ainews-taxonomy.json.
+ * the controlled vocabulary in src/data/podcast-taxonomy.json.
  *
  * Output: src/data/ainews-tags.json  { "YYYY-MM-DD-slug": ["topic", ..., "company", ...] }
  * scripts/sync-ainews.js merges these tags into src/content/ainews/ episodes.
@@ -23,7 +23,7 @@ import path from 'path';
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const WIKI = process.env.PODCAST_WIKI_DIR || '/Users/divya/projects/wiki/blog';
 const EXTR = path.join(WIKI, 'extractions');
-const tax = JSON.parse(fs.readFileSync(path.join(root, 'src/data/ainews-taxonomy.json'), 'utf8'));
+const tax = JSON.parse(fs.readFileSync(path.join(root, 'src/data/podcast-taxonomy.json'), 'utf8'));
 const aliases = JSON.parse(fs.readFileSync(path.join(WIKI, 'scripts/wiki_aliases.json'), 'utf8'));
 const REPORT = process.argv.includes('--report');
 
