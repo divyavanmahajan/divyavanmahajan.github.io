@@ -1,4 +1,8 @@
 {
+ "practical-ai/2024-04-10-rag-continues-to-rise": [
+  "enterprise-adoption",
+  "training-and-rl"
+ ],
  "practical-ai/2024-04-16-udio-the-age-of-multi-modal-ai": [],
  "practical-ai/2024-04-24-mamba-jamba": [
   "enterprise-adoption"
@@ -35,6 +39,38 @@
  "practical-ai/2024-07-18-the-first-real-time-voice-assistant": [
   "openai"
  ],
+ "practical-ai/2024-07-24-hyperventilating-over-the-gartner-ai-hype-cycle": [],
+ "practical-ai/2024-07-31-broccoli-ai-at-its-best": [],
+ "practical-ai/2024-08-07-gaudi-processors-intel-s-ai-portfolio": [
+  "infrastructure-and-chips",
+  "open-weight-models",
+  "hugging-face"
+ ],
+ "practical-ai/2024-08-14-only-as-good-as-the-data": [
+  "training-and-rl"
+ ],
+ "practical-ai/2024-08-22-threat-modeling-llm-apps": [],
+ "practical-ai/2024-08-29-metrics-driven-development": [
+  "models-and-benchmarks"
+ ],
+ "practical-ai/2024-09-05-ai-is-more-than-genai": [],
+ "practical-ai/2024-09-11-cybersecurity-in-the-genai-age": [
+  "ai-safety"
+ ],
+ "practical-ai/2024-09-17-pausing-to-think-about-scikit-learn-openai-o1": [
+  "openai"
+ ],
+ "practical-ai/2024-09-25-graphrag-beyond-the-hype": [],
+ "practical-ai/2024-10-03-understanding-what-s-possible-doable-scalable": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2024-10-09-towards-high-quality-maybe-synthetic-datasets": [
+  "open-weight-models",
+  "training-and-rl",
+  "hugging-face"
+ ],
+ "practical-ai/2024-10-15-practical-workflow-orchestration": [],
+ "practical-ai/2024-10-24-big-data-is-dead-analytics-is-alive": [],
  "practical-ai/2025-03-08-build-a-workspace-of-ai-agents": [
   "enterprise-adoption"
  ],
@@ -298,6 +334,10 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2024-04-06-latent-space-chats-nlw-four-wars-gpt5-josh-albrecht-ali-rohde-tnai-dyl": [
+  "infrastructure-and-chips",
+  "nvidia"
  ],
  "latent-space/2024-04-11-supervise-the-process-of-ai-research-with-jungwon-byun-and-andreas-stu": [],
  "latent-space/2024-04-19-high-agency-pydantic-vc-backed-frameworks-with-jason-liu-of-instructor": [],
@@ -958,6 +998,13 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-04-05-opening-ai-s-black-box-with-prof-david-bau-koyena-pal-and-eric-todd-of": [],
+ "cognitive-revolution/2024-04-08-the-ai-email-assistant-i-ve-been-waiting-for-with-andrew-lee-of-shortw": [],
+ "cognitive-revolution/2024-04-10-inside-china-s-ai-ecosystem-a-view-from-beijing": [
+  "us-china",
+  "infrastructure-and-chips",
+  "ai-safety"
  ],
  "cognitive-revolution/2024-04-13-data-data-everywhere-enough-for-agi": [
   "openai"
@@ -2307,6 +2354,9 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-04-11-hyperscaler-strategy-in-ai-the-application-landscape-heats-up-and-what": [
+  "openai"
+ ],
  "no-priors/2024-04-18-the-future-of-ai-artistry-with-suhail-doshi-from-playground-ai": [],
  "no-priors/2024-04-25-openai-s-sora-team-thinks-we-ve-only-seen-the-gpt-1-of-video-models": [
   "generative-media",
