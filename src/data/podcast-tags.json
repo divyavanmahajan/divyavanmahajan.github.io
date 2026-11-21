@@ -1,4 +1,14 @@
 {
+ "practical-ai/2021-07-13-from-symbols-to-ai-pair-programmers": [
+  "ai-coding",
+  "microsoft"
+ ],
+ "practical-ai/2021-07-20-towards-stability-and-robustness": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2021-07-27-building-a-data-team": [],
+ "practical-ai/2021-08-03-ai-is-creating-never-before-heard-sounds": [],
+ "practical-ai/2021-08-10-sliced-will-you-make-the-data-science-cut": [],
  "practical-ai/2021-08-17-nlp-to-help-pregnant-mothers-in-kenya": [],
  "practical-ai/2021-08-24-exploring-a-new-ai-lexicon": [],
  "practical-ai/2021-09-01-anaconda-pyston-and-more": [],
@@ -3025,6 +3035,23 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2021-06-28-clara-sousa-silva-searching-for-signs-of-life-on-venus-and-other-plane": [],
+ "lex-fridman/2021-07-01-yeonmi-park-north-korea": [
+  "us-china"
+ ],
+ "lex-fridman/2021-07-05-jocko-willink-war-leadership-and-discipline": [],
+ "lex-fridman/2021-07-09-sara-walker-the-origin-of-life-on-earth-and-alien-worlds": [],
+ "lex-fridman/2021-07-11-roger-reaves-smuggling-drugs-for-pablo-escobar-and-the-medellin-cartel": [],
+ "lex-fridman/2021-07-15-michael-malice-totalitarianism-and-anarchy": [],
+ "lex-fridman/2021-07-19-konstantin-batygin-planet-9-and-the-edge-of-our-solar-system": [],
+ "lex-fridman/2021-07-21-rick-doblin-psychedelics": [],
+ "lex-fridman/2021-07-23-anya-fernald-regenerative-farming-and-the-art-of-cooking-meat": [],
+ "lex-fridman/2021-07-26-cumrun-vafa-string-theory": [],
+ "lex-fridman/2021-07-29-zach-bitter-ultramarathon-running": [],
+ "lex-fridman/2021-08-03-chris-duffin-the-mad-scientist-of-strength": [],
+ "lex-fridman/2021-08-08-jeff-hawkins-the-thousand-brains-theory-of-intelligence": [],
+ "lex-fridman/2021-08-09-luis-and-joao-batalha-lu-s-and-jo-o-batalha-fermat-s-library-and-the-a": [],
+ "lex-fridman/2021-08-11-matt-walker-sleep": [],
  "lex-fridman/2021-08-15-brian-muraresku-the-secret-history-of-psychedelics": [],
  "lex-fridman/2021-08-21-joscha-bach-nature-of-reality-dreams-and-consciousness": [
   "ai-consciousness"
