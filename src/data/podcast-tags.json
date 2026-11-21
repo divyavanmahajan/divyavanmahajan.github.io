@@ -1,4 +1,8 @@
 {
+ "practical-ai/2024-04-02-should-kids-still-learn-to-code": [
+  "jobs-and-work",
+  "nvidia"
+ ],
  "practical-ai/2024-04-10-rag-continues-to-rise": [
   "enterprise-adoption",
   "training-and-rl"
@@ -71,6 +75,26 @@
  ],
  "practical-ai/2024-10-15-practical-workflow-orchestration": [],
  "practical-ai/2024-10-24-big-data-is-dead-analytics-is-alive": [],
+ "practical-ai/2024-10-29-the-path-towards-trustworthy-ai": [],
+ "practical-ai/2024-11-05-ai-is-changing-the-cybersecurity-threat-landscape": [],
+ "practical-ai/2024-11-13-creating-tested-reliable-ai-applications": [],
+ "practical-ai/2024-11-19-scikit-learn-data-science-you-own": [],
+ "practical-ai/2024-11-29-clones-commerce-campaigns": [
+  "consumer-ai",
+  "open-weight-models",
+  "policy-and-regulation"
+ ],
+ "practical-ai/2024-12-04-full-duplex-real-time-dialogue-with-kyutai": [],
+ "practical-ai/2024-12-11-sidekick-is-an-ai-shopify-expert": [],
+ "practical-ai/2024-12-19-mozart-to-megadeth-at-chrp": [],
+ "practical-ai/2025-01-23-video-generation-with-realistic-motion": [],
+ "practical-ai/2025-01-31-deep-dive-into-deepseek": [
+  "open-weight-models",
+  "us-china",
+  "deepseek"
+ ],
+ "practical-ai/2025-02-14-tool-calling-and-agents": [],
+ "practical-ai/2025-02-24-genai-hot-takes-and-bad-use-cases": [],
  "practical-ai/2025-03-08-build-a-workspace-of-ai-agents": [
   "enterprise-adoption"
  ],
@@ -334,6 +358,10 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2024-03-29-presenting-the-ai-engineer-world-s-fair-with-sam-schillace-deputy-cto": [
+  "microsoft",
+  "openai"
  ],
  "latent-space/2024-04-06-latent-space-chats-nlw-four-wars-gpt5-josh-albrecht-ali-rohde-tnai-dyl": [
   "infrastructure-and-chips",
@@ -999,6 +1027,8 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2024-03-30-mamba-palooza-90-days-of-mamba-inspired-research-with-jason-meaux-part": [],
+ "cognitive-revolution/2024-04-03-unbounded-ai-assisted-research-with-elicit-founders-andreas-stuhlm-lle": [],
  "cognitive-revolution/2024-04-05-opening-ai-s-black-box-with-prof-david-bau-koyena-pal-and-eric-todd-of": [],
  "cognitive-revolution/2024-04-08-the-ai-email-assistant-i-ve-been-waiting-for-with-andrew-lee-of-shortw": [],
  "cognitive-revolution/2024-04-10-inside-china-s-ai-ecosystem-a-view-from-beijing": [
@@ -2194,6 +2224,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-03-29-mark-cuban-shark-tank-dei-wokeism-debate-elon-musk-politics-drugs": [
+  "xai"
+ ],
+ "lex-fridman/2024-04-02-tulsi-gabbard-war-politics-and-the-military-industrial-complex": [],
+ "lex-fridman/2024-04-05-bassem-youssef-israel-palestine-gaza-hamas-middle-east-satire-fame": [],
  "lex-fridman/2024-04-13-andrew-callaghan-channel-5-gonzo-qanon-o-block-politics-alex-jones": [],
  "lex-fridman/2024-04-17-edward-gibson-human-language-psycholinguistics-syntax-grammar-llms": [],
  "lex-fridman/2024-04-20-neil-adams-judo-olympics-winning-losing-and-the-champion-mindset": [],
@@ -2354,6 +2389,9 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-04-04-the-argument-for-humanoid-ai-robots-with-brett-adcock-from-figure": [
+  "physical-ai"
+ ],
  "no-priors/2024-04-11-hyperscaler-strategy-in-ai-the-application-landscape-heats-up-and-what": [
   "openai"
  ],
