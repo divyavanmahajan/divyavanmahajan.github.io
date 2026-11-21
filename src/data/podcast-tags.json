@@ -263,6 +263,22 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-12-31-latent-space-2024-year-in-review": [
+  "training-and-rl",
+  "openai"
+ ],
+ "latent-space/2025-01-04-ai-engineering-for-art-with-comfyanonymous-of-comfyui": [],
+ "latent-space/2025-01-10-beating-google-at-search-with-neural-pagerank-and-5m-of-h200s-with-wil": [
+  "google"
+ ],
+ "latent-space/2025-01-12-ride-home-simon-willison-things-we-learned-about-llms-in-2024": [
+  "openai"
+ ],
+ "latent-space/2025-01-19-everything-you-need-to-run-mission-critical-inference-ft-deepseek-v3-s": [
+  "open-weight-models",
+  "us-china",
+  "deepseek"
+ ],
  "latent-space/2025-01-26-outlasting-noam-shazeer-crowdsourcing-chai-ai-with-1-4m-dau-and-becomi": [
   "open-weight-models",
   "us-china",
@@ -787,6 +803,32 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-12-28-roon-s-heroic-duty-will-the-good-guys-build-agi-first-from-doom-debate": [
+  "training-and-rl",
+  "openai"
+ ],
+ "cognitive-revolution/2025-01-03-teaching-ai-to-see-a-technical-deep-dive-on-vision-language-models-wit": [
+  "training-and-rl",
+  "models-and-benchmarks",
+  "open-weight-models"
+ ],
+ "cognitive-revolution/2025-01-08-ai-ama-part-1-openai-s-o3-deliberative-alignment-and-ai-surprises-of-2": [
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2025-01-08-ai-ama-part-2-ai-utopia-consciousness-and-the-future-of-work": [
+  "ai-consciousness",
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2025-01-15-gene-hunting-with-o1-pro-reasoning-about-rare-diseases-with-chatgpt-pr": [
+  "consumer-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2025-01-18-dodging-latent-space-detectors-obfuscated-activation-attacks-with-luke": [],
+ "cognitive-revolution/2025-01-22-material-progress-developing-ai-s-scientific-intuition-with-orbital-ma": [
+  "ai-for-science"
  ],
  "cognitive-revolution/2025-01-25-emergency-pod-reinforcement-learning-works-reflecting-on-chinese-model": [
   "open-weight-models",
@@ -1521,6 +1563,13 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-12-26-adam-brown-bubble-universes-space-elevators-ads-cft": [
+  "google"
+ ],
+ "dwarkesh/2025-01-09-tyler-cowen-the-1-bottleneck-to-ai-progress-is-humans": [],
+ "dwarkesh/2025-01-16-sarah-paine-the-war-for-india-lecture-interview": [
+  "us-china"
+ ],
  "dwarkesh/2025-01-23-sarah-paine-why-japan-lost-wwii-lecture-interview": [],
  "dwarkesh/2025-01-30-sarah-paine-how-mao-conquered-china-lecture-interview": [
   "us-china"
@@ -1704,6 +1753,8 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2025-01-06-volodymyr-zelenskyy-ukraine-war-peace-putin-trump-nato-and-freedom": [],
+ "lex-fridman/2025-01-19-jennifer-burns-milton-friedman-ayn-rand-economics-capitalism-freedom": [],
  "lex-fridman/2025-01-26-marc-andreessen-trump-power-tech-ai-immigration-future-of-america": [
   "policy-and-regulation"
  ],
@@ -1813,6 +1864,14 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-01-09-erik-bernhardsson-on-creating-tools-that-make-ai-feel-effortless": [
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2025-01-16-how-ai-agents-are-transforming-customer-support-with-decagon-s-jesse-z": [
+  "agents",
+  "enterprise-adoption"
+ ],
+ "no-priors/2025-01-23-what-can-we-do-about-wildfires-with-convective-capital-s-bill-clerico": [],
  "no-priors/2025-01-30-rick-caruso-on-la-s-wildfires-policy-failures-and-the-path-forward": [],
  "no-priors/2025-02-07-deepseek-deep-research-and-2025-predictions-with-sarah-and-elad": [
   "open-weight-models",
