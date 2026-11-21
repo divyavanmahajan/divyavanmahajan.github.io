@@ -1,4 +1,15 @@
 {
+ "practical-ai/2020-06-22-roles-to-play-in-the-ai-dev-workflow": [],
+ "practical-ai/2020-06-29-operationalizing-ml-ai-with-memsql": [],
+ "practical-ai/2020-07-07-the-ins-and-outs-of-open-source-for-ai": [],
+ "practical-ai/2020-07-14-practical-ai-ethics": [],
+ "practical-ai/2020-07-20-mlops-and-tracking-experiments-with-allegro-ai": [],
+ "practical-ai/2020-07-27-all-things-transformers-with-hugging-face": [
+  "open-weight-models",
+  "training-and-rl",
+  "hugging-face"
+ ],
+ "practical-ai/2020-08-03-attack-of-the-c-l-o-n-e-s-text": [],
  "practical-ai/2020-08-11-practical-ai-turns-100": [],
  "practical-ai/2020-08-17-building-the-world-s-most-popular-data-science-platform": [],
  "practical-ai/2020-08-24-hidden-door-and-so-much-more": [],
@@ -2826,6 +2837,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2020-07-10-tyler-cowen-the-great-reset": [],
  "dwarkesh/2022-01-31-david-deutsch-ai-america-fun-bayes": [],
  "dwarkesh/2022-07-05-sam-bankman-fried-crypto-altruism-and-leadership": [],
  "dwarkesh/2022-08-09-will-macaskill-longtermism-altruism-history-technology": [],
@@ -3108,6 +3120,29 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2020-06-20-steven-pressfield-the-war-of-art": [],
+ "lex-fridman/2020-06-22-ben-goertzel-artificial-general-intelligence": [],
+ "lex-fridman/2020-06-27-david-patterson-computer-architecture-and-data-storage": [
+  "infrastructure-and-chips"
+ ],
+ "lex-fridman/2020-06-30-robert-langer-edison-of-medicine": [],
+ "lex-fridman/2020-07-03-matt-botvinick-neuroscience-psychology-and-ai-at-deepmind": [
+  "training-and-rl",
+  "google"
+ ],
+ "lex-fridman/2020-07-08-peter-singer-suffering-in-humans-animals-and-ai": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2020-07-14-sergey-levine-robotics-and-machine-learning": [
+  "physical-ai"
+ ],
+ "lex-fridman/2020-07-18-brian-kernighan-unix-c-awk-ampl-and-go-programming": [],
+ "lex-fridman/2020-07-21-jitendra-malik-computer-vision": [],
+ "lex-fridman/2020-07-26-richard-karp-algorithms-and-computational-complexity": [],
+ "lex-fridman/2020-07-29-ian-hutchinson-nuclear-fusion-plasma-physics-and-religion": [],
+ "lex-fridman/2020-07-31-manolis-kellis-human-genome-and-evolutionary-dynamics": [
+  "ai-for-science"
  ],
  "lex-fridman/2020-08-09-russ-tedrake-underactuated-robotics-control-dynamics-and-touch": [
   "physical-ai"
