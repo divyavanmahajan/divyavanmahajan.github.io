@@ -263,6 +263,19 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-08-29-why-you-should-write-your-own-llm-benchmarks-with-nicholas-carlini-goo": [
+  "models-and-benchmarks",
+  "google"
+ ],
+ "latent-space/2024-09-03-efficiency-is-coming-3000x-faster-cheaper-better-ai-inference-from-har": [
+  "open-weight-models",
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2024-09-13-from-api-to-agi-structured-outputs-openai-api-platform-and-o1-q-a-with": [
+  "agents",
+  "models-and-benchmarks",
+  "openai"
+ ],
  "latent-space/2024-09-20-the-ultimate-guide-to-prompting": [],
  "latent-space/2024-09-27-language-agents-from-reasoning-to-acting": [
   "models-and-benchmarks"
@@ -861,6 +874,27 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2024-08-30-computational-life-how-self-replicators-arise-from-randomness-with-goo": [
+  "google"
+ ],
+ "cognitive-revolution/2024-09-04-ai-live-players-the-geopolitics-strategic-dynamics-of-ai-with-samo-bur": [
+  "us-china",
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2024-09-07-empathy-for-ais-reframing-alignment-with-robopsychologist-yeshua-god": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2024-09-11-the-path-to-utopia-with-nick-bostrom-from-clearer-thinking-with-spence": [],
+ "cognitive-revolution/2024-09-14-red-teaming-o1-part-1-2-automated-jailbreaking-w-haize-labs-leonard-ta": [
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2024-09-14-red-teaming-o1-part-2-2-detecting-deception-with-marius-hobbhahn-of-ap": [
+  "ai-safety",
+  "training-and-rl",
+  "openai"
+ ],
+ "cognitive-revolution/2024-09-18-the-professional-network-for-ai-agents-with-agent-ai-engineering-lead": [],
  "cognitive-revolution/2024-09-25-anthropic-s-responsible-scaling-policy-with-nick-joseph-from-the-80-00": [
   "policy-and-regulation",
   "anthropic"
@@ -1694,6 +1728,10 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-08-29-david-reich-how-one-small-tribe-conquered-the-world-70-000-years-ago": [
+  "ai-for-science"
+ ],
+ "dwarkesh/2024-09-18-daniel-yergin-oil-destroyed-hitler-fracking-destroyed-putin": [],
  "dwarkesh/2024-10-02-asianometry-dylan-patel-how-the-semiconductor-industry-actually-works": [
   "infrastructure-and-chips",
   "us-china"
@@ -1889,6 +1927,9 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-08-30-cenk-uygur-trump-vs-harris-progressive-politics-communism-capitalism": [],
+ "lex-fridman/2024-09-03-donald-trump-interview": [],
+ "lex-fridman/2024-09-12-gregory-aldrete-the-roman-empire-rise-and-fall-of-ancient-rome": [],
  "lex-fridman/2024-09-20-vejas-liulevicius-communism-marxism-nazism-stalin-mao-and-hitler": [
   "ai-for-science"
  ],
@@ -2021,6 +2062,17 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-08-29-cloud-strategy-in-the-ai-era-with-matt-garman-ceo-of-aws": [
+  "amazon"
+ ],
+ "no-priors/2024-08-30-building-toward-a-bright-post-agi-future-with-eric-steinberger-from-ma": [],
+ "no-priors/2024-09-05-the-road-to-autonomous-intelligence-with-andrej-karpathy": [
+  "jobs-and-work",
+  "physical-ai"
+ ],
+ "no-priors/2024-09-12-future-of-llm-markets-consolidation-and-small-models-with-sarah-and-el": [
+  "infrastructure-and-chips"
+ ],
  "no-priors/2024-09-19-transforming-customer-service-through-company-agents-with-sierra-s-bre": [],
  "no-priors/2024-09-25-using-ai-to-evaluate-employee-performance-with-rippling-s-coo-matt-mac": [],
  "no-priors/2024-10-03-the-sheriff-of-silicon-valley-lina-khan-s-ftc-agenda-for-m-a-ai-acquis": [],
