@@ -1,4 +1,7 @@
 {
+ "practical-ai/2025-09-11-cracking-the-code-of-failed-ai-pilots": [],
+ "practical-ai/2025-09-23-creating-a-private-ai-assistant-in-thunderbird": [],
+ "practical-ai/2025-09-29-we-ve-all-done-rag-now-what": [],
  "practical-ai/2025-10-09-the-impact-of-ai-on-the-workforce-a-state-level-case-study": [
   "jobs-and-work"
  ],
@@ -204,6 +207,19 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-09-11-context-engineering-for-agents-lance-martin-langchain": [
+  "context-engineering",
+  "agents"
+ ],
+ "latent-space/2025-09-25-amp-the-emperor-has-no-clothes": [
+  "ai-coding"
+ ],
+ "latent-space/2025-10-02-taste-is-your-moat-dylan-field-of-figma": [],
+ "latent-space/2025-10-07-devday-2025-apps-sdk-agent-kit-mcp-codex-and-why-prompting-is-more-imp": [
+  "context-engineering",
+  "models-and-benchmarks",
+  "openai"
  ],
  "latent-space/2025-10-16-why-rl-won-kyle-corbitt-openpipe-acq-coreweave": [
   "training-and-rl",
@@ -624,6 +640,27 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2025-09-06-zvi-mowshowitz-on-longer-timelines-rl-induced-doom-and-why-china-is-re": [
+  "training-and-rl",
+  "ai-safety",
+  "infrastructure-and-chips",
+  "openai"
+ ],
+ "cognitive-revolution/2025-09-10-coaching-the-creators-inside-the-minds-building-frontier-ai-with-execu": [],
+ "cognitive-revolution/2025-09-13-user-owned-ai-on-chain-training-inference-and-agents-with-near-s-illia": [
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2025-09-18-can-we-stop-ai-deception-apollo-research-tests-openai-s-deliberative-a": [
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2025-09-20-full-stack-ai-safety-why-defense-in-depth-might-work-with-far-ai-ceo-a": [],
+ "cognitive-revolution/2025-09-25-stripe-s-payments-foundation-model-how-data-infra-create-compounding-a": [],
+ "cognitive-revolution/2025-09-28-the-machines-are-taking-our-jobs-thank-god-emad-mostaque-s-guide-to-th": [
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2025-10-02-training-an-ai-scientist-with-feedback-from-reality-w-liam-fedus-ekin": [],
+ "cognitive-revolution/2025-10-04-the-customer-service-revolution-building-fin-with-eoghan-mccabe-fergal": [],
  "cognitive-revolution/2025-10-08-education-in-the-ai-age-a-teacher-rethinks-learning-purpose-w-johan-fa": [
   "jobs-and-work"
  ],
@@ -1149,6 +1186,15 @@
   "us-china",
   "ai-safety",
   "anthropic"
+ ],
+ "dwarkesh/2025-09-05-how-hitler-almost-starved-britain-sarah-paine": [
+  "us-china"
+ ],
+ "dwarkesh/2025-09-12-fully-autonomous-robots-are-much-closer-than-you-think-sergey-levine": [
+  "physical-ai"
+ ],
+ "dwarkesh/2025-09-26-richard-sutton-father-of-rl-thinks-llms-are-a-dead-end": [
+  "models-and-benchmarks"
  ],
  "dwarkesh/2025-10-10-nick-lane-life-as-we-know-it-is-chemically-inevitable": [],
  "dwarkesh/2025-10-17-andrej-karpathy-agi-is-still-a-decade-away": [
