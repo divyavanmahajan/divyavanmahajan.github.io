@@ -1,4 +1,14 @@
 {
+ "practical-ai/2022-06-14-digital-humans-detecting-emotions": [],
+ "practical-ai/2022-06-22-machine-learning-in-your-database": [],
+ "practical-ai/2022-06-28-ai-s-role-in-reprogramming-immunity": [
+  "ai-for-science"
+ ],
+ "practical-ai/2022-07-12-cloning-voices-with-coqui": [],
+ "practical-ai/2022-07-19-dall-e-is-one-giant-leap-for-raccoons": [
+  "ai-consciousness"
+ ],
+ "practical-ai/2022-07-26-the-geopolitics-of-artificial-intelligence": [],
  "practical-ai/2022-08-02-ai-irl-mozilla-s-internet-health-report": [],
  "practical-ai/2022-08-09-alphafold-is-revolutionizing-biology": [
   "ai-for-science",
@@ -2654,6 +2664,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2022-07-05-sam-bankman-fried-crypto-altruism-and-leadership": [],
  "dwarkesh/2022-08-09-will-macaskill-longtermism-altruism-history-technology": [],
  "dwarkesh/2022-08-23-steve-hsu-intelligence-embryo-selection-the-future-of-humanity": [],
  "dwarkesh/2022-09-08-austin-vernon-energy-superabundance-starship-missiles-finding-alpha": [],
@@ -2934,6 +2945,30 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2022-06-15-tony-fadell-iphone-ipod-and-nest": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2022-06-17-richard-wolff-marxism-and-communism": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2022-06-21-douglas-murray-racism-marxism-and-the-war-on-the-west": [],
+ "lex-fridman/2022-06-25-jonathan-reisman-the-human-body-from-sex-sperm-to-hands-heart": [],
+ "lex-fridman/2022-07-01-demis-hassabis-deepmind": [
+  "ai-for-science",
+  "google"
+ ],
+ "lex-fridman/2022-07-04-joe-rogan-comedy-controversy-aliens-ufos-putin-cia-and-freedom": [],
+ "lex-fridman/2022-07-09-jack-barsky-kgb-spy": [],
+ "lex-fridman/2022-07-14-richard-haier-iq-tests-human-intelligence-and-group-differences": [],
+ "lex-fridman/2022-07-17-steve-keen-marxism-capitalism-and-economics": [],
+ "lex-fridman/2022-07-20-robert-barron-bishop-robert-barron-christianity-and-the-catholic-churc": [],
+ "lex-fridman/2022-07-23-martin-rees-black-holes-alien-life-dark-matter-and-the-big-bang": [],
+ "lex-fridman/2022-07-26-oriol-vinyals-deep-learning-and-artificial-general-intelligence": [
+  "google"
+ ],
+ "lex-fridman/2022-07-29-brian-armstrong-coinbase-cryptocurrency-and-government-regulation": [
+  "policy-and-regulation"
  ],
  "lex-fridman/2022-08-01-ryan-graves-ufos-fighter-jets-and-aliens": [],
  "lex-fridman/2022-08-04-john-carmack-doom-quake-vr-agi-programming-video-games-and-rockets": [],
