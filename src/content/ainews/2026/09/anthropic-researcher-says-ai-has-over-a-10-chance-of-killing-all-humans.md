@@ -4,7 +4,8 @@ description: 'Speaker: Host of the AI Daily Brief podcast (unnamed)'
 pubDate: 2026-09-10T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - ai-safety
 url: 'https://www.patreon.com/posts/169183739'
 draft: false
 ---

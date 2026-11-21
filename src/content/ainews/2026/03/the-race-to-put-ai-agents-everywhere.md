@@ -8,7 +8,11 @@ description: >-
 pubDate: 2026-03-17T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - infrastructure-and-chips
+  - enterprise-adoption
+  - nvidia
+  - openai
 url: 'https://www.patreon.com/posts/153295886'
 draft: false
 ---

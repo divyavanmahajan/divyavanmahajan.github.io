@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-11-15T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - enterprise-adoption
+  - context-engineering
+  - anthropic
 url: 'https://www.patreon.com/posts/175392001'
 draft: false
 ---

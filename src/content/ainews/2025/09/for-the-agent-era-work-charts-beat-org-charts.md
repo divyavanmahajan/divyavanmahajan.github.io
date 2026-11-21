@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-09-07T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - jobs-and-work
 url: 'https://www.patreon.com/posts/138338237'
 draft: false
 ---

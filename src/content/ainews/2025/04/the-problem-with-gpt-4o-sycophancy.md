@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-04-29T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-safety
+  - agents
+  - openai
+  - anthropic
 url: 'https://www.patreon.com/posts/127695333'
 draft: false
 ---

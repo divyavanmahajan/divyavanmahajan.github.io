@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-11-10T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - models-and-benchmarks
+  - anthropic
 url: 'https://www.patreon.com/posts/174972208'
 draft: false
 ---

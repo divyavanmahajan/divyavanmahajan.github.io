@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-10-16T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - ai-coding
+  - microsoft
 url: 'https://www.patreon.com/posts/172559832'
 draft: false
 ---

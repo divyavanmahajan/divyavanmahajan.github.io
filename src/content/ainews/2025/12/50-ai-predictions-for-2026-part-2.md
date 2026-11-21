@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-12-30T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - consumer-ai
+  - openai
 url: 'https://www.patreon.com/posts/147005806'
 draft: false
 ---

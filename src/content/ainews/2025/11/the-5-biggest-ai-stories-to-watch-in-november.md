@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-11-02T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - policy-and-regulation
+  - google
+  - openai
 url: 'https://www.patreon.com/posts/142645117'
 draft: false
 ---

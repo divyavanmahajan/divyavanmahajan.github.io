@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-10-21T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - jobs-and-work
+  - agents
+  - anthropic
 url: 'https://www.patreon.com/posts/173024315'
 draft: false
 ---

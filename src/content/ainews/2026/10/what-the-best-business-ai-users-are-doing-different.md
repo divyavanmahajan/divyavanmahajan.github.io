@@ -7,7 +7,8 @@ description: >-
 pubDate: 2026-10-02T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - ai-economics
 url: 'https://www.patreon.com/posts/171245045'
 draft: false
 ---

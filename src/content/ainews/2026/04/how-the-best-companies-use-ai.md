@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-04-19T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - ai-coding
 url: 'https://www.youtube.com/watch?v=t8vitqIj7u4'
 draft: false
 ---

@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-06-04T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - models-and-benchmarks
+  - ai-economics
+  - consumer-ai
 url: 'https://www.youtube.com/watch?v=Vp9ttmJg_wY'
 draft: false
 ---

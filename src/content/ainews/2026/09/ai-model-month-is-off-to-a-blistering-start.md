@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-09-09T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - agents
+  - meta
+  - openai
 url: 'https://www.patreon.com/posts/169087715'
 draft: false
 ---

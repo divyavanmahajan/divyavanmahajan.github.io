@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-05-12T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - talent-war
+  - enterprise-adoption
 url: 'https://www.youtube.com/watch?v=-UTIXsziBJI'
 draft: false
 ---

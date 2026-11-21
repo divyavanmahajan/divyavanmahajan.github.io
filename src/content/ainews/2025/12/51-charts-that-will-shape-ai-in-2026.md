@@ -8,7 +8,11 @@ description: >-
 pubDate: 2025-12-24T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - ai-economics
+  - enterprise-adoption
+  - anthropic
+  - openai
 url: 'https://www.patreon.com/posts/146605931'
 draft: false
 ---

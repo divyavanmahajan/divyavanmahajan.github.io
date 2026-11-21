@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-10-13T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - jobs-and-work
+  - talent-war
+  - google
 url: 'https://www.patreon.com/posts/141149154'
 draft: false
 ---

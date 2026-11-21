@@ -7,7 +7,8 @@ description: >-
 pubDate: 2026-10-04T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - consumer-ai
 url: 'https://www.patreon.com/posts/171388551'
 draft: false
 ---

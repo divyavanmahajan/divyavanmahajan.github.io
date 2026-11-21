@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-10-26T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-safety
+  - open-weight-models
+  - models-and-benchmarks
+  - anthropic
 url: 'https://www.patreon.com/posts/173484511'
 draft: false
 ---

@@ -8,7 +8,7 @@ description: >-
 pubDate: 2026-08-26T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - generative-media
 url: 'https://www.patreon.com/posts/167778021'
 draft: false
 ---

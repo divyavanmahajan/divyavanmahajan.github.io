@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-10-24T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - generative-media
 url: 'https://www.patreon.com/posts/141921789'
 draft: false
 ---

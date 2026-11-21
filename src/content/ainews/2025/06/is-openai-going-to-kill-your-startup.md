@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-06-06T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - ai-coding
+  - openai
 url: 'https://www.patreon.com/posts/130824031'
 draft: false
 ---

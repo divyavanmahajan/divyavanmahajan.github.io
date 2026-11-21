@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-03-20T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - policy-and-regulation
+  - openai
 url: 'https://www.patreon.com/posts/153539729'
 draft: false
 ---

@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-06-02T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - policy-and-regulation
+  - infrastructure-and-chips
+  - anthropic
 url: 'https://www.patreon.com/posts/159968378'
 draft: false
 ---

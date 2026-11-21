@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-04-29T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - anthropic
+  - google
+  - microsoft
 url: 'https://www.youtube.com/watch?v=4qv6NIpY9Fo'
 draft: false
 ---

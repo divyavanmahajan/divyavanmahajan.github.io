@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-07-16T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - models-and-benchmarks
+  - open-weight-models
+  - meta
 url: 'https://www.patreon.com/posts/134225018'
 draft: false
 ---

@@ -8,7 +8,7 @@ description: >-
 pubDate: 2026-04-12T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
 url: 'https://www.youtube.com/watch?v=p0p5j9aAub0'
 draft: false
 ---

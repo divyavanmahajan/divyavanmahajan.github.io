@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-06-30T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - infrastructure-and-chips
+  - amazon
 url: 'https://www.youtube.com/watch?v=gP8A3x2mFRM'
 draft: false
 ---

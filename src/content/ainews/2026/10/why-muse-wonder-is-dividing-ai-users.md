@@ -6,7 +6,9 @@ description: >-
 pubDate: 2026-10-13T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - consumer-ai
+  - meta
 url: 'https://www.patreon.com/posts/172280143'
 draft: false
 ---

@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-05-27T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - ai-coding
+  - openai
 url: 'https://www.youtube.com/watch?v=Af18iulLsSs'
 draft: false
 ---

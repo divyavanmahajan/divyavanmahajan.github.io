@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-11-23T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - models-and-benchmarks
+  - ai-coding
+  - openai
+  - google
 url: 'https://www.patreon.com/posts/144211674'
 draft: false
 ---

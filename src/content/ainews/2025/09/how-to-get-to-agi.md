@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-09-15T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - context-engineering
+  - jobs-and-work
+  - google
 url: 'https://www.patreon.com/posts/138987009'
 draft: false
 ---

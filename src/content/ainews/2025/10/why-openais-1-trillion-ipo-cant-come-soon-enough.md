@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-10-31T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - infrastructure-and-chips
+  - nvidia
+  - openai
 url: 'https://www.patreon.com/posts/142461232'
 draft: false
 ---

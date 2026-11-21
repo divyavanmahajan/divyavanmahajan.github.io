@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-06-19T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - jobs-and-work
+  - agents
 url: 'https://www.youtube.com/watch?v=WhAAKxPlMhw'
 draft: false
 ---

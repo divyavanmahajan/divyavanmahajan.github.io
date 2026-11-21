@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-10-06T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - anthropic
 url: 'https://www.patreon.com/posts/171628329'
 draft: false
 ---

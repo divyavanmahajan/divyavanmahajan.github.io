@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-05-09T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - us-china
+  - openai
 url: 'https://www.patreon.com/posts/128497371'
 draft: false
 ---

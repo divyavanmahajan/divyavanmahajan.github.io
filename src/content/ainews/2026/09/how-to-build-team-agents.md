@@ -9,7 +9,7 @@ description: >-
 pubDate: 2026-09-29T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
 url: 'https://www.patreon.com/posts/170926809'
 draft: false
 ---

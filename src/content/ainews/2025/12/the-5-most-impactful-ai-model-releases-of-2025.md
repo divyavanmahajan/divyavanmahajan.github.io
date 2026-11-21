@@ -8,7 +8,12 @@ description: >-
 pubDate: 2025-12-26T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - generative-media
+  - models-and-benchmarks
+  - anthropic
+  - openai
+  - google
 url: 'https://www.patreon.com/posts/146716413'
 draft: false
 ---

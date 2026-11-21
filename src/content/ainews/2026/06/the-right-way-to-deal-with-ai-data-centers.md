@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-06-23T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - talent-war
 url: 'https://www.youtube.com/watch?v=eb2LSJ9Dzh8'
 draft: false
 ---

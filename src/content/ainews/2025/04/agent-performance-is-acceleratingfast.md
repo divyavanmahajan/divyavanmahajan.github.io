@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-04-24T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - models-and-benchmarks
+  - ai-safety
+  - openai
 url: 'https://www.patreon.com/posts/127323876'
 draft: false
 ---

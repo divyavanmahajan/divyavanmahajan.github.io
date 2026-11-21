@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-06-25T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - open-weight-models
+  - anthropic
 url: 'https://www.youtube.com/watch?v=VICrf_yV0co'
 draft: false
 ---

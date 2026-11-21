@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-09-18T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - us-china
+  - openai
 url: 'https://www.patreon.com/posts/139216680'
 draft: false
 ---

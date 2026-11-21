@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-06-08T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - ai-coding
+  - infrastructure-and-chips
+  - openai
 url: 'https://www.youtube.com/watch?v=RKpEI37RnfI'
 draft: false
 ---

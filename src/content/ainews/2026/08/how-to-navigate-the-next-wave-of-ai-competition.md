@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-08-31T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - infrastructure-and-chips
+  - openai
 url: 'https://www.patreon.com/posts/168227927'
 draft: false
 ---

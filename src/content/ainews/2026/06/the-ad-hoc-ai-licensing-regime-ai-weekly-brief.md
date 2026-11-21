@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-06-27T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - open-weight-models
+  - openai
+  - anthropic
 url: 'https://www.youtube.com/watch?v=WkXuk8NlPAQ'
 draft: false
 ---

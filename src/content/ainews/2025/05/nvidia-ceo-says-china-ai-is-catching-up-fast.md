@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-05-31T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - us-china
+  - infrastructure-and-chips
+  - nvidia
 url: 'https://www.patreon.com/posts/130346910'
 draft: false
 ---

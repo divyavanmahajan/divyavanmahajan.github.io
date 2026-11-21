@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-04-09T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - consumer-ai
+  - anthropic
+  - meta
 url: 'https://www.youtube.com/watch?v=20vZc0cOpOw'
 draft: false
 ---

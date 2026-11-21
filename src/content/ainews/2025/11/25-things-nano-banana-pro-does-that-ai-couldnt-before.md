@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-11-22T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - generative-media
+  - jobs-and-work
 url: 'https://www.patreon.com/posts/144122039'
 draft: false
 ---

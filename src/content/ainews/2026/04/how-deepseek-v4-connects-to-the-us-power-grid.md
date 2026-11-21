@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-04-27T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - policy-and-regulation
+  - open-weight-models
 url: 'https://www.youtube.com/watch?v=qkKEV9rkFqI'
 draft: false
 ---

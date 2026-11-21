@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-07-31T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - infrastructure-and-chips
+  - openai
+  - anthropic
 url: 'https://www.patreon.com/posts/165401025'
 draft: false
 ---

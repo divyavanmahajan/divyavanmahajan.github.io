@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-10-28T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - generative-media
+  - ai-economics
+  - anthropic
+  - google
 url: 'https://www.patreon.com/posts/173689299'
 draft: false
 ---

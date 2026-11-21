@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-04-25T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - agents
+  - jobs-and-work
+  - microsoft
 url: 'https://www.patreon.com/posts/127404851'
 draft: false
 ---

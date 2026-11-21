@@ -8,7 +8,7 @@ description: >-
 pubDate: 2025-05-29T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - jobs-and-work
 url: 'https://www.patreon.com/posts/130141433'
 draft: false
 ---

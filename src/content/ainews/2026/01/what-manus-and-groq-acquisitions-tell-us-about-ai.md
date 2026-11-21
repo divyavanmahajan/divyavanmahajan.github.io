@@ -8,7 +8,11 @@ description: >-
 pubDate: 2026-01-03T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - agents
+  - ai-coding
+  - meta
+  - nvidia
 url: 'https://www.patreon.com/posts/147279572'
 draft: false
 ---

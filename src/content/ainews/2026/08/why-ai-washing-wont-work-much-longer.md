@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-08-04T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - ai-safety
+  - open-weight-models
 url: 'https://www.patreon.com/posts/165765100'
 draft: false
 ---

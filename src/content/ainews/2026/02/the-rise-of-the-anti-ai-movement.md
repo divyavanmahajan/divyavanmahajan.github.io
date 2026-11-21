@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-02-24T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - ai-safety
 url: 'https://www.patreon.com/posts/151580021'
 draft: false
 ---

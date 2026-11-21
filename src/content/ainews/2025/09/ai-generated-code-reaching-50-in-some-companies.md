@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-09-10T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - generative-media
 url: 'https://www.patreon.com/posts/138551337'
 draft: false
 ---

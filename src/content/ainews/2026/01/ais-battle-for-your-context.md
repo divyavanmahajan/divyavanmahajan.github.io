@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-01-15T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - context-engineering
+  - google
 url: 'https://www.patreon.com/posts/148325626'
 draft: false
 ---

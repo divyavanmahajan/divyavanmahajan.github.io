@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-07-06T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - open-weight-models
+  - ai-economics
 url: 'https://www.patreon.com/posts/163088686'
 draft: false
 ---

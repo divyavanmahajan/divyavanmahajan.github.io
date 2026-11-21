@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-05-07T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - agents
+  - xai
+  - anthropic
 url: 'https://www.youtube.com/watch?v=RnqEXgcwg-g'
 draft: false
 ---

@@ -6,7 +6,10 @@ description: >-
 pubDate: 2026-09-08T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - enterprise-adoption
+  - models-and-benchmarks
+  - openai
 url: 'https://www.patreon.com/posts/169001785'
 draft: false
 ---

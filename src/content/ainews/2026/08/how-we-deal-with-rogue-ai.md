@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-08-27T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-safety
+  - models-and-benchmarks
 url: 'https://www.patreon.com/posts/167864565'
 draft: false
 ---

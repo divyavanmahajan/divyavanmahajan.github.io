@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-05-23T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - agents
 url: 'https://www.patreon.com/posts/129605884'
 draft: false
 ---

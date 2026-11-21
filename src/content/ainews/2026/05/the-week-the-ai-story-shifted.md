@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-05-08T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - jobs-and-work
+  - ai-coding
+  - xai
 url: 'https://www.youtube.com/watch?v=ef4WR5vUJro'
 draft: false
 ---

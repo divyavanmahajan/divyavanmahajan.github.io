@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-08-18T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - context-engineering
 url: 'https://www.patreon.com/posts/167053828'
 draft: false
 ---

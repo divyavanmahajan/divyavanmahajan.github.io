@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-08-09T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - consumer-ai
+  - openai
 url: 'https://www.youtube.com/watch?v=G2HX30CelNk'
 draft: false
 ---

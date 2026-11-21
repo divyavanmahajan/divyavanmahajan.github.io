@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-12-10T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - ai-coding
+  - openai
+  - anthropic
 url: 'https://www.youtube.com/watch?v=yTPGY13ym5s'
 draft: false
 ---

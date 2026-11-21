@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-04-08T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - jobs-and-work
+  - talent-war
+  - anthropic
+  - openai
 url: 'https://www.youtube.com/watch?v=P_oabCLJhb0'
 draft: false
 ---

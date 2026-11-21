@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-12-07T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - jobs-and-work
 url: 'https://www.patreon.com/posts/145274322'
 draft: false
 ---

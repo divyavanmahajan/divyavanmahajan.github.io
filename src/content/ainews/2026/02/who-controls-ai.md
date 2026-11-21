@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-02-28T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - us-china
+  - anthropic
+  - openai
 url: 'https://www.patreon.com/posts/151909557'
 draft: false
 ---

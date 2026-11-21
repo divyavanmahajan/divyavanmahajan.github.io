@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-07-01T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-safety
+  - infrastructure-and-chips
+  - anthropic
 url: 'https://www.youtube.com/watch?v=ztCLWKwyMJY'
 draft: false
 ---

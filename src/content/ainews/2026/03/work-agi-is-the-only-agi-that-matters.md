@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-03-25T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - generative-media
+  - ai-economics
+  - openai
 url: 'https://www.youtube.com/watch?v=gmkURB_HmQI'
 draft: false
 ---

@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-05-01T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - open-weight-models
+  - ai-safety
+  - meta
 url: 'https://www.patreon.com/posts/127861498'
 draft: false
 ---

@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-07-08T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - jobs-and-work
+  - enterprise-adoption
 url: 'https://www.patreon.com/posts/133626560'
 draft: false
 ---

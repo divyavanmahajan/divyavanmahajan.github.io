@@ -7,7 +7,10 @@ description: >-
 pubDate: 2026-09-04T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - policy-and-regulation
+  - ai-coding
+  - anthropic
 url: 'https://www.patreon.com/posts/168630206'
 draft: false
 ---

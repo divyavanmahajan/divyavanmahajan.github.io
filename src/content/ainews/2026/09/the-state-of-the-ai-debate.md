@@ -7,7 +7,9 @@ description: >-
 pubDate: 2026-09-21T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - us-china
+  - anthropic
 url: 'https://www.patreon.com/posts/170191386'
 draft: false
 ---

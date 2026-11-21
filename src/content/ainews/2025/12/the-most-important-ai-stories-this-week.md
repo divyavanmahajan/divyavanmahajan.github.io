@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-12-19T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - policy-and-regulation
+  - ai-economics
+  - openai
 url: 'https://www.youtube.com/watch?v=G2HX30CelNk'
 draft: false
 ---

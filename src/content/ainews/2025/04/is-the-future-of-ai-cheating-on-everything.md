@@ -8,7 +8,7 @@ description: >-
 pubDate: 2025-04-23T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
 url: 'https://www.patreon.com/posts/127249045'
 draft: false
 ---

@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-07-20T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - context-engineering
 url: 'https://www.patreon.com/posts/134557815'
 draft: false
 ---

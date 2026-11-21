@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-02-23T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - models-and-benchmarks
+  - ai-economics
+  - anthropic
 url: 'https://www.patreon.com/posts/151481340'
 draft: false
 ---

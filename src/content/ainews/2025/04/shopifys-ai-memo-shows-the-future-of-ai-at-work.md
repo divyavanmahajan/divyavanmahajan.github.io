@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-04-09T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - ai-coding
 url: 'https://www.patreon.com/posts/126244141'
 draft: false
 ---

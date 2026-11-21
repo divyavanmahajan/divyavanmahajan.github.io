@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-10-02T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - talent-war
+  - us-china
+  - openai
 url: 'https://www.patreon.com/posts/140307081'
 draft: false
 ---

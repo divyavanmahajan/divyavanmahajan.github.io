@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-08-04T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - infrastructure-and-chips
+  - talent-war
+  - anthropic
 url: 'https://www.youtube.com/watch?v=gP8A3x2mFRM'
 draft: false
 ---

@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-10-30T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - physical-ai
+  - microsoft
+  - openai
 url: 'https://www.patreon.com/posts/142376678'
 draft: false
 ---

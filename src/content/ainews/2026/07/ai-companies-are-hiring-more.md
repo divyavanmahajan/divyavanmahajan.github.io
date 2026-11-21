@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-07-02T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - jobs-and-work
+  - anthropic
 url: 'https://www.youtube.com/watch?v=PnEWo_AKzIU'
 draft: false
 ---

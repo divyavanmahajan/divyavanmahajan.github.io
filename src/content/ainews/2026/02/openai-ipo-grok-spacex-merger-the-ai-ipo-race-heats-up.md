@@ -8,7 +8,11 @@ description: >-
 pubDate: 2026-02-01T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - generative-media
+  - consumer-ai
+  - xai
+  - openai
+  - amazon
 url: 'https://www.patreon.com/posts/149655337'
 draft: false
 ---

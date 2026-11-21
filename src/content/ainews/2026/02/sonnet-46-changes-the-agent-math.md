@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-02-18T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - models-and-benchmarks
+  - ai-economics
 url: 'https://www.patreon.com/posts/151102162'
 draft: false
 ---

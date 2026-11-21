@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-06-18T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - models-and-benchmarks
+  - open-weight-models
 url: 'https://www.youtube.com/watch?v=4hvA6aCwf6E'
 draft: false
 ---

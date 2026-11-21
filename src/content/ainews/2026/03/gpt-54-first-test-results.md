@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-03-06T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - ai-coding
+  - openai
 url: 'https://www.patreon.com/posts/152416452'
 draft: false
 ---

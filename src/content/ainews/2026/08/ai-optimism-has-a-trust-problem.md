@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-08-11T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - jobs-and-work
+  - meta
 url: 'https://www.patreon.com/posts/166416325'
 draft: false
 ---

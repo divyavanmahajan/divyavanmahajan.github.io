@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-08-20T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - models-and-benchmarks
+  - infrastructure-and-chips
 url: 'https://www.patreon.com/posts/136892197'
 draft: false
 ---

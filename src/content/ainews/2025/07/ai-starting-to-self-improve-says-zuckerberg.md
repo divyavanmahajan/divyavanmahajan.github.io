@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-07-31T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-safety
+  - talent-war
+  - meta
 url: 'https://www.patreon.com/posts/135353304'
 draft: false
 ---

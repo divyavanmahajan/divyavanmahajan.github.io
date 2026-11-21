@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-06-28T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - agents
+  - us-china
 url: 'https://www.patreon.com/posts/132544561'
 draft: false
 ---

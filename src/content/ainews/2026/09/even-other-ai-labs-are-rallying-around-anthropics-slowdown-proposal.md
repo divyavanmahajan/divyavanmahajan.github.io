@@ -8,7 +8,10 @@ description: >-
 pubDate: 2026-09-14T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - open-weight-models
+  - anthropic
+  - openai
 url: 'https://www.patreon.com/posts/169555255'
 draft: false
 ---

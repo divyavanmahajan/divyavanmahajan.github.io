@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-02-03T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - ai-coding
+  - xai
 url: 'https://www.patreon.com/posts/149873046'
 draft: false
 ---

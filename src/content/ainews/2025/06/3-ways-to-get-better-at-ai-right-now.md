@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-06-22T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - enterprise-adoption
+  - jobs-and-work
+  - openai
 url: 'https://www.patreon.com/posts/132001642'
 draft: false
 ---

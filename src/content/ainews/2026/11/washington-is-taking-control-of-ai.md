@@ -7,7 +7,10 @@ description: >-
 pubDate: 2026-11-13T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - us-china
+  - infrastructure-and-chips
+  - open-weight-models
+  - nvidia
 url: 'https://www.patreon.com/posts/175253843'
 draft: false
 ---

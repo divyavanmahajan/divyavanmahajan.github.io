@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-10-24T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - context-engineering
+  - ai-coding
+  - anthropic
 url: 'https://www.youtube.com/watch?v=rNDaRO68JEc'
 draft: false
 ---

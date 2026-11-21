@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-07-01T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - talent-war
+  - ai-economics
+  - meta
+  - openai
 url: 'https://www.patreon.com/posts/132981123'
 draft: false
 ---

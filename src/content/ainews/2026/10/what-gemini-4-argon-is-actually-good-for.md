@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-10-14T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - consumer-ai
+  - google
 url: 'https://www.patreon.com/posts/172372729'
 draft: false
 ---

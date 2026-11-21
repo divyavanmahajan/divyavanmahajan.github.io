@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-05-11T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - context-engineering
 url: 'https://www.youtube.com/watch?v=NNxGQw1uQHc'
 draft: false
 ---

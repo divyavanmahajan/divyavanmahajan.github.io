@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-07-08T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - open-weight-models
+  - us-china
 url: 'https://www.patreon.com/posts/163269521'
 draft: false
 ---

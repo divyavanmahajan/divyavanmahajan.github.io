@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-07-20T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - context-engineering
+  - anthropic
+  - openai
 url: 'https://www.patreon.com/posts/164342277'
 draft: false
 ---

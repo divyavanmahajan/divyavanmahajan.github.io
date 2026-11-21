@@ -9,7 +9,9 @@ description: >-
 pubDate: 2026-10-05T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - open-weight-models
+  - infrastructure-and-chips
+  - microsoft
 url: 'https://www.patreon.com/posts/171531046'
 draft: false
 ---

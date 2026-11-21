@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-05-06T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - enterprise-adoption
+  - meta
 url: 'https://www.youtube.com/watch?v=f2lynShlg20'
 draft: false
 ---

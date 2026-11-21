@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-06-24T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - talent-war
+  - apple
 url: 'https://www.patreon.com/posts/132149395'
 draft: false
 ---

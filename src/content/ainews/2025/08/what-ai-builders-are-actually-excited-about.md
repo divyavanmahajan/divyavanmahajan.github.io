@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-08-20T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - context-engineering
+  - generative-media
+  - us-china
 url: 'https://www.patreon.com/posts/136967507'
 draft: false
 ---

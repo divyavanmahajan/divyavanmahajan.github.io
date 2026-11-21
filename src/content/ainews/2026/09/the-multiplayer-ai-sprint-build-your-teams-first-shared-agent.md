@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-09-07T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - anthropic
 url: 'https://www.patreon.com/posts/168851559'
 draft: false
 ---

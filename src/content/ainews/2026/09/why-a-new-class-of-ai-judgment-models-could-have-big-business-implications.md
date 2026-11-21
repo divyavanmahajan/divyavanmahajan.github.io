@@ -8,7 +8,7 @@ description: >-
 pubDate: 2026-09-16T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
 url: 'https://www.patreon.com/posts/169738513'
 draft: false
 ---

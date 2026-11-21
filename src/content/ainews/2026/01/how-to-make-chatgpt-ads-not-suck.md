@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-01-19T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - context-engineering
+  - openai
 url: 'https://www.patreon.com/posts/148633849'
 draft: false
 ---

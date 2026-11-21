@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-08-21T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - agents
+  - generative-media
+  - google
 url: 'https://www.patreon.com/posts/137051670'
 draft: false
 ---

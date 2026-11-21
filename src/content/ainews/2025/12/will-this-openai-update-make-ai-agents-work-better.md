@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-12-15T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - context-engineering
+  - agents
+  - policy-and-regulation
+  - openai
 url: 'https://www.patreon.com/posts/145937361'
 draft: false
 ---

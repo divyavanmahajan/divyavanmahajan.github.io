@@ -8,7 +8,8 @@ description: >-
 pubDate: 2025-06-25T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - talent-war
 url: 'https://www.patreon.com/posts/132228859'
 draft: false
 ---

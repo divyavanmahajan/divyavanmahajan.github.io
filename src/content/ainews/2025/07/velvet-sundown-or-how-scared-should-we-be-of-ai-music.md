@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-07-04T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - generative-media
+  - ai-coding
+  - policy-and-regulation
+  - anthropic
 url: 'https://www.patreon.com/posts/133294558'
 draft: false
 ---

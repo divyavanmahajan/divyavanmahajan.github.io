@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-10-15T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - consumer-ai
+  - enterprise-adoption
+  - infrastructure-and-chips
+  - openai
 url: 'https://www.patreon.com/posts/141315385'
 draft: false
 ---

@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-06-05T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - context-engineering
+  - openai
 url: 'https://www.patreon.com/posts/130741355'
 draft: false
 ---

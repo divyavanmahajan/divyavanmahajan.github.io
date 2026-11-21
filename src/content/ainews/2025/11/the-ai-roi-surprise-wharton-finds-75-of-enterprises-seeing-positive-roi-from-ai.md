@@ -10,7 +10,10 @@ description: >-
 pubDate: 2025-11-08T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - ai-economics
+  - consumer-ai
+  - anthropic
 url: 'https://www.patreon.com/posts/143113984'
 draft: false
 ---

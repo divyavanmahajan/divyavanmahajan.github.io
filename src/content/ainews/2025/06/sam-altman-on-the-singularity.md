@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-06-15T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-safety
+  - jobs-and-work
+  - openai
 url: 'https://www.patreon.com/posts/131538973'
 draft: false
 ---

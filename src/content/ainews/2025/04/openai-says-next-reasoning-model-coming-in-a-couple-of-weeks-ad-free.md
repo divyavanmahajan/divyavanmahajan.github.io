@@ -8,7 +8,10 @@ description: >-
 pubDate: 2025-04-05T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - infrastructure-and-chips
+  - ai-economics
+  - openai
+  - microsoft
 url: 'https://www.patreon.com/posts/125983946'
 draft: false
 ---

@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-09-18T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - enterprise-adoption
+  - open-weight-models
+  - anthropic
 url: 'https://www.patreon.com/posts/169936506'
 draft: false
 ---

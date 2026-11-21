@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-10-15T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
+  - ai-safety
+  - anthropic
 url: 'https://www.patreon.com/posts/172481099'
 draft: false
 ---

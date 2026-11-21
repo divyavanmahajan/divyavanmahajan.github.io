@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-07-21T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - open-weight-models
 url: 'https://www.patreon.com/posts/164476909'
 draft: false
 ---

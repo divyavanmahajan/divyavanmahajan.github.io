@@ -8,7 +8,7 @@ description: >-
 pubDate: 2025-11-17T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-economics
 url: 'https://www.patreon.com/posts/143804131'
 draft: false
 ---

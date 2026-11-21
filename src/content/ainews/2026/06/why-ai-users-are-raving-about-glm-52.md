@@ -8,7 +8,8 @@ description: >-
 pubDate: 2026-06-22T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - open-weight-models
+  - policy-and-regulation
 url: 'https://www.youtube.com/watch?v=HkVpSoaIKsc'
 draft: false
 ---

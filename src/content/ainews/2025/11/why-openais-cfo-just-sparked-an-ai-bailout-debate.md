@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-11-06T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - policy-and-regulation
+  - enterprise-adoption
+  - openai
 url: 'https://www.patreon.com/posts/143004741'
 draft: false
 ---

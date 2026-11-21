@@ -8,7 +8,9 @@ description: >-
 pubDate: 2026-04-24T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - ai-coding
+  - models-and-benchmarks
+  - openai
 url: 'https://www.youtube.com/watch?v=jblguhXunZs'
 draft: false
 ---

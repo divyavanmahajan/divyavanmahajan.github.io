@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-08-06T00:00:00.000Z
 type: episode
 tags:
-  - ai-daily-brief-podcast
+  - generative-media
+  - open-weight-models
+  - openai
 url: 'https://www.patreon.com/posts/135824314'
 draft: false
 ---
