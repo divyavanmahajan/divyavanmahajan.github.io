@@ -1522,6 +1522,21 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2025-06-26-iran-war-debate-nuclear-weapons-trump-peace-power-the-middle-east": [],
+ "lex-fridman/2025-07-12-dhh-david-heinemeier-hansson-dhh-future-of-programming-ai-ruby-on-rail": [],
+ "lex-fridman/2025-07-23-demis-hassabis-future-of-ai-simulating-reality-physics-and-video-games": [
+  "ai-for-science",
+  "google"
+ ],
+ "lex-fridman/2025-08-01-jack-weatherford-genghis-khan-and-the-mongol-empire": [],
+ "lex-fridman/2025-08-13-keyu-jin-china-s-economy-tariffs-trade-trump-communism-capitalism": [
+  "us-china"
+ ],
+ "lex-fridman/2025-08-24-scott-horton-the-case-against-war-and-the-military-industrial-complex": [],
+ "lex-fridman/2025-08-29-dave-plummer-programming-autism-and-old-school-microsoft-stories": [
+  "microsoft"
+ ],
+ "lex-fridman/2025-09-04-dave-hone-t-rex-dinosaurs-extinction-evolution-and-jurassic-park": [],
  "lex-fridman/2025-09-19-norman-ohler-hitler-nazis-drugs-ww2-blitzkrieg-lsd-mkultra-cia": [],
  "lex-fridman/2025-10-01-pavel-durov-telegram-freedom-censorship-money-power-human-nature": [],
  "lex-fridman/2025-10-14-julia-shaw-criminal-psychology-of-murder-serial-killers-memory-sex": [],
@@ -1581,6 +1596,35 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-07-10-why-platforms-win-and-point-solutions-fail-with-rippling-ceo-parker-co": [],
+ "no-priors/2025-07-17-asimov-building-an-omniscient-rl-oracle-with-reflectionai-s-misha-lask": [
+  "training-and-rl",
+  "ai-coding"
+ ],
+ "no-priors/2025-07-24-the-power-of-quality-human-data-with-surgeai-founder-and-ceo-edwin-che": [],
+ "no-priors/2025-07-31-america-s-plan-to-dominate-the-full-ai-stack-with-sriram-krishnan": [
+  "policy-and-regulation",
+  "us-china"
+ ],
+ "no-priors/2025-08-07-the-shifting-value-of-content-in-the-ai-age-with-cloudflare-ceo-matthe": [
+  "google"
+ ],
+ "no-priors/2025-08-14-chips-neoclouds-and-the-quest-for-ai-dominance-with-semianalysis-found": [
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
+ "no-priors/2025-08-21-how-agentic-ai-is-transforming-the-startup-landscape-with-andrew-ng": [
+  "agents",
+  "ai-coding"
+ ],
+ "no-priors/2025-08-28-reshaping-america-s-economy-for-the-superintelligence-century-with-jac": [
+  "ai-safety"
+ ],
+ "no-priors/2025-09-05-a-new-operating-system-for-physicians-with-openevidence-founder-daniel": [],
+ "no-priors/2025-09-15-jared-kushner-brainco-affinity-partners-and-the-geopolitics-of-ai": [],
+ "no-priors/2025-09-18-ai-agents-talking-to-ai-agents-reinventing-commerce-with-decagon-ceo-j": [
+  "enterprise-adoption"
+ ],
  "no-priors/2025-09-25-reinventing-k-12-education-using-ai-with-alpha-school-principal-joe-li": [
   "jobs-and-work"
  ],
