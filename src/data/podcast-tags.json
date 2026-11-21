@@ -1,4 +1,12 @@
 {
+ "practical-ai/2021-08-17-nlp-to-help-pregnant-mothers-in-kenya": [],
+ "practical-ai/2021-08-24-exploring-a-new-ai-lexicon": [],
+ "practical-ai/2021-09-01-anaconda-pyston-and-more": [],
+ "practical-ai/2021-09-07-stellar-inference-speed-via-autonas": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2021-09-14-trends-in-data-labeling": [],
+ "practical-ai/2021-09-21-from-notebooks-to-netflix-scale-with-metaflow": [],
  "practical-ai/2021-09-28-balancing-human-intelligence-with-ai": [],
  "practical-ai/2021-10-05-the-mathematics-of-machine-learning": [
   "ai-for-science"
@@ -3017,6 +3025,31 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2021-08-15-brian-muraresku-the-secret-history-of-psychedelics": [],
+ "lex-fridman/2021-08-21-joscha-bach-nature-of-reality-dreams-and-consciousness": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2021-08-23-barry-barish-gravitational-waves-and-the-most-precise-device-ever-buil": [],
+ "lex-fridman/2021-08-27-jed-buchwald-isaac-newton-and-the-philosophy-of-science": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-08-29-wojciech-zaremba-openai-codex-gpt-3-robotics-and-the-future-of-ai": [
+  "physical-ai",
+  "openai"
+ ],
+ "lex-fridman/2021-09-01-vincent-racaniello-viruses-and-vaccines": [],
+ "lex-fridman/2021-09-03-rodney-brooks-robotics": [
+  "physical-ai"
+ ],
+ "lex-fridman/2021-09-06-jaron-lanier-virtual-reality-social-media-the-future-of-humans-and-ai": [],
+ "lex-fridman/2021-09-09-donald-knuth-programming-algorithms-hard-problems-the-game-of-life": [],
+ "lex-fridman/2021-09-11-niels-jorgensen-new-york-firefighters-and-the-heroes-of-9-11": [],
+ "lex-fridman/2021-09-15-douglas-lenat-cyc-and-the-quest-to-solve-common-sense-reasoning-in-ai": [],
+ "lex-fridman/2021-09-20-jay-mcclelland-neural-networks-and-the-emergence-of-cognition": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-09-21-travis-stevens-judo-olympics-and-mental-toughness": [],
+ "lex-fridman/2021-09-23-travis-oliphant-numpy-scipy-anaconda-python-scientific-programming": [],
  "lex-fridman/2021-09-26-jeffrey-shainline-neuromorphic-computing-and-optoelectronic-intelligen": [],
  "lex-fridman/2021-09-27-jo-boaler-how-to-learn-math": [
   "jobs-and-work"
