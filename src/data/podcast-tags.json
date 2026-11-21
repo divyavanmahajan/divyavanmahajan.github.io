@@ -263,6 +263,20 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-11-11-agents-work-dust-tt": [
+  "openai"
+ ],
+ "latent-space/2024-11-15-agents-work-lindy-ai": [],
+ "latent-space/2024-11-25-why-compound-ai-open-source-will-beat-closed-ai": [],
+ "latent-space/2024-11-28-the-new-claude-3-5-sonnet-computer-use-and-building-sota-agents-with-e": [
+  "agents",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "latent-space/2024-12-02-bolt-new-flow-engineering-for-code-agents-and-8m-arr-in-2-months-as-a": [
+  "enterprise-adoption",
+  "ai-coding"
+ ],
  "latent-space/2024-12-10-generative-video-worldsim-diffusion-vision-reinforcement-learning-and": [
   "physical-ai",
   "generative-media",
@@ -826,10 +840,34 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2024-11-12-agi-lab-transparency-requirements-whistleblower-protections-with-dean": [
+  "policy-and-regulation",
+  "openai"
+ ],
+ "cognitive-revolution/2024-11-16-zvi-s-pov-ilya-s-ssi-openai-s-o1-claude-computer-use-trump-s-election": [
+  "agents",
+  "openai",
+  "anthropic"
+ ],
+ "cognitive-revolution/2024-11-21-everything-you-wanted-to-know-about-llm-post-training-with-nathan-lamb": [
+  "training-and-rl",
+  "open-weight-models",
+  "meta"
+ ],
+ "cognitive-revolution/2024-11-23-designing-the-future-inside-canva-s-ai-strategy-with-john-milinovich-g": [],
+ "cognitive-revolution/2024-11-27-is-an-ai-arms-race-inevitable-with-robert-wright-of-nonzero-newsletter": [
+  "us-china",
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2024-11-30-beyond-preference-alignment-teaching-ais-to-play-roles-respect-norms-w": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2024-12-03-the-evolution-of-ai-agents-lessons-from-2024-with-multion-ceo-div-garg": [],
  "cognitive-revolution/2024-12-05-automating-scientific-discovery-with-andrew-white-head-of-science-at-f": [
   "ai-for-science"
  ],
  "cognitive-revolution/2024-12-07-emergency-pod-o1-schemes-against-users-with-alexander-meinke-from-apol": [],
+ "cognitive-revolution/2024-12-11-building-government-s-largest-civilian-ai-team-with-dhs-ai-corps-dir-m": [],
  "cognitive-revolution/2024-12-18-breakthroughs-in-ai-for-biology-ai-lab-groups-protein-model-interpreta": [
   "ai-for-science",
   "interpretability"
@@ -1598,6 +1636,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-11-13-gwern-anonymous-writer-who-predicted-ai-trajectory-on-12k-year-salary": [],
  "dwarkesh/2024-12-26-adam-brown-bubble-universes-space-elevators-ads-cft": [
   "google"
  ],
@@ -1788,6 +1827,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-11-11-dario-amodei-anthropic-ceo-on-claude-agi-the-future-of-ai-humanity": [
+  "interpretability",
+  "anthropic"
+ ],
+ "lex-fridman/2024-11-20-javier-milei-president-of-argentina-freedom-economics-and-corruption": [],
  "lex-fridman/2024-12-08-saagar-enjeti-trump-maga-doge-obama-fdr-jfk-history-politics": [],
  "lex-fridman/2024-12-22-adam-frank-alien-civilizations-and-the-search-for-extraterrestrial-lif": [],
  "lex-fridman/2025-01-06-volodymyr-zelenskyy-ukraine-war-peace-putin-trump-nato-and-freedom": [],
@@ -1901,6 +1945,17 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-11-14-ai-and-the-future-of-math-with-deepmind-s-alphaproof-team": [
+  "ai-for-science",
+  "training-and-rl",
+  "google"
+ ],
+ "no-priors/2024-11-21-model-plateaus-and-enterprise-ai-adoption-with-cohere-s-aidan-gomez": [
+  "enterprise-adoption"
+ ],
+ "no-priors/2024-12-05-bolt-s-eric-simons-on-enabling-everyone-to-generate-websites-with-ai": [
+  "ai-coding"
+ ],
  "no-priors/2024-12-12-how-diamond-cooling-could-power-the-future-of-ai-with-akash-systems": [
   "infrastructure-and-chips"
  ],
