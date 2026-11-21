@@ -1,4 +1,7 @@
 {
+ "practical-ai/2025-03-08-build-a-workspace-of-ai-agents": [
+  "enterprise-adoption"
+ ],
  "practical-ai/2025-03-14-optimizing-for-efficiency-with-ibm-s-granite": [],
  "practical-ai/2025-03-21-ai-assisted-coding-with-github-s-coo": [
   "ai-coding"
@@ -259,6 +262,17 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-02-18-the-inventors-of-deep-research": [
+  "google"
+ ],
+ "latent-space/2025-02-28-open-operator-serverless-browsers-and-the-future-of-computer-using-age": [],
+ "latent-space/2025-03-04-how-claude-3-7-plays-pok-mon": [
+  "anthropic"
+ ],
+ "latent-space/2025-03-11-the-new-openai-agents-platform": [
+  "agents",
+  "openai"
  ],
  "latent-space/2025-03-14-building-snipd-the-ai-podcast-app-for-learning": [
   "consumer-ai"
@@ -757,6 +771,30 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-02-15-an-application-free-future-speaking-directly-to-data-with-illumex-ceo": [],
+ "cognitive-revolution/2025-02-20-inference-scaling-alignment-faking-deal-making-frontier-research-with": [
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2025-02-22-new-jersey-s-ai-moonshot-governor-phil-murphy-on-partnerships-progress": [],
+ "cognitive-revolution/2025-02-27-the-adversarial-mind-defeating-ai-defenses-with-nicholas-carlini-of-go": [
+  "google"
+ ],
+ "cognitive-revolution/2025-03-01-us-china-relations-history-culture-and-ai-competition-with-noah-smith": [
+  "us-china"
+ ],
+ "cognitive-revolution/2025-03-06-frontier-models-for-frontier-science-with-prof-derya-unutmaz-immunolog": [
+  "openai"
+ ],
+ "cognitive-revolution/2025-03-08-historic-ai-developments-the-emerging-shape-of-superintelligence-from": [
+  "ai-safety",
+  "training-and-rl",
+  "us-china"
+ ],
+ "cognitive-revolution/2025-03-12-china-s-tech-tightrope-power-regulation-and-the-ai-race-with-angela-zh": [
+  "us-china",
+  "policy-and-regulation"
  ],
  "cognitive-revolution/2025-03-15-agency-over-ai-allan-dafoe-on-technological-determinism-deepmind-s-saf": [
   "ai-safety",
@@ -1444,6 +1482,10 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2025-02-19-satya-nadella-microsoft-s-agi-plan-quantum-breakthrough": [
+  "microsoft"
+ ],
+ "dwarkesh/2025-03-12-joseph-henrich-humans-defeated-smarter-species-with-cultural-evolution": [],
  "dwarkesh/2025-03-25-ama-career-advice-given-agi-how-i-research-ft-sholto-trenton": [
   "anthropic"
  ],
@@ -1714,6 +1756,23 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-02-20-building-hard-tech-in-hard-markets-kyle-vogt-on-cruise-twitch-and-the": [
+  "physical-ai"
+ ],
+ "no-priors/2025-02-25-virtual-cell-models-tahoe-100-and-data-for-ai-in-bio-with-vevo-therape": [
+  "ai-for-science"
+ ],
+ "no-priors/2025-02-27-building-the-platform-for-scientific-breakthrough-with-noubar-afeyan-o": [
+  "ai-for-science"
+ ],
+ "no-priors/2025-03-05-national-security-strategy-and-ai-evals-on-the-eve-of-superintelligenc": [
+  "models-and-benchmarks",
+  "infrastructure-and-chips",
+  "ai-safety"
+ ],
+ "no-priors/2025-03-13-copilot-agent-mode-and-the-new-world-of-dev-tools-with-github-s-ceo-th": [
+  "microsoft"
+ ],
  "no-priors/2025-03-20-the-robotics-revolution-with-physical-intelligence-s-cofounder-chelsea": [
   "physical-ai"
  ],
