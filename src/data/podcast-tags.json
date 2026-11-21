@@ -1,4 +1,19 @@
 {
+ "practical-ai/2022-12-07-ai-competitions-cloud-resources": [
+  "jobs-and-work",
+  "microsoft"
+ ],
+ "practical-ai/2022-12-13-sota-machine-translation-at-unbabel": [],
+ "practical-ai/2023-01-03-nlp-research-by-for-local-communities": [],
+ "practical-ai/2023-01-10-chatgpt-goes-prime-time": [
+  "consumer-ai",
+  "training-and-rl",
+  "openai"
+ ],
+ "practical-ai/2023-01-17-machine-learning-at-small-organizations": [],
+ "practical-ai/2023-01-24-gpu-dev-environments-that-just-work": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2023-01-31-3d-assets-simulation-at-nvidia": [
   "infrastructure-and-chips"
  ],
@@ -2612,6 +2627,9 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2022-12-21-bethany-mclean-enron-ftx-2008-musk-frauds-visionaries": [],
+ "dwarkesh/2023-01-03-holden-karnofsky-history-s-most-important-century": [],
+ "dwarkesh/2023-01-09-lars-doucet-progress-poverty-georgism-why-rent-is-too-damn-high": [],
  "dwarkesh/2023-02-01-marc-andreessen-ai-crypto-1000-elon-musks-regrets-vulnerabilities-mana": [],
  "dwarkesh/2023-03-13-brett-harrison-ftx-us-former-president-speaks-out": [],
  "dwarkesh/2023-03-22-nat-friedman-github-ceo-reading-ancient-scrolls-open-source-ai": [
@@ -2879,6 +2897,23 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2022-12-03-roger-gracie-greatest-jiu-jitsu-competitor-of-all-time": [],
+ "lex-fridman/2022-12-06-noam-brown-ai-vs-humans-in-poker-and-games-of-strategic-negotiation": [
+  "meta"
+ ],
+ "lex-fridman/2022-12-09-coffeezilla-sbf-ftx-fraud-scams-fake-gurus-money-fame-and-power": [],
+ "lex-fridman/2022-12-12-ed-calderon-mexican-drug-cartels": [],
+ "lex-fridman/2022-12-15-michael-malice-christmas-special": [],
+ "lex-fridman/2022-12-19-nathalie-cabrol-search-for-alien-life": [],
+ "lex-fridman/2022-12-22-bhaskar-sunkara-the-case-for-socialism": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2022-12-29-betul-kacar-bet-l-ka-ar-origin-of-life-ancient-dna-panspermia-and-alie": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2023-01-11-mrbeast-future-of-youtube-twitter-tiktok-and-instagram": [],
+ "lex-fridman/2023-01-17-omar-suleiman-islam": [],
+ "lex-fridman/2023-01-21-dennis-whyte-nuclear-fusion-and-the-future-of-energy": [],
  "lex-fridman/2023-01-25-jeremi-suri-american-civil-war": [],
  "lex-fridman/2023-01-28-david-kipping-alien-civilizations-and-habitable-worlds": [],
  "lex-fridman/2023-02-02-tim-dodd-spacex-starship-rocket-engines-and-future-of-space-travel": [
