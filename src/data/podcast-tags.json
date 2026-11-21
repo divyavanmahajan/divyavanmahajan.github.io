@@ -1,4 +1,12 @@
 {
+ "practical-ai/2024-01-30-large-action-models-lams-rabbits": [],
+ "practical-ai/2024-02-06-data-synthesis-for-sota-llms": [
+  "open-weight-models"
+ ],
+ "practical-ai/2024-02-14-gemini-vs-openai": [
+  "google",
+  "openai"
+ ],
  "practical-ai/2024-02-20-leading-the-charge-on-ai-in-national-security": [],
  "practical-ai/2024-02-28-representation-engineering-activation-hacking": [
   "open-weight-models",
@@ -373,6 +381,15 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2024-01-25-the-four-wars-of-the-ai-stack-dec-2023-audio-recap": [
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2024-02-01-why-stackoverflow-usage-is-down-50-with-david-hsu-of-retool": [
+  "ai-coding"
+ ],
+ "latent-space/2024-02-08-cloud-intelligence-at-the-speed-of-5000-tok-s-with-ce-zhang-and-vipul": [
+  "infrastructure-and-chips"
  ],
  "latent-space/2024-02-16-truly-serverless-infra-for-ai-engineers-with-erik-bernhardsson-of-moda": [
   "infrastructure-and-chips"
@@ -1063,6 +1080,19 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2024-01-26-the-pixel-revolution-part-2-with-suhail-doshi-founder-of-playground-ai": [
+  "openai"
+ ],
+ "cognitive-revolution/2024-01-30-ignore-previous-instructions-listen-to-this-interview-sander-schulhoff": [
+  "context-engineering"
+ ],
+ "cognitive-revolution/2024-02-01-ai-identity-from-east-and-west-with-yohei-nakajima-gp-at-untapped-capi": [],
+ "cognitive-revolution/2024-02-07-a-brief-history-of-biological-and-artificial-intelligence-with-max-ben": [],
+ "cognitive-revolution/2024-02-09-dr-michael-levin-on-embodied-minds-and-cognitive-agents": [],
+ "cognitive-revolution/2024-02-13-ai-abundance-a16z-partners-justine-moore-and-anish-acharya-forecast-a": [
+  "consumer-ai"
+ ],
+ "cognitive-revolution/2024-02-16-ai-friends-real-relationships-with-eugenia-kuyda-replika-s-founder-ceo": [],
  "cognitive-revolution/2024-02-21-openai-sora-google-gemini-and-meta-with-zvi-mowshowitz": [
   "generative-media",
   "google",
@@ -2071,6 +2101,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-01-31-tyler-cowen-hayek-keynes-smith-on-ai-animal-spirits-anarchy-growth": [],
  "dwarkesh/2024-02-21-patrick-collison-why-silicon-valley-s-most-talented-should-leave": [],
  "dwarkesh/2024-02-28-demis-hassabis-scaling-superhuman-ais-alphazero-atop-llms-alphafold": [
   "ai-for-science",
@@ -2298,6 +2329,10 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-02-02-omar-suleiman-palestine-gaza-oct-7-israel-resistance-faith-islam": [],
+ "lex-fridman/2024-02-16-marc-raibert-boston-dynamics-and-the-future-of-robotics": [
+  "physical-ai"
+ ],
  "lex-fridman/2024-02-20-bill-ackman-investing-financial-battles-harvard-dei-x-free-speech": [],
  "lex-fridman/2024-02-27-tucker-carlson-putin-navalny-trump-cia-nsa-war-politics-freedom": [],
  "lex-fridman/2024-03-04-serhii-plokhy-history-of-ukraine-russia-soviet-union-kgb-nazis-war": [],
@@ -2481,6 +2516,13 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-01-25-building-the-factories-of-the-future-with-covariant-ceo-peter-chen": [
+  "physical-ai",
+  "openai"
+ ],
+ "no-priors/2024-01-31-the-copilot-for-ecommerce-with-shopify-vp-of-core-product-glen-coates": [],
+ "no-priors/2024-02-08-build-ai-products-at-on-ai-companies-with-emily-glassberg-sands-from-s": [],
+ "no-priors/2024-02-15-rag-is-the-key-for-smarter-productivity-tools-with-notion-ceo-ivan-zha": [],
  "no-priors/2024-02-22-improving-search-with-rag-architecture-with-pinecone-ceo-edo-liberty": [
   "training-and-rl"
  ],
