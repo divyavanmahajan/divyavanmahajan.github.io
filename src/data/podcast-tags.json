@@ -1,4 +1,16 @@
 {
+ "practical-ai/2021-09-28-balancing-human-intelligence-with-ai": [],
+ "practical-ai/2021-10-05-the-mathematics-of-machine-learning": [
+  "ai-for-science"
+ ],
+ "practical-ai/2021-10-12-federated-learning": [],
+ "practical-ai/2021-10-19-ai-in-africa-makerere-ai-lab": [],
+ "practical-ai/2021-10-26-eureka-moments-with-natural-language-processing": [
+  "openai"
+ ],
+ "practical-ai/2021-11-02-photonic-computing-for-ai-acceleration": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2021-11-10-analyzing-the-2021-ai-index-report": [],
  "practical-ai/2021-11-23-zero-shot-multitask-learning": [],
  "practical-ai/2021-11-30-ai-generated-code-with-openai-codex": [
@@ -3005,6 +3017,26 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2021-09-26-jeffrey-shainline-neuromorphic-computing-and-optoelectronic-intelligen": [],
+ "lex-fridman/2021-09-27-jo-boaler-how-to-learn-math": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2021-09-30-sean-kelly-existentialism-nihilism-and-the-search-for-meaning": [],
+ "lex-fridman/2021-10-05-rza-wu-tang-clan-kung-fu-chess-god-life-and-death": [],
+ "lex-fridman/2021-10-10-richard-wrangham-role-of-violence-sex-and-fire-in-human-evolution": [],
+ "lex-fridman/2021-10-14-kelsi-sheren-war-artillery-ptsd-and-love": [],
+ "lex-fridman/2021-10-16-alex-gladstein-bitcoin-authoritarianism-and-human-rights": [],
+ "lex-fridman/2021-10-20-brian-greene-quantum-gravity-big-bang-aliens-life-death-and-meaning": [],
+ "lex-fridman/2021-10-23-carl-hart-heroin-cocaine-mdma-alcohol-the-role-of-drugs-in-society": [],
+ "lex-fridman/2021-10-27-stephen-wolfram-complexity-and-the-fabric-of-reality": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-10-29-michael-mina-rapid-covid-testing": [],
+ "lex-fridman/2021-10-31-jimmy-pedro-judo-and-the-forging-of-champions": [],
+ "lex-fridman/2021-11-03-steve-viscelli-trucking-and-the-decline-of-the-american-dream": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2021-11-05-francis-collins-national-institutes-of-health-nih": [],
  "lex-fridman/2021-11-08-niall-ferguson-history-of-money-power-war-and-truth": [],
  "lex-fridman/2021-11-11-neal-stephenson-sci-fi-space-aliens-ai-vr-the-future-of-humanity": [],
  "lex-fridman/2021-11-16-boris-sofman-waymo-cozmo-self-driving-cars-and-the-future-of-robotics": [
