@@ -1,4 +1,12 @@
 {
+ "practical-ai/2024-01-10-ai-predictions-for-2024": [
+  "ai-coding"
+ ],
+ "practical-ai/2024-01-17-advent-of-genai-hackathon-recap": [
+  "infrastructure-and-chips",
+  "open-weight-models"
+ ],
+ "practical-ai/2024-01-23-collaboration-evaluation-for-llm-apps": [],
  "practical-ai/2024-01-30-large-action-models-lams-rabbits": [],
  "practical-ai/2024-02-06-data-synthesis-for-sota-llms": [
   "open-weight-models"
@@ -381,6 +389,16 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2023-12-30-neurips-2023-recap-top-startups": [],
+ "latent-space/2024-01-05-the-accidental-ai-canvas-with-steve-ruiz-of-tldraw": [],
+ "latent-space/2024-01-11-rlhf-201-with-nathan-lambert-of-ai2-and-interconnects": [
+  "training-and-rl"
+ ],
+ "latent-space/2024-01-19-how-to-train-your-own-large-multimodal-model-with-hugo-lauren-on-leo-t": [
+  "open-weight-models",
+  "hugging-face",
+  "google"
  ],
  "latent-space/2024-01-25-the-four-wars-of-the-ai-stack-dec-2023-audio-recap": [
   "infrastructure-and-chips"
@@ -1079,6 +1097,25 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2023-12-30-agi-and-institutional-disruption-sam-hammond-in-conversation-with-fli": [],
+ "cognitive-revolution/2024-01-03-cutting-edge-neurotechnology-with-nita-farahany-in-conversation-with-l": [],
+ "cognitive-revolution/2024-01-04-2028-agi-new-architectures-and-aligning-superhuman-models-with-shane-l": [
+  "google"
+ ],
+ "cognitive-revolution/2024-01-09-dialpad-s-chief-strategy-officer-dan-o-connell-on-ai-powered-business": [],
+ "cognitive-revolution/2024-01-12-breaking-boundaries-ai-coscientist-to-accelerate-science-research-with": [
+  "openai"
+ ],
+ "cognitive-revolution/2024-01-18-unlocking-enterprise-data-with-knowledge-graphs-juan-sequeda-head-of-a": [
+  "enterprise-adoption",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-01-20-the-quest-for-autonomous-web-agents-with-div-garg-cofounder-and-ceo-of": [
+  "openai"
+ ],
+ "cognitive-revolution/2024-01-23-nytimes-vs-openai-generative-ai-and-the-law-with-cecilia-ziniti-founde": [
+  "openai"
  ],
  "cognitive-revolution/2024-01-26-the-pixel-revolution-part-2-with-suhail-doshi-founder-of-playground-ai": [
   "openai"
@@ -2329,6 +2366,9 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-01-09-tal-wilkenfeld-music-guitar-bass-jeff-beck-prince-and-leonard-cohen": [],
+ "lex-fridman/2024-01-17-matthew-cox-fbi-most-wanted-con-man-55-million-in-bank-fraud": [],
+ "lex-fridman/2024-01-23-ben-shapiro-destiny-debate-ben-shapiro-vs-destiny-debate-politics-jan": [],
  "lex-fridman/2024-02-02-omar-suleiman-palestine-gaza-oct-7-israel-resistance-faith-islam": [],
  "lex-fridman/2024-02-16-marc-raibert-boston-dynamics-and-the-future-of-robotics": [
   "physical-ai"
@@ -2516,6 +2556,10 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-01-11-a-no-priors-clip-show-the-best-of-2023": [],
+ "no-priors/2024-01-18-coding-in-collaboration-with-ai-with-sourcegraph-cto-beyang-liu": [
+  "ai-coding"
+ ],
  "no-priors/2024-01-25-building-the-factories-of-the-future-with-covariant-ceo-peter-chen": [
   "physical-ai",
   "openai"
