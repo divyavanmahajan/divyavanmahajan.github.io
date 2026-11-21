@@ -1,4 +1,12 @@
 {
+ "practical-ai/2025-05-08-model-context-protocol-deep-dive": [
+  "context-engineering",
+  "open-weight-models"
+ ],
+ "practical-ai/2025-05-20-emailing-like-a-superhuman": [],
+ "practical-ai/2025-05-30-federated-learning-in-production-part-1": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2025-06-04-federated-learning-in-production-part-2": [],
  "practical-ai/2025-06-12-ai-automated-film-making": [],
  "practical-ai/2025-06-18-behind-the-scenes-vc-funding-for-ai-startups": [],
@@ -236,6 +244,16 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-05-01-the-rise-and-fall-of-the-vector-db-category": [],
+ "latent-space/2025-05-23-aiewf-preview-multi-turn-rl-for-multi-hour-agents-with-will-brown-prim": [
+  "training-and-rl",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "latent-space/2025-05-29-the-ai-coding-factory": [
+  "enterprise-adoption",
+  "ai-coding"
  ],
  "latent-space/2025-05-31-aiewf-preview-cloudchef-your-robot-chef-michellin-star-food-at-12-hr-w": [
   "physical-ai"
@@ -705,11 +723,39 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2025-05-04-ai-control-using-untrusted-systems-safely-with-buck-shlegeris-redwood": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2025-05-08-openai-s-identity-crisis-history-culture-non-profit-control-with-ex-em": [
+  "openai"
+ ],
+ "cognitive-revolution/2025-05-11-luma-labs-diffusion-revolution-from-dream-machine-to-multimodal-worlds": [],
+ "cognitive-revolution/2025-05-15-titans-neural-long-term-memory-for-llms-with-author-ali-behrouz": [],
+ "cognitive-revolution/2025-05-17-gemini-robotics-ai-for-the-physical-world-with-keerthana-and-ted-of-go": [
+  "physical-ai",
+  "google"
+ ],
+ "cognitive-revolution/2025-05-19-the-raise-act-minimum-standards-for-frontier-ai-development-with-ny-as": [],
+ "cognitive-revolution/2025-05-22-the-perfect-substrate-for-agi-with-replit-ceo-amjad-masad": [
+  "ai-coding",
+  "anthropic"
+ ],
+ "cognitive-revolution/2025-05-29-mechanistic-interpretability-philosophy-practice-progress-with-goodfir": [
+  "interpretability"
+ ],
+ "cognitive-revolution/2025-06-07-don-t-make-mirror-life-synthetic-biologist-kate-adamala-on-risks-respo": [],
  "cognitive-revolution/2025-06-10-a16z-on-protecting-little-tech-the-techno-optimist-ai-policy-agenda-wi": [
   "policy-and-regulation"
  ],
  "cognitive-revolution/2025-06-12-the-decade-of-may-15-22-2025-google-s-50x-ai-growth-transformation-wit": [
   "google"
+ ],
+ "cognitive-revolution/2025-06-14-ai-scouting-report-ai-agents-vs-agentic-ai-from-imagine-ai-live": [
+  "agents",
+  "training-and-rl",
+  "ai-safety",
+  "anthropic",
+  "openai"
  ],
  "cognitive-revolution/2025-06-18-embryology-of-ai-how-training-data-shapes-ai-development-w-timaeus-jes": [
   "ai-safety"
@@ -1317,11 +1363,22 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2025-05-22-is-rl-llms-enough-for-agi-sholto-douglas-trenton-bricken": [
+  "training-and-rl",
+  "interpretability",
+  "anthropic"
+ ],
+ "dwarkesh/2025-05-29-xi-jinping-s-paranoid-approach-to-agi-debt-crisis-politburo-politics-v": [
+  "us-china"
+ ],
  "dwarkesh/2025-06-12-china-is-digging-out-of-a-crisis-and-america-s-luck-is-wearing-thin-ke": [
   "us-china"
  ],
  "dwarkesh/2025-06-19-why-china-s-manufacturing-economy-is-dominating-arthur-kroeber": [
   "us-china"
+ ],
+ "dwarkesh/2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-church": [
+  "ai-for-science"
  ],
  "dwarkesh/2025-07-10-stephen-kotkin-how-stalin-became-the-most-powerful-dictator-in-history": [
   "us-china"
