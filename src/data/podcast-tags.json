@@ -1,4 +1,10 @@
 {
+ "practical-ai/2023-08-09-blueprint-for-an-ai-bill-of-rights": [
+  "enterprise-adoption",
+  "policy-and-regulation"
+ ],
+ "practical-ai/2023-08-23-the-new-ai-app-stack": [],
+ "practical-ai/2023-08-29-automating-code-optimization-with-llms": [],
  "practical-ai/2023-09-06-fine-tuning-vs-rag": [
   "training-and-rl"
  ],
@@ -417,6 +423,15 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2023-08-10-llms-everywhere-running-70b-models-in-browsers-and-iphones-using-mlc-w": [],
+ "latent-space/2023-08-16-the-mathematics-of-training-llms-with-quentin-anthony-of-eleuther-ai": [
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2023-08-22-cursor-so-the-ai-first-code-editor-with-aman-sanger-of-anysphere": [
+  "ai-coding",
+  "openai"
+ ],
+ "latent-space/2023-08-30-rwkv-reinventing-rnns-for-the-transformer-era-with-eugene-cheah-of-uil": [],
  "latent-space/2023-09-06-the-point-of-langchain-with-harrison-chase-of-langchain": [],
  "latent-space/2023-09-14-doing-it-the-hard-way-making-the-ai-engine-and-language-of-the-future": [
   "infrastructure-and-chips",
@@ -1171,6 +1186,37 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2023-08-08-replit-s-vp-of-ai-michele-catasta-on-artificial-developer-intelligence": [
+  "ai-coding"
+ ],
+ "cognitive-revolution/2023-08-09-google-s-palm-2-with-paige-bailey": [
+  "google"
+ ],
+ "cognitive-revolution/2023-08-10-advancements-in-ai-updating-the-scouting-report-task-automation-and-go": [
+  "google"
+ ],
+ "cognitive-revolution/2023-08-15-the-ai-revolution-in-education-with-shawn-jansepar-director-of-enginee": [
+  "jobs-and-work",
+  "openai"
+ ],
+ "cognitive-revolution/2023-08-17-the-presentation-revolution-with-jon-noronha-co-founder-of-gamma": [],
+ "cognitive-revolution/2023-08-23-google-s-multimodal-med-palm-with-vivek-natarajan-and-tao-tu": [
+  "policy-and-regulation",
+  "google"
+ ],
+ "cognitive-revolution/2023-08-25-e56-openai-s-gpt3-5-turbo-and-the-state-of-ai-in-coding-healthcare-and": [
+  "ai-coding",
+  "jobs-and-work",
+  "open-weight-models",
+  "openai",
+  "meta"
+ ],
+ "cognitive-revolution/2023-08-31-how-hugging-face-raised-235m": [
+  "open-weight-models",
+  "hugging-face",
+  "amazon",
+  "google"
  ],
  "cognitive-revolution/2023-09-05-cryptography-will-revolutionize-ai-data-privacy-with-daniel-kang": [],
  "cognitive-revolution/2023-09-07-why-a16z-built-a-town-for-ai-people": [],
@@ -2539,6 +2585,7 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-08-17-andrew-huberman-relationships-drama-betrayal-sex-and-love": [],
  "lex-fridman/2023-09-01-neri-oxman-biology-art-and-science-of-design-engineering-with-nature": [
   "ai-for-science"
  ],
@@ -2757,6 +2804,13 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-08-10-listener-q-a-2024-tech-market-predictions-long-term-implications-of-to": [
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2023-08-17-the-ai-tutor-for-every-child-and-the-next-frontier-of-education-from-k": [
+  "jobs-and-work"
+ ],
+ "no-priors/2023-08-31-ai-superpowers-for-frontend-developers-with-vercel-founder-ceo-guiller": [],
  "no-priors/2023-09-07-the-world-s-largest-ai-processor-with-cerebras-ceo-andrew-feldman": [
   "infrastructure-and-chips"
  ],
