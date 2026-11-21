@@ -263,6 +263,16 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-07-05-the-10-000x-yolo-researcher-metagame-with-yi-tay-of-reka": [],
+ "latent-space/2024-07-12-benchmarks-201-why-leaderboards-arenas-llm-as-judge": [
+  "models-and-benchmarks",
+  "open-weight-models",
+  "hugging-face"
+ ],
+ "latent-space/2024-07-23-llama-2-3-4-synthetic-data-rlhf-agents-on-the-path-to-open-source-agi": [
+  "open-weight-models",
+  "meta"
+ ],
  "latent-space/2024-08-02-the-winds-of-ai-winter-q2-four-wars-recap-chatgpt-voice-mode-preview": [
   "consumer-ai",
   "open-weight-models",
@@ -890,6 +900,28 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-06-28-ai-safety-regulations-prudent-or-paranoid-with-a16z-s-martin-casado": [],
+ "cognitive-revolution/2024-07-04-the-state-space-model-revolution-with-albert-gu": [],
+ "cognitive-revolution/2024-07-06-building-an-intelligent-business-os-with-runway-ceo-siqi-chen": [],
+ "cognitive-revolution/2024-07-09-delving-into-the-prompt-report-with-sander-schulhoff-of-learnprompting": [],
+ "cognitive-revolution/2024-07-11-a-foundation-model-for-food-with-chef-robotics-ceo-rajat-bhageria": [
+  "physical-ai"
+ ],
+ "cognitive-revolution/2024-07-13-the-arc-prize-efficiency-intuition-and-agi-with-mike-knoop-co-founder": [
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-07-17-guaranteed-safe-ai-world-models-safety-specs-verifiers-with-nora-amman": [
+  "physical-ai",
+  "generative-media"
+ ],
+ "cognitive-revolution/2024-07-19-long-term-memory-for-llms-with-hipporag-author-bernal-jim-nez-gutierre": [],
+ "cognitive-revolution/2024-07-24-from-poetry-to-programming-the-evolution-of-prompt-engineering-with-ri": [
+  "context-engineering",
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2024-07-27-zooming-out-on-ai-from-the-nick-halaris-show": [
+  "openai"
  ],
  "cognitive-revolution/2024-08-02-ai-avatars-the-future-of-video-with-heygen-ceo-joshua-xu-and-benchmark": [
   "models-and-benchmarks"
@@ -1773,6 +1805,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-07-24-patrick-mckenzie-money-laundering-big-tech-censorship-sbf-japan": [],
  "dwarkesh/2024-08-22-joe-carlsmith-preventing-an-ai-takeover": [
   "ai-safety"
  ],
@@ -1975,6 +2008,8 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-07-02-ivanka-trump-politics-family-real-estate-fashion-music-and-life": [],
+ "lex-fridman/2024-07-21-jordan-jonas-survival-hunting-siberia-god-and-winning-alone-season-6": [],
  "lex-fridman/2024-08-02-elon-musk-and-neuralink-team-elon-musk-neuralink-and-the-future-of-hum": [
   "xai"
  ],
@@ -2115,6 +2150,14 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-07-11-the-best-of-2024-so-far-with-sarah-guo-and-elad-gil": [],
+ "no-priors/2024-07-18-how-ai-is-opening-up-new-markets-and-impacting-the-startup-status-quo": [],
+ "no-priors/2024-07-25-low-code-in-the-age-of-ai-and-going-enterprise-with-howie-liu-from-air": [
+  "enterprise-adoption"
+ ],
+ "no-priors/2024-08-01-google-deepmind-s-vision-for-ai-search-and-gemini-with-oriol-vinyals-f": [
+  "google"
+ ],
  "no-priors/2024-08-08-innovating-spend-management-through-ai-with-pedro-franceschi-from-brex": [],
  "no-priors/2024-08-15-how-ai-can-help-build-smarter-systems-for-every-team-with-eric-glyman": [
   "enterprise-adoption"
