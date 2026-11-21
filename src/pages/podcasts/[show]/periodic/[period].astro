@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { getPodcastShow } from "../../../../podcast-shows.mjs";
+
+// One monthly (YYYY-MM) or yearly (YYYY) summary of a show.
+export async function getStaticPaths() {
+    const all = (await getCollection("podcast-periodic")).filter((e) => !e.data.draft);
+    return all.map((entry) => {
+        const same = all.filter((e) => e.data.show === entry.data.show && e.data.type === entry.data.type)
+            .sort((a, b) => a.data.period.localeCompare(b.data.period));
+        const i = same.indexOf(entry);
+        return {
+            params: { show: entry.data.show, period: entry.data.period },
+            props: { entry, prev: same[i - 1], next: same[i + 1] },
+        };
+    });
+}
+
+const { entry, prev, next } = Astro.props;
+const { Content } = await entry.render();
+const show = getPodcastShow(entry.data.show)!;
+const d = entry.data;
+const base = import.meta.env.BASE_URL;
+const MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const label = (p: string) => (p.length === 7 ? `${MONTHS_LONG[Number(p.slice(5, 7)) - 1]} ${p.slice(0, 4)}` : p);
+const basisText = {
+    extractions: "the episode summaries and the wiki analysis (entities, concepts and verified claims) of every episode",
+    mixed: "the episode summaries, plus the wiki analysis where an episode has one",
+    summaries: "the episode summaries only (no wiki analysis yet for this period)",
+}[d.basis];
+---
+
+<BaseLayout title={d.title} description={d.description} withSidebar={false}>
+    <article class="periodic-post">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a> <span>›</span>
+            <a href={`${base}podcasts/${show.slug}/`}>{show.name}</a> <span>›</span>
+            <a href={`${base}podcasts/${show.slug}/periodic/`}>Monthly &amp; yearly</a>
+        </nav>
+        <header class="post-header">
+            <span class="badge">{d.type === "annual" ? "Yearly summary" : "Monthly summary"}{d.inProgress && " · in progress"}</span>
+            <h1>{d.title}</h1>
+            <p class="meta">{label(d.period)} &middot; {d.episodeCount} episodes</p>
+        </header>
+        <div class="post-content"><Content /></div>
+        <p class="disclaimer">
+            Written from {basisText}. Quotes are short excerpts verified against the transcripts; all rights remain with {show.name} and its guests.
+            {d.inProgress && " The period is not over yet; this summary will be regenerated."}
+        </p>
+        <footer class="post-footer">
+            {prev ? <a href={`${base}podcasts/${show.slug}/periodic/${prev.data.period}/`}>← {label(prev.data.period)}</a> : <span></span>}
+            <a href={`${base}podcasts/${show.slug}/periodic/`}>All summaries</a>
+            {next ? <a href={`${base}podcasts/${show.slug}/periodic/${next.data.period}/`}>{label(next.data.period)} →</a> : <span></span>}
+        </footer>
+    </article>
+</BaseLayout>
+
+<style>
+    .periodic-post { max-width: 800px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1.25rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    .post-header { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--color-border); }
+    .post-header h1 { font-size: 2rem; margin: 0.5rem 0; line-height: 1.2; }
+    .badge { display: inline-block; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.2rem 0.6rem; border-radius: 3px; background: #eeeae3; color: #8a7355; border: 1px solid #c4a97d; }
+    .meta { margin: 0; font-size: 0.9rem; color: var(--color-text-light); }
+    .post-content { line-height: 1.7; }
+    .post-content :global(h2) { font-size: 1.3rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .post-content :global(h3) { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.4rem; }
+    .post-content :global(ul) { margin: 0.75rem 0; padding-left: 1.5rem; }
+    .post-content :global(li) { margin-bottom: 0.5rem; }
+    .disclaimer { margin-top: 2rem; font-size: 0.8rem; color: var(--color-text-light); }
+    .post-footer { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; gap: 1rem; font-size: 0.9rem; }
+    .post-footer a { color: var(--color-primary); text-decoration: none; }
+    @media (max-width: 600px) { .post-header h1 { font-size: 1.3rem; } .post-content :global(h2) { font-size: 1.05rem; } }
+</style>

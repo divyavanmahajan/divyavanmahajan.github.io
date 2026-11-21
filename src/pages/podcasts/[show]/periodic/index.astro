@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { podcastShows } from "../../../../podcast-shows.mjs";
+
+// Monthly and yearly summaries for one show (collection `podcast-periodic`),
+// modelled on /podcasts/ai-daily-brief/periodic/.
+export async function getStaticPaths() {
+    const all = (await getCollection("podcast-periodic")).filter((e) => !e.data.draft);
+    return podcastShows
+        .map((show) => ({ show, entries: all.filter((e) => e.data.show === show.slug) }))
+        .filter(({ entries }) => entries.length > 0)
+        .map(({ show, entries }) => ({ params: { show: show.slug }, props: { show, entries } }));
+}
+
+const { show, entries } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const monthly = entries.filter((e) => e.data.type === "monthly").sort((a, b) => b.data.period.localeCompare(a.data.period));
+const annual = entries.filter((e) => e.data.type === "annual").sort((a, b) => b.data.period.localeCompare(a.data.period));
+const byPeriod = new Map(monthly.map((e) => [e.data.period, e]));
+const years = [...new Set(entries.map((e) => Number(e.data.period.slice(0, 4))))].sort((a, b) => b - a);
+const href = (e: (typeof entries)[number]) => `${base}podcasts/${show.slug}/periodic/${e.data.period}/`;
+const monthName = (p: string) => `${MONTHS_LONG[Number(p.slice(5, 7)) - 1]} ${p.slice(0, 4)}`;
+---
+
+<BaseLayout title={`${show.name}: monthly and yearly summaries`} description={`Monthly and yearly summaries of ${show.name}`} withSidebar={false}>
+    <div class="periodic-page">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a> <span>›</span>
+            <a href={`${base}podcasts/${show.slug}/`}>{show.name}</a> <span>›</span> <span>Monthly &amp; yearly</span>
+        </nav>
+        <header class="page-header">
+            <h1 class="page-title">{show.name}</h1>
+            <p class="page-subtitle">
+                {monthly.length} monthly and {annual.length} yearly {annual.length === 1 ? "summary" : "summaries"}, written from the episode summaries and the wiki analysis of each episode
+                &middot; <a href={`${base}podcasts/${show.slug}/`} class="subtitle-link">Episodes →</a>
+                &middot; <a href={`${base}podcasts/${show.slug}/tags/`} class="subtitle-link">Topics →</a>
+            </p>
+            <div class="calendar-wrapper">
+                <div class="calendar-grid">
+                    <div></div>
+                    {MONTHS.map((m) => <div class="cal-month-header">{m}</div>)}
+                    {years.map((year) => (
+                        <>
+                            <div class="cal-year-label">{year}</div>
+                            {MONTHS.map((m, i) => {
+                                const key = `${year}-${String(i + 1).padStart(2, "0")}`;
+                                return byPeriod.has(key)
+                                    ? <div class="cal-cell"><a class="cal-btn" href={`#monthly-${key}`}>{m}</a></div>
+                                    : <div class="cal-cell"><span class="cal-dot">&middot;</span></div>;
+                            })}
+                        </>
+                    ))}
+                </div>
+            </div>
+        </header>
+
+        {annual.length > 0 && (
+            <section class="annual-section">
+                <h2 class="section-label">Yearly summaries</h2>
+                <div class="annual-grid">
+                    {annual.map((e) => (
+                        <div class="annual-card">
+                            <div class="card-top">
+                                <span class="annual-year">{e.data.period}</span>
+                                <a href={href(e)} class="btn-synthesis">Summary</a>
+                            </div>
+                            <p class="desc">{e.data.description}</p>
+                            <p class="meta">{e.data.episodeCount} episodes{e.data.inProgress && " · in progress"}</p>
+                        </div>
+                    ))}
+                </div>
+            </section>
+        )}
+
+        {years.map((year) => {
+            const list = monthly.filter((e) => e.data.period.startsWith(`${year}-`));
+            return list.length > 0 && (
+                <section class="monthly-year-group">
+                    <h2 class="monthly-year-heading">{year} <span class="sub">— monthly</span></h2>
+                    {list.map((e) => (
+                        <div class="monthly-entry" id={`monthly-${e.data.period}`}>
+                            <div class="card-top">
+                                <span class="month-name">{monthName(e.data.period)}</span>
+                                <a href={href(e)} class="btn-synthesis">Summary</a>
+                            </div>
+                            <p class="desc">{e.data.description}</p>
+                            <p class="meta">{e.data.episodeCount} episodes{e.data.inProgress && " · in progress"}</p>
+                        </div>
+                    ))}
+                </section>
+            );
+        })}
+    </div>
+</BaseLayout>
+
+<style>
+    .periodic-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    .page-header { margin-bottom: 2rem; }
+    .page-title { font-family: var(--font-title); font-size: 2rem; margin: 0 0 0.4rem; }
+    .page-subtitle { font-size: 0.9rem; color: var(--color-text-light); margin: 0 0 1.25rem; }
+    .subtitle-link { color: #4a6fa5; text-decoration: none; font-weight: 600; }
+    .calendar-wrapper { overflow-x: auto; }
+    .calendar-grid { display: grid; grid-template-columns: 3rem repeat(12, minmax(2.8rem, 1fr)); gap: 3px; min-width: 480px; }
+    .cal-month-header { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; color: var(--color-text-light); text-align: center; }
+    .cal-year-label { font-size: 0.75rem; font-weight: 700; color: var(--color-text-light); display: flex; align-items: center; justify-content: flex-end; padding-right: 0.5rem; }
+    .cal-cell { display: flex; align-items: center; justify-content: center; }
+    .cal-btn { display: block; width: 100%; text-align: center; padding: 0.2rem 0.1rem; font-size: 0.65rem; font-weight: 600; background: #eeeae3; color: #8a7355; border: 1px solid #c4a97d; border-radius: 4px; text-decoration: none; }
+    .cal-btn:hover { background: #ddd7ce; }
+    .cal-dot { color: #ccc5b8; }
+    .section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-light); margin: 0 0 0.6rem; }
+    .annual-section { margin-bottom: 2.5rem; }
+    .annual-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: 1rem; }
+    .annual-card { background: #eeeae3; border-radius: 6px; padding: 1rem 1.1rem; }
+    .annual-year { font-size: 1.6rem; font-weight: 700; }
+    .card-top { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.3rem; }
+    .btn-synthesis { display: inline-block; padding: 0.25rem 0.7rem; font-size: 0.78rem; font-weight: 600; background: #e8eef8; color: #4a6fa5; border: 1px solid #f0c040; border-radius: 4px; text-decoration: none; white-space: nowrap; }
+    .btn-synthesis:hover { background: #d4e0f5; }
+    .monthly-year-group { margin-bottom: 2rem; }
+    .monthly-year-heading { font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 0.6rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--color-border); }
+    .sub { font-size: 0.75rem; color: var(--color-text-light); }
+    .monthly-entry { padding: 0.75rem 0; border-bottom: 1px solid var(--color-border); }
+    .month-name { font-weight: 700; font-size: 0.95rem; }
+    .desc { font-size: 0.85rem; color: var(--color-text-light); margin: 0; line-height: 1.5; }
+    .meta { font-size: 0.72rem; font-family: monospace; color: var(--color-text-light); margin: 0.3rem 0 0; }
+    @media (max-width: 640px) { .page-title { font-size: 1.5rem; } }
+</style>

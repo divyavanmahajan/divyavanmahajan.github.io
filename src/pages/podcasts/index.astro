@@ -34,6 +34,23 @@ const recent = [
 ]
     .sort((a, b) => b.date.valueOf() - a.date.valueOf())
     .slice(0, 15);
+// Latest monthly summary per show (AIDB: its `synthesis` entries; others:
+// the `podcast-periodic` collection).
+const MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const monthLabel = (p: string) => `${MONTHS_LONG[Number(p.slice(5, 7)) - 1]} ${p.slice(0, 4)}`;
+const clip = (t: string, n = 260) => (t.length > n ? t.slice(0, t.lastIndexOf(" ", n)) + " …" : t);
+const aidbSynth = (await getCollection("ainews"))
+    .filter((e) => !e.data.draft && e.data.type === "synthesis")
+    .map((e) => ({ e, period: (e.slug.split("/").pop()!.match(/^(\d{4}-\d{2})-/) || [])[1] }))
+    .filter((x) => x.period)
+    .sort((a, b) => b.period!.localeCompare(a.period!))[0];
+const periodicAll = (await getCollection("podcast-periodic")).filter((e) => !e.data.draft && e.data.type === "monthly");
+const latestMonthly = [
+    ...(aidbSynth ? [{ show: "ai-daily-brief", period: aidbSynth.period!, description: aidbSynth.e.data.description ?? "", href: `podcasts/ai-daily-brief/${aidbSynth.e.slug}/`, all: "podcasts/ai-daily-brief/periodic/", inProgress: false }] : []),
+    ...podcastShows.map((s) => periodicAll.filter((e) => e.data.show === s.slug).sort((a, b) => b.data.period.localeCompare(a.data.period))[0])
+        .filter(Boolean)
+        .map((e) => ({ show: e!.data.show, period: e!.data.period, description: e!.data.description, href: `podcasts/${e!.data.show}/periodic/${e!.data.period}/`, all: `podcasts/${e!.data.show}/periodic/`, inProgress: e!.data.inProgress })),
+];
 const showName = (slug: string) => slug === "ai-daily-brief" ? "The AI Daily Brief" : podcastShows.find((s) => s.slug === slug)?.name ?? slug;
 const base = import.meta.env.BASE_URL;
 const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
@@ -46,6 +63,9 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
             <p class="intro">
                 Short summaries of AI podcast episodes I follow: the thesis, the key points and a quote or two, with a link to the original episode.
                 &middot; <a href={`${base}podcasts/rss.xml`}>RSS</a>
+            </p>
+            <p class="intro-links">
+                <a href={`${base}podcasts/topics/`}>Browse by topic (all shows) →</a>
             </p>
         </header>
 
@@ -61,6 +81,22 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
                 </a>
             ))}
         </section>
+
+        {latestMonthly.length > 0 && (
+            <section class="monthly">
+                <h2 class="section-heading">Latest monthly summaries</h2>
+                <ul class="monthly-list">
+                    {latestMonthly.map((m) => (
+                        <li>
+                            <span class="recent-show">{showName(m.show)}</span>
+                            <a class="monthly-title" href={`${base}${m.href}`}>{monthLabel(m.period)}{m.inProgress && " (in progress)"}</a>
+                            <a class="monthly-all" href={`${base}${m.all}`}>all months</a>
+                            <p>{clip(m.description)}</p>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+        )}
 
         <h2 class="section-heading">Recent episodes</h2>
         <ul class="recent">
@@ -87,6 +123,14 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
     .show-name { font-weight: 700; font-size: 1.05rem; color: var(--color-primary); }
     .show-desc { font-size: 0.85rem; color: var(--color-text-light); }
     .show-meta { font-size: 0.75rem; font-family: monospace; color: var(--color-text-light); }
+    .intro-links { margin: 0.75rem 0 0; font-size: 0.9rem; }
+    .intro-links a { color: #4a6fa5; font-weight: 600; text-decoration: none; }
+    .monthly { margin-bottom: 2.5rem; }
+    .monthly-list { list-style: none; margin: 0; padding: 0; }
+    .monthly-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; display: flex; flex-wrap: wrap; gap: 0.25rem 0.75rem; align-items: baseline; }
+    .monthly-list p { flex-basis: 100%; margin: 0; font-size: 0.85rem; color: var(--color-text-light); line-height: 1.45; }
+    .monthly-title { font-weight: 700; color: var(--color-primary); text-decoration: none; }
+    .monthly-all { font-size: 0.75rem; color: var(--color-text-light); text-decoration: none; }
     .section-heading { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-light); margin: 0 0 0.75rem; }
     .recent { list-style: none; margin: 0; padding: 0; }
     .recent li { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; }

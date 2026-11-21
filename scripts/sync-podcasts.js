@@ -22,6 +22,14 @@
  *   node scripts/sync-podcasts.js --dry-run       # validate + report only
  *   node scripts/sync-podcasts.js --prune         # also delete published
  *                                                 # files with no staging file
+ *   node scripts/sync-podcasts.js --periodic-only # only monthly/annual summaries
+ *
+ * Also syncs the monthly/annual summaries (scripts/PODCAST_PERIODIC_INSTRUCTIONS.md):
+ *   podcast-periodic/<show>/YYYY-MM.md | YYYY.md  (override: PODCAST_PERIODIC_DIR)
+ *   -> src/content/podcast-periodic/<show>/<period>.md
+ *   -> /podcasts/<show>/periodic/<period>/
+ * validated in scripts/lib/podcast-periodic.mjs (sections, word cap, <= 3
+ * verified quotes, every /podcasts/ link must resolve, sources = episodes).
  *
  * Unlike sync-ainews.js this script does NOT `git add` anything: the blog repo
  * may hold staged AIDB files from another workflow, so committing is left to
@@ -33,6 +41,7 @@ import path from 'path';
 import crypto from 'crypto';
 import { createRequire } from 'module';
 import { podcastShows, podcastShowSlugs } from '../src/podcast-shows.mjs';
+import { validatePeriodic, transformPeriodic, listPeriodicFiles } from './lib/podcast-periodic.mjs';
 
 const require = createRequire(import.meta.url);
 const matter = require('gray-matter');
@@ -40,10 +49,16 @@ const matter = require('gray-matter');
 const projectRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const STAGING_ROOT = process.env.PODCAST_SUMMARIES_DIR || path.join(projectRoot, 'podcast-summaries');
 const DEST_ROOT = path.join(projectRoot, 'src', 'content', 'podcasts');
+const PERIODIC_STAGING_ROOT = process.env.PODCAST_PERIODIC_DIR || path.join(projectRoot, 'podcast-periodic');
+const PERIODIC_DEST_ROOT = path.join(projectRoot, 'src', 'content', 'podcast-periodic');
 
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
 const PRUNE = args.includes('--prune');
+// --periodic-only: validate episodes without writing them (e.g. while the
+// back-catalogue driver owns src/content/podcasts) and sync only the
+// monthly/annual summaries.
+const PERIODIC_ONLY = args.includes('--periodic-only');
 const showIdx = args.indexOf('--show');
 const ONLY_SHOW = showIdx >= 0 ? args[showIdx + 1] : null;
 
@@ -129,6 +144,7 @@ function syncShow(show) {
   const files = listMarkdown(srcDir);
   console.log(`${show.name} (${show.slug}): ${files.length} staged summaries`);
   const expected = new Set();
+  const valid = new Map(); // staging basename (no .md) -> {year, month, slug} of published episodes
 
   for (const basename of files) {
     const m = basename.match(FILENAME_RE);
@@ -148,6 +164,7 @@ function syncShow(show) {
       continue;
     }
 
+    if (data.draft !== true) valid.set(basename.slice(0, -3), { year, month, slug });
     const output = matter.stringify(content.trim() + '\n', transformFrontmatter(data, meta, show.slug));
     const destPath = path.join(DEST_ROOT, show.slug, year, month, `${slug}.md`);
     expected.add(destPath);
@@ -155,15 +172,15 @@ function syncShow(show) {
     const existing = fs.existsSync(destPath) ? md5(fs.readFileSync(destPath, 'utf8')) : null;
     const status = existing === null ? 'new' : existing !== md5(output) ? 'updated' : 'unchanged';
     counts[status]++;
-    if (status !== 'unchanged') console.log(`  [${status.toUpperCase()}] ${path.relative(projectRoot, destPath)}`);
-    if (!DRY_RUN && status !== 'unchanged') {
+    if (status !== 'unchanged' && !PERIODIC_ONLY) console.log(`  [${status.toUpperCase()}] ${path.relative(projectRoot, destPath)}`);
+    if (!DRY_RUN && !PERIODIC_ONLY && status !== 'unchanged') {
       fs.mkdirSync(path.dirname(destPath), { recursive: true });
       fs.writeFileSync(destPath, output, 'utf8');
     }
   }
 
   for (const published of listPublished(path.join(DEST_ROOT, show.slug))) {
-    if (expected.has(published)) continue;
+    if (expected.has(published) || PERIODIC_ONLY) continue;
     const rel = path.relative(projectRoot, published);
     if (PRUNE) {
       console.log(`  [PRUNE] ${rel}`);
@@ -171,6 +188,51 @@ function syncShow(show) {
       counts.pruned++;
     } else {
       console.log(`  [ORPHAN] ${rel} (no staging file; use --prune to delete)`);
+    }
+  }
+  return valid;
+}
+
+const pcounts = { new: 0, updated: 0, unchanged: 0, invalid: 0, pruned: 0 };
+
+/** Monthly/annual summaries for one show; `episodes` = valid published episodes. */
+function syncPeriodic(show, episodes) {
+  const srcDir = path.join(PERIODIC_STAGING_ROOT, show.slug);
+  const files = listPeriodicFiles(srcDir);
+  const destDir = path.join(PERIODIC_DEST_ROOT, show.slug);
+  if (!files.length && !fs.existsSync(destDir)) return;
+  console.log(`  periodic: ${files.length} staged monthly/annual summaries`);
+  const periodics = new Set(files.map((f) => f.slice(0, -3)));
+  const expected = new Set();
+  for (const basename of files) {
+    const { data, content } = matter(fs.readFileSync(path.join(srcDir, basename), 'utf8'));
+    const problems = validatePeriodic(show.slug, basename, data, content, episodes, periodics);
+    if (problems.length) {
+      console.warn(`  [INVALID] periodic/${basename}\n    - ${problems.join('\n    - ')}`);
+      pcounts.invalid++;
+      continue;
+    }
+    const output = matter.stringify(content.trim() + '\n', transformPeriodic(data, show.slug, basename));
+    const destPath = path.join(destDir, basename);
+    expected.add(destPath);
+    const existing = fs.existsSync(destPath) ? md5(fs.readFileSync(destPath, 'utf8')) : null;
+    const status = existing === null ? 'new' : existing !== md5(output) ? 'updated' : 'unchanged';
+    pcounts[status]++;
+    if (status !== 'unchanged') console.log(`  [${status.toUpperCase()}] ${path.relative(projectRoot, destPath)}`);
+    if (!DRY_RUN && status !== 'unchanged') {
+      fs.mkdirSync(destDir, { recursive: true });
+      fs.writeFileSync(destPath, output, 'utf8');
+    }
+  }
+  for (const published of listPublished(destDir)) {
+    if (expected.has(published)) continue;
+    const rel = path.relative(projectRoot, published);
+    if (PRUNE) {
+      console.log(`  [PRUNE] ${rel}`);
+      if (!DRY_RUN) fs.unlinkSync(published);
+      pcounts.pruned++;
+    } else {
+      console.log(`  [ORPHAN] ${rel} (no staging file or invalid; use --prune to delete)`);
     }
   }
 }
@@ -182,11 +244,13 @@ function main() {
   }
   for (const show of podcastShows) {
     if (ONLY_SHOW && show.slug !== ONLY_SHOW) continue;
-    syncShow(show);
+    const episodes = syncShow(show);
+    syncPeriodic(show, episodes);
   }
+  console.log(`periodic summaries: ${pcounts.new} new, ${pcounts.updated} updated, ${pcounts.unchanged} unchanged, ${pcounts.invalid} invalid, ${pcounts.pruned} pruned.`);
   console.log(`\n${counts.new} new, ${counts.updated} updated, ${counts.unchanged} unchanged, ${counts.invalid} invalid, ${counts.pruned} pruned.`);
   if (DRY_RUN) console.log('[DRY RUN] No files were written.');
-  if (counts.invalid > 0) process.exitCode = 2;
+  if (counts.invalid > 0 || pcounts.invalid > 0) process.exitCode = 2;
 }
 
 main();

@@ -15,6 +15,11 @@ export async function getStaticPaths() {
 
 const { show, episodes } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const periodic = (await getCollection("podcast-periodic"))
+    .filter((e) => !e.data.draft && e.data.show === show.slug)
+    .sort((a, b) => b.data.period.localeCompare(a.data.period));
+const latestMonthly = periodic.find((e) => e.data.type === "monthly");
+const MONTHS_LONG = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 ---
 
 <BaseLayout title={show.name} description={`Episode summaries: ${show.description}`} withSidebar={false}>
@@ -31,6 +36,17 @@ const base = import.meta.env.BASE_URL;
                 &middot; <a href={show.homepage} target="_blank" rel="noopener noreferrer">Show website</a>
                 &middot; <a href={`${base}podcasts/${show.slug}/rss.xml`}>RSS</a>
             </p>
+            <p class="podcast-links">
+                <a href={`${base}podcasts/${show.slug}/tags/`}>Browse by topic →</a>
+                {periodic.length > 0 && <a href={`${base}podcasts/${show.slug}/periodic/`}>Monthly &amp; yearly summaries →</a>}
+            </p>
+            {latestMonthly && (
+                <p class="latest-monthly">
+                    <a href={`${base}podcasts/${show.slug}/periodic/${latestMonthly.data.period}/`}>
+                        {MONTHS_LONG[Number(latestMonthly.data.period.slice(5, 7)) - 1]} {latestMonthly.data.period.slice(0, 4)}
+                    </a>: {latestMonthly.data.description}
+                </p>
+            )}
         </header>
         <PodcastEpisodeList episodes={episodes} />
     </div>
@@ -44,5 +60,9 @@ const base = import.meta.env.BASE_URL;
     .podcast-header h1 { font-family: var(--font-title); font-size: 2rem; margin: 0 0 0.5rem; }
     .podcast-intro { color: var(--color-text-light); font-size: 0.95rem; margin: 0; }
     .podcast-intro a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
+    .podcast-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin: 0.75rem 0 0; font-size: 0.9rem; }
+    .podcast-links a { color: #4a6fa5; font-weight: 600; text-decoration: none; }
+    .latest-monthly { margin: 0.6rem 0 0; font-size: 0.85rem; color: var(--color-text-light); }
+    .latest-monthly a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
     @media (max-width: 600px) { .podcast-header h1 { font-size: 1.4rem; } }
 </style>

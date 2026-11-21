@@ -71,4 +71,25 @@ const podcasts = defineCollection({
 	}),
 });
 
-export const collections = { blog, til, ainews, podcasts };
+// Monthly and yearly summaries of the podcasts above (not AIDB, whose
+// syntheses live in `ainews`). Files: src/content/podcast-periodic/<show>/
+// YYYY-MM.md (monthly) and YYYY.md (annual), written by scripts/sync-podcasts.js
+// from podcast-periodic/<show>/. Generated from the episode SUMMARIES and the
+// blog-wiki extractions per scripts/PODCAST_PERIODIC_INSTRUCTIONS.md.
+const podcastPeriodic = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		pubDate: z.coerce.date(),
+		show: z.enum(podcastShowSlugs as [string, ...string[]]),
+		type: z.enum(['monthly', 'annual']),
+		period: z.string().regex(/^\d{4}(-\d{2})?$/),
+		episodeCount: z.number().int().positive(),
+		basis: z.enum(['extractions', 'mixed', 'summaries']),
+		inProgress: z.boolean().default(false),
+		draft: z.boolean().default(false),
+	}),
+});
+
+export const collections = { blog, til, ainews, podcasts, 'podcast-periodic': podcastPeriodic };

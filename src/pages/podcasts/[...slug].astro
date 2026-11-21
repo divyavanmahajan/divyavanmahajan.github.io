@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { getPodcastShow } from "../../podcast-shows.mjs";
+import { podcastTopics, podcastTagSource } from "../../podcast-topics.mjs";
 
 export async function getStaticPaths() {
     const entries = (await getCollection("podcasts")).filter((e) => !e.data.draft);
@@ -13,6 +14,14 @@ const { Content } = await entry.render();
 const show = getPodcastShow(entry.data.show)!;
 const base = import.meta.env.BASE_URL;
 const d = entry.data;
+// Controlled topic/company tags (src/data/podcast-tags.json) link to the
+// cross-show topic pages; the free-form `tags` stay secondary.
+const topics = podcastTopics(entry);
+const tagSource = podcastTagSource(entry);
+const month = d.pubDate.toISOString().slice(0, 7);
+const monthSummary = (await getCollection("podcast-periodic")).find(
+    (e) => !e.data.draft && e.data.show === d.show && e.data.type === "monthly" && e.data.period === month,
+);
 ---
 
 <BaseLayout title={`${d.title} (${show.name})`} description={d.description} withSidebar={false}>
@@ -41,9 +50,14 @@ const d = entry.data;
                 {d.hosts.length > 0 && (<div><dt>Host{d.hosts.length > 1 && "s"}</dt><dd>{d.hosts.join(", ")}</dd></div>)}
                 {d.guests.length > 0 && (<div><dt>Guest{d.guests.length > 1 && "s"}</dt><dd>{d.guests.join(", ")}</dd></div>)}
             </dl>
+            {topics.length > 0 && (
+                <div class="tags" title={tagSource === "summary" ? "Topics matched from the summary text" : "Topics from the wiki analysis of the episode"}>
+                    {topics.map((tag) => <a class="tag-badge" href={`${base}podcasts/topics/${tag}/`}>{tag}</a>)}
+                </div>
+            )}
             {d.tags.length > 0 && (
-                <div class="tags">
-                    {d.tags.map((tag) => <a class="tag-badge" href={`${base}podcasts/tags/${tag}/`}>{tag}</a>)}
+                <div class="tags free">
+                    {d.tags.map((tag) => <a class="tag-free" href={`${base}podcasts/tags/${tag}/`}>#{tag}</a>)}
                 </div>
             )}
             <div class="listen">
@@ -62,6 +76,7 @@ const d = entry.data;
 
         <footer class="post-footer">
             <a href={`${base}podcasts/${show.slug}/`}>← All {show.name} summaries</a>
+            {monthSummary && <a class="month-link" href={`${base}podcasts/${show.slug}/periodic/${month}/`}>{monthSummary.data.title} →</a>}
         </footer>
     </article>
 </BaseLayout>
@@ -81,6 +96,9 @@ const d = entry.data;
     .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
     .tag-badge { background: var(--color-secondary); color: #fff; padding: 0.2rem 0.6rem; border-radius: 3px; font-size: 0.8rem; text-decoration: none; }
     .tag-badge:hover { opacity: 0.85; color: #fff; text-decoration: none; }
+    .tags.free { gap: 0.4rem; margin-top: -0.5rem; }
+    .tag-free { font-size: 0.75rem; color: var(--color-text-light); text-decoration: none; }
+    .tag-free:hover { color: var(--color-primary); }
     .listen { display: flex; flex-wrap: wrap; gap: 0.5rem; }
     .listen-btn { display: inline-block; background: var(--color-primary); color: #fff; padding: 0.5rem 1.25rem; border-radius: 4px; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
     .listen-btn.secondary { background: transparent; color: var(--color-primary); border: 1px solid var(--color-primary); }
@@ -93,6 +111,7 @@ const d = entry.data;
     .disclaimer { margin-top: 2rem; font-size: 0.8rem; color: var(--color-text-light); }
     .disclaimer a { color: var(--color-primary); }
     .post-footer { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border); }
+    .post-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem; }
     .post-footer a { color: var(--color-primary); text-decoration: none; }
     @media (max-width: 600px) {
         .post-header h1 { font-size: 1.3rem; }
