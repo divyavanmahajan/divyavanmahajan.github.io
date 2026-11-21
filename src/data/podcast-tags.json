@@ -1522,6 +1522,16 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2025-09-19-norman-ohler-hitler-nazis-drugs-ww2-blitzkrieg-lsd-mkultra-cia": [],
+ "lex-fridman/2025-10-01-pavel-durov-telegram-freedom-censorship-money-power-human-nature": [],
+ "lex-fridman/2025-10-14-julia-shaw-criminal-psychology-of-murder-serial-killers-memory-sex": [],
+ "lex-fridman/2025-10-31-dan-houser-gta-red-dead-redemption-rockstar-absurd-future-of-gaming": [],
+ "lex-fridman/2025-11-17-david-kirtley-nuclear-fusion-plasma-physics-and-the-future-of-energy": [],
+ "lex-fridman/2025-11-30-michael-levin-hidden-reality-of-alien-intelligence-biological-life": [],
+ "lex-fridman/2025-12-12-irving-finkel-deciphering-secrets-of-ancient-civilizations-flood-myths": [],
+ "lex-fridman/2025-12-31-joel-david-hamkins-infinity-paradoxes-that-broke-mathematics-g-del-inc": [
+  "ai-for-science"
+ ],
  "lex-fridman/2026-01-13-paul-rosolie-uncontacted-tribes-in-the-amazon-jungle": [],
  "lex-fridman/2026-02-01-ai-sota-2026-state-of-ai-in-2026-llms-coding-scaling-laws-china-agents": [
   "open-weight-models",
@@ -1571,6 +1581,40 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-09-25-reinventing-k-12-education-using-ai-with-alpha-school-principal-joe-li": [
+  "jobs-and-work"
+ ],
+ "no-priors/2025-10-04-the-impact-of-ai-from-business-models-to-cybersecurity-with-palo-alto": [],
+ "no-priors/2025-10-09-humans-bridging-iq-and-eq-in-machine-learning-with-eric-zelikman": [],
+ "no-priors/2025-10-15-unlocking-the-road-to-energy-abundance-with-base-power-ceo-and-co-foun": [],
+ "no-priors/2025-10-23-reinventing-the-developer-terminal-with-warp-co-founder-and-ceo-zach-l": [
+  "ai-coding"
+ ],
+ "no-priors/2025-10-31-the-best-of-2025-so-far-with-sarah-guo-and-elad-gil": [
+  "ai-safety"
+ ],
+ "no-priors/2025-11-06-meet-snowflake-intelligence-a-personalized-enterprise-intelligence-age": [
+  "enterprise-adoption"
+ ],
+ "no-priors/2025-11-13-how-ai-will-accelerate-breakthroughs-in-biotechnology-with-benchling-c": [
+  "ai-for-science"
+ ],
+ "no-priors/2025-11-19-sunday-robotics-scaling-the-home-robot-revolution-with-co-founders-ton": [
+  "physical-ai"
+ ],
+ "no-priors/2025-12-05-scaling-legal-ai-and-building-next-generation-law-firms-with-harvey-co": [
+  "agents",
+  "training-and-rl"
+ ],
+ "no-priors/2025-12-11-the-future-of-voice-ai-agents-dubbing-and-real-time-translation-with-e": [
+  "generative-media",
+  "jobs-and-work"
+ ],
+ "no-priors/2025-12-19-the-2026-ai-forecast-foundation-models-ipos-and-robotics-with-sarah-gu": [
+  "ai-economics",
+  "physical-ai",
+  "enterprise-adoption"
+ ],
  "no-priors/2026-01-08-nvidia-s-jensen-huang-on-reasoning-models-robotics-and-refuting-the-ai": [
   "ai-economics",
   "infrastructure-and-chips",
