@@ -1,4 +1,11 @@
 {
+ "practical-ai/2025-04-14-orchestrating-agents-apis-and-mcp-servers": [
+  "context-engineering"
+ ],
+ "practical-ai/2025-04-17-open-source-ai-to-tackle-your-backlog": [
+  "ai-coding",
+  "agents"
+ ],
  "practical-ai/2025-04-30-seeing-beyond-the-scan-in-neuroimaging": [],
  "practical-ai/2025-05-08-model-context-protocol-deep-dive": [
   "context-engineering",
@@ -245,6 +252,19 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-04-03-the-creators-of-model-context-protocol": [
+  "context-engineering",
+  "anthropic"
+ ],
+ "latent-space/2025-04-11-sf-compute-commoditizing-compute-to-solve-the-gpu-bubble-forever": [
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2025-04-15-gpt-4-1-the-new-openai-workhorse": [
+  "training-and-rl",
+  "ai-coding",
+  "models-and-benchmarks",
+  "openai"
  ],
  "latent-space/2025-05-01-the-rise-and-fall-of-the-vector-db-category": [],
  "latent-space/2025-05-23-aiewf-preview-multi-turn-rl-for-multi-hour-agents-with-will-brown-prim": [
@@ -723,6 +743,30 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-04-05-scaling-thinking-gemini-2-5-tech-lead-jack-rae-on-reasoning-long-conte": [
+  "training-and-rl",
+  "models-and-benchmarks",
+  "google"
+ ],
+ "cognitive-revolution/2025-04-10-new-in-nature-google-agents-beat-human-doctors-make-scientific-discove": [
+  "training-and-rl",
+  "google"
+ ],
+ "cognitive-revolution/2025-04-13-is-a-us-china-thucydides-trap-unavoidable-with-david-c-kang-from-the-c": [
+  "us-china"
+ ],
+ "cognitive-revolution/2025-04-16-helen-toner-openai-reflections-adaptation-buffers-and-ai-in-warfare": [
+  "openai"
+ ],
+ "cognitive-revolution/2025-04-19-ai-news-crossover-a-candid-chat-with-liron-shapira-of-doom-debates": [],
+ "cognitive-revolution/2025-04-21-is-o3-agi-zvi-mowshowitz-on-early-ai-takeoff-the-mechanize-launch-live": [
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2025-04-23-securing-superintelligence-national-security-espionage-ai-control-with": [
+  "ai-safety",
+  "us-china"
  ],
  "cognitive-revolution/2025-04-26-fiverr-goes-all-in-on-ai-empowering-creators-not-replacing-them-with-m": [],
  "cognitive-revolution/2025-05-01-blueprint-for-ai-armageddon-josh-clymer-imagines-ai-takeover-from-the": [
@@ -1369,6 +1413,11 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2025-04-03-ai-2027-month-by-month-model-of-intelligence-explosion-scott-alexander": [
+  "ai-safety",
+  "ai-coding"
+ ],
+ "dwarkesh/2025-04-17-agi-is-still-30-years-away-ege-erdil-tamay-besiroglu": [],
  "dwarkesh/2025-04-24-why-rome-actually-fell-plagues-slavery-ice-age-kyle-harper": [],
  "dwarkesh/2025-04-29-mark-zuckerberg-ai-will-write-most-meta-code-in-18-months": [
   "open-weight-models",
@@ -1533,6 +1582,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2025-04-09-dave-smith-israel-ukraine-epstein-mossad-conspiracies-antisemitism": [],
+ "lex-fridman/2025-04-17-robert-rodriguez-sin-city-desperado-el-mariachi-alita-and-filmmaking": [],
+ "lex-fridman/2025-04-24-jeffrey-wasserstrom-china-xi-jinping-trade-war-taiwan-hong-kong-mao": [
+  "us-china"
+ ],
  "lex-fridman/2025-04-30-tim-sweeney-fortnite-unreal-engine-and-the-future-of-gaming": [
   "apple",
   "google"
@@ -1622,6 +1676,15 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-04-10-from-job-displacement-to-ai-trainers-brendan-foody-on-work-in-the-ai-a": [
+  "jobs-and-work",
+  "models-and-benchmarks"
+ ],
+ "no-priors/2025-04-17-predicting-the-earth-with-josh-goldman-how-kobold-uses-ai-to-find-crit": [],
+ "no-priors/2025-04-24-inside-deep-research-with-isa-fulford-building-the-future-of-ai-agents": [
+  "training-and-rl",
+  "openai"
+ ],
  "no-priors/2025-05-01-o3-and-the-next-leap-in-reasoning-with-openai-s-eric-mitchell-and-bran": [
   "models-and-benchmarks",
   "training-and-rl",
