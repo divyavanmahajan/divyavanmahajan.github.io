@@ -1,4 +1,15 @@
 {
+ "practical-ai/2021-05-11-25-years-of-speech-technology-innovation": [],
+ "practical-ai/2021-05-18-apache-tvm-and-octoml": [],
+ "practical-ai/2021-05-26-elixir-meets-machine-learning": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2021-06-01-the-fastest-way-to-build-ml-powered-apps": [],
+ "practical-ai/2021-06-08-learning-to-learn-deep-learning": [],
+ "practical-ai/2021-06-15-multi-gpu-training-is-hard-without-pytorch-lightning": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2021-06-22-vector-databases-for-machine-learning": [],
  "practical-ai/2021-07-13-from-symbols-to-ai-pair-programmers": [
   "ai-coding",
   "microsoft"
@@ -3035,6 +3046,29 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2021-05-09-john-danaher-the-path-to-mastery-in-jiu-jitsu-grappling-judo-and-mma": [],
+ "lex-fridman/2021-05-14-po-shen-loh-mathematics-math-olympiad-combinatorics-contact-tracing": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-05-17-katherine-de-kleer-planets-moons-and-asteroids-in-our-solar-system": [],
+ "lex-fridman/2021-05-20-sam-harris-consciousness-free-will-psychedelics-ai-ufos-and-meaning": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2021-05-24-bryan-johnson-kernel-brain-computer-interfaces": [],
+ "lex-fridman/2021-05-29-frank-wilczek-physics-of-quarks-dark-matter-complexity-life-aliens": [],
+ "lex-fridman/2021-06-03-vitalik-buterin-ethereum-2-0": [],
+ "lex-fridman/2021-06-07-david-sinclair-extending-the-human-lifespan-beyond-100-years": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-06-13-jordan-ellenberg-mathematics-of-high-dimensional-shapes-and-geometries": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-06-14-daniel-schmachtenberger-steering-civilization-away-from-self-destructi": [],
+ "lex-fridman/2021-06-16-charles-hoskinson-cardano": [],
+ "lex-fridman/2021-06-21-rob-reid-the-existential-threat-of-engineered-viruses-and-lab-leaks": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-06-25-bret-weinstein-truth-science-and-censorship-in-the-time-of-a-pandemic": [],
  "lex-fridman/2021-06-28-clara-sousa-silva-searching-for-signs-of-life-on-venus-and-other-plane": [],
  "lex-fridman/2021-07-01-yeonmi-park-north-korea": [
   "us-china"
