@@ -263,6 +263,13 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-05-16-emulating-humans-with-nsfw-chatbots-with-jesse-silver": [],
+ "latent-space/2024-05-27-iclr-2024-best-papers-talks-imagegen-vision-transformers-state-space-m": [],
+ "latent-space/2024-05-30-how-to-train-a-million-context-llm-with-mark-huang-of-gradient-ai": [
+  "open-weight-models",
+  "infrastructure-and-chips",
+  "meta"
+ ],
  "latent-space/2024-06-10-iclr-2024-best-papers-talks-benchmarks-reasoning-agents-ft-graham-neub": [
   "models-and-benchmarks",
   "openai"
@@ -912,6 +919,23 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-05-15-the-open-source-ai-question-part-2-robert-wright-nathan-labenz": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2024-05-18-openai-and-google-race-to-her-is-the-big-tech-singularity-near-part-1": [
+  "openai",
+  "google"
+ ],
+ "cognitive-revolution/2024-05-19-openai-s-safety-team-exodus-ilya-departs-leike-speaks-out-altman-respo": [
+  "openai"
+ ],
+ "cognitive-revolution/2024-05-22-claude-interpreter-taking-safe-ai-to-market-with-alex-albert-of-anthro": [
+  "anthropic"
+ ],
+ "cognitive-revolution/2024-06-01-ai-scouting-report-not-investment-advice-edition": [],
+ "cognitive-revolution/2024-06-04-implications-of-ai-on-the-global-balance-of-power-w-alex-wang-andrew-n": [
+  "us-china"
  ],
  "cognitive-revolution/2024-06-06-inside-google-s-ai-studio-with-logan-kilpatrick": [
   "google",
@@ -1834,6 +1858,14 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-05-15-john-schulman-openai-cofounder-reasoning-rlhf-plan-for-2027-agi": [
+  "training-and-rl",
+  "openai"
+ ],
+ "dwarkesh/2024-06-04-leopold-aschenbrenner-2027-agi-china-us-super-intelligence-race-the-re": [
+  "ai-safety",
+  "openai"
+ ],
  "dwarkesh/2024-06-11-francois-chollet-why-the-biggest-ai-models-can-t-solve-simple-puzzles": [],
  "dwarkesh/2024-06-26-tony-blair-why-political-leaders-keep-failing-at-major-change": [],
  "dwarkesh/2024-07-24-patrick-mckenzie-money-laundering-big-tech-censorship-sbf-japan": [],
@@ -2039,6 +2071,14 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-05-15-paul-rosolie-jungle-apex-predators-aliens-uncontacted-tribes-and-god": [
+  "amazon"
+ ],
+ "lex-fridman/2024-05-25-charan-ranganath-human-memory-imagination-deja-vu-and-false-memories": [],
+ "lex-fridman/2024-06-02-roman-yampolskiy-dangers-of-superintelligent-ai": [
+  "ai-safety"
+ ],
+ "lex-fridman/2024-06-05-kevin-spacey-power-controversy-betrayal-truth-love-in-film-and-life": [],
  "lex-fridman/2024-06-13-sara-walker-physics-of-life-time-complexity-and-aliens": [],
  "lex-fridman/2024-06-19-aravind-srinivas-perplexity-ceo-on-future-of-ai-search-the-internet": [
   "consumer-ai",
@@ -2187,6 +2227,17 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-05-16-music-consumers-are-becoming-the-creators-with-suno-ceo-mikey-shulman": [
+  "consumer-ai"
+ ],
+ "no-priors/2024-05-22-the-data-foundry-for-ai-with-alexandr-wang-from-scale": [
+  "talent-war",
+  "meta"
+ ],
+ "no-priors/2024-05-23-how-yc-fosters-ai-innovation-with-garry-tan": [],
+ "no-priors/2024-06-06-the-evolution-and-promise-of-rag-architecture-with-tengyu-ma-from-voya": [
+  "enterprise-adoption"
+ ],
  "no-priors/2024-06-11-how-the-arc-prize-is-democratizing-the-race-to-agi-with-mike-knoop-fro": [],
  "no-priors/2024-06-20-can-ai-replace-the-camera-with-joshua-xu-from-heygen": [],
  "no-priors/2024-06-27-state-space-models-and-real-time-intelligence-with-karan-goel-and-albe": [],
