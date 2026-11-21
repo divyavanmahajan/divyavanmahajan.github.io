@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import taxonomy from "../../../../data/ainews-taxonomy.json";
+
+const episodes = (await getCollection("ainews")).filter((e) => !e.data.draft && e.data.type === "episode");
+const count: Record<string, number> = {};
+for (const e of episodes) for (const t of e.data.tags) count[t] = (count[t] || 0) + 1;
+const group = (keys: string[]) => keys.filter((k) => count[k]).sort((a, b) => count[b] - count[a]);
+const topics = group(Object.keys(taxonomy.topics));
+const companies = group(Object.keys(taxonomy.companies));
+const known = new Set([...topics, ...companies]);
+const other = Object.keys(count).filter((k) => !known.has(k)).sort((a, b) => count[b] - count[a]);
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="The AI Daily Brief: tags" description="Topics and companies covered by The AI Daily Brief" withSidebar={false}>
+    <div class="tags-page">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a> <span>›</span>
+            <a href={`${base}podcasts/ai-daily-brief/`}>The AI Daily Brief</a> <span>›</span> <span>Tags</span>
+        </nav>
+        <h1>Tags</h1>
+        {[["Topics", topics], ["Companies", companies], ["Other", other]].map(([label, list]) => (list as string[]).length > 0 && (
+            <section>
+                <h2>{label}</h2>
+                <div class="cloud">
+                    {(list as string[]).map((t) => (
+                        <a href={`${base}podcasts/ai-daily-brief/tags/${t}/`}>{t} <span>{count[t]}</span></a>
+                    ))}
+                </div>
+            </section>
+        ))}
+    </div>
+</BaseLayout>
+
+<style>
+    .tags-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+    h2 { font-size: 1.1rem; margin: 1.25rem 0 0.5rem; }
+    .cloud { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .cloud a { background: var(--color-secondary); color: #fff; padding: 0.25rem 0.6rem; border-radius: 3px; font-size: 0.85rem; text-decoration: none; }
+    .cloud a span { opacity: 0.75; font-size: 0.75rem; }
+</style>

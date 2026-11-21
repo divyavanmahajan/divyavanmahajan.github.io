@@ -1,10 +1,10 @@
 import { defineConfig } from 'astro/config';
 import { rehypeAinewsDates } from './src/rehype-ainews-dates.js';
-import { ainewsRedirects } from './src/ainews-redirects.mjs';
+import { ainewsRedirects, aidbMoveRedirects } from './src/ainews-redirects.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-    redirects: ainewsRedirects,
+    redirects: { ...aidbMoveRedirects, ...ainewsRedirects },
     markdown: {
         rehypePlugins: [rehypeAinewsDates],
     },

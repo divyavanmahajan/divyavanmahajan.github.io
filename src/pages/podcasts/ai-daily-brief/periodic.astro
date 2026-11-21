@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 const allEntries = (await getCollection("ainews")).filter((e) => !e.data.draft);
@@ -89,7 +89,7 @@ function monthKeyFromSlug(slug: string): string {
 ---
 
 <BaseLayout
-    title="AI Brief — Periodic"
+    title="The AI Daily Brief — Periodic"
     description="Annual and monthly AI briefing syntheses"
     withSidebar={false}
 >
@@ -97,12 +97,12 @@ function monthKeyFromSlug(slug: string): string {
 
         <!-- Header section -->
         <header class="page-header">
-            <h1 class="page-title">AI Brief</h1>
+            <h1 class="page-title">The AI Daily Brief</h1>
             <p class="page-subtitle">
                 {totalBriefings} briefings &middot; {yearMin}–{yearMax} &nbsp;&nbsp;
                 <a href="#monthly" class="subtitle-link">Monthly briefings &rarr;</a>
                 &nbsp;&middot;&nbsp;
-                <a href={`${import.meta.env.BASE_URL}ainews/`} class="subtitle-link">Daily briefings &rarr;</a>
+                <a href={`${import.meta.env.BASE_URL}podcasts/ai-daily-brief/`} class="subtitle-link">Daily briefings &rarr;</a>
             </p>
             <hr class="header-rule" />
 
@@ -157,7 +157,7 @@ function monthKeyFromSlug(slug: string): string {
                                 <div class="annual-card-top">
                                     <span class="annual-year">{year}</span>
                                     <a
-                                        href={`${import.meta.env.BASE_URL}ainews/${entry.slug}/`}
+                                        href={`${import.meta.env.BASE_URL}podcasts/ai-daily-brief/${entry.slug}/`}
                                         class="btn-synthesis"
                                     >
                                         Synthesis
@@ -198,7 +198,7 @@ function monthKeyFromSlug(slug: string): string {
                                                     {formatMonthYear(entry.slug)}
                                                 </span>
                                                 <a
-                                                    href={`${import.meta.env.BASE_URL}ainews/${entry.slug}/`}
+                                                    href={`${import.meta.env.BASE_URL}podcasts/ai-daily-brief/${entry.slug}/`}
                                                     class="btn-synthesis"
                                                 >
                                                     Synthesis

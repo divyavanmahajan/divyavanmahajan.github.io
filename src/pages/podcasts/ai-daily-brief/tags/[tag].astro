@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+// Topic/company tags for The AI Daily Brief episodes (vocabulary:
+// src/data/ainews-taxonomy.json, built by scripts/build-ainews-tags.mjs).
+export async function getStaticPaths() {
+    const episodes = (await getCollection("ainews")).filter((e) => !e.data.draft && e.data.type === "episode");
+    const tags = [...new Set(episodes.flatMap((e) => e.data.tags))];
+    return tags.map((tag) => ({
+        params: { tag },
+        props: {
+            episodes: episodes
+                .filter((e) => e.data.tags.includes(tag))
+                .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+        },
+    }));
+}
+
+const { tag } = Astro.params;
+const { episodes } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+---
+
+<BaseLayout title={`The AI Daily Brief: ${tag}`} description={`AI Daily Brief episodes tagged ${tag}`} withSidebar={false}>
+    <div class="tag-page">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a> <span>›</span>
+            <a href={`${base}podcasts/ai-daily-brief/`}>The AI Daily Brief</a> <span>›</span>
+            <a href={`${base}podcasts/ai-daily-brief/tags/`}>Tags</a>
+        </nav>
+        <h1>#{tag} <span class="count">{episodes.length} episodes</span></h1>
+        <ul>
+            {episodes.map((ep) => (
+                <li>
+                    <time datetime={ep.data.pubDate.toISOString()}>{fmt(ep.data.pubDate)}</time>
+                    <a href={`${base}podcasts/ai-daily-brief/${ep.slug}/`}>{ep.data.title}</a>
+                    <span class="other">{ep.data.tags.filter((t) => t !== tag).map((t) => (
+                        <a class="mini" href={`${base}podcasts/ai-daily-brief/tags/${t}/`}>{t}</a>
+                    ))}</span>
+                </li>
+            ))}
+        </ul>
+    </div>
+</BaseLayout>
+
+<style>
+    .tag-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+    .count { font-size: 0.9rem; font-weight: 400; color: var(--color-text-light); }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li { display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; }
+    time { font-family: monospace; font-size: 0.8rem; color: var(--color-text-light); min-width: 6.5rem; }
+    li > a { color: var(--color-text); text-decoration: none; }
+    li > a:hover { color: var(--color-primary); }
+    .other { display: inline-flex; flex-wrap: wrap; gap: 0.3rem; }
+    .mini { font-size: 0.7rem; color: var(--color-secondary); text-decoration: none; border: 1px solid #e5e5e5; border-radius: 3px; padding: 0 0.3rem; }
+</style>

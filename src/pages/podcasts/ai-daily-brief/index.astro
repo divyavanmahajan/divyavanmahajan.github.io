@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 const allEntries = (await getCollection("ainews"))
@@ -44,16 +44,17 @@ function formatMonthHeading(key: string): string {
 ---
 
 <BaseLayout
-    title="AI Brief"
+    title="The AI Daily Brief"
     description="AI news episodes and monthly syntheses"
     withSidebar={false}
 >
     <div class="ainews-page">
         <header class="ainews-header">
-            <h1>AI Brief</h1>
+            <h1>The AI Daily Brief</h1>
             <p class="ainews-intro">
                 Episode notes from the AI Daily Brief podcast. &middot;
-                <a href={`${import.meta.env.BASE_URL}ainews/periodic/`} class="periodic-link">Monthly &amp; annual summaries &rarr;</a>
+                <a href={`${import.meta.env.BASE_URL}podcasts/ai-daily-brief/periodic/`} class="periodic-link">Monthly &amp; annual summaries &rarr;</a>
+                <a href={`${import.meta.env.BASE_URL}podcasts/ai-daily-brief/tags/`} class="periodic-link">Browse by topic &rarr;</a>
             </p>
         </header>
 
@@ -106,7 +107,7 @@ function formatMonthHeading(key: string): string {
                                             )}
                                         </time>
                                         <a
-                                            href={`${import.meta.env.BASE_URL}ainews/${ep.slug}/`}
+                                            href={`${import.meta.env.BASE_URL}podcasts/ai-daily-brief/${ep.slug}/`}
                                             class="episode-title"
                                         >
                                             {ep.data.title}

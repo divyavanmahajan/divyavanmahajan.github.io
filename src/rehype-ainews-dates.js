@@ -15,7 +15,7 @@ export function rehypeAinewsDates() {
             if (node.tagName !== "a") return;
             const href = node.properties?.href;
             if (!href) return;
-            const match = href.match(/\/ainews\/(\d{4})\/(\d{2})\//);
+            const match = href.match(/\/(?:ainews|podcasts\/ai-daily-brief)\/(\d{4})\/(\d{2})\//);
             if (!match) return;
             const year = parseInt(match[1]);
             const month = parseInt(match[2]) - 1;

@@ -176,6 +176,18 @@ function parseSynthesisFilename(basename) {
 const EPISODE_KEEP_FIELDS = new Set(['title', 'description', 'tags', 'url', 'draft']);
 const SYNTHESIS_DROP_FIELDS = new Set(['period', 'audience', 'created', 'status', 'type', 'date']);
 
+// Topic/company tags derived from the blog wiki extractions by
+// scripts/build-ainews-tags.mjs (vocabulary: src/data/ainews-taxonomy.json).
+const readJson = (p, fallback) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fallback; } };
+const AINEWS_TAGS = readJson(path.join(projectRoot, 'src', 'data', 'ainews-tags.json'), {});
+const DROP_TAGS = new Set(readJson(path.join(projectRoot, 'src', 'data', 'ainews-taxonomy.json'), {}).drop_tags || []);
+
+function episodeTags(data, meta) {
+  const derived = AINEWS_TAGS[`${meta.date}-${meta.shortSlug}`] || [];
+  const own = (data.tags || []).filter((t) => !DROP_TAGS.has(t));
+  return [...new Set([...derived, ...own])];
+}
+
 function transformEpisodeFrontmatter(data, meta) {
   const out = {};
 
@@ -192,6 +204,7 @@ function transformEpisodeFrontmatter(data, meta) {
       out[key] = data[key];
     }
   }
+  out.tags = episodeTags(data, meta);
 
   return out;
 }
@@ -236,12 +249,12 @@ function transformWikilinks(content) {
   // 1. Episode links: [[../YYYY-MM-DD-slug_instructions]] or [[../YYYY-MM-DD-slug]]
   content = content.replace(EPISODE_WIKILINK_RE, (_, year, month, _day, slugPart) => {
     const shortSlug = slugPart;
-    return `[${shortSlug}](/ainews/${year}/${month}/${shortSlug})`;
+    return `[${shortSlug}](/podcasts/ai-daily-brief/${year}/${month}/${shortSlug})`;
   });
 
   // 2. Briefing links: [[YYYY-MM-type]]
   content = content.replace(BRIEFING_WIKILINK_RE, (_, ref) => {
-    return `[${ref}](/ainews/briefing/${ref})`;
+    return `[${ref}](/podcasts/ai-daily-brief/briefing/${ref})`;
   });
 
   // 3. Plain wiki-links: [[some-topic]] → some-topic

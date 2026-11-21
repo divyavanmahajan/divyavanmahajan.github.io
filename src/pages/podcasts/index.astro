@@ -14,8 +14,27 @@ const shows = podcastShows
     })
     .filter((s) => s.count > 0);
 
-const recent = episodes.slice(0, 10);
-const showName = (slug: string) => podcastShows.find((s) => s.slug === slug)?.name ?? slug;
+// The AI Daily Brief keeps its own collection/pipeline (ainews) but lives
+// under /podcasts/ai-daily-brief/ and is listed here as the first show.
+const aidbEpisodes = (await getCollection("ainews"))
+    .filter((e) => !e.data.draft && e.data.type === "episode")
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const aidbCard = {
+    slug: "ai-daily-brief",
+    name: "The AI Daily Brief",
+    description: "Nathaniel Whittemore's daily show on the most important news and discussions in AI.",
+    count: aidbEpisodes.length,
+    latest: aidbEpisodes[0],
+};
+const allShows = aidbEpisodes.length ? [aidbCard, ...shows] : shows;
+
+const recent = [
+    ...episodes.map((e) => ({ date: e.data.pubDate, show: e.data.show, title: e.data.title, href: `podcasts/${e.slug}/` })),
+    ...aidbEpisodes.map((e) => ({ date: e.data.pubDate, show: "ai-daily-brief", title: e.data.title, href: `podcasts/ai-daily-brief/${e.slug}/` })),
+]
+    .sort((a, b) => b.date.valueOf() - a.date.valueOf())
+    .slice(0, 15);
+const showName = (slug: string) => slug === "ai-daily-brief" ? "The AI Daily Brief" : podcastShows.find((s) => s.slug === slug)?.name ?? slug;
 const base = import.meta.env.BASE_URL;
 const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
 ---
@@ -26,13 +45,12 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
             <h1>Podcasts</h1>
             <p class="intro">
                 Short summaries of AI podcast episodes I follow: the thesis, the key points and a quote or two, with a link to the original episode.
-                For The AI Daily Brief, see <a href={`${base}ainews/`}>AI Brief</a>.
                 &middot; <a href={`${base}podcasts/rss.xml`}>RSS</a>
             </p>
         </header>
 
         <section class="shows">
-            {shows.map((show) => (
+            {allShows.map((show) => (
                 <a class="show-card" href={`${base}podcasts/${show.slug}/`}>
                     <span class="show-name">{show.name}</span>
                     <span class="show-desc">{show.description}</span>
@@ -48,9 +66,9 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
         <ul class="recent">
             {recent.map((ep) => (
                 <li>
-                    <time datetime={ep.data.pubDate.toISOString()}>{fmt(ep.data.pubDate)}</time>
-                    <span class="recent-show">{showName(ep.data.show)}</span>
-                    <a href={`${base}podcasts/${ep.slug}/`}>{ep.data.title}</a>
+                    <time datetime={ep.date.toISOString()}>{fmt(ep.date)}</time>
+                    <span class="recent-show">{showName(ep.show)}</span>
+                    <a href={`${base}${ep.href}`}>{ep.title}</a>
                 </li>
             ))}
         </ul>
