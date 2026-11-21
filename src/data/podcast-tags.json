@@ -1,4 +1,19 @@
 {
+ "practical-ai/2025-07-02-finding-nemotron": [
+  "infrastructure-and-chips",
+  "open-weight-models",
+  "enterprise-adoption",
+  "meta"
+ ],
+ "practical-ai/2025-07-07-ai-in-the-shadows-from-hallucinations-to-blackmail": [
+  "agents",
+  "ai-safety",
+  "anthropic"
+ ],
+ "practical-ai/2025-07-15-agentic-ai-for-drone-robotic-swarming": [
+  "physical-ai"
+ ],
+ "practical-ai/2025-07-25-reimagining-actuarial-science-with-ai": [],
  "practical-ai/2025-08-01-workforce-dynamics-in-an-ai-assisted-world": [],
  "practical-ai/2025-08-08-educating-a-data-literate-generation": [
   "jobs-and-work"
@@ -217,6 +232,21 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-07-02-information-theory-for-language-models-jack-morris": [
+  "jobs-and-work"
+ ],
+ "latent-space/2025-07-09-ai-video-is-eating-the-world-olivia-and-justine-moore-a16z": [
+  "generative-media",
+  "google"
+ ],
+ "latent-space/2025-07-11-personalized-ai-language-education-with-andrew-hsu-speak": [],
+ "latent-space/2025-07-16-cline-the-open-source-coding-agent-that-doesn-t-cut-costs": [
+  "ai-coding"
+ ],
+ "latent-space/2025-07-23-ai-is-eating-search": [
+  "consumer-ai",
+  "openai"
  ],
  "latent-space/2025-07-31-the-rlvr-revolution-with-nathan-lambert-ai2-interconnects-ai": [
   "training-and-rl"
@@ -653,6 +683,31 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-06-28-402-payment-required-a-new-way-for-ai-agents-to-pay-with-nemil-dalal-d": [
+  "agents"
+ ],
+ "cognitive-revolution/2025-07-02-the-ai-village-previewing-the-giga-agent-future-with-adam-binksmith-fo": [
+  "agents"
+ ],
+ "cognitive-revolution/2025-07-05-cheat-on-everything-cluely-s-vision-for-always-on-ai-assistance": [],
+ "cognitive-revolution/2025-07-08-the-data-factory-inside-the-100b-race-for-post-training-supremacy-with": [
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2025-07-10-cracking-the-medical-code-why-cleveland-clinic-doctors-love-their-ambi": [
+  "ai-for-science",
+  "training-and-rl",
+  "ai-coding"
+ ],
+ "cognitive-revolution/2025-07-16-the-dawn-of-dynamic-ai-rft-comes-online-w-predibase-ceo-dev-rishi-from": [
+  "training-and-rl",
+  "enterprise-adoption"
+ ],
+ "cognitive-revolution/2025-07-22-private-governance-creating-a-market-in-ai-regulation-with-dr-gillian": [
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2025-07-26-liability-for-ai-harms-how-ancient-law-can-govern-frontier-technology": [
+  "ai-safety"
  ],
  "cognitive-revolution/2025-08-02-the-revolution-in-services-general-catalyst-s-ai-rollup-strategy-with": [],
  "cognitive-revolution/2025-08-06-sovereign-ai-geopolitical-strategy-industrial-policy-for-countries-3-1": [
@@ -1228,11 +1283,18 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2025-07-10-stephen-kotkin-how-stalin-became-the-most-powerful-dictator-in-history": [
+  "us-china"
+ ],
+ "dwarkesh/2025-07-25-sarah-paine-how-imperial-japan-defeated-tsarist-russia-qing-china": [
+  "us-china"
+ ],
  "dwarkesh/2025-08-07-artificial-meat-is-harder-than-artificial-intelligence-lewis-bollard": [],
  "dwarkesh/2025-08-15-china-is-killing-the-us-on-energy-does-that-mean-they-ll-win-agi-casey": [
   "infrastructure-and-chips",
   "us-china"
  ],
+ "dwarkesh/2025-08-21-evolution-designed-us-to-die-fast-we-can-change-that-jacob-kimmel": [],
  "dwarkesh/2025-09-05-how-hitler-almost-starved-britain-sarah-paine": [
   "us-china"
  ],
