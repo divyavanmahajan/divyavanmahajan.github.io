@@ -1,4 +1,19 @@
 {
+ "practical-ai/2025-11-10-are-we-in-an-ai-bubble": [
+  "ai-economics"
+ ],
+ "practical-ai/2025-11-13-autonomous-vehicle-research-at-waymo": [
+  "physical-ai"
+ ],
+ "practical-ai/2025-11-19-beyond-note-taking-with-fireflies": [],
+ "practical-ai/2025-11-26-chris-on-ai-autonomous-swarming-home-automation-and-rust": [
+  "open-weight-models",
+  "physical-ai"
+ ],
+ "practical-ai/2025-12-02-technical-advances-in-document-understanding": [
+  "open-weight-models",
+  "us-china"
+ ],
  "practical-ai/2025-12-10-the-ai-engineer-skills-gap": [
   "jobs-and-work"
  ],
@@ -181,6 +196,20 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-11-14-anthropic-glean-openrouter-how-ai-moats-are-built-with-deedy-das-of-me": [
+  "enterprise-adoption",
+  "ai-coding",
+  "anthropic"
+ ],
+ "latent-space/2025-11-19-10x-ai-engineers-with-1m-salaries-alex-lieberman-arman-hezarkhani-tene": [],
+ "latent-space/2025-11-25-after-llms-spatial-intelligence-and-world-models-fei-fei-li-justin-joh": [
+  "physical-ai",
+  "generative-media"
+ ],
+ "latent-space/2025-12-06-world-models-general-intuition-khosla-s-largest-bet-since-llms-openai": [
+  "physical-ai",
+  "generative-media"
  ],
  "latent-space/2025-12-11-the-future-of-email-superhuman-cto-on-your-inbox-as-the-real-ai-agent": [
   "models-and-benchmarks",
@@ -573,6 +602,43 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-11-12-my-positive-vision-for-the-ai-future-from-the-existential-hope-podcast": [
+  "ai-safety",
+  "physical-ai"
+ ],
+ "cognitive-revolution/2025-11-17-ai-in-the-cancer-journey-how-i-m-using-ai-to-help-my-son": [
+  "openai"
+ ],
+ "cognitive-revolution/2025-11-20-escaping-ai-slop-how-atlassian-gives-ai-teammates-taste-knowledge-work": [
+  "generative-media"
+ ],
+ "cognitive-revolution/2025-11-25-what-ai-means-for-students-teachers-my-keynote-from-the-michigan-virtu": [
+  "jobs-and-work",
+  "models-and-benchmarks",
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2025-11-27-ai-led-sales-how-1mind-s-superhumans-drive-exponential-growth-from-the": [
+  "jobs-and-work",
+  "agents"
+ ],
+ "cognitive-revolution/2025-11-30-underwriting-superintelligence-aiuc-s-insurance-standards-audits-to-ac": [
+  "policy-and-regulation",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2025-12-03-china-s-ai-upstarts-how-z-ai-builds-benchmarks-ships-in-hours-from-chi": [
+  "open-weight-models",
+  "us-china"
+ ],
+ "cognitive-revolution/2025-12-06-sovereign-ai-in-poland-language-adaptation-local-control-cost-advantag": [
+  "policy-and-regulation",
+  "open-weight-models",
+  "anthropic"
+ ],
+ "cognitive-revolution/2025-12-10-superintelligence-to-ban-or-not-to-ban-max-tegmark-dean-ball-join-liro": [
+  "policy-and-regulation",
+  "ai-safety"
  ],
  "cognitive-revolution/2025-12-14-ai-s-energy-water-demands-sorting-fact-from-fiction-with-andy-masley": [
   "infrastructure-and-chips",
@@ -1040,6 +1106,13 @@
   "us-china",
   "ai-safety",
   "anthropic"
+ ],
+ "dwarkesh/2025-11-12-satya-nadella-how-microsoft-is-preparing-for-agi": [
+  "microsoft"
+ ],
+ "dwarkesh/2025-11-25-ilya-sutskever-we-re-moving-from-the-age-of-scaling-to-the-age-of-rese": [
+  "ai-safety",
+  "training-and-rl"
  ],
  "dwarkesh/2025-12-19-sarah-paine-why-russia-lost-the-cold-war": [],
  "dwarkesh/2025-12-30-adam-marblestone-ai-is-missing-something-fundamental-about-the-brain": [

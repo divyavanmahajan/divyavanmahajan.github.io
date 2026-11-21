@@ -174,6 +174,12 @@ const hostCache = new Map();
  * the `hosts` in its staging summaries plus person items central in >= 12% of
  * its extractions (catches AIDB's host and recurring co-hosts).
  */
+// Regular co-hosts the frequency heuristic misses (user decision): treated as
+// hosts, so they are not listed as "related" items on topic pages.
+const EXTRA_HOSTS = {
+  'cognitive-revolution': ['Prakash Narayanan'],
+};
+
 export function showHosts(show) {
   if (hostCache.has(show)) return hostCache.get(show);
   const names = listExtractions(show);
@@ -182,6 +188,7 @@ export function showHosts(show) {
     if (it.kind === 'person' && it.role === 'central') c[it.name] = (c[it.name] || 0) + 1;
   }
   const hosts = new Set(Object.entries(c).filter(([, v]) => names.length >= 8 && v >= names.length * 0.12).map(([n]) => n));
+  for (const h of EXTRA_HOSTS[show] || []) hosts.add(h);
   if (show !== AIDB) for (const ep of listStagedEpisodes(show)) for (const h of parseSummary(ep.file).data.hosts || []) hosts.add(h);
   hostCache.set(show, hosts);
   return hosts;
