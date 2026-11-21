@@ -1,4 +1,18 @@
 {
+ "practical-ai/2020-08-11-practical-ai-turns-100": [],
+ "practical-ai/2020-08-17-building-the-world-s-most-popular-data-science-platform": [],
+ "practical-ai/2020-08-24-hidden-door-and-so-much-more": [],
+ "practical-ai/2020-09-01-getting-waymo-into-autonomous-driving": [
+  "physical-ai"
+ ],
+ "practical-ai/2020-09-09-speech-tech-and-common-voice-at-mozilla": [],
+ "practical-ai/2020-09-14-when-ai-goes-wrong": [
+  "policy-and-regulation"
+ ],
+ "practical-ai/2020-09-21-learning-about-deep-learning": [
+  "infrastructure-and-chips",
+  "jobs-and-work"
+ ],
  "practical-ai/2020-10-06-r-data-science-computational-biology": [
   "ai-coding",
   "ai-for-science"
@@ -3095,6 +3109,25 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2020-08-09-russ-tedrake-underactuated-robotics-control-dynamics-and-touch": [
+  "physical-ai"
+ ],
+ "lex-fridman/2020-08-14-dileep-george-brain-inspired-ai": [
+  "physical-ai"
+ ],
+ "lex-fridman/2020-08-16-sara-seager-search-for-planets-and-life-outside-our-solar-system": [],
+ "lex-fridman/2020-08-20-sheldon-solomon-death-and-meaning": [],
+ "lex-fridman/2020-08-23-grant-sanderson-math-manim-neural-networks-teaching-with-3blue1brown": [],
+ "lex-fridman/2020-08-26-david-eagleman-neuroplasticity-and-the-livewired-brain": [],
+ "lex-fridman/2020-08-31-francois-chollet-2-fran-ois-chollet-measures-of-intelligence": [
+  "models-and-benchmarks"
+ ],
+ "lex-fridman/2020-09-05-eugenia-kuyda-friendship-with-an-ai-companion": [],
+ "lex-fridman/2020-09-07-lex-solo-grandmother-lex-solo-3-in-memory-of-my-grandmother": [],
+ "lex-fridman/2020-09-08-david-fravor-ufos-aliens-fighter-jets-and-aerospace-engineering": [],
+ "lex-fridman/2020-09-12-manolis-kellis-origin-of-life-humans-ideas-suffering-and-happiness": [],
+ "lex-fridman/2020-09-15-stephen-wolfram-fundamental-theory-of-physics-life-and-the-universe": [],
+ "lex-fridman/2020-09-20-ryan-hall-martial-arts-and-the-philosophy-of-violence-power-and-grace": [],
  "lex-fridman/2020-09-24-james-gosling-java-jvm-emacs-and-the-early-days-of-computing": [],
  "lex-fridman/2020-09-26-joe-rogan-conversations-ideas-love-freedom-the-joe-rogan-experience": [],
  "lex-fridman/2020-10-02-michael-malice-anarchy-democracy-libertarianism-love-and-trolling": [],
