@@ -1,4 +1,13 @@
 {
+ "practical-ai/2022-08-02-ai-irl-mozilla-s-internet-health-report": [],
+ "practical-ai/2022-08-09-alphafold-is-revolutionizing-biology": [
+  "ai-for-science",
+  "google"
+ ],
+ "practical-ai/2022-08-16-cmu-s-ai-pilot-lands-in-the-news": [],
+ "practical-ai/2022-08-24-practical-positive-uses-for-deep-fakes": [],
+ "practical-ai/2022-08-30-privacy-in-the-age-of-ai": [],
+ "practical-ai/2022-09-06-licensing-automating-creativity": [],
  "practical-ai/2022-09-13-stable-diffusion": [
   "infrastructure-and-chips"
  ],
@@ -2645,6 +2654,9 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2022-08-09-will-macaskill-longtermism-altruism-history-technology": [],
+ "dwarkesh/2022-08-23-steve-hsu-intelligence-embryo-selection-the-future-of-humanity": [],
+ "dwarkesh/2022-09-08-austin-vernon-energy-superabundance-starship-missiles-finding-alpha": [],
  "dwarkesh/2022-09-14-charles-c-mann-americas-before-columbus-scientific-wizardry": [],
  "dwarkesh/2022-09-28-tyler-cowen-talent-collapse-pessimism-of-sex": [],
  "dwarkesh/2022-10-20-bryan-caplan-feminists-billionaires-and-demagogues": [
@@ -2922,6 +2934,24 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2022-08-01-ryan-graves-ufos-fighter-jets-and-aliens": [],
+ "lex-fridman/2022-08-04-john-carmack-doom-quake-vr-agi-programming-video-games-and-rockets": [],
+ "lex-fridman/2022-08-08-andrew-bustamante-cia-spy": [],
+ "lex-fridman/2022-08-13-magatte-wade-africa-capitalism-communism-and-the-future-of-humanity": [],
+ "lex-fridman/2022-08-16-duncan-trussell-comedy-sentient-robots-suffering-love-burning-man": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2022-08-19-jordan-peterson-life-death-power-fame-and-meaning": [],
+ "lex-fridman/2022-08-24-liv-boeree-poker-game-theory-ai-simulation-aliens-existential-risk": [],
+ "lex-fridman/2022-08-27-magnus-carlsen-greatest-chess-player-of-all-time": [],
+ "lex-fridman/2022-08-31-noam-chomsky-putin-ukraine-china-and-nuclear-war": [
+  "us-china"
+ ],
+ "lex-fridman/2022-09-04-john-vervaeke-meaning-crisis-atheism-religion-the-search-for-wisdom": [],
+ "lex-fridman/2022-09-07-nick-lane-origin-of-life-evolution-aliens-biology-and-consciousness": [
+  "ai-consciousness",
+  "ai-for-science"
  ],
  "lex-fridman/2022-09-09-botez-sisters-chess-streaming-and-fame": [],
  "lex-fridman/2022-09-14-christopher-capozzola-world-war-i-ideology-propaganda-and-politics": [],
