@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { isControlledTag } from "../../../../podcast-topics.mjs";
 
 // Topic/company tags for The AI Daily Brief episodes (vocabulary:
 // src/data/podcast-taxonomy.json, built by scripts/build-ainews-tags.mjs).
@@ -31,6 +32,7 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
             <a href={`${base}podcasts/ai-daily-brief/tags/`}>Tags</a>
         </nav>
         <h1>#{tag} <span class="count">{episodes.length} episodes</span></h1>
+        {isControlledTag(tag) && <p class="across"><a href={`${base}podcasts/topics/${tag}/`}>#{tag} across all shows →</a></p>}
         <ul>
             {episodes.map((ep) => (
                 <li>
@@ -50,6 +52,8 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
     .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
     .breadcrumb a { color: var(--color-primary); text-decoration: none; }
     h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+    .across { margin: -0.5rem 0 1rem; font-size: 0.9rem; }
+    .across a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
     .count { font-size: 0.9rem; font-weight: 400; color: var(--color-text-light); }
     ul { list-style: none; padding: 0; margin: 0; }
     li { display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; }

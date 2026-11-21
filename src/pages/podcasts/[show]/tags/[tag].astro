@@ -1,0 +1,75 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { podcastShows } from "../../../../podcast-shows.mjs";
+import { podcastTopics, tagKind } from "../../../../podcast-topics.mjs";
+
+// One controlled topic/company tag for one show. Mirrors
+// /podcasts/ai-daily-brief/tags/<tag>/; the cross-show view is /podcasts/topics/<tag>/.
+export async function getStaticPaths() {
+    const all = (await getCollection("podcasts")).filter((e) => !e.data.draft);
+    const paths = [];
+    for (const show of podcastShows) {
+        const eps = all.filter((e) => e.data.show === show.slug);
+        const tags = [...new Set(eps.flatMap((e) => podcastTopics(e)))];
+        for (const tag of tags) {
+            paths.push({
+                params: { show: show.slug, tag },
+                props: {
+                    show,
+                    episodes: eps
+                        .filter((e) => podcastTopics(e).includes(tag))
+                        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+                        .map((e) => ({ slug: e.slug, title: e.data.title, date: e.data.pubDate, tags: podcastTopics(e) })),
+                },
+            });
+        }
+    }
+    return paths;
+}
+
+const { tag } = Astro.params;
+const { show, episodes } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+---
+
+<BaseLayout title={`${show.name}: ${tag}`} description={`${show.name} episodes about ${tag}`} withSidebar={false}>
+    <div class="tag-page">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a> <span>›</span>
+            <a href={`${base}podcasts/${show.slug}/`}>{show.name}</a> <span>›</span>
+            <a href={`${base}podcasts/${show.slug}/tags/`}>Topics</a>
+        </nav>
+        <h1>#{tag} <span class="count">{tagKind(tag)} &middot; {episodes.length} episodes</span></h1>
+        <p class="intro"><a href={`${base}podcasts/topics/${tag}/`}>#{tag} across all shows →</a></p>
+        <ul>
+            {episodes.map((ep) => (
+                <li>
+                    <time datetime={ep.date.toISOString()}>{fmt(ep.date)}</time>
+                    <a href={`${base}podcasts/${ep.slug}/`}>{ep.title}</a>
+                    <span class="other">{ep.tags.filter((t) => t !== tag).map((t) => (
+                        <a class="mini" href={`${base}podcasts/${show.slug}/tags/${t}/`}>{t}</a>
+                    ))}</span>
+                </li>
+            ))}
+        </ul>
+    </div>
+</BaseLayout>
+
+<style>
+    .tag-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    h1 { font-size: 1.6rem; margin: 0 0 0.5rem; }
+    .count { font-size: 0.9rem; font-weight: 400; color: var(--color-text-light); }
+    .intro { margin: 0 0 1rem; font-size: 0.9rem; }
+    .intro a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li { display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; }
+    time { font-family: monospace; font-size: 0.8rem; color: var(--color-text-light); min-width: 6.5rem; }
+    li > a { color: var(--color-text); text-decoration: none; }
+    li > a:hover { color: var(--color-primary); }
+    .other { display: inline-flex; flex-wrap: wrap; gap: 0.3rem; }
+    .mini { font-size: 0.7rem; color: var(--color-secondary); text-decoration: none; border: 1px solid #e5e5e5; border-radius: 3px; padding: 0 0.3rem; }
+</style>

@@ -1,0 +1,89 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getTopicEpisodes } from "../../../lib/podcast-topic-episodes";
+import { topicShows, tagKind, topicAcrossShows } from "../../../podcast-topics.mjs";
+
+// One controlled tag across ALL shows (AIDB included). The "Across shows" block
+// uses src/data/podcast-topic-stats.json, precomputed from the blog-wiki
+// extractions by scripts/build-podcast-tags.mjs (the deploy build never reads the wiki).
+export async function getStaticPaths() {
+    const episodes = await getTopicEpisodes();
+    const tags = [...new Set(episodes.flatMap((e) => e.tags))];
+    return tags.map((tag) => ({ params: { tag }, props: { episodes: episodes.filter((e) => e.tags.includes(tag)) } }));
+}
+
+const { tag } = Astro.params;
+const { episodes } = Astro.props;
+const across = topicAcrossShows(tag) as Record<string, { extractionEpisodes: number; related: { name: string; kind: string; central: number; mentions: number }[] }>;
+const shows = topicShows
+    .map((s) => ({ ...s, count: episodes.filter((e) => e.show === s.slug).length, related: across[s.slug]?.related ?? [] }))
+    .filter((s) => s.count > 0);
+const base = import.meta.env.BASE_URL;
+const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+---
+
+<BaseLayout title={`Podcasts: ${tag}`} description={`Podcast episodes about ${tag} across all shows`} withSidebar={false}>
+    <div class="tag-page">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a> <span>›</span>
+            <a href={`${base}podcasts/topics/`}>Topics</a>
+        </nav>
+        <h1>#{tag} <span class="count">{tagKind(tag)} &middot; {episodes.length} episodes in {shows.length} {shows.length === 1 ? "show" : "shows"}</span></h1>
+
+        <section class="across">
+            <h2>Across shows</h2>
+            <ul>
+                {shows.map((s) => (
+                    <li>
+                        <a class="show" href={`${base}podcasts/${s.slug}/tags/${tag}/`}>{s.name}</a>
+                        <span class="eps">{s.count} {s.count === 1 ? "episode" : "episodes"}</span>
+                        {s.related.length > 0 && (
+                            <span class="related">most central: {s.related.map((r, i) => (
+                                <>{i > 0 && ", "}<span title={`${r.kind}; central in ${r.central}, mentioned in ${r.mentions} of these episodes`}>{r.name}</span></>
+                            ))}</span>
+                        )}
+                    </li>
+                ))}
+            </ul>
+            <p class="note">"Most central" = entities and concepts most often central in that show's episodes with this tag (from the LLM-wiki extractions; episodes without an extraction are counted but not analysed).</p>
+        </section>
+
+        <ul class="episodes">
+            {episodes.map((ep) => (
+                <li>
+                    <time datetime={ep.date.toISOString()}>{fmt(ep.date)}</time>
+                    <span class="show-label">{ep.showName}</span>
+                    <a href={`${base}${ep.href}`}>{ep.title}</a>
+                    <span class="other">{ep.tags.filter((t) => t !== tag).map((t) => (
+                        <a class="mini" href={`${base}podcasts/topics/${t}/`}>{t}</a>
+                    ))}</span>
+                </li>
+            ))}
+        </ul>
+    </div>
+</BaseLayout>
+
+<style>
+    .tag-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+    .count { font-size: 0.9rem; font-weight: 400; color: var(--color-text-light); }
+    .across { background: #f7f5f1; border-radius: 6px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; }
+    .across h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-light); margin: 0 0 0.5rem; }
+    .across ul { list-style: none; margin: 0; padding: 0; }
+    .across li { display: flex; flex-wrap: wrap; gap: 0.25rem 0.75rem; align-items: baseline; padding: 0.25rem 0; font-size: 0.88rem; }
+    .across .show { font-weight: 700; color: var(--color-primary); text-decoration: none; min-width: 12rem; }
+    .across .eps { font-family: monospace; font-size: 0.8rem; color: var(--color-text-light); min-width: 6rem; }
+    .across .related { color: var(--color-text); }
+    .across .note { font-size: 0.75rem; color: var(--color-text-light); margin: 0.5rem 0 0; }
+    .episodes { list-style: none; padding: 0; margin: 0; }
+    .episodes li { display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; }
+    time { font-family: monospace; font-size: 0.8rem; color: var(--color-text-light); min-width: 6.5rem; }
+    .show-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-secondary); }
+    .episodes li > a { color: var(--color-text); text-decoration: none; }
+    .episodes li > a:hover { color: var(--color-primary); }
+    .other { display: inline-flex; flex-wrap: wrap; gap: 0.3rem; }
+    .mini { font-size: 0.7rem; color: var(--color-secondary); text-decoration: none; border: 1px solid #e5e5e5; border-radius: 3px; padding: 0 0.3rem; }
+    @media (max-width: 600px) { .across .show { min-width: 0; } }
+</style>

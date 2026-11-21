@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { podcastShows } from "../../../../podcast-shows.mjs";
+import { podcastTopics, topicSlugs, companySlugs } from "../../../../podcast-topics.mjs";
+
+// Topic browsing for one show (controlled vocabulary, src/data/podcast-taxonomy.json;
+// tags from src/data/podcast-tags.json). Mirrors /podcasts/ai-daily-brief/tags/.
+export async function getStaticPaths() {
+    const all = (await getCollection("podcasts")).filter((e) => !e.data.draft);
+    return podcastShows
+        .map((show) => ({ show, episodes: all.filter((e) => e.data.show === show.slug) }))
+        .filter(({ episodes }) => episodes.length > 0)
+        .map(({ show, episodes }) => ({ params: { show: show.slug }, props: { show, episodes } }));
+}
+
+const { show, episodes } = Astro.props;
+const count: Record<string, number> = {};
+const free: Record<string, number> = {};
+for (const e of episodes) {
+    for (const t of podcastTopics(e)) count[t] = (count[t] || 0) + 1;
+    for (const t of e.data.tags) free[t] = (free[t] || 0) + 1;
+}
+const group = (keys: string[]) => keys.filter((k) => count[k]).sort((a, b) => count[b] - count[a]);
+const topics = group(topicSlugs);
+const companies = group(companySlugs);
+const freeTags = Object.keys(free).filter((t) => free[t] >= 2).sort((a, b) => free[b] - free[a] || a.localeCompare(b));
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title={`${show.name}: topics`} description={`Topics and companies covered by ${show.name}`} withSidebar={false}>
+    <div class="tags-page">
+        <nav class="breadcrumb">
+            <a href={`${base}podcasts/`}>Podcasts</a> <span>›</span>
+            <a href={`${base}podcasts/${show.slug}/`}>{show.name}</a> <span>›</span> <span>Topics</span>
+        </nav>
+        <h1>Browse {show.name} by topic</h1>
+        <p class="intro">
+            Controlled topics and companies, derived from the wiki analysis of each episode (or from the summary when no analysis exists yet).
+            Same vocabulary for every show: <a href={`${base}podcasts/topics/`}>compare across all shows →</a>
+        </p>
+        {[["Topics", topics], ["Companies", companies]].map(([label, list]) => (list as string[]).length > 0 && (
+            <section>
+                <h2>{label}</h2>
+                <div class="cloud">
+                    {(list as string[]).map((t) => (
+                        <a href={`${base}podcasts/${show.slug}/tags/${t}/`}>{t} <span>{count[t]}</span></a>
+                    ))}
+                </div>
+            </section>
+        ))}
+        {freeTags.length > 0 && (
+            <section>
+                <h2>Free-form tags</h2>
+                <p class="note">Tags written with each summary (used on 2+ episodes); these span all shows.</p>
+                <div class="cloud secondary">
+                    {freeTags.map((t) => <a href={`${base}podcasts/tags/${t}/`}>{t} <span>{free[t]}</span></a>)}
+                </div>
+            </section>
+        )}
+    </div>
+</BaseLayout>
+
+<style>
+    .tags-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    h1 { font-size: 1.6rem; margin: 0 0 0.5rem; }
+    .intro, .note { color: var(--color-text-light); font-size: 0.9rem; margin: 0 0 1rem; }
+    .intro a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
+    h2 { font-size: 1.1rem; margin: 1.25rem 0 0.5rem; }
+    .cloud { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .cloud a { background: var(--color-secondary); color: #fff; padding: 0.25rem 0.6rem; border-radius: 3px; font-size: 0.85rem; text-decoration: none; }
+    .cloud a span { opacity: 0.75; font-size: 0.75rem; }
+    .cloud.secondary a { background: transparent; color: var(--color-secondary); border: 1px solid #e0e0e0; font-size: 0.78rem; }
+</style>

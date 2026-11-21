@@ -21,6 +21,7 @@ const base = import.meta.env.BASE_URL;
             <a href={`${base}podcasts/ai-daily-brief/`}>The AI Daily Brief</a> <span>›</span> <span>Tags</span>
         </nav>
         <h1>Tags</h1>
+        <p class="across">Same topic list for every show: <a href={`${base}podcasts/topics/`}>browse all podcasts by topic →</a></p>
         {[["Topics", topics], ["Companies", companies], ["Other", other]].map(([label, list]) => (list as string[]).length > 0 && (
             <section>
                 <h2>{label}</h2>
@@ -39,6 +40,8 @@ const base = import.meta.env.BASE_URL;
     .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
     .breadcrumb a { color: var(--color-primary); text-decoration: none; }
     h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+    .across { margin: -0.5rem 0 1rem; font-size: 0.9rem; color: var(--color-text-light); }
+    .across a { color: var(--color-primary); font-weight: 600; text-decoration: none; }
     h2 { font-size: 1.1rem; margin: 1.25rem 0 0.5rem; }
     .cloud { display: flex; flex-wrap: wrap; gap: 0.5rem; }
     .cloud a { background: var(--color-secondary); color: #fff; padding: 0.25rem 0.6rem; border-radius: 3px; font-size: 0.85rem; text-decoration: none; }

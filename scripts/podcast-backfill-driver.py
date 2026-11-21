@@ -91,7 +91,10 @@ def main():
                         Path(e["staging"]).rename(qd / Path(e["staging"]).name)
             s = sh(["node", "scripts/sync-podcasts.js"])
             print(s.stdout.strip().splitlines()[-1:] if s.stdout else s.stderr[-500:], flush=True)
-            paths = ["podcast-summaries", "src/content/podcasts"]
+            # controlled topic tags for the new episodes (src/data/, read by the site)
+            t = sh(["node", "scripts/build-podcast-tags.mjs"])
+            print((t.stdout.strip().splitlines() or [t.stderr[-300:]])[-1], flush=True)
+            paths = ["podcast-summaries", "src/content/podcasts", "src/data/podcast-tags.json", "src/data/podcast-topic-stats.json"]
             sh(["git", "add", *paths])
             c = sh(["git", "commit", "--no-verify", "-q", "-m", f"Podcast summaries: {name} batch ({len(written)})", "--", *paths])
             leak = sh(["git", "show", "--name-only", "--format=", "HEAD"]).stdout

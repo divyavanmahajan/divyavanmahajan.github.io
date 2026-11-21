@@ -19,7 +19,8 @@
       "Agent swarms",
       "Agentic AI Foundation",
       "Claude Managed Agents",
-      "Andon Labs"
+      "Andon Labs",
+      "Agent autonomy"
     ],
     "ai-coding": [
       "Vibe coding",
@@ -101,7 +102,8 @@
       "MiniMax",
       "Moonshot AI",
       "Kimi",
-      "Kimi K2"
+      "Kimi K2",
+      "DeepSeek R1"
     ],
     "ai-economics": [
       "AI bubble",
@@ -131,7 +133,8 @@
       "Compute scarcity",
       "GPU compute pricing",
       "Cerebras",
-      "Groq"
+      "Groq",
+      "Neoclouds"
     ],
     "policy-and-regulation": [
       "AI regulation",
@@ -154,7 +157,9 @@
       "AIUC",
       "AIUC-1",
       "UK AI Security Institute",
-      "AI pause"
+      "AI pause",
+      "AI in the military",
+      "Concentration of power"
     ],
     "us-china": [
       "US–China AI competition",
@@ -214,7 +219,10 @@
       "Harmonic",
       "Biohub",
       "Noetik",
-      "AI in healthcare"
+      "AI in healthcare",
+      "AI for scientific discovery",
+      "AI for math",
+      "AI for materials discovery"
     ],
     "ai-consciousness": [
       "AI consciousness",
@@ -241,7 +249,8 @@
       "AI video",
       "AI music",
       "Black Forest Labs",
-      "Flow matching"
+      "Flow matching",
+      "Nano Banana Pro"
     ],
     "talent-war": [
       "AI talent war",
@@ -307,7 +316,8 @@
       "Nano Banana",
       "Demis Hassabis",
       "TPU",
-      "AlphaFold"
+      "AlphaFold",
+      "Nano Banana Pro"
     ],
     "meta": [
       "Meta",
@@ -340,7 +350,8 @@
       "SpaceX"
     ],
     "deepseek": [
-      "DeepSeek"
+      "DeepSeek",
+      "DeepSeek R1"
     ],
     "salesforce": [
       "Salesforce"
@@ -355,39 +366,207 @@
     ]
   },
   "keywords": {
-    "agents": ["\\bAI agents?\\b", "\\bagentic\\b", "multi-agent", "computer use"],
-    "ai-coding": ["\\bcoding\\b", "software engineering", "\\bcode generation\\b", "code review", "\\bcoding agents?\\b"],
-    "context-engineering": ["context engineering", "\\bMCP\\b", "model context protocol", "prompt engineering", "agent memory"],
-    "enterprise-adoption": ["\\benterprises?\\b", "\\bAI adoption\\b", "\\bROI\\b", "\\bCIOs?\\b", "\\bin production\\b"],
-    "jobs-and-work": ["\\bjobs?\\b", "\\blabou?r market\\b", "\\bworkers?\\b", "\\bemployment\\b", "\\beducation\\b", "\\bstudents?\\b", "\\bteachers?\\b"],
-    "models-and-benchmarks": ["\\bbenchmarks?\\b", "\\bevals\\b", "\\bmodel evaluations?\\b", "reasoning models?", "scaling laws?"],
-    "open-weight-models": ["open[- ]weights?", "open[- ]source models?", "\\bopen models?\\b", "\\bdistillation\\b", "\\bQwen\\b", "\\bLlama\\b"],
-    "ai-economics": ["\\bAI bubble\\b", "\\bvaluations?\\b", "\\bIPOs?\\b", "\\bcapex\\b", "\\btoken pricing\\b", "\\bunit economics\\b"],
-    "infrastructure-and-chips": ["\\bchips?\\b", "\\bGPUs?\\b", "\\bdata cent(er|re)s?\\b", "\\bsemiconductors?\\b", "\\bpower grid\\b", "\\bTPUs?\\b"],
-    "policy-and-regulation": ["\\bregulat(ion|ory|ors?)\\b", "\\bAI policy\\b", "\\bpolicymakers?\\b", "\\blegislation\\b", "\\bCongress\\b", "\\bAI governance\\b"],
-    "us-china": ["\\bChina\\b", "\\bChinese\\b", "export controls?"],
-    "ai-safety": ["\\bAI safety\\b", "\\balignment\\b", "\\bmisalign", "reward hacking", "\\bx-risk\\b", "\\bcatastrophic\\b", "superintelligen", "\\bcybersecurity\\b", "\\bjailbreak"],
-    "interpretability": ["interpretability", "sparse autoencoders?"],
-    "training-and-rl": ["reinforcement learning", "\\bRL\\b", "post-training", "fine-tun", "continual learning", "\\bpre-?training\\b"],
-    "ai-for-science": ["\\bscientific\\b", "\\bAI for science\\b", "\\bbiology\\b", "\\bdrug discovery\\b", "\\bmathematic", "\\bproteins?\\b", "\\bhealthcare\\b", "\\bmaterials science\\b"],
-    "ai-consciousness": ["\\bconsciousness\\b", "\\bconscious\\b", "model welfare", "\\bsentien"],
-    "consumer-ai": ["\\bconsumer\\b", "\\bshopping\\b", "\\badvertising\\b", "\\bAI search\\b"],
-    "generative-media": ["\\bvideo generation\\b", "\\bimage generation\\b", "\\bgenerative (video|media|images?)\\b", "\\bdiffusion models?\\b", "\\bAI music\\b", "\\bvoice AI\\b"],
-    "talent-war": ["talent war", "\\bpoach", "\\bacqui-?hire"],
-    "physical-ai": ["\\brobot(s|ics)?\\b", "\\bhumanoids?\\b", "self-driving", "\\bautonomous vehicles?\\b", "physical AI", "\\bembodied\\b", "world models?"],
-    "openai": ["\\bOpenAI\\b", "\\bChatGPT\\b", "\\bGPT-\\d"],
-    "anthropic": ["\\bAnthropic\\b", "\\bClaude\\b"],
-    "google": ["\\bGoogle\\b", "\\bDeepMind\\b", "\\bGemini\\b"],
-    "meta": ["\\bMeta\\b(?!-)", "\\bLlama\\b"],
-    "microsoft": ["\\bMicrosoft\\b", "\\bCopilot\\b"],
-    "nvidia": ["\\bNvidia\\b"],
-    "apple": ["\\bApple\\b"],
-    "amazon": ["\\bAmazon\\b", "\\bAWS\\b"],
-    "xai": ["\\bxAI\\b", "\\bGrok\\b"],
-    "deepseek": ["\\bDeepSeek\\b"],
-    "salesforce": ["\\bSalesforce\\b"],
-    "oracle": ["\\bOracle\\b"],
-    "hugging-face": ["\\bHugging Face\\b"]
+    "agents": [
+      "\\bAI agents?\\b",
+      "\\bagentic\\b",
+      "multi-agent",
+      "computer use"
+    ],
+    "ai-coding": [
+      "\\bcoding\\b",
+      "software engineering",
+      "\\bcode generation\\b",
+      "code review",
+      "\\bcoding agents?\\b"
+    ],
+    "context-engineering": [
+      "context engineering",
+      "\\bMCP\\b",
+      "model context protocol",
+      "prompt engineering",
+      "agent memory"
+    ],
+    "enterprise-adoption": [
+      "\\benterprises?\\b",
+      "\\bAI adoption\\b",
+      "\\bROI\\b",
+      "\\bCIOs?\\b",
+      "\\bin production\\b"
+    ],
+    "jobs-and-work": [
+      "\\bjobs?\\b",
+      "\\blabou?r market\\b",
+      "\\bworkers?\\b",
+      "\\bemployment\\b",
+      "\\beducation\\b",
+      "\\bstudents?\\b",
+      "\\bteachers?\\b"
+    ],
+    "models-and-benchmarks": [
+      "\\bbenchmarks?\\b",
+      "\\bevals\\b",
+      "\\bmodel evaluations?\\b",
+      "reasoning models?",
+      "scaling laws?"
+    ],
+    "open-weight-models": [
+      "open[- ]weights?",
+      "open[- ]source models?",
+      "\\bopen models?\\b",
+      "\\bdistillation\\b",
+      "\\bQwen\\b",
+      "\\bLlama\\b"
+    ],
+    "ai-economics": [
+      "\\bAI bubble\\b",
+      "\\bvaluations?\\b",
+      "\\bIPOs?\\b",
+      "\\bcapex\\b",
+      "\\btoken pricing\\b",
+      "\\bunit economics\\b"
+    ],
+    "infrastructure-and-chips": [
+      "\\bchips?\\b",
+      "\\bGPUs?\\b",
+      "\\bdata cent(er|re)s?\\b",
+      "\\bsemiconductors?\\b",
+      "\\bpower grid\\b",
+      "\\bTPUs?\\b"
+    ],
+    "policy-and-regulation": [
+      "\\bregulat(ion|ory|ors?)\\b",
+      "\\bAI policy\\b",
+      "\\bpolicymakers?\\b",
+      "\\blegislation\\b",
+      "\\bCongress\\b",
+      "\\bAI governance\\b"
+    ],
+    "us-china": [
+      "\\bChina\\b",
+      "\\bChinese\\b",
+      "export controls?"
+    ],
+    "ai-safety": [
+      "\\bAI safety\\b",
+      "\\balignment\\b",
+      "\\bmisalign",
+      "reward hacking",
+      "\\bx-risk\\b",
+      "\\bcatastrophic\\b",
+      "superintelligen",
+      "\\bcybersecurity\\b",
+      "\\bjailbreak",
+      "biosecurity",
+      "\\bbioweapons?\\b",
+      "\\bmisuse\\b",
+      "dangerous capabilit"
+    ],
+    "interpretability": [
+      "interpretability",
+      "sparse autoencoders?"
+    ],
+    "training-and-rl": [
+      "reinforcement learning",
+      "\\bRL\\b",
+      "post-training",
+      "fine-tun",
+      "continual learning",
+      "\\bpre-?training\\b"
+    ],
+    "ai-for-science": [
+      "\\bscientific\\b",
+      "\\bAI for science\\b",
+      "\\bbiology\\b",
+      "\\bdrug discovery\\b",
+      "\\bmathematic",
+      "\\bproteins?\\b",
+      "\\bhealthcare\\b",
+      "\\bmaterials science\\b",
+      "\\bDNA\\b",
+      "\\bbiotech"
+    ],
+    "ai-consciousness": [
+      "\\bconsciousness\\b",
+      "\\bconscious\\b",
+      "model welfare",
+      "\\bsentien"
+    ],
+    "consumer-ai": [
+      "\\bconsumer\\b",
+      "\\bshopping\\b",
+      "\\badvertising\\b",
+      "\\bAI search\\b"
+    ],
+    "generative-media": [
+      "\\bvideo generation\\b",
+      "\\bimage generation\\b",
+      "\\bgenerative (video|media|images?)\\b",
+      "\\bdiffusion models?\\b",
+      "\\bAI music\\b",
+      "\\bvoice AI\\b"
+    ],
+    "talent-war": [
+      "talent war",
+      "\\bpoach",
+      "\\bacqui-?hire"
+    ],
+    "physical-ai": [
+      "\\brobot(s|ics)?\\b",
+      "\\bhumanoids?\\b",
+      "self-driving",
+      "\\bautonomous vehicles?\\b",
+      "physical AI",
+      "\\bembodied\\b",
+      "world models?"
+    ],
+    "openai": [
+      "\\bOpenAI\\b",
+      "\\bChatGPT\\b",
+      "\\bGPT-\\d"
+    ],
+    "anthropic": [
+      "\\bAnthropic\\b",
+      "\\bClaude\\b"
+    ],
+    "google": [
+      "\\bGoogle\\b",
+      "\\bDeepMind\\b",
+      "\\bGemini\\b"
+    ],
+    "meta": [
+      "\\bMeta\\b(?!-)",
+      "\\bLlama\\b"
+    ],
+    "microsoft": [
+      "\\bMicrosoft\\b",
+      "\\bCopilot\\b"
+    ],
+    "nvidia": [
+      "\\bNvidia\\b"
+    ],
+    "apple": [
+      "\\bApple\\b"
+    ],
+    "amazon": [
+      "\\bAmazon\\b",
+      "\\bAWS\\b"
+    ],
+    "xai": [
+      "\\bxAI\\b",
+      "\\bGrok\\b"
+    ],
+    "deepseek": [
+      "\\bDeepSeek\\b"
+    ],
+    "salesforce": [
+      "\\bSalesforce\\b"
+    ],
+    "oracle": [
+      "\\bOracle\\b"
+    ],
+    "hugging-face": [
+      "\\bHugging Face\\b"
+    ]
   },
   "drop_tags": [
     "ai-daily-brief-podcast"

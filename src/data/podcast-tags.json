@@ -1,0 +1,981 @@
+{
+ "practical-ai/2026-02-13-ai-incidents-audits-and-the-limits-of-benchmarks": [
+  "models-and-benchmarks",
+  "ai-safety"
+ ],
+ "practical-ai/2026-02-18-cognitive-synthesis-and-neural-athletes": [
+  "enterprise-adoption",
+  "agents"
+ ],
+ "practical-ai/2026-03-09-ai-policy-and-the-battle-for-computing-power": [
+  "us-china",
+  "infrastructure-and-chips",
+  "policy-and-regulation"
+ ],
+ "practical-ai/2026-03-17-humility-in-the-age-of-agentic-coding": [
+  "ai-coding",
+  "agents",
+  "openai"
+ ],
+ "practical-ai/2026-03-25-ai-at-the-edge-is-a-different-operating-environment": [
+  "infrastructure-and-chips",
+  "physical-ai"
+ ],
+ "practical-ai/2026-04-02-agentic-coding-and-the-economics-of-open-source": [
+  "ai-coding",
+  "jobs-and-work",
+  "anthropic"
+ ],
+ "practical-ai/2026-04-09-post-mortem-of-anthropic-s-claude-code-leak": [
+  "agents",
+  "ai-coding",
+  "anthropic"
+ ],
+ "practical-ai/2026-04-16-open-source-self-driving-with-comma-ai": [
+  "physical-ai",
+  "generative-media",
+  "training-and-rl"
+ ],
+ "practical-ai/2026-04-23-the-mythos-of-mythos-and-allbirds-takes-flight-to-the-neocloud": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "anthropic"
+ ],
+ "practical-ai/2026-05-07-the-myth-of-model-wars-open-vs-closed-ai-in-2026": [
+  "open-weight-models",
+  "us-china",
+  "meta"
+ ],
+ "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world": [
+  "policy-and-regulation",
+  "jobs-and-work",
+  "anthropic"
+ ],
+ "practical-ai/2026-05-21-hermes-agent-agents-that-grow-with-you": [
+  "agents",
+  "context-engineering",
+  "open-weight-models"
+ ],
+ "practical-ai/2026-05-28-rebooting-enterprise-ai-with-mcp-and-kubernetes": [
+  "context-engineering",
+  "agents"
+ ],
+ "practical-ai/2026-06-04-breaking-down-the-2026-stanford-ai-index-report": [
+  "jobs-and-work",
+  "models-and-benchmarks",
+  "us-china"
+ ],
+ "practical-ai/2026-06-11-zero-trust-for-ai-agents": [
+  "ai-safety",
+  "agents",
+  "anthropic"
+ ],
+ "practical-ai/2026-06-25-aiuc-1-building-trust-in-ai-agents": [
+  "ai-safety",
+  "policy-and-regulation"
+ ],
+ "practical-ai/2026-07-02-image-generation-and-visual-intelligence-with-black-forest-labs": [
+  "generative-media",
+  "models-and-benchmarks"
+ ],
+ "practical-ai/2026-07-09-building-durable-ai-agents": [
+  "agents",
+  "ai-coding"
+ ],
+ "practical-ai/2026-07-17-the-future-of-ai-infrastructure-with-coreweave": [
+  "infrastructure-and-chips",
+  "enterprise-adoption"
+ ],
+ "practical-ai/2026-07-23-surviving-the-new-economics-of-a-post-agentic-world": [
+  "ai-consciousness",
+  "training-and-rl",
+  "anthropic"
+ ],
+ "practical-ai/2026-07-30-reconstructing-how-openai-agents-attacked-hugging-face": [
+  "open-weight-models",
+  "agents",
+  "ai-safety",
+  "openai",
+  "hugging-face"
+ ],
+ "practical-ai/2026-08-06-models-harnesses-and-multi-agent-systems": [
+  "agents",
+  "open-weight-models"
+ ],
+ "practical-ai/2026-08-25-ai-proficiency-from-users-to-builders": [
+  "enterprise-adoption",
+  "jobs-and-work"
+ ],
+ "practical-ai/2026-08-28-building-the-foundation-for-the-agentic-ai-era": [
+  "context-engineering",
+  "agents",
+  "enterprise-adoption"
+ ],
+ "practical-ai/2026-09-03-less-about-models-more-about-architecture": [
+  "policy-and-regulation",
+  "agents",
+  "anthropic"
+ ],
+ "practical-ai/2026-09-10-computer-use-agents-and-the-future-of-the-agentic-internet": [
+  "agents",
+  "consumer-ai"
+ ],
+ "practical-ai/2026-09-17-how-to-get-discovered-in-ai-search": [
+  "consumer-ai"
+ ],
+ "practical-ai/2026-09-24-from-agents-md-to-enterprise-deployment": [
+  "agents",
+  "enterprise-adoption"
+ ],
+ "practical-ai/2026-10-01-open-models-and-the-future-of-physical-ai-with-nvidia": [
+  "physical-ai",
+  "generative-media",
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
+ "practical-ai/2026-10-08-narrative-intelligence-and-the-human-advantage": [
+  "jobs-and-work"
+ ],
+ "practical-ai/2026-10-15-is-education-failing-our-students-in-this-ai-driven-world": [
+  "jobs-and-work"
+ ],
+ "practical-ai/2026-10-22-exploit-development-agentic-vulnerability-discovery-and-fake-pocs": [
+  "open-weight-models",
+  "policy-and-regulation",
+  "anthropic"
+ ],
+ "practical-ai/2026-10-29-abundant-intelligence-at-the-midwest-ai-summit": [
+  "enterprise-adoption",
+  "models-and-benchmarks"
+ ],
+ "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2": [],
+ "practical-ai/2026-11-13-implementing-federated-learning-to-enhance-agentic-ai": [
+  "agents",
+  "ai-coding"
+ ],
+ "practical-ai/2026-11-19-building-human-centered-ai": [
+  "agents",
+  "enterprise-adoption",
+  "jobs-and-work"
+ ],
+ "latent-space/2026-02-06-the-first-mechanistic-interpretability-frontier-lab-myra-deng-mark-bis": [
+  "interpretability",
+  "ai-safety"
+ ],
+ "latent-space/2026-02-12-owning-the-ai-pareto-frontier-jeff-dean": [
+  "infrastructure-and-chips",
+  "open-weight-models",
+  "training-and-rl",
+  "google"
+ ],
+ "latent-space/2026-02-19-bitter-lessons-in-venture-vs-growth-anthropic-vs-openai-noam-shazeer-w": [
+  "ai-economics",
+  "ai-coding",
+  "talent-war",
+  "anthropic"
+ ],
+ "latent-space/2026-02-23-the-end-of-swe-bench-verified-mia-glaese-olivia-watkins-openai-frontie": [
+  "models-and-benchmarks",
+  "ai-safety",
+  "openai"
+ ],
+ "latent-space/2026-02-24-claude-code-for-finance-the-global-memory-shortage-doug-o-laughlin-sem": [
+  "ai-coding",
+  "infrastructure-and-chips",
+  "anthropic",
+  "microsoft"
+ ],
+ "latent-space/2026-02-25-searching-the-space-of-all-possible-materials-prof-max-welling-cuspai": [
+  "ai-for-science",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2026-02-26-live-anthropic-distillation-how-models-cheat-swe-bench-dead-nathan-lam": [
+  "models-and-benchmarks",
+  "open-weight-models",
+  "training-and-rl",
+  "anthropic"
+ ],
+ "latent-space/2026-02-27-metr-s-joel-becker-on-exponential-time-horizon-evals-threat-models-and": [
+  "models-and-benchmarks",
+  "ai-safety"
+ ],
+ "latent-space/2026-03-05-every-agent-needs-a-box-aaron-levie-box": [
+  "agents",
+  "context-engineering",
+  "enterprise-adoption"
+ ],
+ "latent-space/2026-03-06-cursor-s-third-era-cloud-agents": [
+  "ai-coding",
+  "context-engineering"
+ ],
+ "latent-space/2026-03-10-nvidia-s-ai-engineers-agent-inference-at-planetary-scale-and-speed-of": [
+  "infrastructure-and-chips",
+  "ai-coding",
+  "open-weight-models",
+  "nvidia"
+ ],
+ "latent-space/2026-03-12-retrieval-after-rag-hybrid-search-agents-and-database-design-simon-h-r": [
+  "ai-coding"
+ ],
+ "latent-space/2026-03-17-why-anthropic-thinks-ai-should-have-its-own-computer-felix-rieseberg-o": [
+  "ai-coding",
+  "agents",
+  "anthropic"
+ ],
+ "latent-space/2026-03-20-dreamer-the-personal-agent-os-david-singleton": [
+  "consumer-ai",
+  "context-engineering"
+ ],
+ "latent-space/2026-03-24-why-there-is-no-alphafold-for-materials-ai-for-materials-discovery-wit": [
+  "ai-for-science",
+  "consumer-ai",
+  "google"
+ ],
+ "latent-space/2026-03-30-mistral-voxtral-tts-forge-leanstral-what-s-next-for-mistral-4-w-pavan": [
+  "open-weight-models",
+  "ai-for-science",
+  "generative-media"
+ ],
+ "latent-space/2026-04-02-moonlake-causal-world-models-should-be-multimodal-interactive-and-effi": [
+  "generative-media",
+  "physical-ai",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2026-04-03-marc-andreessen-introspects-on-the-death-of-the-browser-pi-openclaw-an": [
+  "agents",
+  "ai-economics",
+  "open-weight-models"
+ ],
+ "latent-space/2026-04-07-extreme-harness-engineering-for-token-billionaires-1m-loc-1b-toks-day": [
+  "ai-coding",
+  "context-engineering",
+  "openai"
+ ],
+ "latent-space/2026-04-15-notion-s-token-town-5-rebuilds-100-tools-mcp-vs-clis-and-the-software": [
+  "context-engineering",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2026-04-20-training-transformers-to-solve-95-failure-rate-of-cancer-trials-ron-al": [
+  "ai-for-science"
+ ],
+ "latent-space/2026-04-22-shopify-s-ai-phase-transition-2026-usage-explosion-unlimited-opus-4-6": [
+  "ai-coding",
+  "enterprise-adoption"
+ ],
+ "latent-space/2026-04-23-aie-europe-debrief-agent-labs-thesis-unsupervised-learning-x-latent-sp": [
+  "ai-coding",
+  "agents",
+  "anthropic"
+ ],
+ "latent-space/2026-04-27-physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-applied-int": [
+  "physical-ai",
+  "ai-coding"
+ ],
+ "latent-space/2026-05-05-doing-vibe-physics-alex-lupsasca-openai": [
+  "ai-for-science",
+  "ai-coding",
+  "openai"
+ ],
+ "latent-space/2026-05-14-ai-native-healthcare-100m-doctor-visits-10-20-hours-saved-prior-auth-i": [
+  "ai-coding",
+  "context-engineering"
+ ],
+ "latent-space/2026-05-18-the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t": [],
+ "latent-space/2026-05-20-railway-the-agent-native-cloud-jake-cooper": [
+  "infrastructure-and-chips",
+  "ai-coding"
+ ],
+ "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona": [
+  "agents",
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2026-05-28-the-age-of-async-agents-cognition-s-walden-yan-openinspect-s-cole-murr": [
+  "ai-coding",
+  "context-engineering"
+ ],
+ "latent-space/2026-06-01-why-video-agent-models-are-next-ethan-he-xai-grok-imagine": [
+  "generative-media",
+  "physical-ai",
+  "xai"
+ ],
+ "latent-space/2026-06-02-github-s-plan-for-agents-kyle-daigle-github": [
+  "context-engineering",
+  "ai-coding",
+  "agents",
+  "microsoft"
+ ],
+ "latent-space/2026-06-03-satya-nadella-no-priors-x-latent-space-crossover-special-at-microsoft": [
+  "agents",
+  "jobs-and-work",
+  "microsoft"
+ ],
+ "latent-space/2026-06-03-scaling-past-informal-ai-carina-hong-axiom-math": [
+  "ai-for-science",
+  "ai-safety"
+ ],
+ "latent-space/2026-06-04-reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs": [
+  "agents",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "latent-space/2026-06-17-the-self-driving-lab-joseph-krause-radical-ai": [
+  "ai-for-science",
+  "us-china"
+ ],
+ "latent-space/2026-06-18-the-professor-of-outputmaxxing-anjney-midha-amp": [
+  "infrastructure-and-chips",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2026-06-22-red-teaming-after-mythos-zico-kolter-matt-fredrikson-gray-swan": [
+  "ai-safety",
+  "agents",
+  "policy-and-regulation"
+ ],
+ "latent-space/2026-06-24-why-the-frontier-ecosystem-must-be-open-matei-zaharia-and-reynold-xin": [
+  "agents",
+  "ai-safety"
+ ],
+ "latent-space/2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-akshat-bubna-mo": [
+  "agents",
+  "enterprise-adoption"
+ ],
+ "latent-space/2026-07-23-inside-the-model-factory-eiso-kant-poolside-ai": [
+  "open-weight-models",
+  "training-and-rl",
+  "anthropic"
+ ],
+ "latent-space/2026-07-28-codex-from-0-to-10m-users-building-chatgpt-work-akshay-nathan-openai": [
+  "agents",
+  "ai-coding",
+  "openai"
+ ],
+ "latent-space/2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten": [
+  "open-weight-models",
+  "ai-safety"
+ ],
+ "latent-space/2026-08-21-simulation-the-new-scaling-law-joon-sung-park-simile-ai": [
+  "context-engineering",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2026-08-26-we-have-foundation-models-for-language-not-for-physics-anima-anandkuma": [
+  "ai-for-science"
+ ],
+ "latent-space/2026-09-14-humanity-s-last-invention-richard-socher-of-recursive": [
+  "ai-safety",
+  "training-and-rl"
+ ],
+ "latent-space/2026-09-16-underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-a": [
+  "policy-and-regulation",
+  "enterprise-adoption",
+  "anthropic"
+ ],
+ "latent-space/2026-09-21-jev-system-one-models-for-prod-not-god-with-diogo-almeida-ceo-typesafe": [
+  "ai-coding",
+  "ai-safety",
+  "anthropic"
+ ],
+ "latent-space/2026-09-22-an-oscar-two-asteroids-and-the-algorithm-in-your-sklearn-john-platt-on": [
+  "ai-for-science",
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2026-09-25-openrouter-from-seed-to-stripe-with-openrouter-s-alex-atallah-amp-s-an": [
+  "models-and-benchmarks",
+  "open-weight-models"
+ ],
+ "latent-space/2026-09-25-runway-s-worldprompt-and-the-engineering-of-real-time-worlds": [
+  "physical-ai",
+  "generative-media"
+ ],
+ "latent-space/2026-09-29-claude-code-s-next-era-thariq-shihipar-anthropic": [
+  "ai-coding",
+  "ai-safety",
+  "policy-and-regulation",
+  "anthropic"
+ ],
+ "latent-space/2026-09-30-why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-co": [
+  "agents",
+  "ai-coding",
+  "openai"
+ ],
+ "latent-space/2026-10-02-academia-is-for-ambition-alex-zhang-mit": [
+  "agents",
+  "models-and-benchmarks",
+  "openai"
+ ],
+ "latent-space/2026-10-08-synthesis-superintelligence-from-semiconductors-to-superconductors-per": [
+  "ai-for-science"
+ ],
+ "latent-space/2026-10-10-why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepm": [
+  "models-and-benchmarks",
+  "ai-for-science"
+ ],
+ "latent-space/2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autonomy-jason-m": [
+  "agents",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2026-10-20-the-programmable-data-center-evan-conrad-sf-compute": [
+  "infrastructure-and-chips",
+  "ai-economics"
+ ],
+ "latent-space/2026-10-21-ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieber": [
+  "enterprise-adoption",
+  "ai-coding"
+ ],
+ "latent-space/2026-10-22-the-recommendation-engine-for-commodity-traders-anekha-sokhal-moshi": [
+  "jobs-and-work"
+ ],
+ "latent-space/2026-10-22-why-ai-compute-comes-in-rectangles-erik-bernhardsson-modal-ceo": [
+  "infrastructure-and-chips",
+  "open-weight-models"
+ ],
+ "latent-space/2026-10-27-how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain": [
+  "agents",
+  "ai-safety",
+  "open-weight-models",
+  "anthropic"
+ ],
+ "latent-space/2026-10-28-why-agents-love-supabase": [
+  "ai-coding",
+  "consumer-ai"
+ ],
+ "latent-space/2026-10-31-using-agents-for-long-horizon-financial-work-aman-singh-arca": [
+  "context-engineering",
+  "enterprise-adoption",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "latent-space/2026-11-02-building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto": [
+  "models-and-benchmarks",
+  "jobs-and-work",
+  "anthropic"
+ ],
+ "latent-space/2026-11-06-controlling-biology-fabian-theis-helmholtz-munich": [
+  "ai-for-science",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2026-11-08-one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee": [
+  "ai-coding",
+  "context-engineering",
+  "anthropic"
+ ],
+ "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord": [
+  "training-and-rl",
+  "ai-safety"
+ ],
+ "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend": [
+  "consumer-ai",
+  "ai-coding"
+ ],
+ "latent-space/2026-11-16-building-visual-intelligence-andreas-blattmann-dustin-podell-black-for": [
+  "generative-media",
+  "physical-ai"
+ ],
+ "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
+  "agents",
+  "context-engineering"
+ ],
+ "cognitive-revolution/2026-02-01-the-ai-powered-biohub-why-mark-zuckerberg-priscilla-chan-are-investing": [
+  "ai-for-science",
+  "meta"
+ ],
+ "cognitive-revolution/2026-02-04-infinite-code-context-ai-coding-at-enterprise-scale-w-blitzy-ceo-brian": [
+  "context-engineering",
+  "agents",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2026-02-08-agi-pilled-cyber-defense-automating-digital-forensics-w-asymmetric-sec": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2026-02-13-approaching-the-ai-event-horizon-part-1-w-james-zou-sam-hammond-shosha": [
+  "us-china",
+  "agents",
+  "ai-for-science"
+ ],
+ "cognitive-revolution/2026-02-14-approaching-the-ai-event-horizon-part-2-w-abhi-mahajan-helen-toner-jer": [
+  "ai-for-science",
+  "ai-safety",
+  "us-china"
+ ],
+ "cognitive-revolution/2026-02-18-mathematical-superintelligence-harmonic-s-vlad-tudor-on-imo-gold-theor": [
+  "ai-for-science",
+  "ai-coding"
+ ],
+ "cognitive-revolution/2026-02-22-intelligence-with-everyone-rl-minimax-with-olive-song-from-aie-nyc-inf": [
+  "training-and-rl",
+  "open-weight-models",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2026-02-25-universal-medical-intelligence-openai-s-plan-to-elevate-human-health-w": [
+  "ai-for-science",
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2026-03-01-situational-awareness-in-government-with-uk-aisi-chief-scientist-geoff": [
+  "ai-safety",
+  "policy-and-regulation",
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2026-03-05-don-t-fight-backprop-goodfire-s-vision-for-intentional-design-w-dan-ba": [
+  "interpretability",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2026-03-08-try-this-at-home-jesse-genet-on-openclaw-agents-for-homeschool-how-to": [
+  "agents",
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2026-03-11-bioinfohazards-jassi-pannu-on-controlling-dangerous-data-from-which-ai": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2026-03-16-ai-scouting-report-the-good-bad-weird-the-law-ai-certificate-program-b": [
+  "ai-safety",
+  "models-and-benchmarks",
+  "training-and-rl",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-03-19-zvi-s-mic-works-recursive-self-improvement-live-player-analysis-anthro": [
+  "ai-safety",
+  "policy-and-regulation",
+  "jobs-and-work",
+  "anthropic",
+  "google"
+ ],
+ "cognitive-revolution/2026-03-22-your-agent-s-self-improving-swiss-army-knife-composio-cto-karan-vaidya": [
+  "context-engineering",
+  "agents"
+ ],
+ "cognitive-revolution/2026-03-25-scaling-intelligence-out-cisco-s-vision-for-the-internet-of-cognition": [
+  "agents",
+  "context-engineering"
+ ],
+ "cognitive-revolution/2026-04-01-success-without-dignity-nathan-finds-hope-amidst-chaos-from-the-intell": [
+  "ai-safety",
+  "us-china",
+  "interpretability",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-04-04-training-the-ais-eyes-how-roboflow-is-making-the-real-world-programmab": [
+  "open-weight-models",
+  "generative-media"
+ ],
+ "cognitive-revolution/2026-04-08-calm-ai-for-crazy-days-inside-granola-s-design-philosophy-with-co-foun": [
+  "ai-coding",
+  "context-engineering"
+ ],
+ "cognitive-revolution/2026-04-11-it-s-crunch-time-ajeya-cotra-on-rsi-ai-powered-ai-safety-work-from-the": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2026-04-15-welcome-to-ai-in-the-am-rl-for-ee-oversight-w-out-nationalization-the": [
+  "agents",
+  "policy-and-regulation",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-04-19-vibe-coding-an-attention-firewall-w-steve-newman-creator-of-the-curve": [
+  "ai-coding",
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-04-23-does-learning-require-feeling-cameron-berg-on-the-latest-ai-consciousn": [
+  "ai-consciousness",
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-04-26-ai-in-the-am-99-off-search-gpt-5-5-is-clean-model-welfare-analysis-eff": [
+  "ai-consciousness",
+  "agents",
+  "consumer-ai",
+  "anthropic",
+  "openai"
+ ],
+ "cognitive-revolution/2026-05-01-the-rl-fine-tuning-playbook-coreweave-s-kyle-corbitt-on-grpo-rubrics-e": [
+  "training-and-rl",
+  "ai-safety",
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2026-05-06-descript-isn-t-a-slop-machine-laura-burkhauser-on-the-ai-tools-creator": [
+  "generative-media",
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2026-05-09-milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diar": [],
+ "cognitive-revolution/2026-05-15-three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-b": [
+  "agents",
+  "context-engineering",
+  "anthropic",
+  "openai"
+ ],
+ "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh": [
+  "agents",
+  "ai-safety",
+  "google"
+ ],
+ "cognitive-revolution/2026-05-24-all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistanc": [
+  "ai-safety",
+  "interpretability",
+  "anthropic",
+  "openai"
+ ],
+ "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80": [
+  "policy-and-regulation",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2026-05-30-inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-o": [
+  "ai-coding",
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-06-03-nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusi": [
+  "training-and-rl",
+  "ai-consciousness"
+ ],
+ "cognitive-revolution/2026-06-06-ai-in-the-am-week-1-highlights-june-2026": [
+  "ai-safety",
+  "ai-coding",
+  "openai"
+ ],
+ "cognitive-revolution/2026-06-10-babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labo": [
+  "enterprise-adoption",
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2026-06-13-ai-in-the-am-week-2-highlights-june-2026": [
+  "ai-safety",
+  "interpretability",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-06-17-radically-better-reasoning-elicit-s-andreas-stuhlm-ller-jungwon-byun-o": [
+  "generative-media",
+  "physical-ai",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-06-20-dean-ball-on-joining-openai-new-power-centers-frontier-ai-policy-main": [
+  "policy-and-regulation",
+  "us-china",
+  "ai-safety",
+  "anthropic",
+  "openai"
+ ],
+ "cognitive-revolution/2026-06-21-ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logisti": [
+  "ai-for-science",
+  "us-china",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-06-23-the-god-we-deserve-nonzero-s-robert-wright-on-ai-as-humanity-s-ultimat": [
+  "ai-consciousness",
+  "ai-safety",
+  "us-china",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-06-27-ai-am-4-cameron-on-model-consciousness-duvenaud-s-gradual-disempowerme": [
+  "ai-consciousness",
+  "models-and-benchmarks",
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-07-01-1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native": [
+  "agents",
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2026-07-04-intelligence-on-the-edge-liquid-ai-s-ramin-hasani-on-the-search-for-de": [
+  "infrastructure-and-chips",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2026-07-09-ai-am-highlights-exploring-the-j-space-ai-superforecasters-sambanova-s": [
+  "generative-media",
+  "physical-ai",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-07-12-alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p": [
+  "ai-safety",
+  "agents",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-07-27-nathan-goes-to-china-part-1-tech-agent-setup-chinese-ai-ux-waic-and-at": [
+  "open-weight-models",
+  "us-china",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-07-30-is-offense-or-defense-dominant-far-ai-s-adam-gleave-on-the-ai-security": [
+  "ai-safety",
+  "open-weight-models",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-08-02-nathan-goes-to-china-part-2-ai-safety-with-chinese-characteristics": [
+  "agents",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2026-08-05-pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma": [
+  "ai-safety",
+  "policy-and-regulation",
+  "models-and-benchmarks",
+  "openai"
+ ],
+ "cognitive-revolution/2026-08-08-thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000": [
+  "interpretability",
+  "ai-consciousness",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-08-10-lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban": [
+  "context-engineering",
+  "open-weight-models",
+  "us-china",
+  "deepseek"
+ ],
+ "cognitive-revolution/2026-08-22-ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "open-weight-models",
+  "hugging-face",
+  "openai"
+ ],
+ "cognitive-revolution/2026-08-26-rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasonin": [
+  "ai-safety",
+  "training-and-rl",
+  "openai",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-08-28-ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded": [
+  "ai-safety",
+  "training-and-rl",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-09-01-write-change-recall-forget-mongodb-s-pete-johnson-on-how-retrieval-dri": [
+  "context-engineering",
+  "enterprise-adoption"
+ ],
+ "cognitive-revolution/2026-09-05-ai-am-highlights-welcome-to-the-agi-era": [
+  "ai-safety",
+  "policy-and-regulation",
+  "infrastructure-and-chips",
+  "openai"
+ ],
+ "cognitive-revolution/2026-09-10-nathan-goes-to-china-3-us-china-relations-the-art-of-the-ai-deal-the-r": [
+  "us-china",
+  "open-weight-models",
+  "policy-and-regulation",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-09-12-ai-am-highlights-astra-as-agi-openai-s-pause-mythos-mozilla-human-agen": [
+  "policy-and-regulation",
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2026-09-15-the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-mudd": [
+  "ai-safety",
+  "policy-and-regulation",
+  "infrastructure-and-chips",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-09-17-no-code-is-code-zapier-ceo-wade-foster-on-headless-tools-zapier-mcp-au": [
+  "enterprise-adoption",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2026-09-19-ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fabl": [
+  "ai-safety",
+  "policy-and-regulation",
+  "agents",
+  "anthropic",
+  "openai"
+ ],
+ "cognitive-revolution/2026-09-25-zero-to-one-in-ai-safety-halcyon-s-mike-mccormick-on-launching-30-new": [
+  "interpretability",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2026-09-26-what-is-utopia-presenting-the-receipt-horizon-by-joel-borgen-chapters": [
+  "generative-media"
+ ],
+ "cognitive-revolution/2026-09-27-ai-am-what-if-it-works-too-well-colluding-agents-200m-safety-orgs-virt": [
+  "ai-economics",
+  "infrastructure-and-chips",
+  "ai-safety",
+  "hugging-face"
+ ],
+ "cognitive-revolution/2026-09-29-obsolete-or-irreplaceable-garrison-lovely-on-stopping-the-race-to-repl": [
+  "jobs-and-work",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2026-10-01-ai-am-was-trump-xi-anything-what-counts-as-utopia-aws-gpus-cost-3x-ai": [
+  "ai-economics",
+  "infrastructure-and-chips",
+  "us-china"
+ ],
+ "cognitive-revolution/2026-10-03-one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cr": [
+  "ai-safety",
+  "physical-ai",
+  "google"
+ ],
+ "cognitive-revolution/2026-10-07-software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-e": [
+  "ai-economics",
+  "enterprise-adoption",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-10-08-ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salarie": [
+  "ai-safety",
+  "ai-for-science",
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2026-10-10-how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shi": [
+  "interpretability",
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2026-10-14-governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-a": [
+  "ai-safety",
+  "policy-and-regulation",
+  "hugging-face"
+ ],
+ "cognitive-revolution/2026-10-17-ai-am-where-s-the-steering-wheel-my-agent-set-the-password-hidden-vale": [
+  "ai-consciousness",
+  "ai-for-science",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-10-20-a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement": [
+  "ai-for-science"
+ ],
+ "cognitive-revolution/2026-10-24-ai-am-highlights-clean-neurons-black-october-the-gpu-credit-crunch-and": [
+  "interpretability",
+  "ai-safety",
+  "infrastructure-and-chips",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-10-28-freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudr": [
+  "agents",
+  "us-china",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer": [
+  "open-weight-models",
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2026-11-05-kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s": [
+  "ai-for-science"
+ ],
+ "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-11-10-the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemantic": [
+  "interpretability",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment": [
+  "agents"
+ ],
+ "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai": [
+  "ai-safety",
+  "training-and-rl",
+  "policy-and-regulation",
+  "hugging-face"
+ ],
+ "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins": [
+  "policy-and-regulation",
+  "us-china",
+  "ai-safety",
+  "anthropic"
+ ],
+ "dwarkesh/2026-02-05-elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be-space": [
+  "infrastructure-and-chips",
+  "ai-safety",
+  "physical-ai",
+  "xai"
+ ],
+ "dwarkesh/2026-02-13-dario-amodei-we-are-near-the-end-of-the-exponential": [
+  "ai-economics",
+  "ai-coding",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "dwarkesh/2026-03-06-why-leonardo-was-a-saboteur-gutenberg-went-broke-and-florence-was-weir": [],
+ "dwarkesh/2026-03-13-dylan-patel-deep-dive-on-the-3-big-bottlenecks-to-scaling-ai-compute": [
+  "infrastructure-and-chips",
+  "us-china",
+  "anthropic",
+  "nvidia"
+ ],
+ "dwarkesh/2026-03-20-terence-tao-kepler-newton-and-the-true-nature-of-mathematical-discover": [
+  "ai-for-science",
+  "generative-media"
+ ],
+ "dwarkesh/2026-04-07-michael-nielsen-how-science-actually-progresses": [
+  "ai-for-science",
+  "google"
+ ],
+ "dwarkesh/2026-04-15-jensen-huang-tpu-competition-why-we-should-sell-chips-to-china-nvidia": [
+  "infrastructure-and-chips",
+  "us-china",
+  "nvidia",
+  "anthropic",
+  "google"
+ ],
+ "dwarkesh/2026-04-29-reiner-pope-the-math-behind-how-llms-are-trained-and-served": [
+  "models-and-benchmarks",
+  "open-weight-models"
+ ],
+ "dwarkesh/2026-05-08-david-reich-why-the-bronze-age-was-an-inflection-point-in-human-evolut": [],
+ "dwarkesh/2026-05-15-eric-jang-building-alphago-from-scratch": [
+  "models-and-benchmarks",
+  "open-weight-models",
+  "anthropic"
+ ],
+ "dwarkesh/2026-05-22-reiner-pope-chip-design-from-the-bottom-up": [
+  "infrastructure-and-chips"
+ ],
+ "dwarkesh/2026-06-04-alex-imas-and-phil-trammell-what-remains-scarce-after-agi": [
+  "jobs-and-work",
+  "open-weight-models"
+ ],
+ "dwarkesh/2026-06-16-ada-palmer-machiavelli-is-the-most-misunderstood-thinker-of-all-time": [],
+ "dwarkesh/2026-06-30-grant-sanderson-ai-and-the-future-of-math": [
+  "ai-for-science",
+  "agents"
+ ],
+ "dwarkesh/2026-07-10-adam-brown-a-deep-but-accessible-introduction-to-general-relativity": [
+  "ai-for-science"
+ ],
+ "dwarkesh/2026-08-11-ryan-greenblatt-what-happens-once-ai-can-automate-ai-research": [
+  "ai-safety",
+  "training-and-rl",
+  "anthropic"
+ ],
+ "dwarkesh/2026-08-25-dylan-patel-anthropic-openai-will-have-most-of-the-world-s-compute-by": [
+  "ai-economics",
+  "infrastructure-and-chips",
+  "anthropic",
+  "openai"
+ ],
+ "dwarkesh/2026-09-01-ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face": [
+  "ai-safety",
+  "open-weight-models",
+  "models-and-benchmarks",
+  "openai",
+  "hugging-face"
+ ],
+ "dwarkesh/2026-09-11-ai-researchers-debate-how-close-we-are-to-recursive-self-improvement": [
+  "training-and-rl",
+  "ai-safety",
+  "open-weight-models"
+ ],
+ "dwarkesh/2026-09-17-noam-brown-agent-swarms-alignment-recursive-self-improvement": [
+  "ai-safety",
+  "agents",
+  "openai"
+ ],
+ "dwarkesh/2026-10-01-si-sheppard-how-did-a-few-hundred-spanish-soldiers-topple-two-empires": [
+  "ai-safety"
+ ],
+ "dwarkesh/2026-10-22-what-will-computer-chips-look-like-in-2045": [
+  "infrastructure-and-chips"
+ ],
+ "dwarkesh/2026-10-30-what-robert-caro-learned-about-power-after-studying-it-for-50-years": [],
+ "dwarkesh/2026-11-16-paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow": [
+  "ai-safety",
+  "models-and-benchmarks",
+  "policy-and-regulation",
+  "anthropic",
+  "hugging-face",
+  "openai"
+ ]
+}

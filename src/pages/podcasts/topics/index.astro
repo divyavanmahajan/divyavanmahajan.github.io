@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getTopicEpisodes, countTags } from "../../../lib/podcast-topic-episodes";
+import { topicShows, topicSlugs, companySlugs } from "../../../podcast-topics.mjs";
+
+// Cross-show topic index: one controlled vocabulary (src/data/podcast-taxonomy.json)
+// for The AI Daily Brief and every show in src/podcast-shows.mjs.
+const episodes = await getTopicEpisodes();
+const count = countTags(episodes);
+const byShow: Record<string, Record<string, number>> = {};
+for (const e of episodes) for (const t of e.tags) {
+    byShow[t] ??= {};
+    byShow[t][e.show] = (byShow[t][e.show] || 0) + 1;
+}
+const group = (keys: string[]) => keys.filter((k) => count[k]).sort((a, b) => count[b] - count[a]);
+const sections: [string, string[]][] = [["Topics", group(topicSlugs)], ["Companies", group(companySlugs)]];
+const shows = topicShows.filter((s) => episodes.some((e) => e.show === s.slug));
+const base = import.meta.env.BASE_URL;
+const short: Record<string, string> = {
+    "ai-daily-brief": "AIDB", "practical-ai": "PAI", "latent-space": "LS", "cognitive-revolution": "TCR", dwarkesh: "DP",
+};
+---
+
+<BaseLayout title="Podcasts by topic" description="AI podcast episodes from all shows, browsable by topic and company" withSidebar={false}>
+    <div class="topics-page">
+        <nav class="breadcrumb"><a href={`${base}podcasts/`}>Podcasts</a> <span>›</span> <span>Topics</span></nav>
+        <h1>Browse podcasts by topic</h1>
+        <p class="intro">
+            One controlled list of topics and companies for every show. Tags come from the LLM-wiki analysis of each episode
+            (entities and concepts marked central or notable), or from the summary text when an episode has no analysis yet.
+        </p>
+        <p class="per-show">Per show:
+            {shows.map((s, i) => (
+                <>{i > 0 && " · "}<a href={`${base}podcasts/${s.slug}/tags/`}>{s.name}</a></>
+            ))}
+        </p>
+        {sections.map(([label, list]) => list.length > 0 && (
+            <section>
+                <h2>{label}</h2>
+                <table>
+                    <thead>
+                        <tr><th>Tag</th><th class="n">All</th>{shows.map((s) => <th class="n" title={s.name}>{short[s.slug] ?? s.slug}</th>)}</tr>
+                    </thead>
+                    <tbody>
+                        {list.map((t) => (
+                            <tr>
+                                <td><a href={`${base}podcasts/topics/${t}/`}>{t}</a></td>
+                                <td class="n"><strong>{count[t]}</strong></td>
+                                {shows.map((s) => <td class="n">{byShow[t][s.slug] ?? ""}</td>)}
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </section>
+        ))}
+        <p class="note">{shows.map((s) => `${short[s.slug] ?? s.slug} = ${s.name}`).join("; ")}.</p>
+    </div>
+</BaseLayout>
+
+<style>
+    .topics-page { max-width: 900px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--color-primary); text-decoration: none; }
+    h1 { font-size: 1.6rem; margin: 0 0 0.5rem; }
+    .intro, .per-show, .note { color: var(--color-text-light); font-size: 0.9rem; margin: 0 0 0.75rem; }
+    .per-show a { color: var(--color-primary); text-decoration: none; font-weight: 600; }
+    h2 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th, td { padding: 0.3rem 0.4rem; border-bottom: 1px solid #f0f0f0; text-align: left; }
+    th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-text-light); }
+    .n { text-align: right; font-family: monospace; width: 3.5rem; }
+    td a { color: var(--color-primary); text-decoration: none; font-weight: 600; }
+    @media (max-width: 600px) { .n { width: auto; font-size: 0.75rem; } th, td { padding: 0.25rem; } }
+</style>
