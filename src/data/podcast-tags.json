@@ -1,4 +1,16 @@
 {
+ "practical-ai/2022-04-26-mlops-is-not-real": [],
+ "practical-ai/2022-05-03-learning-the-language-of-life": [
+  "ai-for-science"
+ ],
+ "practical-ai/2022-05-17-active-learning-endangered-languages": [],
+ "practical-ai/2022-05-31-the-ai-community-building-the-future": [
+  "open-weight-models",
+  "hugging-face"
+ ],
+ "practical-ai/2022-06-07-generalist-models-iceman-s-voice": [
+  "google"
+ ],
  "practical-ai/2022-06-14-digital-humans-detecting-emotions": [],
  "practical-ai/2022-06-22-machine-learning-in-your-database": [],
  "practical-ai/2022-06-28-ai-s-role-in-reprogramming-immunity": [
@@ -2945,6 +2957,25 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2022-04-24-alien-debate-sara-walker-and-lee-cronin": [],
+ "lex-fridman/2022-04-27-cristiano-amon-qualcomm-ceo": [
+  "physical-ai"
+ ],
+ "lex-fridman/2022-04-29-grimes-music-ai-and-the-future-of-humanity": [],
+ "lex-fridman/2022-05-04-david-buss-sex-dating-relationships-and-sex-differences": [],
+ "lex-fridman/2022-05-08-chris-mason-space-travel-colonization-and-long-term-survival-in-space": [],
+ "lex-fridman/2022-05-11-saifedean-ammous-bitcoin-anarchy-and-austrian-economics": [],
+ "lex-fridman/2022-05-14-glenn-loury-race-racism-identity-politics-and-cancel-culture": [],
+ "lex-fridman/2022-05-17-oliver-stone-vladimir-putin-and-war-in-ukraine": [],
+ "lex-fridman/2022-05-20-bobby-lee-comedy-skyrim-sex-robots-love-fame-and-power": [],
+ "lex-fridman/2022-05-23-sarma-melngailis-bad-vegan": [],
+ "lex-fridman/2022-05-25-stephen-kotkin-putin-zelenskyy-and-war-in-ukraine": [],
+ "lex-fridman/2022-05-30-dan-reynolds-imagine-dragons": [],
+ "lex-fridman/2022-06-04-jonathan-haidt-the-case-against-social-media": [],
+ "lex-fridman/2022-06-09-robin-hanson-alien-civilizations-ufos-and-the-future-of-humanity": [],
+ "lex-fridman/2022-06-12-donald-hoffman-reality-is-an-illusion-how-evolution-hid-the-truth": [
+  "ai-consciousness"
  ],
  "lex-fridman/2022-06-15-tony-fadell-iphone-ipod-and-nest": [
   "jobs-and-work"
