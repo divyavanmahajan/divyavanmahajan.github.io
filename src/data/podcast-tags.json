@@ -263,6 +263,14 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-10-18-building-the-silicon-brain-with-drew-houston-of-dropbox": [],
+ "latent-space/2024-10-19-building-the-ai-engineer-nation-with-josephine-teo-minister-of-digital": [
+  "jobs-and-work"
+ ],
+ "latent-space/2024-10-25-how-notebooklm-was-made": [
+  "google"
+ ],
+ "latent-space/2024-11-01-in-the-arena-how-lmsys-changed-llm-benchmarking-forever": [],
  "latent-space/2024-11-11-agents-work-dust-tt": [
   "openai"
  ],
@@ -839,6 +847,30 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-10-12-convergent-evolution-the-co-revolution-of-ai-biology-with-prof-michael": [
+  "ai-for-science"
+ ],
+ "cognitive-revolution/2024-10-16-leading-indicators-of-ai-danger-owain-evans-on-situational-awareness-f": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2024-10-19-gelu-mmlu-x-risk-defense-in-depth-with-the-great-dan-hendrycks": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-10-23-can-ais-generate-novel-research-ideas-with-lead-author-chenglei-si": [],
+ "cognitive-revolution/2024-10-26-mind-hacked-by-ai-a-cautionary-tale-from-a-lesswrong-user-s-confession": [],
+ "cognitive-revolution/2024-10-30-training-zamba-a-hybrid-model-master-class-with-zyphra-s-quentin-antho": [
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2024-10-31-gemini-update-search-grounding-json-mode-code-execution-more-with-goog": [
+  "google"
+ ],
+ "cognitive-revolution/2024-11-01-ai-under-trump-the-stakes-of-2024-w-samuel-hammond-pt-1-of-2": [
+  "us-china"
+ ],
+ "cognitive-revolution/2024-11-02-ai-under-trump-the-stakes-of-2024-w-joshua-steinman-pt-2-of-2": [
+  "us-china"
  ],
  "cognitive-revolution/2024-11-12-agi-lab-transparency-requirements-whistleblower-protections-with-dean": [
   "policy-and-regulation",
@@ -1827,6 +1859,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-10-16-graham-hancock-lost-civilization-of-the-ice-age-ancient-human-history": [],
+ "lex-fridman/2024-10-23-bernie-sanders-interview": [
+  "policy-and-regulation"
+ ],
+ "lex-fridman/2024-10-30-rick-spence-cia-kgb-illuminati-secret-societies-cults-conspiracies": [],
  "lex-fridman/2024-11-11-dario-amodei-anthropic-ceo-on-claude-agi-the-future-of-ai-humanity": [
   "interpretability",
   "anthropic"
@@ -1945,6 +1982,15 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-10-17-gaming-nobel-prizes-and-at-risk-businesses-in-the-ai-era": [],
+ "no-priors/2024-10-24-waymo-s-journey-to-full-autonomy-ai-breakthroughs-safety-and-scaling": [
+  "physical-ai"
+ ],
+ "no-priors/2024-10-31-forecasting-the-future-with-kalshi-america-s-first-regulated-predictio": [],
+ "no-priors/2024-11-07-nvidia-s-jensen-huang-on-ai-chip-design-scaling-data-centers-and-his-1": [
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
  "no-priors/2024-11-14-ai-and-the-future-of-math-with-deepmind-s-alphaproof-team": [
   "ai-for-science",
   "training-and-rl",
