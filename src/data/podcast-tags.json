@@ -1,4 +1,9 @@
 {
+ "practical-ai/2023-10-03-generative-models-exploration-to-deployment": [
+  "open-weight-models",
+  "infrastructure-and-chips",
+  "hugging-face"
+ ],
  "practical-ai/2023-10-20-ai-s-impact-on-developers": [],
  "practical-ai/2023-10-24-deep-learning-in-rust-with-burn": [],
  "practical-ai/2023-10-31-self-hosting-scaling-models": [
@@ -407,6 +412,16 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2023-09-29-building-the-foundation-model-ops-platform-with-raza-habib-of-humanloo": [],
+ "latent-space/2023-10-05-rag-is-a-hack-with-jerry-liu-from-llamaindex": [
+  "training-and-rl"
+ ],
+ "latent-space/2023-10-07-aie-summit-preview-1-swyx-on-software-3-0-and-the-rise-of-the-ai-engin": [],
+ "latent-space/2023-10-08-aie-summit-preview-2-the-ai-horcrux-swyx-on-cognitive-revolution": [],
+ "latent-space/2023-10-14-why-ai-agents-don-t-work-yet-with-kanjun-qiu-of-imbue": [],
+ "latent-space/2023-10-19-the-end-of-finetuning-with-jeremy-howard-of-fast-ai": [
+  "training-and-rl"
  ],
  "latent-space/2023-10-26-powering-your-copilot-for-data-with-artem-keydunov-of-cube-dev": [],
  "latent-space/2023-11-03-beating-gpt-4-with-open-source-llms-with-michael-royzen-of-phind": [
@@ -1147,6 +1162,26 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2023-09-29-openai-amazon-s-anthropic-investment-and-the-roman-empire-with-zvi-mow": [
+  "anthropic",
+  "amazon",
+  "openai"
+ ],
+ "cognitive-revolution/2023-10-03-gunning-for-google-with-perplexity-ceo-aravind-srinivas": [
+  "consumer-ai",
+  "google"
+ ],
+ "cognitive-revolution/2023-10-05-ai-engineers-pendants-and-competition-between-openai-and-developers-wi": [
+  "openai"
+ ],
+ "cognitive-revolution/2023-10-10-ai-is-supercharging-writers-with-sudowrite-s-founder-james-yu": [],
+ "cognitive-revolution/2023-10-13-the-ai-scouting-report-jailbreaks-and-defense": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2023-10-18-the-future-of-the-transformer-pt-1-w-trey-kollmer-nvidia-s-h100-chips": [
+  "openai"
+ ],
+ "cognitive-revolution/2023-10-20-the-future-of-the-transformer-pt-2-with-trey-kollmer": [],
  "cognitive-revolution/2023-10-24-rag-beyond-semantic-storage-and-retrieval": [],
  "cognitive-revolution/2023-10-26-ai-agents-vc-insights-on-ai-and-building-in-public-with-yohei-nakajima": [],
  "cognitive-revolution/2023-10-31-hardcore-ai-for-history-with-mark-humphries-history-professor-at-wilfr": [
@@ -2238,6 +2273,11 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2023-10-04-sarah-c-m-paine-why-dictators-keep-making-the-same-fatal-mistake": [],
+ "dwarkesh/2023-10-12-grant-sanderson-3blue1brown-past-present-future-of-mathematics": [
+  "jobs-and-work",
+  "ai-for-science"
+ ],
  "dwarkesh/2023-10-26-shane-legg-deepmind-founder-2028-agi-superhuman-alignment-new-architec": [
   "ai-safety",
   "google"
@@ -2476,6 +2516,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-09-28-mark-zuckerberg-first-interview-in-the-metaverse": [
+  "ai-safety",
+  "meta"
+ ],
+ "lex-fridman/2023-10-11-jared-kushner-israel-palestine-hamas-gaza-iran-and-the-middle-east": [],
  "lex-fridman/2023-11-09-elon-musk-war-ai-aliens-politics-physics-video-games-and-humanity": [
   "xai"
  ],
@@ -2680,6 +2725,10 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-10-09-model-quality-fine-tuning-meta-sponsoring-open-source-ecosystem": [
+  "meta"
+ ],
+ "no-priors/2023-10-12-from-app-to-suite-to-platform-with-hubspot-s-co-founder-brian-halligan": [],
  "no-priors/2023-10-23-what-google-cloud-can-teach-enterprises-developing-rolling-out-ai-tool": [
   "enterprise-adoption",
   "google"
