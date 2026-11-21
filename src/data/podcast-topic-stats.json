@@ -364,7 +364,67 @@
   "dwarkesh/2026-10-01-si-sheppard-how-did-a-few-hundred-spanish-soldiers-topple-two-empires": "extraction",
   "dwarkesh/2026-10-22-what-will-computer-chips-look-like-in-2045": "extraction",
   "dwarkesh/2026-10-30-what-robert-caro-learned-about-power-after-studying-it-for-50-years": "extraction",
-  "dwarkesh/2026-11-16-paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow": "extraction"
+  "dwarkesh/2026-11-16-paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow": "extraction",
+  "lex-fridman/2026-01-13-paul-rosolie-uncontacted-tribes-in-the-amazon-jungle": "extraction",
+  "lex-fridman/2026-02-01-ai-sota-2026-state-of-ai-in-2026-llms-coding-scaling-laws-china-agents": "extraction",
+  "lex-fridman/2026-02-12-peter-steinberger-openclaw-the-viral-ai-agent-that-broke-the-internet": "extraction",
+  "lex-fridman/2026-03-01-rick-beato-greatest-guitarists-of-all-time-history-future-of-music": "extraction",
+  "lex-fridman/2026-03-11-jeff-kaplan-world-of-warcraft-overwatch-blizzard-and-future-of-gaming": "extraction",
+  "lex-fridman/2026-03-23-jensen-huang-nvidia-the-4-trillion-company-the-ai-revolution": "extraction",
+  "lex-fridman/2026-04-09-lars-brownworth-vikings-ragnar-berserkers-valhalla-the-warriors-of-the": "extraction",
+  "lex-fridman/2026-05-06-ffmpeg-the-incredible-technology-behind-video-on-the-internet": "extraction",
+  "lex-fridman/2026-05-29-don-lincoln-biggest-mysteries-in-physics-antimatter-dark-energy-toe-do": "extraction",
+  "lex-fridman/2026-06-30-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires": "extraction",
+  "lex-fridman/2026-07-28-gary-gallagher-american-civil-war-slavery-lincoln-grant-lee": "extraction",
+  "lex-fridman/2026-08-12-khabib-nurmagomedov-dagestan-mma-ufc-islam-conor-fedor-football": "extraction",
+  "lex-fridman/2026-08-26-dhh-future-of-programming-ai-agentic-engineering-vibe-coding-linux": "extraction",
+  "lex-fridman/2026-09-17-andrew-scull-psychiatry-insane-asylums-mental-illness-ect-lobotomies-f": "extraction",
+  "lex-fridman/2026-10-26-math-ai-crisis-ai-crisis-in-math-navier-stokes-riemann-hypothesis-comp": "extraction",
+  "lex-fridman/2026-11-10-ukraine-war-preston-stewart-michael-kofman-russia-ukraine-war-putin-ze": "extraction",
+  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": "extraction",
+  "no-priors/2026-01-08-nvidia-s-jensen-huang-on-reasoning-models-robotics-and-refuting-the-ai": "extraction",
+  "no-priors/2026-01-15-ai-and-the-future-of-warfare-with-us-under-secretary-of-war-emil-micha": "extraction",
+  "no-priors/2026-01-22-no-priors-live-building-durable-software-in-the-ai-age-with-mongodb-pr": "extraction",
+  "no-priors/2026-01-29-why-cryopreservation-is-no-longer-science-fiction-with-until-co-founde": "extraction",
+  "no-priors/2026-02-05-introducing-4d-creation-open-beta-npcs-4d-worlds-and-the-future-of-gam": "extraction",
+  "no-priors/2026-02-12-rivian-s-roadmap-to-ai-architecture-and-autonomy-with-founder-and-ceo": "extraction",
+  "no-priors/2026-02-19-from-saas-to-ai-first-how-companies-are-reshaping-innovation": "extraction",
+  "no-priors/2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-magnetar-c": "extraction",
+  "no-priors/2026-03-12-from-coder-to-manager-navigating-the-shift-to-agentic-engineering-with": "extraction",
+  "no-priors/2026-03-20-andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai": "extraction",
+  "no-priors/2026-04-03-ai-for-atoms-how-periodic-labs-is-revolutionizing-materials-engineerin": "extraction",
+  "no-priors/2026-04-09-the-agentic-economy-how-ai-agents-will-transform-the-financial-system": "extraction",
+  "no-priors/2026-04-17-scaling-global-organizations-in-the-age-of-ai-with-servicenow-chairman": "extraction",
+  "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models": "extraction",
+  "no-priors/2026-05-11-amex-global-business-travel-the-world-s-first-ai-take-private-with-lon": "extraction",
+  "no-priors/2026-05-14-pax-silica-inside-the-trump-administration-s-tech-strategy-with-us-und": "extraction",
+  "no-priors/2026-05-21-the-story-behind-cerebras-63-billion-ipo-with-founder-and-ceo-andrew-f": "extraction",
+  "no-priors/2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ceo-maxim-ba": "extraction",
+  "no-priors/2026-06-04-we-need-an-ecosystem-in-ai-and-every-company-can-win-a-place-in-it": "extraction",
+  "no-priors/2026-06-10-biohub-the-future-of-biology-is-open-source-with-co-founders-mark-zuck": "summary",
+  "no-priors/2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo-lip-bu-ta": "extraction",
+  "no-priors/2026-06-26-really-big-test-time-compute-in-ai-changes-benchmarks-safety-and-resea": "extraction",
+  "no-priors/2026-07-02-how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-is": "extraction",
+  "no-priors/2026-07-09-travel-through-the-lens-of-ai-with-with-booking-com-ceo-glenn-fogel": "extraction",
+  "no-priors/2026-07-23-building-an-autonomous-delivery-experience-with-doordash-co-founders-a": "extraction",
+  "no-priors/2026-07-31-building-an-autonomous-enterprise-for-real-world-services-with-netic-f": "extraction",
+  "no-priors/2026-08-06-chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-r": "extraction",
+  "no-priors/2026-08-13-what-chess-com-teaches-us-about-superhuman-capabilities-with-ceo-erik": "extraction",
+  "no-priors/2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak": "extraction",
+  "no-priors/2026-08-27-rethinking-legacy-data-infrastructure-with-eon-co-founders-ofir-ehrlic": "extraction",
+  "no-priors/2026-09-03-redefining-chip-architecture-with-arm-ceo-rene-haas": "extraction",
+  "no-priors/2026-09-10-coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokeniz": "extraction",
+  "no-priors/2026-09-18-why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo": "extraction",
+  "no-priors/2026-09-24-re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founde": "extraction",
+  "no-priors/2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of": "extraction",
+  "no-priors/2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-founder-and-ce": "extraction",
+  "no-priors/2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-with-openai": "extraction",
+  "no-priors/2026-10-22-the-new-apex-predator-crowdstrike-ceo-george-kurtz-on-adversaries-arme": "extraction",
+  "no-priors/2026-10-23-democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-kn": "extraction",
+  "no-priors/2026-10-29-taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found": "extraction",
+  "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow": "extraction",
+  "no-priors/2026-11-12-powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma": "extraction",
+  "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of": "extraction"
  },
  "topics": {
   "open-weight-models": {
@@ -454,6 +514,52 @@
      },
      {
       "name": "AI wealth redistribution",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and programming",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "ATOM Project",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Agentic finance",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI as a five-layer cake",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -577,6 +683,29 @@
      }
     ]
    },
+   "no-priors": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Autonomous driving",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Dave Baszucki",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "NPCs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 6,
     "related": [
@@ -689,6 +818,29 @@
      {
       "name": "ASML",
       "kind": "company",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and programming",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "ATOM Project",
+      "kind": "organization",
       "central": 1,
       "mentions": 1
      }
@@ -811,6 +963,52 @@
      }
     ]
    },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI factory",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "CUDA",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "AI roll-ups",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "SaaS apocalypse",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Agentic coding",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 58,
     "related": [
@@ -900,6 +1098,29 @@
      {
       "name": "Automation Bench",
       "kind": "product",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 8,
+    "related": [
+     {
+      "name": "ServiceNow",
+      "kind": "company",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "Agentic commerce",
+      "kind": "concept",
       "central": 1,
       "mentions": 1
      }
@@ -1022,6 +1243,52 @@
      }
     ]
    },
+   "lex-fridman": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Agentic engineering",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI agent security",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "Agentic coding",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI agent security",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Andrej Karpathy",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 127,
     "related": [
@@ -1134,6 +1401,52 @@
      {
       "name": "Compute financing",
       "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Agentic engineering",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "OpenClaw",
+      "kind": "product",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "Enterprise AI adoption",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Recursive self-improvement",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Andrej Karpathy",
+      "kind": "person",
       "central": 1,
       "mentions": 1
      }
@@ -1256,6 +1569,52 @@
      }
     ]
    },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI factory",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 9,
+    "related": [
+     {
+      "name": "Open-weight models",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "AI bubble",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI-assisted chip design",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 71,
     "related": [
@@ -1370,6 +1729,52 @@
       "kind": "concept",
       "central": 1,
       "mentions": 3
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Agentic engineering",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI agents replacing apps",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 12,
+    "related": [
+     {
+      "name": "AI for science",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Inference speed",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Open-weight models",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
      }
     ]
    },
@@ -1584,6 +1989,52 @@
      }
     ]
    },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI and the future of mathematical research",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Alex Kontorovich",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Ankur Moitra",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "AI drug discovery",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Agentic trading",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI cybersecurity",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 10,
     "related": [
@@ -1701,6 +2152,52 @@
      }
     ]
    },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and programming",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "ATOM Project",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Noam Brown",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Recursive self-improvement",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 52,
     "related": [
@@ -1812,6 +2309,52 @@
      },
      {
       "name": "AI lab security",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Battle of Bakhmut",
+      "kind": "event",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Battlefield misreporting",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Drone warfare",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "AI supply chain",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Autonomous weapons and drones",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "CPUs for agentic AI",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -1935,6 +2478,52 @@
      }
     ]
    },
+   "lex-fridman": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Anthropic",
+      "kind": "company",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "Claude Code",
+      "kind": "product",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Agentic engineering",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 5,
+    "related": [
+     {
+      "name": "Recursive self-improvement",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "AI for science",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI cybersecurity",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 120,
     "related": [
@@ -2049,6 +2638,52 @@
       "kind": "concept",
       "central": 2,
       "mentions": 3
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Agentic engineering",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "OpenAI",
+      "kind": "company",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI agent security",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Maxim Bar Kogan",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Onyx Security",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
@@ -2169,6 +2804,52 @@
      }
     ]
    },
+   "lex-fridman": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Abdulmanap Nurmagomedov",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI in music",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Conor McGregor",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Dave Baszucki",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "NPCs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Roblox",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 39,
     "related": [
@@ -2280,6 +2961,29 @@
      },
      {
       "name": "Age of research",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Beam",
+      "kind": "model",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Chinese open models",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -2733,6 +3437,29 @@
      }
     ]
    },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Andy Fang",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Ask DoorDash",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Autonomous delivery",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 40,
     "related": [
@@ -2821,6 +3548,52 @@
      },
      {
       "name": "AI chip supply chain",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Scaling laws",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Open-weight models",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Open-weight models",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI as a five-layer cake",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -2921,6 +3694,29 @@
      }
     ]
    },
+   "no-priors": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Data centers and power",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "Agentic travel planning",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 92,
     "related": [
@@ -3010,6 +3806,29 @@
      {
       "name": "Albert Einstein",
       "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI drug discovery",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "In silico drug design",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Isomorphic Labs",
+      "kind": "company",
       "central": 1,
       "mentions": 1
      }
@@ -3107,6 +3926,29 @@
       "name": "Agentic information work",
       "kind": "concept",
       "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Private evals",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Agent harness",
+      "kind": "concept",
+      "central": 0,
+      "mentions": 1
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 0,
       "mentions": 1
      }
     ]

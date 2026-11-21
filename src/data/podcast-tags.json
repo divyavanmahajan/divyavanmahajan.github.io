@@ -1464,5 +1464,219 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2026-01-13-paul-rosolie-uncontacted-tribes-in-the-amazon-jungle": [],
+ "lex-fridman/2026-02-01-ai-sota-2026-state-of-ai-in-2026-llms-coding-scaling-laws-china-agents": [
+  "open-weight-models",
+  "us-china",
+  "models-and-benchmarks",
+  "anthropic",
+  "nvidia",
+  "openai"
+ ],
+ "lex-fridman/2026-02-12-peter-steinberger-openclaw-the-viral-ai-agent-that-broke-the-internet": [
+  "agents",
+  "ai-coding",
+  "ai-safety",
+  "anthropic",
+  "openai"
+ ],
+ "lex-fridman/2026-03-01-rick-beato-greatest-guitarists-of-all-time-history-future-of-music": [
+  "generative-media"
+ ],
+ "lex-fridman/2026-03-11-jeff-kaplan-world-of-warcraft-overwatch-blizzard-and-future-of-gaming": [],
+ "lex-fridman/2026-03-23-jensen-huang-nvidia-the-4-trillion-company-the-ai-revolution": [
+  "infrastructure-and-chips",
+  "agents",
+  "jobs-and-work",
+  "nvidia"
+ ],
+ "lex-fridman/2026-04-09-lars-brownworth-vikings-ragnar-berserkers-valhalla-the-warriors-of-the": [],
+ "lex-fridman/2026-05-06-ffmpeg-the-incredible-technology-behind-video-on-the-internet": [],
+ "lex-fridman/2026-05-29-don-lincoln-biggest-mysteries-in-physics-antimatter-dark-energy-toe-do": [],
+ "lex-fridman/2026-06-30-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires": [],
+ "lex-fridman/2026-07-28-gary-gallagher-american-civil-war-slavery-lincoln-grant-lee": [],
+ "lex-fridman/2026-08-12-khabib-nurmagomedov-dagestan-mma-ufc-islam-conor-fedor-football": [
+  "generative-media"
+ ],
+ "lex-fridman/2026-08-26-dhh-future-of-programming-ai-agentic-engineering-vibe-coding-linux": [
+  "ai-coding",
+  "agents",
+  "anthropic"
+ ],
+ "lex-fridman/2026-09-17-andrew-scull-psychiatry-insane-asylums-mental-illness-ect-lobotomies-f": [],
+ "lex-fridman/2026-10-26-math-ai-crisis-ai-crisis-in-math-navier-stokes-riemann-hypothesis-comp": [
+  "ai-for-science",
+  "ai-safety",
+  "openai"
+ ],
+ "lex-fridman/2026-11-10-ukraine-war-preston-stewart-michael-kofman-russia-ukraine-war-putin-ze": [
+  "policy-and-regulation"
+ ],
+ "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2026-01-08-nvidia-s-jensen-huang-on-reasoning-models-robotics-and-refuting-the-ai": [
+  "ai-economics",
+  "infrastructure-and-chips",
+  "open-weight-models",
+  "nvidia"
+ ],
+ "no-priors/2026-01-15-ai-and-the-future-of-warfare-with-us-under-secretary-of-war-emil-micha": [
+  "policy-and-regulation"
+ ],
+ "no-priors/2026-01-22-no-priors-live-building-durable-software-in-the-ai-age-with-mongodb-pr": [
+  "enterprise-adoption",
+  "ai-coding"
+ ],
+ "no-priors/2026-01-29-why-cryopreservation-is-no-longer-science-fiction-with-until-co-founde": [],
+ "no-priors/2026-02-05-introducing-4d-creation-open-beta-npcs-4d-worlds-and-the-future-of-gam": [
+  "generative-media",
+  "physical-ai"
+ ],
+ "no-priors/2026-02-12-rivian-s-roadmap-to-ai-architecture-and-autonomy-with-founder-and-ceo": [
+  "physical-ai"
+ ],
+ "no-priors/2026-02-19-from-saas-to-ai-first-how-companies-are-reshaping-innovation": [
+  "ai-economics"
+ ],
+ "no-priors/2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-magnetar-c": [
+  "infrastructure-and-chips",
+  "ai-economics"
+ ],
+ "no-priors/2026-03-12-from-coder-to-manager-navigating-the-shift-to-agentic-engineering-with": [
+  "ai-coding",
+  "agents"
+ ],
+ "no-priors/2026-03-20-andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai": [
+  "ai-coding",
+  "agents",
+  "jobs-and-work"
+ ],
+ "no-priors/2026-04-03-ai-for-atoms-how-periodic-labs-is-revolutionizing-materials-engineerin": [
+  "ai-for-science",
+  "ai-safety",
+  "openai"
+ ],
+ "no-priors/2026-04-09-the-agentic-economy-how-ai-agents-will-transform-the-financial-system": [],
+ "no-priors/2026-04-17-scaling-global-organizations-in-the-age-of-ai-with-servicenow-chairman": [
+  "jobs-and-work",
+  "enterprise-adoption"
+ ],
+ "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models": [
+  "open-weight-models",
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2026-05-11-amex-global-business-travel-the-world-s-first-ai-take-private-with-lon": [
+  "enterprise-adoption",
+  "jobs-and-work"
+ ],
+ "no-priors/2026-05-14-pax-silica-inside-the-trump-administration-s-tech-strategy-with-us-und": [
+  "open-weight-models",
+  "policy-and-regulation"
+ ],
+ "no-priors/2026-05-21-the-story-behind-cerebras-63-billion-ipo-with-founder-and-ceo-andrew-f": [
+  "infrastructure-and-chips",
+  "ai-coding",
+  "openai"
+ ],
+ "no-priors/2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ceo-maxim-ba": [
+  "ai-safety",
+  "agents",
+  "anthropic"
+ ],
+ "no-priors/2026-06-04-we-need-an-ecosystem-in-ai-and-every-company-can-win-a-place-in-it": [
+  "jobs-and-work",
+  "agents",
+  "microsoft"
+ ],
+ "no-priors/2026-06-10-biohub-the-future-of-biology-is-open-source-with-co-founders-mark-zuck": [
+  "ai-for-science",
+  "meta"
+ ],
+ "no-priors/2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo-lip-bu-ta": [
+  "infrastructure-and-chips",
+  "policy-and-regulation",
+  "nvidia"
+ ],
+ "no-priors/2026-06-26-really-big-test-time-compute-in-ai-changes-benchmarks-safety-and-resea": [
+  "ai-safety",
+  "models-and-benchmarks",
+  "openai"
+ ],
+ "no-priors/2026-07-02-how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-is": [
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2026-07-09-travel-through-the-lens-of-ai-with-with-booking-com-ceo-glenn-fogel": [
+  "jobs-and-work",
+  "ai-economics"
+ ],
+ "no-priors/2026-07-23-building-an-autonomous-delivery-experience-with-doordash-co-founders-a": [
+  "consumer-ai",
+  "enterprise-adoption"
+ ],
+ "no-priors/2026-07-31-building-an-autonomous-enterprise-for-real-world-services-with-netic-f": [
+  "jobs-and-work"
+ ],
+ "no-priors/2026-08-06-chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-r": [
+  "ai-safety",
+  "enterprise-adoption"
+ ],
+ "no-priors/2026-08-13-what-chess-com-teaches-us-about-superhuman-capabilities-with-ceo-erik": [
+  "ai-coding",
+  "ai-safety"
+ ],
+ "no-priors/2026-08-20-from-restoring-sight-to-reimagining-the-brain-with-max-hodak": [],
+ "no-priors/2026-08-27-rethinking-legacy-data-infrastructure-with-eon-co-founders-ofir-ehrlic": [
+  "ai-safety",
+  "ai-economics"
+ ],
+ "no-priors/2026-09-03-redefining-chip-architecture-with-arm-ceo-rene-haas": [
+  "ai-economics",
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2026-09-10-coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokeniz": [
+  "ai-safety",
+  "open-weight-models"
+ ],
+ "no-priors/2026-09-18-why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo": [
+  "ai-safety",
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2026-09-24-re-founding-incumbents-for-the-ai-era-with-sequence-holdings-co-founde": [
+  "enterprise-adoption"
+ ],
+ "no-priors/2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of": [
+  "ai-safety",
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2026-10-09-beam-the-great-american-open-model-with-reflectionai-co-founder-and-ce": [
+  "ai-safety",
+  "open-weight-models",
+  "training-and-rl"
+ ],
+ "no-priors/2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-with-openai": [
+  "ai-for-science",
+  "ai-safety",
+  "openai"
+ ],
+ "no-priors/2026-10-22-the-new-apex-predator-crowdstrike-ceo-george-kurtz-on-adversaries-arme": [
+  "open-weight-models",
+  "enterprise-adoption",
+  "nvidia"
+ ],
+ "no-priors/2026-10-23-democratizing-security-for-the-agentic-web-with-cloudflare-cto-dane-kn": [],
+ "no-priors/2026-10-29-taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found": [
+  "enterprise-adoption"
+ ],
+ "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow": [
+  "ai-for-science"
+ ],
+ "no-priors/2026-11-12-powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma": [
+  "ai-for-science",
+  "google"
+ ],
+ "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of": [
+  "ai-safety",
+  "ai-coding",
+  "openai"
  ]
 }

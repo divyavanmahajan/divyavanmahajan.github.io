@@ -8,7 +8,8 @@ monthly/yearly summaries exist for every show (AIDB included).
 
 The AI Daily Brief (AIDB) already has a section (now `/podcasts/ai-daily-brief/`)
 built from the notes in `~/projects/volvo/ai-update/notes/`. Divya also follows
-Practical AI, Latent Space, The Cognitive Revolution and Dwarkesh Podcast; their
+Practical AI, Latent Space, The Cognitive Revolution, Dwarkesh Podcast, the Lex
+Fridman Podcast (`lex-fridman`) and No Priors (`no-priors`, added 2026-11-21); their
 transcripts live in the blog wiki repo (`~/projects/wiki/blog/<show>/episodes/YYYY/MM/`).
 This section publishes short per-episode summaries of those shows with the same
 shape as AIDB (listing by year/month, one page per episode, RSS, topics,
@@ -167,3 +168,10 @@ npm run build
   (changes tags on ~100 AIDB episodes), or wait for the next AIDB publish?
 - Quotes from VTT-caption transcripts (Latent Space) have no speaker labels;
   attribution is inferred from context and should be reviewed.
+- No Priors transcripts are mostly YouTube auto-captions (no punctuation, no
+  speaker labels, garbled names); older Lex Fridman episodes (2018-2023) use
+  YouTube captions too. Summaries of those episodes infer attribution from
+  context. Paid transcription of these episodes would need Divya's approval.
+- Shows added after the backfill driver's 2026 phase (Lex Fridman, No Priors)
+  got their 2026 summaries written directly; the driver covers their older
+  episodes (it only takes episodes before 2026-01-01 in its "older" phase).

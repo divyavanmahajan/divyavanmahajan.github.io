@@ -39,6 +39,18 @@ export const podcastShows = [
     description: 'Deeply researched interviews on AI, history, science and economics.',
     homepage: 'https://www.dwarkesh.com/podcast',
   },
+  {
+    slug: 'lex-fridman',
+    name: 'Lex Fridman Podcast',
+    description: 'Long-form conversations with scientists, engineers, historians, athletes and leaders on AI, science, history and the human condition.',
+    homepage: 'https://lexfridman.com/podcast/',
+  },
+  {
+    slug: 'no-priors',
+    name: 'No Priors',
+    description: 'Sarah Guo and Elad Gil talk to the founders, researchers and executives building AI.',
+    homepage: 'https://www.youtube.com/@NoPriorsPodcast',
+  },
 ];
 
 export const podcastShowSlugs = podcastShows.map((s) => s.slug);
