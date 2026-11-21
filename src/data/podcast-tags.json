@@ -263,6 +263,28 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-12-10-generative-video-worldsim-diffusion-vision-reinforcement-learning-and": [
+  "physical-ai",
+  "generative-media",
+  "training-and-rl"
+ ],
+ "latent-space/2024-12-13-windsurf-the-enterprise-ai-ide-with-varun-and-anshul-of-codeium-ai": [
+  "ai-coding",
+  "enterprise-adoption",
+  "agents"
+ ],
+ "latent-space/2024-12-21-2024-in-ai-startups-ls-live-neurips": [],
+ "latent-space/2024-12-22-2024-in-vision-ls-live-neurips": [],
+ "latent-space/2024-12-23-2024-in-open-models-ls-live-neurips": [
+  "open-weight-models"
+ ],
+ "latent-space/2024-12-24-2024-in-post-transformers-architectures-state-space-models-rwkv-ls-liv": [],
+ "latent-space/2024-12-24-2024-in-synthetic-data-and-smol-models-ls-live-neurips": [
+  "open-weight-models"
+ ],
+ "latent-space/2024-12-25-2024-in-agents-ls-live-neurips-2024": [
+  "models-and-benchmarks"
+ ],
  "latent-space/2024-12-31-latent-space-2024-year-in-review": [
   "training-and-rl",
   "openai"
@@ -804,6 +826,19 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2024-12-05-automating-scientific-discovery-with-andrew-white-head-of-science-at-f": [
+  "ai-for-science"
+ ],
+ "cognitive-revolution/2024-12-07-emergency-pod-o1-schemes-against-users-with-alexander-meinke-from-apol": [],
+ "cognitive-revolution/2024-12-18-breakthroughs-in-ai-for-biology-ai-lab-groups-protein-model-interpreta": [
+  "ai-for-science",
+  "interpretability"
+ ],
+ "cognitive-revolution/2024-12-21-can-ais-do-ai-r-d-reviewing-rebench-results-with-neev-parikh-of-metr": [
+  "models-and-benchmarks",
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2024-12-25-emad-mostaque-on-the-intelligent-internet-and-universal-basic-ai": [],
  "cognitive-revolution/2024-12-28-roon-s-heroic-duty-will-the-good-guys-build-agi-first-from-doom-debate": [
   "training-and-rl",
   "openai"
@@ -1753,6 +1788,8 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-12-08-saagar-enjeti-trump-maga-doge-obama-fdr-jfk-history-politics": [],
+ "lex-fridman/2024-12-22-adam-frank-alien-civilizations-and-the-search-for-extraterrestrial-lif": [],
  "lex-fridman/2025-01-06-volodymyr-zelenskyy-ukraine-war-peace-putin-trump-nato-and-freedom": [],
  "lex-fridman/2025-01-19-jennifer-burns-milton-friedman-ayn-rand-economics-capitalism-freedom": [],
  "lex-fridman/2025-01-26-marc-andreessen-trump-power-tech-ai-immigration-future-of-america": [
@@ -1864,6 +1901,13 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-12-12-how-diamond-cooling-could-power-the-future-of-ai-with-akash-systems": [
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2024-12-19-revolutionizing-customer-success-with-agency-s-elias-torres": [],
+ "no-priors/2024-12-26-the-best-of-2024-with-sarah-guo-and-elad-gil": [
+  "physical-ai"
+ ],
  "no-priors/2025-01-09-erik-bernhardsson-on-creating-tools-that-make-ai-feel-effortless": [
   "infrastructure-and-chips"
  ],
