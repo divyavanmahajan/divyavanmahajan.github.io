@@ -1,4 +1,8 @@
 {
+ "practical-ai/2025-06-04-federated-learning-in-production-part-2": [],
+ "practical-ai/2025-06-12-ai-automated-film-making": [],
+ "practical-ai/2025-06-18-behind-the-scenes-vc-funding-for-ai-startups": [],
+ "practical-ai/2025-06-27-ai-hot-takes-and-debates-autonomy": [],
  "practical-ai/2025-07-02-finding-nemotron": [
   "infrastructure-and-chips",
   "open-weight-models",
@@ -232,6 +236,23 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-05-31-aiewf-preview-cloudchef-your-robot-chef-michellin-star-food-at-12-hr-w": [
+  "physical-ai"
+ ],
+ "latent-space/2025-06-02-aiewf-preview-gemini-in-2025-and-realtime-voice-ai": [
+  "google"
+ ],
+ "latent-space/2025-06-03-aiewf-preview-containing-agent-chaos-solomon-hykes": [
+  "ai-coding"
+ ],
+ "latent-space/2025-06-06-the-utility-of-interpretability-emmanuel-amiesen": [
+  "interpretability",
+  "anthropic"
+ ],
+ "latent-space/2025-06-19-scaling-test-time-compute-to-multi-agent-civilizations-noam-brown-open": [
+  "agents",
+  "openai"
  ],
  "latent-space/2025-07-02-information-theory-for-language-models-jack-morris": [
   "jobs-and-work"
@@ -683,6 +704,19 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-06-10-a16z-on-protecting-little-tech-the-techno-optimist-ai-policy-agenda-wi": [
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2025-06-12-the-decade-of-may-15-22-2025-google-s-50x-ai-growth-transformation-wit": [
+  "google"
+ ],
+ "cognitive-revolution/2025-06-18-embryology-of-ai-how-training-data-shapes-ai-development-w-timaeus-jes": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2025-06-21-living-lindy-a-no-bs-conversation-on-ai-agents-with-flo-crivello": [],
+ "cognitive-revolution/2025-06-25-2-sigma-in-2-hours-how-alpha-schools-are-using-ai-to-revolutionize-edu": [
+  "jobs-and-work"
  ],
  "cognitive-revolution/2025-06-28-402-payment-required-a-new-way-for-ai-agents-to-pay-with-nemil-dalal-d": [
   "agents"
@@ -1282,6 +1316,12 @@
   "us-china",
   "ai-safety",
   "anthropic"
+ ],
+ "dwarkesh/2025-06-12-china-is-digging-out-of-a-crisis-and-america-s-luck-is-wearing-thin-ke": [
+  "us-china"
+ ],
+ "dwarkesh/2025-06-19-why-china-s-manufacturing-economy-is-dominating-arthur-kroeber": [
+  "us-china"
  ],
  "dwarkesh/2025-07-10-stephen-kotkin-how-stalin-became-the-most-powerful-dictator-in-history": [
   "us-china"
