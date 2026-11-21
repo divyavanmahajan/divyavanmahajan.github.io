@@ -1,4 +1,17 @@
 {
+ "practical-ai/2021-03-23-recommender-systems-and-high-frequency-trading": [],
+ "practical-ai/2021-03-30-women-in-data-science-wids": [
+  "jobs-and-work"
+ ],
+ "practical-ai/2021-04-06-next-gen-voice-assistants": [],
+ "practical-ai/2021-04-13-going-full-bore-with-graphcore": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2021-04-20-data-science-for-intuitive-user-experiences": [],
+ "practical-ai/2021-04-27-mapping-the-world": [],
+ "practical-ai/2021-05-04-generating-hunches-using-smart-home-data": [
+  "amazon"
+ ],
  "practical-ai/2021-05-11-25-years-of-speech-technology-innovation": [],
  "practical-ai/2021-05-18-apache-tvm-and-octoml": [],
  "practical-ai/2021-05-26-elixir-meets-machine-learning": [
@@ -3045,6 +3058,26 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2021-03-15-silvio-micali-cryptocurrency-blockchain-algorand-bitcoin-and-ethereum": [],
+ "lex-fridman/2021-03-20-ryan-hall-solving-martial-arts-from-first-principles": [],
+ "lex-fridman/2021-03-22-ronald-sullivan-the-ideal-of-justice-in-the-face-of-controversy-and-ev": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2021-03-25-anthony-pompliano-bitcoin": [],
+ "lex-fridman/2021-03-30-ryan-schiller-librex-and-the-free-exchange-of-ideas-on-college-campuse": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2021-04-01-nic-carter-bitcoin-core-values-layered-scaling-and-blocksize-debates": [],
+ "lex-fridman/2021-04-10-tyler-cowen-economic-growth-and-the-fight-against-conformity-and-medio": [],
+ "lex-fridman/2021-04-12-yannis-pappas-history-and-comedy": [],
+ "lex-fridman/2021-04-17-robert-breedlove-philosophy-of-bitcoin-from-first-principles": [],
+ "lex-fridman/2021-04-19-risto-miikkulainen-neuroevolution-and-evolutionary-computation": [],
+ "lex-fridman/2021-04-26-georges-st-pierre-the-science-of-fighting": [],
+ "lex-fridman/2021-04-30-jeremi-suri-history-of-american-power": [],
+ "lex-fridman/2021-05-01-sergey-nazarov-chainlink-smart-contracts-and-oracle-networks": [
+  "ai-for-science",
+  "oracle"
  ],
  "lex-fridman/2021-05-09-john-danaher-the-path-to-mastery-in-jiu-jitsu-grappling-judo-and-mma": [],
  "lex-fridman/2021-05-14-po-shen-loh-mathematics-math-olympiad-combinatorics-contact-tracing": [
