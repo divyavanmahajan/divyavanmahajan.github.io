@@ -1,4 +1,11 @@
 {
+ "practical-ai/2022-09-13-stable-diffusion": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2022-09-20-evaluating-models-without-test-data": [],
+ "practical-ai/2022-09-27-production-data-labeling-workflows": [],
+ "practical-ai/2022-10-12-what-s-up-docquery": [],
+ "practical-ai/2022-10-18-data-for-all": [],
  "practical-ai/2022-10-26-ai-adoption-in-large-well-established-companies": [
   "enterprise-adoption"
  ],
@@ -2638,6 +2645,8 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2022-09-14-charles-c-mann-americas-before-columbus-scientific-wizardry": [],
+ "dwarkesh/2022-09-28-tyler-cowen-talent-collapse-pessimism-of-sex": [],
  "dwarkesh/2022-10-20-bryan-caplan-feminists-billionaires-and-demagogues": [
   "jobs-and-work"
  ],
@@ -2914,6 +2923,27 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2022-09-09-botez-sisters-chess-streaming-and-fame": [],
+ "lex-fridman/2022-09-14-christopher-capozzola-world-war-i-ideology-propaganda-and-politics": [],
+ "lex-fridman/2022-09-17-ray-kurzweil-singularity-superintelligence-and-immortality": [],
+ "lex-fridman/2022-09-21-rana-el-kaliouby-emotion-ai-social-robots-and-self-driving-cars": [
+  "physical-ai"
+ ],
+ "lex-fridman/2022-09-24-will-sasso-comedy-madtv-ai-friendship-madness-and-pro-wrestling": [],
+ "lex-fridman/2022-09-27-daniel-negreanu-poker": [],
+ "lex-fridman/2022-10-01-michael-levin-biology-life-aliens-evolution-embryogenesis-xenobots": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2022-10-05-annaka-harris-free-will-consciousness-and-the-nature-of-reality": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2022-10-07-gothamchess-hans-niemann-magnus-carlsen-cheating-scandal-chess-bots": [],
+ "lex-fridman/2022-10-10-john-danaher-submission-grappling-adcc-animal-combat-and-knives": [],
+ "lex-fridman/2022-10-15-kate-darling-social-robots-ethics-privacy-and-the-future-of-mit": [
+  "physical-ai"
+ ],
+ "lex-fridman/2022-10-17-hikaru-nakamura-chess-magnus-kasparov-and-the-psychology-of-greatness": [],
+ "lex-fridman/2022-10-20-balaji-srinivasan-how-to-fix-government-twitter-science-and-the-fda": [],
  "lex-fridman/2022-10-24-ye-aka-kanye-west-kanye-ye-west-interview": [],
  "lex-fridman/2022-10-29-andrej-karpathy-tesla-ai-self-driving-optimus-aliens-and-agi": [
   "physical-ai"
