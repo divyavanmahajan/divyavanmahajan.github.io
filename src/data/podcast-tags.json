@@ -1,4 +1,8 @@
 {
+ "practical-ai/2023-12-12-the-state-of-open-source-ai": [
+  "training-and-rl"
+ ],
+ "practical-ai/2023-12-19-open-source-on-disk-vector-search-with-lancedb": [],
  "practical-ai/2024-01-10-ai-predictions-for-2024": [
   "ai-coding"
  ],
@@ -390,6 +394,17 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2023-12-08-the-busy-person-s-intro-to-finetuning-open-source-ai-wing-lian-axolotl": [
+  "training-and-rl",
+  "open-weight-models"
+ ],
+ "latent-space/2023-12-14-the-normsky-architecture-for-ai-coding-agents-with-beyang-liu-steve-ye": [
+  "ai-coding"
+ ],
+ "latent-space/2023-12-20-the-ai-first-graphics-editor-with-suhail-doshi-of-playground-ai": [
+  "openai"
+ ],
+ "latent-space/2023-12-23-neurips-2023-recap-best-papers": [],
  "latent-space/2023-12-30-neurips-2023-recap-top-startups": [],
  "latent-space/2024-01-05-the-accidental-ai-canvas-with-steve-ruiz-of-tldraw": [],
  "latent-space/2024-01-11-rlhf-201-with-nathan-lambert-of-ai2-and-interconnects": [
@@ -1097,6 +1112,27 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2023-12-07-what-biological-social-systems-can-teach-us-about-ai-with-nora-ammann": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2023-12-09-hume-ceo-alan-cowen-on-creating-emotionally-aware-ai": [],
+ "cognitive-revolution/2023-12-12-balaji-srinivasan-on-polytheistic-ai-human-ai-symbiosis-and-prospects": [
+  "policy-and-regulation",
+  "us-china"
+ ],
+ "cognitive-revolution/2023-12-16-ai-deception-interpretability-and-affordances-with-apollo-research-ceo": [
+  "interpretability",
+  "models-and-benchmarks",
+  "openai"
+ ],
+ "cognitive-revolution/2023-12-20-using-chatgpt-as-a-copilot-for-your-mind": [
+  "consumer-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2023-12-22-emergency-pod-mamba-memory-and-the-ssm-moment": [],
+ "cognitive-revolution/2023-12-27-nathan-on-the-80-000-hours-podcast-ai-scouting-openai-s-safety-record": [
+  "openai"
  ],
  "cognitive-revolution/2023-12-30-agi-and-institutional-disruption-sam-hammond-in-conversation-with-fli": [],
  "cognitive-revolution/2024-01-03-cutting-edge-neurotechnology-with-nita-farahany-in-conversation-with-l": [],
@@ -2366,6 +2402,12 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-12-09-lee-cronin-controversial-nature-paper-on-evolution-of-life-and-univers": [],
+ "lex-fridman/2023-12-14-jeff-bezos-amazon-and-blue-origin": [
+  "amazon"
+ ],
+ "lex-fridman/2023-12-24-teddy-atlas-mike-tyson-cus-d-amato-boxing-loyalty-fear-greatness": [],
+ "lex-fridman/2023-12-29-guillaume-verdon-beff-jezos-e-acc-movement-physics-computation-agi": [],
  "lex-fridman/2024-01-09-tal-wilkenfeld-music-guitar-bass-jeff-beck-prince-and-leonard-cohen": [],
  "lex-fridman/2024-01-17-matthew-cox-fbi-most-wanted-con-man-55-million-in-bank-fraud": [],
  "lex-fridman/2024-01-23-ben-shapiro-destiny-debate-ben-shapiro-vs-destiny-debate-politics-jan": [],
@@ -2556,6 +2598,12 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-12-07-ai-is-the-new-enterprise-ui-with-clara-shih-ceo-salesforce-ai": [
+  "enterprise-adoption",
+  "salesforce"
+ ],
+ "no-priors/2023-12-14-how-ai-can-help-small-businesses": [],
+ "no-priors/2023-12-21-the-case-for-ai-optimism": [],
  "no-priors/2024-01-11-a-no-priors-clip-show-the-best-of-2023": [],
  "no-priors/2024-01-18-coding-in-collaboration-with-ai-with-sourcegraph-cto-beyang-liu": [
   "ai-coding"
