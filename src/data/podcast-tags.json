@@ -1,4 +1,22 @@
 {
+ "practical-ai/2021-11-10-analyzing-the-2021-ai-index-report": [],
+ "practical-ai/2021-11-23-zero-shot-multitask-learning": [],
+ "practical-ai/2021-11-30-ai-generated-code-with-openai-codex": [
+  "ai-coding",
+  "openai",
+  "microsoft"
+ ],
+ "practical-ai/2021-12-02-technology-as-a-force-for-good": [
+  "salesforce"
+ ],
+ "practical-ai/2021-12-07-friendly-federated-learning": [],
+ "practical-ai/2021-12-14-openai-and-hugging-face-tooling": [
+  "open-weight-models",
+  "infrastructure-and-chips",
+  "training-and-rl",
+  "hugging-face",
+  "openai"
+ ],
  "practical-ai/2022-01-05-ai-in-africa-radiant-earth": [],
  "practical-ai/2022-01-11-eliminate-ai-failures": [],
  "practical-ai/2022-01-19-democratizing-ml-for-speech": [],
@@ -2987,6 +3005,31 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2021-11-08-niall-ferguson-history-of-money-power-war-and-truth": [],
+ "lex-fridman/2021-11-11-neal-stephenson-sci-fi-space-aliens-ai-vr-the-future-of-humanity": [],
+ "lex-fridman/2021-11-16-boris-sofman-waymo-cozmo-self-driving-cars-and-the-future-of-robotics": [
+  "physical-ai"
+ ],
+ "lex-fridman/2021-11-20-ben-askren-wrestling-and-mma": [],
+ "lex-fridman/2021-11-23-kevin-systrom-instagram": [],
+ "lex-fridman/2021-11-28-robert-crews-afghanistan-taliban-bin-laden-and-war-in-the-middle-east": [],
+ "lex-fridman/2021-11-30-tom-brands-iowa-wrestling": [],
+ "lex-fridman/2021-12-03-peter-woit-theories-of-everything-and-why-string-theory-is-not-even-wr": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2021-12-08-jamie-metzl-lab-leak-theory": [
+  "us-china"
+ ],
+ "lex-fridman/2021-12-18-albert-bourla-pfizer-ceo": [],
+ "lex-fridman/2021-12-23-peter-wang-python-and-the-source-code-of-humans-computers-and-reality": [],
+ "lex-fridman/2021-12-25-ray-dalio-money-power-and-the-collapse-of-empires": [
+  "us-china"
+ ],
+ "lex-fridman/2021-12-28-elon-musk-spacex-mars-tesla-autopilot-self-driving-robotics-and-ai": [
+  "physical-ai",
+  "xai"
+ ],
+ "lex-fridman/2021-12-31-michael-malice-new-year-s-special": [],
  "lex-fridman/2022-01-04-jay-bhattacharya-the-case-against-lockdowns": [],
  "lex-fridman/2022-01-08-mark-normand-comedy": [],
  "lex-fridman/2022-01-15-nationalism-debate-yaron-brook-and-yoram-hazony": [],
