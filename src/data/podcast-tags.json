@@ -1,4 +1,17 @@
 {
+ "practical-ai/2021-01-19-accelerating-ml-innovation-at-mlcommons": [
+  "models-and-benchmarks"
+ ],
+ "practical-ai/2021-01-26-the-nose-knows": [],
+ "practical-ai/2021-02-02-cooking-up-synthetic-data-with-gretel": [],
+ "practical-ai/2021-02-16-the-ai-doc-will-see-you-now": [],
+ "practical-ai/2021-02-23-low-code-no-code-accelerated-code-failing-code": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2021-03-02-green-ai": [],
+ "practical-ai/2021-03-09-deep-learning-technology-for-drug-discovery": [
+  "ai-for-science"
+ ],
  "practical-ai/2021-03-23-recommender-systems-and-high-frequency-trading": [],
  "practical-ai/2021-03-30-women-in-data-science-wids": [
   "jobs-and-work"
@@ -3059,6 +3072,24 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2021-01-27-ama1-lex-fridman-ask-me-anything-ama-january-2021": [],
+ "lex-fridman/2021-01-29-tim-dillon-comedy-power-conspiracy-theories-and-freedom": [],
+ "lex-fridman/2021-02-01-natalya-bailey-rocket-engines-and-electric-spacecraft-propulsion": [
+  "infrastructure-and-chips"
+ ],
+ "lex-fridman/2021-02-05-zev-weinstein-the-next-generation-of-big-ideas-and-brave-minds": [],
+ "lex-fridman/2021-02-07-richard-craib-wallstreetbets-numerai-and-the-future-of-stock-trading": [],
+ "lex-fridman/2021-02-12-brendan-eich-javascript-firefox-mozilla-and-brave": [],
+ "lex-fridman/2021-02-15-jason-calacanis-startups-angel-investing-capitalism-and-friendship": [],
+ "lex-fridman/2021-02-18-jim-keller-the-future-of-computing-ai-life-and-consciousness": [
+  "ai-consciousness",
+  "infrastructure-and-chips"
+ ],
+ "lex-fridman/2021-02-23-eric-weinstein-difficult-conversations-freedom-of-speech-and-physics": [],
+ "lex-fridman/2021-02-28-andrew-huberman-sleep-dreams-creativity-the-limits-of-the-human-mind": [],
+ "lex-fridman/2021-03-01-josh-barnett-philosophy-of-violence-power-and-the-martial-arts": [],
+ "lex-fridman/2021-03-05-cal-newport-deep-work-focus-productivity-email-and-social-media": [],
+ "lex-fridman/2021-03-14-saagar-enjeti-politics-history-and-power": [],
  "lex-fridman/2021-03-15-silvio-micali-cryptocurrency-blockchain-algorand-bitcoin-and-ethereum": [],
  "lex-fridman/2021-03-20-ryan-hall-solving-martial-arts-from-first-principles": [],
  "lex-fridman/2021-03-22-ronald-sullivan-the-ideal-of-justice-in-the-face-of-controversy-and-ev": [

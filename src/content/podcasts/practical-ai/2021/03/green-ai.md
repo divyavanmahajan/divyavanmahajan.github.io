@@ -1,0 +1,43 @@
+---
+title: "Green AI \U0001F332"
+description: >-
+  Roy Schwartz and Jesse Dodge argue that AI research rewards accuracy over
+  efficiency, driving up carbon costs and research inequality, and that simply
+  reporting compute costs is the first fix.
+pubDate: '2021-03-02'
+show: practical-ai
+episode: 124
+url: 'https://share.transistor.fm/s/c56e1572'
+durationMin: 60
+hosts:
+  - Chris Benson
+  - Daniel Whitenack
+guests:
+  - Roy Schwartz
+  - Jesse Dodge
+tags:
+  - green-ai
+  - efficiency
+  - nlp
+  - carbon-footprint
+  - reproducibility
+draft: false
+---
+## Thesis
+
+Roy Schwartz (Hebrew University of Jerusalem) and Jesse Dodge (Allen Institute for AI), co-authors of the "Green AI" article in Communications of the ACM, argue that the field's focus on small accuracy gains from ever-larger compute budgets carries two costs: environmental impact and a research community where only a well-funded few can compete. They want efficiency treated as a first-class research goal, starting with honest reporting of what experiments cost.
+
+## Key points
+
+- **The trend.** Dodge recalls training his models on a used laptop when he started his PhD in 2013; by 2019 many models no longer fit on a single GPU, and papers relied on huge hyperparameter searches and datasets.
+- **Two motivations.** Schwartz was moved by the Strubell et al. paper estimating that a neural architecture search emitted CO2 comparable to the lifetime emissions of five cars. Dodge stresses inequality: some experiments are only feasible for "the 1%" of researchers with massive GPU access.
+- **Inference matters most.** Schwartz notes that single inference calls are cheap but run at enormous scale. Dodge cites an NVIDIA claim that about 90% of machine learning cloud cost goes to inference.
+- **Report something.** Dodge says most papers report no efficiency metrics at all. He asks for FLOPs, training curves or hyperparameter search results, so others can compare at lower budgets, and points to their early-exit model, which shows a smooth performance-efficiency curve.
+- **Changing incentives.** Their survey of ACL papers found few efficiency-focused papers, so they helped set up green or efficient NLP tracks at conferences. Schwartz calls releasing pre-trained models such as BERT a "green success" that saves others from retraining.
+- **Industry and future work.** Benson suggests internal efficiency targets at companies that cannot publish; Schwartz agrees. Dodge is watching adapters, which update only a small set of added parameters instead of fine-tuning the whole model.
+
+## Quotes
+
+> "a larger chunk of the research efforts should go towards trying to find solutions that are not epsilon better, but are twice as fast" — Roy Schwartz
+
+> "the best thing that we can do right now is just report something." — Jesse Dodge
