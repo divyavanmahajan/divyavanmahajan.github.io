@@ -1,4 +1,14 @@
 {
+ "practical-ai/2023-01-31-3d-assets-simulation-at-nvidia": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2023-02-07-mlops-is-alive-and-well": [],
+ "practical-ai/2023-02-14-serverless-gpus": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2023-02-22-applied-nlp-solutions-ai-education": [
+  "training-and-rl"
+ ],
  "practical-ai/2023-02-28-success-and-failure-in-prompting": [],
  "practical-ai/2023-03-07-end-to-end-cloud-compute-for-ai-ml": [
   "infrastructure-and-chips"
@@ -1313,6 +1323,9 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2023-02-03-the-pixel-revolution-with-playground-ai-s-suhail-doshi": [],
+ "cognitive-revolution/2023-02-10-the-upside-and-downside-case-for-ai-with-nathan-labenz-and-erik-torenb": [],
+ "cognitive-revolution/2023-02-17-creating-compassionate-ai-with-replika-s-eugenia-kuyda": [],
  "cognitive-revolution/2023-02-23-the-ai-moment-with-amjad-masad-flo-crivello-antonio-garcia-martinez-an": [
   "ai-coding"
  ],
@@ -2599,6 +2612,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2023-02-01-marc-andreessen-ai-crypto-1000-elon-musks-regrets-vulnerabilities-mana": [],
  "dwarkesh/2023-03-13-brett-harrison-ftx-us-former-president-speaks-out": [],
  "dwarkesh/2023-03-22-nat-friedman-github-ceo-reading-ancient-scrolls-open-source-ai": [
   "microsoft"
@@ -2865,6 +2879,17 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-01-25-jeremi-suri-american-civil-war": [],
+ "lex-fridman/2023-01-28-david-kipping-alien-civilizations-and-habitable-worlds": [],
+ "lex-fridman/2023-02-02-tim-dodd-spacex-starship-rocket-engines-and-future-of-space-travel": [
+  "xai"
+ ],
+ "lex-fridman/2023-02-07-paul-conti-narcissism-sociopathy-envy-and-the-nature-of-good-and-evil": [],
+ "lex-fridman/2023-02-10-aella-sex-work-onlyfans-porn-escorting-dating-and-human-sexuality": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2023-02-15-andrew-strominger-black-holes-quantum-gravity-and-theoretical-physics": [],
+ "lex-fridman/2023-02-20-tim-urban-tribalism-marxism-liberalism-social-justice-and-politics": [],
  "lex-fridman/2023-02-25-aaron-smith-levin-scientology": [],
  "lex-fridman/2023-03-02-ginni-rometty-ibm-ceo-on-leadership-power-and-adversity": [],
  "lex-fridman/2023-03-06-b-team-jiu-jitsu-craig-jones-nicky-rod-and-nicky-ryan": [],
@@ -3153,6 +3178,16 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-02-02-the-bot-cicero-can-collaborate-scheme-and-build-trust-with-humans-what": [
+  "meta"
+ ],
+ "no-priors/2023-02-09-what-does-ai-powered-content-creation-look-like-with-runway-ml-s-crist": [],
+ "no-priors/2023-02-16-how-can-we-make-sure-that-everyone-has-access-to-ai-can-small-models-o": [],
+ "no-priors/2023-02-20-founder-stories-what-s-behind-the-largest-commercial-autonomous-system": [],
+ "no-priors/2023-02-23-why-the-future-of-machine-learning-is-open-source-with-huggingface-s-c": [
+  "open-weight-models",
+  "hugging-face"
+ ],
  "no-priors/2023-03-02-how-ai-can-make-drug-discovery-fail-less-with-daphne-koller-from-insit": [
   "ai-for-science"
  ],
