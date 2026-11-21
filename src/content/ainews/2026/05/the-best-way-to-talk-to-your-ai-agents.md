@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-05-11T00:00:00.000Z
 type: episode
 tags:
+  - infrastructure-and-chips
   - ai-coding
-  - context-engineering
 url: 'https://www.youtube.com/watch?v=NNxGQw1uQHc'
 draft: false
 ---

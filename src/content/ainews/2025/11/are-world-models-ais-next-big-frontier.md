@@ -8,8 +8,8 @@ description: >-
 pubDate: 2025-11-12T00:00:00.000Z
 type: episode
 tags:
+  - physical-ai
   - generative-media
-  - ai-economics
   - meta
 url: 'https://www.patreon.com/posts/143453809'
 draft: false

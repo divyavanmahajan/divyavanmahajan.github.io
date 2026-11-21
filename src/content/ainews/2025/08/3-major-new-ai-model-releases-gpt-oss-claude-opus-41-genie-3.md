@@ -8,6 +8,7 @@ description: >-
 pubDate: 2025-08-06T00:00:00.000Z
 type: episode
 tags:
+  - physical-ai
   - generative-media
   - open-weight-models
   - openai

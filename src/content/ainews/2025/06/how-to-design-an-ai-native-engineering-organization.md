@@ -9,7 +9,7 @@ pubDate: 2025-06-09T00:00:00.000Z
 type: episode
 tags:
   - ai-coding
-  - context-engineering
+  - agents
 url: 'https://www.patreon.com/posts/131097027'
 draft: false
 ---

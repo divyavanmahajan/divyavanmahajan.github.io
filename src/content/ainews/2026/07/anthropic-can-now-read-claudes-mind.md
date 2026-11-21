@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-07-07T00:00:00.000Z
 type: episode
 tags:
+  - interpretability
   - ai-safety
-  - infrastructure-and-chips
   - anthropic
 url: 'https://www.patreon.com/posts/163176066'
 draft: false

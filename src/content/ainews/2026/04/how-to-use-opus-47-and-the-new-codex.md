@@ -10,6 +10,7 @@ type: episode
 tags:
   - ai-coding
   - agents
+  - anthropic
   - openai
 url: 'https://www.youtube.com/watch?v=5LdCJHnGwNo'
 draft: false

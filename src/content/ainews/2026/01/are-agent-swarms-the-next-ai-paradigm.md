@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-01-28T00:00:00.000Z
 type: episode
 tags:
-  - enterprise-adoption
-  - jobs-and-work
+  - open-weight-models
+  - agents
 url: 'https://www.patreon.com/posts/149365269'
 draft: false
 ---

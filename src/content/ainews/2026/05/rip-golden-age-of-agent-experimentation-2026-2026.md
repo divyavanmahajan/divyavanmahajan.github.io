@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-05-14T00:00:00.000Z
 type: episode
 tags:
-  - ai-coding
-  - enterprise-adoption
+  - ai-economics
+  - infrastructure-and-chips
   - anthropic
 url: 'https://www.patreon.com/posts/158277908'
 draft: false

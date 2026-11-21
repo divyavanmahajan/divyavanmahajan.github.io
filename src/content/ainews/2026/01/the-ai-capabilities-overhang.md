@@ -9,6 +9,7 @@ pubDate: 2026-01-21T00:00:00.000Z
 type: episode
 tags:
   - ai-coding
+  - jobs-and-work
   - anthropic
 url: 'https://www.patreon.com/posts/148735773'
 draft: false

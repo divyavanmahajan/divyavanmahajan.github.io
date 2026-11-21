@@ -10,8 +10,9 @@ type: episode
 tags:
   - ai-coding
   - ai-economics
-  - anthropic
+  - infrastructure-and-chips
   - openai
+  - anthropic
   - microsoft
 url: 'https://www.youtube.com/watch?v=5MPFyOKlASc'
 draft: false

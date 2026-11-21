@@ -10,6 +10,7 @@ type: episode
 tags:
   - enterprise-adoption
   - ai-coding
+  - agents
   - openai
   - anthropic
 url: 'https://www.youtube.com/watch?v=yTPGY13ym5s'

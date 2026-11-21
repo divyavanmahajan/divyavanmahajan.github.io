@@ -10,6 +10,7 @@ type: episode
 tags:
   - agents
   - enterprise-adoption
+  - context-engineering
 url: 'https://www.patreon.com/posts/152522664'
 draft: false
 ---

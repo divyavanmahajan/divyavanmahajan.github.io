@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-02-02T00:00:00.000Z
 type: episode
 tags:
+  - ai-safety
   - agents
-  - ai-coding
 url: 'https://www.patreon.com/posts/149788297'
 draft: false
 ---

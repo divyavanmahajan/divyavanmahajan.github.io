@@ -10,6 +10,7 @@ type: episode
 tags:
   - ai-coding
   - ai-economics
+  - infrastructure-and-chips
 url: 'https://www.patreon.com/posts/166605285'
 draft: false
 ---

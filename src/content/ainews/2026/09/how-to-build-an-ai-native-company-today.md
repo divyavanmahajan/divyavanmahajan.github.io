@@ -9,6 +9,7 @@ pubDate: 2026-09-06T00:00:00.000Z
 type: episode
 tags:
   - enterprise-adoption
+  - agents
   - context-engineering
 url: 'https://www.patreon.com/posts/168759254'
 draft: false

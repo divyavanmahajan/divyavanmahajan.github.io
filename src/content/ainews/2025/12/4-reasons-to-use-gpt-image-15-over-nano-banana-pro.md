@@ -8,8 +8,9 @@ description: >-
 pubDate: 2025-12-18T00:00:00.000Z
 type: episode
 tags:
-  - models-and-benchmarks
   - generative-media
+  - models-and-benchmarks
+  - google
 url: 'https://www.patreon.com/posts/146108937'
 draft: false
 ---

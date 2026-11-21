@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-03-27T00:00:00.000Z
 type: episode
 tags:
+  - models-and-benchmarks
   - ai-coding
-  - ai-safety
   - anthropic
 url: 'https://www.patreon.com/posts/154108164'
 draft: false

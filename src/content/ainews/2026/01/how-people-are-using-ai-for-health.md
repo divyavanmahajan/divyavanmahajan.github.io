@@ -8,6 +8,7 @@ description: >-
 pubDate: 2026-01-09T00:00:00.000Z
 type: episode
 tags:
+  - ai-for-science
   - models-and-benchmarks
   - openai
 url: 'https://www.patreon.com/posts/147771817'

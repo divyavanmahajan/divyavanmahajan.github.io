@@ -9,7 +9,7 @@ pubDate: 2025-09-17T00:00:00.000Z
 type: episode
 tags:
   - ai-coding
-  - ai-economics
+  - agents
   - google
 url: 'https://www.patreon.com/posts/139069100'
 draft: false

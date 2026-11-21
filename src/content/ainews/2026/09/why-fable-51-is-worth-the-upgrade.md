@@ -10,6 +10,7 @@ type: episode
 tags:
   - models-and-benchmarks
   - ai-economics
+  - ai-safety
   - anthropic
 url: 'https://www.patreon.com/posts/168433620'
 draft: false

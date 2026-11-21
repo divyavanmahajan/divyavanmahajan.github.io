@@ -8,7 +8,9 @@ description: >-
 pubDate: 2025-11-17T00:00:00.000Z
 type: episode
 tags:
-  - ai-economics
+  - ai-for-science
+  - physical-ai
+  - nvidia
 url: 'https://www.patreon.com/posts/143804131'
 draft: false
 ---

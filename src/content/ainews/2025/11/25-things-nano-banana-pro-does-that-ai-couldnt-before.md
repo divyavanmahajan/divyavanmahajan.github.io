@@ -10,6 +10,7 @@ type: episode
 tags:
   - generative-media
   - jobs-and-work
+  - google
 url: 'https://www.patreon.com/posts/144122039'
 draft: false
 ---

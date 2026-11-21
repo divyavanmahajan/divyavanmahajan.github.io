@@ -8,9 +8,9 @@ description: >-
 pubDate: 2025-12-26T00:00:00.000Z
 type: episode
 tags:
+  - open-weight-models
   - ai-coding
   - generative-media
-  - models-and-benchmarks
   - anthropic
   - openai
   - google

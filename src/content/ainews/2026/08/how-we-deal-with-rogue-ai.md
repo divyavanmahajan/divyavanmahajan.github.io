@@ -10,6 +10,7 @@ type: episode
 tags:
   - ai-safety
   - models-and-benchmarks
+  - hugging-face
 url: 'https://www.patreon.com/posts/167864565'
 draft: false
 ---

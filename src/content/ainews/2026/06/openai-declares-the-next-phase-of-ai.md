@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-06-09T00:00:00.000Z
 type: episode
 tags:
+  - policy-and-regulation
   - ai-economics
-  - infrastructure-and-chips
   - openai
 url: 'https://www.youtube.com/watch?v=pnxRfJRAh5A'
 draft: false

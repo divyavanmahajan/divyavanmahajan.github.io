@@ -8,8 +8,9 @@ description: >-
 pubDate: 2026-04-09T00:00:00.000Z
 type: episode
 tags:
+  - agents
   - ai-coding
-  - consumer-ai
+  - open-weight-models
   - anthropic
   - meta
 url: 'https://www.youtube.com/watch?v=20vZc0cOpOw'

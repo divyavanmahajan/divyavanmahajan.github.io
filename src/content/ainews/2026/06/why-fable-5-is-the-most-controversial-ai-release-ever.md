@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-06-11T00:00:00.000Z
 type: episode
 tags:
+  - policy-and-regulation
   - ai-economics
-  - infrastructure-and-chips
   - anthropic
 url: 'https://www.youtube.com/watch?v=LNXDoKPe06I'
 draft: false

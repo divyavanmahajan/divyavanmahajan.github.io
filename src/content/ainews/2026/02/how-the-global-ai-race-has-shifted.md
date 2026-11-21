@@ -9,7 +9,7 @@ pubDate: 2026-02-11T00:00:00.000Z
 type: episode
 tags:
   - us-china
-  - ai-economics
+  - open-weight-models
 url: 'https://www.patreon.com/posts/150510941'
 draft: false
 ---

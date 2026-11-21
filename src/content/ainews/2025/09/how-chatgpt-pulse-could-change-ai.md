@@ -8,8 +8,8 @@ description: >-
 pubDate: 2025-09-27T00:00:00.000Z
 type: episode
 tags:
-  - generative-media
   - models-and-benchmarks
+  - generative-media
   - openai
 url: 'https://www.patreon.com/posts/139856486'
 draft: false

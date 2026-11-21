@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-07-13T00:00:00.000Z
 type: episode
 tags:
-  - ai-economics
   - open-weight-models
+  - ai-economics
   - openai
   - apple
 url: 'https://www.patreon.com/posts/163715906'

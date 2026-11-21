@@ -11,6 +11,7 @@ tags:
   - ai-economics
   - ai-coding
   - enterprise-adoption
+  - deepseek
 url: 'https://www.patreon.com/posts/146464642'
 draft: false
 ---

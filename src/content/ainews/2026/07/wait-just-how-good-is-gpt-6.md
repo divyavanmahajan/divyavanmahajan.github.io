@@ -9,8 +9,10 @@ pubDate: 2026-07-22T00:00:00.000Z
 type: episode
 tags:
   - open-weight-models
-  - policy-and-regulation
+  - training-and-rl
+  - ai-safety
   - openai
+  - hugging-face
 url: 'https://www.patreon.com/posts/164576260'
 draft: false
 ---

@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-01-18T00:00:00.000Z
 type: episode
 tags:
+  - agents
   - ai-coding
-  - enterprise-adoption
 url: 'https://www.patreon.com/posts/148514785'
 draft: false
 ---

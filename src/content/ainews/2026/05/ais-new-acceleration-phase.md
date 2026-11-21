@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-05-22T00:00:00.000Z
 type: episode
 tags:
-  - policy-and-regulation
   - ai-economics
+  - policy-and-regulation
   - google
 url: 'https://www.youtube.com/watch?v=q9t1XCnHcM0'
 draft: false

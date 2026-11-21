@@ -9,7 +9,7 @@ pubDate: 2025-09-29T00:00:00.000Z
 type: episode
 tags:
   - jobs-and-work
-  - open-weight-models
+  - generative-media
 url: 'https://www.patreon.com/posts/140040909'
 draft: false
 ---

@@ -9,7 +9,7 @@ pubDate: 2026-01-31T00:00:00.000Z
 type: episode
 tags:
   - agents
-  - ai-safety
+  - ai-consciousness
   - anthropic
 url: 'https://www.patreon.com/posts/149546968'
 draft: false

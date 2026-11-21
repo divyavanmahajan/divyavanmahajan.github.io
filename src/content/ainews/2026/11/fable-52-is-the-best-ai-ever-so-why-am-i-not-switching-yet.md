@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-11-10T00:00:00.000Z
 type: episode
 tags:
-  - enterprise-adoption
   - models-and-benchmarks
+  - ai-for-science
   - anthropic
 url: 'https://www.patreon.com/posts/174972208'
 draft: false

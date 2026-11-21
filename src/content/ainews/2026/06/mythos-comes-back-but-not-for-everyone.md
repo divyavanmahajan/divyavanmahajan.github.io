@@ -9,7 +9,7 @@ pubDate: 2026-06-29T00:00:00.000Z
 type: episode
 tags:
   - policy-and-regulation
-  - models-and-benchmarks
+  - open-weight-models
   - anthropic
   - openai
 url: 'https://www.youtube.com/watch?v=187eNPPTa_w'

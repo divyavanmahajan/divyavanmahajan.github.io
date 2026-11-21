@@ -9,7 +9,7 @@ pubDate: 2026-01-05T00:00:00.000Z
 type: episode
 tags:
   - context-engineering
-  - generative-media
+  - ai-for-science
 url: 'https://www.patreon.com/posts/147498112'
 draft: false
 ---

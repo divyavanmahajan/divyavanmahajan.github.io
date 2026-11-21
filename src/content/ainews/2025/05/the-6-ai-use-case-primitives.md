@@ -9,6 +9,7 @@ pubDate: 2025-05-30T00:00:00.000Z
 type: episode
 tags:
   - agents
+  - context-engineering
 url: 'https://www.patreon.com/posts/130224306'
 draft: false
 ---

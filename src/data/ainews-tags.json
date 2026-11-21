@@ -89,7 +89,7 @@
  ],
  "2025-04-29-the-problem-with-gpt-4o-sycophancy": [
   "ai-safety",
-  "agents",
+  "interpretability",
   "openai",
   "anthropic"
  ],
@@ -119,7 +119,9 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
- "2025-05-09-13-ways-ai-will-change-consulting-and-professional-services": [],
+ "2025-05-09-13-ways-ai-will-change-consulting-and-professional-services": [
+  "agents"
+ ],
  "2025-05-09-does-ai-search-threaten-the-business-model-of-the-internet": [
   "consumer-ai",
   "us-china",
@@ -185,17 +187,20 @@
  ],
  "2025-05-28-what-to-use-claude-4-for": [
   "ai-safety",
+  "agents",
   "anthropic"
  ],
  "2025-05-29-is-ai-already-shrinking-entry-level-tech-jobs": [
   "jobs-and-work"
  ],
  "2025-05-30-the-6-ai-use-case-primitives": [
-  "agents"
+  "agents",
+  "context-engineering"
  ],
  "2025-05-31-nvidia-ceo-says-china-ai-is-catching-up-fast": [
   "us-china",
   "infrastructure-and-chips",
+  "open-weight-models",
   "nvidia"
  ],
  "2025-06-01-does-ai-first-mean-replacing-people": [
@@ -231,7 +236,7 @@
  ],
  "2025-06-09-how-to-design-an-ai-native-engineering-organization": [
   "ai-coding",
-  "context-engineering"
+  "agents"
  ],
  "2025-06-10-no-apples-new-ai-paper-doesnt-undermine-reasoning-models": [
   "models-and-benchmarks",
@@ -454,6 +459,7 @@
   "anthropic"
  ],
  "2025-08-06-3-major-new-ai-model-releases-gpt-oss-claude-opus-41-genie-3": [
+  "physical-ai",
   "generative-media",
   "open-weight-models",
   "openai"
@@ -500,7 +506,9 @@
   "us-china",
   "anthropic"
  ],
- "2025-08-17-will-ai-destroy-or-reinvent-education": [],
+ "2025-08-17-will-ai-destroy-or-reinvent-education": [
+  "jobs-and-work"
+ ],
  "2025-08-19-everything-sam-altman-is-thinking-about-right-now": [
   "ai-economics",
   "infrastructure-and-chips",
@@ -525,6 +533,7 @@
   "ai-economics"
  ],
  "2025-08-24-the-problem-of-ai-that-seems-alive": [
+  "ai-consciousness",
   "context-engineering"
  ],
  "2025-08-26-what-ai-backlash-at-youtube-can-teach-other-companies": [
@@ -586,12 +595,13 @@
  ],
  "2025-09-11-ai-skepticism-is-cancelled": [
   "ai-economics",
+  "agents",
   "talent-war",
   "oracle"
  ],
  "2025-09-11-why-you-need-different-ais-for-different-jobs": [
+  "generative-media",
   "ai-coding",
-  "ai-economics",
   "anthropic",
   "microsoft"
  ],
@@ -603,18 +613,18 @@
   "generative-media"
  ],
  "2025-09-15-how-to-get-to-agi": [
-  "context-engineering",
-  "jobs-and-work",
+  "models-and-benchmarks",
+  "training-and-rl",
   "google"
  ],
  "2025-09-17-gpt-5-codex-and-the-year-of-agentic-coding": [
   "ai-coding",
-  "ai-economics",
+  "agents",
   "google"
  ],
  "2025-09-18-ai-just-beat-the-worlds-best-coders": [
+  "ai-for-science",
   "infrastructure-and-chips",
-  "us-china",
   "openai"
  ],
  "2025-09-18-how-people-actually-use-chatgpt": [
@@ -648,13 +658,13 @@
  ],
  "2025-09-25-could-gemini-30-and-claude-45-be-coming-soon": [
   "ai-coding",
-  "open-weight-models",
+  "policy-and-regulation",
   "anthropic",
   "google"
  ],
  "2025-09-27-how-chatgpt-pulse-could-change-ai": [
-  "generative-media",
   "models-and-benchmarks",
+  "generative-media",
   "openai"
  ],
  "2025-09-28-dont-blame-ai-for-workslop": [
@@ -663,7 +673,7 @@
  ],
  "2025-09-29-learn-ai-or-be-replaced-accentures-11000-layoffs-are-a-warning": [
   "jobs-and-work",
-  "open-weight-models"
+  "generative-media"
  ],
  "2025-09-30-claude-sonnet-45-can-code-autonomously-for-30-hours": [
   "ai-coding",
@@ -675,6 +685,7 @@
   "openai"
  ],
  "2025-10-02-when-will-ai-make-scientific-discoveries": [
+  "ai-for-science",
   "talent-war",
   "us-china",
   "openai"
@@ -843,8 +854,8 @@
   "us-china"
  ],
  "2025-11-12-are-world-models-ais-next-big-frontier": [
+  "physical-ai",
   "generative-media",
-  "ai-economics",
   "meta"
  ],
  "2025-11-14-6-things-gpt-51-does-better": [
@@ -862,7 +873,9 @@
   "jobs-and-work"
  ],
  "2025-11-17-the-ai-scientist-that-does-6-months-of-work-in-a-day": [
-  "ai-economics"
+  "ai-for-science",
+  "physical-ai",
+  "nvidia"
  ],
  "2025-11-18-how-gemini-3-changes-the-ai-race": [
   "models-and-benchmarks",
@@ -882,7 +895,8 @@
  ],
  "2025-11-22-25-things-nano-banana-pro-does-that-ai-couldnt-before": [
   "generative-media",
-  "jobs-and-work"
+  "jobs-and-work",
+  "google"
  ],
  "2025-11-23-the-7-most-important-things-we-learned-about-ai-this-week": [
   "models-and-benchmarks",
@@ -958,6 +972,7 @@
  "2025-12-10-the-state-of-enterprise-ai": [
   "enterprise-adoption",
   "ai-coding",
+  "agents",
   "openai",
   "anthropic"
  ],
@@ -986,8 +1001,9 @@
   "enterprise-adoption"
  ],
  "2025-12-18-4-reasons-to-use-gpt-image-15-over-nano-banana-pro": [
+  "generative-media",
   "models-and-benchmarks",
-  "generative-media"
+  "google"
  ],
  "2025-12-19-82-of-companies-are-seeing-positive-ai-roi": [
   "enterprise-adoption",
@@ -1006,7 +1022,8 @@
  "2025-12-22-the-10-biggest-ai-stories-of-2025": [
   "ai-economics",
   "ai-coding",
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "deepseek"
  ],
  "2025-12-24-51-charts-that-will-shape-ai-in-2026": [
   "ai-coding",
@@ -1019,9 +1036,9 @@
   "ai-coding"
  ],
  "2025-12-26-the-5-most-impactful-ai-model-releases-of-2025": [
+  "open-weight-models",
   "ai-coding",
   "generative-media",
-  "models-and-benchmarks",
   "anthropic",
   "openai",
   "google"
@@ -1054,7 +1071,7 @@
  ],
  "2026-01-05-context-graphs-ais-next-big-idea": [
   "context-engineering",
-  "generative-media"
+  "ai-for-science"
  ],
  "2026-01-07-ai-at-ces-is-not-just-cheesy-gadgets-anymore": [
   "infrastructure-and-chips",
@@ -1066,6 +1083,7 @@
   "anthropic"
  ],
  "2026-01-09-how-people-are-using-ai-for-health": [
+  "ai-for-science",
   "models-and-benchmarks",
   "openai"
  ],
@@ -1081,8 +1099,8 @@
   "ai-coding"
  ],
  "2026-01-12-google-to-officially-power-apple-ai-siri": [
+  "ai-for-science",
   "consumer-ai",
-  "infrastructure-and-chips",
   "google",
   "apple"
  ],
@@ -1106,8 +1124,8 @@
   "agents"
  ],
  "2026-01-18-code-agi-is-functional-agi-and-its-here": [
-  "ai-coding",
-  "enterprise-adoption"
+  "agents",
+  "ai-coding"
  ],
  "2026-01-19-how-to-make-chatgpt-ads-not-suck": [
   "consumer-ai",
@@ -1116,6 +1134,7 @@
  ],
  "2026-01-21-the-ai-capabilities-overhang": [
   "ai-coding",
+  "jobs-and-work",
   "anthropic"
  ],
  "2026-01-22-agi-timelines-shift-forward": [
@@ -1136,12 +1155,12 @@
   "anthropic"
  ],
  "2026-01-26-ralph-wiggum-clawdbot-and-mac-minis-how-pros-are-vibe-coding-in-2026": [
-  "ai-coding",
-  "agents"
+  "agents",
+  "ai-coding"
  ],
  "2026-01-28-are-agent-swarms-the-next-ai-paradigm": [
-  "enterprise-adoption",
-  "jobs-and-work"
+  "open-weight-models",
+  "agents"
  ],
  "2026-01-28-the-ai-acceleration-gap": [
   "agents",
@@ -1156,7 +1175,7 @@
  ],
  "2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook": [
   "agents",
-  "ai-safety",
+  "ai-consciousness",
   "anthropic"
  ],
  "2026-02-01-openai-ipo-grok-spacex-merger-the-ai-ipo-race-heats-up": [
@@ -1167,8 +1186,8 @@
   "amazon"
  ],
  "2026-02-02-why-moltbook-matters": [
-  "agents",
-  "ai-coding"
+  "ai-safety",
+  "agents"
  ],
  "2026-02-03-the-ai-race-just-got-a-spacex-sized-twist": [
   "agents",
@@ -1188,7 +1207,8 @@
  ],
  "2026-02-06-opus-46-and-chatgpt-53-codex-are-here-and-the-labs-are-at-war": [
   "ai-coding",
-  "ai-economics"
+  "ai-economics",
+  "anthropic"
  ],
  "2026-02-08-claude-code-killed-the-ai-bubble": [
   "ai-coding",
@@ -1212,11 +1232,11 @@
  ],
  "2026-02-11-how-the-global-ai-race-has-shifted": [
   "us-china",
-  "ai-economics"
+  "open-weight-models"
  ],
  "2026-02-12-how-i-built-my-10-agent-openclaw-team": [
   "agents",
-  "enterprise-adoption"
+  "ai-safety"
  ],
  "2026-02-13-the-time-savings-era-of-ai-is-over": [
   "enterprise-adoption",
@@ -1234,8 +1254,8 @@
   "ai-coding"
  ],
  "2026-02-17-the-ai-productivity-boom-finally-shows-up": [
-  "jobs-and-work",
   "policy-and-regulation",
+  "jobs-and-work",
   "open-weight-models",
   "anthropic"
  ],
@@ -1292,6 +1312,7 @@
  "2026-03-02-the-month-ai-woke-up": [
   "agents",
   "ai-economics",
+  "policy-and-regulation",
   "openai",
   "anthropic"
  ],
@@ -1319,15 +1340,16 @@
  ],
  "2026-03-08-10-openclaw-lessons-for-building-agent-teams": [
   "agents",
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "context-engineering"
  ],
  "2026-03-09-autoresearch-agent-loops-and-the-future-of-work": [
   "agents",
   "ai-coding"
  ],
  "2026-03-10-the-debate-over-anthropics-new-product-price-or-existential-dread": [
+  "ai-coding",
   "generative-media",
-  "infrastructure-and-chips",
   "anthropic"
  ],
  "2026-03-11-why-google-workspace-cli-is-a-big-deal": [
@@ -1354,8 +1376,8 @@
   "ai-safety"
  ],
  "2026-03-16-a-guy-used-ai-to-cure-his-dogs-cancer": [
-  "ai-economics",
-  "consumer-ai"
+  "ai-for-science",
+  "infrastructure-and-chips"
  ],
  "2026-03-17-the-race-to-put-ai-agents-everywhere": [
   "agents",
@@ -1402,8 +1424,8 @@
   "agents"
  ],
  "2026-03-27-anthropic-accidentally-revealed-their-most-powerful-model-ever": [
+  "models-and-benchmarks",
   "ai-coding",
-  "ai-safety",
   "anthropic"
  ],
  "2026-03-28-how-ai-can-help-democracy-work-better": [
@@ -1465,8 +1487,9 @@
   "anthropic"
  ],
  "2026-04-09-all-of-ais-new-models-and-tools": [
+  "agents",
   "ai-coding",
-  "consumer-ai",
+  "open-weight-models",
   "anthropic",
   "meta"
  ],
@@ -1479,6 +1502,7 @@
  ],
  "2026-04-13-harness-engineering-101": [
   "ai-coding",
+  "agents",
   "context-engineering",
   "anthropic"
  ],
@@ -1498,9 +1522,12 @@
  "2026-04-17-how-to-use-opus-47-and-the-new-codex": [
   "ai-coding",
   "agents",
+  "anthropic",
   "openai"
  ],
- "2026-04-18-agent-building-trends-operator-bonus-episode": [],
+ "2026-04-18-agent-building-trends-operator-bonus-episode": [
+  "context-engineering"
+ ],
  "2026-04-19-how-the-best-companies-use-ai": [
   "enterprise-adoption",
   "ai-coding"
@@ -1524,7 +1551,8 @@
  "2026-04-24-what-i-learned-testing-gpt-55": [
   "ai-coding",
   "models-and-benchmarks",
-  "openai"
+  "openai",
+  "anthropic"
  ],
  "2026-04-25-how-to-build-a-personal-agentic-operating-system": [
   "context-engineering",
@@ -1541,12 +1569,14 @@
  "2026-04-28-the-ai-subsidy-era-is-over": [
   "ai-coding",
   "ai-economics",
-  "anthropic",
+  "infrastructure-and-chips",
   "openai",
+  "anthropic",
   "microsoft"
  ],
  "2026-04-29-ai-lab-power-rankings": [
   "enterprise-adoption",
+  "infrastructure-and-chips",
   "anthropic",
   "google",
   "microsoft"
@@ -1558,6 +1588,7 @@
  ],
  "2026-05-01-the-week-ai-grew-up": [
   "ai-coding",
+  "infrastructure-and-chips",
   "policy-and-regulation",
   "anthropic",
   "openai"
@@ -1578,10 +1609,11 @@
   "meta"
  ],
  "2026-05-07-surprise-elon-anthropic-team-up-reshapes-the-ai-race": [
-  "ai-coding",
   "agents",
-  "xai",
-  "anthropic"
+  "ai-coding",
+  "infrastructure-and-chips",
+  "anthropic",
+  "xai"
  ],
  "2026-05-08-the-week-the-ai-story-shifted": [
   "jobs-and-work",
@@ -1589,11 +1621,12 @@
   "xai"
  ],
  "2026-05-10-the-new-jobs-ai-will-create": [
+  "ai-for-science",
   "jobs-and-work"
  ],
  "2026-05-11-the-best-way-to-talk-to-your-ai-agents": [
-  "ai-coding",
-  "context-engineering"
+  "infrastructure-and-chips",
+  "ai-coding"
  ],
  "2026-05-12-towards-ai-that-can-actually-interact": [
   "talent-war",
@@ -1604,8 +1637,8 @@
   "enterprise-adoption"
  ],
  "2026-05-14-rip-golden-age-of-agent-experimentation-2026-2026": [
-  "ai-coding",
-  "enterprise-adoption",
+  "ai-economics",
+  "infrastructure-and-chips",
   "anthropic"
  ],
  "2026-05-15-googles-big-ai-test-comes-next-week": [
@@ -1632,8 +1665,8 @@
   "anthropic"
  ],
  "2026-05-22-ais-new-acceleration-phase": [
-  "policy-and-regulation",
   "ai-economics",
+  "policy-and-regulation",
   "google"
  ],
  "2026-05-24-why-agents-still-need-humans": [
@@ -1658,8 +1691,8 @@
   "ai-coding"
  ],
  "2026-06-01-the-ai-token-shortage-begins-ai-monthly-recap": [
-  "ai-coding",
   "ai-economics",
+  "ai-coding",
   "xai"
  ],
  "2026-06-02-should-americans-get-shares-in-ai-companies": [
@@ -1702,13 +1735,13 @@
   "openai"
  ],
  "2026-06-09-openai-declares-the-next-phase-of-ai": [
+  "policy-and-regulation",
   "ai-economics",
-  "infrastructure-and-chips",
   "openai"
  ],
  "2026-06-11-why-fable-5-is-the-most-controversial-ai-release-ever": [
+  "policy-and-regulation",
   "ai-economics",
-  "infrastructure-and-chips",
   "anthropic"
  ],
  "2026-06-12-the-ai-chart-everyone-is-getting-wrong": [
@@ -1721,6 +1754,7 @@
   "anthropic"
  ],
  "2026-06-14-this-week-in-ai-in-5-minutes-fable-chaos-edition": [
+  "policy-and-regulation",
   "anthropic"
  ],
  "2026-06-15-the-fable-5-crisis-continues": [
@@ -1739,8 +1773,8 @@
   "anthropic"
  ],
  "2026-06-18-the-models-trying-to-fill-the-fable-gap": [
-  "models-and-benchmarks",
-  "open-weight-models"
+  "open-weight-models",
+  "models-and-benchmarks"
  ],
  "2026-06-22-why-ai-users-are-raving-about-glm-52": [
   "open-weight-models",
@@ -1773,7 +1807,7 @@
  ],
  "2026-06-29-mythos-comes-back-but-not-for-everyone": [
   "policy-and-regulation",
-  "models-and-benchmarks",
+  "open-weight-models",
   "anthropic",
   "openai"
  ],
@@ -1793,8 +1827,8 @@
   "anthropic"
  ],
  "2026-07-03-the-big-ways-ai-just-changed": [
+  "open-weight-models",
   "ai-coding",
-  "enterprise-adoption",
   "anthropic"
  ],
  "2026-07-05-the-job-positions-of-the-ai-future": [
@@ -1807,25 +1841,25 @@
   "ai-economics"
  ],
  "2026-07-07-anthropic-can-now-read-claudes-mind": [
+  "interpretability",
   "ai-safety",
-  "infrastructure-and-chips",
   "anthropic"
  ],
  "2026-07-08-ai-costs-are-surging-and-the-cheap-model-fix-might-not-last": [
   "open-weight-models",
-  "us-china"
+  "training-and-rl"
  ],
  "2026-07-10-chatgpt-just-became-a-work-agent": [
+  "agents",
   "ai-coding",
-  "models-and-benchmarks",
   "openai"
  ],
  "2026-07-12-how-to-help-people-thrive-with-ai": [
   "enterprise-adoption"
  ],
  "2026-07-13-how-the-escalating-ai-wars-benefit-you": [
-  "ai-economics",
   "open-weight-models",
+  "ai-economics",
   "openai",
   "apple"
  ],
@@ -1836,7 +1870,7 @@
  ],
  "2026-07-15-5-ai-engineering-trends-for-non-engineers": [
   "context-engineering",
-  "ai-coding"
+  "agents"
  ],
  "2026-07-17-is-kimi-k3-really-fable-class": [
   "open-weight-models",
@@ -1857,8 +1891,10 @@
  ],
  "2026-07-22-wait-just-how-good-is-gpt-6": [
   "open-weight-models",
-  "policy-and-regulation",
-  "openai"
+  "training-and-rl",
+  "ai-safety",
+  "openai",
+  "hugging-face"
  ],
  "2026-07-24-why-ai-hasnt-increased-unemployment-according-to-anthropic": [
   "jobs-and-work",
@@ -1896,8 +1932,8 @@
   "anthropic"
  ],
  "2026-08-03-what-happens-when-ai-breakthroughs-outrun-human-understanding": [
+  "ai-for-science",
   "enterprise-adoption",
-  "generative-media",
   "openai"
  ],
  "2026-08-04-why-ai-washing-wont-work-much-longer": [
@@ -1937,7 +1973,8 @@
  ],
  "2026-08-13-grok-46-shows-how-fast-your-ai-options-are-expanding": [
   "ai-coding",
-  "ai-economics"
+  "ai-economics",
+  "infrastructure-and-chips"
  ],
  "2026-08-14-how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audit": [
   "context-engineering",
@@ -1976,7 +2013,8 @@
  ],
  "2026-08-27-how-we-deal-with-rogue-ai": [
   "ai-safety",
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "hugging-face"
  ],
  "2026-08-28-the-most-useful-new-ai-features-and-tools-to-try": [
   "open-weight-models",
@@ -1994,11 +2032,12 @@
  ],
  "2026-09-01-openclaw-20-shows-where-ai-agents-are-going-next": [
   "agents",
-  "infrastructure-and-chips"
+  "ai-safety"
  ],
  "2026-09-02-why-fable-51-is-worth-the-upgrade": [
   "models-and-benchmarks",
   "ai-economics",
+  "ai-safety",
   "anthropic"
  ],
  "2026-09-03-agentic-loops-for-knowledge-workers": [
@@ -2009,10 +2048,12 @@
   "ai-economics",
   "policy-and-regulation",
   "ai-coding",
-  "anthropic"
+  "anthropic",
+  "hugging-face"
  ],
  "2026-09-06-how-to-build-an-ai-native-company-today": [
   "enterprise-adoption",
+  "agents",
   "context-engineering"
  ],
  "2026-09-07-the-multiplayer-ai-sprint-build-your-teams-first-shared-agent": [
@@ -2076,6 +2117,7 @@
  "2026-09-22-agent-wars": [
   "consumer-ai",
   "agents",
+  "policy-and-regulation",
   "amazon",
   "meta"
  ],
@@ -2097,8 +2139,8 @@
   "jobs-and-work"
  ],
  "2026-09-28-the-real-risks-of-ai-agents": [
+  "ai-safety",
   "policy-and-regulation",
-  "consumer-ai",
   "openai"
  ],
  "2026-09-29-how-to-build-team-agents": [
@@ -2155,13 +2197,13 @@
   "meta"
  ],
  "2026-10-14-what-gemini-4-argon-is-actually-good-for": [
+  "agents",
   "ai-coding",
-  "consumer-ai",
   "google"
  ],
  "2026-10-15-how-the-latest-ai-leap-is-disrupting-business-models": [
   "ai-economics",
-  "ai-safety",
+  "infrastructure-and-chips",
   "anthropic"
  ],
  "2026-10-16-the-most-important-ai-news-this-week-is-getting-overlooked": [
@@ -2170,6 +2212,7 @@
   "microsoft"
  ],
  "2026-10-18-a-potentially-historic-ai-breakthrough": [
+  "interpretability",
   "ai-safety"
  ],
  "2026-10-19-the-ai-wealth-problem": [
@@ -2193,8 +2236,8 @@
   "anthropic"
  ],
  "2026-10-23-the-most-concerning-ai-bubble-signals": [
-  "ai-economics",
   "infrastructure-and-chips",
+  "ai-economics",
   "anthropic"
  ],
  "2026-10-25-how-im-actually-using-ai-right-now-including-claude-duet": [
@@ -2204,8 +2247,8 @@
  ],
  "2026-10-26-4-questions-for-ai-this-week": [
   "ai-safety",
+  "infrastructure-and-chips",
   "open-weight-models",
-  "models-and-benchmarks",
   "anthropic"
  ],
  "2026-10-27-what-anthropics-ipo-filing-reveals": [
@@ -2214,7 +2257,7 @@
  ],
  "2026-10-28-ai-can-now-create-worlds-you-can-change-in-real-time": [
   "generative-media",
-  "ai-economics",
+  "physical-ai",
   "anthropic",
   "google"
  ],
@@ -2264,8 +2307,8 @@
   "nvidia"
  ],
  "2026-11-10-fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet": [
-  "enterprise-adoption",
   "models-and-benchmarks",
+  "ai-for-science",
   "anthropic"
  ],
  "2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth": [

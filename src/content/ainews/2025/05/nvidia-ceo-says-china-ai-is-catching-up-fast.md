@@ -10,6 +10,7 @@ type: episode
 tags:
   - us-china
   - infrastructure-and-chips
+  - open-weight-models
   - nvidia
 url: 'https://www.patreon.com/posts/130346910'
 draft: false

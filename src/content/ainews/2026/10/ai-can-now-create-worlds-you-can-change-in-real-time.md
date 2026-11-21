@@ -9,7 +9,7 @@ pubDate: 2026-10-28T00:00:00.000Z
 type: episode
 tags:
   - generative-media
-  - ai-economics
+  - physical-ai
   - anthropic
   - google
 url: 'https://www.patreon.com/posts/173689299'

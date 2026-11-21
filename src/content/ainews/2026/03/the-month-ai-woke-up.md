@@ -10,6 +10,7 @@ type: episode
 tags:
   - agents
   - ai-economics
+  - policy-and-regulation
   - openai
   - anthropic
 url: 'https://www.patreon.com/posts/152084785'

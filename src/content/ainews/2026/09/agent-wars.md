@@ -10,6 +10,7 @@ type: episode
 tags:
   - consumer-ai
   - agents
+  - policy-and-regulation
   - amazon
   - meta
 url: 'https://www.patreon.com/posts/170282278'

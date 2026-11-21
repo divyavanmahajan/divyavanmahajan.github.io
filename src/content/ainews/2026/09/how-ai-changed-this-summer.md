@@ -11,6 +11,7 @@ tags:
   - policy-and-regulation
   - ai-coding
   - anthropic
+  - hugging-face
 url: 'https://www.patreon.com/posts/168630206'
 draft: false
 ---

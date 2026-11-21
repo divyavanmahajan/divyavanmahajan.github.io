@@ -7,7 +7,8 @@ description: >-
   teams. The ...
 pubDate: 2026-04-18T00:00:00.000Z
 type: episode
-tags: []
+tags:
+  - context-engineering
 url: 'https://www.patreon.com/posts/155945480'
 draft: false
 ---

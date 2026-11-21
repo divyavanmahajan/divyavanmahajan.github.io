@@ -8,10 +8,11 @@ description: >-
 pubDate: 2026-05-07T00:00:00.000Z
 type: episode
 tags:
-  - ai-coding
   - agents
-  - xai
+  - ai-coding
+  - infrastructure-and-chips
   - anthropic
+  - xai
 url: 'https://www.youtube.com/watch?v=RnqEXgcwg-g'
 draft: false
 ---

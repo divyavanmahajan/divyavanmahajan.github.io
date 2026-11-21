@@ -10,6 +10,7 @@ type: episode
 tags:
   - ai-coding
   - ai-economics
+  - anthropic
 url: 'https://www.patreon.com/posts/150128400'
 draft: false
 ---

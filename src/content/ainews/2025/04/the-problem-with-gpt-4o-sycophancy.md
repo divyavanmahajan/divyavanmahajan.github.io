@@ -9,7 +9,7 @@ pubDate: 2025-04-29T00:00:00.000Z
 type: episode
 tags:
   - ai-safety
-  - agents
+  - interpretability
   - openai
   - anthropic
 url: 'https://www.patreon.com/posts/127695333'

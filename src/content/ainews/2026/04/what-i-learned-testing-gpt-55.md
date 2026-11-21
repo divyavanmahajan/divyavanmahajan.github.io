@@ -11,6 +11,7 @@ tags:
   - ai-coding
   - models-and-benchmarks
   - openai
+  - anthropic
 url: 'https://www.youtube.com/watch?v=jblguhXunZs'
 draft: false
 ---

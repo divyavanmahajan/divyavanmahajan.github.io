@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-07-10T00:00:00.000Z
 type: episode
 tags:
+  - agents
   - ai-coding
-  - models-and-benchmarks
   - openai
 url: 'https://www.patreon.com/posts/163466149'
 draft: false

@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-02-17T00:00:00.000Z
 type: episode
 tags:
-  - jobs-and-work
   - policy-and-regulation
+  - jobs-and-work
   - open-weight-models
   - anthropic
 url: 'https://www.patreon.com/posts/151025271'

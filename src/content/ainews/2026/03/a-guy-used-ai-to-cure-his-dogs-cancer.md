@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-03-16T00:00:00.000Z
 type: episode
 tags:
-  - ai-economics
-  - consumer-ai
+  - ai-for-science
+  - infrastructure-and-chips
 url: 'https://www.patreon.com/posts/153206011'
 draft: false
 ---

@@ -8,8 +8,8 @@ description: >-
 pubDate: 2026-10-23T00:00:00.000Z
 type: episode
 tags:
-  - ai-economics
   - infrastructure-and-chips
+  - ai-economics
   - anthropic
 url: 'https://www.patreon.com/posts/173209924'
 draft: false
