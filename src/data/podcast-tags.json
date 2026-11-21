@@ -1,4 +1,11 @@
 {
+ "practical-ai/2023-04-12-computer-scientists-as-rogue-art-historians": [],
+ "practical-ai/2023-04-19-capabilities-of-llms": [
+  "open-weight-models",
+  "enterprise-adoption",
+  "hugging-face"
+ ],
+ "practical-ai/2023-04-25-causal-inference": [],
  "practical-ai/2023-05-02-large-models-on-cpus": [
   "infrastructure-and-chips"
  ],
@@ -452,6 +459,16 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2023-04-07-ai-fundamentals-benchmarks-101": [
+  "models-and-benchmarks"
+ ],
+ "latent-space/2023-04-13-segment-anything-model-and-the-hard-problems-of-computer-vision-with-j": [
+  "meta"
+ ],
+ "latent-space/2023-04-22-ai-powered-search-for-the-enterprise-with-deedy-das-of-glean": [
+  "enterprise-adoption",
+  "google"
  ],
  "latent-space/2023-04-29-mapping-the-future-of-truly-open-models-and-training-dolly-for-30-with": [
   "open-weight-models"
@@ -1269,6 +1286,23 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2023-04-11-will-gpt-4-cause-economic-transformation": [
+  "jobs-and-work",
+  "openai"
+ ],
+ "cognitive-revolution/2023-04-13-pausing-the-ai-revolution-with-technologist-jaan-tallinn": [],
+ "cognitive-revolution/2023-04-18-the-art-of-prompting-chatgpt-with-riley-goodside": [
+  "consumer-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2023-04-20-why-jailbreaking-chatgpt-is-a-public-service-with-alex-albert-of-the-p": [
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2023-04-25-how-ai-agents-will-change-how-we-work-with-matt-welsh-of-fixie-ai": [
+  "enterprise-adoption"
+ ],
+ "cognitive-revolution/2023-04-27-the-great-ai-implementation-with-raza-habib-of-humanloop": [],
  "cognitive-revolution/2023-05-02-vc-insights-on-investing-in-artificial-intelligence-with-sarah-guo-and": [],
  "cognitive-revolution/2023-05-04-helping-businesses-use-ai-with-rachel-woods-of-the-ai-exchange": [
   "openai"
@@ -2763,6 +2797,22 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-04-10-edward-frenkel-reality-is-a-paradox-mathematics-physics-truth-love": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2023-04-13-max-tegmark-the-case-for-halting-ai-development": [
+  "openai"
+ ],
+ "lex-fridman/2023-04-16-simone-giertz-queen-of-sh-tty-robots-innovative-engineering-and-design": [
+  "physical-ai"
+ ],
+ "lex-fridman/2023-04-21-manolis-kellis-evolution-of-human-civilization-and-superintelligent-ai": [
+  "ai-safety"
+ ],
+ "lex-fridman/2023-04-28-robert-playter-boston-dynamics-ceo-on-humanoid-and-legged-robotics": [
+  "physical-ai",
+  "consumer-ai"
+ ],
  "lex-fridman/2023-05-06-david-pakman-politics-of-trump-biden-bernie-aoc-socialism-wokeism": [],
  "lex-fridman/2023-05-09-stephen-wolfram-chatgpt-and-the-nature-of-truth-reality-computation": [
   "consumer-ai",
@@ -3018,6 +3068,15 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-04-13-your-ai-friends-have-awoken-with-noam-shazeer": [],
+ "no-priors/2023-04-20-the-computing-platform-underlying-ai-with-jensen-huang-founder-ceo-of": [
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
+ "no-priors/2023-04-27-listener-q-a-ai-investment-hype-foundation-models-regulation-opportuni": [
+  "policy-and-regulation",
+  "open-weight-models"
+ ],
  "no-priors/2023-05-04-personalizing-ai-models-with-kelvin-guu-senior-staff-research-scientis": [
   "training-and-rl",
   "google"
