@@ -1,4 +1,28 @@
 {
+ "practical-ai/2025-12-10-the-ai-engineer-skills-gap": [
+  "jobs-and-work"
+ ],
+ "practical-ai/2025-12-17-beyond-chatbots-agents-that-tackle-your-sops": [
+  "enterprise-adoption",
+  "agents"
+ ],
+ "practical-ai/2026-01-09-2025-was-the-year-of-agents-what-s-coming-in-2026": [
+  "agents",
+  "ai-coding",
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2026-01-20-controlling-ai-models-from-the-inside": [
+  "ai-safety",
+  "interpretability"
+ ],
+ "practical-ai/2026-01-27-how-is-ai-shaping-democracy": [
+  "jobs-and-work",
+  "ai-for-science"
+ ],
+ "practical-ai/2026-02-02-inside-an-ai-run-company": [
+  "agents",
+  "ai-safety"
+ ],
  "practical-ai/2026-02-13-ai-incidents-audits-and-the-limits-of-benchmarks": [
   "models-and-benchmarks",
   "ai-safety"
@@ -157,6 +181,82 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-12-11-the-future-of-email-superhuman-cto-on-your-inbox-as-the-real-ai-agent": [
+  "models-and-benchmarks",
+  "ai-coding"
+ ],
+ "latent-space/2025-12-12-ai-to-ae-s-grit-glean-and-kleiner-perkins-next-enterprise-ai-hit-joubi": [
+  "ai-coding",
+  "enterprise-adoption"
+ ],
+ "latent-space/2025-12-16-jailbreaking-agi-pliny-the-liberator-john-v-on-red-teaming-bt6-and-the": [
+  "ai-safety"
+ ],
+ "latent-space/2025-12-18-sam-3-the-eyes-for-ai-nikhila-pengchuan-meta-superintelligence-ft-jose": [
+  "models-and-benchmarks",
+  "open-weight-models",
+  "meta"
+ ],
+ "latent-space/2025-12-26-gpt5-codex-max-training-agents-with-personality-tools-trust-brian-fioc": [
+  "ai-coding",
+  "models-and-benchmarks",
+  "openai"
+ ],
+ "latent-space/2025-12-26-steve-yegge-s-vibe-coding-manifesto-why-claude-code-isn-t-it-what-come": [
+  "ai-coding",
+  "agents",
+  "anthropic"
+ ],
+ "latent-space/2025-12-27-one-year-of-mcp-with-david-soria-parra-and-aaif-leads-from-openai-goos": [
+  "context-engineering",
+  "agents"
+ ],
+ "latent-space/2025-12-30-state-of-ai-startups-memory-learning-rl-envs-dbt-fivetran-sarah-catanz": [
+  "training-and-rl",
+  "ai-coding"
+ ],
+ "latent-space/2025-12-30-state-of-rl-reasoning-imo-ioi-gold-openai-o3-gpt-5-and-cursor-composer": [
+  "models-and-benchmarks",
+  "training-and-rl",
+  "ai-coding"
+ ],
+ "latent-space/2025-12-31-state-of-code-evals-after-swe-bench-code-clash-sota-coding-benchmarks": [
+  "models-and-benchmarks",
+  "agents",
+  "ai-coding"
+ ],
+ "latent-space/2025-12-31-state-of-post-training-from-gpt-4-1-to-5-1-rlvr-agent-token-efficiency": [
+  "ai-economics",
+  "training-and-rl",
+  "openai"
+ ],
+ "latent-space/2026-01-02-neurips-best-paper-1000-layer-networks-for-self-supervised-rl-kevin-wa": [
+  "physical-ai",
+  "generative-media"
+ ],
+ "latent-space/2026-01-06-state-of-evals-lmarena-s-1-7b-vision-anastasios-angelopoulos-lmarena": [
+  "models-and-benchmarks",
+  "ai-coding"
+ ],
+ "latent-space/2026-01-08-artificial-analysis-independent-llm-evals-as-a-service-with-george-cam": [
+  "models-and-benchmarks",
+  "open-weight-models"
+ ],
+ "latent-space/2026-01-17-brex-s-ai-hail-mary-with-cto-james-reggio": [
+  "agents",
+  "ai-coding"
+ ],
+ "latent-space/2026-01-23-captaining-imo-gold-deep-think-on-policy-rl-feeling-the-agi-in-singapo": [
+  "models-and-benchmarks",
+  "generative-media",
+  "google"
+ ],
+ "latent-space/2026-01-28-automating-science-world-models-scientific-taste-agent-loops-andrew-wh": [
+  "physical-ai",
+  "ai-for-science",
+  "generative-media",
+  "nvidia"
  ],
  "latent-space/2026-02-06-the-first-mechanistic-interpretability-frontier-lab-myra-deng-mark-bis": [
   "interpretability",
@@ -473,6 +573,71 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-12-14-ai-s-energy-water-demands-sorting-fact-from-fiction-with-andy-masley": [
+  "infrastructure-and-chips",
+  "consumer-ai"
+ ],
+ "cognitive-revolution/2025-12-18-ai-2025-2026-live-show-part-1": [
+  "training-and-rl",
+  "ai-coding",
+  "anthropic"
+ ],
+ "cognitive-revolution/2025-12-19-ai-2025-2026-live-show-part-2": [
+  "policy-and-regulation",
+  "us-china",
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2025-12-24-the-great-security-update-ai-formal-methods-with-kathleen-fisher-of-ra": [
+  "ai-safety",
+  "amazon"
+ ],
+ "cognitive-revolution/2025-12-27-controlling-tools-or-aligning-creatures-emmett-shear-softmax-s-b-krier": [
+  "ai-safety",
+  "consumer-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2026-01-01-confronting-the-intelligence-curse-w-luke-drago-of-workshop-labs-from": [
+  "open-weight-models",
+  "ai-safety",
+  "openai"
+ ],
+ "cognitive-revolution/2026-01-04-building-scaling-the-ai-safety-research-community-with-ryan-kidd-of-ma": [
+  "ai-safety",
+  "ai-coding",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-01-09-ama-part-1-is-claude-code-agi-are-we-in-a-bubble-plus-live-player-anal": [
+  "ai-coding",
+  "us-china",
+  "ai-economics",
+  "anthropic",
+  "google",
+  "xai"
+ ],
+ "cognitive-revolution/2026-01-14-bringing-ai-to-data-agent-design-text-2-sql-rag-more-w-snowflake-vp-of": [
+  "ai-coding",
+  "agents"
+ ],
+ "cognitive-revolution/2026-01-18-pioneering-pai-how-daniel-miessler-s-personal-ai-infrastructure-activa": [
+  "jobs-and-work",
+  "ai-coding",
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-01-22-ama-part-2-is-fine-tuning-dead-how-am-i-preparing-for-agi-are-we-heade": [
+  "jobs-and-work",
+  "training-and-rl",
+  "ai-safety",
+  "anthropic"
+ ],
+ "cognitive-revolution/2026-01-25-the-internet-computer-caffeine-ai-ceo-dominic-williams-on-unstoppable": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2026-01-29-ai-the-law-changing-practice-claude-constitution-new-rights-w-kevin-al": [
+  "ai-safety",
+  "jobs-and-work",
+  "anthropic"
  ],
  "cognitive-revolution/2026-02-01-the-ai-powered-biohub-why-mark-zuckerberg-priscilla-chan-are-investing": [
   "ai-for-science",
@@ -875,6 +1040,11 @@
   "us-china",
   "ai-safety",
   "anthropic"
+ ],
+ "dwarkesh/2025-12-19-sarah-paine-why-russia-lost-the-cold-war": [],
+ "dwarkesh/2025-12-30-adam-marblestone-ai-is-missing-something-fundamental-about-the-brain": [
+  "ai-for-science",
+  "ai-safety"
  ],
  "dwarkesh/2026-02-05-elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be-space": [
   "infrastructure-and-chips",
