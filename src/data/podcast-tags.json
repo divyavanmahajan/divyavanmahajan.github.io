@@ -1,4 +1,13 @@
 {
+ "practical-ai/2023-06-28-automated-cartography-using-ai": [],
+ "practical-ai/2023-07-06-cambrian-explosion-of-generative-models": [
+  "open-weight-models"
+ ],
+ "practical-ai/2023-07-12-a-developer-s-toolkit-for-sota-ai": [
+  "infrastructure-and-chips",
+  "training-and-rl",
+  "ai-coding"
+ ],
  "practical-ai/2023-07-18-legal-consequences-of-generated-content": [],
  "practical-ai/2023-07-25-there-s-a-new-llama-in-town": [
   "open-weight-models",
@@ -431,6 +440,17 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2023-07-01-cognitive-revolution-the-tiny-model-revolution-with-ronen-eldan-and-yu": [
+  "microsoft"
+ ],
+ "latent-space/2023-07-02-practical-ai-ai-trends-a-latent-space-x-practical-ai-crossover-pod": [
+  "enterprise-adoption",
+  "training-and-rl"
+ ],
+ "latent-space/2023-07-10-code-interpreter-gpt-4-5-w-simon-willison-alex-volkov-aravind-srinivas": [
+  "consumer-ai",
+  "openai"
  ],
  "latent-space/2023-07-17-ai-fundamentals-datasets-101": [
   "models-and-benchmarks",
@@ -1211,6 +1231,16 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2023-06-27-seeing-is-believing-with-mit-s-ziming-liu": [],
+ "cognitive-revolution/2023-06-29-meta-s-megabyte-revolution-with-lili-yu-of-meta-ai": [
+  "meta"
+ ],
+ "cognitive-revolution/2023-07-01-e41-bonus-episode-latent-space-building-the-ai-x-ux-scenius-with-linus": [],
+ "cognitive-revolution/2023-07-04-the-autonomy-revolution-with-hayk-martiros-of-skydio": [],
+ "cognitive-revolution/2023-07-11-the-ai-safety-debates-with-zvi-mowshowitz": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2023-07-13-the-ai-copilot-revolution-with-div-garg-of-multi-on": [],
  "cognitive-revolution/2023-07-19-e46-ai-scouting-report-part-2-of-3-implementation-trends-bonus-youtube": [
   "openai"
  ],
@@ -2391,6 +2421,10 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2023-06-26-carl-shulman-pt-2-ai-takeover-bio-cyber-attacks-detecting-deception-hu": [
+  "ai-safety"
+ ],
+ "dwarkesh/2023-07-12-andy-matuschak-the-reason-most-learning-tools-fail": [],
  "dwarkesh/2023-08-08-dario-amodei-anthropic-ceo-the-hidden-pattern-behind-every-ai-breakthr": [
   "ai-safety",
   "anthropic"
@@ -2638,6 +2672,13 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-06-30-george-hotz-tiny-corp-twitter-ai-safety-self-driving-gpt-agi-god": [
+  "physical-ai",
+  "open-weight-models"
+ ],
+ "lex-fridman/2023-07-06-robert-f-kennedy-jr-cia-power-corruption-war-freedom-and-meaning": [],
+ "lex-fridman/2023-07-12-benjamin-netanyahu-israel-palestine-power-corruption-hate-and-peace": [],
+ "lex-fridman/2023-07-17-yuval-noah-harari-human-nature-intelligence-power-and-conspiracies": [],
  "lex-fridman/2023-07-24-mohammed-el-kurd-palestine": [],
  "lex-fridman/2023-08-01-joscha-bach-life-intelligence-consciousness-ai-the-future-of-humans": [
   "ai-consciousness"
@@ -2861,6 +2902,9 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-06-29-bringing-ai-to-the-data-cloud-with-snowflake-s-ceo-frank-slootman": [
+  "enterprise-adoption"
+ ],
  "no-priors/2023-07-20-the-timeline-for-realistic-4-d-devi-parikh-from-meta-on-research-hurdl": [
   "generative-media",
   "meta"
