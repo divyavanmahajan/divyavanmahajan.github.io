@@ -1,4 +1,12 @@
 {
+ "practical-ai/2023-10-20-ai-s-impact-on-developers": [],
+ "practical-ai/2023-10-24-deep-learning-in-rust-with-burn": [],
+ "practical-ai/2023-10-31-self-hosting-scaling-models": [
+  "open-weight-models"
+ ],
+ "practical-ai/2023-11-07-government-regulation-of-ai-has-arrived": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2023-11-14-ai-trailblazers-putting-people-first": [],
  "practical-ai/2023-11-21-generating-product-imagery-at-shopify": [],
  "practical-ai/2023-11-29-the-openai-debacle-a-retrospective": [
@@ -399,6 +407,18 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2023-10-26-powering-your-copilot-for-data-with-artem-keydunov-of-cube-dev": [],
+ "latent-space/2023-11-03-beating-gpt-4-with-open-source-llms-with-michael-royzen-of-phind": [
+  "open-weight-models",
+  "training-and-rl",
+  "openai"
+ ],
+ "latent-space/2023-11-08-agi-is-being-achieved-incrementally-devday-recap-cleaned-audio": [
+  "openai"
+ ],
+ "latent-space/2023-11-08-agi-is-being-achieved-incrementally-openai-devday-w-simon-willison-ale": [
+  "openai"
  ],
  "latent-space/2023-11-17-the-state-of-silicon-and-the-gpu-poors-with-dylan-patel-of-semianalysi": [
   "infrastructure-and-chips",
@@ -1126,6 +1146,20 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2023-10-24-rag-beyond-semantic-storage-and-retrieval": [],
+ "cognitive-revolution/2023-10-26-ai-agents-vc-insights-on-ai-and-building-in-public-with-yohei-nakajima": [],
+ "cognitive-revolution/2023-10-31-hardcore-ai-for-history-with-mark-humphries-history-professor-at-wilfr": [
+  "jobs-and-work",
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2023-11-03-lindy-ai-founder-flo-crivello-on-biden-s-executive-order-and-ai-safety": [
+  "infrastructure-and-chips",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2023-11-08-openai-devday-beyond-the-headlines-with-logan-kilpatrick-openai-s-dev": [
+  "training-and-rl",
+  "openai"
  ],
  "cognitive-revolution/2023-11-09-openai-invests-in-the-self-driving-race-with-john-hayes-founder-of-gho": [
   "physical-ai",
@@ -2204,6 +2238,13 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2023-10-26-shane-legg-deepmind-founder-2028-agi-superhuman-alignment-new-architec": [
+  "ai-safety",
+  "google"
+ ],
+ "dwarkesh/2023-10-31-paul-christiano-preventing-an-ai-takeover": [
+  "ai-safety"
+ ],
  "dwarkesh/2023-11-15-dominic-cummings-covid-brexit-fixing-western-governance": [],
  "dwarkesh/2023-11-22-andrew-roberts-why-hitler-lost-wwii-churchill-as-applied-historian-nap": [],
  "dwarkesh/2023-11-29-jung-chang-wild-swans-author-living-through-history-s-largest-man-made": [],
@@ -2435,6 +2476,9 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-11-09-elon-musk-war-ai-aliens-politics-physics-video-games-and-humanity": [
+  "xai"
+ ],
  "lex-fridman/2023-11-18-john-mearsheimer-israel-palestine-russia-ukraine-china-nato-and-ww3": [
   "us-china"
  ],
@@ -2636,6 +2680,17 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-10-23-what-google-cloud-can-teach-enterprises-developing-rolling-out-ai-tool": [
+  "enterprise-adoption",
+  "google"
+ ],
+ "no-priors/2023-10-26-ai-threats-opportunities-in-cyber-security-with-material-security-co-f": [],
+ "no-priors/2023-11-02-what-is-digital-life-with-openai-co-founder-chief-scientist-ilya-sutsk": [
+  "openai"
+ ],
+ "no-priors/2023-11-09-mistral-7b-and-the-open-source-revolution-with-arthur-mensch-ceo-mistr": [
+  "open-weight-models"
+ ],
  "no-priors/2023-11-16-ai-agents-that-reason-and-code-with-imbue-co-founders-kanjun-qiu-and-j": [],
  "no-priors/2023-11-30-open-ai-leadership-shuffle-new-diffusion-models-and-starting-the-cult": [
   "generative-media",
