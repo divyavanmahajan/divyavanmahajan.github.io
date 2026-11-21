@@ -1,4 +1,7 @@
 {
+ "practical-ai/2023-06-06-accidentally-building-sota-ai": [],
+ "practical-ai/2023-06-14-ai-trends-a-latent-space-crossover": [],
+ "practical-ai/2023-06-21-from-ml-to-ai-to-generative-ai": [],
  "practical-ai/2023-06-28-automated-cartography-using-ai": [],
  "practical-ai/2023-07-06-cambrian-explosion-of-generative-models": [
   "open-weight-models"
@@ -440,6 +443,14 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2023-06-08-from-rlhf-to-rlhb-the-case-for-learning-from-human-behavior-with-jeffr": [],
+ "latent-space/2023-06-14-emergency-pod-openai-s-new-functions-api-75-price-drop-4x-context-leng": [
+  "training-and-rl",
+  "openai"
+ ],
+ "latent-space/2023-06-20-commoditizing-the-petaflop-with-george-hotz-of-the-tiny-corp": [
+  "infrastructure-and-chips"
  ],
  "latent-space/2023-07-01-cognitive-revolution-the-tiny-model-revolution-with-ronen-eldan-and-yu": [
   "microsoft"
@@ -1231,12 +1242,23 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2023-06-11-the-consumer-rights-revolution-with-joshua-browder-of-donotpay": [
+  "consumer-ai",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2023-06-13-stability-ai-s-emad-mostaque-and-slow-ventures-sam-lessin-debate-inves": [],
+ "cognitive-revolution/2023-06-16-your-model-your-weights-with-mosaicml-s-abhi-venigalla-and-jonathan-fr": [
+  "enterprise-adoption"
+ ],
+ "cognitive-revolution/2023-06-20-the-mind-reading-revolution-with-dr-tanishq-mathew-abraham-part-1-of-2": [],
+ "cognitive-revolution/2023-06-22-the-virtual-biopsy-revolution-with-dr-tanishq-mathew-abraham-part-2-of": [],
  "cognitive-revolution/2023-06-27-seeing-is-believing-with-mit-s-ziming-liu": [],
  "cognitive-revolution/2023-06-29-meta-s-megabyte-revolution-with-lili-yu-of-meta-ai": [
   "meta"
  ],
  "cognitive-revolution/2023-07-01-e41-bonus-episode-latent-space-building-the-ai-x-ux-scenius-with-linus": [],
  "cognitive-revolution/2023-07-04-the-autonomy-revolution-with-hayk-martiros-of-skydio": [],
+ "cognitive-revolution/2023-07-06-ai-scouting-report-part-1-of-3-fundamentals": [],
  "cognitive-revolution/2023-07-11-the-ai-safety-debates-with-zvi-mowshowitz": [
   "ai-safety"
  ],
@@ -2421,6 +2443,10 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2023-06-14-carl-shulman-pt-1-intelligence-explosion-primate-evolution-robot-doubl": [
+  "physical-ai",
+  "ai-safety"
+ ],
  "dwarkesh/2023-06-26-carl-shulman-pt-2-ai-takeover-bio-cyber-attacks-detecting-deception-hu": [
   "ai-safety"
  ],
@@ -2672,6 +2698,16 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-06-08-mark-zuckerberg-future-of-ai-at-meta-facebook-instagram-and-whatsapp": [
+  "meta"
+ ],
+ "lex-fridman/2023-06-13-matthew-mcconaughey-freedom-truth-family-hardship-and-love": [],
+ "lex-fridman/2023-06-18-jimmy-wales-wikipedia": [
+  "consumer-ai"
+ ],
+ "lex-fridman/2023-06-22-marc-andreessen-future-of-the-internet-technology-and-ai": [
+  "policy-and-regulation"
+ ],
  "lex-fridman/2023-06-30-george-hotz-tiny-corp-twitter-ai-safety-self-driving-gpt-agi-god": [
   "physical-ai",
   "open-weight-models"
@@ -2902,6 +2938,13 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-06-08-listener-q-a-ai-misconceptions-the-reality-of-regulation-infinite-cont": [
+  "policy-and-regulation"
+ ],
+ "no-priors/2023-06-15-what-happens-to-observability-if-code-is-ai-generated-the-potential-fo": [],
+ "no-priors/2023-06-22-what-s-for-dinner-ai-driven-commerce-with-instacart-ceo-fidji-simo": [
+  "openai"
+ ],
  "no-priors/2023-06-29-bringing-ai-to-the-data-cloud-with-snowflake-s-ceo-frank-slootman": [
   "enterprise-adoption"
  ],
