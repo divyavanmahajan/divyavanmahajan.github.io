@@ -1,4 +1,13 @@
 {
+ "practical-ai/2024-03-12-generating-the-future-of-art-entertainment": [
+  "generative-media"
+ ],
+ "practical-ai/2024-03-20-prompting-the-future": [
+  "context-engineering"
+ ],
+ "practical-ai/2024-03-26-ai-vs-software-devs": [
+  "ai-coding"
+ ],
  "practical-ai/2024-04-02-should-kids-still-learn-to-code": [
   "jobs-and-work",
   "nvidia"
@@ -358,6 +367,17 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2024-03-09-top-5-research-trends-openai-sora-google-gemini-groq-math-jan-feb-2024": [
+  "generative-media",
+  "infrastructure-and-chips",
+  "google",
+  "openai"
+ ],
+ "latent-space/2024-03-14-making-transformers-sing-with-mikey-shulman-of-suno": [],
+ "latent-space/2024-03-22-why-google-failed-to-make-gpt-3-why-multimodal-agents-are-the-path-to": [
+  "openai",
+  "google"
  ],
  "latent-space/2024-03-29-presenting-the-ai-engineer-world-s-fair-with-sam-schillace-deputy-cto": [
   "microsoft",
@@ -1026,6 +1046,18 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-03-12-flow-engineering-and-code-integrity-at-scale-with-itamar-friedman-ceo": [
+  "ai-coding"
+ ],
+ "cognitive-revolution/2024-03-14-ai-and-the-practice-of-law-from-casetext-to-cocounsel-with-pablo-arred": [
+  "openai"
+ ],
+ "cognitive-revolution/2024-03-16-envisioning-a-positive-ai-future-with-tim-reutemann-author-of-liquid-r": [],
+ "cognitive-revolution/2024-03-21-surveying-2-700-ai-researchers-on-the-industry-s-future-with-katja-gra": [],
+ "cognitive-revolution/2024-03-27-exploitable-by-default-vulnerabilities-in-gpt-4-apis-superhuman-go-ais": [
+  "training-and-rl",
+  "openai"
  ],
  "cognitive-revolution/2024-03-30-mamba-palooza-90-days-of-mamba-inspired-research-with-jason-meaux-part": [],
  "cognitive-revolution/2024-04-03-unbounded-ai-assisted-research-with-elicit-founders-andreas-stuhlm-lle": [],
@@ -2006,6 +2038,10 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-03-28-sholto-douglas-trenton-bricken-how-llms-actually-think": [
+  "interpretability",
+  "google"
+ ],
  "dwarkesh/2024-04-18-mark-zuckerberg-llama-3-10b-models-caesar-augustus-1-gw-datacenters": [
   "open-weight-models",
   "infrastructure-and-chips",
@@ -2224,6 +2260,16 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-03-10-kimbal-musk-the-art-of-cooking-tesla-spacex-zip2-and-family": [
+  "xai"
+ ],
+ "lex-fridman/2024-03-14-israel-palestine-debate-finkelstein-destiny-m-rabbani-benny-morris": [],
+ "lex-fridman/2024-03-18-sam-altman-openai-gpt-5-sora-board-saga-elon-musk-ilya-power-agi": [
+  "generative-media",
+  "openai"
+ ],
+ "lex-fridman/2024-03-22-annie-jacobsen-nuclear-war-cia-kgb-aliens-area-51-roswell-secrecy": [],
+ "lex-fridman/2024-03-25-dana-white-ufc-fighting-khabib-conor-tyson-ali-rogan-elon-zuck": [],
  "lex-fridman/2024-03-29-mark-cuban-shark-tank-dei-wokeism-debate-elon-musk-politics-drugs": [
   "xai"
  ],
@@ -2389,6 +2435,12 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-03-14-designing-the-future-dylan-field-on-ai-collaboration-and-independence": [],
+ "no-priors/2024-03-21-speed-will-win-the-ai-computing-battle-with-tuhin-srivastava-from-base": [],
+ "no-priors/2024-03-28-open-sourcing-ai-app-development-with-harrison-chase-from-langchain": [
+  "training-and-rl",
+  "openai"
+ ],
  "no-priors/2024-04-04-the-argument-for-humanoid-ai-robots-with-brett-adcock-from-figure": [
   "physical-ai"
  ],
