@@ -1,4 +1,12 @@
 {
+ "practical-ai/2025-10-09-the-impact-of-ai-on-the-workforce-a-state-level-case-study": [
+  "jobs-and-work"
+ ],
+ "practical-ai/2025-10-16-dealing-with-increasingly-complicated-agents": [
+  "ai-safety"
+ ],
+ "practical-ai/2025-10-24-tiny-recursive-networks": [],
+ "practical-ai/2025-10-30-while-loops-with-tool-calls": [],
  "practical-ai/2025-11-10-are-we-in-an-ai-bubble": [
   "ai-economics"
  ],
@@ -196,6 +204,19 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2025-10-16-why-rl-won-kyle-corbitt-openpipe-acq-coreweave": [
+  "training-and-rl",
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2025-10-31-ship-ai-recap-agents-workflows-and-python-w-vercel-cto-malte-ubl": [],
+ "latent-space/2025-11-10-aie-code-preview-inside-google-labs-building-the-gemini-coding-agent-j": [
+  "ai-coding",
+  "google"
+ ],
+ "latent-space/2025-11-10-inside-github-s-ai-revolution-jared-palmer-reveals-agent-hq-the-future": [
+  "ai-coding",
+  "microsoft"
  ],
  "latent-space/2025-11-14-anthropic-glean-openrouter-how-ai-moats-are-built-with-deedy-das-of-me": [
   "enterprise-adoption",
@@ -603,6 +624,28 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2025-10-08-education-in-the-ai-age-a-teacher-rethinks-learning-purpose-w-johan-fa": [
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2025-10-18-chinese-ai-they-re-just-like-us-with-beijing-based-concordia-ai-ceo-br": [
+  "us-china",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2025-10-22-always-bet-on-the-models-how-tasklet-puts-the-agency-in-agents-with-ce": [
+  "agents"
+ ],
+ "cognitive-revolution/2025-10-25-a-positive-vision-for-the-future-part-2-with-illia-polosukhin-of-near": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2025-10-29-is-ai-stalling-out-cutting-through-capabilities-confusion-w-erik-toren": [
+  "models-and-benchmarks",
+  "openai"
+ ],
+ "cognitive-revolution/2025-11-02-a-simulationship-with-ai-with-smiles-and-kisses-you-star-chris-stokes": [],
+ "cognitive-revolution/2025-11-05-more-truthful-ais-report-conscious-experience-new-mechanistic-research": [
+  "ai-consciousness"
+ ],
+ "cognitive-revolution/2025-11-08-what-is-catholic-ai-technology-meets-theology-with-matthew-harvey-sand": [],
  "cognitive-revolution/2025-11-12-my-positive-vision-for-the-ai-future-from-the-existential-hope-podcast": [
   "ai-safety",
   "physical-ai"
@@ -1106,6 +1149,13 @@
   "us-china",
   "ai-safety",
   "anthropic"
+ ],
+ "dwarkesh/2025-10-10-nick-lane-life-as-we-know-it-is-chemically-inevitable": [],
+ "dwarkesh/2025-10-17-andrej-karpathy-agi-is-still-a-decade-away": [
+  "training-and-rl"
+ ],
+ "dwarkesh/2025-10-31-sarah-paine-how-russia-sabotaged-china-s-rise": [
+  "us-china"
  ],
  "dwarkesh/2025-11-12-satya-nadella-how-microsoft-is-preparing-for-agi": [
   "microsoft"
