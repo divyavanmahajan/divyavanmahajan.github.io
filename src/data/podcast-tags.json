@@ -263,6 +263,22 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2025-01-26-outlasting-noam-shazeer-crowdsourcing-chai-ai-with-1-4m-dau-and-becomi": [
+  "open-weight-models",
+  "us-china",
+  "deepseek"
+ ],
+ "latent-space/2025-02-01-the-agent-reasoning-interface-o1-o3-claude-3-chatgpt-canvas-tasks-and": [
+  "consumer-ai",
+  "models-and-benchmarks",
+  "anthropic",
+  "openai"
+ ],
+ "latent-space/2025-02-06-agent-engineering-with-pydantic-graphs-with-samuel-colvin": [],
+ "latent-space/2025-02-11-the-ai-architect-bret-taylor": [
+  "ai-coding"
+ ],
+ "latent-space/2025-02-13-bee-ai-the-wearable-ambient-agent": [],
  "latent-space/2025-02-18-the-inventors-of-deep-research": [
   "google"
  ],
@@ -771,6 +787,29 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2025-01-25-emergency-pod-reinforcement-learning-works-reflecting-on-chinese-model": [
+  "open-weight-models",
+  "us-china",
+  "training-and-rl",
+  "deepseek"
+ ],
+ "cognitive-revolution/2025-01-29-aaron-levie-ceo-of-box-on-box-ai-enterprise-enthusiasm-and-the-evoluti": [
+  "enterprise-adoption"
+ ],
+ "cognitive-revolution/2025-02-05-distributed-training-decentralized-ai-prime-intellect-s-master-plan-to": [],
+ "cognitive-revolution/2025-02-06-gemini-2-0-flash-goes-live-inside-google-deepmind-s-latest-release-wit": [
+  "models-and-benchmarks",
+  "google"
+ ],
+ "cognitive-revolution/2025-02-09-software-supernova-bolt-new-the-ai-web-app-developer-in-your-browser": [],
+ "cognitive-revolution/2025-02-09-software-supernova-lovable-s-superhuman-full-stack-engineer-to-transfo": [
+  "ai-coding"
+ ],
+ "cognitive-revolution/2025-02-12-claude-cooperates-exploring-cultural-evolution-in-llm-societies-with-a": [
+  "anthropic",
+  "google",
+  "openai"
  ],
  "cognitive-revolution/2025-02-15-an-application-free-future-speaking-directly-to-data-with-illumex-ceo": [],
  "cognitive-revolution/2025-02-20-inference-scaling-alignment-faking-deal-making-frontier-research-with": [
@@ -1482,6 +1521,13 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2025-01-23-sarah-paine-why-japan-lost-wwii-lecture-interview": [],
+ "dwarkesh/2025-01-30-sarah-paine-how-mao-conquered-china-lecture-interview": [
+  "us-china"
+ ],
+ "dwarkesh/2025-02-12-jeff-dean-noam-shazeer-25-years-at-google-from-pagerank-to-agi": [
+  "google"
+ ],
  "dwarkesh/2025-02-19-satya-nadella-microsoft-s-agi-plan-quantum-breakthrough": [
   "microsoft"
  ],
@@ -1658,6 +1704,17 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2025-01-26-marc-andreessen-trump-power-tech-ai-immigration-future-of-america": [
+  "policy-and-regulation"
+ ],
+ "lex-fridman/2025-02-03-deepseek-dylan-patel-nathan-lambert-deepseek-china-openai-nvidia-xai-t": [
+  "infrastructure-and-chips",
+  "us-china",
+  "open-weight-models",
+  "deepseek",
+  "openai",
+  "xai"
+ ],
  "lex-fridman/2025-03-16-narendra-modi-prime-minister-of-india-power-democracy-war-peace": [],
  "lex-fridman/2025-03-22-theprimeagen-programming-ai-adhd-productivity-addiction-and-god": [],
  "lex-fridman/2025-03-26-ezra-klein-and-derek-thompson-politics-trump-aoc-elon-doge": [],
@@ -1756,6 +1813,14 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2025-01-30-rick-caruso-on-la-s-wildfires-policy-failures-and-the-path-forward": [],
+ "no-priors/2025-02-07-deepseek-deep-research-and-2025-predictions-with-sarah-and-elad": [
+  "open-weight-models",
+  "us-china",
+  "deepseek",
+  "openai"
+ ],
+ "no-priors/2025-02-14-how-harvey-ai-is-changing-the-legal-industry-with-winston-weinberg": [],
  "no-priors/2025-02-20-building-hard-tech-in-hard-markets-kyle-vogt-on-cruise-twitch-and-the": [
   "physical-ai"
  ],
