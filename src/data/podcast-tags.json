@@ -1,4 +1,40 @@
 {
+ "practical-ai/2024-04-16-udio-the-age-of-multi-modal-ai": [],
+ "practical-ai/2024-04-24-mamba-jamba": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2024-04-30-private-open-source-chat-uis": [],
+ "practical-ai/2024-05-08-autonomous-fighter-jets": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2024-05-15-full-stack-approach-for-effective-ai-agents": [
+  "agents"
+ ],
+ "practical-ai/2024-05-21-first-impressions-of-gpt-4o": [
+  "openai"
+ ],
+ "practical-ai/2024-05-29-ai-in-the-u-s-congress": [
+  "policy-and-regulation"
+ ],
+ "practical-ai/2024-06-04-rise-of-the-ai-pc-local-llms": [],
+ "practical-ai/2024-06-13-using-edge-models-to-find-sensitive-data": [
+  "ai-for-science"
+ ],
+ "practical-ai/2024-06-19-the-perplexities-of-information-retrieval": [
+  "consumer-ai"
+ ],
+ "practical-ai/2024-06-25-apple-intelligence-advanced-rag": [
+  "enterprise-adoption",
+  "apple"
+ ],
+ "practical-ai/2024-07-02-stanford-s-ai-index-report-2024": [
+  "models-and-benchmarks",
+  "policy-and-regulation"
+ ],
+ "practical-ai/2024-07-10-vectoring-in-on-pinecone": [],
+ "practical-ai/2024-07-18-the-first-real-time-voice-assistant": [
+  "openai"
+ ],
  "practical-ai/2025-03-08-build-a-workspace-of-ai-agents": [
   "enterprise-adoption"
  ],
@@ -263,6 +299,7 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-04-11-supervise-the-process-of-ai-research-with-jungwon-byun-and-andreas-stu": [],
  "latent-space/2024-04-19-high-agency-pydantic-vc-backed-frameworks-with-jason-liu-of-instructor": [],
  "latent-space/2024-04-27-websim-worldsim-and-the-summer-of-simulative-ai-with-joscha-bach-of-li": [],
  "latent-space/2024-05-16-emulating-humans-with-nsfw-chatbots-with-jesse-silver": [],
@@ -922,6 +959,11 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2024-04-13-data-data-everywhere-enough-for-agi": [
+  "openai"
+ ],
+ "cognitive-revolution/2024-04-15-interfacing-with-ai-with-linus-lee-of-notion": [],
+ "cognitive-revolution/2024-04-17-reading-minds-from-shared-latent-space": [],
  "cognitive-revolution/2024-04-20-ai-inference-good-fast-and-cheap-with-lin-qiao-dmytro-ivchenko-of-fire": [],
  "cognitive-revolution/2024-04-22-robotics-research-update-with-keerthana-gopalakrishnan-and-ted-xiao-of": [
   "physical-ai",
@@ -2105,6 +2147,8 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-04-13-andrew-callaghan-channel-5-gonzo-qanon-o-block-politics-alex-jones": [],
+ "lex-fridman/2024-04-17-edward-gibson-human-language-psycholinguistics-syntax-grammar-llms": [],
  "lex-fridman/2024-04-20-neil-adams-judo-olympics-winning-losing-and-the-champion-mindset": [],
  "lex-fridman/2024-04-22-sean-carroll-general-relativity-quantum-mechanics-black-holes-aliens": [],
  "lex-fridman/2024-05-15-paul-rosolie-jungle-apex-predators-aliens-uncontacted-tribes-and-god": [
