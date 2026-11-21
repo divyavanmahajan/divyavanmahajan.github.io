@@ -1,4 +1,10 @@
 {
+ "practical-ai/2023-11-14-ai-trailblazers-putting-people-first": [],
+ "practical-ai/2023-11-21-generating-product-imagery-at-shopify": [],
+ "practical-ai/2023-11-29-the-openai-debacle-a-retrospective": [
+  "openai"
+ ],
+ "practical-ai/2023-12-05-suspicion-machines": [],
  "practical-ai/2023-12-12-the-state-of-open-source-ai": [
   "training-and-rl"
  ],
@@ -393,6 +399,14 @@
   "agents",
   "enterprise-adoption",
   "jobs-and-work"
+ ],
+ "latent-space/2023-11-17-the-state-of-silicon-and-the-gpu-poors-with-dylan-patel-of-semianalysi": [
+  "infrastructure-and-chips",
+  "google",
+  "nvidia"
+ ],
+ "latent-space/2023-11-29-notebooks-chat-and-rag-recsys-with-bryan-bischof-of-hex-magic": [
+  "models-and-benchmarks"
  ],
  "latent-space/2023-12-08-the-busy-person-s-intro-to-finetuning-open-source-ai-wing-lian-axolotl": [
   "training-and-rl",
@@ -1113,6 +1127,22 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2023-11-09-openai-invests-in-the-self-driving-race-with-john-hayes-founder-of-gho": [
+  "physical-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2023-11-14-synthetic-data-with-alex-watson-founder-of-gretel-ai": [],
+ "cognitive-revolution/2023-11-17-ai-discourse-deranged-assessing-llm-generalization-takes-and-polarizin": [
+  "policy-and-regulation",
+  "google"
+ ],
+ "cognitive-revolution/2023-11-22-new-context-on-the-openai-board-s-initial-decision-to-fire-sam-altman": [
+  "openai"
+ ],
+ "cognitive-revolution/2023-11-28-vercel-ceo-guillermo-rauch-on-v0-ai-powered-coding-and-software-2-0": [
+  "ai-coding"
+ ],
+ "cognitive-revolution/2023-12-02-imbue-cto-josh-albrecht-on-creating-ai-agents-for-reasoning-reliabilit": [],
  "cognitive-revolution/2023-12-07-what-biological-social-systems-can-teach-us-about-ai-with-nora-ammann": [
   "ai-safety"
  ],
@@ -2174,6 +2204,9 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2023-11-15-dominic-cummings-covid-brexit-fixing-western-governance": [],
+ "dwarkesh/2023-11-22-andrew-roberts-why-hitler-lost-wwii-churchill-as-applied-historian-nap": [],
+ "dwarkesh/2023-11-29-jung-chang-wild-swans-author-living-through-history-s-largest-man-made": [],
  "dwarkesh/2024-01-31-tyler-cowen-hayek-keynes-smith-on-ai-animal-spirits-anarchy-growth": [],
  "dwarkesh/2024-02-21-patrick-collison-why-silicon-valley-s-most-talented-should-leave": [],
  "dwarkesh/2024-02-28-demis-hassabis-scaling-superhuman-ais-alphazero-atop-llms-alphafold": [
@@ -2402,6 +2435,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-11-18-john-mearsheimer-israel-palestine-russia-ukraine-china-nato-and-ww3": [
+  "us-china"
+ ],
+ "lex-fridman/2023-11-25-michael-malice-thanksgiving-pirate-special": [],
+ "lex-fridman/2023-12-03-lisa-randall-dark-matter-theoretical-physics-and-extinction-events": [],
  "lex-fridman/2023-12-09-lee-cronin-controversial-nature-paper-on-evolution-of-life-and-univers": [],
  "lex-fridman/2023-12-14-jeff-bezos-amazon-and-blue-origin": [
   "amazon"
@@ -2598,6 +2636,11 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-11-16-ai-agents-that-reason-and-code-with-imbue-co-founders-kanjun-qiu-and-j": [],
+ "no-priors/2023-11-30-open-ai-leadership-shuffle-new-diffusion-models-and-starting-the-cult": [
+  "generative-media",
+  "openai"
+ ],
  "no-priors/2023-12-07-ai-is-the-new-enterprise-ui-with-clara-shih-ceo-salesforce-ai": [
   "enterprise-adoption",
   "salesforce"
