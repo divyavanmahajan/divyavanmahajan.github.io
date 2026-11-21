@@ -1,4 +1,18 @@
 {
+ "practical-ai/2022-03-01-deploying-models-to-tractors": [],
+ "practical-ai/2022-03-08-creating-a-culture-of-innovation": [],
+ "practical-ai/2022-03-16-clothing-ai-in-a-data-fabric": [],
+ "practical-ai/2022-03-23-foundation-models": [
+  "ai-safety"
+ ],
+ "practical-ai/2022-03-29-it-s-been-a-big-week-in-ai-news": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2022-04-05-quick-beautiful-web-uis-for-ml-apps": [
+  "open-weight-models",
+  "hugging-face"
+ ],
+ "practical-ai/2022-04-19-ai-in-africa-agriculture": [],
  "practical-ai/2022-04-26-mlops-is-not-real": [],
  "practical-ai/2022-05-03-learning-the-language-of-life": [
   "ai-for-science"
@@ -2958,6 +2972,27 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2022-02-20-nicole-perlroth-cybersecurity-and-the-weapons-of-cyberwar": [
+  "ai-safety"
+ ],
+ "lex-fridman/2022-02-26-mark-zuckerberg-meta-facebook-instagram-and-the-metaverse": [
+  "meta"
+ ],
+ "lex-fridman/2022-03-05-robert-proctor-nazi-science-and-ideology": [],
+ "lex-fridman/2022-03-11-lee-cronin-origin-of-life-aliens-complexity-and-consciousness": [
+  "ai-for-science",
+  "ai-consciousness",
+  "physical-ai"
+ ],
+ "lex-fridman/2022-03-16-david-wolpe-judaism": [],
+ "lex-fridman/2022-03-23-ariel-ekblaw-space-colonization-and-self-assembling-space-megastructur": [],
+ "lex-fridman/2022-03-27-brett-johnson-us-most-wanted-cybercriminal": [],
+ "lex-fridman/2022-04-03-chris-blattman-war-and-violence": [],
+ "lex-fridman/2022-04-07-karl-deisseroth-depression-schizophrenia-and-psychiatry": [],
+ "lex-fridman/2022-04-10-rick-rubin-legendary-music-producer": [],
+ "lex-fridman/2022-04-14-michael-saylor-bitcoin-inflation-and-the-future-of-money": [],
+ "lex-fridman/2022-04-17-andrew-huberman-focus-stress-relationships-and-friendship": [],
+ "lex-fridman/2022-04-20-skye-fitzgerald-hunger-war-and-human-suffering": [],
  "lex-fridman/2022-04-24-alien-debate-sara-walker-and-lee-cronin": [],
  "lex-fridman/2022-04-27-cristiano-amon-qualcomm-ceo": [
   "physical-ai"
