@@ -263,6 +263,8 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-04-19-high-agency-pydantic-vc-backed-frameworks-with-jason-liu-of-instructor": [],
+ "latent-space/2024-04-27-websim-worldsim-and-the-summer-of-simulative-ai-with-joscha-bach-of-li": [],
  "latent-space/2024-05-16-emulating-humans-with-nsfw-chatbots-with-jesse-silver": [],
  "latent-space/2024-05-27-iclr-2024-best-papers-talks-imagegen-vision-transformers-state-space-m": [],
  "latent-space/2024-05-30-how-to-train-a-million-context-llm-with-mark-huang-of-gradient-ai": [
@@ -919,6 +921,33 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2024-04-20-ai-inference-good-fast-and-cheap-with-lin-qiao-dmytro-ivchenko-of-fire": [],
+ "cognitive-revolution/2024-04-22-robotics-research-update-with-keerthana-gopalakrishnan-and-ted-xiao-of": [
+  "physical-ai",
+  "google"
+ ],
+ "cognitive-revolution/2024-04-26-automating-circuit-board-design-using-reinforcement-learning-w-sergiy": [
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2024-04-26-merging-man-and-machine-the-neurotech-frontier-with-dean-w-ball": [],
+ "cognitive-revolution/2024-04-29-organic-holodeck-with-prophetic-ai-co-founders-eric-wollberg-and-wesle": [],
+ "cognitive-revolution/2024-05-03-infinite-ai-interns-how-young-professionals-can-win-in-an-ai-powered-w": [
+  "jobs-and-work",
+  "models-and-benchmarks",
+  "openai"
+ ],
+ "cognitive-revolution/2024-05-04-emergency-pod-examining-sb-1047-california-s-proposed-ai-legislation": [
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2024-05-06-tinygpu-massive-learning-with-adam-majmudar": [
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2024-05-10-governing-frontier-ai-with-ca-senator-scott-wiener-author-of-sb-1047": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2024-05-13-the-state-of-ai-from-the-80-000-hours-podcast": [
+  "policy-and-regulation"
  ],
  "cognitive-revolution/2024-05-15-the-open-source-ai-question-part-2-robert-wright-nathan-labenz": [
   "ai-safety"
@@ -1858,6 +1887,11 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-04-18-mark-zuckerberg-llama-3-10b-models-caesar-augustus-1-gw-datacenters": [
+  "open-weight-models",
+  "infrastructure-and-chips",
+  "meta"
+ ],
  "dwarkesh/2024-05-15-john-schulman-openai-cofounder-reasoning-rlhf-plan-for-2027-agi": [
   "training-and-rl",
   "openai"
@@ -2071,6 +2105,8 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-04-20-neil-adams-judo-olympics-winning-losing-and-the-champion-mindset": [],
+ "lex-fridman/2024-04-22-sean-carroll-general-relativity-quantum-mechanics-black-holes-aliens": [],
  "lex-fridman/2024-05-15-paul-rosolie-jungle-apex-predators-aliens-uncontacted-tribes-and-god": [
   "amazon"
  ],
@@ -2227,6 +2263,15 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-04-18-the-future-of-ai-artistry-with-suhail-doshi-from-playground-ai": [],
+ "no-priors/2024-04-25-openai-s-sora-team-thinks-we-ve-only-seen-the-gpt-1-of-video-models": [
+  "generative-media",
+  "openai"
+ ],
+ "no-priors/2024-05-02-cognition-s-scott-wu-on-how-devin-the-ai-software-engineer-will-work-f": [
+  "ai-coding"
+ ],
+ "no-priors/2024-05-09-context-windows-computer-constraints-and-energy-consumption-with-sarah": [],
  "no-priors/2024-05-16-music-consumers-are-becoming-the-creators-with-suno-ceo-mikey-shulman": [
   "consumer-ai"
  ],
