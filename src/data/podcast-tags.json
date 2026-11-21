@@ -1,4 +1,12 @@
 {
+ "practical-ai/2020-11-24-a-casual-conversation-concerning-causal-inference": [],
+ "practical-ai/2020-12-01-the-world-s-largest-open-library-dataset": [],
+ "practical-ai/2020-12-07-from-research-to-product-at-azure-ai": [
+  "microsoft"
+ ],
+ "practical-ai/2020-12-14-engaging-with-governments-on-ai-for-good": [],
+ "practical-ai/2020-12-21-getting-in-the-flow-with-snorkel-ai": [],
+ "practical-ai/2021-01-11-the-1-trillion-dollar-ml-model": [],
  "practical-ai/2021-01-19-accelerating-ml-innovation-at-mlcommons": [
   "models-and-benchmarks"
  ],
@@ -3071,6 +3079,34 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2020-11-30-manolis-kellis-meaning-of-life-the-universe-and-everything": [],
+ "lex-fridman/2020-12-06-john-clarke-the-art-of-fighting-and-the-pursuit-of-excellence": [],
+ "lex-fridman/2020-12-13-michael-littman-reinforcement-learning-and-the-future-of-ai": [
+  "training-and-rl",
+  "ai-safety"
+ ],
+ "lex-fridman/2020-12-14-matthew-johnson-psychedelics": [],
+ "lex-fridman/2020-12-19-michael-mina-rapid-testing-viruses-and-the-engineering-mindset": [
+  "policy-and-regulation"
+ ],
+ "lex-fridman/2020-12-20-dmitri-dolgov-waymo-and-the-future-of-self-driving-cars": [
+  "physical-ai"
+ ],
+ "lex-fridman/2020-12-26-charles-isbell-and-michael-littman-machine-learning-and-education": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2020-12-28-diana-walsh-pasulka-aliens-technology-religion-and-the-nature-of-belie": [],
+ "lex-fridman/2020-12-31-michael-malice-the-white-pill-freedom-hope-and-happiness-amidst-chaos": [],
+ "lex-fridman/2021-01-04-dan-kokotov-speech-recognition-with-ai-and-humans": [],
+ "lex-fridman/2021-01-09-dan-gable-olympic-wrestling-mental-toughness-the-making-of-champions": [],
+ "lex-fridman/2021-01-11-dmitry-korkin-evolution-of-proteins-viruses-life-and-ai": [
+  "ai-for-science",
+  "google"
+ ],
+ "lex-fridman/2021-01-14-avi-loeb-aliens-black-holes-and-the-mystery-of-the-oumuamua": [],
+ "lex-fridman/2021-01-18-max-tegmark-ai-and-physics": [
+  "ai-safety"
  ],
  "lex-fridman/2021-01-27-ama1-lex-fridman-ask-me-anything-ama-january-2021": [],
  "lex-fridman/2021-01-29-tim-dillon-comedy-power-conspiracy-theories-and-freedom": [],
