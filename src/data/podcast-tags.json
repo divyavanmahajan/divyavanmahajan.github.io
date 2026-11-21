@@ -1,4 +1,11 @@
 {
+ "practical-ai/2023-02-28-success-and-failure-in-prompting": [],
+ "practical-ai/2023-03-07-end-to-end-cloud-compute-for-ai-ml": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2023-03-15-ai-search-at-you-com": [
+  "consumer-ai"
+ ],
  "practical-ai/2023-03-28-explainable-ai-that-is-accessible-for-all-humans": [],
  "practical-ai/2023-04-04-accelerated-data-science-with-a-kaggle-grandmaster": [
   "infrastructure-and-chips"
@@ -464,6 +471,15 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2023-02-23-chatgpt-gpt4-hype-and-building-llm-native-products-with-logan-kilpatri": [
+  "consumer-ai",
+  "openai"
+ ],
+ "latent-space/2023-03-02-97-cheaper-faster-better-correct-ai-with-varun-mohan-of-codeium": [
+  "infrastructure-and-chips",
+  "microsoft"
+ ],
+ "latent-space/2023-03-10-from-astrophysics-to-ai-building-the-future-ai-data-stack-with-sarah-n": [],
  "latent-space/2023-03-24-emergency-pod-chatgpt-s-app-store-moment-w-openai-s-logan-kilpatrick-l": [
   "consumer-ai",
   "openai"
@@ -1296,6 +1312,22 @@
  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "cognitive-revolution/2023-02-23-the-ai-moment-with-amjad-masad-flo-crivello-antonio-garcia-martinez-an": [
+  "ai-coding"
+ ],
+ "cognitive-revolution/2023-03-02-chroma-and-stable-attribution-s-anton-troynikov-on-embedding-and-our-f": [],
+ "cognitive-revolution/2023-03-09-the-ai-multimodal-revolution-with-junnan-li-and-dongxu-li-of-blip-blip": [
+  "training-and-rl",
+  "salesforce"
+ ],
+ "cognitive-revolution/2023-03-14-in-search-of-truth-w-aravind-srinivas-of-perplexity-ai": [
+  "consumer-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2023-03-17-gpt4-ai-unleashed-w-chinatalk-podcast": [
+  "us-china",
+  "openai"
  ],
  "cognitive-revolution/2023-03-22-the-ai-assistant-revolution-with-flo-crivello-of-lindy-ai": [],
  "cognitive-revolution/2023-03-24-the-ai-voice-revolution-with-mahmoud-felfel-of-play-ht": [],
@@ -2567,6 +2599,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2023-03-13-brett-harrison-ftx-us-former-president-speaks-out": [],
  "dwarkesh/2023-03-22-nat-friedman-github-ceo-reading-ancient-scrolls-open-source-ai": [
   "microsoft"
  ],
@@ -2832,6 +2865,11 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2023-02-25-aaron-smith-levin-scientology": [],
+ "lex-fridman/2023-03-02-ginni-rometty-ibm-ceo-on-leadership-power-and-adversity": [],
+ "lex-fridman/2023-03-06-b-team-jiu-jitsu-craig-jones-nicky-rod-and-nicky-ryan": [],
+ "lex-fridman/2023-03-10-chris-voss-fbi-hostage-negotiator": [],
+ "lex-fridman/2023-03-14-sam-harris-trump-pandemic-twitter-elon-bret-idw-kanye-ai-ufos": [],
  "lex-fridman/2023-03-21-shannon-curry-johnny-depp-amber-heard-trial-marriage-dating-love": [],
  "lex-fridman/2023-03-25-sam-altman-openai-ceo-on-gpt-4-chatgpt-and-the-future-of-ai": [
   "ai-safety",
@@ -3115,6 +3153,11 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2023-03-02-how-ai-can-make-drug-discovery-fail-less-with-daphne-koller-from-insit": [
+  "ai-for-science"
+ ],
+ "no-priors/2023-03-09-what-is-the-role-of-academia-in-modern-ai-research-with-stanford-profe": [],
+ "no-priors/2023-03-16-what-is-the-future-of-search-with-neeva-s-sridhar-ramaswamy": [],
  "no-priors/2023-03-23-how-do-we-go-from-search-engines-to-answer-engines-with-perplexity-ai": [
   "consumer-ai",
   "google"
