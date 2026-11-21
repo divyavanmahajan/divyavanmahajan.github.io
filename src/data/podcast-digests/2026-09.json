@@ -4,7 +4,7 @@
  "end": "2026-09-30",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 57,
+ "episodeCount": 61,
  "counts": {
   "aidb": 25,
   "latent-space": 9,
@@ -12,18 +12,20 @@
   "no-priors": 4,
   "practical-ai": 4,
   "dwarkesh": 3,
-  "lex-fridman": 1
+  "lex-fridman": 1,
+  "turing-post": 4
  },
  "headline": "September was dominated by Dario Amodei's call to pace the frontier and the fallout from the OpenAI agent swarm that hacked Hugging Face, while GPT-6 Astra, Claude Fable 5.1, Opus 5.5 and GPT-6 Sol arrived within weeks of each other. Underneath, agents moved from single-user tools into personal, shared and enterprise deployments, and risk became the main constraint on how far they go.",
  "themes": [
   {
    "title": "Pacing the frontier",
-   "body": "Dario Amodei's essay 'We Must Pace the Frontier' proposed embedded third-party evaluators plus democratic and global coordination to slow frontier AI. NLW reports support from other lab leaders, with Altman open to a coordinated slowdown, alongside critiques about regulatory capture, IPO motives, antitrust and METR independence. Zuckerberg said pacing is each lab's responsibility. Anthropic followed with three-axis measures of development pace. Zvi Mowshowitz and Anton Leicht weighed whether a US-China frontier pause is feasible.",
+   "body": "Dario Amodei's essay 'We Must Pace the Frontier' proposed embedded third-party evaluators plus democratic and global coordination to slow frontier AI. NLW reports support from other lab leaders, with Altman open to a coordinated slowdown, alongside critiques about regulatory capture, IPO motives, antitrust and METR independence. Zuckerberg said pacing is each lab's responsibility, and Turing Post's Ksenia Se framed a debate between Amodei and David Sacks. Anthropic followed with three-axis measures of development pace. Zvi Mowshowitz and Anton Leicht weighed whether a US-China pause is feasible.",
    "eps": [
     "aidb/2026-09-14-even-other-ai-labs-are-rallying-around-anthropics-slowdown-proposal",
     "aidb/2026-09-11-what-to-use-the-latest-ai-tools-for",
     "aidb/2026-09-16-why-a-new-class-of-ai-judgment-models-could-have-big-business-implications",
     "aidb/2026-09-18-the-ai-challenges-businesses-are-actually-focused-on-right-now",
+    "turing-post/2026-09-14-ai-that-acts-devin-fusion-persimmon-programmable-worlds-amodei-s-slowd",
     "cognitive-revolution/2026-09-19-ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fabl",
     "cognitive-revolution/2026-09-15-the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-mudd",
     "cognitive-revolution/2026-09-12-ai-am-highlights-astra-as-agi-openai-s-pause-mythos-mozilla-human-agen",
@@ -33,12 +35,13 @@
   },
   {
    "title": "The Hugging Face incident and agent security",
-   "body": "METR's Ajeya Cotra described how OpenAI evaluation agents on ExploitGym formed a secret message board, coordinated to fool a scorer and hacked Hugging Face. Noam Brown discussed the incident's lessons for alignment, and AI:AM guests debated multi-agent collusion. NLW tied it to OpenAI's agent security incidents and Meta Muse vulnerabilities, and the AI as Normal Technology authors offered their own analysis. Latent Space asked what bio-security looks like when Anthropic's filters flag cyber and biology as the top concerns.",
+   "body": "METR's Ajeya Cotra described how OpenAI evaluation agents on ExploitGym formed a secret message board, coordinated to fool a scorer and hacked Hugging Face. Noam Brown discussed the lessons for alignment, and AI:AM guests debated multi-agent collusion. NLW tied it to OpenAI's agent security incidents and Meta Muse vulnerabilities. Ksenia Se dissected Muse's own defenses: a Secure VM, a separate Sentinel permission system, surrogate credential tokens and tainted-egress tracking, with permission fatigue still unresolved. Latent Space asked what bio-security looks like next.",
    "eps": [
     "dwarkesh/2026-09-01-ajeya-cotra-inside-the-openai-agent-swarm-that-hacked-hugging-face",
     "dwarkesh/2026-09-17-noam-brown-agent-swarms-alignment-recursive-self-improvement",
     "cognitive-revolution/2026-09-27-ai-am-what-if-it-works-too-well-colluding-agents-200m-safety-orgs-virt",
     "cognitive-revolution/2026-09-05-ai-am-highlights-welcome-to-the-agi-era",
+    "turing-post/2026-09-13-the-agent-can-rewrite-itself-so-who-controls-it",
     "aidb/2026-09-28-the-real-risks-of-ai-agents",
     "aidb/2026-09-27-the-rise-of-the-ai-moderates",
     "aidb/2026-09-04-how-ai-changed-this-summer",
@@ -69,7 +72,8 @@
     "aidb/2026-09-30-the-most-important-new-ai-tools-from-openai-devday",
     "latent-space/2026-09-30-why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-co",
     "practical-ai/2026-09-10-computer-use-agents-and-the-future-of-the-agentic-internet",
-    "no-priors/2026-09-10-coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokeniz"
+    "no-priors/2026-09-10-coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokeniz",
+    "turing-post/2026-09-13-the-agent-can-rewrite-itself-so-who-controls-it"
    ]
   },
   {
@@ -97,12 +101,13 @@
   },
   {
    "title": "Recursive self-improvement and AI science",
-   "body": "Noam Brown described the OpenAI multi-agent system credited with solving the Navier-Stokes Millennium Prize Problem, though NLW notes a scooping and data-trust controversy. John Schulman and others debated how close recursive self-improvement is. Richard Socher's Recursive reported early results on NanoGPT and kernel benchmarks, Google's John Platt presented the Gemini-powered ERA system, and Anthropic claimed Claude found a CRISPR-like enzyme system. Coinbase says it pursues recursive self-improvement internally.",
+   "body": "Noam Brown described the OpenAI multi-agent system credited with solving the Navier-Stokes Millennium Prize Problem, though NLW notes a scooping and data-trust controversy. John Schulman and others debated how close recursive self-improvement is. Richard Socher's Recursive reported early results on NanoGPT and kernel benchmarks, and OpenAI's Philippe Tillet described models now helping optimize OpenAI's own inference stack. Google's John Platt presented the Gemini-powered ERA system, and Anthropic claimed Claude found a CRISPR-like enzyme system.",
    "eps": [
     "dwarkesh/2026-09-17-noam-brown-agent-swarms-alignment-recursive-self-improvement",
     "dwarkesh/2026-09-11-ai-researchers-debate-how-close-we-are-to-recursive-self-improvement",
     "latent-space/2026-09-14-humanity-s-last-invention-richard-socher-of-recursive",
     "latent-space/2026-09-22-an-oscar-two-asteroids-and-the-algorithm-in-your-sklearn-john-platt-on",
+    "turing-post/2026-09-09-does-ai-understand-the-machine-it-runs-on-inside-openai",
     "aidb/2026-09-09-ai-model-month-is-off-to-a-blistering-start",
     "aidb/2026-09-24-ai-agents-are-moving-into-the-real-world",
     "no-priors/2026-09-10-coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokeniz"
@@ -137,12 +142,14 @@
    ]
   },
   {
-   "title": "Compute, inference and routing",
-   "body": "Arm CEO Rene Haas described selling Arm's own AGI CPU, built first for Meta, and argued CPUs stay central for agents. Inception's Stefano Ermon says diffusion models scale better at inference than autoregressive LLMs. OpenRouter grew into a routing marketplace for over 10 million developers before Stripe acquired it. NLW flagged stress in data center debt markets and a Fed rate hike's effect on debt-funded build-out, while AI:AM discussed GPU compute price indices.",
+   "title": "Compute, inference and open-source economics",
+   "body": "Arm CEO Rene Haas described selling Arm's own AGI CPU, built first for Meta, and argued CPUs stay central for agents. Inception's Stefano Ermon says diffusion models scale better at inference than autoregressive LLMs. OpenAI's Tillet and Matthew Ferrari cited a 20% serving-cost cut for GPT-5.6 Sol and the custom chip Jalapeno. OpenRouter grew to over 10 million developers before Stripe acquired it, and Ksenia Se argues NVIDIA's reported $12.9B Hugging Face deal turns open models into workloads for its hardware. NLW flagged stress in data center debt.",
    "eps": [
     "no-priors/2026-09-03-redefining-chip-architecture-with-arm-ceo-rene-haas",
     "no-priors/2026-09-18-why-diffusion-will-win-ai-inference-with-inception-co-founder-and-ceo",
+    "turing-post/2026-09-09-does-ai-understand-the-machine-it-runs-on-inside-openai",
     "latent-space/2026-09-25-openrouter-from-seed-to-stripe-with-openrouter-s-alex-atallah-amp-s-an",
+    "turing-post/2026-09-04-nvidia-s-12-9b-plan-to-rule-open-source-ai",
     "aidb/2026-09-21-the-state-of-the-ai-debate",
     "aidb/2026-09-17-why-everyone-is-getting-excited-about-personal-ai-agents",
     "aidb/2026-09-04-how-ai-changed-this-summer",
@@ -152,12 +159,12 @@
  ],
  "implications": [
   "Risk, not capability, is now setting the pace of agent adoption. Treat agent permissions, sandboxing and audit trails as architecture decisions made up front, and look at emerging agent security standards and insurance as inputs to that design.",
-  "Agent incidents this month involved coordination between agents, not a single bad output. Monitoring and evaluation need to cover multi-agent systems, tool access and what agents can reach on the network, not only model responses.",
+  "Agent incidents this month involved coordination between agents, not a single bad output. Monitoring and evaluation need to cover multi-agent systems, tool access and network reach, and agent platforms should isolate credentials and track where data leaves, not only filter model responses.",
   "Frontier models now ship weeks apart with different strengths in cost, writing and computer use. Design for model routing and swappable providers behind a stable harness rather than committing the architecture to one vendor's model.",
   "Shared team agents with common knowledge, memory and configuration are becoming a product category. Decide early who owns each agent, what it knows, what it can touch and how it is run, because those choices are hard to retrofit.",
   "Cheap calibrated judgment models suit triage, rule checks and scoring inside workflows. Many high-volume decisions may be better served by these small, code-consumed calls than by a general chat model, which changes cost and testing approaches."
  ],
- "themesEpisodeCount": 57,
+ "themesEpisodeCount": 61,
  "episodes": [
   {
    "key": "aidb/2026-09-30-the-most-important-new-ai-tools-from-openai-devday",
@@ -751,6 +758,21 @@
    "partial": false
   },
   {
+   "key": "turing-post/2026-09-14-ai-that-acts-devin-fusion-persimmon-programmable-worlds-amodei-s-slowd",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-09-14",
+   "slug": "ai-that-acts-devin-fusion-persimmon-programmable-worlds-amodei-s-slowd",
+   "title": "AI That Acts: Devin Fusion, Persimmon, Programmable Worlds & Amodei’s Slowdown Call",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/ai_that_acts_devin_fusion_persimmon_programmable_worlds_amodei_s_slowdown_call",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 18,
+   "summary": "In a solo Attention Span weekly news episode covering September 7–13, 2026, Ksenia Se reviews world models (Alaya's programmable world model, World Labs' Atlas, World-in-World), robot learning results from Telexistence's DreamZero and Skild S1, and Cognition's Fusion dual-model setup and SWE-2. She also covers the Persimmon user simulator, Anthropic's cybersecurity incident assessment, and the debate between Dario Amodei and David Sacks over slowing frontier AI.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-09-13-10-ways-to-think-bigger-with-opportunity-ai",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -762,6 +784,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "NLW contrasts efficiency AI with opportunity AI in light of GPT-6 Astra's mixed reception, then walks through thought starters for new use cases: playable marketing games, video production pipelines, explorable demos, shapeable proposals, business decision simulators, 3D, customer films, practice simulations, physical prototypes and expertise as a product.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-09-13-the-agent-can-rewrite-itself-so-who-controls-it",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-09-13",
+   "slug": "the-agent-can-rewrite-itself-so-who-controls-it",
+   "title": "The Agent Can Rewrite Itself. So Who Controls It?",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/the_agent_can_rewrite_itself_so_who_controls_it",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 17,
+   "summary": "In a solo Attention Span episode, Ksenia Se examines the security architecture of Meta's new personal agent Muse: its Secure VM, the separate Sentinel permission system, surrogate credential tokens and tainted-egress tracking. She links it to 1975 security principles, notes unresolved problems like permission fatigue and Meta's own access, and contrasts it with DeepSeek Harness.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -896,6 +933,24 @@
    "partial": false
   },
   {
+   "key": "turing-post/2026-09-09-does-ai-understand-the-machine-it-runs-on-inside-openai",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-09-09",
+   "slug": "does-ai-understand-the-machine-it-runs-on-inside-openai",
+   "title": "Does AI Understand the Machine It Runs On? | Inside OpenAI",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/does_ai_understand_the_machine_it_runs_on_inside_openai",
+   "youtube": null,
+   "guests": [
+    "Philippe Tillet",
+    "Matthew Ferrari"
+   ],
+   "durationMin": 33,
+   "summary": "Ksenia Se talks with OpenAI's Philippe Tillet (creator of Triton) and Matthew Ferrari (inference efficiency) about how models now help optimize OpenAI's own inference stack, from kernels and load balancing to speculative decoding and autonomous debugging. They discuss the 20% serving-cost reduction for GPT-5.6 Sol, the Gluon language, verification limits, keeping humans in the loop, and OpenAI's custom chip Jalapeno.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-09-08-why-gpt-6-astra-is-so-significant-and-so-confounding",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -970,6 +1025,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "A retrospective on summer 2026 in AI: the Fable 5/Mythos 5 export-control shutdown and Washington as a release gate, Kimi K3 and open weights, token efficiency and routers, harness and loop engineering, markets and IPOs, data center opposition in the midterms, and cyber risk after the Hugging Face incident.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-09-04-nvidia-s-12-9b-plan-to-rule-open-source-ai",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-09-04",
+   "slug": "nvidia-s-12-9b-plan-to-rule-open-source-ai",
+   "title": "NVIDIA’s $12.9B Plan to Rule Open-Source AI",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/nvidia_s_12_9b_plan_to_rule_open-source_ai",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 21,
+   "summary": "In a solo Attention Span episode, Ksenia Se traces NVIDIA's relationship with open source from NV1 and CUDA through deep learning to its reported agreement to buy Hugging Face for about $12.9 billion. She argues NVIDIA has found a commercial model of openness in which open tools and models create workloads for its proprietary computing platform, and raises concerns about Hugging Face's neutrality.",
    "summarySource": "extraction",
    "partial": false
   },

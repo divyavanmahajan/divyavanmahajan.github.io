@@ -4,7 +4,7 @@
  "end": "2026-06-30",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 55,
+ "episodeCount": 57,
  "counts": {
   "aidb": 26,
   "dwarkesh": 3,
@@ -12,7 +12,8 @@
   "cognitive-revolution": 9,
   "no-priors": 4,
   "practical-ai": 3,
-  "latent-space": 9
+  "latent-space": 9,
+  "turing-post": 2
  },
  "headline": "June was dominated by the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, a saga that grew into what NLW calls an ad hoc AI licensing regime now covering OpenAI's GPT-5.6 too. Underneath it ran a quieter story about scarcity: tokens, compute and memory got expensive, pushing enterprises toward token efficiency, cheaper open-weight models and multi-model stacks.",
  "themes": [
@@ -33,7 +34,7 @@
   },
   {
    "title": "Token scarcity and efficiency",
-   "body": "NLW framed May as the shift from the AI subsidy era to a token scarcity era, with billing moving from seats to tokens and Walmart ending unlimited tokens. June's episodes tracked the response: benchmarks that count tokens used, price per task instead of per token, and model routing at Harvey, Factory and Perplexity. He argued the Silicon Data token index reflects market rationalization rather than a bubble popping. AWS GPU price hikes and the 'Ramageddon' memory crunch kept costs in view, and Noam Brown argued models should be evaluated against a token, cost or time budget.",
+   "body": "NLW framed May as the shift from the AI subsidy era to a token scarcity era, with billing moving from seats to tokens and Walmart ending unlimited tokens. June's episodes tracked the response: price per task instead of per token and model routing at Harvey, Factory and Perplexity, while GitHub CPO Mario Rodriguez described Copilot's usage-based billing and model routing. AWS GPU price hikes and the 'Ramageddon' memory crunch kept costs high, and Noam Brown argued models should be evaluated against a token, cost or time budget.",
    "eps": [
     "aidb/2026-06-01-the-ai-token-shortage-begins-ai-monthly-recap",
     "aidb/2026-06-02-should-americans-get-shares-in-ai-companies",
@@ -42,7 +43,8 @@
     "aidb/2026-06-12-the-ai-chart-everyone-is-getting-wrong",
     "aidb/2026-06-30-how-big-is-the-ai-economy",
     "no-priors/2026-06-26-really-big-test-time-compute-in-ai-changes-benchmarks-safety-and-resea",
-    "cognitive-revolution/2026-06-13-ai-in-the-am-week-2-highlights-june-2026"
+    "cognitive-revolution/2026-06-13-ai-in-the-am-week-2-highlights-june-2026",
+    "turing-post/2026-06-07-github-in-2026-how-ai-agents-are-changing-how-developers-work"
    ]
   },
   {
@@ -60,14 +62,15 @@
   },
   {
    "title": "Securing autonomous agents",
-   "body": "Practical AI walked through Anthropic's Zero Trust for AI Agents framework, covering prompt injection, tool misuse, privilege abuse and memory poisoning, then interviewed AIUC's Emil Lassen on the AIUC-1 standard, where no agent achieves a 100% pass rate. Gray Swan's Zico Kolter and Matt Fredrikson discussed red-teaming Mythos, indirect prompt injection and agent identity. Andon Labs reported increasingly aggressive and deceptive Claude behavior in business simulations, and OpenAI shipped GPT-5.5 Cyber amid a Five Eyes AI cyber alert.",
+   "body": "Practical AI walked through Anthropic's Zero Trust for AI Agents framework, covering prompt injection, tool misuse, privilege abuse and memory poisoning, then interviewed AIUC's Emil Lassen on the AIUC-1 standard, where no agent achieves a 100% pass rate. Gray Swan's Zico Kolter and Matt Fredrikson discussed red-teaming Mythos and agent identity. Microsoft's Sarah Bird told Turing Post's Ksenia Se about layered accountability, human oversight of agentic coding and the open-source Assert tool and agent control specification. Andon Labs reported increasingly deceptive Claude behavior in business simulations.",
    "eps": [
     "practical-ai/2026-06-11-zero-trust-for-ai-agents",
     "practical-ai/2026-06-25-aiuc-1-building-trust-in-ai-agents",
     "latent-space/2026-06-22-red-teaming-after-mythos-zico-kolter-matt-fredrikson-gray-swan",
     "latent-space/2026-06-04-reality-the-final-eval-lukas-petersson-and-axel-backlund-of-andon-labs",
     "aidb/2026-06-23-the-right-way-to-deal-with-ai-data-centers",
-    "cognitive-revolution/2026-06-06-ai-in-the-am-week-1-highlights-june-2026"
+    "cognitive-revolution/2026-06-06-ai-in-the-am-week-1-highlights-june-2026",
+    "turing-post/2026-06-21-what-responsible-ai-actually-means-in-2026-microsoft-s-sarah-bird"
    ]
   },
   {
@@ -84,7 +87,7 @@
   },
   {
    "title": "New harnesses for knowledge work",
-   "body": "The interface to AI kept moving beyond chat. OpenAI pushed Codex into knowledge work with annotations, role plugins and Codex Sites, which NLW argues make websites the new anchor artifact instead of files. Anthropic's Claude Tag put a team agent in Slack, drawing lock-in critiques. GitHub's Kyle Daigle described Copilot evolving into a coding-agent harness amid 14x commit growth, Databricks introduced the Omnigent meta-harness, and NLW said a ChatGPT 'super app' would spread loop-based usage patterns.",
+   "body": "The interface to AI kept moving beyond chat. OpenAI pushed Codex into knowledge work with annotations, role plugins and Codex Sites, which NLW argues make websites the new anchor artifact instead of files. Anthropic's Claude Tag put a team agent in Slack, drawing lock-in critiques. GitHub's Kyle Daigle described Copilot evolving into a coding-agent harness amid 14x commit growth, and CPO Mario Rodriguez told Turing Post about agent experience (AX), canvases in the Copilot app and macro- versus micro-delegation. Databricks introduced the Omnigent meta-harness.",
    "eps": [
     "aidb/2026-06-03-the-next-wave-of-enterprise-ai",
     "aidb/2026-06-07-10-things-you-should-build-with-ai-instead-of-sending-files",
@@ -92,7 +95,8 @@
     "aidb/2026-06-24-5-ways-claude-tag-could-change-how-you-use-ai",
     "latent-space/2026-06-02-github-s-plan-for-agents-kyle-daigle-github",
     "latent-space/2026-06-03-satya-nadella-no-priors-x-latent-space-crossover-special-at-microsoft",
-    "latent-space/2026-06-24-why-the-frontier-ecosystem-must-be-open-matei-zaharia-and-reynold-xin"
+    "latent-space/2026-06-24-why-the-frontier-ecosystem-must-be-open-matei-zaharia-and-reynold-xin",
+    "turing-post/2026-06-07-github-in-2026-how-ai-agents-are-changing-how-developers-work"
    ]
   },
   {
@@ -142,7 +146,7 @@
   "Count the human oversight cost. Bot-sitting can absorb individual time savings, so measure AI at team and process level, give executives explicit ownership of ROI, and invest in training that moves staff from assisted to agentic use.",
   "Keep harnesses, context and evals portable. Vendors are bundling agents into chat, Slack and coding tools; owning your context, skills and private evals preserves the option to switch models as prices and access shift."
  ],
- "themesEpisodeCount": 55,
+ "themesEpisodeCount": 57,
  "episodes": [
   {
    "key": "aidb/2026-06-30-how-big-is-the-ai-economy",
@@ -441,6 +445,23 @@
    ],
    "durationMin": 135,
    "summary": "A weekly highlights cut of the live AI in the AM show: Zvi Mowshowitz examines Anthropic's Fable system card and the US export-control action against the model, then Sam Hammond, Judd Rosenblatt, Doni Bloomfield and Liron Shapira assess the government's reaction and its legality. The final part covers builders in formal math (Axiom Math), safety-by-construction, coding agents, supply chains and enterprise world models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-06-21-what-responsible-ai-actually-means-in-2026-microsoft-s-sarah-bird",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-06-21",
+   "slug": "what-responsible-ai-actually-means-in-2026-microsoft-s-sarah-bird",
+   "title": "What Responsible AI Actually Means in 2026 – Microsoft's Sarah Bird",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/what_responsible_ai_actually_means_in_2026_microsoft_s_sarah_bird",
+   "youtube": null,
+   "guests": [
+    "Sarah Bird"
+   ],
+   "durationMin": 33,
+   "summary": "Ksenia Se interviews Sarah Bird, Chief Product Officer of Responsible AI at Microsoft, about reframing responsible AI as trustworthy AI, how agentic coding changes the software lifecycle and human oversight, and Microsoft's open-source tools Assert and the agent control specification. They also discuss regulation, layered accountability, dual-use and psychosocial risks, AI literacy for children and her optimism about humans plus AI.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -781,6 +802,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "Prompted by OpenAI's Codex Sites launch, NLW argues websites and simple web apps are becoming a new anchor artifact of knowledge work. He lists problems with traditional files that sites solve (versioning, distribution, navigation, audience fit, actionability, analytics, agent readability) and walks through about 18 examples, from narrative sites replacing decks to proposal microsites and client portals. The transcript contains a long speech-to-text repetition loop.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-06-07-github-in-2026-how-ai-agents-are-changing-how-developers-work",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-06-07",
+   "slug": "github-in-2026-how-ai-agents-are-changing-how-developers-work",
+   "title": "GitHub in 2026: How AI Agents Are Changing How Developers Work",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/github_in_2026_how_ai_agents_are_changing_how_developers_work",
+   "youtube": null,
+   "guests": [
+    "Mario Rodriguez"
+   ],
+   "durationMin": 31,
+   "summary": "Ksenia Se interviews GitHub CPO Mario Rodriguez about how a December 2025 jump in model capabilities drove record growth in commits, PRs and Actions on GitHub, and the resulting scaling challenges. They discuss GitHub's 'low floor, high ceiling' mission, agent experience (AX) and canvases in the Copilot app, macro- versus micro-delegation, Copilot's usage-based billing and model routing, and why humans stay in the loop.",
    "summarySource": "extraction",
    "partial": false
   },

@@ -4,11 +4,12 @@
  "end": "2026-05-31",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 50,
+ "episodeCount": 53,
  "counts": {
   "aidb": 21,
   "cognitive-revolution": 8,
   "lex-fridman": 2,
+  "turing-post": 3,
   "latent-space": 7,
   "no-priors": 5,
   "practical-ai": 4,
@@ -59,7 +60,7 @@
   },
   {
    "title": "Jobs narrative shifts from doom",
-   "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex, while cautioning not to overstate it. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, and Ben Todd and Don Beyer weigh careers and displacement.",
+   "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, Eric Ries contrasted AI-driven cost-cutting with augmentation, and Ben Todd and Don Beyer weigh careers and displacement.",
    "eps": [
     "aidb/2026-05-04-is-ai-doom-going-out-of-style",
     "aidb/2026-05-10-the-new-jobs-ai-will-create",
@@ -68,7 +69,8 @@
     "aidb/2026-05-24-why-agents-still-need-humans",
     "aidb/2026-05-27-the-annual-ai-slowdown-panic-is-here",
     "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
-    "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world"
+    "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
+    "turing-post/2026-05-29-eric-ries-on-building-incorruptible-companies-ai-disruption-and-the-fu"
    ]
   },
   {
@@ -87,19 +89,21 @@
   },
   {
    "title": "Google I/O and fast models",
-   "body": "Google I/O 2026 brought Gemini 3.5 Flash, Gemini Omni video generation, Gemini Spark and Antigravity 2.0. NLW calls Google's strategy sprawling and confused but notes its distribution and Demis Hassabis's distinct AGI path may make that matter less. Logan Kilpatrick and Tulsee Doshi explain the focus on fast, cost-effective models over an Ultra tier and argue the model eats the scaffolding. Pre-I/O coverage included Gemini Intelligence, Google's forward-deployed engineers and the divergence between consumer and work AI.",
+   "body": "Google I/O 2026 brought Gemini 3.5 Flash, Gemini Omni video generation, Gemini Spark and Antigravity 2.0. NLW calls Google's strategy sprawling and confused but notes its distribution and Demis Hassabis's distinct AGI path may make that matter less. Logan Kilpatrick and Tulsee Doshi explain the focus on fast, cost-effective models over an Ultra tier. Ammaar Reshi describes Google AI Studio bringing app building to non-developers, with Slack-like multi-agent UX and speed as the bottleneck. Pre-I/O coverage included Gemini Intelligence and Google's forward-deployed engineers.",
    "eps": [
     "aidb/2026-05-20-why-google-isnt-chasing-claude-code",
     "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
+    "turing-post/2026-05-29-inside-google-ai-studio-ammaar-reshi-on-vibe-coding-agent-swarms-and-t",
     "aidb/2026-05-15-googles-big-ai-test-comes-next-week",
     "aidb/2026-05-13-in-defense-of-tokenmaxxing"
    ]
   },
   {
    "title": "Models commoditise, open weights spread",
-   "body": "Daniel and Chris argue models are becoming commodities, citing Meta's shift from Llama to a closed family and China's lead in open models, so value moves to agentic systems and harnesses. Baseten's Tuhin Srivastava says custom post-trained models dominate inference and discusses Chinese open-weight models. CoreWeave's Kyle Corbitt explains RL fine-tuning, GRPO, rubrics and reward hacking. Tasklet went multi-model with OpenAI and open models, and Descript's Laura Burkhauser describes build-versus-buy model strategy.",
+   "body": "Daniel and Chris argue models are becoming commodities, citing Meta's shift from Llama to a closed family and China's lead in open models, so value moves to agentic systems and harnesses. Hugging Face's Clem Delangue says agents are becoming a major class of Hugging Face users and that benchmarks pitting open weights against closed APIs miss the point. Baseten's Tuhin Srivastava says custom post-trained models dominate inference. CoreWeave's Kyle Corbitt explains RL fine-tuning and reward hacking, and Tasklet went multi-model with OpenAI and open models.",
    "eps": [
     "practical-ai/2026-05-07-the-myth-of-model-wars-open-vs-closed-ai-in-2026",
+    "turing-post/2026-05-05-will-everyone-become-an-ai-builder-clem-delangue-on-hugging-face-agent",
     "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models",
     "cognitive-revolution/2026-05-01-the-rl-fine-tuning-playbook-coreweave-s-kyle-corbitt-on-grpo-rubrics-e",
     "cognitive-revolution/2026-05-15-three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-b",
@@ -140,7 +144,7 @@
   "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
   "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
  ],
- "themesEpisodeCount": 50,
+ "themesEpisodeCount": 53,
  "episodes": [
   {
    "key": "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
@@ -203,6 +207,40 @@
    ],
    "durationMin": 182,
    "summary": "Fermilab particle physicist Don Lincoln walks through the history of physics as a series of unifications (Newton, Maxwell, Einstein, electroweak theory), how particle colliders work, and the 2012 Higgs boson discovery. He argues a theory of everything is centuries away and skeptically assesses string theory and loop quantum gravity, then covers empty space and virtual particles, antimatter production and the matter-antimatter asymmetry, dark energy, dark matter, and his own path into physics.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-05-29-eric-ries-on-building-incorruptible-companies-ai-disruption-and-the-fu",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-05-29",
+   "slug": "eric-ries-on-building-incorruptible-companies-ai-disruption-and-the-fu",
+   "title": "Eric Ries on Building Incorruptible Companies, AI Disruption, and the Future of Capitalism",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/eric_ries_on_building_incorruptible_companies_ai_disruption_and_the_future_of_capitalism",
+   "youtube": null,
+   "guests": [
+    "Eric Ries"
+   ],
+   "durationMin": 31,
+   "summary": "Ksenia Se interviews Eric Ries, author of The Lean Startup, about his new book Incorruptible, which argues that successful companies become targets for value extraction ('corruption') and must protect their mission early. They discuss financial gravity, trust and love as business strategy, institutional collapse and replacement, AI-driven cost-cutting versus augmentation, AGI goalposts, and AI as a potential 'mission guardian'.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-05-29-inside-google-ai-studio-ammaar-reshi-on-vibe-coding-agent-swarms-and-t",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-05-29",
+   "slug": "inside-google-ai-studio-ammaar-reshi-on-vibe-coding-agent-swarms-and-t",
+   "title": "Inside Google AI Studio – Ammaar Reshi on Vibe Coding, Agent Swarms, and the Future of Building",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/inside_google_ai_studio_ammaar_reshi_on_vibe_coding_agent_swarms_and_the_future_of_building",
+   "youtube": null,
+   "guests": [
+    "Ammaar Reshi"
+   ],
+   "durationMin": 21,
+   "summary": "Ksenia Se interviews Ammaar Reshi, who leads product and design at Google AI Studio, about his self-taught career path and how AI Studio aims to bring app building to non-developers. They cover prompting aids, abstracting away infrastructure, multi-agent UX that feels like Slack, speed as the bottleneck, the demo-to-product gap, spreading vibe coding across Google, and Reshi's definition of AGI.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -872,6 +910,23 @@
    ],
    "durationMin": 92,
    "summary": "In an AI for Science episode on the Latent Space network, hosted by Brandon and RJ Haneke, physicist Alex Lupsasca (Vanderbilt, OpenAI) explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero and found a simple general formula. He discusses his path from AI skeptic to OpenAI, how AI changes research and training of students, AI slop in science, and verification as the next bottleneck.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-05-05-will-everyone-become-an-ai-builder-clem-delangue-on-hugging-face-agent",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-05-05",
+   "slug": "will-everyone-become-an-ai-builder-clem-delangue-on-hugging-face-agent",
+   "title": "Will Everyone Become an AI Builder? Clem Delangue on Hugging Face, Agents, Local AI & Robotics",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/will_everyone_become_an_ai_builder_clem_delangue_on_hugging_face_agents_local_ai_robotics",
+   "youtube": null,
+   "guests": [
+    "Clem Delangue"
+   ],
+   "durationMin": 43,
+   "summary": "Ksenia Se interviews Hugging Face co-founder and CEO Clem Delangue about the expected explosion in AI builders, agents becoming a major class of Hugging Face users, and the ML Intern agent. They discuss open source and cybersecurity, DC lobbying against open source, local AI, Reachy Mini and LeRobot robotics, and why benchmarks comparing open weights to closed APIs miss the point.",
    "summarySource": "extraction",
    "partial": false
   },

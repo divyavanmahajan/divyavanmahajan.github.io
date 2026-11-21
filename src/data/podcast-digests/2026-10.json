@@ -4,7 +4,7 @@
  "end": "2026-10-31",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 64,
+ "episodeCount": 69,
  "counts": {
   "cognitive-revolution": 11,
   "latent-space": 12,
@@ -12,7 +12,8 @@
   "dwarkesh": 3,
   "no-priors": 6,
   "practical-ai": 5,
-  "lex-fridman": 1
+  "lex-fridman": 1,
+  "turing-post": 5
  },
  "headline": "October was dominated by Anthropic's IPO filing and the money questions around it, from a 400-page S-1 to neocloud distress and GPU credit. Underneath, AI agents moved onto both sides of the ledger: finding vulnerabilities, producing mathematical results and running whole companies.",
  "themes": [
@@ -61,11 +62,12 @@
   },
   {
    "title": "Agent-native companies and the SDLC",
-   "body": "NLW details Spawn, a 10-person gaming startup run by a persistent agent fleet. Tenex pays engineers by story points and runs an internal meta harness for Fortune 2000 clients, while Arca's Aman Singh relies on persistent client memory, deterministic guardrails and verifiers for multi-day financial work. Serval's Jake Stauch targets ServiceNow with coding agents gated by approvals and audit trails, and OutSystems' Woodson Martin argues deterministic code generation keeps AI-built apps compliant. SEP offers a framework for choosing a team's level of agentic autonomy.",
+   "body": "NLW details Spawn, a 10-person gaming startup run by a persistent agent fleet. Tenex pays engineers by story points and runs an internal meta harness, while Arca's Aman Singh relies on persistent client memory, deterministic guardrails and verifiers for multi-day financial work. Salesforce's Rohan Kumar describes agent registries, agent identity, trusted context and price-performance routing, and says the unsolved problem is capturing how businesses decide in agent-readable form. Serval and OutSystems gate AI-built software with approvals, audit trails and deterministic code generation.",
    "eps": [
     "aidb/2026-10-30-how-the-most-ai-pilled-company-in-the-world-works",
     "latent-space/2026-10-21-ai-for-the-fortune-2000-how-tenex-builds-an-ai-native-sdlc-alex-lieber",
     "latent-space/2026-10-31-using-agents-for-long-horizon-financial-work-aman-singh-arca",
+    "turing-post/2026-10-07-salesforce-s-rohan-kumar-on-the-unsolved-problem-holding-ai-agents-bac",
     "no-priors/2026-10-29-taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found",
     "cognitive-revolution/2026-10-07-software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-e",
     "practical-ai/2026-10-29-abundant-intelligence-at-the-midwest-ai-summit",
@@ -74,7 +76,7 @@
   },
   {
    "title": "Frontier releases and how to judge them",
-   "body": "Google's Gemini 4 Argon arrived with strong knowledge-work benchmarks but coding results that depend heavily on the harness, and Meta's Muse Wonder posted strong scores to mixed user reception. Artificial Analysis's Intelligence Index V5 moved to private, agentic benchmarks and reshuffled the rankings. NLW argues personality is becoming a competitive axis as intelligence commoditizes, and Nufar Gaspar shows how to build a blind-scored personal benchmark because published ones have limited value. Anthropic's Katelyn Lesse and Angela Jiang discuss the Opus 5.5 launch.",
+   "body": "Google's Gemini 4 Argon arrived with strong knowledge-work benchmarks but harness-dependent coding results, and Meta's Muse Wonder posted strong scores to mixed user reception. Artificial Analysis's Intelligence Index V5 moved to private, agentic benchmarks and reshuffled the rankings. NLW argues personality is becoming a competitive axis, Nufar Gaspar shows how to build a blind-scored personal benchmark, and Anthropic's Katelyn Lesse and Angela Jiang discuss the Opus 5.5 launch. Ksenia Se tested TypeSafe AI's Jev decision model with Codex, citing early uses at Vercel and OpenCode.",
    "eps": [
     "aidb/2026-10-01-gemini-4-argon-sonnet-55-and-what-matters-with-ai-models",
     "aidb/2026-10-14-what-gemini-4-argon-is-actually-good-for",
@@ -82,6 +84,7 @@
     "aidb/2026-10-29-the-ai-rankings-just-got-reshuffled",
     "aidb/2026-10-07-the-best-way-to-test-new-ai-models",
     "aidb/2026-10-20-why-ai-companies-are-betting-personality-beats-intelligence",
+    "turing-post/2026-10-05-is-jev-what-ai-has-been-missing-i-tested-it",
     "latent-space/2026-10-27-how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain",
     "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer"
    ]
@@ -115,10 +118,11 @@
   },
   {
    "title": "Personal agents and who holds the wheel",
-   "body": "NLW offers a framework for choosing among eight personal agents, including Dots, Gemini Spark, Grokbot and Claude Duet, and finds OpenAI's Dots weak at proactivity while Claude Duet looks promising for work. Platforms are splitting: Walmart and Shopify opened to third-party shopping agents while JPMorgan blocked them. Control is the open question. Nathan Labenz describes Claude changing his passwords, and GovAI's Alan Chan proposes monitoring, logging and agent identifiers in light of rogue-agent incidents.",
+   "body": "NLW offers a framework for choosing among eight personal agents and finds OpenAI's Dots weak at proactivity while Claude Duet looks promising for work. Turing Post's Ksenia Se handed her inboxes to Dots at DevDay and weighed read-only background research, permissions and lock-in. Platforms are splitting: Walmart and Shopify opened to third-party shopping agents while JPMorgan blocked them. Nathan Labenz describes Claude changing his passwords, and GovAI's Alan Chan proposes monitoring, logging and agent identifiers after rogue-agent incidents.",
    "eps": [
     "aidb/2026-10-04-how-to-choose-your-personal-ai-agent",
     "aidb/2026-10-25-how-im-actually-using-ai-right-now-including-claude-duet",
+    "turing-post/2026-10-08-i-tried-openai-dots-how-much-can-i-hand-over",
     "aidb/2026-10-22-the-ai-vs-ai-battle-for-the-internet",
     "aidb/2026-10-14-what-gemini-4-argon-is-actually-good-for",
     "no-priors/2026-10-15-the-changing-physics-of-cybersecurity-and-drug-development-with-openai",
@@ -141,11 +145,13 @@
   },
   {
    "title": "World models and physical AI",
-   "body": "Google DeepMind's Keerthana Gopalakrishnan describes Gemini Robotics 2, a three-model stack of a reasoning model, a VLA and an on-device model, with whole-body humanoid control. Dyna Robotics' Jason Ma presents Dyna-2, a world action model pretrained on over a million hours of data and deployed at Din Tai Fung and Best Western for hour-long tasks. NVIDIA's Ming-Yu Liu calls Cosmos 3 an omni model but says robots are not yet commercially ready, and NLW examines Genie 4's real-time world generation.",
+   "body": "Google DeepMind's Keerthana Gopalakrishnan describes Gemini Robotics 2, a three-model stack with whole-body humanoid control. Dyna Robotics' Jason Ma presents Dyna-2, a world action model pretrained on over a million hours of data and deployed at Din Tai Fung and Best Western. NVIDIA's Ming-Yu Liu calls Cosmos 3 an omni model but says robots are not yet commercially ready. Peter Norvig tells Turing Post that language models are already world models, disagreeing with Yann LeCun, and NLW examines Genie 4's real-time world generation.",
    "eps": [
     "cognitive-revolution/2026-10-03-one-brain-any-body-google-deepmind-s-keerthana-on-gemini-robotics-2-cr",
     "latent-space/2026-10-13-dyna-2-general-purpose-physical-agents-with-hour-long-autonomy-jason-m",
     "practical-ai/2026-10-01-open-models-and-the-future-of-physical-ai-with-nvidia",
+    "turing-post/2026-10-09-peter-norvig-disagrees-with-yann-lecun-here-s-why",
+    "turing-post/2026-10-06-ai-that-acts-odyssey-3-helix-2-5-jev-deepmind-s-new-institute",
     "aidb/2026-10-28-ai-can-now-create-worlds-you-can-change-in-real-time"
    ]
   }
@@ -154,10 +160,10 @@
   "Treat AI-assisted attack speed as a planning assumption. Budget for agent-driven vulnerability discovery and patching, verify public proof-of-concept code before acting on it, and expect security to claim a growing share of engineering time and token spend.",
   "Keep model choice portable. Rankings reshuffle within weeks and coding quality depends on the harness, so run your own blind evaluations on representative tasks and design architectures that can route between providers.",
   "Evaluate open-weight models as a real option for cost, sovereignty and privacy-sensitive work, but pair them with your own guardrails, since the safety controls of hosted models do not travel with the weights.",
-  "Agent-run workflows in these accounts succeed when determinism surrounds them: approvals, audit trails, verifiers and evals built from staff feedback. Build these controls into the platform before scaling agent autonomy across teams.",
+  "Agent-run workflows in these accounts succeed when determinism surrounds them: agent registries and identities, approvals, audit trails, verifiers and evals built from staff feedback. Build these controls into the platform before scaling agent autonomy across teams.",
   "Watch the financial health of AI vendors. Neocloud distress, compute debt and IPO scrutiny of the labs mean contracts, data portability and exit plans deserve the same attention as model capability."
  ],
- "themesEpisodeCount": 64,
+ "themesEpisodeCount": 69,
  "episodes": [
   {
    "key": "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer",
@@ -949,6 +955,23 @@
    "partial": false
   },
   {
+   "key": "turing-post/2026-10-09-peter-norvig-disagrees-with-yann-lecun-here-s-why",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-10-09",
+   "slug": "peter-norvig-disagrees-with-yann-lecun-here-s-why",
+   "title": "Peter Norvig Disagrees With Yann LeCun. Here’s Why",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/peter_norvig_disagrees_with_yann_lecun_here_s_why",
+   "youtube": null,
+   "guests": [
+    "Peter Norvig"
+   ],
+   "durationMin": 18,
+   "summary": "Ksenia Se talks with Peter Norvig, co-author of Artificial Intelligence: A Modern Approach, at the AI Conference about four decades of AI. He discusses agents, why he thinks language models are already world models (disagreeing with Yann LeCun on the path forward), Google's layered feedback, AI in education, trust in AI leaders and open-source models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "cognitive-revolution/2026-10-08-ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salarie",
    "show": "cognitive-revolution",
    "showName": "The Cognitive Revolution",
@@ -1002,6 +1025,21 @@
    "partial": false
   },
   {
+   "key": "turing-post/2026-10-08-i-tried-openai-dots-how-much-can-i-hand-over",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-10-08",
+   "slug": "i-tried-openai-dots-how-much-can-i-hand-over",
+   "title": "I Tried OpenAI Dots: How Much Can I Hand Over?",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/i_tried_openai_dots_how_much_can_i_hand_over",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 16,
+   "summary": "Recorded at OpenAI DevDay 2026, Ksenia Se tests OpenAI Dots, an always-on personal assistant running on GPT-6 Astra with its own cloud computer, using her dot 'Turi' to clean up her email inboxes. She discusses proactive read-only background research and permissions, OpenAI's acquisitions behind its cloud infrastructure, competition from Grok Bot, Meta's Muse and Anthropic's Cowork, lock-in risks, and capability overhang.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-10-07-the-best-way-to-test-new-ai-models",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -1034,6 +1072,23 @@
    "partial": false
   },
   {
+   "key": "turing-post/2026-10-07-salesforce-s-rohan-kumar-on-the-unsolved-problem-holding-ai-agents-bac",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-10-07",
+   "slug": "salesforce-s-rohan-kumar-on-the-unsolved-problem-holding-ai-agents-bac",
+   "title": "Salesforce’s Rohan Kumar on the Unsolved Problem Holding AI Agents Back",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/salesforce_s_rohan_kumar_on_the_unsolved_problem_holding_ai_agents_back",
+   "youtube": null,
+   "guests": [
+    "Rohan Kumar"
+   ],
+   "durationMin": 15,
+   "summary": "Part of Turing Post's 'The Org Age of AI' series, Ksenia Se interviews Salesforce President and Chief Platform and Engineering Officer Rohan Kumar about the enterprise AI harness: agent registries, agent identity and permissions, data security, curated 'trusted context' and model routing by price-performance. Kumar argues the unsolved problem is capturing how businesses actually make decisions in agent-readable form, and discusses building with customers and what junior engineers should learn.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-10-06-point-counterpoint-consumers-will-never-pay-for-ai",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -1049,6 +1104,21 @@
    "partial": false
   },
   {
+   "key": "turing-post/2026-10-06-ai-that-acts-odyssey-3-helix-2-5-jev-deepmind-s-new-institute",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-10-06",
+   "slug": "ai-that-acts-odyssey-3-helix-2-5-jev-deepmind-s-new-institute",
+   "title": "AI That Acts: Odyssey-3, Helix 2.5, Jev & DeepMind’s New Institute",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/ai_that_acts_odyssey-3_helix_2_5_jev_deepmind_s_new_institute",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 16,
+   "summary": "Solo Attention Span episode in which Ksenia Se reviews AI news from September 14–19 on AI that understands and acts in the world: Odyssey-3, Reka's omni world model, Figure Helix 2.5, Agility Digit 5, the FAMOS and Workspace Models papers, Salesforce's self-evolving AI, Emergence's agent-attack experiment, TypeSafe AI's Jev, Google's household assistant, the Millennium Problems for Biology and the DeepMind Institute.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-10-05-why-companies-want-ai-they-can-own",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -1060,6 +1130,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover Amazon's $1B data center community pledge, Sam Altman's 'accept some bad things' remark, Scott Bessent on lab responsibility, and Meta open-sourcing Muse gadget firmware. The main episode explores the US open-weight model discourse across enterprise, safety and national security lenses, including Reflection AI's upcoming model, Nvidia's open-source push, enterprise sovereignty arguments from Alex Karp and Satya Nadella, and Jay Clayton's appointment as AI czar.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-10-05-is-jev-what-ai-has-been-missing-i-tested-it",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-10-05",
+   "slug": "is-jev-what-ai-has-been-missing-i-tested-it",
+   "title": "Is Jev What AI Has Been Missing? I Tested It.",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/is_jev_what_ai_has_been_missing_i_tested_it",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 17,
+   "summary": "Solo Attention Span episode in which Ksenia Se demos TypeSafe AI's Jev, a 'System One' decision model, in its playground and paired with Codex. She explains its RLCD training for calibrated decisions, founder Diogo Almeida's InstructGPT background, the 'just a classifier' debate, and early uses at Vercel and OpenCode.",
    "summarySource": "extraction",
    "partial": false
   },

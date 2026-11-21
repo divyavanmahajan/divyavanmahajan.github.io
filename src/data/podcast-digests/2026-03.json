@@ -4,9 +4,10 @@
  "end": "2026-03-31",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 55,
+ "episodeCount": 62,
  "counts": {
   "aidb": 28,
+  "turing-post": 7,
   "latent-space": 8,
   "cognitive-revolution": 8,
   "practical-ai": 3,
@@ -14,7 +15,7 @@
   "dwarkesh": 3,
   "no-priors": 2
  },
- "headline": "March was the month personal agents went mainstream: OpenClaw-style 'claws', Claude Cowork and cloud coding agents spread from hobbyists to every major lab and product. Underneath it, the hard questions moved to verification, governance, compute and who bears the cost for jobs, as AI became a political issue.",
+ "headline": "March was the month personal agents went mainstream: OpenClaw-style 'claws', Claude Cowork and cloud coding agents spread from hobbyists to every major lab and product. Underneath it, the hard questions moved to verification, governance, compute, open versus closed models and who bears the cost for jobs, as AI became a political issue.",
  "themes": [
   {
    "title": "Claws and personal agents everywhere",
@@ -45,9 +46,11 @@
   },
   {
    "title": "Engineers become agent managers",
-   "body": "Coding agents are changing how software gets built and reviewed. Cursor engineers demoed cloud agents that run in their own VMs, test with computer use and return demo videos, and named code review as the new bottleneck. Notion co-founder Simon Last described rewriting the AI harness every six months and moving from coder to agent manager. Steve Klabnik, a former self-described AI hater, built a programming language largely with Claude and stressed validation and spec-driven development. NLW sees vibe coding turning into multiplayer canvases.",
+   "body": "Coding agents are changing how software gets built and reviewed. Cursor engineers demoed cloud agents that run in their own VMs and named code review as the new bottleneck. OpenAI's Michael Bolin told Ksenia Se that harness engineering, from the agent loop and sandboxing to AGENTS.md, matters alongside the model, and that code reading and taste stay essential. Notion's Simon Last rewrites the harness every six months and now works as an agent manager. Steve Klabnik built a language largely with Claude, stressing validation and spec-driven development.",
    "eps": [
     "latent-space/2026-03-06-cursor-s-third-era-cloud-agents",
+    "turing-post/2026-03-17-openai-s-michael-bolin-on-codex-harness-engineering-and-the-real-futur",
+    "turing-post/2026-03-24-openai-s-michael-bolin-what-engineers-still-matter-for-in-the-age-of-c",
     "no-priors/2026-03-12-from-coder-to-manager-navigating-the-shift-to-agentic-engineering-with",
     "practical-ai/2026-03-17-humility-in-the-age-of-agentic-coding",
     "aidb/2026-03-12-what-vibe-coding-is-turning-into",
@@ -97,6 +100,19 @@
    ]
   },
   {
+   "title": "Open weights versus closed labs",
+   "body": "Turing Post ran a series of interviews on open models. Reflection AI CTO Ioannis Antonoglou explained the pivot from coding agents to a frontier open-weight agentic model, backed by a $2B Series B, and cited Chinese open labs as validation. Ai2's Nathan Lambert argued the US needs open models, said Chinese labs lead the open ecosystem and expects open models to trail closed ones by six to nine months. MiniMax's Olive Song discussed where open models fail in production. NLW noted Alibaba and Z.AI shifting toward closed models.",
+   "eps": [
+    "turing-post/2026-03-11-why-reflection-ai-bets-their-business-on-open-weights-ioannis-antonogl",
+    "turing-post/2026-03-11-what-reflection-ai-offers-to-beat-closed-labs",
+    "turing-post/2026-03-11-why-the-us-need-open-models-nathan-lambert-on-what-matters-in-the-ai-a",
+    "turing-post/2026-03-11-inside-minimax-how-they-build-open-models",
+    "aidb/2026-03-17-the-race-to-put-ai-agents-everywhere",
+    "no-priors/2026-03-20-andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai",
+    "latent-space/2026-03-30-mistral-voxtral-tts-forge-leanstral-what-s-next-for-mistral-4-w-pavan"
+   ]
+  },
+  {
    "title": "Labs refocus on professional work",
    "body": "OpenAI framed GPT-5.4 as a professional-work model with 1M context, computer use and tool search; NLW found it verbose and weak at UI but strong at error-free deployment. OpenAI then narrowed its focus: the product team was renamed AGI Deployment and Sora was shut down, which NLW reads as 'work AGI'. He argues AI products are converging because coding underpins all knowledge work, and asks whether vertical models like Intercom's Fin Apex and Cursor's Composer 2 are arriving. Mistral pitched its Forge customization platform.",
    "eps": [
@@ -106,18 +122,6 @@
     "aidb/2026-03-27-anthropic-accidentally-revealed-their-most-powerful-model-ever",
     "aidb/2026-03-17-the-race-to-put-ai-agents-everywhere",
     "latent-space/2026-03-30-mistral-voxtral-tts-forge-leanstral-what-s-next-for-mistral-4-w-pavan"
-   ]
-  },
-  {
-   "title": "Agent loops and AI for science",
-   "body": "Karpathy's AutoResearch, where an agent edits LLM training code under a fixed five-minute budget and keeps only improvements, led NLW to call agentic loops a new work primitive. Terence Tao told Dwarkesh that AI has made idea generation nearly free and verification is now the bottleneck, and expects human-AI hybrids to dominate mathematics. Heather Kulik explained why materials lack an AlphaFold-style breakthrough: scarce, low-fidelity data. Mistral discussed Leanstral for formal proving, and NLW covered an Australian using ChatGPT and AlphaFold for his dog's vaccine.",
-   "eps": [
-    "aidb/2026-03-09-autoresearch-agent-loops-and-the-future-of-work",
-    "no-priors/2026-03-20-andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai",
-    "dwarkesh/2026-03-20-terence-tao-kepler-newton-and-the-true-nature-of-mathematical-discover",
-    "latent-space/2026-03-24-why-there-is-no-alphafold-for-materials-ai-for-materials-discovery-wit",
-    "latent-space/2026-03-30-mistral-voxtral-tts-forge-leanstral-what-s-next-for-mistral-4-w-pavan",
-    "aidb/2026-03-16-a-guy-used-ai-to-cure-his-dogs-cancer"
    ]
   },
   {
@@ -133,15 +137,18 @@
    ]
   },
   {
-   "title": "Safety, interpretability and better evals",
-   "body": "UK AISI chief scientist Geoffrey Irving argued recent model misbehavior is all reward hacking and that current safety techniques may fail together. Goodfire's Dan Balsam and Tom McGrath described reducing hallucinations with probes and RL. Jassi Pannu proposed tiered controls on a small slice of high-risk biological data. Nathan Labenz surveyed reward hacking and deception for law students. NLW reviewed benchmark saturation and the launch of ARC-AGI-3, where frontier models score under 1%.",
+   "title": "Verification, safety and AI for science",
+   "body": "Karpathy's AutoResearch, where an agent edits LLM training code under a five-minute budget and keeps only improvements, led NLW to call agentic loops a new work primitive. Terence Tao told Dwarkesh that idea generation is now nearly free and verification is the bottleneck. UK AISI's Geoffrey Irving argued recent model misbehavior is all reward hacking and safety techniques may fail together; Goodfire described cutting hallucinations with probes and RL. Heather Kulik blamed scarce data for the missing 'AlphaFold for materials', and ARC-AGI-3 launched with frontier models under 1%.",
    "eps": [
+    "aidb/2026-03-09-autoresearch-agent-loops-and-the-future-of-work",
+    "dwarkesh/2026-03-20-terence-tao-kepler-newton-and-the-true-nature-of-mathematical-discover",
+    "no-priors/2026-03-20-andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai",
     "cognitive-revolution/2026-03-01-situational-awareness-in-government-with-uk-aisi-chief-scientist-geoff",
     "cognitive-revolution/2026-03-05-don-t-fight-backprop-goodfire-s-vision-for-intentional-design-w-dan-ba",
-    "cognitive-revolution/2026-03-11-bioinfohazards-jassi-pannu-on-controlling-dangerous-data-from-which-ai",
-    "cognitive-revolution/2026-03-16-ai-scouting-report-the-good-bad-weird-the-law-ai-certificate-program-b",
+    "latent-space/2026-03-24-why-there-is-no-alphafold-for-materials-ai-for-materials-discovery-wit",
     "aidb/2026-03-26-why-ai-needs-better-benchmarks",
-    "cognitive-revolution/2026-03-19-zvi-s-mic-works-recursive-self-improvement-live-player-analysis-anthro"
+    "cognitive-revolution/2026-03-11-bioinfohazards-jassi-pannu-on-controlling-dangerous-data-from-which-ai",
+    "cognitive-revolution/2026-03-16-ai-scouting-report-the-good-bad-weird-the-law-ai-certificate-program-b"
    ]
   }
  ],
@@ -149,10 +156,10 @@
   "Personal and desktop agents are arriving through vendors whether or not IT plans for them. Decide now which agent runtimes are allowed, where they run (local VM, cloud sandbox) and which accounts and data they can reach.",
   "Treat agent identity and access as an architecture problem. Guests from Box, Cisco and Composio all pointed to governed workspaces, scoped credentials and task-based permissions as the prerequisite for letting agents touch enterprise systems.",
   "As agents write more code, review and validation become the constraint. Invest in specs, automated tests and evaluation harnesses, and expect review tooling to carry real per-use costs that need budgeting.",
-  "Design the integration layer for agents, not just humans. CLIs, skills and well-documented APIs lower the cost of agent use, and keeping skills portable reduces lock-in to any single model vendor.",
+  "Design the integration layer for agents, not just humans. CLIs, skills and well-documented APIs lower the cost of agent use. Keeping skills portable and evaluating open-weight models alongside closed ones reduces lock-in to any single model vendor.",
   "AI is now a political and workforce issue. Pair adoption plans with clear messaging on role redesign and reskilling, and track emerging national AI rules and vendor-government disputes as supplier risk."
  ],
- "themesEpisodeCount": 55,
+ "themesEpisodeCount": 62,
  "episodes": [
   {
    "key": "aidb/2026-03-31-the-ultimate-ai-catch-up-guide",
@@ -166,6 +173,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "A beginner-focused episode explaining AI fundamentals (assistants vs. agents, models, context), rebutting common misconceptions about quality, slop, hallucination and prompting, and mapping the AI tool landscape. NLW suggests starting with research, analysis, strategy, writing and images, building software with vibe coding tools, and watching for confidence, sycophancy, steerability, outsourced judgment, work slop and addictiveness.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-03-31-inside-nvidia-s-plan-to-bring-self-driving-to-every-car-ali-kani-expla",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-03-31",
+   "slug": "inside-nvidia-s-plan-to-bring-self-driving-to-every-car-ali-kani-expla",
+   "title": "Inside NVIDIA’s Plan to Bring Self-Driving to Every Car | Ali Kani explains",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/inside_nvidia_s_plan_to_bring_self-driving_to_every_car_ali_kani_explains",
+   "youtube": null,
+   "guests": [
+    "Ali Kani"
+   ],
+   "durationMin": 34,
+   "summary": "Recorded during a test drive through San Francisco, Ksenia Se talks with NVIDIA automotive VP Ali Kani about NVIDIA's open autonomous-driving stack: the Alpamayo end-to-end reasoning model paired with the Halos classical safety stack. They cover the low-cost Level 2 sensor setup, the Hyperion Level 4 architecture, synthetic data and simulation (Cosmos, Omniverse, AlphaDream), regional driving rules, and plans for Level 4 trials.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -322,6 +346,23 @@
    "guests": [],
    "durationMin": 35,
    "summary": "MIT chemical engineering professor Heather Kulik discusses using machine learning and active learning for materials discovery, including an AI-designed tougher polymer and metal organic frameworks for CO2 capture. She explains why materials lack an AlphaFold-style breakthrough: scarce experimental data, low-fidelity DFT training sets, and highly variable bonding.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-03-24-openai-s-michael-bolin-what-engineers-still-matter-for-in-the-age-of-c",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-03-24",
+   "slug": "openai-s-michael-bolin-what-engineers-still-matter-for-in-the-age-of-c",
+   "title": "OpenAI’s Michael Bolin: What Engineers Still Matter For in the Age of Coding Agents",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/openai_s_michael_bolin_what_engineers_still_matter_for_in_the_age_of_coding_agents",
+   "youtube": null,
+   "guests": [
+    "Michael Bolin"
+   ],
+   "durationMin": 9,
+   "summary": "Second part of Ksenia Se's interview with Michael Bolin, lead for open-source Codex at OpenAI, on the human side of coding agents. They discuss building tools for agents, programmer identity when no longer typing code, key skills like code reading and taste, agents taking over code writing, risks of abandoning human judgment too early, and Cryptonomicon.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -552,6 +593,23 @@
    "partial": false
   },
   {
+   "key": "turing-post/2026-03-17-openai-s-michael-bolin-on-codex-harness-engineering-and-the-real-futur",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-03-17",
+   "slug": "openai-s-michael-bolin-on-codex-harness-engineering-and-the-real-futur",
+   "title": "OpenAI’s Michael Bolin on Codex, Harness Engineering, and the Real Future of Coding Agents",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/openai_s_michael_bolin_on_codex_harness_engineering_and_the_real_future_of_coding_agents",
+   "youtube": null,
+   "guests": [
+    "Michael Bolin"
+   ],
+   "durationMin": 22,
+   "summary": "Ksenia Se interviews Michael Bolin, lead for open-source Codex at OpenAI, about harness engineering: the agent loop, sandboxing, and the split between harness security and model safety. They discuss Codex's growth and new app, how coding agents change developer workflows and repositories (AGENTS.md), and whether the model or the harness matters more.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-03-16-a-guy-used-ai-to-cure-his-dogs-cancer",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -740,6 +798,74 @@
    ],
    "durationMin": 317,
    "summary": "Game designer Jeff Kaplan recounts his path from failed writer and obsessive EverQuest guild leader to Blizzard, where he designed quests and later directed World of Warcraft, worked on the canceled MMO Titan, and led Overwatch. He explains why he left Blizzard in 2021 amid Overwatch League and Overwatch 2 pressure, and introduces his new studio Kintsugiyama and its game The Legend of California, closing with views on game design, online toxicity, small studios and AI in game development.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-03-11-inside-minimax-how-they-build-open-models",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-03-11",
+   "slug": "inside-minimax-how-they-build-open-models",
+   "title": "Inside MiniMax: How They Build Open Models",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/inside_minimax_how_they_build_open_models",
+   "youtube": null,
+   "guests": [
+    "Olive Song"
+   ],
+   "durationMin": 32,
+   "summary": "Ksenia Se interviews Olive Song, senior researcher at MiniMax, about reinforcement learning, alignment and evaluation for MiniMax's open-weight coding models. Topics include the fp32 LM-head precision fix, reward hacking, open-source strategy, where open models fail in production, MiniMax 2.2, continual learning and AGI.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-03-11-what-reflection-ai-offers-to-beat-closed-labs",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-03-11",
+   "slug": "what-reflection-ai-offers-to-beat-closed-labs",
+   "title": "What Reflection AI offers to beat closed labs",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/what_reflection_ai_offers_to_beat_closed_labs",
+   "youtube": null,
+   "guests": [
+    "Ioannis Antonoglou"
+   ],
+   "durationMin": 16,
+   "summary": "Ksenia Se interviews Ioannis Antonoglou, co-founder and CTO of Reflection AI and ex-DeepMind AlphaGo engineer, about Reflection's pivot from autonomous coding agents to building a frontier open-weight general agentic model with pretraining plus reinforcement learning. They discuss AGI definitions, the $2B Series B, adoption as the key metric, RL research priorities, and advice for young researchers.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-03-11-why-reflection-ai-bets-their-business-on-open-weights-ioannis-antonogl",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-03-11",
+   "slug": "why-reflection-ai-bets-their-business-on-open-weights-ioannis-antonogl",
+   "title": "Why Reflection AI Bets Their Business on Open Weights | Ioannis Antonoglou, co-founder and CTO",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/why_reflection_ai_bets_their_business_on_open_weights_ioannis_antonoglou_co-founder_and_cto",
+   "youtube": null,
+   "guests": [
+    "Ioannis Antonoglou"
+   ],
+   "durationMin": 10,
+   "summary": "In Part 1 of an Inference interview, Ksenia Se talks with Ioannis Antonoglou, former DeepMind founding engineer and now co-founder and CTO of Reflection AI, about why the company bets on open-weight frontier models and reinforcement learning. They discuss Chinese open labs as validation, openness and safety (including OpenClaw), concentration of AI power in closed labs, and the value of open frontier models for researchers, enterprises and governments.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-03-11-why-the-us-need-open-models-nathan-lambert-on-what-matters-in-the-ai-a",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-03-11",
+   "slug": "why-the-us-need-open-models-nathan-lambert-on-what-matters-in-the-ai-a",
+   "title": "Why the US need Open Models | Nathan Lambert on what matters in the AI and science world",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/why_the_us_need_open_models_nathan_lambert_on_what_matters_in_the_ai_and_science_world",
+   "youtube": null,
+   "guests": [
+    "Nathan Lambert"
+   ],
+   "durationMin": 47,
+   "summary": "Ksenia Se interviews Nathan Lambert of the Allen Institute for AI about why open models matter for US AI research and policy, why Chinese labs lead the open ecosystem, and why he expects open models to stay six to nine months behind closed ones. They also cover post-training complexity, hybrid architectures, continual learning, enterprise adoption economics, data center build-out and AGI.",
    "summarySource": "extraction",
    "partial": false
   },

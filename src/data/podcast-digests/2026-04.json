@@ -4,7 +4,7 @@
  "end": "2026-04-30",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 57,
+ "episodeCount": 59,
  "counts": {
   "aidb": 29,
   "dwarkesh": 3,
@@ -12,6 +12,7 @@
   "cognitive-revolution": 8,
   "no-priors": 4,
   "practical-ai": 4,
+  "turing-post": 2,
   "lex-fridman": 1
  },
  "headline": "April was dominated by Anthropic's withheld Claude Mythos model and a dense release cycle of GPT-5.5, Opus 4.7, the new Codex and Claude Design. Underneath it, the shows converged on the harness around the model, and the usage-based pricing and compute limits that agentic workloads now force, as the real story.",
@@ -121,10 +122,11 @@
   },
   {
    "title": "Physical AI, world models and science",
-   "body": "Applied Intuition's Qasar Younis and Peter Ludwig described autonomy models for cars, trucks, mining and defense, and Comma AI's Harald Schäfer explained training driving policies inside a learned world-model simulator. Moonlake's Chris Manning and Fan-yun Sun argued for multimodal, interactive world models. Roboflow's Joseph Nelson covered distilling vision models for the edge. Liam Fedus said AI science needs closed-loop physical experiments at Periodic Labs, and Noetik described a $50M model licensing deal with GSK for cancer trials.",
+   "body": "Applied Intuition's Qasar Younis and Peter Ludwig described autonomy models for cars, trucks, mining and defense, and Comma AI's Harald Schäfer explained training driving policies inside a learned world-model simulator. NVIDIA's Sanja Fidler told Turing Post that transformers and world models are not competing, and traced driving simulation toward the interactive Alpa Dreams model. Moonlake's Chris Manning argued for multimodal, interactive world models. Liam Fedus said AI science needs closed-loop physical experiments, and Noetik described a $50M model licensing deal with GSK.",
    "eps": [
     "latent-space/2026-04-27-physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-applied-int",
     "practical-ai/2026-04-16-open-source-self-driving-with-comma-ai",
+    "turing-post/2026-04-07-transformers-are-not-the-end-game-world-models-physical-ai-and-ai-s-ne",
     "latent-space/2026-04-02-moonlake-causal-world-models-should-be-multimodal-interactive-and-effi",
     "cognitive-revolution/2026-04-04-training-the-ais-eyes-how-roboflow-is-making-the-real-world-programmab",
     "no-priors/2026-04-03-ai-for-atoms-how-periodic-labs-is-revolutionizing-materials-engineerin",
@@ -140,7 +142,7 @@
   "Invest in people and shared platforms, not only licences. The adoption studies point to gaps in leadership, training, data and outcome measurement, and organization-level platforms like Ramp's Glass raise the floor more than individual tool access does.",
   "Standardize skills, context and memory as reusable assets. Skill libraries, portable context files and MCP servers reduce lock-in across converging agent tools, but they need governance, testing and ownership like any other shared enterprise component."
  ],
- "themesEpisodeCount": 57,
+ "themesEpisodeCount": 59,
  "episodes": [
   {
    "key": "aidb/2026-04-30-how-harness-as-a-service-will-change-agents",
@@ -407,6 +409,23 @@
    ],
    "durationMin": 72,
    "summary": "Shopify CTO Mikhail Parakhin walks through Shopify's internal AI adoption data, including a December 2025 inflection in tool usage and an unlimited token budget with an Opus 4.6 minimum, and argues for expensive-model PR review over parallel agent swarms. He describes the Tangle experimentation platform, the Tangent auto-research loop, the SimGym customer simulator, Shopify's use of Liquid AI models, and Bing Sydney history.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-04-22-ai-could-change-education-forever-neeru-khosla-explains-why",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-04-22",
+   "slug": "ai-could-change-education-forever-neeru-khosla-explains-why",
+   "title": "AI Could Change Education Forever – Neeru Khosla Explains Why",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/ai_could_change_education_forever_neeru_khosla_explains_why",
+   "youtube": null,
+   "guests": [
+    "Neeru Khosla"
+   ],
+   "durationMin": 35,
+   "summary": "Ksenia Se interviews Neeru Khosla, co-founder of the CK-12 Foundation, about how AI can reveal how students think, CK-12's AI tutor Flexi, and why standardized testing and public-school inertia slow change. They discuss prompting as a learning skill, AI literacy, the five C's, philanthropy and free education, and Khosla's path from molecular biology to education.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -854,6 +873,23 @@
    ],
    "durationMin": 73,
    "summary": "OpenAI's Ryan Lopopolo describes building a million-line Electron app over five months with zero human-written code using Codex, and the harness engineering practices that made it work: fast builds, observability, skills, review agents and encoding non-functional requirements as text. He introduces Symphony, an Elixir-based agent orchestrator distributed as a spec, and OpenAI Frontier, the enterprise agent platform.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-04-07-transformers-are-not-the-end-game-world-models-physical-ai-and-ai-s-ne",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-04-07",
+   "slug": "transformers-are-not-the-end-game-world-models-physical-ai-and-ai-s-ne",
+   "title": "Transformers Are Not the End Game | World Models, Physical AI, and AI’s Next Frontier",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/transformers_are_not_the_end_game_world_models_physical_ai_and_ai_s_next_frontier",
+   "youtube": null,
+   "guests": [
+    "Sanja Fidler"
+   ],
+   "durationMin": 18,
+   "summary": "Recorded at NVIDIA GTC, Ksenia Se interviews Sanja Fidler, VP of AI Research at NVIDIA and head of its Spatial Intelligence Lab, about world models, spatial intelligence and physical AI. Fidler explains why transformers and world models are not competing, the evolution of driving simulation toward the interactive Alpa Dreams model, missing modalities like touch and radar, and when physical AI might have a ChatGPT moment.",
    "summarySource": "extraction",
    "partial": false
   },

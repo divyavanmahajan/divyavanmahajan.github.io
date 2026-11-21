@@ -4,21 +4,22 @@
  "end": "2026-11-30",
  "inProgress": true,
  "generated": "2026-11-21",
- "episodeCount": 39,
+ "episodeCount": 41,
  "counts": {
   "cognitive-revolution": 6,
-  "aidb": 17,
+  "aidb": 18,
   "latent-space": 7,
   "lex-fridman": 2,
   "no-priors": 3,
   "practical-ai": 3,
+  "turing-post": 1,
   "dwarkesh": 1
  },
- "headline": "November was dominated by Jensen Huang's ouster from Nvidia over an alleged Chinese spy affair and by Anthropic's IPO, which pulled chip export controls and AI valuations into Washington politics. Underneath, enterprise AI spend kept climbing while warnings about recursive self-improvement grew louder.",
+ "headline": "November was dominated by Jensen Huang's ouster from Nvidia over an alleged Chinese spy affair and by Anthropic's record IPO, which pulled chip export controls and AI valuations into Washington politics. Underneath, enterprise AI spend and coding-agent use kept climbing while warnings about recursive self-improvement grew louder.",
  "themes": [
   {
    "title": "Nvidia's leadership crisis and chip politics",
-   "body": "Jensen Huang admitted an affair with Megaspeed executive Alice Huang, whom US intelligence suspects of being a Chinese spy, and was ousted as Nvidia CEO, with Colette Kress as interim CEO. NLW tracks the fallout: the Lutnick export-control reporting, bipartisan chip export bills in the lame duck session, a Commerce rule on remote chip access and the Nvidia board ruling out Huang's return. Former Biden advisors Ben Buchanan and Tantum Collins defend building a compute lead over China and spending it on safety.",
+   "body": "Jensen Huang admitted an affair with Megaspeed executive Alice Huang, whom US intelligence suspects of being a Chinese spy, and was ousted as Nvidia CEO, with Colette Kress as interim CEO. NLW tracks the fallout: the Lutnick export-control reporting, bipartisan chip export bills in the lame duck session, a Commerce rule on remote chip access, Chinese reaction to new US export rules and the Nvidia board ruling out Huang's return. Former Biden advisors Ben Buchanan and Tantum Collins defend building a compute lead over China and spending it on safety.",
    "eps": [
     "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy",
     "aidb/2026-11-12-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
@@ -27,12 +28,13 @@
     "aidb/2026-11-17-how-business-ai-use-is-changing",
     "aidb/2026-11-18-why-the-ai-kids-hate-astra-62",
     "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
-    "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins"
+    "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
+    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable"
    ]
   },
   {
    "title": "Anthropic goes public",
-   "body": "Anthropic proceeded with its IPO at falling valuations after the worst AI stock drawdown since 2020, driven by hedge fund deleveraging. NLW says Wall Street has no idea what it is worth, pointing to the pricing range, compute commitments including a troubled Lambda deal and a productivity suite aimed at Microsoft. On IPO day he ranked the ten biggest days in AI history. The AI:AM hosts discussed the amended S-1, and NLW highlights its language on approaching a recursive self-improvement danger threshold.",
+   "body": "Anthropic proceeded with its IPO at falling valuations after the worst AI stock drawdown since 2020. NLW says Wall Street has no idea what it is worth, pointing to compute commitments including a troubled Lambda deal and a productivity suite aimed at Microsoft. On IPO day he ranked the ten biggest days in AI history, then covered the record $107 billion offering's aftermath. The AI:AM hosts discussed the amended S-1, and NLW highlights its language on approaching a recursive self-improvement danger threshold.",
    "eps": [
     "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
     "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy",
@@ -40,7 +42,8 @@
     "aidb/2026-11-19-the-10-biggest-days-in-ai-history",
     "aidb/2026-11-16-5-questions-that-could-reshape-ai",
     "aidb/2026-11-03-ai-lurches-toward-recursive-self-improvement",
-    "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp"
+    "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
+    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable"
    ]
   },
   {
@@ -59,7 +62,7 @@
   },
   {
    "title": "Enterprise spend and AI-native operating models",
-   "body": "Menlo Ventures reports enterprise AI spend up nearly 5x per company, driven by agents, and Ramp, Databricks and Arcana Research data show token usage outpacing spend, more model switching and an Anthropic lead in enterprise. NLW distills seven habits of AI-native firms such as Stripe, Shopify and Ramp, from full context for agents to risk-scaled human review. Mihail Eric's Stanford course teaches agent-ready codebases and the software factory, Scotiabank's Gautham Pallapa rethinks the SDLC in a risk-averse bank, and Noblis CIO Mark Lay names four organizational AI decisions.",
+   "body": "Menlo Ventures reports enterprise AI spend up nearly 5x per company, driven by agents, and Ramp, Databricks and Arcana Research data show token usage outpacing spend, more model switching and an Anthropic lead in enterprise. NLW distills seven habits of AI-native firms. Simon Willison tells Turing Post's Ksenia Se that coding agents have hit an inflection point yet made his work harder. Mihail Eric's Stanford course teaches agent-ready codebases. Scotiabank's Gautham Pallapa rethinks the SDLC in a risk-averse bank and Noblis CIO Mark Lay names four AI decisions.",
    "eps": [
     "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now",
     "aidb/2026-11-17-how-business-ai-use-is-changing",
@@ -67,28 +70,32 @@
     "latent-space/2026-11-08-one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee",
     "practical-ai/2026-11-19-building-human-centered-ai",
     "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2",
-    "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai"
+    "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
+    "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software"
    ]
   },
   {
    "title": "Model releases and the jagged frontier",
-   "body": "Anthropic's Fable 5.2 and Mythos 5.2 set benchmark records, but NLW finds them jagged and notes many users still prefer Opus 5.5. OpenAI's GPT-6.2 Astra and Sol drew harsh early reactions over coding regressions, weighed against cost efficiency and a possible shift toward enterprise knowledge work. Google publicly released Gemini 4 Carbon. NLW calls Opus 5.5 a step change for agentic video editing. Black Forest Labs describes FLUX 3 as one model for images, video and audio, and Handshake AI explains how labs buy expert data and RL environments.",
+   "body": "Anthropic's Fable 5.2 and Mythos 5.2 set benchmark records, but NLW finds them jagged and notes many users still prefer Opus 5.5, which he calls a step change for agentic video. OpenAI's GPT-6.2 Astra and Sol drew harsh early reactions over coding regressions. Google released Gemini 4 Carbon and later Gemini 4 Neon, which NLW recommends for its different perspective. Simon Willison discusses how he evaluates models. Black Forest Labs presents FLUX 3 as one multimodal model, and Handshake AI explains how labs buy expert data.",
    "eps": [
     "aidb/2026-11-10-fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet",
     "aidb/2026-11-18-why-the-ai-kids-hate-astra-62",
     "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
     "aidb/2026-11-08-agentic-video-is-real-and-heres-what-you-should-try",
     "latent-space/2026-11-16-building-visual-intelligence-andreas-blattmann-dustin-podell-black-for",
-    "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord"
+    "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord",
+    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable",
+    "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software"
    ]
   },
   {
    "title": "Designing products for agents",
-   "body": "Linear COO Cristina Cordova describes repositioning around agents after Karri Saarinen's 'issue tracking is dead' post, with an MCP server, an agent platform and usage-based pricing for AI features. Resend's Zeno Rocha serves agents through an 80-tool MCP server, a CLI and machine-readable pages. Cisco's Vijoy Pandey presents the open-source Scope observability platform and the Accord and Concord protocols for semantic alignment between enterprise agents. Legora's Jacob Lauritzen runs evals without seeing confidential client data, and smaller banks are enabling agentic payments.",
+   "body": "Linear COO Cristina Cordova describes repositioning around agents after Karri Saarinen's 'issue tracking is dead' post, with an MCP server, an agent platform and usage-based pricing for AI features. Resend's Zeno Rocha serves agents through an 80-tool MCP server, a CLI and machine-readable pages. Cisco's Vijoy Pandey presents the open-source Scope observability platform and the Accord and Concord protocols for aligning enterprise agents. Simon Willison warns builders about the lethal trifecta and prompt injection, and Legora's Jacob Lauritzen runs evals without seeing confidential client data.",
    "eps": [
     "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
     "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend",
     "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment",
+    "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
     "latent-space/2026-11-02-building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto",
     "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech"
    ]
@@ -120,11 +127,11 @@
  "implications": [
   "Track compute supply as a political risk as well as a market one. Leadership changes at a dominant chip vendor, tighter export rules and remote-access restrictions can change compute pricing and availability with little notice.",
   "Expect enterprise AI spend to keep rising as agents spread. Monitor token usage per workflow, plan for frequent model switching and negotiate contracts that do not lock you into one provider's pricing.",
-  "Design internal systems so agents are first-class users: documented APIs, MCP servers, CLIs and machine-readable documentation, plus observability that shows what agents did and why.",
+  "Design internal systems so agents are first-class users: documented APIs, MCP servers, CLIs and machine-readable documentation, plus observability that shows what agents did and why and defenses against prompt injection.",
   "Do not choose models on launch benchmarks. New flagships arrive jagged, with regressions on some tasks, so keep task-level evaluations and let teams stay on older models where those still perform better.",
   "Prepare governance for faster AI progress and stricter rules. Independent lab evaluations, pause proposals and state-level data center fights suggest controls on frontier systems and infrastructure could tighten quickly."
  ],
- "themesEpisodeCount": 39,
+ "themesEpisodeCount": 41,
  "episodes": [
   {
    "key": "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
@@ -141,6 +148,21 @@
    ],
    "durationMin": null,
    "summary": "Former Biden White House AI advisors Ben Buchanan and Tantum Collins discuss their book The Bitter Struggle: how they became convinced of scaling laws, the export-control strategy of building a compute lead over China and spending it on safety, and the record of US-China AI diplomacy. Nathan Labenz pushes on cooperation with China ('chips for controls'), and the guests cover lab regulation, pacing, AI as an electoral issue, the 'Bitter Temptation' of AI-enabled centralized government, and likely first AI emergencies in cyber and bio.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-20",
+   "slug": "why-you-should-try-gemini-neon-even-if-you-love-fable",
+   "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
+   "url": "https://www.patreon.com/posts/175910169",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover the day after Anthropic's record $107 billion IPO, an AMD short report, Chinese reaction to new US chip export rules, and a White House cybersecurity personnel change. The main episode examines Google's Gemini 4 Neon, its benchmark results, and NLW's view that its different perspective is valuable despite it being a pushover. It closes with Apple's reported computer-use agent plans.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -224,6 +246,23 @@
    ],
    "durationMin": 45,
    "summary": "Chris Benson interviews Gautham Pallapa, Principal Director of AI and Innovation at Scotiabank and co-author of the book Invaluable, about adopting generative and agentic AI in a risk-averse bank. Topics include his value-first transformation framework, keeping people central as coding becomes low-value work, a startup-style internship program, rethinking the software development lifecycle, and multi-agent team patterns.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-11-19",
+   "slug": "simon-willison-on-ai-coding-agents-and-weird-software",
+   "title": "Simon Willison on AI Coding Agents and Weird Software",
+   "url": "https://www.turingpost.com/p/simon-willison-on-ai-agents-the-future-of-software-and-why-we-should-build-weirder-things",
+   "youtube": "https://www.youtube.com/watch?v=9C8JZTmpbE4",
+   "guests": [
+    "Simon Willison"
+   ],
+   "durationMin": null,
+   "summary": "Ksenia Se interviews independent developer Simon Willison at an AI Engineer conference about evaluating models, the coding-agent inflection point, and why agents have made his work harder. They also cover data tools for journalism, the lethal trifecta and prompt injection, local models, and AI-built games, with Willison urging builders to 'go weird'.",
    "summarySource": "extraction",
    "partial": false
   },

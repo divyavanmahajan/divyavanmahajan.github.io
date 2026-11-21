@@ -4,13 +4,14 @@
  "end": "2026-01-31",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 48,
+ "episodeCount": 49,
  "counts": {
   "aidb": 26,
   "cognitive-revolution": 8,
   "no-priors": 4,
   "latent-space": 6,
   "practical-ai": 3,
+  "turing-post": 1,
   "lex-fridman": 1
  },
  "headline": "January belonged to Claude Code: after a holiday surge around Opus 4.5, hosts across shows asked whether code AGI is already functional AGI, and Claude Cowork carried the same agent into non-coding work. Underneath it ran a widening gap between the people and companies who reorganise around agents and everyone else, with jobs, capital and governance debates trying to catch up.",
@@ -70,12 +71,13 @@
   },
   {
    "title": "The fight over context and data",
-   "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces beyond systems of record. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, while MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. Apple's choice of Gemini to power Siri moved the context fight to the device.",
+   "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, and MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. On Turing Post, Mozilla CTO Raffi Krikorian argues for user-owned, portable context, a four-layer 'LAMP stack for AI' and building in model choice early. Apple's Gemini-powered Siri moved the fight to the device.",
    "eps": [
     "aidb/2026-01-15-ais-battle-for-your-context",
     "aidb/2026-01-05-context-graphs-ais-next-big-idea",
     "cognitive-revolution/2026-01-14-bringing-ai-to-data-agent-design-text-2-sql-rag-more-w-snowflake-vp-of",
     "no-priors/2026-01-22-no-priors-live-building-durable-software-in-the-ai-age-with-mongodb-pr",
+    "turing-post/2026-01-27-this-is-a-fight-worth-having-the-case-for-open-source-ai-raffi-krikori",
     "aidb/2026-01-12-google-to-officially-power-apple-ai-siri",
     "aidb/2026-01-09-how-people-are-using-ai-for-health"
    ]
@@ -135,11 +137,11 @@
  "implications": [
   "Agentic coding tools are now being used for non-coding work as well. Architects should plan for agents that read local files, run for long stretches and coordinate sub-agents, and set permission, security and prompt-injection controls before adoption spreads informally.",
   "Survey data cited this month links financial returns to deep integration rather than scattered pilots. Treat AI as process redesign with executive ownership, and measure where work has actually been restructured, not how many tools were licensed.",
-  "Context is becoming the contested asset. Decide where enterprise data, decision traces and permissions live, prefer bringing models to governed data, and keep systems of record positioned as the platform that agents and future products will plug into.",
+  "Context is becoming the contested asset. Decide where enterprise data, decision traces and permissions live, prefer bringing models to governed data, keep context portable across vendors, and build in model choice early so systems of record stay the platform agents plug into.",
   "Independent evaluations and leaderboards can be gamed or misread. Build internal evals on your own tasks, track cost per outcome alongside capability, and expect total AI spend to grow even as the price per unit of intelligence falls.",
   "Workforce exposure is uneven. Pair agent rollouts with skills programs for directing agents and redesigning processes, and identify roles with high exposure and low adaptability early so transitions are planned rather than reactive."
  ],
- "themesEpisodeCount": 48,
+ "themesEpisodeCount": 49,
  "episodes": [
   {
    "key": "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook",
@@ -267,6 +269,23 @@
    ],
    "durationMin": 48,
    "summary": "Daniel Whitenack and Chris Benson talk with security technologist Bruce Schneier about his book with Nathan Sanders on how AI will transform politics, government and citizenship. Schneier covers AI in elections, legislation, administration, courts and citizen organizing, argues for public AI models like Switzerland's, warns of severe job disruption, and urges tech workers to act as a moral compass.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-01-27-this-is-a-fight-worth-having-the-case-for-open-source-ai-raffi-krikori",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-01-27",
+   "slug": "this-is-a-fight-worth-having-the-case-for-open-source-ai-raffi-krikori",
+   "title": "This Is a Fight Worth Having: The Case for Open Source AI | Raffi Krikorian, Mozilla CTO",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/this_is_a_fight_worth_having_the_case_for_open_source_ai_raffi_krikorian_mozilla_cto",
+   "youtube": null,
+   "guests": [
+    "Raffi Krikorian"
+   ],
+   "durationMin": 26,
+   "summary": "Ksenia Se opens Inference's open source AI series with Mozilla CTO Raffi Krikorian, discussing when open source AI becomes an economic rather than ideological choice. Krikorian proposes a four-layer 'LAMP stack for AI', describes Mozilla's Choice Suite and Data Collective, and argues for user-owned, portable context and building in model choice early.",
    "summarySource": "extraction",
    "partial": false
   },

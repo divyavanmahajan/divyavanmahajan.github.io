@@ -1,58 +1,130 @@
 {
   "period": "2026-01",
-  "episodeCount": 48,
+  "episodeCount": 49,
   "headline": "January belonged to Claude Code: after a holiday surge around Opus 4.5, hosts across shows asked whether code AGI is already functional AGI, and Claude Cowork carried the same agent into non-coding work. Underneath it ran a widening gap between the people and companies who reorganise around agents and everyone else, with jobs, capital and governance debates trying to catch up.",
   "themes": [
     {
       "title": "Claude Code and code AGI",
       "body": "NLW describes a holiday surge of excitement around Claude Code and Opus 4.5 as an AI coding inflection point, then argues that code AGI is functional AGI because coding is a universal lever. Nathan Labenz asks the same question in his AMA, and Practical AI calls 2025 the year agentic coding leapt with Opus 4.5 and GPT-5.2. Claude Code reportedly wrote 100% of Boris Cherny's Claude Code contributions, broke into mainstream press, and Claude Cowork brings it to non-coding work.",
-      "eps": ["aidb/2026-01-08", "aidb/2026-01-18", "cognitive-revolution/2026-01-09", "practical-ai/2026-01-09", "aidb/2026-01-13", "aidb/2026-01-03", "aidb/2026-01-21", "aidb/2026-01-25"]
+      "eps": [
+        "aidb/2026-01-08",
+        "aidb/2026-01-18",
+        "cognitive-revolution/2026-01-09",
+        "practical-ai/2026-01-09",
+        "aidb/2026-01-13",
+        "aidb/2026-01-03",
+        "aidb/2026-01-21",
+        "aidb/2026-01-25"
+      ]
     },
     {
       "title": "Longer-running agents: loops, swarms, personal agents",
       "body": "The practice of vibe coding shifted toward extending agent autonomy: NLW explains Cursor's multi-agent browser experiment, the Ralph Wiggum loop and Clawdbot on Mac minis, then asks whether Kimi K2.5's Agent Swarm makes 2026 the year of swarms. By month's end 100,000 agents had joined Moltbook. Daniel Miessler shows his Claude Code-based Personal AI Infrastructure, Brex CTO James Reggio a custom multi-agent network, and Dominic Williams proposes governing unstoppable agents through model ensembles and consensus.",
-      "eps": ["aidb/2026-01-26", "aidb/2026-01-28-are-agent-swarms-the-nex", "aidb/2026-01-31", "cognitive-revolution/2026-01-18", "latent-space/2026-01-17", "cognitive-revolution/2026-01-25"]
+      "eps": [
+        "aidb/2026-01-26",
+        "aidb/2026-01-28-are-agent-swarms-the-nex",
+        "aidb/2026-01-31",
+        "cognitive-revolution/2026-01-18",
+        "latent-space/2026-01-17",
+        "cognitive-revolution/2026-01-25"
+      ]
     },
     {
       "title": "Leaders, laggards and the acceleration gap",
       "body": "Several episodes describe a compounding divide. NLW cites PwC, Workday and Section surveys showing deep integration triples the likelihood of financial returns, KPMG and BCG data showing AI strategy moving from CIO-led to CEO-led, OpenAI's 'capabilities overhang', and Kevin Roose's inside-outside gap. He warns that frontier and enterprise deployment have diverged. Brex shows the operator side: an internal AI startup, KYC and underwriting automation, and flat engineering headcount as the business grew.",
-      "eps": ["aidb/2026-01-22-the-3x-payoff-of-deep-ai", "aidb/2026-01-17", "aidb/2026-01-21", "aidb/2026-01-28-the-ai-acceleration-gap", "aidb/2026-01-18", "latent-space/2026-01-17", "no-priors/2026-01-22"]
+      "eps": [
+        "aidb/2026-01-22-the-3x-payoff-of-deep-ai",
+        "aidb/2026-01-17",
+        "aidb/2026-01-21",
+        "aidb/2026-01-28-the-ai-acceleration-gap",
+        "aidb/2026-01-18",
+        "latent-space/2026-01-17",
+        "no-priors/2026-01-22"
+      ]
     },
     {
       "title": "Work, jobs and who adapts",
       "body": "Jobs were a recurring thread. An NBER study NLW reviews finds 6.1 million US workers with high AI exposure and low adaptability, 86% of them women. Luke Drago warns of 'pyramid replacement' of white-collar jobs and power concentration; Bruce Schneier warns of severe disruption; Labenz discusses UBI. Jensen Huang counters that AI creates jobs via a task-versus-purpose framework, and Aaron Levie argues cheaper knowledge work expands demand. Tailwind's 75% engineering layoff showed the disruption reaching business models.",
-      "eps": ["aidb/2026-01-24", "cognitive-revolution/2026-01-01", "practical-ai/2026-01-27", "cognitive-revolution/2026-01-22", "no-priors/2026-01-08", "aidb/2026-01-04", "aidb/2026-01-11", "aidb/2026-01-10-what-happens-when-ai-obl"]
+      "eps": [
+        "aidb/2026-01-24",
+        "cognitive-revolution/2026-01-01",
+        "practical-ai/2026-01-27",
+        "cognitive-revolution/2026-01-22",
+        "no-priors/2026-01-08",
+        "aidb/2026-01-04",
+        "aidb/2026-01-11",
+        "aidb/2026-01-10-what-happens-when-ai-obl"
+      ]
     },
     {
       "title": "The fight over context and data",
-      "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces beyond systems of record. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, while MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. Apple's choice of Gemini to power Siri moved the context fight to the device.",
-      "eps": ["aidb/2026-01-15-ais-battle-for-your-cont", "aidb/2026-01-05", "cognitive-revolution/2026-01-14", "no-priors/2026-01-22", "aidb/2026-01-12", "aidb/2026-01-09"]
+      "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, and MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. On Turing Post, Mozilla CTO Raffi Krikorian argues for user-owned, portable context, a four-layer 'LAMP stack for AI' and building in model choice early. Apple's Gemini-powered Siri moved the fight to the device.",
+      "eps": [
+        "aidb/2026-01-15-ais-battle-for-your-cont",
+        "aidb/2026-01-05",
+        "cognitive-revolution/2026-01-14",
+        "no-priors/2026-01-22",
+        "turing-post/2026-01-27",
+        "aidb/2026-01-12",
+        "aidb/2026-01-09"
+      ]
     },
     {
       "title": "Bubble talk, capital and compute",
       "body": "Money kept flowing: Anthropic raised $10B at a $350B valuation and then an oversubscribed $20B+ round, Meta bought Manus for $2B+, and Nvidia struck a $20B licensing deal with Groq. Jensen Huang says inference tokens are profitable and rejects the bubble narrative; Labenz weighs the question too. Markets split on Meta and Microsoft earnings. Artificial Analysis describes a 'smiling curve' of falling per-intelligence cost but rising total spend, while CES showed Nvidia's Vera Rubin and AMD's MI455.",
-      "eps": ["aidb/2026-01-30", "no-priors/2026-01-08", "cognitive-revolution/2026-01-09", "aidb/2026-01-03", "aidb/2026-01-09", "aidb/2026-01-28-are-agent-swarms-the-nex", "latent-space/2026-01-08", "aidb/2026-01-07"]
+      "eps": [
+        "aidb/2026-01-30",
+        "no-priors/2026-01-08",
+        "cognitive-revolution/2026-01-09",
+        "aidb/2026-01-03",
+        "aidb/2026-01-09",
+        "aidb/2026-01-28-are-agent-swarms-the-nex",
+        "latent-space/2026-01-08",
+        "aidb/2026-01-07"
+      ]
     },
     {
       "title": "Evals and the research frontier",
       "body": "Latent Space opened the year on measurement. LMArena's Anastasios Angelopoulos discusses its $100M raise and responds to the Leaderboard Illusion paper; Artificial Analysis explains its Intelligence Index, Omniscience hallucination index and how it keeps evals unmanipulated. On research, Yi Tay describes training Gemini Deep Think to IMO gold with on-policy RL, Princeton's NeurIPS best paper scales RL networks to 1,000 layers, and Andrew White of Edison Scientific discusses the Cosmos AI scientist and reward hacking.",
-      "eps": ["latent-space/2026-01-06", "latent-space/2026-01-08", "latent-space/2026-01-23", "latent-space/2026-01-02", "latent-space/2026-01-28", "cognitive-revolution/2026-01-22"]
+      "eps": [
+        "latent-space/2026-01-06",
+        "latent-space/2026-01-08",
+        "latent-space/2026-01-23",
+        "latent-space/2026-01-02",
+        "latent-space/2026-01-28",
+        "cognitive-revolution/2026-01-22"
+      ]
     },
     {
       "title": "Safety, law and government",
       "body": "At Davos, Dario Amodei and Demis Hassabis put AGI at two versus five years away and debated chip sales to China. Ryan Kidd of MATS discusses deception and eval awareness in frontier models, and Wrynx's Alizishaan Khatri pitches model-native safety that instruments internal activations. Kevin Frazier and Alan Rozenshtein cover Claude's constitution and a right to compute; Schneier argues for public AI models. Emil Michael says GenAI.mil reached over a million users in 30 days.",
-      "eps": ["aidb/2026-01-22-agi-timelines-shift-forw", "cognitive-revolution/2026-01-04", "practical-ai/2026-01-20", "cognitive-revolution/2026-01-29", "practical-ai/2026-01-27", "no-priors/2026-01-15", "aidb/2026-01-31"]
+      "eps": [
+        "aidb/2026-01-22-agi-timelines-shift-forw",
+        "cognitive-revolution/2026-01-04",
+        "practical-ai/2026-01-20",
+        "cognitive-revolution/2026-01-29",
+        "practical-ai/2026-01-27",
+        "no-priors/2026-01-15",
+        "aidb/2026-01-31"
+      ]
     },
     {
       "title": "Consumer AI: ads and health",
       "body": "OpenAI announced ad tests in ChatGPT's Free and Go tiers, and NLW proposes user controls, pay-for-results transactions and branded agents to keep them useful; later reports put ChatGPT ads at a $60 CPM, while Hassabis said Google has no plans for Gemini ads. Health was the other consumer front: OpenAI launched ChatGPT Health, Anthropic Claude for Healthcare, and Nathan Labenz describes using frontier models for decisions in his son's cancer treatment.",
-      "eps": ["aidb/2026-01-19", "aidb/2026-01-28-the-ai-acceleration-gap", "aidb/2026-01-22-agi-timelines-shift-forw", "aidb/2026-01-09", "aidb/2026-01-12", "cognitive-revolution/2026-01-09"]
+      "eps": [
+        "aidb/2026-01-19",
+        "aidb/2026-01-28-the-ai-acceleration-gap",
+        "aidb/2026-01-22-agi-timelines-shift-forw",
+        "aidb/2026-01-09",
+        "aidb/2026-01-12",
+        "cognitive-revolution/2026-01-09"
+      ]
     }
   ],
   "implications": [
     "Agentic coding tools are now being used for non-coding work as well. Architects should plan for agents that read local files, run for long stretches and coordinate sub-agents, and set permission, security and prompt-injection controls before adoption spreads informally.",
     "Survey data cited this month links financial returns to deep integration rather than scattered pilots. Treat AI as process redesign with executive ownership, and measure where work has actually been restructured, not how many tools were licensed.",
-    "Context is becoming the contested asset. Decide where enterprise data, decision traces and permissions live, prefer bringing models to governed data, and keep systems of record positioned as the platform that agents and future products will plug into.",
+    "Context is becoming the contested asset. Decide where enterprise data, decision traces and permissions live, prefer bringing models to governed data, keep context portable across vendors, and build in model choice early so systems of record stay the platform agents plug into.",
     "Independent evaluations and leaderboards can be gamed or misread. Build internal evals on your own tasks, track cost per outcome alongside capability, and expect total AI spend to grow even as the price per unit of intelligence falls.",
     "Workforce exposure is uneven. Pair agent rollouts with skills programs for directing agents and redesigning processes, and identify roles with high exposure and low adaptability early so transitions are planned rather than reactive."
   ]

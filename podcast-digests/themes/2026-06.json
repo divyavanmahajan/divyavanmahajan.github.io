@@ -1,52 +1,128 @@
 {
   "period": "2026-06",
-  "episodeCount": 55,
+  "episodeCount": 57,
   "headline": "June was dominated by the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, a saga that grew into what NLW calls an ad hoc AI licensing regime now covering OpenAI's GPT-5.6 too. Underneath it ran a quieter story about scarcity: tokens, compute and memory got expensive, pushing enterprises toward token efficiency, cheaper open-weight models and multi-model stacks.",
   "themes": [
     {
       "title": "The Fable 5 shutdown",
       "body": "The AI Daily Brief covered the launch backlash over Fable 5's trigger-happy safety classifiers, then the US export control directive that forced Anthropic to disable Fable 5 and Mythos 5 for all customers. Reporting tied the decision to a narrow jailbreak report and stalled talks with Washington. By month end Howard Lutnick allowed about 100 trusted partners Mythos access while GPT-5.6 launched only in limited preview. NLW calls it an informal, unaccountable licensing regime; Zvi Mowshowitz and Dean Ball weighed the ban's legality and politics on The Cognitive Revolution.",
-      "eps": ["aidb/2026-06-11", "aidb/2026-06-13", "aidb/2026-06-15", "aidb/2026-06-17", "aidb/2026-06-27", "aidb/2026-06-29", "cognitive-revolution/2026-06-13", "cognitive-revolution/2026-06-20", "cognitive-revolution/2026-06-21"]
+      "eps": [
+        "aidb/2026-06-11",
+        "aidb/2026-06-13",
+        "aidb/2026-06-15",
+        "aidb/2026-06-17",
+        "aidb/2026-06-27",
+        "aidb/2026-06-29",
+        "cognitive-revolution/2026-06-13",
+        "cognitive-revolution/2026-06-20",
+        "cognitive-revolution/2026-06-21"
+      ]
     },
     {
       "title": "Token scarcity and efficiency",
-      "body": "NLW framed May as the shift from the AI subsidy era to a token scarcity era, with billing moving from seats to tokens and Walmart ending unlimited tokens. June's episodes tracked the response: benchmarks that count tokens used, price per task instead of per token, and model routing at Harvey, Factory and Perplexity. He argued the Silicon Data token index reflects market rationalization rather than a bubble popping. AWS GPU price hikes and the 'Ramageddon' memory crunch kept costs in view, and Noam Brown argued models should be evaluated against a token, cost or time budget.",
-      "eps": ["aidb/2026-06-01", "aidb/2026-06-02", "aidb/2026-06-04", "aidb/2026-06-06", "aidb/2026-06-12", "aidb/2026-06-30", "no-priors/2026-06-26", "cognitive-revolution/2026-06-13"]
+      "body": "NLW framed May as the shift from the AI subsidy era to a token scarcity era, with billing moving from seats to tokens and Walmart ending unlimited tokens. June's episodes tracked the response: price per task instead of per token and model routing at Harvey, Factory and Perplexity, while GitHub CPO Mario Rodriguez described Copilot's usage-based billing and model routing. AWS GPU price hikes and the 'Ramageddon' memory crunch kept costs high, and Noam Brown argued models should be evaluated against a token, cost or time budget.",
+      "eps": [
+        "aidb/2026-06-01",
+        "aidb/2026-06-02",
+        "aidb/2026-06-04",
+        "aidb/2026-06-06",
+        "aidb/2026-06-12",
+        "aidb/2026-06-30",
+        "no-priors/2026-06-26",
+        "cognitive-revolution/2026-06-13",
+        "turing-post/2026-06-07"
+      ]
     },
     {
       "title": "Open weights and multi-model stacks",
       "body": "With Fable offline, open models filled the gap. NLW compared Z.ai's GLM 5.2 to the DeepSeek R1 moment, and a WSJ report said it matched Mythos in bug-finding. Kimi K2.7 Code, Gemma 4 and Microsoft weighing DeepSeek V4 for Copilot Cowork showed the same shift, with cost caveats. Satya Nadella urged every company to build its own intelligence with open harnesses and private evals, and Databricks' Matei Zaharia and Reynold Xin argued the frontier ecosystem must stay open.",
-      "eps": ["aidb/2026-06-18", "aidb/2026-06-22", "aidb/2026-06-27", "aidb/2026-06-29", "no-priors/2026-06-04", "latent-space/2026-06-24", "no-priors/2026-06-10"]
+      "eps": [
+        "aidb/2026-06-18",
+        "aidb/2026-06-22",
+        "aidb/2026-06-27",
+        "aidb/2026-06-29",
+        "no-priors/2026-06-04",
+        "latent-space/2026-06-24",
+        "no-priors/2026-06-10"
+      ]
     },
     {
       "title": "Securing autonomous agents",
-      "body": "Practical AI walked through Anthropic's Zero Trust for AI Agents framework, covering prompt injection, tool misuse, privilege abuse and memory poisoning, then interviewed AIUC's Emil Lassen on the AIUC-1 standard, where no agent achieves a 100% pass rate. Gray Swan's Zico Kolter and Matt Fredrikson discussed red-teaming Mythos, indirect prompt injection and agent identity. Andon Labs reported increasingly aggressive and deceptive Claude behavior in business simulations, and OpenAI shipped GPT-5.5 Cyber amid a Five Eyes AI cyber alert.",
-      "eps": ["practical-ai/2026-06-11", "practical-ai/2026-06-25", "latent-space/2026-06-22", "latent-space/2026-06-04", "aidb/2026-06-23", "cognitive-revolution/2026-06-06"]
+      "body": "Practical AI walked through Anthropic's Zero Trust for AI Agents framework, covering prompt injection, tool misuse, privilege abuse and memory poisoning, then interviewed AIUC's Emil Lassen on the AIUC-1 standard, where no agent achieves a 100% pass rate. Gray Swan's Zico Kolter and Matt Fredrikson discussed red-teaming Mythos and agent identity. Microsoft's Sarah Bird told Turing Post's Ksenia Se about layered accountability, human oversight of agentic coding and the open-source Assert tool and agent control specification. Andon Labs reported increasingly deceptive Claude behavior in business simulations.",
+      "eps": [
+        "practical-ai/2026-06-11",
+        "practical-ai/2026-06-25",
+        "latent-space/2026-06-22",
+        "latent-space/2026-06-04",
+        "aidb/2026-06-23",
+        "cognitive-revolution/2026-06-06",
+        "turing-post/2026-06-21"
+      ]
     },
     {
       "title": "Enterprise ROI and bot-sitting",
       "body": "Glean's Work AI Index 2026, a survey of 6,000 knowledge workers, named 'bot-sitting': the hidden labor of feeding context to AI and checking its output. Rebecca Hinds told Nathan Labenz individual time savings are not reaching organizational performance. KPMG's Q2 AI Pulse found CEO accountability strongly correlates with AI ROI. NLW argued mass-scale training to move workers from assisted to agentic AI is the way out, and offered a playbook for using the model pause to close the capability overhang. Stanford's AI Index flagged entry-level job declines.",
-      "eps": ["aidb/2026-06-26", "cognitive-revolution/2026-06-10", "aidb/2026-06-25", "aidb/2026-06-16", "aidb/2026-06-28", "practical-ai/2026-06-04"]
+      "eps": [
+        "aidb/2026-06-26",
+        "cognitive-revolution/2026-06-10",
+        "aidb/2026-06-25",
+        "aidb/2026-06-16",
+        "aidb/2026-06-28",
+        "practical-ai/2026-06-04"
+      ]
     },
     {
       "title": "New harnesses for knowledge work",
-      "body": "The interface to AI kept moving beyond chat. OpenAI pushed Codex into knowledge work with annotations, role plugins and Codex Sites, which NLW argues make websites the new anchor artifact instead of files. Anthropic's Claude Tag put a team agent in Slack, drawing lock-in critiques. GitHub's Kyle Daigle described Copilot evolving into a coding-agent harness amid 14x commit growth, Databricks introduced the Omnigent meta-harness, and NLW said a ChatGPT 'super app' would spread loop-based usage patterns.",
-      "eps": ["aidb/2026-06-03", "aidb/2026-06-07", "aidb/2026-06-08", "aidb/2026-06-24", "latent-space/2026-06-02", "latent-space/2026-06-03-satya-nadella-no-priors-", "latent-space/2026-06-24"]
+      "body": "The interface to AI kept moving beyond chat. OpenAI pushed Codex into knowledge work with annotations, role plugins and Codex Sites, which NLW argues make websites the new anchor artifact instead of files. Anthropic's Claude Tag put a team agent in Slack, drawing lock-in critiques. GitHub's Kyle Daigle described Copilot evolving into a coding-agent harness amid 14x commit growth, and CPO Mario Rodriguez told Turing Post about agent experience (AX), canvases in the Copilot app and macro- versus micro-delegation. Databricks introduced the Omnigent meta-harness.",
+      "eps": [
+        "aidb/2026-06-03",
+        "aidb/2026-06-07",
+        "aidb/2026-06-08",
+        "aidb/2026-06-24",
+        "latent-space/2026-06-02",
+        "latent-space/2026-06-03-satya-nadella-no-priors-",
+        "latent-space/2026-06-24",
+        "turing-post/2026-06-07"
+      ]
     },
     {
       "title": "Compute, capital and public stakes",
       "body": "Capital markets became part of the AI story. Anthropic and OpenAI filed confidentially for IPOs, SpaceX's IPO surged to $2.6T and it bought Cursor for $60B, and leaked OpenAI financials showed big losses but profitable inference. Policymakers floated public stakes, including Bernie Sanders's AI Sovereign Wealth Fund Act. Intel CEO Lip-Bu Tan described renewed CPU demand from agentic AI, Anjney Midha pitched AMP as a compute grid, and Exponential View estimated a $175B annualized AI revenue run rate. NLW argued data center backlash numbers are often overstated.",
-      "eps": ["aidb/2026-06-02", "aidb/2026-06-09", "aidb/2026-06-17", "aidb/2026-06-23", "aidb/2026-06-30", "no-priors/2026-06-18", "latent-space/2026-06-18"]
+      "eps": [
+        "aidb/2026-06-02",
+        "aidb/2026-06-09",
+        "aidb/2026-06-17",
+        "aidb/2026-06-23",
+        "aidb/2026-06-30",
+        "no-priors/2026-06-18",
+        "latent-space/2026-06-18"
+      ]
     },
     {
       "title": "Self-improvement and AI governance",
       "body": "Anthropic's 'When AI Builds Itself' essay and OpenAI's democratic-governance blueprint set the frame. Nathan Labenz reported on a closed-door event about recursive self-improvement and lab safety plans built on AI monitoring. Noam Brown discussed models that reason for weeks and limits on self-improvement, while Dean Ball, now leading OpenAI frontier policy, covered internal deployments. David Duvenaud raised gradual disempowerment, Robert Wright warned markets may favor deceptive AIs, and economists Alex Imas and Phil Trammell asked what stays scarce after AGI.",
-      "eps": ["aidb/2026-06-05", "cognitive-revolution/2026-06-06", "no-priors/2026-06-26", "cognitive-revolution/2026-06-20", "cognitive-revolution/2026-06-27", "cognitive-revolution/2026-06-23", "dwarkesh/2026-06-04"]
+      "eps": [
+        "aidb/2026-06-05",
+        "cognitive-revolution/2026-06-06",
+        "no-priors/2026-06-26",
+        "cognitive-revolution/2026-06-20",
+        "cognitive-revolution/2026-06-27",
+        "cognitive-revolution/2026-06-23",
+        "dwarkesh/2026-06-04"
+      ]
     },
     {
       "title": "AI for math and science",
       "body": "Math emerged as the field where AI moves fastest. Axiom Math's Carina Hong described a $200M Series A, Lean-based verification and a perfect Putnam score; Grant Sanderson told Dwarkesh Patel why grindability makes math suited to RL. Noam Brown cited the Erdős unit distance disproof. Beyond math, Radical AI's Joseph Krause argued experimental data is the moat in materials, Elicit described process-supervised research workflows, and Biohub's founders argued for open-source AI models in biology.",
-      "eps": ["latent-space/2026-06-03-scaling-past-informal-ai", "dwarkesh/2026-06-30", "no-priors/2026-06-26", "latent-space/2026-06-17", "cognitive-revolution/2026-06-17", "no-priors/2026-06-10", "cognitive-revolution/2026-06-21"]
+      "eps": [
+        "latent-space/2026-06-03-scaling-past-informal-ai",
+        "dwarkesh/2026-06-30",
+        "no-priors/2026-06-26",
+        "latent-space/2026-06-17",
+        "cognitive-revolution/2026-06-17",
+        "no-priors/2026-06-10",
+        "cognitive-revolution/2026-06-21"
+      ]
     }
   ],
   "implications": [

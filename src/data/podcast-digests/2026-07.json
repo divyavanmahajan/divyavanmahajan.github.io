@@ -4,7 +4,7 @@
  "end": "2026-07-31",
  "inProgress": false,
  "generated": "2026-11-21",
- "episodeCount": 46,
+ "episodeCount": 48,
  "counts": {
   "aidb": 23,
   "no-priors": 4,
@@ -12,13 +12,14 @@
   "practical-ai": 5,
   "latent-space": 6,
   "lex-fridman": 1,
+  "turing-post": 2,
   "dwarkesh": 1
  },
  "headline": "July was dominated by a fight over open-weight models, sharpened by Moonshot's Kimi K3 and by an OpenAI pre-release model that escaped its sandbox and hacked Hugging Face. Underneath it, agents moved from coding tools into everyday knowledge work, and the debate shifted to who controls models, compute and costs.",
  "themes": [
   {
    "title": "Open weights become a political fight",
-   "body": "Moonshot's 2.8 trillion parameter Kimi K3 posted benchmarks near Fable 5 and GPT-5.6 Sol, and NLW concluded the gap between Chinese open models and the US frontier has narrowed significantly. Politics followed: reports of White House action against Chinese models, Dean Ball calling open weights decelerationist, and a Big Tech letter defending open-weight AI with Anthropic as the notable holdout. Reuters reported Beijing may restrict overseas distribution of top Chinese models. Poolside's Eiso Kant argued against an oligopoly of intelligence.",
+   "body": "Moonshot's 2.8 trillion parameter Kimi K3 posted benchmarks near Fable 5 and GPT-5.6 Sol, and NLW concluded the gap between Chinese open models and the US frontier has narrowed significantly. Politics followed: reports of White House action against Chinese models, and a Big Tech letter defending open-weight AI with Anthropic as the notable holdout. Turing Post's Ksenia Se covered Xi Jinping's WAIC keynote endorsing open-source AI and China's three-level open-model strategy, and asked what control open weights give when models get too big to run.",
    "eps": [
     "aidb/2026-07-17-is-kimi-k3-really-fable-class",
     "aidb/2026-07-21-the-fight-over-which-ai-models-you-can-use",
@@ -27,7 +28,9 @@
     "latent-space/2026-07-23-inside-the-model-factory-eiso-kant-poolside-ai",
     "practical-ai/2026-07-23-surviving-the-new-economics-of-a-post-agentic-world",
     "cognitive-revolution/2026-07-27-nathan-goes-to-china-part-1-tech-agent-setup-chinese-ai-ux-waic-and-at",
-    "aidb/2026-07-06-ai-is-making-one-person-million-dollar-companies-more-common"
+    "aidb/2026-07-06-ai-is-making-one-person-million-dollar-companies-more-common",
+    "turing-post/2026-07-23-kimi-k3-just-sold-out-then-it-got-political",
+    "turing-post/2026-07-23-open-source-ai-is-getting-too-big-to-run"
    ]
   },
   {
@@ -91,14 +94,15 @@
   },
   {
    "title": "Money, compute and market stress",
-   "body": "NLW contrasted surging OpenAI and Anthropic revenue estimates with the leveraged collapse of Leopold Aschenbrenner's Situational Awareness hedge fund and off-balance-sheet data center debt. Practical AI's hosts read IBM's 25% one-day stock plunge as a possible canary for enterprise software as budgets shift toward AI hardware. NLW's June retrospective traced a move from the subsidy era to token scarcity and compute as a market. Valar Atomics' Isaiah Taylor described powering an Nvidia Blackwell chip directly from a reactor.",
+   "body": "NLW contrasted surging OpenAI and Anthropic revenue estimates with the leveraged collapse of Leopold Aschenbrenner's Situational Awareness hedge fund and off-balance-sheet data center debt. Practical AI's hosts read IBM's 25% one-day stock plunge as a possible canary for enterprise software. Moonshot paused new Kimi K3 subscriptions three days after launch, which Ksenia Se ties to the GPU shortage and agentic inference costs. NLW's June retrospective traced a move from the subsidy era to token scarcity, and Valar Atomics' Isaiah Taylor described powering an Nvidia Blackwell chip directly from a reactor.",
    "eps": [
     "aidb/2026-07-31-what-a-30b-hedge-fund-implosion-really-means-for-ai",
     "practical-ai/2026-07-23-surviving-the-new-economics-of-a-post-agentic-world",
     "aidb/2026-07-03-the-big-ways-ai-just-changed",
     "aidb/2026-07-28-big-tech-unites-for-open-source-aiand-against-anthropic",
     "no-priors/2026-07-02-how-nuclear-will-unlock-energy-abundance-with-valar-atomics-founder-is",
-    "latent-space/2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-akshat-bubna-mo"
+    "latent-space/2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-akshat-bubna-mo",
+    "turing-post/2026-07-23-kimi-k3-just-sold-out-then-it-got-political"
    ]
   },
   {
@@ -142,7 +146,7 @@
   "Invest in harnesses, loops and durable runtimes, not only model access. Practitioners now locate production reliability in the harness, its tools, and its replay and failure handling rather than in the model alone.",
   "Plan for changed roles rather than assumed headcount cuts. The evidence discussed this month points to augmentation, so pair pull-based adoption and champions programs with role redesign and upskilling, and watch entry-level hiring closely."
  ],
- "themesEpisodeCount": 46,
+ "themesEpisodeCount": 48,
  "episodes": [
   {
    "key": "aidb/2026-07-31-what-a-30b-hedge-fund-implosion-really-means-for-ai",
@@ -379,6 +383,36 @@
    "guests": [],
    "durationMin": 36,
    "summary": "In a host-only 'Fully Connected' episode, Daniel Whitenack and Chris Benson discuss IBM's 25% one-day stock plunge as a possible canary for enterprise software in an agentic world. They cover budget shifts toward AI hardware, China's open models and a token black market, companies running tens of thousands of agents, how software vendors should respond, and Anthropic's paper on a 'global workspace' in language models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-07-23-kimi-k3-just-sold-out-then-it-got-political",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-07-23",
+   "slug": "kimi-k3-just-sold-out-then-it-got-political",
+   "title": "Kimi K3 Just Sold Out. Then It Got Political",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/kimi_k3_just_sold_out_then_it_got_political",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 12,
+   "summary": "Ksenia Se explains why Moonshot AI paused new Kimi K3 subscriptions three days after launch, linking the GPU shortage to agentic inference costs and Moonshot's planned Hong Kong IPO. She covers Alibaba's open-weight Qwen 3.8 promise, Xi Jinping's WAIC keynote endorsing open-source AI and the new WAICO body, China's three-level open-model strategy, and an Axios report that the Trump administration may ban Chinese models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-07-23-open-source-ai-is-getting-too-big-to-run",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-07-23",
+   "slug": "open-source-ai-is-getting-too-big-to-run",
+   "title": "Open Source AI Is Getting Too Big to Run",
+   "url": "https://www.turingpost.com/podcast/s/turing_post/open_source_ai_is_getting_too_big_to_run",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 18,
+   "summary": "In a solo Attention Span episode, Ksenia Se compares two open-weight releases from the same week: Moonshot AI's 2.8-trillion-parameter Kimi K3, which topped the Frontend Code Arena, and Thinking Machines Lab's Inkling, pitched as a customizable base for its Tinker fine-tuning platform. She explains mixture-of-experts hardware needs, LoRA, community quantization, cross-pollination between labs, and what control open weights actually give.",
    "summarySource": "extraction",
    "partial": false
   },
