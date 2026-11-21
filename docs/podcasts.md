@@ -41,6 +41,10 @@ src/content/podcasts/<show>/YYYY/MM/slug.md            (collection `podcasts`)
   hold staged AIDB files from the ai-update workflow. Commit with explicit
   pathspecs. `--prune` deletes published files whose staging file is gone;
   without it they are reported as ORPHAN.
+- Commit gotcha: `.git/hooks/pre-commit` runs `sync-ainews.js`, which does
+  `git add src/content/ainews/`. If AIDB files are already staged by the
+  ai-update workflow, they get swept into any commit, even one with explicit
+  pathspecs. Use `git commit --no-verify -- <paths>` in that situation.
 
 ## Routes
 
