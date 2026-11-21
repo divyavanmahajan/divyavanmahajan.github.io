@@ -1,4 +1,15 @@
 {
+ "practical-ai/2022-10-26-ai-adoption-in-large-well-established-companies": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2022-11-01-the-practicalities-of-releasing-models": [],
+ "practical-ai/2022-11-08-hybrid-computing-with-quantum-processors": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2022-11-16-protecting-us-with-the-database-of-evil": [],
+ "practical-ai/2022-11-29-copilot-lawsuits-galactica-science": [
+  "microsoft"
+ ],
  "practical-ai/2022-12-07-ai-competitions-cloud-resources": [
   "jobs-and-work",
   "microsoft"
@@ -2627,6 +2638,12 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2022-10-20-bryan-caplan-feminists-billionaires-and-demagogues": [
+  "jobs-and-work"
+ ],
+ "dwarkesh/2022-10-27-brian-potter-future-of-construction-ugly-modernism-environmental-revie": [],
+ "dwarkesh/2022-11-08-kenneth-t-jackson-robert-moses-hero-of-new-york": [],
+ "dwarkesh/2022-11-28-edward-glaeser-cities-terrorism-housing-remote-work": [],
  "dwarkesh/2022-12-21-bethany-mclean-enron-ftx-2008-musk-frauds-visionaries": [],
  "dwarkesh/2023-01-03-holden-karnofsky-history-s-most-important-century": [],
  "dwarkesh/2023-01-09-lars-doucet-progress-poverty-georgism-why-rent-is-too-damn-high": [],
@@ -2897,6 +2914,21 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2022-10-24-ye-aka-kanye-west-kanye-ye-west-interview": [],
+ "lex-fridman/2022-10-29-andrej-karpathy-tesla-ai-self-driving-optimus-aliens-and-agi": [
+  "physical-ai"
+ ],
+ "lex-fridman/2022-11-02-abbas-amanat-iran-protests-mahsa-amini-history-cia-nuclear-weapons": [],
+ "lex-fridman/2022-11-04-fiona-hill-vladimir-putin-and-donald-trump": [
+  "policy-and-regulation"
+ ],
+ "lex-fridman/2022-11-07-ben-shapiro-politics-kanye-trump-biden-hitler-extremism-and-war": [],
+ "lex-fridman/2022-11-11-destiny-politics-free-speech-controversy-sex-war-and-relationships": [],
+ "lex-fridman/2022-11-15-chamath-palihapitiya-money-success-startups-energy-poker-happiness": [],
+ "lex-fridman/2022-11-18-climate-change-debate-bj-rn-lomborg-and-andrew-revkin": [],
+ "lex-fridman/2022-11-22-chris-tarbell-fbi-agent-who-took-down-silk-road": [],
+ "lex-fridman/2022-11-26-guido-van-rossum-python-and-the-future-of-programming": [],
+ "lex-fridman/2022-11-29-todd-howard-skyrim-elder-scrolls-6-fallout-and-starfield": [],
  "lex-fridman/2022-12-03-roger-gracie-greatest-jiu-jitsu-competitor-of-all-time": [],
  "lex-fridman/2022-12-06-noam-brown-ai-vs-humans-in-poker-and-games-of-strategic-negotiation": [
   "meta"
