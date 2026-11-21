@@ -1,4 +1,18 @@
 {
+ "practical-ai/2022-01-05-ai-in-africa-radiant-earth": [],
+ "practical-ai/2022-01-11-eliminate-ai-failures": [],
+ "practical-ai/2022-01-19-democratizing-ml-for-speech": [],
+ "practical-ai/2022-01-25-the-world-needs-an-ai-superhero": [
+  "ai-for-science",
+  "jobs-and-work"
+ ],
+ "practical-ai/2022-02-01-exploring-deep-reinforcement-learning": [
+  "training-and-rl",
+  "open-weight-models",
+  "hugging-face"
+ ],
+ "practical-ai/2022-02-09-ai-in-africa-voice-language-tools": [],
+ "practical-ai/2022-02-15-one-algorithm-to-rule-them-all": [],
  "practical-ai/2022-03-01-deploying-models-to-tractors": [],
  "practical-ai/2022-03-08-creating-a-culture-of-innovation": [],
  "practical-ai/2022-03-16-clothing-ai-in-a-data-fabric": [],
@@ -2690,6 +2704,7 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2022-01-31-david-deutsch-ai-america-fun-bayes": [],
  "dwarkesh/2022-07-05-sam-bankman-fried-crypto-altruism-and-leadership": [],
  "dwarkesh/2022-08-09-will-macaskill-longtermism-altruism-history-technology": [],
  "dwarkesh/2022-08-23-steve-hsu-intelligence-embryo-selection-the-future-of-humanity": [],
@@ -2972,6 +2987,25 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2022-01-04-jay-bhattacharya-the-case-against-lockdowns": [],
+ "lex-fridman/2022-01-08-mark-normand-comedy": [],
+ "lex-fridman/2022-01-15-nationalism-debate-yaron-brook-and-yoram-hazony": [],
+ "lex-fridman/2022-01-18-brian-keating-cosmology-astrophysics-aliens-losing-the-nobel-prize": [],
+ "lex-fridman/2022-01-22-yann-lecun-dark-matter-of-intelligence-and-self-supervised-learning": [
+  "physical-ai",
+  "generative-media"
+ ],
+ "lex-fridman/2022-01-26-thomas-tull-from-batman-dark-knight-trilogy-to-ai-and-the-rolling-ston": [],
+ "lex-fridman/2022-01-30-georges-st-pierre-john-danaher-gordon-ryan-the-greatest-of-all-time": [],
+ "lex-fridman/2022-02-03-philip-goff-consciousness-panpsychism-and-the-philosophy-of-mind": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2022-02-06-garry-nolan-ufos-and-aliens": [],
+ "lex-fridman/2022-02-11-john-abramson-big-pharma": [],
+ "lex-fridman/2022-02-13-tim-urban-elon-musk-neuralink-ai-aliens-and-the-future-of-humanity": [
+  "xai"
+ ],
+ "lex-fridman/2022-02-16-devon-larratt-arm-wrestling": [],
  "lex-fridman/2022-02-20-nicole-perlroth-cybersecurity-and-the-weapons-of-cyberwar": [
   "ai-safety"
  ],
