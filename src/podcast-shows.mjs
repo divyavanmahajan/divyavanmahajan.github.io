@@ -51,6 +51,12 @@ export const podcastShows = [
     description: 'Sarah Guo and Elad Gil talk to the founders, researchers and executives building AI.',
     homepage: 'https://www.youtube.com/@NoPriorsPodcast',
   },
+  {
+    slug: 'turing-post',
+    name: 'Turing Post',
+    description: "Ksenia Se's Inference interviews with AI builders and researchers, plus Attention Span episodes on the week's AI news.",
+    homepage: 'https://www.turingpost.com/podcast',
+  },
 ];
 
 export const podcastShowSlugs = podcastShows.map((s) => s.slug);

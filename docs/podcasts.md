@@ -9,7 +9,9 @@ monthly/yearly summaries exist for every show (AIDB included).
 The AI Daily Brief (AIDB) already has a section (now `/podcasts/ai-daily-brief/`)
 built from the notes in `~/projects/volvo/ai-update/notes/`. Divya also follows
 Practical AI, Latent Space, The Cognitive Revolution, Dwarkesh Podcast, the Lex
-Fridman Podcast (`lex-fridman`) and No Priors (`no-priors`, added 2026-11-21); their
+Fridman Podcast (`lex-fridman`), No Priors (`no-priors`, added 2026-11-21) and Turing Post
+(`turing-post`, Ksenia Se's Inference interviews and Attention Span solo episodes, added
+2026-11-21); their
 transcripts live in the blog wiki repo (`~/projects/wiki/blog/<show>/episodes/YYYY/MM/`).
 This section publishes short per-episode summaries of those shows with the same
 shape as AIDB (listing by year/month, one page per episode, RSS, topics,
@@ -199,5 +201,6 @@ npm run build
   YouTube captions too. Summaries of those episodes infer attribution from
   context. Paid transcription of these episodes would need Divya's approval.
 - Shows added after the backfill driver's 2026 phase (Lex Fridman, No Priors)
-  got their 2026 summaries written directly; the driver covers their older
+  got their 2026 summaries written directly (Turing Post: its whole catalogue,
+  2025-04 onward, was written directly before registering the show); the driver covers their older
   episodes (it only takes episodes before 2026-01-01 in its "older" phase).
