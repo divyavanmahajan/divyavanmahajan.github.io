@@ -263,6 +263,19 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "latent-space/2024-09-20-the-ultimate-guide-to-prompting": [],
+ "latent-space/2024-09-27-language-agents-from-reasoning-to-acting": [
+  "models-and-benchmarks"
+ ],
+ "latent-space/2024-10-03-building-agi-in-real-time-openai-dev-day-2024": [
+  "models-and-benchmarks",
+  "open-weight-models",
+  "training-and-rl",
+  "openai"
+ ],
+ "latent-space/2024-10-11-production-ai-engineering-starts-with-evals-with-ankur-goyal-of-braint": [
+  "models-and-benchmarks"
+ ],
  "latent-space/2024-10-18-building-the-silicon-brain-with-drew-houston-of-dropbox": [],
  "latent-space/2024-10-19-building-the-ai-engineer-nation-with-josephine-teo-minister-of-digital": [
   "jobs-and-work"
@@ -848,6 +861,19 @@
   "agents",
   "context-engineering"
  ],
+ "cognitive-revolution/2024-09-25-anthropic-s-responsible-scaling-policy-with-nick-joseph-from-the-80-00": [
+  "policy-and-regulation",
+  "anthropic"
+ ],
+ "cognitive-revolution/2024-09-26-zapier-s-ai-revolution-from-no-code-pioneer-to-llm-knowledge-worker": [],
+ "cognitive-revolution/2024-10-02-automating-software-engineering-genie-tops-swe-bench-w-alistair-pullen": [
+  "training-and-rl",
+  "ai-coding"
+ ],
+ "cognitive-revolution/2024-10-05-biologically-inspired-ai-alignment-exploring-neglected-approaches-with": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2024-10-09-runway-s-video-revolution-empowering-creators-with-general-world-model": [],
  "cognitive-revolution/2024-10-12-convergent-evolution-the-co-revolution-of-ai-biology-with-prof-michael": [
   "ai-for-science"
  ],
@@ -1668,6 +1694,10 @@
   "ai-safety",
   "anthropic"
  ],
+ "dwarkesh/2024-10-02-asianometry-dylan-patel-how-the-semiconductor-industry-actually-works": [
+  "infrastructure-and-chips",
+  "us-china"
+ ],
  "dwarkesh/2024-11-13-gwern-anonymous-writer-who-predicted-ai-trajectory-on-12k-year-salary": [],
  "dwarkesh/2024-12-26-adam-brown-bubble-universes-space-elevators-ads-cft": [
   "google"
@@ -1859,6 +1889,15 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2024-09-20-vejas-liulevicius-communism-marxism-nazism-stalin-mao-and-hitler": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2024-09-25-vivek-ramaswamy-trump-conservatism-nationalism-immigration-and-war": [],
+ "lex-fridman/2024-09-30-ed-barnhart-maya-aztec-inca-and-lost-civilizations-of-south-america": [],
+ "lex-fridman/2024-10-06-cursor-team-future-of-programming-with-ai": [
+  "ai-coding"
+ ],
+ "lex-fridman/2024-10-11-jordan-peterson-nietzsche-hitler-god-psychopathy-suffering-meaning": [],
  "lex-fridman/2024-10-16-graham-hancock-lost-civilization-of-the-ice-age-ancient-human-history": [],
  "lex-fridman/2024-10-23-bernie-sanders-interview": [
   "policy-and-regulation"
@@ -1982,6 +2021,12 @@
   "policy-and-regulation"
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
+ "no-priors/2024-09-19-transforming-customer-service-through-company-agents-with-sierra-s-bre": [],
+ "no-priors/2024-09-25-using-ai-to-evaluate-employee-performance-with-rippling-s-coo-matt-mac": [],
+ "no-priors/2024-10-03-the-sheriff-of-silicon-valley-lina-khan-s-ftc-agenda-for-m-a-ai-acquis": [],
+ "no-priors/2024-10-08-launching-ai-products-with-braintrust-s-ceo-ankur-goyal": [
+  "models-and-benchmarks"
+ ],
  "no-priors/2024-10-17-gaming-nobel-prizes-and-at-risk-businesses-in-the-ai-era": [],
  "no-priors/2024-10-24-waymo-s-journey-to-full-autonomy-ai-breakthroughs-safety-and-scaling": [
   "physical-ai"
