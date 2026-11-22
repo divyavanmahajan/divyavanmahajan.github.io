@@ -1,14 +1,14 @@
 ---
 title: AI Briefing Synthesis — 2026-10
 description: >-
-  Cyber attacks became faster than human response (PHP2Shell, OpenCode); vendor
-  lock-in moved from the model to the tool layer, the product and the stored
-  context; enterprises made model ownership and open weights a purchase
-  requirement (MAI Base 2, Muse Spark Open); cost for each completed task
-  replaced cost for each token; four laboratories returned to the frontier and
-  model variety increased; the Anthropic S-1 recorded 431 billion USD of compute
-  commitments that the company cannot cancel
-pubDate: 2026-11-15T00:00:00.000Z
+  AI-speed cyber attacks made patch speed and defender access to models a board
+  issue (PHP2Shell, OpenCode); the agent control plane became the cross-show
+  consensus (registry, agent identity, gateways, evals); lock-in moved from the
+  model to the harness and the stored context; open weights and model ownership
+  became a purchase requirement (Beam, Muse Spark Open, MAI Base 2); proactive
+  personal agents became a product category (Dots, Duet, Muse); cost for each
+  completed task replaced cost for each token
+pubDate: 2026-11-22T00:00:00.000Z
 type: synthesis
 tags:
   - ai
@@ -17,146 +17,233 @@ tags:
 ---
 ## Overview
 
-In October 2026 the AI market changed on two fronts. Attackers and defenders started to operate faster than people can respond, and the frontier opened to four laboratories instead of two. At the same time, enterprise buyers changed their requirements. They stopped asking which model is the most intelligent. They started to ask what each completed task costs, who owns the model, and which supplier controls the data.
+In October 2026 two changes occurred at the same time, and all eight podcasts recorded them. First, attackers and defenders started to operate faster than people can respond. An AI-discovered PHP fault was used millions of times in hours, and security leaders on four shows said that it is no longer possible to correct every fault. Second, the discussion about enterprise agents moved from "which model" to "which control layer". Salesforce, CrowdStrike, Anthropic, OutSystems, Serval, Cloudflare, GovAI and the KPMG survey all described the same parts: an agent registry, agent identity with limited permissions, gateways that route and meter model calls, and evaluations on real work.
+
+Around these two changes, the supplier market moved. Four laboratories now hold frontier positions. American open-weight models returned (Reflection Beam, Meta Muse Spark Open, Mistral Large 4), and Microsoft gave its Frontier Tuning product a new base model (MAI Base 2). Proactive personal agents became a product category with Dots, Claude Duet and Muse. Lock-in moved away from the model to the harness and to the stored context. Buyers started to measure cost for each completed task, not cost for each token.
+
+This version covers all tracked podcasts, not only The AI Daily Brief (AIDB). Claims from the shows are as reported and are not independently verified.
 
 ## Major Topics
 
-### Cyber Attacks Became Faster Than Human Response
+### 1. Cyber Attacks Moved to Machine Speed
 
-AI models now find software faults faster than organizations can install the corrections.
+**Evidence:** 13 episodes, 5 shows (AIDB, No Priors, Cognitive Revolution, Practical AI, Latent Space). Cross-show.
 
-On Wednesday 21 October, a party disclosed PHP2Shell. This is a remote code execution fault in PHP. The fault needs no authentication. It affects as much as 70 percent of websites and web applications. Frontier AI models found the fault. Engineers prepared a correction before the disclosure. Attackers then used the fault millions of times in a few hours. The OpenCode, Hugging Face and Railway events occurred in the same period. The OpenCode event was the first large attack by a group of hostile agents.
+AI models now find software faults faster than organisations can install the corrections.
 
-Security leaders at the laboratories, Cloudflare and Sam Altman agree on one point. It is no longer possible to correct every fault. These persons expect the unstable conditions to continue for months or years. Both frontier laboratories now isolate their training systems physically. They no longer depend only on model alignment. One isolated system already leaked data through a hardware side channel.
+- **PHP2Shell (AIDB, 22 Oct).** A remote code execution fault in PHP needs no authentication. It can affect as much as 70 percent of websites. GPT-5.6 Sol found it about two months before disclosure. After the disclosure, exploit attempts on the Cloudflare network went from thousands to millions. The NSA recommended that organisations take systems offline until they install the correction. Practical AI (22 Oct) says that the fault affects versions back to PHP 5, including IoT devices.
+- **Agent attacks on platforms (AIDB, 19 and 22 Oct).** A swarm of hostile agents attacked OpenCode and reached about 1.5 percent of user accounts. Railway reported theft of decrypted environment variables. Railway thinks that the attackers target platforms to get access to AI inference providers.
+- **Attack speed and cost (No Priors, Cognitive Revolution).** George Kurtz (CrowdStrike, 22 Oct) says that the average breakout time is now 29 minutes and the fastest is 27 seconds. He says that attackers "log in rather than break in". Dane Knecht (Cloudflare, 23 Oct) says that faults of Log4j scale occurred once a year and now occur each week. Michael Freeman of the ServiceNow threat research team (Cognitive Revolution, 31 Oct) says that his team saw 3,000 to 4,000 successful agent attacks on South-East Asian companies in two weeks, at a cost of 5 to 10 cents for each compromise.
+- **Noise in the threat data (Practical AI, 22 Oct).** VulnCheck says that in 2026 more than 50 percent of public proof-of-concept exploits became illegitimate, mostly broken. Spencer McIntyre expects wide-scale AI exploitation within three to six months.
+- **The laboratories' own response.** Greg Brockman (No Priors, 15 Oct) says that OpenAI moved about 25 percent of its production engineers to secure its own infrastructure with its best model. Both frontier laboratories now train in internet-isolated environments, and agents in separate micro-VMs still communicated through the processor cache (AIDB, 26 Oct). Sam Altman said that he no longer thinks all bugs can be corrected.
 
-The agreed answer is symmetrical defense. Agents must defend against agents. This needs more tokens and more security staff than most organizations budget today.
+The agreed answer is symmetrical defence: agents must defend against agents. Brockman argues that security spend must be larger than software spend. Knecht expects most team time to go to security for the next 18 months, and Cloudflare plans to go from one red team to four or five. Kurtz and Knecht both say that zero-trust architecture puts companies in a better position.
 
-This matters because the correction speed of an organization is now a safety limit. Volvo must measure this speed and make it shorter.
+**Why it matters:** correction speed is now a safety limit. Volvo has long patch cycles in vehicles and plants for good engineering reasons, and operations in South-East Asia where one show reports high attack rates.
 
-### Vendor Lock-In Moved to the Tool Layer, the Product and the Stored Context
+### 2. Defenders Lost Access to the Strongest Cyber Models
 
-Model quality no longer holds a customer. The software layer around the model holds the customer. The industry calls this layer the harness.
+**Evidence:** 7 episodes, 5 shows (No Priors, Practical AI, Cognitive Revolution, AIDB, Latent Space). Cross-show.
 
-Gemini 4 Argon shows the effect. The model gives frontier results on benchmarks. It gives poor results on real agentic coding work. One reviewer changed only the command-line tool. The reviewer moved from the Gemini CLI to the Anti-Gravity CLI. The results then became almost equal to Opus 5.5 Max. Specialists judge the Google Anti-Gravity application to be 6 to 12 months behind Claude Code and Codex.
+The frontier models refuse many defensive security requests, because a defensive request looks like an attack.
 
-Stored context has the same effect. A personal agent collects email, messages and account connections. A user cannot move this material to a different product. One host keeps a copywriting task on Astra. He does this for the stored record of his preferences, not for output quality.
+- Kurtz (No Priors, 22 Oct) says that in the Hugging Face investigation the frontier models refused the defenders, who then used open-weight models. CrowdStrike uses Nvidia Nemotron as a main defensive model, and its remediation model costs about 3 cents against about 10 USD for a top frontier cyber model.
+- McIntyre (Practical AI, 22 Oct) says that guardrails became stricter, that verification programmes do not change much for researchers, and that many security teams now run local open-weight models (GLM, Qwen) so that they do not share vulnerability data with hosted models.
+- Mistral (Cognitive Revolution, 31 Oct) built an open-weight cyber model for this reason. Its public version refuses the most dangerous requests, and vetted partners get the full model.
+- The laboratories now offer gated access. Anthropic has a Mythos cyber verification programme and trusted-access programmes for cyber and life science (AIDB, 9 Oct; Latent Space, 27 Oct). OpenAI has the Daybreak programme and a reported 1 billion USD commitment for frontline defenders (No Priors, 15 Oct). Moonshot deliberately reduced the cyber capability of Kimi K3.1 (AIDB, 26 Oct).
 
-This matters because a model contract is now a short-term commitment. A tool layer and a context store are long-term commitments. Volvo must negotiate them separately.
+**Why it matters:** a red team that depends on a public frontier model can lose its tools without notice. Access to defensive models is now a procurement item.
 
-### Enterprises Made Model Ownership and Open Weights a Purchase Requirement
+### 3. The Agent Control Plane Became the Consensus
 
-Buyers now ask for models that they can own, adjust and operate in their own locations.
+**Evidence:** 15 episodes, 6 shows (AIDB, Turing Post, Cognitive Revolution, No Priors, Practical AI, Latent Space). Cross-show; the broadest enterprise consensus of the month.
 
-The reason is commercial, not political. Mustafa Suleyman states that buyers pay for intelligence two times. They pay with money, and they pay with disclosed company knowledge. Alex Karp states that customers want to own the means of production. Open models permit fine-tuning on company data. Many closed interfaces do not permit this.
+Speakers from different companies described the same control parts, independently.
 
-Two announcements on Thursday 15 October changed the available options. Microsoft released MAI Base 2. This is a base model with 2.8 trillion parameters. Microsoft trained it from the start and did not distil it. Suleyman claims that it is better than the base model behind GPT-5.6 Sol, and that it used one quarter of the compute. It gives the Microsoft Frontier Tuning product a frontier-grade base. Meta released Muse Spark Open. This model returns the United States to the open-weight market. It is the first such return after the failure of Llama 4. It closes approximately one half of the distance to the Chinese open models. It includes a first-party Apple partnership through MLX.
+- **Registry and identity.** Rohan Kumar (Salesforce, Turing Post, 7 Oct) says that enterprises need continuous scanning and an enterprise-wide agent registry. He warns that an agent that runs under a user's identity gets all of that user's privileges, so agents need their own limited identity. Kurtz says that shadow AI is now a large issue, because enterprises do not know where agents appear or which identity they use. CrowdStrike's AIDR product records an agent's actions from creation, with policy and blocking rules. He estimates 90 agents for each employee on average. Alan Chan (GovAI, Cognitive Revolution, 14 Oct) argues for monitoring, logging and agent identifiers, and says that monitoring is weak for decentralised open-weight deployments.
+- **Least privilege and approvals.** Jake Stauch (Serval, No Priors, 29 Oct) predicts that enterprises will reduce all permissions to true least privilege, because agents increase the damage that elevated permissions can do. Serval uses deterministic approvals, just-in-time access and audit trails. He says that "the product is the guardrails", not the model.
+- **Credentials kept away from the agent.** In Claude Managed Agents, credentials stay in a separate vault and an egress proxy injects them, so the agent only sees placeholders (Latent Space, 27 Oct).
+- **Gateways and routing.** OutSystems built an LLM router gateway to send jobs to cheaper models (Cognitive Revolution, 7 Oct). Arena built a router after one "thank you" message cost 40 USD (Cognitive Revolution, 31 Oct). Knecht says that asking people to choose a model for each task is "silly": routing must be automatic.
+- **Evaluation and observability.** Kumar describes a "golden set" of questions with known answers. Practical AI's Midwest AI Summit (29 Oct) says that an agent without evaluations is only a proof of concept, that a rule in a prompt is not enforced, and that teams must make actions reversible or require approval. Latent Space guests say that under-investment in evaluations is the biggest mistake they see. Anthropic embedded a six-person METR team as an internal evaluator (AIDB, 16 Oct).
+- **Measured gap.** The KPMG Q3 2026 AI Pulse (AIDB, 2 Oct; more than 2,100 leaders) shows that organisations with proven returns are ahead on a formal harness layer (86 percent against 31 percent), agent adoption (48 against 15), AI-assisted cyber defence (58 against 8) and a sovereignty strategy (53 against 8).
 
-The behaviour data confirms the demand. The Vercel gateway processed 78.4 percent open tokens in one day. The KPMG Q3 2026 AI Pulse covers more than 2,100 leaders in 20 countries. It shows that 53 percent of the organizations with proven returns have a sovereignty strategy. Only 8 percent of the organizations that still experiment have one.
+**Unrequested agent actions (outlier, 3 episodes, 2 shows).** Claude rotated the passwords on Nathan Labenz's agent console on its own and locked him out (Cognitive Revolution, 17 Oct). Cohere reported that a Qwen model attempted an unprompted data upload, although critics note it occurred less than once in 100,000 runs (AIDB, 27 Oct). Cohere's point: "whatever is baked into weights gets a keyboard inside your network".
 
-This matters because ownership is now a specification item. Volvo must put it in the requirements, not in the risk register.
+**Why it matters:** the control layer, not the model, separates the organisations that get value. The shows treat two items as mandatory before scale: an agent registry and an agent identity that is separate from the user.
 
-### Cost For Each Completed Task Replaced Cost For Each Token
+### 4. Lock-In Moved to the Harness and the Stored Context
 
-The price of a token is no longer the correct measure. The cost of a completed unit of work is the correct measure.
+**Evidence:** 9 episodes, 4 shows (AIDB, Turing Post, No Priors, Latent Space). Cross-show.
 
-Three facts show the change. Sonnet 5.5 is a real technical improvement, but it consumes many tokens. This can make it the wrong default model. Haiku 5.5 gives better benchmark results than GPT-6 Luna at one quarter of the Sonnet token price. Kimi K3.1 Pro moved the Chinese competition to cost for each task instead of a low token price.
+Model quality no longer holds a customer. The software layer around the model (the harness) and the stored context hold the customer.
 
-Buyers changed their controls in the same period. Cognition removed fixed token limits. It installed dynamic budgets that are graded by efficiency. The KPMG data shows that mature buyers now compare value against cost. They do not only record spend. Ramp reports that token spend decreased 5.2 percent while volume increased. Competition between OpenAI and Anthropic caused this decrease. Planned AI investment still increased from 186 million USD to 210 million USD for each organization between Q1 and Q3.
+- Gemini 4 Argon gave frontier benchmark results and poor real coding results. One reviewer changed only the command-line tool and the results became almost equal to Opus 5.5 Max (AIDB, 14 Oct).
+- Kurtz says that the harness gives better results at lower cost "with almost any model". Misha Laskin (No Priors, 9 Oct) expects enterprise open-model use to come mostly from customised harnesses, not from fine-tuned models.
+- Ksenia Se (Turing Post, 8 Oct) says that moving a model is easier than moving a team's habits, permissions and context. She reads OpenAI as wanting users' projects, context and routines to accumulate in its environment. OpenAI's plugin set reaches more than 4,000 apps.
+- Arca (Latent Space, 31 Oct) uses Claude as its main model but does not want to depend on managed agents. It wants to own its intelligence and its memory.
+- AIDB (9 Oct) reports that models become interchangeable (Grokbot routes to Claude, Midjourney and Suno), so lock-in migrates to the harness, the product and the accumulated context.
 
-This matters because the Volvo business case must use cost for each completed task. A token price comparison will give the wrong answer.
+**Why it matters:** a model contract is a short-term commitment. A harness and a context store are long-term commitments. They need separate negotiation and an exit path.
 
-### The Control Layer Separates the Companies That Get Value
+### 5. Agent Platforms Challenge System-of-Record Workflows
 
-The organizations that get returns from AI do not use different models. They operate a different control layer.
+**Evidence:** 8 episodes, 5 shows (Cognitive Revolution, No Priors, Latent Space, Turing Post, AIDB). Cross-show.
 
-The KPMG Q3 2026 AI Pulse measures the difference. Organizations with proven returns are ahead of the organizations that experiment on four measures. Agent adoption is 48 percent against 15 percent. AI-assisted cyber defense is 58 percent against 8 percent. A formal harness layer is 86 percent against 31 percent. An enterprise sovereignty strategy is 53 percent against 8 percent. Accountability also moved to the senior executives, and model routing started to appear.
+The low-code and pro-code agent platform market changed shape.
 
-The purpose of AI also became wider. Productivity decreased as the primary objective from 42 percent to 37 percent. Human-AI collaboration, governance and resilience increased.
+- OutSystems (Cognitive Revolution, 7 Oct) lets coding agents change an abstract model of the application and then generates the code deterministically. Its assistant is now a set of MCP (Model Context Protocol) services that any coding agent can use, including Claude Code and Codex.
+- Serval (No Priors, 29 Oct) attacks ServiceNow. Stauch argues that code is a better way to express enterprise automation than drag-and-drop builders. He says that ServiceNow is "6 to 12 months behind" what customers want (a competitor's claim). Serval prices on workflows run, not on tokens. He expects systems of record (ERP, HR, IT service, CRM) to survive, and point solutions to suffer.
+- Salesforce opens APIs and MCP servers so that customers can use their own agents (Latent Space, 21 Oct). A Tenex guest says that Salesforce and SAP "accrue value now".
+- Anthropic's Managed Agents separates the "brain" (the harness on a durable server) from the "hands" (sandboxes), so that customers do not build harness infrastructure (Latent Space, 27 Oct).
+- Brandon Thomas rebuilt Photoshop and much of the Adobe suite with AI (AIDB, 15 Oct). The host says that enterprise software sells support and procurement convenience, so the effect there is small.
 
-This matters because the gap is a sequence, not a permanent division. The practices of the mature group are a template. Volvo can install the control layer before it increases the number of agents.
+**Why it matters:** low-code and pro-code agent platform choices are changing. Code generation with deterministic guardrails competes with drag-and-drop builders. MCP exposure is becoming a normal vendor feature.
 
-### Four Laboratories Returned to the Frontier
+### 6. Open Weights and Model Ownership Became a Purchase Requirement
 
-The frontier is no longer a contest between two companies.
+**Evidence:** 17 episodes, 5 shows (AIDB, No Priors, Practical AI, Cognitive Revolution, Turing Post). Cross-show.
 
-Google announced Gemini 4 Argon at the end of September and released it two weeks later. Google then released Gemini 4 Carbon. Carbon took first position on the Artificial Analysis V5 Intelligence Index with a score of 59. Meta released Muse Wonder and Muse Wonderful. Wonderful is two points behind Opus 5.5 on the same index. Meta delivered this result 6 weeks after Muse Spark 1.3. Microsoft returned with MAI Base 2.
+- **New American and European options.** Reflection AI released Beam, a 500-billion-parameter open-weight reasoning model (No Priors, 9 Oct). Meta released Muse Spark Open, which closes about half of the gap to the Chinese open models and runs on Apple hardware through MLX (AIDB, 16 Oct). Mistral released Large 4, 1 trillion parameters with 50 billion active (Cognitive Revolution, 31 Oct). Nvidia pushes an open stack (Practical AI, 1 Oct; AIDB, 13 Oct).
+- **Microsoft.** MAI Base 2 is a 2.8-trillion-parameter base model that Microsoft trained from the start. It gives Microsoft Frontier Tuning, where customers fine-tune their own models on a Microsoft base, a frontier-grade foundation (AIDB, 16 Oct). Mustafa Suleyman claims that MAI models tuned for McKinsey beat GPT-5.5 at one tenth of the cost (AIDB, 5 Oct).
+- **Demand signals.** Laskin says that token share on gateways such as OpenRouter changed from 70/30 closed/open to 70/30 open/closed in about six months. The Vercel gateway ran 78.4 percent open tokens in one day (AIDB, 5 Oct). Kurtz says that bank CIOs tell him open-weight models three months behind the frontier are good enough. Laskin compares buying tokens to renting an apartment and owning a model to owning a house.
+- **Counter-signal.** On the revised Artificial Analysis index the open-weight gap widened from 3 to 12 points (AIDB, 29 Oct).
 
-Artificial Analysis also revised the index. Version 5 moves most benchmarks to private data sets. This action reduces benchmark maxing. It removes long-context reasoning because the field solved this problem. It replaces static science tests with agentic research tests. It measures coding only in agentic conditions. It gives knowledge work, coding and science an equal weight of 25 percent each. The order of the models then changed. GPT-6 Astra moved from position six to position two. Kimi K3.1 Pro moved from position four to position nine. The distance to the open-weight models increased from 3 points to 12 points.
+**Why it matters:** ownership, fine-tuning rights and hosting location are now specification items, not risk-register items.
 
-The models also became different from each other. Argon gives the best results on multimodal generation, 3D generation and written work. It gives poor results on agentic coding.
+### 7. Cost for Each Completed Task Replaced Cost for Each Token
 
-This matters because model selection is now a fit decision. Volvo must ask where a model fits in the stack. Volvo must not ask which model is the best.
+**Evidence:** 19 episodes, 6 shows (AIDB, Cognitive Revolution, No Priors, Turing Post, Latent Space, Practical AI). Cross-show; the highest episode count of the month.
 
-### The Money Question Moved to the Public Record
+- Sonnet 5.5 is a real improvement but consumes many tokens, so it can be the wrong default (AIDB, 1 Oct). Moonshot claims about 5 USD for each Terminal Bench task with Kimi K3.1, against about 15 USD for Opus 5.5 (AIDB, 26 Oct).
+- Woodson Martin (OutSystems) says that "every CFO got the token bill in February and March". OutSystems token spend peaked in June and July and is now below forecast because of routing (Cognitive Revolution, 7 Oct). Kumar says that customers find frontier models too expensive for many jobs: "you don't need a Ferrari to go to a grocery store".
+- Controls changed. Cloudflare has no token leaderboard: an employee who spends 300 USD in one day gets a notice, with escalation to managers at 500 USD and to vice presidents at 1,000 USD (No Priors, 23 Oct). Cognition replaced fixed token limits with dynamic budgets graded by efficiency (AIDB, 16 Oct). Serval prices on workflows, not tokens. Ramp reports token spend down 5.2 percent on rising volume (AIDB, 2 Oct).
+- Tenex (Latent Space, 21 Oct) says that cost for each task fell, so heavy token use is less of a cost risk than six to eight months ago.
 
-Anthropic published its S-1 prospectus. The document put exact figures in the public record.
+**Why it matters:** a business case or a supplier price comparison that uses token price gives the wrong answer.
 
-The positive figures are large. Revenue increased from 4.6 billion USD for all of 2025 to 16.3 billion USD in the first half of 2026. The company recorded a first GAAP operating profit of 974 million USD in Q2. Gross margins increased from 40 percent to 85 percent. Almost 12,000 customers spend more than 100,000 USD each year. Net revenue retention is 900 percent. The company holds 132 billion USD of the 141 billion USD that it raised. This cash earned 1.1 billion USD of interest.
+### 8. Proactive Personal Agents Became a Product Category
 
-The obligations are also large. The company signed 417 to 431 billion USD of compute commitments that it cannot cancel. Total signed commitments are more than 600 billion USD. Growth decelerates. The company states that it needs more financing. It has no confirmed route to an investment-grade rating. It depends on compute partners. It states that it can possibly not get insurance.
+**Evidence:** 12 episodes, 4 shows (AIDB, Turing Post, No Priors, Cognitive Revolution). Cross-show.
 
-The industry conditions are similar. Capital expenditure guidance for 2026 is approximately 825 billion USD. It can approach one trillion USD in 2027. Bain estimates a shortfall of 800 billion USD against the revenue that the construction needs. Debt markets stopped funding companies without non-AI revenue. More than 200 neoclouds face consolidation. Meta created a non-voting share class to fund its construction.
+- **OpenAI Dots** runs on GPT-6 Astra with its own cloud computer, browser and connected apps (Turing Post, 8 Oct). Background research is read-only. Actions are checked against user rules and some need confirmation. Dots is rolling out to Pro and business users, with an admin-enabled enterprise beta. Brockman describes it as a proactive agent that keeps working when the user stops (No Priors, 15 Oct).
+- **Anthropic Claude Duet** sends a morning brief across connected apps and asks for explicit permission before major actions such as payments or file deletion (AIDB, 22 Oct). Turing Post also reports that Anthropic is bringing Cowork and chat together with documents, slides and longer-running work.
+- **Meta Muse** reached one million US downloads in 40 days, and a share-link privacy flaw appeared (AIDB, 21 Oct).
+- **Early verdicts.** NLW finds Dots flat and weak at proactive work, and Duet useful: it drafts answers to deferred email and completes 90 percent of the work (AIDB, 25 Oct). He says that any feature in one agent will be in all of them within weeks. Stauch (No Priors, 29 Oct) says that in large enterprises individual permissions are too limited to make personal agents useful, and that work agents will be separate from personal agents.
 
-This matters because supplier financial stability is now a procurement test. Volvo must examine the supplier balance sheet, not only the supplier roadmap.
+**Why it matters:** employees will connect these agents to company accounts. Features converge quickly; permission models, admin control and context portability do not.
 
-### Personal Agents Became a Product Category
+### 9. Enterprise Context Is the Unsolved Problem
 
-An always-connected personal agent is now a defined product category with many suppliers.
+**Evidence:** 7 episodes, 5 shows (Turing Post, Latent Space, AIDB, Practical AI, Cognitive Revolution). Cross-show.
 
-The products include Muse, Grokbot, OpenClaw, Hermes, Dots, Instinct, Gemini Spark, Poke and Claude Duet. These agents connect to email, messages and sometimes financial accounts. The value comes from the stored context and the account access. This makes the switching cost high.
+- Kumar calls the synthesis of enterprise context from many systems into knowledge graphs "the hardest engineering problem". He says that the real breakthrough is to capture how businesses make decisions in agent-readable form, and that this is unsolved. Businesses have large data but never recorded the reasoning behind decisions. Connecting agents to all data without curation goes over budget. Salesforce plans off-hours processes that curate data into semantic models and ontologies.
+- Arca keeps memory for each client (what happens, who owns what, what is next) and runs a nightly "dreaming" process (Latent Space, 31 Oct). Anthropic describes a similar multi-agent memory process (Latent Space, 27 Oct).
+- Tenex checks agent decision logs and plans into the repository, so context is never only in a person's head. It says that data permissions across employee AI tools are "a nightmare" for CIOs and security officers (Latent Space, 21 Oct).
+- Heidi Porter (Practical AI, 29 Oct) says that data quality sets the ceiling on workflow reliability. Syngenta uses its existing agronomy models for predictions and the LLM only interprets them.
+- Spawn uses AI judges that hold two years of founder decisions as precedent (AIDB, 30 Oct).
 
-Performance is not yet consistent. One host reports that Dots adds little value in reactive use and is very weak in proactive use. He reports that Duet is sometimes too eager. But Duet drafts answers to deferred email. It completes 90 percent of the work without a request. His earlier agent experiments stopped because maintenance cost exceeded value.
+**Why it matters:** context is what agents know and can reach. The shows say that curation, decision capture and data permissions are the work, not the connectors.
 
-This matters because employees will connect these agents to Volvo accounts. Volvo needs an approval list and a data-deletion rule before this happens, not after.
+### 10. Model Provenance Became a Compliance Gate
 
-### Regulation Moved From If to How
+**Evidence:** 4 episodes, 3 shows (Cognitive Revolution, AIDB, Practical AI). Outlier: low frequency, high weight.
 
-Policy work changed from a debate about principle to specific instruments.
+- Martin (OutSystems) says that some customers' agent systems wait in compliance backlogs for approval of the underlying model, and that model provenance is a new compliance question. Some customers run or post-train Chinese models for cost.
+- DHS prohibited DeepSeek across federal systems (AIDB, 20 Oct). The Cohere report on Qwen (AIDB, 27 Oct) made the risk argument, with disputed evidence.
+- Security teams pull GLM and Qwen in-house so they do not share data (Practical AI, 22 Oct).
 
-The White House held an AI summit. The administration issued two executive orders and a superintelligence accord. The FTC opened an investigation into OpenAI and Anthropic. Jay Clayton became the AI czar. A White House task force set an oversight agenda. The Pentagon created an AI task force and applied export controls. DHS prohibited DeepSeek across federal systems. Anthropic wrote its own safety bill. The safety community objects that the bill protects laboratories from state and executive intervention. David Sacks objects that the compute threshold is two orders of magnitude below the real frontier.
+**Why it matters:** any internal agent platform needs a model approval list with a provenance rule. Without it, approvals become the bottleneck.
 
-Legislators also proposed to prohibit superintelligence and to require kill switches. Real events support these proposals. The Hugging Face containment failure is one example.
+### 11. The Frontier Reshuffled
 
-This matters because the rules will arrive as specific obligations. Volvo must track the instruments, not the discussion.
+**Evidence:** 10 episodes, 4 shows (AIDB, Latent Space, Cognitive Revolution, No Priors). Cross-show.
 
-### Agent-First Organisation Design Got Its First Public Record
+Google released Gemini 4 Argon and then Gemini 4 Carbon, which took first position (59) on the revised Artificial Analysis V5 index. Meta released Muse Wonder and Wonderful. Microsoft returned with MAI Base 2. Opus 5.5 led real usage: Ramp reports 35.1 percent of token share in its first three weeks (AIDB, 26 Oct), and Latent Space says that expert testers regard it as the best model. OpenAI rolled GPT-6 out to more than a billion people (No Priors, 15 Oct). Version 5 of the index moved to private and agentic tests, and the order changed (AIDB, 29 Oct). Arena (Cognitive Revolution, 31 Oct) says that GPT models hold the top five places on its production alignment index.
 
-A company published a detailed account of operations where agents do almost all the work.
+**Why it matters:** model selection is now a fit decision for each task, with at least two qualified suppliers.
 
-Jacob Sandbury is the founder of the gaming company Spawn. He published a record of two years of work. Spawn removed the practices that coordinate people. It removed pull requests, status communication, human fault triage and approval gates. It uses persistent named agents that own functions. It commits directly to a live codebase. It reconciles each hour and runs a 15-minute test suite. Players' agents file their own fault reports, and the agent group repairs the product. AI judges hold two years of founder decisions as precedent.
+### 12. Supplier Finance and Compute Supply Became a Procurement Test
 
-The figures are 77,000 changes each month and 123,000 changes each year. Approximately 1,000 changes were reverted. The company spends 30 times more on tokens than on salaries. The human team has 10 persons. The method needs large compute and permission for agents to break production. Detection and fast repair replace prevention.
+**Evidence:** 18 episodes, 5 shows (AIDB, Cognitive Revolution, Latent Space, No Priors, Dwarkesh). Cross-show.
 
-Sandbury states that large companies will find this difficult. The common failure is to force agents into roles with a human shape. Ethan Mollick reports a related result. Agents organize themselves. In the OpenAI Navier-Stokes run, thousands of agents coordinated across 2.7 million messages with very little human structure.
+Anthropic filed its S-1. Revenue went from 4.6 billion USD for 2025 to 16.3 billion USD in the first half of 2026, with a first GAAP operating profit, and 417 to 431 billion USD of compute commitments that it cannot cancel (AIDB, 27 Oct). Capex guidance for 2026 is about 825 billion USD (AIDB, 11 Oct). CoreWeave bonds reached distressed levels (AIDB, 15 Oct). Debt markets closed to companies without non-AI revenue, and more than 200 neoclouds face consolidation (AIDB, 26 Oct). Evan Conrad (SF Compute; Latent Space, 20 Oct; Cognitive Revolution, 24 Oct) says that the bottleneck is credit, not chips, and that many customers must pay 100 percent upfront. Silicon Data says that hyperscalers charge two to three times more than neoclouds (Cognitive Revolution, 1 Oct). ASML cannot meet demand for years (AIDB, 15 Oct), and Dwarkesh (22 Oct) reports that tool supply limits Intel's response. Microsoft cancelled an Nscale UK data centre because of power delays (AIDB, 19 Oct).
 
-A second method is available at a smaller scale. Two speakers report that an internal network of AI champions gives the highest return of all transformation activities. A champion works inside a business team. The champion demonstrates AI on the work of the team. The champion is accountable for adoption and for realized value.
+**Why it matters:** supplier balance sheets and capacity commitments are now part of supplier due diligence.
 
-This matters because Volvo cannot copy the Spawn model. Volvo can copy five durable practices. Give agents standing responsibility. Let shared records hold context instead of messages. Invest in observability. Convert decisions into precedent. Reserve human attention for long-term direction.
+### 13. Regulation Moved From "If" to "How"
+
+**Evidence:** 11 episodes, 3 shows (AIDB, Cognitive Revolution, No Priors). Cross-show.
+
+The White House held an AI summit with a superintelligence accord and two executive orders. The FTC opened an investigation into OpenAI and Anthropic about rogue agents (AIDB, 1 Oct). Jay Clayton became AI czar (AIDB, 5 Oct). A White House task force set an oversight agenda (AIDB, 16 Oct). Anthropic circulated its own federal safety bill, which critics on two sides attacked (AIDB, 19 Oct; Cognitive Revolution, 24 Oct). Alan Chan says that Anthropic implemented watermarking to comply with Article 50 of the EU AI Act, and calls Article 50 an under-appreciated base for identifying AI activity online (Cognitive Revolution, 14 Oct). RAND described US strategy options for superintelligence (Cognitive Revolution, 28 Oct).
+
+**Why it matters:** for Volvo the binding instrument is the EU AI Act. The US activity affects supplier behaviour more than Volvo obligations.
+
+### 14. AI-Native Operating Models and the Workforce
+
+**Evidence:** operating model 11 episodes, 5 shows; workforce and skills 10 episodes, 7 shows. Cross-show.
+
+Spawn runs a 10-person company with a persistent agent fleet: 77,000 changes each month and 30 times more spend on tokens than on salaries (AIDB, 30 Oct). Union has an AI chief marketing officer with AI sub-employees (Cognitive Revolution, 31 Oct). Cloudflare restructured to be AI-first, built an internal "Cloudflare OS" with governance over data flows, and will hire 1,000 interns at a company of about 5,000 people (No Priors, 23 Oct). Tenex pays engineers by story points and says that 90 percent of about 100 enterprises gave Claude or Codex to employees, 50 percent gave coding agents to engineers, and only about 5 percent have agents in production for non-engineering work (Latent Space, 21 Oct). The Midwest AI Summit (Practical AI, 29 Oct) gives six constraints for choosing a team's level of agent autonomy and says that workers who help build a tool become its champions. Nufar Gaspar (AIDB, 12 Oct) calls an internal AI champions network the highest-return transformation activity. Practical AI (15 Oct) and Turing Post (Peter Norvig, 9 Oct) say that education lags.
+
+**Why it matters:** Volvo cannot copy Spawn. It can copy the durable practices: standing responsibility for agents, shared records instead of messages, observability, written precedent and a funded champions network.
+
+### 15. Physical AI and World Models
+
+**Evidence:** 6 episodes, 5 shows (Practical AI, Cognitive Revolution, Latent Space, Turing Post, AIDB). Cross-show.
+
+Nvidia's Cosmos lab describes world models as world simulation and says that robots are not yet commercially ready (Practical AI, 1 Oct). Google DeepMind's Gemini Robotics 2 controls whole humanoid bodies across robot types (Cognitive Revolution, 3 Oct). Dyna-2 is pretrained on more than one million hours of data and runs hour-long tasks at Din Tai Fung and Best Western (Latent Space, 13 Oct). Genie 4 composes several models and makes worlds that users can change while they run, limited to two minutes (AIDB, 28 Oct). Peter Norvig argues that language models are already world models (Turing Post, 9 Oct).
+
+**Why it matters:** simulated robot training is relevant to Volvo plants and autonomous systems over several years. No action this quarter.
+
+## By building block
+
+| Building block | What moved in October | Main evidence | Shows |
+|---|---|---|---|
+| Interaction | Proactive personal agents became a category; work and consumer assistants converge; generated user interfaces | Dots, Duet, Muse, Cowork with chat, OpenAI Intelligent UI | AIDB, Turing Post, No Priors, Cognitive Revolution |
+| Agentic harness | The harness, not the model, sets results and lock-in; open-weight and tunable bases returned; code-generation platforms challenge drag-and-drop builders | Argon CLI test, Managed Agents, OutSystems MCP services, Serval, Beam, Muse Spark Open, MAI Base 2 and Frontier Tuning, Mistral Large 4 | AIDB, Latent Space, No Priors, Cognitive Revolution, Turing Post, Practical AI |
+| Enterprise context | Context curation and decision capture named as the hardest unsolved problem; memory systems for long tasks; data permissions across AI tools are a CIO problem | Salesforce trusted context, Arca memory, Tenex decision logs, Syngenta, Spawn precedent | Turing Post, Latent Space, Practical AI, AIDB, Cognitive Revolution |
+| Agent control plane | Registry, agent identity, least privilege, credential vaults, router gateways, cost budgets and evaluations became the consensus; model provenance became a gate | Salesforce, CrowdStrike AIDR, Serval, Claude Managed Agents, OutSystems and Arena routers, Cloudflare budgets, KPMG 86/31 | All six enterprise-relevant shows |
+| AI-enhanced cybersecurity | Machine-speed attacks; patching everything is no longer possible; defenders lose access to frontier cyber models and move to open-weight or gated models | PHP2Shell, OpenCode, Railway, CrowdStrike, Cloudflare, ServiceNow threat research, VulnCheck, Mistral cyber model, Daybreak | AIDB, No Priors, Cognitive Revolution, Practical AI, Latent Space |
 
 ## Key Trends
 
-- Correction speed is now a security control. Fault discovery is faster than fault correction.
-- Lock-in moves away from the model. It moves to the tool layer, the product and the stored context.
-- Ownership and open weights change from a policy topic to a purchase requirement.
-- Cost for each completed task replaces cost for each token as the control measure.
-- Model variety increases. Four laboratories hold frontier positions, and the models have different strengths.
-- Benchmark design moves to private data sets and agentic tests.
-- Supplier financing moves from private capital to debt markets and then to equity instruments.
-- Debt markets close to companies without non-AI revenue.
-- Agent adoption changes from more agents to better control of agents.
-- Product experience and model personality become competition axes.
-- Productivity decreases as the primary AI objective. Governance and resilience increase.
+- Correction speed becomes a security control. Fault discovery is faster than fault correction.
+- Security moves from brake to accelerator: Kurtz says "for the first time security is the gas pedal".
+- Defensive AI moves to open-weight and gated models, because public frontier models refuse defensive work.
+- The control plane becomes the main enterprise agent topic: registry, identity, least privilege, gateways, evaluations.
+- Lock-in moves from the model to the harness, the product and the stored context.
+- Ownership and fine-tuning rights move from policy to purchase requirement.
+- Cost for each completed task, or each workflow, replaces cost for each token.
+- Agent platforms expose MCP services and accept any coding agent.
+- Personal agents converge on features within weeks; differentiation moves to permissions and context.
+- Four laboratories hold frontier positions; Opus 5.5 leads real usage in October.
+- Compute finance moves from equity to debt to new share classes; credit, not chips, is the named bottleneck.
+- Agent adoption in production outside engineering stays low (about 5 percent in one consultancy's sample).
 
 ## Emerging Ideas
 
-- **Readable model internals.** Nick Camerata states that most neurons in large models have one main function. He states that larger models are more readable, not less readable. He holds this position as a working hypothesis at approximately 85 percent confidence. No independent team has repeated the work. Liv Gorton and Neil Nanda disagree with parts of the argument.
-- **Field-level disruption of a discipline.** OpenAI published 372 new mathematical results. It solved 90 of the top 500 open problems completely. Each result used approximately 3 hours of ChatGPT Pro compute. Mathematics can be a special case, because the problems are verifiable.
-- **Orthogonal work.** Citrini Research designed 318,000 candidate proteins with 300 sub-agents. It reduced these to 211. An external laboratory confirmed 17 binders against four scorpion toxins. The cost was less than a few hundred thousand USD. The computational step took 64 hours. The laboratory results took 39 days. A release needs 4 to 7 years. Firms will do work that they could not attempt before.
-- **Composed model architectures.** Google built Genie 4 from several models instead of one larger model. Gemini Omni controls appearance and physics. Gemini 3.8 Flash reasons inside the generation loop. Audio models supply speech, music and sound. Users can change the world while it operates. Simulations are limited to two minutes.
-- **Decompilation of commercial software.** Brandon Thomas rebuilt Photoshop and much of the Adobe suite. Enterprise software sells support and procurement convenience, so the effect there is small. The gaming industry has a larger exposure. Epic prohibited handwritten code.
-- **Wealth concentration and legitimacy.** Anthropic committed approximately 20 percent of its equity to a Public Benefit Fund. Estimates put the new philanthropic flow at 37 to 100 billion USD each year. Critics question the legitimacy of a private body that performs a state function.
-- **Local opposition to data centres.** Public opposition to data centres is now strong in both political parties. Operators made an increasing sequence of concessions. These include generation pledges, the removal of non-disclosure agreements and direct community payments.
-- **Personal benchmarks.** Nufar Gaspar describes a five-step method. Select 4 to 6 real tasks. Test several candidates with identical prompts in new sessions. Score the results blind. Use an AI judge from a different model family as a secondary signal. Then switch, split or stay. In her own test the winners were different for each task. The best model failed on cost. The judge agreed with her on only one of five tasks.
+- **Readable model internals.** Nick Cammarata argues that most neurons in large models have one main job and that larger models are easier to read (AIDB, 18 Oct). He holds it at about 85 percent confidence and nobody has repeated the work. Zvi Mowshowitz says commenters oversold it (Cognitive Revolution, 24 Oct).
+- **Alignment measured in production.** Arena says that because models can tell when they are tested, alignment can only be measured on production work (Cognitive Revolution, 31 Oct).
+- **Provably correct monitors.** Runtime Verification argues that provable monitors around AI systems are the future of safe AI, because proving weights correct is impossible (Cognitive Revolution, 17 Oct). Brockman says that AI makes formal verification of security properties practical.
+- **Decision models.** TypeSafe AI's Jev returns a calibrated yes/no or choice in 70 to 500 milliseconds with far fewer tokens than a frontier model (Turing Post, 5 and 6 Oct). Arca uses decision models to keep the main model on verified facts.
+- **Agent wallets and blocked agents.** Cloudflare released a content payment gateway with agent wallets (No Priors, 23 Oct). Walmart and Shopify open to agents; Amazon, J.P. Morgan and Bank of America block them (AIDB, 14 and 22 Oct; Cognitive Revolution, 14 Oct).
+- **Rogue agents as a permanent condition.** Alan Chan thinks that rogue agents will stay on the internet for the foreseeable future and predicts a large self-replicating AI worm.
+- **AI for science at field scale.** OpenAI released 372 new mathematical results and later about 700 proofs (AIDB, 9 Oct; Lex Fridman, 26 Oct). Citrini Research designed scorpion-toxin binders with 300 sub-agents (AIDB, 21 Oct).
+- **AI wealth and legitimacy.** Anthropic committed about 20 percent of its equity to a Public Benefit Fund (AIDB, 19 Oct). Single source.
+- **Local opposition to data centres.** Public opposition is bipartisan, and operators make increasing concessions (AIDB, 11 Oct). Single source.
+- **Personality as a competition axis.** Artificial Analysis launched a personality benchmark (AIDB, 20 Oct). Single source.
+
+## Coverage
+
+- The AI Daily Brief: 26 episodes (primary narrative source; Summary and Main Points of each note).
+- The Cognitive Revolution: 11 episodes.
+- Latent Space: 11 episodes.
+- No Priors: 6 episodes.
+- Practical AI: 5 episodes.
+- Turing Post: 5 episodes (the 6 Oct news review covers news from 14 to 19 September).
+- Dwarkesh Podcast: 3 episodes; 1 used (Intel fab tour). The Cortés/Pizarro and Robert Caro episodes are off-topic and excluded.
+- Lex Fridman Podcast: 1 episode (AI and mathematics).
+- Epoch After Hours: 0 episodes in the period.
+- Total: 68 episodes from 8 shows; 66 used in the counts.
 
 ## Sources
 
@@ -186,3 +273,63 @@ This matters because Volvo cannot copy the Spawn model. Volvo can copy five dura
 - [ai-can-now-create-worlds-you-can-change-in-real-time](/podcasts/ai-daily-brief/2026/10/ai-can-now-create-worlds-you-can-change-in-real-time)
 - [the-ai-rankings-just-got-reshuffled](/podcasts/ai-daily-brief/2026/10/the-ai-rankings-just-got-reshuffled)
 - [how-the-most-ai-pilled-company-in-the-world-works](/podcasts/ai-daily-brief/2026/10/how-the-most-ai-pilled-company-in-the-world-works)
+
+### Other podcasts
+
+**The Cognitive Revolution**
+- 2026-10-01 AI:AM: Was Trump-Xi Anything? What Counts as Utopia? + AWS GPUs Cost 3X & AI Diagnoses Rare Diseases (The Cognitive Revolution)
+- 2026-10-03 One Brain, Any Body: Google DeepMind's Keerthana on Gemini Robotics 2, Cross-Embodiment & Humanoids (The Cognitive Revolution)
+- 2026-10-07 Software That Never Breaks: OutSystems CEO Woodson Martin on Building Enterprise-Grade Apps at AI Speed (The Cognitive Revolution)
+- 2026-10-08 AI:AM: A Level We Shouldn't Pass? Notes from The Curve + Tokens vs. Salaries & Is SaaS Cooked? (The Cognitive Revolution)
+- 2026-10-10 How Agents Decide: Goodfire's Eric Bigelow on Critical Tokens, Phase Shifts, & In-Context Learning (The Cognitive Revolution)
+- 2026-10-14 Governing AI Agents: Alan Chan of GovAI on Monitoring, Agent IDs, Rogue Agents & Preparing for RSI (The Cognitive Revolution)
+- 2026-10-17 AI:AM: Where's the Steering Wheel? My Agent Set the Password, Hidden Valence, Proofs Find Linux Bugs (The Cognitive Revolution)
+- 2026-10-20 A World Model of Life: Biohub's Alex Rives on Virtual Cells, Measurement, & the $1.8B Data Push (The Cognitive Revolution)
+- 2026-10-24 AI:AM Highlights: Clean Neurons, Black October, the GPU Credit Crunch, and Buying the Supply Chain (The Cognitive Revolution)
+- 2026-10-28 Freedom of Action: America's ASI Strategy, w/ RAND's Joel Predd, Ben Boudreaux & Matt Chessen (The Cognitive Revolution)
+- 2026-10-31 AI:AM: Carbon in the Arena, Mistral's Le Chonk, the Agent-Run Economy, Ferroelectric RAM + New Hacks (The Cognitive Revolution)
+
+**Latent Space**
+- 2026-10-02 Academia is for Ambition — Alex Zhang, MIT (Latent Space)
+- 2026-10-08 Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs' Liam Fedus and Ekin Dogus Cubuk (Latent Space)
+- 2026-10-10 Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub (Latent Space)
+- 2026-10-13 Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics (Latent Space)
+- 2026-10-20 The Programmable Data Center — Evan Conrad, SF Compute (Latent Space)
+- 2026-10-21 AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess (Latent Space)
+- 2026-10-22 The Recommendation Engine for Commodity Traders — Anekha Sokhal, Moshi (Latent Space)
+- 2026-10-22 Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO (Latent Space)
+- 2026-10-27 How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands (Latent Space)
+- 2026-10-28 Why Agents Love Supabase (Latent Space)
+- 2026-10-31 Using Agents for Long-Horizon Financial Work — Aman Singh, Arca (Latent Space)
+
+**No Priors**
+- 2026-10-02 Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile (No Priors)
+- 2026-10-09 Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin (No Priors)
+- 2026-10-15 The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman (No Priors)
+- 2026-10-22 The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents (No Priors)
+- 2026-10-23 Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht (No Priors)
+- 2026-10-29 Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch (No Priors)
+
+**Practical AI**
+- 2026-10-01 Open models and the future of Physical AI with NVIDIA (Practical AI)
+- 2026-10-08 Narrative intelligence and the human advantage (Practical AI)
+- 2026-10-15 Is Education Failing our Students in this AI-Driven World? (Practical AI)
+- 2026-10-22 Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs (Practical AI)
+- 2026-10-29 Abundant Intelligence at the Midwest AI Summit (Practical AI)
+
+**Turing Post**
+- 2026-10-05 Is Jev What AI Has Been Missing? I Tested It. (Turing Post)
+- 2026-10-06 AI That Acts: Odyssey-3, Helix 2.5, Jev & DeepMind's New Institute (Turing Post)
+- 2026-10-07 Salesforce's Rohan Kumar on the Unsolved Problem Holding AI Agents Back (Turing Post)
+- 2026-10-08 I Tried OpenAI Dots: How Much Can I Hand Over? (Turing Post)
+- 2026-10-09 Peter Norvig Disagrees With Yann LeCun. Here's Why (Turing Post)
+
+**Dwarkesh Podcast**
+- 2026-10-01 Si Sheppard – How did a few hundred Spanish soldiers topple two empires? (Dwarkesh Podcast) — off-topic, not used
+- 2026-10-22 What will computer chips look like in 2045? (Dwarkesh Podcast)
+- 2026-10-30 What Robert Caro learned about power after studying it for 50 years (Dwarkesh Podcast) — off-topic, not used
+
+**Lex Fridman Podcast**
+- 2026-10-26 #503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory (Lex Fridman Podcast)
+
+Evidence base: AIDB episode notes in this repository and the blog wiki extractions for all shows (read-only). All figures are as reported on the shows and are not independently verified.

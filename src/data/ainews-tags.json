@@ -93,6 +93,11 @@
   "openai",
   "anthropic"
  ],
+ "2025-04-30-what-are-people-actually-using-ai-for": [
+  "ai-coding",
+  "enterprise-adoption",
+  "anthropic"
+ ],
  "2025-05-01-is-open-source-ai-falling-behind": [
   "open-weight-models",
   "ai-safety",
@@ -114,6 +119,12 @@
   "enterprise-adoption",
   "models-and-benchmarks",
   "openai"
+ ],
+ "2025-05-07-openai-gives-up-on-for-profit-conversion": [
+  "ai-coding",
+  "ai-economics",
+  "openai",
+  "xai"
  ],
  "2025-05-08-the-era-of-ai-experimentation-is-over": [
   "enterprise-adoption",
@@ -403,6 +414,11 @@
   "ai-safety",
   "openai"
  ],
+ "2025-07-22-are-world-models-the-key-to-agi": [
+  "generative-media",
+  "physical-ai",
+  "google"
+ ],
  "2025-07-24-americas-ai-action-plan": [
   "infrastructure-and-chips",
   "us-china",
@@ -500,6 +516,10 @@
  "2025-08-15-everyones-using-ai-but-no-ones-quite-sure-what-to-think-about-it": [
   "jobs-and-work",
   "policy-and-regulation"
+ ],
+ "2025-08-16-bonus-episode-enterprise-ai-trends-and-predictions-you-can-with-ai": [
+  "enterprise-adoption",
+  "agents"
  ],
  "2025-08-16-the-claude-code-problem": [
   "ai-coding",
@@ -811,6 +831,12 @@
   "nvidia",
   "openai"
  ],
+ "2025-11-01-so-far-ai-can-only-automate-25-of-jobs": [
+  "models-and-benchmarks",
+  "jobs-and-work",
+  "agents",
+  "amazon"
+ ],
  "2025-11-02-the-5-biggest-ai-stories-to-watch-in-november": [
   "ai-economics",
   "policy-and-regulation",
@@ -907,6 +933,11 @@
  "2025-11-24-why-the-ai-bubble-debate-is-useless": [
   "ai-economics",
   "policy-and-regulation"
+ ],
+ "2025-11-26-can-ai-really-automate-57-percent-of-work": [
+  "jobs-and-work",
+  "consumer-ai",
+  "anthropic"
  ],
  "2025-11-26-why-opus-45-changes-vibe-coding": [
   "ai-coding",
@@ -1603,6 +1634,12 @@
   "infrastructure-and-chips",
   "anthropic"
  ],
+ "2026-05-05-why-openai-and-anthropic-are-becoming-consultants": [
+  "policy-and-regulation",
+  "enterprise-adoption",
+  "anthropic",
+  "openai"
+ ],
  "2026-05-06-who-cares-about-consumer-ai": [
   "consumer-ai",
   "enterprise-adoption",
@@ -1619,6 +1656,10 @@
   "jobs-and-work",
   "ai-coding",
   "xai"
+ ],
+ "2026-05-09-how-to-build-an-ai-native-team-with-mike-cannon-brookes": [
+  "enterprise-adoption",
+  "context-engineering"
  ],
  "2026-05-10-the-new-jobs-ai-will-create": [
   "ai-for-science",
@@ -1649,10 +1690,22 @@
   "anthropic",
   "google"
  ],
+ "2026-05-17-ai-inequality": [
+  "infrastructure-and-chips",
+  "policy-and-regulation",
+  "open-weight-models",
+  "anthropic"
+ ],
  "2026-05-19-9-codex-tips-from-the-codex-team": [
   "ai-coding",
   "agents",
   "openai"
+ ],
+ "2026-05-19-beating-the-ai-doom-cycle": [
+  "ai-economics",
+  "jobs-and-work",
+  "ai-coding",
+  "anthropic"
  ],
  "2026-05-20-why-google-isnt-chasing-claude-code": [
   "generative-media",
@@ -1677,10 +1730,20 @@
   "ai-safety",
   "context-engineering"
  ],
+ "2026-05-26-what-the-pope-actually-said-about-ai": [
+  "ai-consciousness",
+  "ai-economics",
+  "anthropic"
+ ],
  "2026-05-27-the-annual-ai-slowdown-panic-is-here": [
   "ai-economics",
   "ai-coding",
   "openai"
+ ],
+ "2026-05-28-the-case-for-an-ai-token-tax": [
+  "jobs-and-work",
+  "ai-economics",
+  "anthropic"
  ],
  "2026-05-29-claude-opus-48-first-impressions": [
   "agents",
@@ -1739,6 +1802,11 @@
   "ai-economics",
   "openai"
  ],
+ "2026-06-10-fable-5-raises-the-bar-for-ai-ambition": [
+  "models-and-benchmarks",
+  "ai-coding",
+  "anthropic"
+ ],
  "2026-06-11-why-fable-5-is-the-most-controversial-ai-release-ever": [
   "policy-and-regulation",
   "ai-economics",
@@ -1775,6 +1843,22 @@
  "2026-06-18-the-models-trying-to-fill-the-fable-gap": [
   "open-weight-models",
   "models-and-benchmarks"
+ ],
+ "2026-06-19-your-company-doesnt-need-an-ai-strategy": [
+  "policy-and-regulation",
+  "ai-coding",
+  "anthropic",
+  "microsoft"
+ ],
+ "2026-06-20-the-5-minute-ai-weekly-recap-realignment-week": [
+  "open-weight-models",
+  "ai-coding",
+  "anthropic"
+ ],
+ "2026-06-21-why-local-ai-matters-and-how-to-use-it": [
+  "open-weight-models",
+  "agents",
+  "anthropic"
  ],
  "2026-06-22-why-ai-users-are-raving-about-glm-52": [
   "open-weight-models",
@@ -1849,6 +1933,12 @@
   "open-weight-models",
   "training-and-rl"
  ],
+ "2026-07-09-how-the-4-new-ai-models-change-how-you-work": [
+  "ai-coding",
+  "training-and-rl",
+  "nlp-and-speech",
+  "openai"
+ ],
  "2026-07-10-chatgpt-just-became-a-work-agent": [
   "agents",
   "ai-coding",
@@ -1871,6 +1961,11 @@
  "2026-07-15-5-ai-engineering-trends-for-non-engineers": [
   "context-engineering",
   "agents"
+ ],
+ "2026-07-16-the-new-enterprise-battle-over-who-owns-the-model": [
+  "open-weight-models",
+  "talent-war",
+  "microsoft"
  ],
  "2026-07-17-is-kimi-k3-really-fable-class": [
   "open-weight-models",
@@ -1896,6 +1991,11 @@
   "openai",
   "hugging-face"
  ],
+ "2026-07-23-a-field-guide-to-ai-market-freakouts": [
+  "open-weight-models",
+  "ai-economics",
+  "infrastructure-and-chips"
+ ],
  "2026-07-24-why-ai-hasnt-increased-unemployment-according-to-anthropic": [
   "jobs-and-work",
   "ai-coding"
@@ -1903,6 +2003,11 @@
  "2026-07-26-how-to-get-the-most-from-ai-this-summer": [
   "agents",
   "ai-coding"
+ ],
+ "2026-07-27-where-claude-opus-5-fits-in-your-model-rotation": [
+  "models-and-benchmarks",
+  "open-weight-models",
+  "anthropic"
  ],
  "2026-07-28-big-tech-unites-for-open-source-aiand-against-anthropic": [
   "open-weight-models",
@@ -1998,6 +2103,19 @@
   "infrastructure-and-chips",
   "openai"
  ],
+ "2026-08-20-9-ai-techniques-you-probably-havent-tried": [
+  "ai-coding",
+  "context-engineering",
+  "anthropic"
+ ],
+ "2026-08-21-why-everyone-suddenly-hates-ai-data-centers": [
+  "infrastructure-and-chips",
+  "jobs-and-work"
+ ],
+ "2026-08-23-the-real-future-of-ai-and-work": [
+  "jobs-and-work",
+  "ai-coding"
+ ],
  "2026-08-24-the-ai-model-tier-list": [
   "open-weight-models",
   "enterprise-adoption",
@@ -2091,6 +2209,12 @@
   "open-weight-models",
   "anthropic",
   "openai"
+ ],
+ "2026-09-15-trump-rails-against-ai-slowdown-hoax": [
+  "policy-and-regulation",
+  "ai-safety",
+  "anthropic",
+  "nvidia"
  ],
  "2026-09-16-why-a-new-class-of-ai-judgment-models-could-have-big-business-implications": [
   "policy-and-regulation"
