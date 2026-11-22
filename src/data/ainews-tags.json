@@ -2079,6 +2079,7 @@
  "2026-09-11-what-to-use-the-latest-ai-tools-for": [
   "infrastructure-and-chips",
   "ai-coding",
+  "nlp-and-speech",
   "openai"
  ],
  "2026-09-13-10-ways-to-think-bigger-with-opportunity-ai": [
@@ -2360,5 +2361,12 @@
   "openai",
   "anthropic",
   "deepseek"
+ ],
+ "2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable": [
+  "ai-economics",
+  "ai-safety",
+  "models-and-benchmarks",
+  "anthropic",
+  "google"
  ]
 }

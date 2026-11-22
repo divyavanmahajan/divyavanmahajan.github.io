@@ -58,7 +58,7 @@ for (const show of podcastShows) {
     const ex = readExtraction(show.slug, ep.basename);
     let t;
     if (ex) {
-      t = tagsFromExtraction(ex.items);
+      t = tagsFromExtraction(ex.items, parseSummary(ep.file));
       tagSource[key] = 'extraction';
       st.extraction++;
       for (const tag of t) addTagged(tag, show.slug, ex.items);

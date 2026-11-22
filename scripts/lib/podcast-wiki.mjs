@@ -90,6 +90,17 @@ export function readExtraction(show, basename) {
   return out;
 }
 
+/**
+ * Secondary topics (taxonomy.secondary_topics: classic ML, computer vision,
+ * science, history, ...) cover older and non-AI episodes. They never compete
+ * with the primary (AI) topics: the primary picks are computed exactly as
+ * before without them, and secondary topics only fill the remaining
+ * max_topics slots. So adding a secondary topic never changes an episode's AI
+ * topics.
+ */
+export const secondaryTopics = new Set(taxonomy.secondary_topics || []);
+const isSecondary = (t) => secondaryTopics.has(t);
+
 /** Same scoring as build-ainews-tags.mjs: central = 3, notable = 1. */
 function score(items, map) {
   const s = {};
@@ -99,15 +110,34 @@ function score(items, map) {
   return Object.entries(s).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
 
-/** Tags from an extraction (identical thresholds to build-ainews-tags.mjs). */
-export function tagsFromExtraction(items) {
-  const topics = score(items, topicOf);
+/**
+ * Tags from an extraction (identical thresholds to build-ainews-tags.mjs).
+ * Optional `summary` (parseSummary result): secondary topics may also come
+ * from the summary text when the extraction leaves free topic slots.
+ */
+export function tagsFromExtraction(items, summary = null) {
+  const all = score(items, topicOf);
+  const topics = all.filter(([t]) => !isSecondary(t));
   const strong = topics.filter(([, v]) => v >= 2).map(([t]) => t);
   const weak = topics.filter(([, v]) => v === 1).map(([t]) => t);
   const pickedT = [...strong, ...weak.slice(0, Math.max(0, 2 - strong.length))].slice(0, taxonomy.max_topics);
+  // Secondary: strong extraction scores first, then summary-text matches;
+  // a lone weak (notable-only) secondary topic only for otherwise untagged episodes.
+  const sec = all.filter(([t]) => isSecondary(t));
+  const secT = sec.filter(([, v]) => v >= 2).map(([t]) => t);
+  if (summary) for (const t of secondaryFromSummary(summary)) if (!secT.includes(t)) secT.push(t);
+  if (!pickedT.length && !secT.length && sec.length) secT.push(sec[0][0]);
+  pickedT.push(...secT.slice(0, Math.max(0, taxonomy.max_topics - pickedT.length)));
   const comps = score(items, companyOf);
   const pickedC = comps.filter(([, v], i) => v >= 3 || (i === 0 && v >= 2)).slice(0, taxonomy.max_companies).map(([t]) => t);
   return [...pickedT, ...pickedC];
+}
+
+/** Controlled tags of a staged episode: extraction scoring if present, else the summary text. */
+export function tagsForEpisode(show, ep) {
+  const ex = readExtraction(show, ep.basename);
+  const s = parseSummary(ep.file);
+  return ex ? tagsFromExtraction(ex.items, s) : tagsFromSummary(s);
 }
 
 // --- summary-text fallback --------------------------------------------------
@@ -142,18 +172,39 @@ export function parseSummary(file) {
  * tag). Topics need >= 4, companies >= 4; max 3 + 3.
  */
 export function tagsFromSummary(s) {
-  const parts = [[s.data.title || '', 3], [s.data.description || '', 2], [s.thesis, 2], ...s.keyPoints.map((k) => [k, 1])];
+  const scores = summaryScores(s);
+  const pick = (group, min, max) => Object.entries(scores)
+    .filter(([t, v]) => textRules[t].group === group && !isSecondary(t) && v >= min)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, max).map(([t]) => t);
+  const topics = pick('topics', 4, taxonomy.max_topics);
+  topics.push(...secondaryFromSummary(s).slice(0, Math.max(0, taxonomy.max_topics - topics.length)));
+  return [...topics, ...pick('companies', 4, taxonomy.max_companies)];
+}
+
+function summaryScores(s, extraParts = []) {
+  const parts = [[s.data.title || '', 3], [s.data.description || '', 2], [s.thesis, 2], ...s.keyPoints.map((k) => [k, 1]), ...extraParts];
   const scores = {};
   for (const [tag, { res }] of Object.entries(textRules)) {
     let v = 0;
     for (const [text, w] of parts) if (res.some((re) => re.test(text))) v += w;
     if (v) scores[tag] = v;
   }
-  const pick = (group, min, max) => Object.entries(scores)
-    .filter(([t, v]) => textRules[t].group === group && v >= min)
+  return scores;
+}
+
+/**
+ * Secondary topics from the summary text (same weights and threshold >= 4),
+ * where the free-form frontmatter `tags` also count (weight 2, hyphens read
+ * as spaces). Used only to fill topic slots the primary topics leave free.
+ */
+export function secondaryFromSummary(s) {
+  const free = (s.data.tags || []).map((t) => String(t).replace(/-/g, ' ')).join(' ; ');
+  const scores = summaryScores(s, [[free, 2]]);
+  return Object.entries(scores)
+    .filter(([t, v]) => isSecondary(t) && v >= 4)
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .slice(0, max).map(([t]) => t);
-  return [...pick('topics', 4, taxonomy.max_topics), ...pick('companies', 4, taxonomy.max_companies)];
+    .map(([t]) => t);
 }
 
 /** Valid-looking staged episode files for a show: [{basename, date, year, month, slug, file}]. */

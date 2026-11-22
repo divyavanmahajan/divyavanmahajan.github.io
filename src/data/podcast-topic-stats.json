@@ -1863,6 +1863,123 @@
   "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software": "extraction"
  },
  "topics": {
+  "machine-learning": {
+   "practical-ai": {
+    "extractionEpisodes": 126,
+    "related": [
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 5
+     },
+     {
+      "name": "Deepfakes",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 5
+     },
+     {
+      "name": "Intel",
+      "kind": "company",
+      "central": 3,
+      "mentions": 5
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 8,
+    "related": [
+     {
+      "name": "Mojo",
+      "kind": "product",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "Chris Lattner",
+      "kind": "person",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Fine-tuning",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 5,
+    "related": [
+     {
+      "name": "Diffusion models",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Adversarial examples",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Ali Behrouz",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "dwarkesh": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Additive genetic architecture",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AlphaGo",
+      "kind": "model",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "Runway",
+      "kind": "company",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI in drug discovery",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Clem Delangue",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   }
+  },
   "infrastructure-and-chips": {
    "practical-ai": {
     "extractionEpisodes": 51,
@@ -2235,6 +2352,240 @@
     ]
    }
   },
+  "physics-and-space": {
+   "practical-ai": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "Hybrid quantum-classical computing",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Andrew Vanderburg",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Anima Anandkumar",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "AI for science",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 4
+     },
+     {
+      "name": "AI weather forecasting",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Alex Lupsasca",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 5,
+    "related": [
+     {
+      "name": "Quilter",
+      "kind": "company",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Reinforcement learning",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Sergiy Nesterenko",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "dwarkesh": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "AI for science",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Albert Einstein",
+      "kind": "person",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Adam Brown",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Albert Einstein",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Anthrobots",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Antimatter",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "AI cybersecurity",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI drug discovery",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI for science",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   }
+  },
+  "computer-vision": {
+   "practical-ai": {
+    "extractionEpisodes": 17,
+    "related": [
+     {
+      "name": "AI ethics",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Convolutional neural networks",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Esri",
+      "kind": "company",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Roboflow",
+      "kind": "company",
+      "central": 3,
+      "mentions": 3
+     },
+     {
+      "name": "Joseph Nelson",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Data engine",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "AI image generation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Autonomous vehicle safety",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "BLINK",
+      "kind": "event",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI image editing",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Large vision model",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Model evaluation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   }
+  },
   "google": {
    "practical-ai": {
     "extractionEpisodes": 6,
@@ -2375,7 +2726,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 40,
+    "extractionEpisodes": 41,
     "related": [
      {
       "name": "OpenAI",
@@ -2386,14 +2737,14 @@
      {
       "name": "Anthropic",
       "kind": "company",
-      "central": 5,
-      "mentions": 15
+      "central": 6,
+      "mentions": 16
      },
      {
       "name": "Benchmarks",
       "kind": "concept",
       "central": 3,
-      "mentions": 7
+      "mentions": 8
      }
     ]
    }
@@ -2561,7 +2912,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 42,
+    "extractionEpisodes": 43,
     "related": [
      {
       "name": "OpenClaw",
@@ -2580,6 +2931,146 @@
       "kind": "person",
       "central": 2,
       "mentions": 4
+     }
+    ]
+   }
+  },
+  "economics-and-crypto": {
+   "practical-ai": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "AI adoption culture",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI use case selection",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Data strategy",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "China drone manufacturing",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Drone autonomy",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Dylan Patel",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 5,
+    "related": [
+     {
+      "name": "Emad Mostaque",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Intelligent Internet",
+      "kind": "company",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Universal basic AI",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "dwarkesh": {
+    "extractionEpisodes": 15,
+    "related": [
+     {
+      "name": "Sam Bankman-Fried",
+      "kind": "person",
+      "central": 4,
+      "mentions": 5
+     },
+     {
+      "name": "Tyler Cowen",
+      "kind": "person",
+      "central": 3,
+      "mentions": 5
+     },
+     {
+      "name": "Bryan Caplan",
+      "kind": "person",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Agentic economy",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Agentic finance",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "turing-post": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Choice Suite",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Corporate corruption",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Eric Ries",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
      }
     ]
    }
@@ -3073,7 +3564,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 52,
+    "extractionEpisodes": 53,
     "related": [
      {
       "name": "Token pricing",
@@ -3092,6 +3583,123 @@
       "kind": "concept",
       "central": 2,
       "mentions": 4
+     }
+    ]
+   }
+  },
+  "mlops-and-data": {
+   "practical-ai": {
+    "extractionEpisodes": 56,
+    "related": [
+     {
+      "name": "Demetrios Brinkmann",
+      "kind": "person",
+      "central": 4,
+      "mentions": 4
+     },
+     {
+      "name": "Retrieval-augmented generation",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 6
+     },
+     {
+      "name": "Embeddings",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 5
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 15,
+    "related": [
+     {
+      "name": "Scaling laws",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Cursor",
+      "kind": "product",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Jonathan Frankle",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 8,
+    "related": [
+     {
+      "name": "Fine-tuning",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Anton Troynikov",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Chroma",
+      "kind": "company",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 10,
+    "related": [
+     {
+      "name": "Scale AI",
+      "kind": "company",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "Enterprise AI adoption",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Model evaluation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "turing-post": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Ali Kani",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Alpamayo",
+      "kind": "model",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Autonomous driving",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
      }
     ]
    }
@@ -4166,6 +4774,123 @@
     ]
    }
   },
+  "nlp-and-speech": {
+   "practical-ai": {
+    "extractionEpisodes": 34,
+    "related": [
+     {
+      "name": "GPT-2",
+      "kind": "model",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "AI for social good",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI in Africa",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "CogEval",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Dan Whitenack",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "DataComp",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI employees",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI in customer support",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Voice agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Albert Gu",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Cartesia",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "ai-daily-brief": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "GPT Live 1",
+      "kind": "model",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Acqui-hire licensing deals",
+      "kind": "concept",
+      "central": 0,
+      "mentions": 1
+     },
+     {
+      "name": "AI infrastructure capex",
+      "kind": "concept",
+      "central": 0,
+      "mentions": 1
+     }
+    ]
+   }
+  },
   "microsoft": {
    "practical-ai": {
     "extractionEpisodes": 9,
@@ -4672,6 +5397,286 @@
      {
       "name": "AI and cybersecurity",
       "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   }
+  },
+  "science": {
+   "practical-ai": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "Adam Berenzweig",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI in biology",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI in science",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Virtual cell",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Daniel Bear",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Fabian Theis",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 15,
+    "related": [
+     {
+      "name": "Mechanistic interpretability",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "AI for biology",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI for science",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "dwarkesh": {
+    "extractionEpisodes": 8,
+    "related": [
+     {
+      "name": "David Reich",
+      "kind": "person",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Ancient DNA",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Joseph Henrich",
+      "kind": "person",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Anthrobots",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Bioelectricity",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Cognitive light cone",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 5,
+    "related": [
+     {
+      "name": "AI drug discovery",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Bill Clerico",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Convective Capital",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   }
+  },
+  "history-and-geopolitics": {
+   "practical-ai": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "AI in the study of the ancient world",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AlphaStar",
+      "kind": "model",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Amanda Wasielewski",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "China drone manufacturing",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Drone autonomy",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "FPV drones",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 9,
+    "related": [
+     {
+      "name": "Chip export controls",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 5
+     },
+     {
+      "name": "US–China AI competition",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "RAND Corporation",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 3
+     }
+    ]
+   },
+   "dwarkesh": {
+    "extractionEpisodes": 29,
+    "related": [
+     {
+      "name": "Sarah Paine",
+      "kind": "person",
+      "central": 8,
+      "mentions": 8
+     },
+     {
+      "name": "Vladimir Putin",
+      "kind": "person",
+      "central": 3,
+      "mentions": 6
+     },
+     {
+      "name": "Adolf Hitler",
+      "kind": "person",
+      "central": 2,
+      "mentions": 4
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "Justinian I",
+      "kind": "person",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Abraham Lincoln",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Andrew Scull",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Enterprise AI adoption",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Abraham Accords",
+      "kind": "event",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Affinity Partners",
+      "kind": "company",
       "central": 1,
       "mentions": 1
      }
@@ -5211,6 +6216,123 @@
       "kind": "concept",
       "central": 2,
       "mentions": 5
+     }
+    ]
+   }
+  },
+  "society-and-culture": {
+   "practical-ai": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "ActiveFence",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and democracy",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "AI consciousness",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI alignment",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "dwarkesh": {
+    "extractionEpisodes": 9,
+    "related": [
+     {
+      "name": "Robert Moses",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Sam Bankman-Fried",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "The Power Broker",
+      "kind": "publication",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Continuum hypothesis",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Diagonal argument",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Georg Cantor",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "CFTC",
+      "kind": "government",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Election betting",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Kalshi",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
      }
     ]
    }
@@ -6053,7 +7175,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 92,
+    "extractionEpisodes": 93,
     "related": [
      {
       "name": "Enterprise AI adoption",
@@ -6402,7 +7524,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 130,
+    "extractionEpisodes": 131,
     "related": [
      {
       "name": "OpenAI",

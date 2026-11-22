@@ -38,6 +38,7 @@ const index = (group) => {
 };
 const topicOf = index(tax.topics);
 const companyOf = index(tax.companies);
+const secondary = new Set(tax.secondary_topics || []);
 const seenNames = new Set();
 
 function score(items, map) {
@@ -63,10 +64,17 @@ for (const f of fs.readdirSync(EXTR).sort()) {
     seenNames.add(name.toLowerCase());
     items.push({ name, role: it.role });
   }
-  const topics = score(items, topicOf);
+  const allTopics = score(items, topicOf);
+  const topics = allTopics.filter(([t]) => !secondary.has(t));
   const strong = topics.filter(([, v]) => v >= 2).map(([t]) => t);
   const weak = topics.filter(([, v]) => v === 1).map(([t]) => t);
   const pickedT = [...strong, ...weak.slice(0, Math.max(0, 2 - strong.length))].slice(0, tax.max_topics);
+  // Secondary topics (tax.secondary_topics) only fill free slots, so they never
+  // change the primary picks (same rule as scripts/lib/podcast-wiki.mjs).
+  const sec = allTopics.filter(([t]) => secondary.has(t));
+  const secT = sec.filter(([, v]) => v >= 2).map(([t]) => t);
+  if (!pickedT.length && !secT.length && sec.length) secT.push(sec[0][0]);
+  pickedT.push(...secT.slice(0, Math.max(0, tax.max_topics - pickedT.length)));
   const comps = score(items, companyOf);
   const pickedC = comps.filter(([, v], i) => v >= 3 || (i === 0 && v >= 2)).slice(0, tax.max_companies).map(([t]) => t);
   const tags = [...pickedT, ...pickedC];

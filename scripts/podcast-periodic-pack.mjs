@@ -19,7 +19,7 @@ import os from 'os';
 import path from 'path';
 import { getPodcastShow } from '../src/podcast-shows.mjs';
 import {
-  readExtraction, listExtractions, tagsFromExtraction, tagsFromSummary, parseSummary, episodeHref, showHosts, PERIODIC_STAGING, matter,
+  readExtraction, listExtractions, tagsForEpisode, parseSummary, episodeHref, showHosts, PERIODIC_STAGING, matter,
 } from './lib/podcast-wiki.mjs';
 import { periodicPlan, publishedEpisodes, isInProgress, today } from './lib/podcast-periodic-plan.mjs';
 import { lastDayOfPeriod } from './lib/podcast-periodic.mjs';
@@ -110,8 +110,7 @@ function risingFading(show, period, eps) {
 function topicsSection(show, eps) {
   const c = {};
   for (const ep of eps) {
-    const ex = readExtraction(show, ep.basename);
-    const t = ex ? tagsFromExtraction(ex.items) : tagsFromSummary(parseSummary(ep.file));
+    const t = tagsForEpisode(show, ep);
     for (const x of t) c[x] = (c[x] || 0) + 1;
   }
   const top = Object.entries(c).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 8);
