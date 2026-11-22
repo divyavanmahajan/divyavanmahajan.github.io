@@ -1,4 +1,12 @@
 {
+ "practical-ai/2019-11-18-intelligent-systems-and-knowledge-graphs": [],
+ "practical-ai/2019-11-25-build-custom-ml-tools-with-streamlit": [],
+ "practical-ai/2019-12-02-making-gans-practical": [
+  "generative-media"
+ ],
+ "practical-ai/2019-12-09-modern-nlp-with-spacy": [],
+ "practical-ai/2019-12-16-escaping-the-dark-ages-of-ai-infrastructure": [],
+ "practical-ai/2019-12-23-ai-for-search-at-etsy": [],
  "practical-ai/2020-01-06-2019-s-ai-top-5": [],
  "practical-ai/2020-01-13-how-the-u-s-military-thinks-about-ai": [],
  "practical-ai/2020-01-20-ai-driven-automation-in-manufacturing": [
@@ -3159,6 +3167,31 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2019-11-12-elon-musk-neuralink-ai-autopilot-and-the-pale-blue-dot": [
+  "xai"
+ ],
+ "lex-fridman/2019-11-19-michael-kearns-algorithmic-fairness-bias-privacy-and-ethics-in-machine": [],
+ "lex-fridman/2019-11-22-dava-newman-space-exploration-space-suits-and-life-on-mars": [],
+ "lex-fridman/2019-11-25-gilbert-strang-linear-algebra-deep-learning-teaching-and-mit-opencours": [],
+ "lex-fridman/2019-11-29-noam-chomsky-language-cognition-and-deep-learning": [],
+ "lex-fridman/2019-12-02-ray-dalio-principles-the-economic-machine-artificial-intelligence-the": [],
+ "lex-fridman/2019-12-05-whitney-cummings-comedy-robotics-neurology-and-love": [
+  "physical-ai"
+ ],
+ "lex-fridman/2019-12-11-judea-pearl-causal-reasoning-counterfactuals-bayesian-networks-and-the": [],
+ "lex-fridman/2019-12-14-rohit-prasad-amazon-alexa-and-conversational-ai": [
+  "amazon"
+ ],
+ "lex-fridman/2019-12-17-michael-stevens-vsauce": [],
+ "lex-fridman/2019-12-21-sebastian-thrun-flying-cars-autonomous-vehicles-and-education": [
+  "physical-ai",
+  "jobs-and-work"
+ ],
+ "lex-fridman/2019-12-25-jim-gates-supersymmetry-string-theory-and-proving-einstein-right": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2019-12-28-melanie-mitchell-concepts-analogies-common-sense-future-of-ai": [],
+ "lex-fridman/2019-12-30-donald-knuth-algorithms-tex-life-and-the-art-of-computer-programming": [],
  "lex-fridman/2020-01-03-stephen-kotkin-stalin-putin-and-the-nature-of-power": [],
  "lex-fridman/2020-01-07-grant-sanderson-3blue1brown-and-the-beauty-of-mathematics": [
   "ai-for-science"
