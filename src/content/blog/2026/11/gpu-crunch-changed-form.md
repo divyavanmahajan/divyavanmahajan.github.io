@@ -6,7 +6,7 @@ author: "Divya van Mahajan"
 categories: ["AI"]
 tags: ["ai-infrastructure", "gpu", "inference", "data-centers", "strategy"]
 linkedin: false
-draft: true
+draft: false
 ---
 
 In May the story was simple: there were not enough GPUs to serve inference demand. Six months later the "GPU crunch" has largely disappeared from the conversation. The interesting answer is that it hasn't actually gone away. It has changed form, and the industry has become much better at adding and using capacity.
