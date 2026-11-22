@@ -1,4 +1,26 @@
 {
+ "practical-ai/2019-03-25-growing-up-to-become-a-world-class-ai-expert": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2019-04-02-the-landscape-of-ai-infrastructure": [],
+ "practical-ai/2019-04-08-giphy-s-celebrity-detector": [],
+ "practical-ai/2019-04-15-making-the-world-a-better-place-at-the-ai-for-good-foundation": [],
+ "practical-ai/2019-04-23-deep-reinforcement-learning": [
+  "training-and-rl",
+  "infrastructure-and-chips",
+  "jobs-and-work"
+ ],
+ "practical-ai/2019-04-30-ctrl-labs-lets-you-control-machines-with-your-mind": [],
+ "practical-ai/2019-05-07-tensorflow-dev-summit-2019": [],
+ "practical-ai/2019-05-14-when-ai-meets-quantum-mechanics": [],
+ "practical-ai/2019-05-21-ai-adoption-in-the-enterprise": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2019-05-28-how-to-get-plugged-into-the-ai-community": [],
+ "practical-ai/2019-06-04-visualizing-and-understanding-rnns": [],
+ "practical-ai/2019-06-11-gans-rl-and-transfer-learning-oh-my": [
+  "training-and-rl"
+ ],
  "practical-ai/2019-06-17-model-inspection-and-interpretation-at-seldon": [
   "enterprise-adoption"
  ],
@@ -3198,6 +3220,26 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2019-03-20-eric-weinstein-revolutionary-ideas-in-science-math-and-society": [],
+ "lex-fridman/2019-04-03-greg-brockman-openai-and-agi": [
+  "openai"
+ ],
+ "lex-fridman/2019-04-12-elon-musk-tesla-autopilot": [
+  "physical-ai",
+  "xai"
+ ],
+ "lex-fridman/2019-04-18-ian-goodfellow-generative-adversarial-networks-gans": [],
+ "lex-fridman/2019-04-29-oriol-vinyals-deepmind-alphastar-starcraft-language-and-sequences": [
+  "google"
+ ],
+ "lex-fridman/2019-05-13-chris-lattner-compilers-llvm-swift-tpu-and-ml-accelerators": [
+  "infrastructure-and-chips",
+  "google"
+ ],
+ "lex-fridman/2019-06-03-rajat-monga-tensorflow": [
+  "google"
+ ],
+ "lex-fridman/2019-06-17-rosalind-picard-affective-computing-emotion-privacy-and-health": [],
  "lex-fridman/2019-07-01-jeff-hawkins-thousand-brains-theory-of-intelligence": [],
  "lex-fridman/2019-07-10-sean-carroll-the-nature-of-the-universe-life-and-intelligence": [
   "ai-consciousness"
