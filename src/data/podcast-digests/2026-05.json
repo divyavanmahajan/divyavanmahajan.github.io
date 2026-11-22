@@ -3,8 +3,8 @@
  "start": "2026-05-01",
  "end": "2026-05-31",
  "inProgress": false,
- "generated": "2026-11-21",
- "episodeCount": 53,
+ "generated": "2026-11-22",
+ "episodeCount": 54,
  "counts": {
   "aidb": 21,
   "cognitive-revolution": 8,
@@ -13,7 +13,8 @@
   "latent-space": 7,
   "no-priors": 5,
   "practical-ai": 4,
-  "dwarkesh": 3
+  "dwarkesh": 3,
+  "epoch-ai": 1
  },
  "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
  "themes": [
@@ -127,13 +128,14 @@
   },
   {
    "title": "AI as a research tool",
-   "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up.",
+   "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up. Epoch AI researchers ask whether benchmarks are doomed by fast saturation and the gap with real-world work.",
    "eps": [
     "latent-space/2026-05-05-doing-vibe-physics-alex-lupsasca-openai",
     "latent-space/2026-05-27-esm-the-bitter-lesson-is-coming-for-proteins-alex-rives-biohub",
     "dwarkesh/2026-05-15-eric-jang-building-alphago-from-scratch",
     "aidb/2026-05-22-ais-new-acceleration-phase",
-    "dwarkesh/2026-05-22-reiner-pope-chip-design-from-the-bottom-up"
+    "dwarkesh/2026-05-22-reiner-pope-chip-design-from-the-bottom-up",
+    "epoch-ai/2026-05-01-are-ai-benchmarks-doomed"
    ]
   }
  ],
@@ -144,7 +146,7 @@
   "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
   "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
  ],
- "themesEpisodeCount": 53,
+ "themesEpisodeCount": 54,
  "episodes": [
   {
    "key": "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
@@ -989,6 +991,24 @@
    ],
    "durationMin": 107,
    "summary": "Nathan Labenz interviews Kyle Corbitt, OpenPipe founder now at CoreWeave, on reinforcement learning fine-tuning. Topics include why RL is less destructive than SFT, how GRPO and its successors work, distillation and Chinese labs, recursive self-improvement, the RL environment industry, rubric design, reward hacking and LoRA-based deployment.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "epoch-ai/2026-05-01-are-ai-benchmarks-doomed",
+   "show": "epoch-ai",
+   "showName": "Epoch After Hours",
+   "date": "2026-05-01",
+   "slug": "are-ai-benchmarks-doomed",
+   "title": "Are AI benchmarks doomed?",
+   "url": "https://epoch.ai/epoch-after-hours/are-ai-benchmarks-doomed",
+   "youtube": "https://www.youtube.com/watch?v=8ftFeuO1jbc",
+   "guests": [
+    "Greg Burnham",
+    "Tom Adamczewski"
+   ],
+   "durationMin": 65,
+   "summary": "Anson Ho talks with Epoch AI's Greg Burnham and Tom Adamczewski about whether AI benchmarks are doomed by fast saturation and the benchmark-reality gap. They discuss MirrorCode and FrontierMath: Open Problems, AI speed-up in benchmark building, whether an AGI benchmark can exist, and human-judged benchmarks such as the IMO, GDPVal and Remote Labor Index.",
    "summarySource": "extraction",
    "partial": false
   },

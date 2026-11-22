@@ -1,6 +1,6 @@
 {
   "period": "2026-05",
-  "episodeCount": 53,
+  "episodeCount": 54,
   "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
   "themes": [
     {
@@ -113,13 +113,14 @@
     },
     {
       "title": "AI as a research tool",
-      "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up.",
+      "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up. Epoch AI researchers ask whether benchmarks are doomed by fast saturation and the gap with real-world work.",
       "eps": [
         "latent-space/2026-05-05",
         "latent-space/2026-05-27",
         "dwarkesh/2026-05-15",
         "aidb/2026-05-22",
-        "dwarkesh/2026-05-22"
+        "dwarkesh/2026-05-22",
+        "epoch-ai/2026-05-01"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
   "period": "2026-01",
-  "episodeCount": 49,
+  "episodeCount": 50,
   "headline": "January belonged to Claude Code: after a holiday surge around Opus 4.5, hosts across shows asked whether code AGI is already functional AGI, and Claude Cowork carried the same agent into non-coding work. Underneath it ran a widening gap between the people and companies who reorganise around agents and everyone else, with jobs, capital and governance debates trying to catch up.",
   "themes": [
     {
@@ -85,14 +85,15 @@
     },
     {
       "title": "Evals and the research frontier",
-      "body": "Latent Space opened the year on measurement. LMArena's Anastasios Angelopoulos discusses its $100M raise and responds to the Leaderboard Illusion paper; Artificial Analysis explains its Intelligence Index, Omniscience hallucination index and how it keeps evals unmanipulated. On research, Yi Tay describes training Gemini Deep Think to IMO gold with on-policy RL, Princeton's NeurIPS best paper scales RL networks to 1,000 layers, and Andrew White of Edison Scientific discusses the Cosmos AI scientist and reward hacking.",
+      "body": "Latent Space opened the year on measurement. LMArena's Anastasios Angelopoulos discusses its $100M raise and responds to the Leaderboard Illusion paper; Artificial Analysis explains its Intelligence Index, Omniscience hallucination index and how it keeps evals unmanipulated. On research, Yi Tay describes training Gemini Deep Think to IMO gold with on-policy RL, Princeton's NeurIPS best paper scales RL networks to 1,000 layers, and Andrew White of Edison Scientific discusses the Cosmos AI scientist and reward hacking. On Epoch After Hours, mathematician Daniel Litt argues AI's maths abilities could stay jagged for a long time.",
       "eps": [
         "latent-space/2026-01-06",
         "latent-space/2026-01-08",
         "latent-space/2026-01-23",
         "latent-space/2026-01-02",
         "latent-space/2026-01-28",
-        "cognitive-revolution/2026-01-22"
+        "cognitive-revolution/2026-01-22",
+        "epoch-ai/2026-01-29"
       ]
     },
     {

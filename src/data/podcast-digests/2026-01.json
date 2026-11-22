@@ -3,11 +3,12 @@
  "start": "2026-01-01",
  "end": "2026-01-31",
  "inProgress": false,
- "generated": "2026-11-21",
- "episodeCount": 49,
+ "generated": "2026-11-22",
+ "episodeCount": 50,
  "counts": {
   "aidb": 26,
   "cognitive-revolution": 8,
+  "epoch-ai": 1,
   "no-priors": 4,
   "latent-space": 6,
   "practical-ai": 3,
@@ -98,14 +99,15 @@
   },
   {
    "title": "Evals and the research frontier",
-   "body": "Latent Space opened the year on measurement. LMArena's Anastasios Angelopoulos discusses its $100M raise and responds to the Leaderboard Illusion paper; Artificial Analysis explains its Intelligence Index, Omniscience hallucination index and how it keeps evals unmanipulated. On research, Yi Tay describes training Gemini Deep Think to IMO gold with on-policy RL, Princeton's NeurIPS best paper scales RL networks to 1,000 layers, and Andrew White of Edison Scientific discusses the Cosmos AI scientist and reward hacking.",
+   "body": "Latent Space opened the year on measurement. LMArena's Anastasios Angelopoulos discusses its $100M raise and responds to the Leaderboard Illusion paper; Artificial Analysis explains its Intelligence Index, Omniscience hallucination index and how it keeps evals unmanipulated. On research, Yi Tay describes training Gemini Deep Think to IMO gold with on-policy RL, Princeton's NeurIPS best paper scales RL networks to 1,000 layers, and Andrew White of Edison Scientific discusses the Cosmos AI scientist and reward hacking. On Epoch After Hours, mathematician Daniel Litt argues AI's maths abilities could stay jagged for a long time.",
    "eps": [
     "latent-space/2026-01-06-state-of-evals-lmarena-s-1-7b-vision-anastasios-angelopoulos-lmarena",
     "latent-space/2026-01-08-artificial-analysis-independent-llm-evals-as-a-service-with-george-cam",
     "latent-space/2026-01-23-captaining-imo-gold-deep-think-on-policy-rl-feeling-the-agi-in-singapo",
     "latent-space/2026-01-02-neurips-best-paper-1000-layer-networks-for-self-supervised-rl-kevin-wa",
     "latent-space/2026-01-28-automating-science-world-models-scientific-taste-agent-loops-andrew-wh",
-    "cognitive-revolution/2026-01-22-ama-part-2-is-fine-tuning-dead-how-am-i-preparing-for-agi-are-we-heade"
+    "cognitive-revolution/2026-01-22-ama-part-2-is-fine-tuning-dead-how-am-i-preparing-for-agi-are-we-heade",
+    "epoch-ai/2026-01-29-ai-math-capabilities-could-be-jagged-for-a-long-time-daniel-litt"
    ]
   },
   {
@@ -141,7 +143,7 @@
   "Independent evaluations and leaderboards can be gamed or misread. Build internal evals on your own tasks, track cost per outcome alongside capability, and expect total AI spend to grow even as the price per unit of intelligence falls.",
   "Workforce exposure is uneven. Pair agent rollouts with skills programs for directing agents and redesigning processes, and identify roles with high exposure and low adaptability early so transitions are planned rather than reactive."
  ],
- "themesEpisodeCount": 49,
+ "themesEpisodeCount": 50,
  "episodes": [
   {
    "key": "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook",
@@ -188,6 +190,23 @@
    ],
    "durationMin": 97,
    "summary": "Kevin Frazier and Alan Rozenshtein, hosts of the Scaling Laws podcast, discuss how AI is changing legal practice, junior lawyer careers and access to justice, and whether AI should reason by rules or principles, including Anthropic's Claude constitution. They also cover outcome-oriented legislation with AI simulations, the 'Unitary Artificial Executive', new rights such as the right to compute and right to share data, limits on government surveillance, and AI welfare as a coming social conflict.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "epoch-ai/2026-01-29-ai-math-capabilities-could-be-jagged-for-a-long-time-daniel-litt",
+   "show": "epoch-ai",
+   "showName": "Epoch After Hours",
+   "date": "2026-01-29",
+   "slug": "ai-math-capabilities-could-be-jagged-for-a-long-time-daniel-litt",
+   "title": "AI math capabilities could be jagged for a long time – Daniel Litt",
+   "url": "https://epoch.ai/epoch-after-hours/daniel-litt-ai-math-capabilities-could-be-jagged-for-a-long-time",
+   "youtube": "https://www.youtube.com/watch?v=jFJku8sxLWY",
+   "guests": [
+    "Daniel Litt"
+   ],
+   "durationMin": 131,
+   "summary": "Epoch AI researchers Greg Burnham and Anson Ho interview University of Toronto mathematician Daniel Litt about what AI can do in math today, why its abilities are jagged, and whether it is speeding up research. They cover junk papers, attention-bottlenecked problems, timelines (Litt's bet with Tamay Besiroglu, Millennium Prize odds), and what benchmarks like FrontierMath and the new FrontierMath: Open Problems actually measure.",
    "summarySource": "extraction",
    "partial": false
   },
