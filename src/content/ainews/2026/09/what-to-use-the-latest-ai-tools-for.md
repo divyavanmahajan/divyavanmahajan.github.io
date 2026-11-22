@@ -10,6 +10,7 @@ type: episode
 tags:
   - infrastructure-and-chips
   - ai-coding
+  - nlp-and-speech
   - openai
 url: 'https://www.patreon.com/posts/169270265'
 draft: false
