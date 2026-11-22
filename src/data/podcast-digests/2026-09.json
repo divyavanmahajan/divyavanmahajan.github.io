@@ -4,9 +4,9 @@
  "end": "2026-09-30",
  "inProgress": false,
  "generated": "2026-11-22",
- "episodeCount": 61,
+ "episodeCount": 62,
  "counts": {
-  "aidb": 25,
+  "aidb": 26,
   "latent-space": 9,
   "cognitive-revolution": 11,
   "no-priors": 4,
@@ -19,12 +19,13 @@
  "themes": [
   {
    "title": "Pacing the frontier",
-   "body": "Dario Amodei's essay 'We Must Pace the Frontier' proposed embedded third-party evaluators plus democratic and global coordination to slow frontier AI. NLW reports support from other lab leaders, with Altman open to a coordinated slowdown, alongside critiques about regulatory capture, IPO motives, antitrust and METR independence. Zuckerberg said pacing is each lab's responsibility, and Turing Post's Ksenia Se framed a debate between Amodei and David Sacks. Anthropic followed with three-axis measures of development pace. Zvi Mowshowitz and Anton Leicht weighed whether a US-China pause is feasible.",
+   "body": "Dario Amodei's essay 'We Must Pace the Frontier' proposed embedded third-party evaluators plus democratic and global coordination to slow frontier AI. NLW reports support from other lab leaders, with Altman open to a coordinated slowdown, alongside critiques about regulatory capture, IPO motives, antitrust and METR independence. Zuckerberg said pacing is each lab's responsibility, and Turing Post's Ksenia Se framed a debate between Amodei and David Sacks. Anthropic followed with three-axis measures of development pace. Zvi Mowshowitz and Anton Leicht weighed whether a US-China pause is feasible. Trump then called AI risk a hoax, polarizing AI safety.",
    "eps": [
     "aidb/2026-09-14-even-other-ai-labs-are-rallying-around-anthropics-slowdown-proposal",
     "aidb/2026-09-11-what-to-use-the-latest-ai-tools-for",
     "aidb/2026-09-16-why-a-new-class-of-ai-judgment-models-could-have-big-business-implications",
     "aidb/2026-09-18-the-ai-challenges-businesses-are-actually-focused-on-right-now",
+    "aidb/2026-09-15-trump-rails-against-ai-slowdown-hoax",
     "turing-post/2026-09-14-ai-that-acts-devin-fusion-persimmon-programmable-worlds-amodei-s-slowd",
     "cognitive-revolution/2026-09-19-ai-am-highlights-zvi-on-pacing-trump-xi-astra-better-behaved-than-fabl",
     "cognitive-revolution/2026-09-15-the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-mudd",
@@ -164,7 +165,7 @@
   "Shared team agents with common knowledge, memory and configuration are becoming a product category. Decide early who owns each agent, what it knows, what it can touch and how it is run, because those choices are hard to retrofit.",
   "Cheap calibrated judgment models suit triage, rule checks and scoring inside workflows. Many high-volume decisions may be better served by these small, code-consumed calls than by a general chat model, which changes cost and testing approaches."
  ],
- "themesEpisodeCount": 61,
+ "themesEpisodeCount": 62,
  "episodes": [
   {
    "key": "aidb/2026-09-30-the-most-important-new-ai-tools-from-openai-devday",
@@ -705,6 +706,21 @@
    ],
    "durationMin": 86,
    "summary": "Rune Kvist, co-founder of the AI Underwriting Company (AIUC), discusses its $40M Series A, the AIUC-1 agent security standard and its pairing with insurance from partners like Lloyd's of London. The conversation covers his path from Anthropic's early go-to-market team, why risk is now the binding constraint on AI adoption, model-level certification for national security, liability precedent, eval awareness, and insurers as incentive-aligned watchdogs.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-09-15-trump-rails-against-ai-slowdown-hoax",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-09-15",
+   "slug": "trump-rails-against-ai-slowdown-hoax",
+   "title": "Trump Rails Against AI Slowdown \\\"Hoax\\\"",
+   "url": "https://aidailybrief.ai/e/2026-09-15",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Following Dario Amodei's Pacing the Frontier proposal and other lab leaders' agreement, President Trump posted seven times on Truth Social calling AI risk a hoax, joined by JD Vance and Jensen Huang, while Obama and other Democrats backed slowing down, polarizing AI safety. Headlines cover Terence Tao's open letter on AI in mathematics, a Census Bureau study on AI-exposed graduates, Z.ai's $5B raise for a self-training loop and a ByteDance-backed RSI paper.",
    "summarySource": "extraction",
    "partial": false
   },

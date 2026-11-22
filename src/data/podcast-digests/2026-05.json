@@ -4,9 +4,9 @@
  "end": "2026-05-31",
  "inProgress": false,
  "generated": "2026-11-22",
- "episodeCount": 54,
+ "episodeCount": 60,
  "counts": {
-  "aidb": 21,
+  "aidb": 27,
   "cognitive-revolution": 8,
   "lex-fridman": 2,
   "turing-post": 3,
@@ -20,12 +20,13 @@
  "themes": [
   {
    "title": "Compute scarcity ends token subsidies",
-   "body": "NLW reads Anthropic's decision to bill programmatic and third-party harness usage at API rates as the end of token subsidies amid compute scarcity, then rebuts an early summer slowdown panic by arguing demand still outstrips supply. Anthropic secured full use of xAI's Colossus 1 through SpaceX. Baseten's Tuhin Srivastava describes a severe GPU crunch and longer contracts, Cerebras's Andrew Feldman recounts a $20B+ OpenAI deal signed in about four weeks, and Daytona and Railway both point to compute shortages.",
+   "body": "NLW reads Anthropic's decision to bill programmatic and third-party harness usage at API rates as the end of token subsidies amid compute scarcity, then rebuts an early summer slowdown panic by arguing demand still outstrips supply. Anthropic secured full use of xAI's Colossus 1 through SpaceX. Baseten's Tuhin Srivastava describes a severe GPU crunch and longer contracts, Cerebras's Andrew Feldman recounts a $20B+ OpenAI deal signed in about four weeks, and Daytona and Railway both point to compute shortages. Anton Leicht's essay 'Cut Off' warned scarcity will split users into AI haves and have-nots.",
    "eps": [
     "aidb/2026-05-14-rip-golden-age-of-agent-experimentation-2026-2026",
     "aidb/2026-05-27-the-annual-ai-slowdown-panic-is-here",
     "aidb/2026-05-07-surprise-elon-anthropic-team-up-reshapes-the-ai-race",
     "aidb/2026-05-21-anthropic-just-reset-ai-expectations",
+    "aidb/2026-05-17-ai-inequality",
     "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models",
     "no-priors/2026-05-21-the-story-behind-cerebras-63-billion-ipo-with-founder-and-ceo-andrew-f",
     "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona",
@@ -38,6 +39,7 @@
    "eps": [
     "latent-space/2026-05-28-the-age-of-async-agents-cognition-s-walden-yan-openinspect-s-cole-murr",
     "aidb/2026-05-19-9-codex-tips-from-the-codex-team",
+    "aidb/2026-05-19-beating-the-ai-doom-cycle",
     "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
     "aidb/2026-05-24-why-agents-still-need-humans",
     "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
@@ -56,12 +58,13 @@
     "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
     "cognitive-revolution/2026-05-30-inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-o",
     "aidb/2026-05-19-9-codex-tips-from-the-codex-team",
+    "aidb/2026-05-19-beating-the-ai-doom-cycle",
     "aidb/2026-05-15-googles-big-ai-test-comes-next-week"
    ]
   },
   {
    "title": "Jobs narrative shifts from doom",
-   "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, Eric Ries contrasted AI-driven cost-cutting with augmentation, and Ben Todd and Don Beyer weigh careers and displacement.",
+   "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, Eric Ries contrasted AI-driven cost-cutting with augmentation, and Ben Todd and Don Beyer weigh careers and displacement. NLW's 'AI doom cycle' ends in recalibration.",
    "eps": [
     "aidb/2026-05-04-is-ai-doom-going-out-of-style",
     "aidb/2026-05-10-the-new-jobs-ai-will-create",
@@ -69,6 +72,7 @@
     "aidb/2026-05-08-the-week-the-ai-story-shifted",
     "aidb/2026-05-24-why-agents-still-need-humans",
     "aidb/2026-05-27-the-annual-ai-slowdown-panic-is-here",
+    "aidb/2026-05-19-beating-the-ai-doom-cycle",
     "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
     "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
     "turing-post/2026-05-29-eric-ries-on-building-incorruptible-companies-ai-disruption-and-the-fu"
@@ -76,7 +80,7 @@
   },
   {
    "title": "Enterprise deployment over consumer AI",
-   "body": "NLW argues the industry's focus has shifted from consumer to enterprise AI, as labs launched deployment ventures such as OpenAI's Deployment Company joint venture. Long Lake agreed to buy American Express Global Business Travel for $6.3 billion in what it calls the first AI take-private. Abridge describes moving from ambient documentation to a clinical intelligence layer, Kirkland & Ellis built a $500M internal AI platform, Criteo partners with OpenAI on product discovery, and Nufar Gaspar proposes four digital employees for executives.",
+   "body": "NLW argues the industry's focus has shifted from consumer to enterprise AI, as labs launched deployment ventures such as OpenAI's Deployment Company joint venture. Long Lake agreed to buy American Express Global Business Travel for $6.3 billion in what it calls the first AI take-private. Abridge describes moving from ambient documentation to a clinical intelligence layer, Kirkland & Ellis built a $500M internal AI platform, Criteo partners with OpenAI on product discovery, and Nufar Gaspar proposes four digital employees for executives. Atlassian's Mike Cannon-Brookes called enterprise context the core of enterprise AI.",
    "eps": [
     "aidb/2026-05-06-who-cares-about-consumer-ai",
     "aidb/2026-05-08-the-week-the-ai-story-shifted",
@@ -85,7 +89,9 @@
     "latent-space/2026-05-14-ai-native-healthcare-100m-doctor-visits-10-20-hours-saved-prior-auth-i",
     "aidb/2026-05-29-claude-opus-48-first-impressions",
     "cognitive-revolution/2026-05-09-milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diar",
-    "aidb/2026-05-25-the-4-ai-team-members-execs-should-hire-right-now"
+    "aidb/2026-05-25-the-4-ai-team-members-execs-should-hire-right-now",
+    "aidb/2026-05-05-why-openai-and-anthropic-are-becoming-consultants",
+    "aidb/2026-05-09-how-to-build-an-ai-native-team-with-mike-cannon-brookes"
    ]
   },
   {
@@ -114,13 +120,15 @@
   },
   {
    "title": "AI policy and geopolitics",
-   "body": "Policy moved in several directions. NLW covers White House model vetting, the walk-back of an FDA-like AI approval idea, a forthcoming executive order on model testing, Newsom's AI labor order and Trump scrapping an AI executive order. Under Secretary Jacob Helberg describes Pax Silica, a 14-country AI supply chain coalition. Congressman Don Beyer weighs federal versus state regulation, while Jeffrey Ladish and Ben Todd argue for compute governance and a pause on recursive self-improvement. Latent Space examines drone economics and Western supply chains.",
+   "body": "Policy moved in several directions. NLW covers White House model vetting, the walk-back of an FDA-like AI approval idea, a forthcoming executive order on model testing, Newsom's AI labor order and Trump scrapping an AI executive order. Under Secretary Jacob Helberg describes Pax Silica, a 14-country AI supply chain coalition. Congressman Don Beyer weighs federal versus state regulation, while Jeffrey Ladish and Ben Todd argue for compute governance and a pause on recursive self-improvement. Latent Space examines drone economics and Western supply chains. Pope Leo XIV's encyclical drew polarized reactions, and NLW opposed a flat token tax.",
    "eps": [
     "no-priors/2026-05-14-pax-silica-inside-the-trump-administration-s-tech-strategy-with-us-und",
     "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
     "aidb/2026-05-22-ais-new-acceleration-phase",
     "aidb/2026-05-21-anthropic-just-reset-ai-expectations",
     "aidb/2026-05-12-towards-ai-that-can-actually-interact",
+    "aidb/2026-05-26-what-the-pope-actually-said-about-ai",
+    "aidb/2026-05-28-the-case-for-an-ai-token-tax",
     "cognitive-revolution/2026-05-24-all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistanc",
     "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
     "latent-space/2026-05-18-the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t"
@@ -146,7 +154,7 @@
   "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
   "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
  ],
- "themesEpisodeCount": 54,
+ "themesEpisodeCount": 60,
  "episodes": [
   {
    "key": "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
@@ -247,6 +255,21 @@
    "partial": false
   },
   {
+   "key": "aidb/2026-05-28-the-case-for-an-ai-token-tax",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-28",
+   "slug": "the-case-for-an-ai-token-tax",
+   "title": "The Case for an AI Token Tax",
+   "url": "https://www.patreon.com/posts/159469801",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A main-only episode examining growing proposals for taxing AI tokens, from Mallory McMorrow, Elizabeth Warren, Mark Cuban, Gabriel Weinberg and Dario Amodei. NLW lays out a first-principles case that the tax base should follow productive capacity as agents replace labor, then covers critiques from David Friedman and a Brookings-sponsored paper, concluding he opposes a flat token tax for biasing firms toward known-ROI efficiency AI.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "latent-space/2026-05-28-the-age-of-async-agents-cognition-s-walden-yan-openinspect-s-cole-murr",
    "show": "latent-space",
    "showName": "Latent Space",
@@ -328,6 +351,21 @@
    "durationMin": 70,
    "summary": "Editor’s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale, led by Alex Rives, who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from ac...",
    "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-26-what-the-pope-actually-said-about-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-26",
+   "slug": "what-the-pope-actually-said-about-ai",
+   "title": "What the Pope Actually Said About AI",
+   "url": "https://www.patreon.com/posts/159312787",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover an update on Anthropic's Project Glasswing and the limited Mythos rollout, a secret $9B intelligence-agency inference cluster, DeepSeek's permanent price cut and $10B round, and xAI's Grok V9 Medium training run. The main episode examines Pope Leo XIV's first encyclical, Magnifica Humanitas, on safeguarding the human person in the age of AI, and the polarized reactions to it.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -558,6 +596,21 @@
    "partial": false
   },
   {
+   "key": "aidb/2026-05-19-beating-the-ai-doom-cycle",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-19",
+   "slug": "beating-the-ai-doom-cycle",
+   "title": "Beating the AI Doom Cycle",
+   "url": "https://www.patreon.com/posts/158618578",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW introduces the 'AI doom cycle', modeled on Gartner's hype cycle, describing people's emotional states about AI: skepticism, AI psychosis, doom desperation, real-world recalibration and enlightened 'anxietment'. He uses recent stories (Ken Griffin's reversal, a viral post on SF tech malaise, commencement booing, Meta layoffs, the end of token subsidies) to illustrate each stage and argues the last stage enables more useful policy debate.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "latent-space/2026-05-18-the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t",
    "show": "latent-space",
    "showName": "Latent Space",
@@ -571,6 +624,21 @@
    ],
    "durationMin": 119,
    "summary": "Host Brandon and guest host Noah Smith interview Yaroslav Azhnyuk, Petcube founder turned founder of Ukrainian drone autonomy company The Fourth Law. They cover drone autonomy levels, fiber-optic vs autonomous FPV drones, the economics of drones versus artillery, tanks and lasers, China's manufacturing advantage, Western supply-chain chokepoints, and European and US defense readiness.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-17-ai-inequality",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-17",
+   "slug": "ai-inequality",
+   "title": "AI Inequality",
+   "url": "https://www.patreon.com/posts/158491577",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW reads Anton Leicht's essay 'Cut Off', which argues that security concerns, compute scarcity and US government involvement will make frontier AI access scarce and selective, splitting the world into AI haves and have-nots. NLW connects this to Anthropic's Mythos limited release, Claude Code pricing changes, Microsoft's AI diffusion data, and argues Bernie Sanders' proposed data center moratorium would worsen AI inequality.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -768,6 +836,21 @@
    "partial": false
   },
   {
+   "key": "aidb/2026-05-09-how-to-build-an-ai-native-team-with-mike-cannon-brookes",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-09",
+   "slug": "how-to-build-an-ai-native-team-with-mike-cannon-brookes",
+   "title": "How to Build an AI Native Team with Mike Cannon-Brookes",
+   "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Build-an-AI-Native-Team-with-Mike-Cannon-Brookes-e3j4cjo",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A bonus operators conversation, in partnership with Atlassian around its Team 26 event, with Atlassian co-founder and CEO Mike Cannon-Brookes. He discusses how Atlassian adopts AI internally, why enterprise context (the Teamwork Graph, its CLI and MCP server) is core to enterprise AI, what distinguishes leading enterprise AI adopters, and why 2026 is when AI moves beyond chat.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "cognitive-revolution/2026-05-09-milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diar",
    "show": "cognitive-revolution",
    "showName": "The Cognitive Revolution",
@@ -895,6 +978,21 @@
    ],
    "durationMin": 264,
    "summary": "Lex Fridman talks with VideoLAN president Jean-Baptiste Kempf and FFmpeg contributor Kieran Kunhya about FFmpeg and VLC: how video playback, codecs and containers work, the history of VideoLAN, FFmpeg, x264 and dav1d, and why the projects rely on handwritten assembly. They also cover open source licensing, the FFmpeg-Google dispute over AI-generated security reports, maintainer burnout, video patents and AV2, intelligence agencies and fake VLC builds, video archiving, and Kempf's ultra-low-latency startup Kyber.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-05-05-why-openai-and-anthropic-are-becoming-consultants",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-05-05",
+   "slug": "why-openai-and-anthropic-are-becoming-consultants",
+   "title": "Why OpenAI and Anthropic Are Becoming Consultants",
+   "url": "https://www.patreon.com/posts/157468620",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "The headlines cover a reported White House reversal toward government vetting of frontier AI models, prompted by Anthropic's Mythos, and new early-access testing agreements with CAISI. The main episode covers OpenAI's and Anthropic's new PE-backed deployment and forward-deployed engineering ventures, and uses Microsoft's Work Trend Index to argue there is no AI transformation without organizational transformation.",
    "summarySource": "extraction",
    "partial": false
   },

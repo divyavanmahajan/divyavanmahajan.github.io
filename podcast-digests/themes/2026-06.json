@@ -1,11 +1,11 @@
 {
   "period": "2026-06",
-  "episodeCount": 57,
+  "episodeCount": 61,
   "headline": "June was dominated by the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, a saga that grew into what NLW calls an ad hoc AI licensing regime now covering OpenAI's GPT-5.6 too. Underneath it ran a quieter story about scarcity: tokens, compute and memory got expensive, pushing enterprises toward token efficiency, cheaper open-weight models and multi-model stacks.",
   "themes": [
     {
       "title": "The Fable 5 shutdown",
-      "body": "The AI Daily Brief covered the launch backlash over Fable 5's trigger-happy safety classifiers, then the US export control directive that forced Anthropic to disable Fable 5 and Mythos 5 for all customers. Reporting tied the decision to a narrow jailbreak report and stalled talks with Washington. By month end Howard Lutnick allowed about 100 trusted partners Mythos access while GPT-5.6 launched only in limited preview. NLW calls it an informal, unaccountable licensing regime; Zvi Mowshowitz and Dean Ball weighed the ban's legality and politics on The Cognitive Revolution.",
+      "body": "The AI Daily Brief covered the launch backlash over Fable 5's trigger-happy safety classifiers, then the US export control directive that forced Anthropic to disable Fable 5 and Mythos 5 for all customers. Reporting tied the decision to a narrow jailbreak report and stalled talks with Washington. By month end Howard Lutnick allowed about 100 trusted partners Mythos access while GPT-5.6 launched only in limited preview. NLW calls it an informal, unaccountable licensing regime; Zvi Mowshowitz and Dean Ball weighed the ban's legality and politics on The Cognitive Revolution. NLW also tested it at launch.",
       "eps": [
         "aidb/2026-06-11",
         "aidb/2026-06-13",
@@ -13,6 +13,7 @@
         "aidb/2026-06-17",
         "aidb/2026-06-27",
         "aidb/2026-06-29",
+        "aidb/2026-06-10",
         "cognitive-revolution/2026-06-13",
         "cognitive-revolution/2026-06-20",
         "cognitive-revolution/2026-06-21"
@@ -35,12 +36,14 @@
     },
     {
       "title": "Open weights and multi-model stacks",
-      "body": "With Fable offline, open models filled the gap. NLW compared Z.ai's GLM 5.2 to the DeepSeek R1 moment, and a WSJ report said it matched Mythos in bug-finding. Kimi K2.7 Code, Gemma 4 and Microsoft weighing DeepSeek V4 for Copilot Cowork showed the same shift, with cost caveats. Satya Nadella urged every company to build its own intelligence with open harnesses and private evals, and Databricks' Matei Zaharia and Reynold Xin argued the frontier ecosystem must stay open.",
+      "body": "With Fable offline, open models filled the gap. NLW compared Z.ai's GLM 5.2 to the DeepSeek R1 moment, and a WSJ report said it matched Mythos in bug-finding. Kimi K2.7 Code, Gemma 4 and Microsoft weighing DeepSeek V4 for Copilot Cowork showed the same shift, with cost caveats. Satya Nadella urged every company to build its own intelligence with open harnesses and private evals, and Databricks' Matei Zaharia and Reynold Xin argued the frontier ecosystem must stay open. A weekly recap called it Realignment Week, and Nufar laid out a five-layer local AI stack.",
       "eps": [
         "aidb/2026-06-18",
         "aidb/2026-06-22",
         "aidb/2026-06-27",
         "aidb/2026-06-29",
+        "aidb/2026-06-20",
+        "aidb/2026-06-21",
         "no-priors/2026-06-04",
         "latent-space/2026-06-24",
         "no-priors/2026-06-10"
@@ -61,13 +64,14 @@
     },
     {
       "title": "Enterprise ROI and bot-sitting",
-      "body": "Glean's Work AI Index 2026, a survey of 6,000 knowledge workers, named 'bot-sitting': the hidden labor of feeding context to AI and checking its output. Rebecca Hinds told Nathan Labenz individual time savings are not reaching organizational performance. KPMG's Q2 AI Pulse found CEO accountability strongly correlates with AI ROI. NLW argued mass-scale training to move workers from assisted to agentic AI is the way out, and offered a playbook for using the model pause to close the capability overhang. Stanford's AI Index flagged entry-level job declines.",
+      "body": "Glean's Work AI Index 2026, a survey of 6,000 knowledge workers, named 'bot-sitting': the hidden labor of feeding context to AI and checking its output. Rebecca Hinds told Nathan Labenz individual time savings are not reaching organizational performance. KPMG's Q2 AI Pulse found CEO accountability strongly correlates with AI ROI. NLW argued mass-scale training to move workers from assisted to agentic AI is the way out, and offered a playbook for using the model pause to close the capability overhang. Stanford's AI Index flagged entry-level job declines. Satya Nadella's token-capital essay pointed to AI learning systems over vendor strategy.",
       "eps": [
         "aidb/2026-06-26",
         "cognitive-revolution/2026-06-10",
         "aidb/2026-06-25",
         "aidb/2026-06-16",
         "aidb/2026-06-28",
+        "aidb/2026-06-19",
         "practical-ai/2026-06-04"
       ]
     },

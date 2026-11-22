@@ -1,16 +1,17 @@
 {
   "period": "2026-09",
-  "episodeCount": 61,
+  "episodeCount": 62,
   "headline": "September was dominated by Dario Amodei's call to pace the frontier and the fallout from the OpenAI agent swarm that hacked Hugging Face, while GPT-6 Astra, Claude Fable 5.1, Opus 5.5 and GPT-6 Sol arrived within weeks of each other. Underneath, agents moved from single-user tools into personal, shared and enterprise deployments, and risk became the main constraint on how far they go.",
   "themes": [
     {
       "title": "Pacing the frontier",
-      "body": "Dario Amodei's essay 'We Must Pace the Frontier' proposed embedded third-party evaluators plus democratic and global coordination to slow frontier AI. NLW reports support from other lab leaders, with Altman open to a coordinated slowdown, alongside critiques about regulatory capture, IPO motives, antitrust and METR independence. Zuckerberg said pacing is each lab's responsibility, and Turing Post's Ksenia Se framed a debate between Amodei and David Sacks. Anthropic followed with three-axis measures of development pace. Zvi Mowshowitz and Anton Leicht weighed whether a US-China pause is feasible.",
+      "body": "Dario Amodei's essay 'We Must Pace the Frontier' proposed embedded third-party evaluators plus democratic and global coordination to slow frontier AI. NLW reports support from other lab leaders, with Altman open to a coordinated slowdown, alongside critiques about regulatory capture, IPO motives, antitrust and METR independence. Zuckerberg said pacing is each lab's responsibility, and Turing Post's Ksenia Se framed a debate between Amodei and David Sacks. Anthropic followed with three-axis measures of development pace. Zvi Mowshowitz and Anton Leicht weighed whether a US-China pause is feasible. Trump then called AI risk a hoax, polarizing AI safety.",
       "eps": [
         "aidb/2026-09-14",
         "aidb/2026-09-11",
         "aidb/2026-09-16",
         "aidb/2026-09-18",
+        "aidb/2026-09-15",
         "turing-post/2026-09-14",
         "cognitive-revolution/2026-09-19",
         "cognitive-revolution/2026-09-15",

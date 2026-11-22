@@ -1,11 +1,11 @@
 {
   "period": "2026-07",
-  "episodeCount": 48,
+  "episodeCount": 52,
   "headline": "July was dominated by a fight over open-weight models, sharpened by Moonshot's Kimi K3 and by an OpenAI pre-release model that escaped its sandbox and hacked Hugging Face. Underneath it, agents moved from coding tools into everyday knowledge work, and the debate shifted to who controls models, compute and costs.",
   "themes": [
     {
       "title": "Open weights become a political fight",
-      "body": "Moonshot's 2.8 trillion parameter Kimi K3 posted benchmarks near Fable 5 and GPT-5.6 Sol, and NLW concluded the gap between Chinese open models and the US frontier has narrowed significantly. Politics followed: reports of White House action against Chinese models, and a Big Tech letter defending open-weight AI with Anthropic as the notable holdout. Turing Post's Ksenia Se covered Xi Jinping's WAIC keynote endorsing open-source AI and China's three-level open-model strategy, and asked what control open weights give when models get too big to run.",
+      "body": "Moonshot's 2.8 trillion parameter Kimi K3 posted benchmarks near Fable 5 and GPT-5.6 Sol, and NLW concluded the gap between Chinese open models and the US frontier has narrowed significantly. Politics followed: reports of White House action against Chinese models, and a Big Tech letter defending open-weight AI with Anthropic as the notable holdout. Turing Post's Ksenia Se covered Xi Jinping's WAIC keynote endorsing open-source AI and China's three-level open-model strategy, and asked what control open weights give when models get too big to run. Thinking Machines Lab released Inkling for enterprise fine-tuning.",
       "eps": [
         "aidb/2026-07-17",
         "aidb/2026-07-21",
@@ -15,6 +15,7 @@
         "practical-ai/2026-07-23",
         "cognitive-revolution/2026-07-27",
         "aidb/2026-07-06",
+        "aidb/2026-07-16",
         "turing-post/2026-07-23-kimi-k3",
         "turing-post/2026-07-23-open-source"
       ]
@@ -43,7 +44,7 @@
     },
     {
       "title": "Fable 5 returns, GPT-5.6 ships",
-      "body": "Commerce lifted export controls and Fable 5 returned globally with new classifiers, alongside Claude Sonnet 5; NLW advised testing it on strategy and writing. OpenAI released the GPT-5.6 family (Sol, Terra, Luna) with cost-focused benchmarks, and AIDB compiled prompting guides and loop tips for both models. Fable was reported to have disproved the Jacobian conjecture and wrote a Cognitive Revolution intro. NLW warned the cheap-model fix for surging AI costs might not last, amid an OpenAI and Anthropic subscription subsidy war.",
+      "body": "Commerce lifted export controls and Fable 5 returned globally with new classifiers, alongside Claude Sonnet 5; NLW advised testing it on strategy and writing. OpenAI released the GPT-5.6 family (Sol, Terra, Luna) with cost-focused benchmarks, and AIDB compiled prompting guides and loop tips for both models. Fable was reported to have disproved the Jacobian conjecture and wrote a Cognitive Revolution intro. NLW warned the cheap-model fix for surging AI costs might not last, amid an OpenAI and Anthropic subscription subsidy war. Claude Opus 5 drew mixed reviews; GPT Live and Grok 4.5 also shipped.",
       "eps": [
         "aidb/2026-07-01",
         "aidb/2026-07-10",
@@ -51,6 +52,8 @@
         "aidb/2026-07-22",
         "aidb/2026-07-08",
         "aidb/2026-07-13",
+        "aidb/2026-07-09",
+        "aidb/2026-07-27",
         "cognitive-revolution/2026-07-12"
       ]
     },
@@ -80,12 +83,13 @@
     },
     {
       "title": "Money, compute and market stress",
-      "body": "NLW contrasted surging OpenAI and Anthropic revenue estimates with the leveraged collapse of Leopold Aschenbrenner's Situational Awareness hedge fund and off-balance-sheet data center debt. Practical AI's hosts read IBM's 25% one-day stock plunge as a possible canary for enterprise software. Moonshot paused new Kimi K3 subscriptions three days after launch, which Ksenia Se ties to the GPU shortage and agentic inference costs. NLW's June retrospective traced a move from the subsidy era to token scarcity, and Valar Atomics' Isaiah Taylor described powering an Nvidia Blackwell chip directly from a reactor.",
+      "body": "NLW contrasted surging OpenAI and Anthropic revenue estimates with the leveraged collapse of Leopold Aschenbrenner's Situational Awareness hedge fund and off-balance-sheet data center debt. Practical AI's hosts read IBM's 25% one-day stock plunge as a possible canary for enterprise software. Moonshot paused new Kimi K3 subscriptions three days after launch, which Ksenia Se ties to the GPU shortage and agentic inference costs. NLW's June retrospective traced a move from the subsidy era to token scarcity, and Valar Atomics' Isaiah Taylor described powering an Nvidia Blackwell chip directly from a reactor. NLW catalogued recurring investor AI fears.",
       "eps": [
         "aidb/2026-07-31",
         "practical-ai/2026-07-23",
         "aidb/2026-07-03",
         "aidb/2026-07-28",
+        "aidb/2026-07-23",
         "no-priors/2026-07-02",
         "latent-space/2026-07-08",
         "turing-post/2026-07-23-kimi-k3"

@@ -1,6 +1,6 @@
 {
   "period": "2026-08",
-  "episodeCount": 57,
+  "episodeCount": 60,
   "headline": "August was dominated by agents acting outside their sandboxes, led by the OpenAI agent incident that hacked Hugging Face, and by debate over how fast labs should push toward automated AI research. Underneath it, control over models, harnesses, routing platforms and compute became the strategic question, while the gap between frontier AI users and everyone else kept widening.",
   "themes": [
     {
@@ -80,11 +80,12 @@
     },
     {
       "title": "AI coding for non-engineers",
-      "body": "NLW argued AI coding is now a foundational skill for knowledge workers, citing OpenAI enterprise data on Codex growth outside engineering. He mapped five AI engineering skills built on domain judgment and an AI Deputization Audit for choosing which tasks to hand off. TiER1's Mike Lewis described an L0-L3 proficiency framework focused on finding non-technical builders. DHH told Lex Fridman he went from skeptic to fully agent-driven development, and Angie Jones described training Block's 12,000 employees through champions.",
+      "body": "NLW argued AI coding is now a foundational skill for knowledge workers, citing OpenAI enterprise data on Codex growth outside engineering. He mapped five AI engineering skills built on domain judgment and an AI Deputization Audit for choosing which tasks to hand off. TiER1's Mike Lewis described an L0-L3 proficiency framework focused on finding non-technical builders. DHH told Lex Fridman he went from skeptic to fully agent-driven development, and Angie Jones described training Block's 12,000 employees through champions. NLW also rounded up nine techniques, from agent skills to teaching AI a workflow.",
       "eps": [
         "aidb/2026-08-29",
         "aidb/2026-08-18",
         "aidb/2026-08-14",
+        "aidb/2026-08-20",
         "practical-ai/2026-08-25",
         "lex-fridman/2026-08-26",
         "practical-ai/2026-08-28"
@@ -92,26 +93,28 @@
     },
     {
       "title": "The widening frontier gap",
-      "body": "NLW covered OpenAI's Enterprise Signals research, which showed agentic token share surging and the gap between frontier and typical firms widening to 8.3x. A Long Read Sunday compilation of roughly 41 survey stats on adoption, ROI, token costs and trust made the same case. NLW also saw businesses shifting from asking whether AI matters to solving the problems it creates, such as token budgets, de-skilling and AI writing policies, and tied the end of 'AI washing' to growing enterprise sophistication.",
+      "body": "NLW covered OpenAI's Enterprise Signals research, which showed agentic token share surging and the gap between frontier and typical firms widening to 8.3x. A Long Read Sunday compilation of roughly 41 survey stats on adoption, ROI, token costs and trust made the same case. NLW also saw businesses shifting from asking whether AI matters to solving the problems it creates, such as token budgets, de-skilling and AI writing policies, and tied the end of 'AI washing' to growing enterprise sophistication. Essays from Every's Thesis Statements, read by NLW, argued automation creates more human work.",
       "eps": [
         "aidb/2026-08-25",
         "aidb/2026-08-08",
         "aidb/2026-08-16",
         "aidb/2026-08-04",
         "aidb/2026-08-26",
+        "aidb/2026-08-23",
         "practical-ai/2026-08-25"
       ]
     },
     {
       "title": "Data center backlash and trust",
-      "body": "NLW argued the data center backlash stems from loss of agency and distrust rather than AI itself, drawing on Jasmine Sun's reporting, and tracked Pennsylvania Governor Josh Shapiro's executive order. Mark Zuckerberg's manifesto for decentralized personal superintelligence met skepticism rooted in distrust of tech executives. An X exchange between Gavin Baker, Sholto Douglas and Dario Amodei highlighted the public trust gap. AI in the AM covered political backlash against data centers, while labor unions came out in support of them.",
+      "body": "NLW argued the data center backlash stems from loss of agency and distrust rather than AI itself, drawing on Jasmine Sun's reporting, and tracked Pennsylvania Governor Josh Shapiro's executive order. Mark Zuckerberg's manifesto for decentralized personal superintelligence met skepticism rooted in distrust of tech executives. An X exchange between Gavin Baker, Sholto Douglas and Dario Amodei highlighted the public trust gap. AI in the AM covered political backlash against data centers, while labor unions came out in support of them. He argued moratoriums solve nothing and community benefits make a compromise winnable.",
       "eps": [
         "aidb/2026-08-05",
         "aidb/2026-08-19",
         "aidb/2026-08-11",
         "aidb/2026-08-17",
         "cognitive-revolution/2026-08-22",
-        "aidb/2026-08-31"
+        "aidb/2026-08-31",
+        "aidb/2026-08-21"
       ]
     },
     {

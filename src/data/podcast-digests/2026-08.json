@@ -4,9 +4,9 @@
  "end": "2026-08-31",
  "inProgress": false,
  "generated": "2026-11-22",
- "episodeCount": 57,
+ "episodeCount": 60,
  "counts": {
-  "aidb": 23,
+  "aidb": 26,
   "turing-post": 12,
   "cognitive-revolution": 7,
   "practical-ai": 3,
@@ -94,11 +94,12 @@
   },
   {
    "title": "AI coding for non-engineers",
-   "body": "NLW argued AI coding is now a foundational skill for knowledge workers, citing OpenAI enterprise data on Codex growth outside engineering. He mapped five AI engineering skills built on domain judgment and an AI Deputization Audit for choosing which tasks to hand off. TiER1's Mike Lewis described an L0-L3 proficiency framework focused on finding non-technical builders. DHH told Lex Fridman he went from skeptic to fully agent-driven development, and Angie Jones described training Block's 12,000 employees through champions.",
+   "body": "NLW argued AI coding is now a foundational skill for knowledge workers, citing OpenAI enterprise data on Codex growth outside engineering. He mapped five AI engineering skills built on domain judgment and an AI Deputization Audit for choosing which tasks to hand off. TiER1's Mike Lewis described an L0-L3 proficiency framework focused on finding non-technical builders. DHH told Lex Fridman he went from skeptic to fully agent-driven development, and Angie Jones described training Block's 12,000 employees through champions. NLW also rounded up nine techniques, from agent skills to teaching AI a workflow.",
    "eps": [
     "aidb/2026-08-29-how-to-start-ai-coding-if-you-havent-yet",
     "aidb/2026-08-18-the-ai-engineering-skills-map-for-knowledge-workers",
     "aidb/2026-08-14-how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audit",
+    "aidb/2026-08-20-9-ai-techniques-you-probably-havent-tried",
     "practical-ai/2026-08-25-ai-proficiency-from-users-to-builders",
     "lex-fridman/2026-08-26-dhh-future-of-programming-ai-agentic-engineering-vibe-coding-linux",
     "practical-ai/2026-08-28-building-the-foundation-for-the-agentic-ai-era"
@@ -106,26 +107,28 @@
   },
   {
    "title": "The widening frontier gap",
-   "body": "NLW covered OpenAI's Enterprise Signals research, which showed agentic token share surging and the gap between frontier and typical firms widening to 8.3x. A Long Read Sunday compilation of roughly 41 survey stats on adoption, ROI, token costs and trust made the same case. NLW also saw businesses shifting from asking whether AI matters to solving the problems it creates, such as token budgets, de-skilling and AI writing policies, and tied the end of 'AI washing' to growing enterprise sophistication.",
+   "body": "NLW covered OpenAI's Enterprise Signals research, which showed agentic token share surging and the gap between frontier and typical firms widening to 8.3x. A Long Read Sunday compilation of roughly 41 survey stats on adoption, ROI, token costs and trust made the same case. NLW also saw businesses shifting from asking whether AI matters to solving the problems it creates, such as token budgets, de-skilling and AI writing policies, and tied the end of 'AI washing' to growing enterprise sophistication. Essays from Every's Thesis Statements, read by NLW, argued automation creates more human work.",
    "eps": [
     "aidb/2026-08-25-what-the-top-ai-users-are-doing-differently",
     "aidb/2026-08-08-41-stats-that-tell-the-story-of-ai-right-now",
     "aidb/2026-08-16-the-new-problems-ai-is-creating-and-how-people-are-solving-them",
     "aidb/2026-08-04-why-ai-washing-wont-work-much-longer",
     "aidb/2026-08-26-5-rules-for-better-ai-writing",
+    "aidb/2026-08-23-the-real-future-of-ai-and-work",
     "practical-ai/2026-08-25-ai-proficiency-from-users-to-builders"
    ]
   },
   {
    "title": "Data center backlash and trust",
-   "body": "NLW argued the data center backlash stems from loss of agency and distrust rather than AI itself, drawing on Jasmine Sun's reporting, and tracked Pennsylvania Governor Josh Shapiro's executive order. Mark Zuckerberg's manifesto for decentralized personal superintelligence met skepticism rooted in distrust of tech executives. An X exchange between Gavin Baker, Sholto Douglas and Dario Amodei highlighted the public trust gap. AI in the AM covered political backlash against data centers, while labor unions came out in support of them.",
+   "body": "NLW argued the data center backlash stems from loss of agency and distrust rather than AI itself, drawing on Jasmine Sun's reporting, and tracked Pennsylvania Governor Josh Shapiro's executive order. Mark Zuckerberg's manifesto for decentralized personal superintelligence met skepticism rooted in distrust of tech executives. An X exchange between Gavin Baker, Sholto Douglas and Dario Amodei highlighted the public trust gap. AI in the AM covered political backlash against data centers, while labor unions came out in support of them. He argued moratoriums solve nothing and community benefits make a compromise winnable.",
    "eps": [
     "aidb/2026-08-05-why-the-data-center-fight-has-little-to-do-with-ai",
     "aidb/2026-08-19-the-ai-backlash-is-getting-stupider-but-also-smarter",
     "aidb/2026-08-11-ai-optimism-has-a-trust-problem",
     "aidb/2026-08-17-ai-companies-still-havent-delivered-on-their-biggest-promises",
     "cognitive-revolution/2026-08-22-ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026",
-    "aidb/2026-08-31-how-to-navigate-the-next-wave-of-ai-competition"
+    "aidb/2026-08-31-how-to-navigate-the-next-wave-of-ai-competition",
+    "aidb/2026-08-21-why-everyone-suddenly-hates-ai-data-centers"
    ]
   },
   {
@@ -160,7 +163,7 @@
   "Invest in non-engineer builders. Coding agents have made personal and production software reachable for domain experts, and the gap between frontier and typical firms is widening, so proficiency programs and internal champions matter more than tool licenses.",
   "Expect infrastructure and trust friction. Data center backlash, compute concentration among a few labs and public distrust can affect capacity, pricing and adoption, so build supplier diversity and transparent communication into AI plans."
  ],
- "themesEpisodeCount": 57,
+ "themesEpisodeCount": 60,
  "episodes": [
   {
    "key": "aidb/2026-08-31-how-to-navigate-the-next-wave-of-ai-competition",
@@ -511,6 +514,21 @@
    "partial": false
   },
   {
+   "key": "aidb/2026-08-23-the-real-future-of-ai-and-work",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-08-23",
+   "slug": "the-real-future-of-ai-and-work",
+   "title": "The Real Future of AI and Work",
+   "url": "https://aidailybrief.ai/e/2026-08-23",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A weekend Long Reads episode in which NLW reads and comments on short essays from Every's 'Thesis Statements' project about the future of human work after automation. The essays cover more human work rather than less, how companies and software will change, coordination in AI-speed organizations, and which individual skills (wisdom, weirdness, unpredictability, judgment) will matter.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "cognitive-revolution/2026-08-22-ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026",
    "show": "cognitive-revolution",
    "showName": "The Cognitive Revolution",
@@ -530,6 +548,21 @@
    "partial": false
   },
   {
+   "key": "aidb/2026-08-21-why-everyone-suddenly-hates-ai-data-centers",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-08-21",
+   "slug": "why-everyone-suddenly-hates-ai-data-centers",
+   "title": "Why Everyone Suddenly Hates AI Data Centers",
+   "url": "https://aidailybrief.ai/e/2026-08-21",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "An extended primer on the bipartisan surge in public opposition to AI data centers ahead of the midterm elections, drawing on polls from Gallup, Heatmap News, Puck News and Morning Consult. NLW surveys explanations from bad AI messaging and big tech distrust to NDAs and alleged Chinese psyops, then argues moratoriums solve nothing and that community benefits, as in Quincy, Washington and Loudoun County, Virginia, make this a highly winnable political compromise.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "latent-space/2026-08-21-simulation-the-new-scaling-law-joon-sung-park-simile-ai",
    "show": "latent-space",
    "showName": "Latent Space",
@@ -543,6 +576,21 @@
    ],
    "durationMin": 70,
    "summary": "Joon Sung Park, co-founder and CEO of Simile AI and author of the Generative Agents (Smallville) paper, explains how Simile builds behavioral foundation models and digital twins of people from interviews, behavioral data and randomized controlled trials. He discusses validation (85% accuracy on 1,000 people), early scaling laws in simulation, customer use cases, and ambitions for society-scale multi-agent simulation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-08-20-9-ai-techniques-you-probably-havent-tried",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-08-20",
+   "slug": "9-ai-techniques-you-probably-havent-tried",
+   "title": "9 AI Techniques You Probably Haven't Tried",
+   "url": "https://aidailybrief.ai/e/2026-08-20",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "The headlines cover Moderna and Merck's AI-assisted personalized mRNA cancer vaccine trial, OpenAI's private safety processing for zero-data-retention customers, Replit's free mode on GPT-5.6 Luna, a disputed SpaceX approach to Cognition, and the secretive White House safety testing framework. The main episode rounds up nine AI techniques: live voice mode, teaching AI workflows, anti-slop writing skills, Claude's /design command, agent skills, multiplayer team agents, GrokBot, local AI with Qwen 3.8 27B, and two-word prompts.",
    "summarySource": "extraction",
    "partial": false
   },

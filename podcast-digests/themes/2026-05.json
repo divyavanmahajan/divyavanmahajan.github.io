@@ -1,16 +1,17 @@
 {
   "period": "2026-05",
-  "episodeCount": 54,
+  "episodeCount": 60,
   "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
   "themes": [
     {
       "title": "Compute scarcity ends token subsidies",
-      "body": "NLW reads Anthropic's decision to bill programmatic and third-party harness usage at API rates as the end of token subsidies amid compute scarcity, then rebuts an early summer slowdown panic by arguing demand still outstrips supply. Anthropic secured full use of xAI's Colossus 1 through SpaceX. Baseten's Tuhin Srivastava describes a severe GPU crunch and longer contracts, Cerebras's Andrew Feldman recounts a $20B+ OpenAI deal signed in about four weeks, and Daytona and Railway both point to compute shortages.",
+      "body": "NLW reads Anthropic's decision to bill programmatic and third-party harness usage at API rates as the end of token subsidies amid compute scarcity, then rebuts an early summer slowdown panic by arguing demand still outstrips supply. Anthropic secured full use of xAI's Colossus 1 through SpaceX. Baseten's Tuhin Srivastava describes a severe GPU crunch and longer contracts, Cerebras's Andrew Feldman recounts a $20B+ OpenAI deal signed in about four weeks, and Daytona and Railway both point to compute shortages. Anton Leicht's essay 'Cut Off' warned scarcity will split users into AI haves and have-nots.",
       "eps": [
         "aidb/2026-05-14",
         "aidb/2026-05-27",
         "aidb/2026-05-07",
         "aidb/2026-05-21",
+        "aidb/2026-05-17",
         "no-priors/2026-05-01",
         "no-priors/2026-05-21",
         "latent-space/2026-05-21",
@@ -46,7 +47,7 @@
     },
     {
       "title": "Jobs narrative shifts from doom",
-      "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, Eric Ries contrasted AI-driven cost-cutting with augmentation, and Ben Todd and Don Beyer weigh careers and displacement.",
+      "body": "NLW tracks a possible vibe shift away from the AI job apocalypse, citing Ezra Klein's NYT piece and signs that AI revenue is catching up to capex. He argues job narratives wrongly assume constant demand, that agents make every job a startup with an infinite backlog and new burnout, and that markets reward AI-driven growth over layoffs. Sam Altman and David Solomon downplayed job losses, Coinbase's layoffs drew skepticism, Eric Ries contrasted AI-driven cost-cutting with augmentation, and Ben Todd and Don Beyer weigh careers and displacement. NLW's 'AI doom cycle' ends in recalibration.",
       "eps": [
         "aidb/2026-05-04",
         "aidb/2026-05-10",
@@ -54,6 +55,7 @@
         "aidb/2026-05-08",
         "aidb/2026-05-24",
         "aidb/2026-05-27",
+        "aidb/2026-05-19-beating-the-ai-doom-cycl",
         "cognitive-revolution/2026-05-26",
         "practical-ai/2026-05-14",
         "turing-post/2026-05-29-eric-ries-on-building-in"
@@ -61,7 +63,7 @@
     },
     {
       "title": "Enterprise deployment over consumer AI",
-      "body": "NLW argues the industry's focus has shifted from consumer to enterprise AI, as labs launched deployment ventures such as OpenAI's Deployment Company joint venture. Long Lake agreed to buy American Express Global Business Travel for $6.3 billion in what it calls the first AI take-private. Abridge describes moving from ambient documentation to a clinical intelligence layer, Kirkland & Ellis built a $500M internal AI platform, Criteo partners with OpenAI on product discovery, and Nufar Gaspar proposes four digital employees for executives.",
+      "body": "NLW argues the industry's focus has shifted from consumer to enterprise AI, as labs launched deployment ventures such as OpenAI's Deployment Company joint venture. Long Lake agreed to buy American Express Global Business Travel for $6.3 billion in what it calls the first AI take-private. Abridge describes moving from ambient documentation to a clinical intelligence layer, Kirkland & Ellis built a $500M internal AI platform, Criteo partners with OpenAI on product discovery, and Nufar Gaspar proposes four digital employees for executives. Atlassian's Mike Cannon-Brookes called enterprise context the core of enterprise AI.",
       "eps": [
         "aidb/2026-05-06",
         "aidb/2026-05-08",
@@ -70,7 +72,9 @@
         "latent-space/2026-05-14",
         "aidb/2026-05-29",
         "cognitive-revolution/2026-05-09",
-        "aidb/2026-05-25"
+        "aidb/2026-05-25",
+        "aidb/2026-05-05",
+        "aidb/2026-05-09"
       ]
     },
     {
@@ -99,13 +103,15 @@
     },
     {
       "title": "AI policy and geopolitics",
-      "body": "Policy moved in several directions. NLW covers White House model vetting, the walk-back of an FDA-like AI approval idea, a forthcoming executive order on model testing, Newsom's AI labor order and Trump scrapping an AI executive order. Under Secretary Jacob Helberg describes Pax Silica, a 14-country AI supply chain coalition. Congressman Don Beyer weighs federal versus state regulation, while Jeffrey Ladish and Ben Todd argue for compute governance and a pause on recursive self-improvement. Latent Space examines drone economics and Western supply chains.",
+      "body": "Policy moved in several directions. NLW covers White House model vetting, the walk-back of an FDA-like AI approval idea, a forthcoming executive order on model testing, Newsom's AI labor order and Trump scrapping an AI executive order. Under Secretary Jacob Helberg describes Pax Silica, a 14-country AI supply chain coalition. Congressman Don Beyer weighs federal versus state regulation, while Jeffrey Ladish and Ben Todd argue for compute governance and a pause on recursive self-improvement. Latent Space examines drone economics and Western supply chains. Pope Leo XIV's encyclical drew polarized reactions, and NLW opposed a flat token tax.",
       "eps": [
         "no-priors/2026-05-14",
         "practical-ai/2026-05-14",
         "aidb/2026-05-22",
         "aidb/2026-05-21",
         "aidb/2026-05-12",
+        "aidb/2026-05-26",
+        "aidb/2026-05-28",
         "cognitive-revolution/2026-05-24",
         "cognitive-revolution/2026-05-26",
         "latent-space/2026-05-18"
