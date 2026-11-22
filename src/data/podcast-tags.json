@@ -1,40 +1,58 @@
 {
  "practical-ai/2018-07-02-helping-african-farmers-with-tensorflow": [],
  "practical-ai/2018-07-02-meet-your-practical-ai-hosts": [],
- "practical-ai/2018-07-02-putting-ai-in-a-box-at-machinebox": [],
+ "practical-ai/2018-07-02-putting-ai-in-a-box-at-machinebox": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2018-07-09-data-management-regulation-the-future-of-ai": [
   "policy-and-regulation"
  ],
- "practical-ai/2018-07-16-detecting-planets-with-deep-learning": [],
+ "practical-ai/2018-07-16-detecting-planets-with-deep-learning": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2018-07-23-government-use-of-facial-recognition-and-ai-at-google": [
   "google"
  ],
- "practical-ai/2018-07-30-understanding-the-landscape-of-ai-techniques": [],
- "practical-ai/2018-08-06-eye-tracking-henry-kissinger-on-ai-vim": [],
+ "practical-ai/2018-07-30-understanding-the-landscape-of-ai-techniques": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2018-08-06-eye-tracking-henry-kissinger-on-ai-vim": [
+  "ai-safety",
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2018-08-13-behavioral-economics-and-ai-driven-decision-making": [],
  "practical-ai/2018-08-21-open-source-tools-ai-for-dota-and-enterprise-ml-adoption": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "policy-and-regulation"
  ],
- "practical-ai/2018-08-27-robot-perception-and-mask-r-cnn": [
-  "physical-ai"
- ],
+ "practical-ai/2018-08-27-robot-perception-and-mask-r-cnn": [],
  "practical-ai/2018-09-03-ai-in-healthcare-synthesizing-dance-moves-hardware-acceleration": [
+  "ai-for-science",
   "infrastructure-and-chips"
  ],
  "practical-ai/2018-09-18-answering-recent-ai-questions-from-quora": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "models-and-benchmarks"
  ],
  "practical-ai/2018-10-01-openai-reinforcement-learning-robots-safety": [
-  "training-and-rl",
+  "ai-safety",
   "physical-ai",
+  "training-and-rl",
   "openai"
  ],
  "practical-ai/2018-10-08-artificial-intelligence-at-nvidia": [
+  "infrastructure-and-chips",
+  "models-and-benchmarks",
+  "nvidia"
+ ],
+ "practical-ai/2018-10-15-pytorch-1-0-vs-tensorflow-2-0": [
   "infrastructure-and-chips"
  ],
- "practical-ai/2018-10-15-pytorch-1-0-vs-tensorflow-2-0": [],
  "practical-ai/2018-10-22-fighting-bias-in-ai-and-in-hiring": [],
- "practical-ai/2018-10-31-ais-that-look-human-and-create-portraits-of-humans": [],
+ "practical-ai/2018-10-31-ais-that-look-human-and-create-portraits-of-humans": [
+  "ai-for-science",
+  "jobs-and-work"
+ ],
  "practical-ai/2018-11-05-getting-into-data-science-and-ai": [],
  "practical-ai/2018-11-12-analyzing-ai-s-impact-on-society-through-art-and-film": [],
  "practical-ai/2018-11-19-uber-and-intel-s-machine-learning-platforms": [
@@ -42,64 +60,81 @@
  ],
  "practical-ai/2018-11-27-bert-one-nlp-model-to-rule-them-all": [
   "training-and-rl",
-  "google"
+  "open-weight-models"
  ],
- "practical-ai/2018-12-03-pachyderm-s-kubernetes-based-infrastructure-for-ai": [],
+ "practical-ai/2018-12-03-pachyderm-s-kubernetes-based-infrastructure-for-ai": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2018-12-10-so-you-have-an-ai-model-now-what": [
   "infrastructure-and-chips"
  ],
  "practical-ai/2018-12-17-finding-success-with-ai-in-the-enterprise": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "policy-and-regulation"
  ],
- "practical-ai/2019-01-14-2018-in-review-and-bold-predictions-for-2019": [],
+ "practical-ai/2019-01-14-2018-in-review-and-bold-predictions-for-2019": [
+  "enterprise-adoption",
+  "jobs-and-work"
+ ],
  "practical-ai/2019-01-21-ibm-s-ai-for-detecting-neurological-state": [],
  "practical-ai/2019-01-28-new-year-s-resolution-dive-into-deep-learning": [],
  "practical-ai/2019-02-04-how-microsoft-is-using-ai-to-help-the-earth": [
   "microsoft"
  ],
- "practical-ai/2019-02-13-girlscoding-org-empowers-young-women-to-embrace-computer-science": [],
+ "practical-ai/2019-02-13-girlscoding-org-empowers-young-women-to-embrace-computer-science": [
+  "jobs-and-work"
+ ],
  "practical-ai/2019-02-20-ai-for-social-good-at-intel": [
   "infrastructure-and-chips"
  ],
  "practical-ai/2019-02-25-openai-s-new-dangerous-gpt-2-language-model": [
+  "ai-safety",
+  "open-weight-models",
   "openai"
  ],
  "practical-ai/2019-03-04-staving-off-disaster-through-ai-safety-research": [
   "ai-safety"
  ],
  "practical-ai/2019-03-11-the-white-house-executive-order-on-ai": [
-  "policy-and-regulation"
+  "policy-and-regulation",
+  "us-china"
  ],
  "practical-ai/2019-03-18-social-ai-with-hugging-face": [
   "open-weight-models",
   "hugging-face"
  ],
  "practical-ai/2019-03-25-growing-up-to-become-a-world-class-ai-expert": [
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
+ "practical-ai/2019-04-02-the-landscape-of-ai-infrastructure": [
   "infrastructure-and-chips"
  ],
- "practical-ai/2019-04-02-the-landscape-of-ai-infrastructure": [],
  "practical-ai/2019-04-08-giphy-s-celebrity-detector": [],
  "practical-ai/2019-04-15-making-the-world-a-better-place-at-the-ai-for-good-foundation": [],
  "practical-ai/2019-04-23-deep-reinforcement-learning": [
   "training-and-rl",
-  "infrastructure-and-chips",
-  "jobs-and-work"
+  "infrastructure-and-chips"
  ],
  "practical-ai/2019-04-30-ctrl-labs-lets-you-control-machines-with-your-mind": [],
  "practical-ai/2019-05-07-tensorflow-dev-summit-2019": [],
  "practical-ai/2019-05-14-when-ai-meets-quantum-mechanics": [],
  "practical-ai/2019-05-21-ai-adoption-in-the-enterprise": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "ai-safety"
  ],
  "practical-ai/2019-05-28-how-to-get-plugged-into-the-ai-community": [],
- "practical-ai/2019-06-04-visualizing-and-understanding-rnns": [],
+ "practical-ai/2019-06-04-visualizing-and-understanding-rnns": [
+  "models-and-benchmarks"
+ ],
  "practical-ai/2019-06-11-gans-rl-and-transfer-learning-oh-my": [
-  "training-and-rl"
+  "training-and-rl",
+  "open-weight-models"
  ],
- "practical-ai/2019-06-17-model-inspection-and-interpretation-at-seldon": [
-  "enterprise-adoption"
+ "practical-ai/2019-06-17-model-inspection-and-interpretation-at-seldon": [],
+ "practical-ai/2019-06-25-exposing-the-deception-of-deepfakes": [
+  "ai-safety"
  ],
- "practical-ai/2019-06-25-exposing-the-deception-of-deepfakes": [],
  "practical-ai/2019-07-03-celebrating-episode-50-and-the-neural-net": [],
  "practical-ai/2019-07-19-ai-code-that-facilitates-good-science": [],
  "practical-ai/2019-07-30-ai-driven-studies-of-the-ancient-world-and-good-gans": [],
@@ -108,13 +143,19 @@
   "jobs-and-work"
  ],
  "practical-ai/2019-09-09-automl-and-ai-at-google": [
+  "interpretability",
   "google"
  ],
- "practical-ai/2019-09-17-worlds-are-colliding-ai-and-hpc": [],
- "practical-ai/2019-09-25-the-influence-of-open-source-on-ai-development": [],
+ "practical-ai/2019-09-17-worlds-are-colliding-ai-and-hpc": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2019-09-25-the-influence-of-open-source-on-ai-development": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2019-09-30-ai-in-the-majority-world-and-model-distillation": [
   "open-weight-models",
-  "training-and-rl"
+  "ai-for-science",
+  "hugging-face"
  ],
  "practical-ai/2019-10-07-flying-high-with-ai-drone-racing-at-alphapilot": [],
  "practical-ai/2019-10-15-blacklisted-facial-recognition-and-surveillance-companies": [
@@ -124,59 +165,78 @@
  "practical-ai/2019-10-28-it-s-time-to-talk-time-series": [],
  "practical-ai/2019-11-05-open-source-data-labeling-tools": [],
  "practical-ai/2019-11-11-robot-hands-solving-rubik-s-cubes": [
-  "physical-ai",
+  "training-and-rl",
   "openai"
  ],
  "practical-ai/2019-11-18-intelligent-systems-and-knowledge-graphs": [],
  "practical-ai/2019-11-25-build-custom-ml-tools-with-streamlit": [],
  "practical-ai/2019-12-02-making-gans-practical": [
-  "generative-media"
+  "enterprise-adoption"
  ],
  "practical-ai/2019-12-09-modern-nlp-with-spacy": [],
- "practical-ai/2019-12-16-escaping-the-dark-ages-of-ai-infrastructure": [],
+ "practical-ai/2019-12-16-escaping-the-dark-ages-of-ai-infrastructure": [
+  "jobs-and-work"
+ ],
  "practical-ai/2019-12-23-ai-for-search-at-etsy": [],
- "practical-ai/2020-01-06-2019-s-ai-top-5": [],
+ "practical-ai/2020-01-06-2019-s-ai-top-5": [
+  "open-weight-models",
+  "hugging-face"
+ ],
  "practical-ai/2020-01-13-how-the-u-s-military-thinks-about-ai": [],
  "practical-ai/2020-01-20-ai-driven-automation-in-manufacturing": [
-  "physical-ai"
+  "training-and-rl",
+  "jobs-and-work"
  ],
  "practical-ai/2020-01-27-testing-ml-systems": [],
- "practical-ai/2020-02-03-insights-from-the-ai-index-2019-annual-report": [],
- "practical-ai/2020-02-10-ai-powered-scientific-exploration-and-discovery": [
-  "ai-for-science"
+ "practical-ai/2020-02-03-insights-from-the-ai-index-2019-annual-report": [
+  "models-and-benchmarks",
+  "jobs-and-work"
  ],
+ "practical-ai/2020-02-10-ai-powered-scientific-exploration-and-discovery": [],
  "practical-ai/2020-02-17-real-time-conversational-insights-from-phone-call-data": [],
  "practical-ai/2020-02-24-nlp-for-the-world-s-7000-languages": [],
  "practical-ai/2020-03-02-tensorflow-in-the-cloud": [
-  "enterprise-adoption",
-  "google"
+  "enterprise-adoption"
  ],
  "practical-ai/2020-03-09-what-exactly-is-data-science-these-days": [],
  "practical-ai/2020-03-16-building-a-career-in-data-science": [],
  "practical-ai/2020-03-23-speech-recognition-to-say-it-just-right": [],
  "practical-ai/2020-03-25-welcome-to-practical-ai": [],
  "practical-ai/2020-03-30-mapping-the-intersection-of-ai-and-gis": [],
- "practical-ai/2020-04-06-covid-19-q-a-and-cord-19": [],
- "practical-ai/2020-04-13-achieving-provably-beneficial-human-compatible-ai": [],
+ "practical-ai/2020-04-06-covid-19-q-a-and-cord-19": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2020-04-13-achieving-provably-beneficial-human-compatible-ai": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2020-04-20-exploring-the-covid-19-open-research-dataset": [],
  "practical-ai/2020-04-27-reinforcement-learning-for-chip-design": [
-  "infrastructure-and-chips",
   "training-and-rl",
+  "infrastructure-and-chips",
   "google"
  ],
  "practical-ai/2020-05-04-ask-us-anything-about-ai": [],
  "practical-ai/2020-05-11-ai-for-good-clean-water-access-in-africa": [],
  "practical-ai/2020-05-26-exploring-nvidia-s-ampere-the-a100-gpu": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "nvidia"
  ],
  "practical-ai/2020-06-08-explaining-ai-explainability": [],
  "practical-ai/2020-06-15-the-long-road-to-agi": [
-  "openai"
+  "policy-and-regulation",
+  "training-and-rl"
  ],
- "practical-ai/2020-06-22-roles-to-play-in-the-ai-dev-workflow": [],
+ "practical-ai/2020-06-22-roles-to-play-in-the-ai-dev-workflow": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2020-06-29-operationalizing-ml-ai-with-memsql": [],
- "practical-ai/2020-07-07-the-ins-and-outs-of-open-source-for-ai": [],
- "practical-ai/2020-07-14-practical-ai-ethics": [],
+ "practical-ai/2020-07-07-the-ins-and-outs-of-open-source-for-ai": [
+  "infrastructure-and-chips",
+  "open-weight-models"
+ ],
+ "practical-ai/2020-07-14-practical-ai-ethics": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2020-07-20-mlops-and-tracking-experiments-with-allegro-ai": [],
  "practical-ai/2020-07-27-all-things-transformers-with-hugging-face": [
   "open-weight-models",
@@ -186,7 +246,9 @@
  "practical-ai/2020-08-03-attack-of-the-c-l-o-n-e-s-text": [],
  "practical-ai/2020-08-11-practical-ai-turns-100": [],
  "practical-ai/2020-08-17-building-the-world-s-most-popular-data-science-platform": [],
- "practical-ai/2020-08-24-hidden-door-and-so-much-more": [],
+ "practical-ai/2020-08-24-hidden-door-and-so-much-more": [
+  "ai-safety"
+ ],
  "practical-ai/2020-09-01-getting-waymo-into-autonomous-driving": [
   "physical-ai"
  ],
@@ -196,26 +258,27 @@
  ],
  "practical-ai/2020-09-21-learning-about-deep-learning": [
   "infrastructure-and-chips",
-  "jobs-and-work"
+  "ai-for-science",
+  "nvidia"
  ],
  "practical-ai/2020-10-06-r-data-science-computational-biology": [
-  "ai-coding",
   "ai-for-science"
  ],
- "practical-ai/2020-10-13-productionizing-ai-at-linkedin": [
-  "jobs-and-work"
- ],
+ "practical-ai/2020-10-13-productionizing-ai-at-linkedin": [],
  "practical-ai/2020-10-20-when-data-leakage-turns-into-a-flood-of-trouble": [],
  "practical-ai/2020-10-26-reinforcement-learning-for-search": [
   "training-and-rl"
  ],
- "practical-ai/2020-11-09-killer-developer-tools-for-machine-learning": [],
+ "practical-ai/2020-11-09-killer-developer-tools-for-machine-learning": [
+  "ai-safety"
+ ],
  "practical-ai/2020-11-17-building-a-deep-learning-workstation": [
   "infrastructure-and-chips"
  ],
  "practical-ai/2020-11-24-a-casual-conversation-concerning-causal-inference": [],
  "practical-ai/2020-12-01-the-world-s-largest-open-library-dataset": [],
  "practical-ai/2020-12-07-from-research-to-product-at-azure-ai": [
+  "enterprise-adoption",
   "microsoft"
  ],
  "practical-ai/2020-12-14-engaging-with-governments-on-ai-for-good": [],
@@ -224,42 +287,49 @@
  "practical-ai/2021-01-19-accelerating-ml-innovation-at-mlcommons": [
   "models-and-benchmarks"
  ],
- "practical-ai/2021-01-26-the-nose-knows": [],
+ "practical-ai/2021-01-26-the-nose-knows": [
+  "ai-for-science"
+ ],
  "practical-ai/2021-02-02-cooking-up-synthetic-data-with-gretel": [],
  "practical-ai/2021-02-16-the-ai-doc-will-see-you-now": [],
  "practical-ai/2021-02-23-low-code-no-code-accelerated-code-failing-code": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "jobs-and-work"
  ],
- "practical-ai/2021-03-02-green-ai": [],
+ "practical-ai/2021-03-02-green-ai": [
+  "infrastructure-and-chips",
+  "models-and-benchmarks"
+ ],
  "practical-ai/2021-03-09-deep-learning-technology-for-drug-discovery": [
   "ai-for-science"
  ],
- "practical-ai/2021-03-23-recommender-systems-and-high-frequency-trading": [],
- "practical-ai/2021-03-30-women-in-data-science-wids": [
-  "jobs-and-work"
+ "practical-ai/2021-03-23-recommender-systems-and-high-frequency-trading": [
+  "training-and-rl"
  ],
+ "practical-ai/2021-03-30-women-in-data-science-wids": [],
  "practical-ai/2021-04-06-next-gen-voice-assistants": [],
- "practical-ai/2021-04-13-going-full-bore-with-graphcore": [
-  "infrastructure-and-chips"
- ],
+ "practical-ai/2021-04-13-going-full-bore-with-graphcore": [],
  "practical-ai/2021-04-20-data-science-for-intuitive-user-experiences": [],
  "practical-ai/2021-04-27-mapping-the-world": [],
- "practical-ai/2021-05-04-generating-hunches-using-smart-home-data": [
-  "amazon"
- ],
+ "practical-ai/2021-05-04-generating-hunches-using-smart-home-data": [],
  "practical-ai/2021-05-11-25-years-of-speech-technology-innovation": [],
- "practical-ai/2021-05-18-apache-tvm-and-octoml": [],
- "practical-ai/2021-05-26-elixir-meets-machine-learning": [
+ "practical-ai/2021-05-18-apache-tvm-and-octoml": [
   "infrastructure-and-chips"
  ],
- "practical-ai/2021-06-01-the-fastest-way-to-build-ml-powered-apps": [],
- "practical-ai/2021-06-08-learning-to-learn-deep-learning": [],
- "practical-ai/2021-06-15-multi-gpu-training-is-hard-without-pytorch-lightning": [
-  "infrastructure-and-chips"
+ "practical-ai/2021-05-26-elixir-meets-machine-learning": [],
+ "practical-ai/2021-06-01-the-fastest-way-to-build-ml-powered-apps": [
+  "open-weight-models"
  ],
- "practical-ai/2021-06-22-vector-databases-for-machine-learning": [],
+ "practical-ai/2021-06-08-learning-to-learn-deep-learning": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2021-06-15-multi-gpu-training-is-hard-without-pytorch-lightning": [],
+ "practical-ai/2021-06-22-vector-databases-for-machine-learning": [
+  "open-weight-models"
+ ],
  "practical-ai/2021-07-13-from-symbols-to-ai-pair-programmers": [
   "ai-coding",
+  "models-and-benchmarks",
   "microsoft"
  ],
  "practical-ai/2021-07-20-towards-stability-and-robustness": [
@@ -268,9 +338,15 @@
  "practical-ai/2021-07-27-building-a-data-team": [],
  "practical-ai/2021-08-03-ai-is-creating-never-before-heard-sounds": [],
  "practical-ai/2021-08-10-sliced-will-you-make-the-data-science-cut": [],
- "practical-ai/2021-08-17-nlp-to-help-pregnant-mothers-in-kenya": [],
- "practical-ai/2021-08-24-exploring-a-new-ai-lexicon": [],
- "practical-ai/2021-09-01-anaconda-pyston-and-more": [],
+ "practical-ai/2021-08-17-nlp-to-help-pregnant-mothers-in-kenya": [
+  "ai-for-science"
+ ],
+ "practical-ai/2021-08-24-exploring-a-new-ai-lexicon": [
+  "ai-coding"
+ ],
+ "practical-ai/2021-09-01-anaconda-pyston-and-more": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2021-09-07-stellar-inference-speed-via-autonas": [
   "infrastructure-and-chips"
  ],
@@ -278,63 +354,83 @@
  "practical-ai/2021-09-21-from-notebooks-to-netflix-scale-with-metaflow": [],
  "practical-ai/2021-09-28-balancing-human-intelligence-with-ai": [],
  "practical-ai/2021-10-05-the-mathematics-of-machine-learning": [
-  "ai-for-science"
+  "open-weight-models"
  ],
- "practical-ai/2021-10-12-federated-learning": [],
+ "practical-ai/2021-10-12-federated-learning": [
+  "open-weight-models"
+ ],
  "practical-ai/2021-10-19-ai-in-africa-makerere-ai-lab": [],
  "practical-ai/2021-10-26-eureka-moments-with-natural-language-processing": [
-  "openai"
+  "enterprise-adoption"
  ],
  "practical-ai/2021-11-02-photonic-computing-for-ai-acceleration": [
   "infrastructure-and-chips"
  ],
- "practical-ai/2021-11-10-analyzing-the-2021-ai-index-report": [],
- "practical-ai/2021-11-23-zero-shot-multitask-learning": [],
+ "practical-ai/2021-11-10-analyzing-the-2021-ai-index-report": [
+  "jobs-and-work",
+  "open-weight-models"
+ ],
+ "practical-ai/2021-11-23-zero-shot-multitask-learning": [
+  "jobs-and-work"
+ ],
  "practical-ai/2021-11-30-ai-generated-code-with-openai-codex": [
   "ai-coding",
-  "openai",
   "microsoft"
  ],
  "practical-ai/2021-12-02-technology-as-a-force-for-good": [
+  "jobs-and-work",
+  "policy-and-regulation",
   "salesforce"
  ],
  "practical-ai/2021-12-07-friendly-federated-learning": [],
  "practical-ai/2021-12-14-openai-and-hugging-face-tooling": [
   "open-weight-models",
-  "infrastructure-and-chips",
   "training-and-rl",
   "hugging-face",
   "openai"
  ],
  "practical-ai/2022-01-05-ai-in-africa-radiant-earth": [],
- "practical-ai/2022-01-11-eliminate-ai-failures": [],
- "practical-ai/2022-01-19-democratizing-ml-for-speech": [],
+ "practical-ai/2022-01-11-eliminate-ai-failures": [
+  "policy-and-regulation"
+ ],
+ "practical-ai/2022-01-19-democratizing-ml-for-speech": [
+  "models-and-benchmarks"
+ ],
  "practical-ai/2022-01-25-the-world-needs-an-ai-superhero": [
-  "ai-for-science",
   "jobs-and-work"
  ],
  "practical-ai/2022-02-01-exploring-deep-reinforcement-learning": [
-  "training-and-rl",
   "open-weight-models",
+  "policy-and-regulation",
   "hugging-face"
  ],
  "practical-ai/2022-02-09-ai-in-africa-voice-language-tools": [],
  "practical-ai/2022-02-15-one-algorithm-to-rule-them-all": [],
- "practical-ai/2022-03-01-deploying-models-to-tractors": [],
- "practical-ai/2022-03-08-creating-a-culture-of-innovation": [],
- "practical-ai/2022-03-16-clothing-ai-in-a-data-fabric": [],
+ "practical-ai/2022-03-01-deploying-models-to-tractors": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2022-03-08-creating-a-culture-of-innovation": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2022-03-16-clothing-ai-in-a-data-fabric": [
+  "ai-for-science"
+ ],
  "practical-ai/2022-03-23-foundation-models": [
-  "ai-safety"
+  "open-weight-models"
  ],
  "practical-ai/2022-03-29-it-s-been-a-big-week-in-ai-news": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "nvidia"
  ],
  "practical-ai/2022-04-05-quick-beautiful-web-uis-for-ml-apps": [
   "open-weight-models",
+  "models-and-benchmarks",
   "hugging-face"
  ],
  "practical-ai/2022-04-19-ai-in-africa-agriculture": [],
- "practical-ai/2022-04-26-mlops-is-not-real": [],
+ "practical-ai/2022-04-26-mlops-is-not-real": [
+  "open-weight-models"
+ ],
  "practical-ai/2022-05-03-learning-the-language-of-life": [
   "ai-for-science"
  ],
@@ -344,217 +440,325 @@
   "hugging-face"
  ],
  "practical-ai/2022-06-07-generalist-models-iceman-s-voice": [
-  "google"
+  "context-engineering"
  ],
- "practical-ai/2022-06-14-digital-humans-detecting-emotions": [],
+ "practical-ai/2022-06-14-digital-humans-detecting-emotions": [
+  "jobs-and-work"
+ ],
  "practical-ai/2022-06-22-machine-learning-in-your-database": [],
  "practical-ai/2022-06-28-ai-s-role-in-reprogramming-immunity": [
   "ai-for-science"
  ],
  "practical-ai/2022-07-12-cloning-voices-with-coqui": [],
- "practical-ai/2022-07-19-dall-e-is-one-giant-leap-for-raccoons": [
-  "ai-consciousness"
+ "practical-ai/2022-07-19-dall-e-is-one-giant-leap-for-raccoons": [],
+ "practical-ai/2022-07-26-the-geopolitics-of-artificial-intelligence": [
+  "ai-coding",
+  "policy-and-regulation",
+  "microsoft"
  ],
- "practical-ai/2022-07-26-the-geopolitics-of-artificial-intelligence": [],
  "practical-ai/2022-08-02-ai-irl-mozilla-s-internet-health-report": [],
  "practical-ai/2022-08-09-alphafold-is-revolutionizing-biology": [
   "ai-for-science",
   "google"
  ],
- "practical-ai/2022-08-16-cmu-s-ai-pilot-lands-in-the-news": [],
+ "practical-ai/2022-08-16-cmu-s-ai-pilot-lands-in-the-news": [
+  "ai-safety"
+ ],
  "practical-ai/2022-08-24-practical-positive-uses-for-deep-fakes": [],
- "practical-ai/2022-08-30-privacy-in-the-age-of-ai": [],
- "practical-ai/2022-09-06-licensing-automating-creativity": [],
- "practical-ai/2022-09-13-stable-diffusion": [
+ "practical-ai/2022-08-30-privacy-in-the-age-of-ai": [
+  "open-weight-models"
+ ],
+ "practical-ai/2022-09-06-licensing-automating-creativity": [
+  "jobs-and-work",
   "infrastructure-and-chips"
  ],
- "practical-ai/2022-09-20-evaluating-models-without-test-data": [],
+ "practical-ai/2022-09-13-stable-diffusion": [
+  "open-weight-models",
+  "training-and-rl"
+ ],
+ "practical-ai/2022-09-20-evaluating-models-without-test-data": [
+  "models-and-benchmarks",
+  "ai-for-science",
+  "google"
+ ],
  "practical-ai/2022-09-27-production-data-labeling-workflows": [],
- "practical-ai/2022-10-12-what-s-up-docquery": [],
- "practical-ai/2022-10-18-data-for-all": [],
+ "practical-ai/2022-10-12-what-s-up-docquery": [
+  "open-weight-models",
+  "hugging-face"
+ ],
+ "practical-ai/2022-10-18-data-for-all": [
+  "policy-and-regulation"
+ ],
  "practical-ai/2022-10-26-ai-adoption-in-large-well-established-companies": [
   "enterprise-adoption"
  ],
- "practical-ai/2022-11-01-the-practicalities-of-releasing-models": [],
- "practical-ai/2022-11-08-hybrid-computing-with-quantum-processors": [
+ "practical-ai/2022-11-01-the-practicalities-of-releasing-models": [
   "infrastructure-and-chips"
  ],
+ "practical-ai/2022-11-08-hybrid-computing-with-quantum-processors": [],
  "practical-ai/2022-11-16-protecting-us-with-the-database-of-evil": [],
  "practical-ai/2022-11-29-copilot-lawsuits-galactica-science": [
+  "ai-coding",
+  "policy-and-regulation",
   "microsoft"
  ],
- "practical-ai/2022-12-07-ai-competitions-cloud-resources": [
-  "jobs-and-work",
-  "microsoft"
+ "practical-ai/2022-12-07-ai-competitions-cloud-resources": [],
+ "practical-ai/2022-12-13-sota-machine-translation-at-unbabel": [
+  "open-weight-models",
+  "training-and-rl"
  ],
- "practical-ai/2022-12-13-sota-machine-translation-at-unbabel": [],
  "practical-ai/2023-01-03-nlp-research-by-for-local-communities": [],
  "practical-ai/2023-01-10-chatgpt-goes-prime-time": [
   "consumer-ai",
-  "training-and-rl",
+  "open-weight-models",
   "openai"
  ],
  "practical-ai/2023-01-17-machine-learning-at-small-organizations": [],
- "practical-ai/2023-01-24-gpu-dev-environments-that-just-work": [
-  "infrastructure-and-chips"
- ],
+ "practical-ai/2023-01-24-gpu-dev-environments-that-just-work": [],
  "practical-ai/2023-01-31-3d-assets-simulation-at-nvidia": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "nvidia"
  ],
- "practical-ai/2023-02-07-mlops-is-alive-and-well": [],
- "practical-ai/2023-02-14-serverless-gpus": [
-  "infrastructure-and-chips"
- ],
- "practical-ai/2023-02-22-applied-nlp-solutions-ai-education": [
-  "training-and-rl"
- ],
- "practical-ai/2023-02-28-success-and-failure-in-prompting": [],
- "practical-ai/2023-03-07-end-to-end-cloud-compute-for-ai-ml": [
-  "infrastructure-and-chips"
- ],
- "practical-ai/2023-03-15-ai-search-at-you-com": [
+ "practical-ai/2023-02-07-mlops-is-alive-and-well": [
   "consumer-ai"
  ],
- "practical-ai/2023-03-28-explainable-ai-that-is-accessible-for-all-humans": [],
+ "practical-ai/2023-02-14-serverless-gpus": [
+  "open-weight-models"
+ ],
+ "practical-ai/2023-02-22-applied-nlp-solutions-ai-education": [],
+ "practical-ai/2023-02-28-success-and-failure-in-prompting": [
+  "context-engineering",
+  "consumer-ai",
+  "openai"
+ ],
+ "practical-ai/2023-03-07-end-to-end-cloud-compute-for-ai-ml": [
+  "enterprise-adoption",
+  "open-weight-models"
+ ],
+ "practical-ai/2023-03-15-ai-search-at-you-com": [
+  "consumer-ai",
+  "models-and-benchmarks"
+ ],
+ "practical-ai/2023-03-28-explainable-ai-that-is-accessible-for-all-humans": [
+  "consumer-ai",
+  "openai"
+ ],
  "practical-ai/2023-04-04-accelerated-data-science-with-a-kaggle-grandmaster": [
+  "ai-coding",
   "infrastructure-and-chips"
  ],
  "practical-ai/2023-04-12-computer-scientists-as-rogue-art-historians": [],
  "practical-ai/2023-04-19-capabilities-of-llms": [
   "open-weight-models",
-  "enterprise-adoption",
+  "context-engineering",
   "hugging-face"
  ],
  "practical-ai/2023-04-25-causal-inference": [],
- "practical-ai/2023-05-02-large-models-on-cpus": [
-  "infrastructure-and-chips"
+ "practical-ai/2023-05-02-large-models-on-cpus": [],
+ "practical-ai/2023-05-11-the-last-mile-of-ai-app-development": [
+  "agents",
+  "consumer-ai",
+  "openai"
  ],
- "practical-ai/2023-05-11-the-last-mile-of-ai-app-development": [],
- "practical-ai/2023-05-16-creating-instruction-tuned-models": [],
- "practical-ai/2023-05-23-data-augmentation-with-llamaindex": [],
- "practical-ai/2023-05-31-controlled-and-compliant-ai-applications": [
+ "practical-ai/2023-05-16-creating-instruction-tuned-models": [
   "open-weight-models"
  ],
- "practical-ai/2023-06-06-accidentally-building-sota-ai": [],
- "practical-ai/2023-06-14-ai-trends-a-latent-space-crossover": [],
- "practical-ai/2023-06-21-from-ml-to-ai-to-generative-ai": [],
- "practical-ai/2023-06-28-automated-cartography-using-ai": [],
+ "practical-ai/2023-05-23-data-augmentation-with-llamaindex": [
+  "agents"
+ ],
+ "practical-ai/2023-05-31-controlled-and-compliant-ai-applications": [
+  "agents",
+  "consumer-ai",
+  "openai"
+ ],
+ "practical-ai/2023-06-06-accidentally-building-sota-ai": [
+  "consumer-ai",
+  "context-engineering"
+ ],
+ "practical-ai/2023-06-14-ai-trends-a-latent-space-crossover": [
+  "models-and-benchmarks",
+  "ai-coding"
+ ],
+ "practical-ai/2023-06-21-from-ml-to-ai-to-generative-ai": [
+  "ai-safety",
+  "context-engineering"
+ ],
+ "practical-ai/2023-06-28-automated-cartography-using-ai": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2023-07-06-cambrian-explosion-of-generative-models": [
+  "models-and-benchmarks",
   "open-weight-models"
  ],
  "practical-ai/2023-07-12-a-developer-s-toolkit-for-sota-ai": [
-  "infrastructure-and-chips",
+  "ai-coding",
   "training-and-rl",
+  "microsoft"
+ ],
+ "practical-ai/2023-07-18-legal-consequences-of-generated-content": [
+  "jobs-and-work",
   "ai-coding"
  ],
- "practical-ai/2023-07-18-legal-consequences-of-generated-content": [],
  "practical-ai/2023-07-25-there-s-a-new-llama-in-town": [
   "open-weight-models",
-  "training-and-rl",
-  "meta",
-  "anthropic",
-  "openai"
+  "models-and-benchmarks",
+  "meta"
  ],
  "practical-ai/2023-08-01-vector-databases-beyond-the-hype": [],
  "practical-ai/2023-08-09-blueprint-for-an-ai-bill-of-rights": [
-  "enterprise-adoption",
-  "policy-and-regulation"
+  "policy-and-regulation",
+  "open-weight-models"
  ],
- "practical-ai/2023-08-23-the-new-ai-app-stack": [],
- "practical-ai/2023-08-29-automating-code-optimization-with-llms": [],
+ "practical-ai/2023-08-23-the-new-ai-app-stack": [
+  "open-weight-models"
+ ],
+ "practical-ai/2023-08-29-automating-code-optimization-with-llms": [
+  "ai-coding",
+  "consumer-ai"
+ ],
  "practical-ai/2023-09-06-fine-tuning-vs-rag": [
-  "training-and-rl"
+  "training-and-rl",
+  "consumer-ai",
+  "openai"
  ],
- "practical-ai/2023-09-20-automate-all-the-uis": [],
+ "practical-ai/2023-09-20-automate-all-the-uis": [
+  "agents",
+  "open-weight-models"
+ ],
  "practical-ai/2023-10-03-generative-models-exploration-to-deployment": [
   "open-weight-models",
   "infrastructure-and-chips",
   "hugging-face"
  ],
- "practical-ai/2023-10-20-ai-s-impact-on-developers": [],
+ "practical-ai/2023-10-20-ai-s-impact-on-developers": [
+  "jobs-and-work",
+  "consumer-ai"
+ ],
  "practical-ai/2023-10-24-deep-learning-in-rust-with-burn": [],
  "practical-ai/2023-10-31-self-hosting-scaling-models": [
-  "open-weight-models"
+  "open-weight-models",
+  "consumer-ai"
  ],
  "practical-ai/2023-11-07-government-regulation-of-ai-has-arrived": [
+  "policy-and-regulation",
+  "ai-safety"
+ ],
+ "practical-ai/2023-11-14-ai-trailblazers-putting-people-first": [
   "policy-and-regulation"
  ],
- "practical-ai/2023-11-14-ai-trailblazers-putting-people-first": [],
- "practical-ai/2023-11-21-generating-product-imagery-at-shopify": [],
+ "practical-ai/2023-11-21-generating-product-imagery-at-shopify": [
+  "context-engineering",
+  "open-weight-models"
+ ],
  "practical-ai/2023-11-29-the-openai-debacle-a-retrospective": [
-  "openai"
+  "consumer-ai",
+  "infrastructure-and-chips",
+  "openai",
+  "microsoft"
  ],
  "practical-ai/2023-12-05-suspicion-machines": [],
  "practical-ai/2023-12-12-the-state-of-open-source-ai": [
+  "open-weight-models",
   "training-and-rl"
  ],
  "practical-ai/2023-12-19-open-source-on-disk-vector-search-with-lancedb": [],
  "practical-ai/2024-01-10-ai-predictions-for-2024": [
-  "ai-coding"
- ],
- "practical-ai/2024-01-17-advent-of-genai-hackathon-recap": [
-  "infrastructure-and-chips",
-  "open-weight-models"
- ],
- "practical-ai/2024-01-23-collaboration-evaluation-for-llm-apps": [],
- "practical-ai/2024-01-30-large-action-models-lams-rabbits": [],
- "practical-ai/2024-02-06-data-synthesis-for-sota-llms": [
-  "open-weight-models"
- ],
- "practical-ai/2024-02-14-gemini-vs-openai": [
-  "google",
+  "consumer-ai",
+  "enterprise-adoption",
   "openai"
  ],
- "practical-ai/2024-02-20-leading-the-charge-on-ai-in-national-security": [],
- "practical-ai/2024-02-28-representation-engineering-activation-hacking": [
-  "open-weight-models",
+ "practical-ai/2024-01-17-advent-of-genai-hackathon-recap": [
+  "context-engineering",
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2024-01-23-collaboration-evaluation-for-llm-apps": [
+  "context-engineering",
+  "training-and-rl",
+  "open-weight-models"
+ ],
+ "practical-ai/2024-01-30-large-action-models-lams-rabbits": [],
+ "practical-ai/2024-02-06-data-synthesis-for-sota-llms": [
   "training-and-rl"
+ ],
+ "practical-ai/2024-02-14-gemini-vs-openai": [
+  "consumer-ai",
+  "jobs-and-work",
+  "google"
+ ],
+ "practical-ai/2024-02-20-leading-the-charge-on-ai-in-national-security": [
+  "policy-and-regulation",
+  "us-china"
+ ],
+ "practical-ai/2024-02-28-representation-engineering-activation-hacking": [
+  "context-engineering",
+  "generative-media",
+  "openai"
  ],
  "practical-ai/2024-03-06-yolov9-computer-vision-is-alive-and-well": [],
  "practical-ai/2024-03-12-generating-the-future-of-art-entertainment": [
-  "generative-media"
+  "generative-media",
+  "infrastructure-and-chips"
  ],
  "practical-ai/2024-03-20-prompting-the-future": [
-  "context-engineering"
+  "context-engineering",
+  "ai-coding",
+  "openai"
  ],
  "practical-ai/2024-03-26-ai-vs-software-devs": [
-  "ai-coding"
+  "ai-coding",
+  "jobs-and-work"
  ],
  "practical-ai/2024-04-02-should-kids-still-learn-to-code": [
-  "jobs-and-work",
+  "enterprise-adoption",
+  "infrastructure-and-chips",
   "nvidia"
  ],
  "practical-ai/2024-04-10-rag-continues-to-rise": [
-  "enterprise-adoption",
-  "training-and-rl"
+  "training-and-rl",
+  "infrastructure-and-chips"
  ],
- "practical-ai/2024-04-16-udio-the-age-of-multi-modal-ai": [],
+ "practical-ai/2024-04-16-udio-the-age-of-multi-modal-ai": [
+  "ai-coding"
+ ],
  "practical-ai/2024-04-24-mamba-jamba": [
   "enterprise-adoption"
  ],
- "practical-ai/2024-04-30-private-open-source-chat-uis": [],
+ "practical-ai/2024-04-30-private-open-source-chat-uis": [
+  "agents",
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2024-05-08-autonomous-fighter-jets": [
-  "enterprise-adoption"
+  "jobs-and-work",
+  "open-weight-models"
  ],
  "practical-ai/2024-05-15-full-stack-approach-for-effective-ai-agents": [
-  "agents"
+  "agents",
+  "ai-coding"
  ],
  "practical-ai/2024-05-21-first-impressions-of-gpt-4o": [
+  "jobs-and-work",
+  "open-weight-models",
   "openai"
  ],
  "practical-ai/2024-05-29-ai-in-the-u-s-congress": [
-  "policy-and-regulation"
+  "ai-safety",
+  "policy-and-regulation",
+  "jobs-and-work"
  ],
- "practical-ai/2024-06-04-rise-of-the-ai-pc-local-llms": [],
+ "practical-ai/2024-06-04-rise-of-the-ai-pc-local-llms": [
+  "infrastructure-and-chips"
+ ],
  "practical-ai/2024-06-13-using-edge-models-to-find-sensitive-data": [
-  "ai-for-science"
- ],
- "practical-ai/2024-06-19-the-perplexities-of-information-retrieval": [
+  "ai-for-science",
   "consumer-ai"
  ],
+ "practical-ai/2024-06-19-the-perplexities-of-information-retrieval": [
+  "consumer-ai",
+  "agents",
+  "openai"
+ ],
  "practical-ai/2024-06-25-apple-intelligence-advanced-rag": [
-  "enterprise-adoption",
-  "apple"
+  "enterprise-adoption"
  ],
  "practical-ai/2024-07-02-stanford-s-ai-index-report-2024": [
   "models-and-benchmarks",
@@ -562,133 +766,217 @@
  ],
  "practical-ai/2024-07-10-vectoring-in-on-pinecone": [],
  "practical-ai/2024-07-18-the-first-real-time-voice-assistant": [
+  "open-weight-models",
+  "enterprise-adoption",
   "openai"
  ],
- "practical-ai/2024-07-24-hyperventilating-over-the-gartner-ai-hype-cycle": [],
- "practical-ai/2024-07-31-broccoli-ai-at-its-best": [],
+ "practical-ai/2024-07-24-hyperventilating-over-the-gartner-ai-hype-cycle": [
+  "agents",
+  "context-engineering"
+ ],
+ "practical-ai/2024-07-31-broccoli-ai-at-its-best": [
+  "open-weight-models"
+ ],
  "practical-ai/2024-08-07-gaudi-processors-intel-s-ai-portfolio": [
   "infrastructure-and-chips",
-  "open-weight-models",
-  "hugging-face"
+  "agents"
  ],
  "practical-ai/2024-08-14-only-as-good-as-the-data": [
+  "policy-and-regulation",
   "training-and-rl"
  ],
- "practical-ai/2024-08-22-threat-modeling-llm-apps": [],
- "practical-ai/2024-08-29-metrics-driven-development": [
-  "models-and-benchmarks"
+ "practical-ai/2024-08-22-threat-modeling-llm-apps": [
+  "agents",
+  "ai-coding"
  ],
+ "practical-ai/2024-08-29-metrics-driven-development": [],
  "practical-ai/2024-09-05-ai-is-more-than-genai": [],
  "practical-ai/2024-09-11-cybersecurity-in-the-genai-age": [
   "ai-safety"
  ],
  "practical-ai/2024-09-17-pausing-to-think-about-scikit-learn-openai-o1": [
+  "models-and-benchmarks",
   "openai"
  ],
- "practical-ai/2024-09-25-graphrag-beyond-the-hype": [],
+ "practical-ai/2024-09-25-graphrag-beyond-the-hype": [
+  "agents"
+ ],
  "practical-ai/2024-10-03-understanding-what-s-possible-doable-scalable": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "consumer-ai"
  ],
  "practical-ai/2024-10-09-towards-high-quality-maybe-synthetic-datasets": [
   "open-weight-models",
-  "training-and-rl",
-  "hugging-face"
+  "training-and-rl"
  ],
  "practical-ai/2024-10-15-practical-workflow-orchestration": [],
- "practical-ai/2024-10-24-big-data-is-dead-analytics-is-alive": [],
- "practical-ai/2024-10-29-the-path-towards-trustworthy-ai": [],
- "practical-ai/2024-11-05-ai-is-changing-the-cybersecurity-threat-landscape": [],
- "practical-ai/2024-11-13-creating-tested-reliable-ai-applications": [],
+ "practical-ai/2024-10-24-big-data-is-dead-analytics-is-alive": [
+  "ai-coding",
+  "ai-economics"
+ ],
+ "practical-ai/2024-10-29-the-path-towards-trustworthy-ai": [
+  "ai-for-science",
+  "models-and-benchmarks"
+ ],
+ "practical-ai/2024-11-05-ai-is-changing-the-cybersecurity-threat-landscape": [
+  "ai-safety"
+ ],
+ "practical-ai/2024-11-13-creating-tested-reliable-ai-applications": [
+  "agents"
+ ],
  "practical-ai/2024-11-19-scikit-learn-data-science-you-own": [],
  "practical-ai/2024-11-29-clones-commerce-campaigns": [
+  "policy-and-regulation",
   "consumer-ai",
-  "open-weight-models",
-  "policy-and-regulation"
+  "open-weight-models"
  ],
  "practical-ai/2024-12-04-full-duplex-real-time-dialogue-with-kyutai": [],
- "practical-ai/2024-12-11-sidekick-is-an-ai-shopify-expert": [],
+ "practical-ai/2024-12-11-sidekick-is-an-ai-shopify-expert": [
+  "models-and-benchmarks",
+  "agents"
+ ],
  "practical-ai/2024-12-19-mozart-to-megadeth-at-chrp": [],
- "practical-ai/2025-01-23-video-generation-with-realistic-motion": [],
+ "practical-ai/2025-01-23-video-generation-with-realistic-motion": [
+  "generative-media",
+  "models-and-benchmarks",
+  "openai"
+ ],
  "practical-ai/2025-01-31-deep-dive-into-deepseek": [
   "open-weight-models",
   "us-china",
   "deepseek"
  ],
- "practical-ai/2025-02-14-tool-calling-and-agents": [],
+ "practical-ai/2025-02-14-tool-calling-and-agents": [
+  "agents",
+  "jobs-and-work",
+  "openai"
+ ],
  "practical-ai/2025-02-24-genai-hot-takes-and-bad-use-cases": [],
  "practical-ai/2025-03-08-build-a-workspace-of-ai-agents": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "context-engineering"
  ],
- "practical-ai/2025-03-14-optimizing-for-efficiency-with-ibm-s-granite": [],
+ "practical-ai/2025-03-14-optimizing-for-efficiency-with-ibm-s-granite": [
+  "models-and-benchmarks",
+  "agents"
+ ],
  "practical-ai/2025-03-21-ai-assisted-coding-with-github-s-coo": [
-  "ai-coding"
+  "ai-coding",
+  "context-engineering",
+  "microsoft"
  ],
  "practical-ai/2025-04-02-software-and-hardware-acceleration-with-groq": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "models-and-benchmarks"
  ],
  "practical-ai/2025-04-14-orchestrating-agents-apis-and-mcp-servers": [
+  "ai-coding",
   "context-engineering"
  ],
  "practical-ai/2025-04-17-open-source-ai-to-tackle-your-backlog": [
   "ai-coding",
-  "agents"
+  "models-and-benchmarks"
  ],
  "practical-ai/2025-04-30-seeing-beyond-the-scan-in-neuroimaging": [],
  "practical-ai/2025-05-08-model-context-protocol-deep-dive": [
   "context-engineering",
-  "open-weight-models"
+  "agents"
  ],
- "practical-ai/2025-05-20-emailing-like-a-superhuman": [],
+ "practical-ai/2025-05-20-emailing-like-a-superhuman": [
+  "context-engineering",
+  "consumer-ai"
+ ],
  "practical-ai/2025-05-30-federated-learning-in-production-part-1": [
   "infrastructure-and-chips"
  ],
- "practical-ai/2025-06-04-federated-learning-in-production-part-2": [],
- "practical-ai/2025-06-12-ai-automated-film-making": [],
- "practical-ai/2025-06-18-behind-the-scenes-vc-funding-for-ai-startups": [],
- "practical-ai/2025-06-27-ai-hot-takes-and-debates-autonomy": [],
+ "practical-ai/2025-06-04-federated-learning-in-production-part-2": [
+  "agents",
+  "models-and-benchmarks"
+ ],
+ "practical-ai/2025-06-12-ai-automated-film-making": [
+  "generative-media"
+ ],
+ "practical-ai/2025-06-18-behind-the-scenes-vc-funding-for-ai-startups": [
+  "consumer-ai"
+ ],
+ "practical-ai/2025-06-27-ai-hot-takes-and-debates-autonomy": [
+  "ai-coding"
+ ],
  "practical-ai/2025-07-02-finding-nemotron": [
-  "infrastructure-and-chips",
+  "models-and-benchmarks",
   "open-weight-models",
-  "enterprise-adoption",
-  "meta"
+  "infrastructure-and-chips",
+  "nvidia"
  ],
  "practical-ai/2025-07-07-ai-in-the-shadows-from-hallucinations-to-blackmail": [
+  "models-and-benchmarks",
   "agents",
-  "ai-safety",
   "anthropic"
  ],
  "practical-ai/2025-07-15-agentic-ai-for-drone-robotic-swarming": [
-  "physical-ai"
+  "agents",
+  "open-weight-models"
  ],
  "practical-ai/2025-07-25-reimagining-actuarial-science-with-ai": [],
- "practical-ai/2025-08-01-workforce-dynamics-in-an-ai-assisted-world": [],
+ "practical-ai/2025-08-01-workforce-dynamics-in-an-ai-assisted-world": [
+  "ai-coding",
+  "jobs-and-work",
+  "talent-war",
+  "meta"
+ ],
  "practical-ai/2025-08-08-educating-a-data-literate-generation": [
   "jobs-and-work"
  ],
- "practical-ai/2025-08-12-confident-strategic-ai-leadership": [],
- "practical-ai/2025-08-19-inside-america-s-ai-action-plan": [
-  "open-weight-models",
-  "policy-and-regulation"
+ "practical-ai/2025-08-12-confident-strategic-ai-leadership": [
+  "enterprise-adoption",
+  "agents"
  ],
- "practical-ai/2025-08-27-genai-risks-and-global-adoption": [],
- "practical-ai/2025-09-11-cracking-the-code-of-failed-ai-pilots": [],
+ "practical-ai/2025-08-19-inside-america-s-ai-action-plan": [
+  "policy-and-regulation",
+  "us-china"
+ ],
+ "practical-ai/2025-08-27-genai-risks-and-global-adoption": [
+  "ai-safety",
+  "enterprise-adoption"
+ ],
+ "practical-ai/2025-09-11-cracking-the-code-of-failed-ai-pilots": [
+  "jobs-and-work",
+  "ai-coding",
+  "openai"
+ ],
  "practical-ai/2025-09-23-creating-a-private-ai-assistant-in-thunderbird": [],
- "practical-ai/2025-09-29-we-ve-all-done-rag-now-what": [],
+ "practical-ai/2025-09-29-we-ve-all-done-rag-now-what": [
+  "models-and-benchmarks",
+  "agents"
+ ],
  "practical-ai/2025-10-09-the-impact-of-ai-on-the-workforce-a-state-level-case-study": [
+  "enterprise-adoption",
   "jobs-and-work"
  ],
  "practical-ai/2025-10-16-dealing-with-increasingly-complicated-agents": [
-  "ai-safety"
+  "ai-safety",
+  "agents"
  ],
- "practical-ai/2025-10-24-tiny-recursive-networks": [],
- "practical-ai/2025-10-30-while-loops-with-tool-calls": [],
- "practical-ai/2025-11-10-are-we-in-an-ai-bubble": [
-  "ai-economics"
- ],
- "practical-ai/2025-11-13-autonomous-vehicle-research-at-waymo": [
+ "practical-ai/2025-10-24-tiny-recursive-networks": [
   "physical-ai"
  ],
- "practical-ai/2025-11-19-beyond-note-taking-with-fireflies": [],
+ "practical-ai/2025-10-30-while-loops-with-tool-calls": [
+  "ai-coding",
+  "context-engineering",
+  "anthropic"
+ ],
+ "practical-ai/2025-11-10-are-we-in-an-ai-bubble": [
+  "ai-economics",
+  "ai-coding"
+ ],
+ "practical-ai/2025-11-13-autonomous-vehicle-research-at-waymo": [
+  "physical-ai",
+  "generative-media"
+ ],
+ "practical-ai/2025-11-19-beyond-note-taking-with-fireflies": [
+  "agents",
+  "consumer-ai"
+ ],
  "practical-ai/2025-11-26-chris-on-ai-autonomous-swarming-home-automation-and-rust": [
   "open-weight-models",
   "physical-ai"
@@ -882,342 +1170,486 @@
  ],
  "latent-space/2023-02-23-chatgpt-gpt4-hype-and-building-llm-native-products-with-logan-kilpatri": [
   "consumer-ai",
+  "context-engineering",
+  "jobs-and-work",
   "openai"
  ],
  "latent-space/2023-03-02-97-cheaper-faster-better-correct-ai-with-varun-mohan-of-codeium": [
-  "infrastructure-and-chips",
+  "ai-coding",
+  "models-and-benchmarks",
   "microsoft"
  ],
- "latent-space/2023-03-10-from-astrophysics-to-ai-building-the-future-ai-data-stack-with-sarah-n": [],
+ "latent-space/2023-03-10-from-astrophysics-to-ai-building-the-future-ai-data-stack-with-sarah-n": [
+  "enterprise-adoption"
+ ],
  "latent-space/2023-03-24-emergency-pod-chatgpt-s-app-store-moment-w-openai-s-logan-kilpatrick-l": [
   "consumer-ai",
+  "jobs-and-work",
   "openai"
  ],
  "latent-space/2023-03-29-grounded-research-from-google-brain-to-mlops-to-llmops-with-shreya-sha": [
-  "jobs-and-work"
+  "enterprise-adoption"
  ],
  "latent-space/2023-04-07-ai-fundamentals-benchmarks-101": [
   "models-and-benchmarks"
  ],
  "latent-space/2023-04-13-segment-anything-model-and-the-hard-problems-of-computer-vision-with-j": [
-  "meta"
+  "open-weight-models",
+  "training-and-rl"
  ],
  "latent-space/2023-04-22-ai-powered-search-for-the-enterprise-with-deedy-das-of-glean": [
+  "consumer-ai",
   "enterprise-adoption",
-  "google"
+  "openai"
  ],
  "latent-space/2023-04-29-mapping-the-future-of-truly-open-models-and-training-dolly-for-30-with": [
-  "open-weight-models"
+  "open-weight-models",
+  "models-and-benchmarks"
  ],
  "latent-space/2023-05-03-training-a-sota-code-llm-in-1-week-and-quantifying-the-vibes-with-reza": [
-  "ai-coding"
+  "ai-coding",
+  "agents"
  ],
  "latent-space/2023-05-05-no-moat-closed-ai-gets-its-open-source-wakeup-call-ft-simon-willison": [
   "open-weight-models",
-  "openai",
+  "ai-safety",
   "google"
  ],
- "latent-space/2023-05-08-the-ai-founder-gene-being-early-building-fast-and-believing-in-greatne": [],
- "latent-space/2023-05-16-guaranteed-quality-and-structure-in-llm-outputs-with-shreya-rajpal-of": [],
- "latent-space/2023-05-20-mpt-7b-and-the-beginning-of-context-infinity-with-jonathan-frankle-and": [],
+ "latent-space/2023-05-08-the-ai-founder-gene-being-early-building-fast-and-believing-in-greatne": [
+  "agents",
+  "ai-coding"
+ ],
+ "latent-space/2023-05-16-guaranteed-quality-and-structure-in-llm-outputs-with-shreya-rajpal-of": [
+  "agents",
+  "ai-coding"
+ ],
+ "latent-space/2023-05-20-mpt-7b-and-the-beginning-of-context-infinity-with-jonathan-frankle-and": [
+  "models-and-benchmarks",
+  "ai-coding"
+ ],
  "latent-space/2023-05-25-debugging-the-internet-with-ai-agents-with-itamar-friedman-of-codium-a": [
+  "models-and-benchmarks",
   "agents"
  ],
- "latent-space/2023-06-01-building-the-ai-ux-scenius-with-linus-lee-of-notion-ai": [],
- "latent-space/2023-06-08-from-rlhf-to-rlhb-the-case-for-learning-from-human-behavior-with-jeffr": [],
+ "latent-space/2023-06-01-building-the-ai-ux-scenius-with-linus-lee-of-notion-ai": [
+  "agents",
+  "ai-economics",
+  "anthropic"
+ ],
+ "latent-space/2023-06-08-from-rlhf-to-rlhb-the-case-for-learning-from-human-behavior-with-jeffr": [
+  "models-and-benchmarks",
+  "ai-coding"
+ ],
  "latent-space/2023-06-14-emergency-pod-openai-s-new-functions-api-75-price-drop-4x-context-leng": [
-  "training-and-rl",
+  "agents",
+  "ai-economics",
   "openai"
  ],
  "latent-space/2023-06-20-commoditizing-the-petaflop-with-george-hotz-of-the-tiny-corp": [
-  "infrastructure-and-chips"
+  "ai-safety",
+  "models-and-benchmarks"
  ],
  "latent-space/2023-07-01-cognitive-revolution-the-tiny-model-revolution-with-ronen-eldan-and-yu": [
-  "microsoft"
+  "interpretability"
  ],
  "latent-space/2023-07-02-practical-ai-ai-trends-a-latent-space-x-practical-ai-crossover-pod": [
-  "enterprise-adoption",
-  "training-and-rl"
+  "models-and-benchmarks",
+  "ai-coding"
  ],
  "latent-space/2023-07-10-code-interpreter-gpt-4-5-w-simon-willison-alex-volkov-aravind-srinivas": [
-  "consumer-ai",
-  "openai"
+  "agents",
+  "ai-safety"
  ],
  "latent-space/2023-07-17-ai-fundamentals-datasets-101": [
-  "models-and-benchmarks",
-  "openai"
+  "models-and-benchmarks"
  ],
  "latent-space/2023-07-19-llama-2-the-new-open-llm-sota-ft-nathan-lambert-matt-bornstein-anton-t": [
   "open-weight-models",
-  "training-and-rl",
+  "models-and-benchmarks",
   "meta"
  ],
- "latent-space/2023-07-26-flashattention-2-making-transformers-800-faster-w-o-approximation-with": [],
+ "latent-space/2023-07-26-flashattention-2-making-transformers-800-faster-w-o-approximation-with": [
+  "infrastructure-and-chips",
+  "models-and-benchmarks"
+ ],
  "latent-space/2023-08-04-ai-breakdown-summer-ai-technical-roundup-a-latent-space-x-ai-breakdown": [
-  "open-weight-models",
-  "meta",
+  "agents",
+  "consumer-ai",
   "openai"
  ],
- "latent-space/2023-08-10-llms-everywhere-running-70b-models-in-browsers-and-iphones-using-mlc-w": [],
+ "latent-space/2023-08-10-llms-everywhere-running-70b-models-in-browsers-and-iphones-using-mlc-w": [
+  "training-and-rl"
+ ],
  "latent-space/2023-08-16-the-mathematics-of-training-llms-with-quentin-anthony-of-eleuther-ai": [
-  "infrastructure-and-chips"
+  "models-and-benchmarks"
  ],
  "latent-space/2023-08-22-cursor-so-the-ai-first-code-editor-with-aman-sanger-of-anysphere": [
   "ai-coding",
-  "openai"
+  "agents"
  ],
  "latent-space/2023-08-30-rwkv-reinventing-rnns-for-the-transformer-era-with-eugene-cheah-of-uil": [],
- "latent-space/2023-09-06-the-point-of-langchain-with-harrison-chase-of-langchain": [],
- "latent-space/2023-09-14-doing-it-the-hard-way-making-the-ai-engine-and-language-of-the-future": [
-  "infrastructure-and-chips",
-  "google"
+ "latent-space/2023-09-06-the-point-of-langchain-with-harrison-chase-of-langchain": [
+  "agents",
+  "models-and-benchmarks"
  ],
- "latent-space/2023-09-20-heralds-of-the-ai-content-flippening-with-youssef-rizk-of-wondercraft": [],
- "latent-space/2023-09-29-building-the-foundation-model-ops-platform-with-raza-habib-of-humanloo": [],
+ "latent-space/2023-09-14-doing-it-the-hard-way-making-the-ai-engine-and-language-of-the-future": [
+  "consumer-ai"
+ ],
+ "latent-space/2023-09-20-heralds-of-the-ai-content-flippening-with-youssef-rizk-of-wondercraft": [
+  "generative-media"
+ ],
+ "latent-space/2023-09-29-building-the-foundation-model-ops-platform-with-raza-habib-of-humanloo": [
+  "training-and-rl",
+  "context-engineering"
+ ],
  "latent-space/2023-10-05-rag-is-a-hack-with-jerry-liu-from-llamaindex": [
   "training-and-rl"
  ],
- "latent-space/2023-10-07-aie-summit-preview-1-swyx-on-software-3-0-and-the-rise-of-the-ai-engin": [],
- "latent-space/2023-10-08-aie-summit-preview-2-the-ai-horcrux-swyx-on-cognitive-revolution": [],
- "latent-space/2023-10-14-why-ai-agents-don-t-work-yet-with-kanjun-qiu-of-imbue": [],
+ "latent-space/2023-10-07-aie-summit-preview-1-swyx-on-software-3-0-and-the-rise-of-the-ai-engin": [
+  "ai-coding",
+  "consumer-ai",
+  "openai"
+ ],
+ "latent-space/2023-10-08-aie-summit-preview-2-the-ai-horcrux-swyx-on-cognitive-revolution": [
+  "agents",
+  "openai"
+ ],
+ "latent-space/2023-10-14-why-ai-agents-don-t-work-yet-with-kanjun-qiu-of-imbue": [
+  "models-and-benchmarks",
+  "agents"
+ ],
  "latent-space/2023-10-19-the-end-of-finetuning-with-jeremy-howard-of-fast-ai": [
-  "training-and-rl"
+  "training-and-rl",
+  "context-engineering"
  ],
  "latent-space/2023-10-26-powering-your-copilot-for-data-with-artem-keydunov-of-cube-dev": [],
  "latent-space/2023-11-03-beating-gpt-4-with-open-source-llms-with-michael-royzen-of-phind": [
+  "models-and-benchmarks",
   "open-weight-models",
-  "training-and-rl",
-  "openai"
+  "ai-coding"
  ],
  "latent-space/2023-11-08-agi-is-being-achieved-incrementally-devday-recap-cleaned-audio": [
+  "open-weight-models",
+  "agents",
   "openai"
  ],
  "latent-space/2023-11-08-agi-is-being-achieved-incrementally-openai-devday-w-simon-willison-ale": [
+  "open-weight-models",
+  "agents",
   "openai"
  ],
  "latent-space/2023-11-17-the-state-of-silicon-and-the-gpu-poors-with-dylan-patel-of-semianalysi": [
   "infrastructure-and-chips",
+  "training-and-rl",
   "google",
   "nvidia"
  ],
  "latent-space/2023-11-29-notebooks-chat-and-rag-recsys-with-bryan-bischof-of-hex-magic": [
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "ai-coding"
  ],
  "latent-space/2023-12-08-the-busy-person-s-intro-to-finetuning-open-source-ai-wing-lian-axolotl": [
   "training-and-rl",
   "open-weight-models"
  ],
  "latent-space/2023-12-14-the-normsky-architecture-for-ai-coding-agents-with-beyang-liu-steve-ye": [
+  "agents",
   "ai-coding"
  ],
  "latent-space/2023-12-20-the-ai-first-graphics-editor-with-suhail-doshi-of-playground-ai": [
-  "openai"
+  "models-and-benchmarks",
+  "ai-safety"
  ],
- "latent-space/2023-12-23-neurips-2023-recap-best-papers": [],
- "latent-space/2023-12-30-neurips-2023-recap-top-startups": [],
+ "latent-space/2023-12-23-neurips-2023-recap-best-papers": [
+  "models-and-benchmarks",
+  "agents"
+ ],
+ "latent-space/2023-12-30-neurips-2023-recap-top-startups": [
+  "consumer-ai",
+  "ai-coding"
+ ],
  "latent-space/2024-01-05-the-accidental-ai-canvas-with-steve-ruiz-of-tldraw": [],
  "latent-space/2024-01-11-rlhf-201-with-nathan-lambert-of-ai2-and-interconnects": [
-  "training-and-rl"
+  "models-and-benchmarks"
  ],
  "latent-space/2024-01-19-how-to-train-your-own-large-multimodal-model-with-hugo-lauren-on-leo-t": [
   "open-weight-models",
-  "hugging-face",
-  "google"
+  "models-and-benchmarks",
+  "hugging-face"
  ],
  "latent-space/2024-01-25-the-four-wars-of-the-ai-stack-dec-2023-audio-recap": [
-  "infrastructure-and-chips"
+  "models-and-benchmarks",
+  "consumer-ai"
  ],
  "latent-space/2024-02-01-why-stackoverflow-usage-is-down-50-with-david-hsu-of-retool": [
-  "ai-coding"
+  "enterprise-adoption",
+  "agents",
+  "openai"
  ],
  "latent-space/2024-02-08-cloud-intelligence-at-the-speed-of-5000-tok-s-with-ce-zhang-and-vipul": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "ai-economics"
  ],
  "latent-space/2024-02-16-truly-serverless-infra-for-ai-engineers-with-erik-bernhardsson-of-moda": [
-  "infrastructure-and-chips"
+  "enterprise-adoption"
  ],
  "latent-space/2024-02-28-a-brief-history-of-the-open-source-ai-hacker-with-ben-firshman-of-repl": [
   "open-weight-models",
-  "training-and-rl"
+  "infrastructure-and-chips"
  ],
  "latent-space/2024-03-06-open-source-ai-is-ai-we-can-trust-with-soumith-chintala-of-meta-ai": [
+  "infrastructure-and-chips",
+  "models-and-benchmarks",
   "meta"
  ],
  "latent-space/2024-03-09-top-5-research-trends-openai-sora-google-gemini-groq-math-jan-feb-2024": [
   "generative-media",
   "infrastructure-and-chips",
+  "openai"
+ ],
+ "latent-space/2024-03-14-making-transformers-sing-with-mikey-shulman-of-suno": [
+  "models-and-benchmarks"
+ ],
+ "latent-space/2024-03-22-why-google-failed-to-make-gpt-3-why-multimodal-agents-are-the-path-to": [
+  "agents",
+  "infrastructure-and-chips",
   "google",
   "openai"
  ],
- "latent-space/2024-03-14-making-transformers-sing-with-mikey-shulman-of-suno": [],
- "latent-space/2024-03-22-why-google-failed-to-make-gpt-3-why-multimodal-agents-are-the-path-to": [
-  "openai",
-  "google"
- ],
  "latent-space/2024-03-29-presenting-the-ai-engineer-world-s-fair-with-sam-schillace-deputy-cto": [
-  "microsoft",
-  "openai"
+  "agents",
+  "context-engineering",
+  "microsoft"
  ],
  "latent-space/2024-04-06-latent-space-chats-nlw-four-wars-gpt5-josh-albrecht-ali-rohde-tnai-dyl": [
   "infrastructure-and-chips",
-  "nvidia"
+  "agents",
+  "openai"
  ],
- "latent-space/2024-04-11-supervise-the-process-of-ai-research-with-jungwon-byun-and-andreas-stu": [],
- "latent-space/2024-04-19-high-agency-pydantic-vc-backed-frameworks-with-jason-liu-of-instructor": [],
- "latent-space/2024-04-27-websim-worldsim-and-the-summer-of-simulative-ai-with-joscha-bach-of-li": [],
- "latent-space/2024-05-16-emulating-humans-with-nsfw-chatbots-with-jesse-silver": [],
+ "latent-space/2024-04-11-supervise-the-process-of-ai-research-with-jungwon-byun-and-andreas-stu": [
+  "agents",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2024-04-19-high-agency-pydantic-vc-backed-frameworks-with-jason-liu-of-instructor": [
+  "agents",
+  "ai-coding"
+ ],
+ "latent-space/2024-04-27-websim-worldsim-and-the-summer-of-simulative-ai-with-joscha-bach-of-li": [
+  "ai-coding",
+  "ai-safety"
+ ],
+ "latent-space/2024-05-16-emulating-humans-with-nsfw-chatbots-with-jesse-silver": [
+  "models-and-benchmarks",
+  "open-weight-models"
+ ],
  "latent-space/2024-05-27-iclr-2024-best-papers-talks-imagegen-vision-transformers-state-space-m": [],
  "latent-space/2024-05-30-how-to-train-a-million-context-llm-with-mark-huang-of-gradient-ai": [
   "open-weight-models",
-  "infrastructure-and-chips",
-  "meta"
+  "us-china"
  ],
  "latent-space/2024-06-10-iclr-2024-best-papers-talks-benchmarks-reasoning-agents-ft-graham-neub": [
   "models-and-benchmarks",
-  "openai"
- ],
- "latent-space/2024-06-11-how-ai-is-eating-finance-with-mike-conover-of-brightwave": [],
- "latent-space/2024-06-21-how-to-hire-ai-engineers-with-james-brady-adam-wiggins-of-elicit": [
+  "agents",
   "ai-coding"
  ],
- "latent-space/2024-06-25-high-agency-ai-engineer-world-s-fair-preview": [],
- "latent-space/2024-06-25-state-of-the-art-training-70b-llms-on-10-000-h100-clusters": [
+ "latent-space/2024-06-11-how-ai-is-eating-finance-with-mike-conover-of-brightwave": [
+  "agents",
   "models-and-benchmarks"
  ],
- "latent-space/2024-07-05-the-10-000x-yolo-researcher-metagame-with-yi-tay-of-reka": [],
- "latent-space/2024-07-12-benchmarks-201-why-leaderboards-arenas-llm-as-judge": [
+ "latent-space/2024-06-21-how-to-hire-ai-engineers-with-james-brady-adam-wiggins-of-elicit": [
+  "models-and-benchmarks"
+ ],
+ "latent-space/2024-06-25-high-agency-ai-engineer-world-s-fair-preview": [
+  "consumer-ai"
+ ],
+ "latent-space/2024-06-25-state-of-the-art-training-70b-llms-on-10-000-h100-clusters": [
   "models-and-benchmarks",
-  "open-weight-models",
-  "hugging-face"
+  "infrastructure-and-chips"
+ ],
+ "latent-space/2024-07-05-the-10-000x-yolo-researcher-metagame-with-yi-tay-of-reka": [
+  "models-and-benchmarks",
+  "open-weight-models"
+ ],
+ "latent-space/2024-07-12-benchmarks-201-why-leaderboards-arenas-llm-as-judge": [
+  "ai-safety",
+  "open-weight-models"
  ],
  "latent-space/2024-07-23-llama-2-3-4-synthetic-data-rlhf-agents-on-the-path-to-open-source-agi": [
-  "open-weight-models",
-  "meta"
+  "models-and-benchmarks",
+  "agents"
  ],
  "latent-space/2024-08-02-the-winds-of-ai-winter-q2-four-wars-recap-chatgpt-voice-mode-preview": [
-  "consumer-ai",
   "open-weight-models",
-  "openai",
-  "meta"
+  "infrastructure-and-chips",
+  "anthropic"
  ],
  "latent-space/2024-08-07-segment-anything-2-demo-first-model-development": [
-  "meta"
+  "consumer-ai"
  ],
  "latent-space/2024-08-16-ai-magic-shipping-1000s-of-successful-products-with-no-managers-and-a": [
-  "training-and-rl"
+  "policy-and-regulation"
  ],
  "latent-space/2024-08-22-is-finetuning-gpt4o-worth-it-with-alistair-pullen-cosine-genie": [
+  "ai-coding",
   "models-and-benchmarks",
   "training-and-rl",
   "openai"
  ],
  "latent-space/2024-08-29-why-you-should-write-your-own-llm-benchmarks-with-nicholas-carlini-goo": [
   "models-and-benchmarks",
+  "consumer-ai",
   "google"
  ],
  "latent-space/2024-09-03-efficiency-is-coming-3000x-faster-cheaper-better-ai-inference-from-har": [
-  "open-weight-models",
-  "infrastructure-and-chips"
+  "ai-economics",
+  "infrastructure-and-chips",
+  "nvidia"
  ],
  "latent-space/2024-09-13-from-api-to-agi-structured-outputs-openai-api-platform-and-o1-q-a-with": [
-  "agents",
   "models-and-benchmarks",
+  "agents",
   "openai"
  ],
- "latent-space/2024-09-20-the-ultimate-guide-to-prompting": [],
+ "latent-space/2024-09-20-the-ultimate-guide-to-prompting": [
+  "context-engineering",
+  "models-and-benchmarks"
+ ],
  "latent-space/2024-09-27-language-agents-from-reasoning-to-acting": [
+  "agents",
+  "context-engineering",
   "models-and-benchmarks"
  ],
  "latent-space/2024-10-03-building-agi-in-real-time-openai-dev-day-2024": [
-  "models-and-benchmarks",
+  "ai-safety",
+  "agents",
   "open-weight-models",
-  "training-and-rl",
   "openai"
  ],
  "latent-space/2024-10-11-production-ai-engineering-starts-with-evals-with-ankur-goyal-of-braint": [
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "agents"
  ],
- "latent-space/2024-10-18-building-the-silicon-brain-with-drew-houston-of-dropbox": [],
+ "latent-space/2024-10-18-building-the-silicon-brain-with-drew-houston-of-dropbox": [
+  "infrastructure-and-chips",
+  "ai-economics"
+ ],
  "latent-space/2024-10-19-building-the-ai-engineer-nation-with-josephine-teo-minister-of-digital": [
-  "jobs-and-work"
+  "policy-and-regulation",
+  "infrastructure-and-chips"
  ],
  "latent-space/2024-10-25-how-notebooklm-was-made": [
+  "models-and-benchmarks",
   "google"
  ],
- "latent-space/2024-11-01-in-the-arena-how-lmsys-changed-llm-benchmarking-forever": [],
+ "latent-space/2024-11-01-in-the-arena-how-lmsys-changed-llm-benchmarking-forever": [
+  "models-and-benchmarks",
+  "ai-safety"
+ ],
  "latent-space/2024-11-11-agents-work-dust-tt": [
+  "agents",
   "openai"
  ],
- "latent-space/2024-11-15-agents-work-lindy-ai": [],
- "latent-space/2024-11-25-why-compound-ai-open-source-will-beat-closed-ai": [],
+ "latent-space/2024-11-15-agents-work-lindy-ai": [
+  "agents",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2024-11-25-why-compound-ai-open-source-will-beat-closed-ai": [
+  "open-weight-models",
+  "ai-coding"
+ ],
  "latent-space/2024-11-28-the-new-claude-3-5-sonnet-computer-use-and-building-sota-agents-with-e": [
   "agents",
   "models-and-benchmarks",
   "anthropic"
  ],
  "latent-space/2024-12-02-bolt-new-flow-engineering-for-code-agents-and-8m-arr-in-2-months-as-a": [
-  "enterprise-adoption",
-  "ai-coding"
+  "ai-coding",
+  "enterprise-adoption"
  ],
  "latent-space/2024-12-10-generative-video-worldsim-diffusion-vision-reinforcement-learning-and": [
-  "physical-ai",
   "generative-media",
-  "training-and-rl"
+  "physical-ai",
+  "models-and-benchmarks",
+  "openai",
+  "google"
  ],
  "latent-space/2024-12-13-windsurf-the-enterprise-ai-ide-with-varun-and-anshul-of-codeium-ai": [
   "ai-coding",
   "enterprise-adoption",
-  "agents"
+  "models-and-benchmarks"
  ],
- "latent-space/2024-12-21-2024-in-ai-startups-ls-live-neurips": [],
- "latent-space/2024-12-22-2024-in-vision-ls-live-neurips": [],
+ "latent-space/2024-12-21-2024-in-ai-startups-ls-live-neurips": [
+  "ai-economics",
+  "ai-coding"
+ ],
+ "latent-space/2024-12-22-2024-in-vision-ls-live-neurips": [
+  "generative-media",
+  "openai"
+ ],
  "latent-space/2024-12-23-2024-in-open-models-ls-live-neurips": [
-  "open-weight-models"
+  "open-weight-models",
+  "policy-and-regulation"
  ],
  "latent-space/2024-12-24-2024-in-post-transformers-architectures-state-space-models-rwkv-ls-liv": [],
  "latent-space/2024-12-24-2024-in-synthetic-data-and-smol-models-ls-live-neurips": [
   "open-weight-models"
  ],
  "latent-space/2024-12-25-2024-in-agents-ls-live-neurips-2024": [
-  "models-and-benchmarks"
+  "agents",
+  "models-and-benchmarks",
+  "ai-coding"
  ],
  "latent-space/2024-12-31-latent-space-2024-year-in-review": [
-  "training-and-rl",
+  "models-and-benchmarks",
+  "agents",
+  "ai-economics",
   "openai"
  ],
- "latent-space/2025-01-04-ai-engineering-for-art-with-comfyanonymous-of-comfyui": [],
+ "latent-space/2025-01-04-ai-engineering-for-art-with-comfyanonymous-of-comfyui": [
+  "models-and-benchmarks"
+ ],
  "latent-space/2025-01-10-beating-google-at-search-with-neural-pagerank-and-5m-of-h200s-with-wil": [
-  "google"
+  "agents",
+  "consumer-ai"
  ],
  "latent-space/2025-01-12-ride-home-simon-willison-things-we-learned-about-llms-in-2024": [
+  "agents",
+  "ai-economics",
+  "generative-media",
   "openai"
  ],
  "latent-space/2025-01-19-everything-you-need-to-run-mission-critical-inference-ft-deepseek-v3-s": [
   "open-weight-models",
-  "us-china",
-  "deepseek"
+  "models-and-benchmarks"
  ],
  "latent-space/2025-01-26-outlasting-noam-shazeer-crowdsourcing-chai-ai-with-1-4m-dau-and-becomi": [
-  "open-weight-models",
-  "us-china",
-  "deepseek"
+  "ai-safety",
+  "open-weight-models"
  ],
  "latent-space/2025-02-01-the-agent-reasoning-interface-o1-o3-claude-3-chatgpt-canvas-tasks-and": [
-  "consumer-ai",
-  "models-and-benchmarks",
-  "anthropic",
+  "agents",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2025-02-06-agent-engineering-with-pydantic-graphs-with-samuel-colvin": [
+  "models-and-benchmarks"
+ ],
+ "latent-space/2025-02-11-the-ai-architect-bret-taylor": [
+  "ai-coding",
+  "ai-for-science",
   "openai"
  ],
- "latent-space/2025-02-06-agent-engineering-with-pydantic-graphs-with-samuel-colvin": [],
- "latent-space/2025-02-11-the-ai-architect-bret-taylor": [
-  "ai-coding"
+ "latent-space/2025-02-13-bee-ai-the-wearable-ambient-agent": [
+  "ai-economics",
+  "context-engineering"
  ],
- "latent-space/2025-02-13-bee-ai-the-wearable-ambient-agent": [],
  "latent-space/2025-02-18-the-inventors-of-deep-research": [
-  "google"
+  "models-and-benchmarks",
+  "ai-coding"
  ],
  "latent-space/2025-02-28-open-operator-serverless-browsers-and-the-future-of-computer-using-age": [],
  "latent-space/2025-03-04-how-claude-3-7-plays-pok-mon": [
+  "agents",
+  "ai-coding",
   "anthropic"
  ],
  "latent-space/2025-03-11-the-new-openai-agents-platform": [
@@ -1228,100 +1660,136 @@
   "consumer-ai"
  ],
  "latent-space/2025-03-28-the-agent-network-dharmesh-shah": [
-  "context-engineering"
+  "agents",
+  "context-engineering",
+  "openai"
  ],
- "latent-space/2025-03-29-unsupervised-learning-x-latent-space-crossover-special": [],
+ "latent-space/2025-03-29-unsupervised-learning-x-latent-space-crossover-special": [
+  "models-and-benchmarks",
+  "open-weight-models",
+  "ai-coding",
+  "deepseek"
+ ],
  "latent-space/2025-04-03-the-creators-of-model-context-protocol": [
   "context-engineering",
-  "anthropic"
+  "agents"
  ],
  "latent-space/2025-04-11-sf-compute-commoditizing-compute-to-solve-the-gpu-bubble-forever": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "ai-economics"
  ],
  "latent-space/2025-04-15-gpt-4-1-the-new-openai-workhorse": [
   "training-and-rl",
   "ai-coding",
-  "models-and-benchmarks",
   "openai"
  ],
- "latent-space/2025-05-01-the-rise-and-fall-of-the-vector-db-category": [],
- "latent-space/2025-05-23-aiewf-preview-multi-turn-rl-for-multi-hour-agents-with-will-brown-prim": [
-  "training-and-rl",
-  "models-and-benchmarks",
-  "anthropic"
- ],
- "latent-space/2025-05-29-the-ai-coding-factory": [
-  "enterprise-adoption",
+ "latent-space/2025-05-01-the-rise-and-fall-of-the-vector-db-category": [
   "ai-coding"
  ],
+ "latent-space/2025-05-23-aiewf-preview-multi-turn-rl-for-multi-hour-agents-with-will-brown-prim": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "latent-space/2025-05-29-the-ai-coding-factory": [
+  "ai-coding",
+  "models-and-benchmarks"
+ ],
  "latent-space/2025-05-31-aiewf-preview-cloudchef-your-robot-chef-michellin-star-food-at-12-hr-w": [
-  "physical-ai"
+  "jobs-and-work"
  ],
  "latent-space/2025-06-02-aiewf-preview-gemini-in-2025-and-realtime-voice-ai": [
-  "google"
+  "models-and-benchmarks"
  ],
  "latent-space/2025-06-03-aiewf-preview-containing-agent-chaos-solomon-hykes": [
   "ai-coding"
  ],
  "latent-space/2025-06-06-the-utility-of-interpretability-emmanuel-amiesen": [
   "interpretability",
+  "ai-safety",
   "anthropic"
  ],
  "latent-space/2025-06-19-scaling-test-time-compute-to-multi-agent-civilizations-noam-brown-open": [
+  "models-and-benchmarks",
   "agents",
+  "ai-coding",
   "openai"
  ],
  "latent-space/2025-07-02-information-theory-for-language-models-jack-morris": [
-  "jobs-and-work"
+  "open-weight-models",
+  "us-china"
  ],
  "latent-space/2025-07-09-ai-video-is-eating-the-world-olivia-and-justine-moore-a16z": [
   "generative-media",
+  "open-weight-models",
   "google"
  ],
- "latent-space/2025-07-11-personalized-ai-language-education-with-andrew-hsu-speak": [],
+ "latent-space/2025-07-11-personalized-ai-language-education-with-andrew-hsu-speak": [
+  "jobs-and-work",
+  "models-and-benchmarks"
+ ],
  "latent-space/2025-07-16-cline-the-open-source-coding-agent-that-doesn-t-cut-costs": [
-  "ai-coding"
+  "context-engineering",
+  "ai-coding",
+  "ai-economics"
  ],
  "latent-space/2025-07-23-ai-is-eating-search": [
   "consumer-ai",
   "openai"
  ],
  "latent-space/2025-07-31-the-rlvr-revolution-with-nathan-lambert-ai2-interconnects-ai": [
-  "training-and-rl"
+  "models-and-benchmarks",
+  "open-weight-models"
  ],
- "latent-space/2025-08-29-better-data-is-all-you-need-ari-morcos-datology": [],
+ "latent-space/2025-08-29-better-data-is-all-you-need-ari-morcos-datology": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
  "latent-space/2025-09-11-context-engineering-for-agents-lance-martin-langchain": [
   "context-engineering",
-  "agents"
+  "ai-coding",
+  "agents",
+  "anthropic"
  ],
  "latent-space/2025-09-25-amp-the-emperor-has-no-clothes": [
+  "ai-coding",
+  "context-engineering",
+  "anthropic"
+ ],
+ "latent-space/2025-10-02-taste-is-your-moat-dylan-field-of-figma": [
   "ai-coding"
  ],
- "latent-space/2025-10-02-taste-is-your-moat-dylan-field-of-figma": [],
  "latent-space/2025-10-07-devday-2025-apps-sdk-agent-kit-mcp-codex-and-why-prompting-is-more-imp": [
-  "context-engineering",
-  "models-and-benchmarks",
+  "agents",
+  "ai-coding",
   "openai"
  ],
  "latent-space/2025-10-16-why-rl-won-kyle-corbitt-openpipe-acq-coreweave": [
   "training-and-rl",
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "open-weight-models"
  ],
- "latent-space/2025-10-31-ship-ai-recap-agents-workflows-and-python-w-vercel-cto-malte-ubl": [],
+ "latent-space/2025-10-31-ship-ai-recap-agents-workflows-and-python-w-vercel-cto-malte-ubl": [
+  "agents",
+  "ai-coding"
+ ],
  "latent-space/2025-11-10-aie-code-preview-inside-google-labs-building-the-gemini-coding-agent-j": [
   "ai-coding",
-  "google"
+  "context-engineering"
  ],
  "latent-space/2025-11-10-inside-github-s-ai-revolution-jared-palmer-reveals-agent-hq-the-future": [
   "ai-coding",
-  "microsoft"
+  "context-engineering"
  ],
  "latent-space/2025-11-14-anthropic-glean-openrouter-how-ai-moats-are-built-with-deedy-das-of-me": [
   "enterprise-adoption",
   "ai-coding",
+  "interpretability",
   "anthropic"
  ],
- "latent-space/2025-11-19-10x-ai-engineers-with-1m-salaries-alex-lieberman-arman-hezarkhani-tene": [],
+ "latent-space/2025-11-19-10x-ai-engineers-with-1m-salaries-alex-lieberman-arman-hezarkhani-tene": [
+  "context-engineering",
+  "ai-coding"
+ ],
  "latent-space/2025-11-25-after-llms-spatial-intelligence-and-world-models-fei-fei-li-justin-joh": [
   "physical-ai",
   "generative-media"
@@ -1722,666 +2190,983 @@
   "agents",
   "context-engineering"
  ],
- "cognitive-revolution/2023-02-03-the-pixel-revolution-with-playground-ai-s-suhail-doshi": [],
- "cognitive-revolution/2023-02-10-the-upside-and-downside-case-for-ai-with-nathan-labenz-and-erik-torenb": [],
- "cognitive-revolution/2023-02-17-creating-compassionate-ai-with-replika-s-eugenia-kuyda": [],
- "cognitive-revolution/2023-02-23-the-ai-moment-with-amjad-masad-flo-crivello-antonio-garcia-martinez-an": [
-  "ai-coding"
+ "cognitive-revolution/2023-02-03-the-pixel-revolution-with-playground-ai-s-suhail-doshi": [
+  "consumer-ai",
+  "open-weight-models",
+  "openai"
  ],
- "cognitive-revolution/2023-03-02-chroma-and-stable-attribution-s-anton-troynikov-on-embedding-and-our-f": [],
+ "cognitive-revolution/2023-02-10-the-upside-and-downside-case-for-ai-with-nathan-labenz-and-erik-torenb": [
+  "ai-safety",
+  "agents",
+  "google"
+ ],
+ "cognitive-revolution/2023-02-17-creating-compassionate-ai-with-replika-s-eugenia-kuyda": [
+  "consumer-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2023-02-23-the-ai-moment-with-amjad-masad-flo-crivello-antonio-garcia-martinez-an": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2023-03-02-chroma-and-stable-attribution-s-anton-troynikov-on-embedding-and-our-f": [
+  "ai-safety",
+  "consumer-ai",
+  "openai"
+ ],
  "cognitive-revolution/2023-03-09-the-ai-multimodal-revolution-with-junnan-li-and-dongxu-li-of-blip-blip": [
-  "training-and-rl",
-  "salesforce"
+  "ai-coding"
  ],
  "cognitive-revolution/2023-03-14-in-search-of-truth-w-aravind-srinivas-of-perplexity-ai": [
   "consumer-ai",
-  "openai"
+  "ai-safety",
+  "google"
  ],
  "cognitive-revolution/2023-03-17-gpt4-ai-unleashed-w-chinatalk-podcast": [
-  "us-china",
+  "ai-safety",
+  "us-china"
+ ],
+ "cognitive-revolution/2023-03-22-the-ai-assistant-revolution-with-flo-crivello-of-lindy-ai": [
+  "agents",
+  "ai-economics",
   "openai"
  ],
- "cognitive-revolution/2023-03-22-the-ai-assistant-revolution-with-flo-crivello-of-lindy-ai": [],
- "cognitive-revolution/2023-03-24-the-ai-voice-revolution-with-mahmoud-felfel-of-play-ht": [],
+ "cognitive-revolution/2023-03-24-the-ai-voice-revolution-with-mahmoud-felfel-of-play-ht": [
+  "ai-coding",
+  "consumer-ai"
+ ],
  "cognitive-revolution/2023-03-28-openai-s-gpt-4-discussion-with-red-teamer-nathan-labenz-and-erik-toren": [
+  "ai-safety",
+  "agents",
   "openai"
  ],
  "cognitive-revolution/2023-03-30-mother-of-robots-keerthana-gopalakrishnan-of-google-robotics": [
-  "physical-ai",
-  "google"
+  "physical-ai"
  ],
  "cognitive-revolution/2023-04-04-ai-open-letter-debate-pausers-what-scares-us-w-anton-troynikov-flo-cri": [
-  "openai"
+  "ai-safety",
+  "policy-and-regulation"
  ],
  "cognitive-revolution/2023-04-06-the-ai-reasoning-revolution-with-ought-s-jungwon-byun-and-andreas-stuh": [
-  "interpretability"
+  "ai-coding"
  ],
  "cognitive-revolution/2023-04-11-will-gpt-4-cause-economic-transformation": [
   "jobs-and-work",
-  "openai"
+  "ai-for-science"
  ],
- "cognitive-revolution/2023-04-13-pausing-the-ai-revolution-with-technologist-jaan-tallinn": [],
+ "cognitive-revolution/2023-04-13-pausing-the-ai-revolution-with-technologist-jaan-tallinn": [
+  "ai-safety",
+  "policy-and-regulation",
+  "anthropic"
+ ],
  "cognitive-revolution/2023-04-18-the-art-of-prompting-chatgpt-with-riley-goodside": [
-  "consumer-ai",
+  "context-engineering",
+  "ai-safety",
   "openai"
  ],
  "cognitive-revolution/2023-04-20-why-jailbreaking-chatgpt-is-a-public-service-with-alex-albert-of-the-p": [
   "ai-safety",
+  "consumer-ai",
   "openai"
  ],
  "cognitive-revolution/2023-04-25-how-ai-agents-will-change-how-we-work-with-matt-welsh-of-fixie-ai": [
-  "enterprise-adoption"
+  "agents",
+  "ai-safety"
  ],
- "cognitive-revolution/2023-04-27-the-great-ai-implementation-with-raza-habib-of-humanloop": [],
- "cognitive-revolution/2023-05-02-vc-insights-on-investing-in-artificial-intelligence-with-sarah-guo-and": [],
+ "cognitive-revolution/2023-04-27-the-great-ai-implementation-with-raza-habib-of-humanloop": [
+  "training-and-rl",
+  "ai-coding",
+  "microsoft"
+ ],
+ "cognitive-revolution/2023-05-02-vc-insights-on-investing-in-artificial-intelligence-with-sarah-guo-and": [
+  "jobs-and-work",
+  "policy-and-regulation"
+ ],
  "cognitive-revolution/2023-05-04-helping-businesses-use-ai-with-rachel-woods-of-the-ai-exchange": [
+  "enterprise-adoption",
+  "agents",
   "openai"
  ],
  "cognitive-revolution/2023-05-09-scouting-the-ai-revolution-with-robert-scoble-and-ben-s-bites-creator": [
-  "physical-ai"
+  "ai-safety",
+  "jobs-and-work"
  ],
  "cognitive-revolution/2023-05-11-the-ai-revolution-in-medicine-with-dr-isaac-kohane-of-harvard-medical": [
-  "openai"
+  "ai-for-science"
  ],
  "cognitive-revolution/2023-05-16-revolutionizing-patient-care-with-neal-khosla-of-curai-health": [
-  "openai"
+  "ai-for-science",
+  "agents"
  ],
  "cognitive-revolution/2023-05-19-bonus-episode-connor-leahy-on-agi-gpt-4-and-cognitive-emulation-w-fli": [
   "openai"
  ],
  "cognitive-revolution/2023-05-21-google-s-med-palm-and-med-palm2-with-vivek-natarajan": [
-  "models-and-benchmarks",
-  "google"
+  "models-and-benchmarks"
  ],
- "cognitive-revolution/2023-05-23-keeping-the-ai-revolution-on-the-rails-with-shreya-rajpal-of-guardrail": [],
+ "cognitive-revolution/2023-05-23-keeping-the-ai-revolution-on-the-rails-with-shreya-rajpal-of-guardrail": [
+  "agents",
+  "ai-coding"
+ ],
  "cognitive-revolution/2023-05-25-the-ai-chip-revolution-with-andrew-feldman-of-cerebras": [
   "infrastructure-and-chips"
  ],
  "cognitive-revolution/2023-05-30-the-ai-revolution-in-hollywood-with-wga-writers-trey-kollmer-sophia-le": [
+  "jobs-and-work",
+  "ai-safety",
   "openai"
  ],
  "cognitive-revolution/2023-06-01-where-are-the-moats-in-ai-with-nathan-labenz-and-erik-torenberg": [
+  "open-weight-models",
+  "ai-economics",
   "openai"
  ],
  "cognitive-revolution/2023-06-03-e32-bonus-episode-the-ai-breakdown-can-openai-s-new-gpt-training-model": [
   "ai-safety",
+  "consumer-ai",
   "openai"
  ],
  "cognitive-revolution/2023-06-06-the-tiny-model-revolution-with-ronen-eldan-and-yuanzhi-li-of-microsoft": [
-  "microsoft"
+  "interpretability"
  ],
  "cognitive-revolution/2023-06-11-the-consumer-rights-revolution-with-joshua-browder-of-donotpay": [
-  "consumer-ai",
-  "policy-and-regulation"
+  "policy-and-regulation",
+  "jobs-and-work"
  ],
- "cognitive-revolution/2023-06-13-stability-ai-s-emad-mostaque-and-slow-ventures-sam-lessin-debate-inves": [],
+ "cognitive-revolution/2023-06-13-stability-ai-s-emad-mostaque-and-slow-ventures-sam-lessin-debate-inves": [
+  "ai-coding",
+  "jobs-and-work"
+ ],
  "cognitive-revolution/2023-06-16-your-model-your-weights-with-mosaicml-s-abhi-venigalla-and-jonathan-fr": [
+  "ai-coding",
   "enterprise-adoption"
  ],
- "cognitive-revolution/2023-06-20-the-mind-reading-revolution-with-dr-tanishq-mathew-abraham-part-1-of-2": [],
- "cognitive-revolution/2023-06-22-the-virtual-biopsy-revolution-with-dr-tanishq-mathew-abraham-part-2-of": [],
- "cognitive-revolution/2023-06-27-seeing-is-believing-with-mit-s-ziming-liu": [],
- "cognitive-revolution/2023-06-29-meta-s-megabyte-revolution-with-lili-yu-of-meta-ai": [
-  "meta"
+ "cognitive-revolution/2023-06-20-the-mind-reading-revolution-with-dr-tanishq-mathew-abraham-part-1-of-2": [
+  "ai-for-science"
  ],
- "cognitive-revolution/2023-07-01-e41-bonus-episode-latent-space-building-the-ai-x-ux-scenius-with-linus": [],
- "cognitive-revolution/2023-07-04-the-autonomy-revolution-with-hayk-martiros-of-skydio": [],
- "cognitive-revolution/2023-07-06-ai-scouting-report-part-1-of-3-fundamentals": [],
- "cognitive-revolution/2023-07-11-the-ai-safety-debates-with-zvi-mowshowitz": [
+ "cognitive-revolution/2023-06-22-the-virtual-biopsy-revolution-with-dr-tanishq-mathew-abraham-part-2-of": [
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2023-06-27-seeing-is-believing-with-mit-s-ziming-liu": [
+  "interpretability",
   "ai-safety"
  ],
- "cognitive-revolution/2023-07-13-the-ai-copilot-revolution-with-div-garg-of-multi-on": [],
- "cognitive-revolution/2023-07-19-e46-ai-scouting-report-part-2-of-3-implementation-trends-bonus-youtube": [
+ "cognitive-revolution/2023-06-29-meta-s-megabyte-revolution-with-lili-yu-of-meta-ai": [
+  "models-and-benchmarks",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2023-07-01-e41-bonus-episode-latent-space-building-the-ai-x-ux-scenius-with-linus": [
+  "context-engineering",
+  "agents"
+ ],
+ "cognitive-revolution/2023-07-04-the-autonomy-revolution-with-hayk-martiros-of-skydio": [
+  "physical-ai",
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2023-07-06-ai-scouting-report-part-1-of-3-fundamentals": [],
+ "cognitive-revolution/2023-07-11-the-ai-safety-debates-with-zvi-mowshowitz": [
+  "ai-safety",
+  "interpretability",
   "openai"
  ],
+ "cognitive-revolution/2023-07-13-the-ai-copilot-revolution-with-div-garg-of-multi-on": [
+  "agents",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2023-07-19-e46-ai-scouting-report-part-2-of-3-implementation-trends-bonus-youtube": [],
  "cognitive-revolution/2023-07-20-ai-scouting-report-part-3-impact-fallout-and-outlook": [
+  "ai-safety",
+  "jobs-and-work",
+  "ai-coding",
   "openai"
  ],
  "cognitive-revolution/2023-07-25-gpumaxing-with-dr-ronen-dar-of-run-ai": [
   "infrastructure-and-chips",
-  "open-weight-models"
+  "models-and-benchmarks",
+  "nvidia"
  ],
  "cognitive-revolution/2023-07-27-demystifying-llms-with-mechanistic-interpretability-researcher-arthur": [
-  "ai-safety",
-  "interpretability"
+  "interpretability",
+  "ai-safety"
  ],
  "cognitive-revolution/2023-08-02-openai-anthropic-and-meta-analyzing-the-ai-frontier-with-zvi": [
+  "ai-coding",
   "open-weight-models",
-  "ai-safety",
-  "policy-and-regulation",
-  "openai",
-  "meta",
-  "anthropic"
+  "anthropic",
+  "meta"
  ],
  "cognitive-revolution/2023-08-04-e50-the-future-of-software-development-with-tyler-angert-of-replit": [
-  "ai-coding"
+  "ai-coding",
+  "agents"
  ],
  "cognitive-revolution/2023-08-08-replit-s-vp-of-ai-michele-catasta-on-artificial-developer-intelligence": [
-  "ai-coding"
+  "ai-coding",
+  "ai-safety"
  ],
  "cognitive-revolution/2023-08-09-google-s-palm-2-with-paige-bailey": [
+  "agents",
+  "ai-coding",
   "google"
  ],
  "cognitive-revolution/2023-08-10-advancements-in-ai-updating-the-scouting-report-task-automation-and-go": [
-  "google"
+  "context-engineering"
  ],
  "cognitive-revolution/2023-08-15-the-ai-revolution-in-education-with-shawn-jansepar-director-of-enginee": [
   "jobs-and-work",
-  "openai"
+  "ai-safety"
  ],
- "cognitive-revolution/2023-08-17-the-presentation-revolution-with-jon-noronha-co-founder-of-gamma": [],
+ "cognitive-revolution/2023-08-17-the-presentation-revolution-with-jon-noronha-co-founder-of-gamma": [
+  "open-weight-models",
+  "training-and-rl"
+ ],
  "cognitive-revolution/2023-08-23-google-s-multimodal-med-palm-with-vivek-natarajan-and-tao-tu": [
-  "policy-and-regulation",
+  "ai-safety",
+  "infrastructure-and-chips",
   "google"
  ],
  "cognitive-revolution/2023-08-25-e56-openai-s-gpt3-5-turbo-and-the-state-of-ai-in-coding-healthcare-and": [
-  "ai-coding",
-  "jobs-and-work",
-  "open-weight-models",
-  "openai",
-  "meta"
+  "training-and-rl",
+  "ai-for-science",
+  "openai"
  ],
  "cognitive-revolution/2023-08-31-how-hugging-face-raised-235m": [
   "open-weight-models",
-  "hugging-face",
-  "amazon",
-  "google"
+  "ai-coding",
+  "hugging-face"
  ],
- "cognitive-revolution/2023-09-05-cryptography-will-revolutionize-ai-data-privacy-with-daniel-kang": [],
- "cognitive-revolution/2023-09-07-why-a16z-built-a-town-for-ai-people": [],
- "cognitive-revolution/2023-09-12-hollywood-strike-update-and-ai-roundup-with-trey-kollmer": [],
- "cognitive-revolution/2023-09-14-ai-powered-filmmaking-with-waymark-s-stephen-parker-and-josh-rubin": [],
- "cognitive-revolution/2023-09-19-the-future-of-ai-security-with-adam-wenchel-ceo-of-arthur-ai": [],
- "cognitive-revolution/2023-09-22-universal-jailbreaks-with-zico-kolter-andy-zou-and-asher-trockman": [
+ "cognitive-revolution/2023-09-05-cryptography-will-revolutionize-ai-data-privacy-with-daniel-kang": [
+  "consumer-ai",
+  "openai"
+ ],
+ "cognitive-revolution/2023-09-07-why-a16z-built-a-town-for-ai-people": [
+  "context-engineering"
+ ],
+ "cognitive-revolution/2023-09-12-hollywood-strike-update-and-ai-roundup-with-trey-kollmer": [
+  "infrastructure-and-chips",
   "ai-safety",
-  "open-weight-models"
+  "nvidia"
+ ],
+ "cognitive-revolution/2023-09-14-ai-powered-filmmaking-with-waymark-s-stephen-parker-and-josh-rubin": [
+  "context-engineering",
+  "generative-media"
+ ],
+ "cognitive-revolution/2023-09-19-the-future-of-ai-security-with-adam-wenchel-ceo-of-arthur-ai": [
+  "ai-safety",
+  "agents"
+ ],
+ "cognitive-revolution/2023-09-22-universal-jailbreaks-with-zico-kolter-andy-zou-and-asher-trockman": [
+  "agents"
  ],
  "cognitive-revolution/2023-09-26-openai-fine-tuning-update-acceleration-debate-and-bundling-ai": [
   "training-and-rl",
-  "openai"
+  "ai-safety"
  ],
  "cognitive-revolution/2023-09-29-openai-amazon-s-anthropic-investment-and-the-roman-empire-with-zvi-mow": [
-  "anthropic",
-  "amazon",
-  "openai"
+  "consumer-ai",
+  "training-and-rl",
+  "google",
+  "openai",
+  "anthropic"
  ],
  "cognitive-revolution/2023-10-03-gunning-for-google-with-perplexity-ceo-aravind-srinivas": [
   "consumer-ai",
   "google"
  ],
  "cognitive-revolution/2023-10-05-ai-engineers-pendants-and-competition-between-openai-and-developers-wi": [
+  "agents",
+  "ai-safety",
   "openai"
  ],
- "cognitive-revolution/2023-10-10-ai-is-supercharging-writers-with-sudowrite-s-founder-james-yu": [],
+ "cognitive-revolution/2023-10-10-ai-is-supercharging-writers-with-sudowrite-s-founder-james-yu": [
+  "context-engineering",
+  "ai-coding"
+ ],
  "cognitive-revolution/2023-10-13-the-ai-scouting-report-jailbreaks-and-defense": [
-  "ai-safety"
+  "interpretability",
+  "ai-safety",
+  "anthropic"
  ],
  "cognitive-revolution/2023-10-18-the-future-of-the-transformer-pt-1-w-trey-kollmer-nvidia-s-h100-chips": [
-  "openai"
+  "ai-safety",
+  "ai-economics"
  ],
  "cognitive-revolution/2023-10-20-the-future-of-the-transformer-pt-2-with-trey-kollmer": [],
- "cognitive-revolution/2023-10-24-rag-beyond-semantic-storage-and-retrieval": [],
- "cognitive-revolution/2023-10-26-ai-agents-vc-insights-on-ai-and-building-in-public-with-yohei-nakajima": [],
+ "cognitive-revolution/2023-10-24-rag-beyond-semantic-storage-and-retrieval": [
+  "enterprise-adoption",
+  "interpretability"
+ ],
+ "cognitive-revolution/2023-10-26-ai-agents-vc-insights-on-ai-and-building-in-public-with-yohei-nakajima": [
+  "agents",
+  "enterprise-adoption"
+ ],
  "cognitive-revolution/2023-10-31-hardcore-ai-for-history-with-mark-humphries-history-professor-at-wilfr": [
   "jobs-and-work",
   "training-and-rl"
  ],
  "cognitive-revolution/2023-11-03-lindy-ai-founder-flo-crivello-on-biden-s-executive-order-and-ai-safety": [
-  "infrastructure-and-chips",
+  "ai-safety",
   "policy-and-regulation"
  ],
  "cognitive-revolution/2023-11-08-openai-devday-beyond-the-headlines-with-logan-kilpatrick-openai-s-dev": [
+  "agents",
   "training-and-rl",
   "openai"
  ],
  "cognitive-revolution/2023-11-09-openai-invests-in-the-self-driving-race-with-john-hayes-founder-of-gho": [
   "physical-ai",
+  "us-china",
   "openai"
  ],
- "cognitive-revolution/2023-11-14-synthetic-data-with-alex-watson-founder-of-gretel-ai": [],
+ "cognitive-revolution/2023-11-14-synthetic-data-with-alex-watson-founder-of-gretel-ai": [
+  "policy-and-regulation"
+ ],
  "cognitive-revolution/2023-11-17-ai-discourse-deranged-assessing-llm-generalization-takes-and-polarizin": [
+  "physical-ai",
   "policy-and-regulation",
   "google"
  ],
  "cognitive-revolution/2023-11-22-new-context-on-the-openai-board-s-initial-decision-to-fire-sam-altman": [
-  "openai"
- ],
- "cognitive-revolution/2023-11-28-vercel-ceo-guillermo-rauch-on-v0-ai-powered-coding-and-software-2-0": [
-  "ai-coding"
- ],
- "cognitive-revolution/2023-12-02-imbue-cto-josh-albrecht-on-creating-ai-agents-for-reasoning-reliabilit": [],
- "cognitive-revolution/2023-12-07-what-biological-social-systems-can-teach-us-about-ai-with-nora-ammann": [
-  "ai-safety"
- ],
- "cognitive-revolution/2023-12-09-hume-ceo-alan-cowen-on-creating-emotionally-aware-ai": [],
- "cognitive-revolution/2023-12-12-balaji-srinivasan-on-polytheistic-ai-human-ai-symbiosis-and-prospects": [
-  "policy-and-regulation",
-  "us-china"
- ],
- "cognitive-revolution/2023-12-16-ai-deception-interpretability-and-affordances-with-apollo-research-ceo": [
-  "interpretability",
-  "models-and-benchmarks",
-  "openai"
- ],
- "cognitive-revolution/2023-12-20-using-chatgpt-as-a-copilot-for-your-mind": [
+  "ai-safety",
   "consumer-ai",
   "openai"
  ],
- "cognitive-revolution/2023-12-22-emergency-pod-mamba-memory-and-the-ssm-moment": [],
- "cognitive-revolution/2023-12-27-nathan-on-the-80-000-hours-podcast-ai-scouting-openai-s-safety-record": [
+ "cognitive-revolution/2023-11-28-vercel-ceo-guillermo-rauch-on-v0-ai-powered-coding-and-software-2-0": [
+  "consumer-ai",
+  "ai-coding"
+ ],
+ "cognitive-revolution/2023-12-02-imbue-cto-josh-albrecht-on-creating-ai-agents-for-reasoning-reliabilit": [
+  "agents",
+  "generative-media",
+  "physical-ai"
+ ],
+ "cognitive-revolution/2023-12-07-what-biological-social-systems-can-teach-us-about-ai-with-nora-ammann": [
+  "interpretability",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2023-12-09-hume-ceo-alan-cowen-on-creating-emotionally-aware-ai": [
+  "ai-safety"
+ ],
+ "cognitive-revolution/2023-12-12-balaji-srinivasan-on-polytheistic-ai-human-ai-symbiosis-and-prospects": [
+  "policy-and-regulation",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2023-12-16-ai-deception-interpretability-and-affordances-with-apollo-research-ceo": [
+  "interpretability",
+  "agents"
+ ],
+ "cognitive-revolution/2023-12-20-using-chatgpt-as-a-copilot-for-your-mind": [
+  "consumer-ai",
+  "context-engineering",
   "openai"
  ],
- "cognitive-revolution/2023-12-30-agi-and-institutional-disruption-sam-hammond-in-conversation-with-fli": [],
+ "cognitive-revolution/2023-12-22-emergency-pod-mamba-memory-and-the-ssm-moment": [
+  "context-engineering",
+  "agents"
+ ],
+ "cognitive-revolution/2023-12-27-nathan-on-the-80-000-hours-podcast-ai-scouting-openai-s-safety-record": [
+  "ai-safety",
+  "policy-and-regulation",
+  "openai"
+ ],
+ "cognitive-revolution/2023-12-30-agi-and-institutional-disruption-sam-hammond-in-conversation-with-fli": [
+  "ai-safety",
+  "jobs-and-work",
+  "anthropic"
+ ],
  "cognitive-revolution/2024-01-03-cutting-edge-neurotechnology-with-nita-farahany-in-conversation-with-l": [],
  "cognitive-revolution/2024-01-04-2028-agi-new-architectures-and-aligning-superhuman-models-with-shane-l": [
+  "ai-safety",
+  "ai-for-science",
   "google"
  ],
  "cognitive-revolution/2024-01-09-dialpad-s-chief-strategy-officer-dan-o-connell-on-ai-powered-business": [],
  "cognitive-revolution/2024-01-12-breaking-boundaries-ai-coscientist-to-accelerate-science-research-with": [
-  "openai"
+  "ai-for-science",
+  "agents"
  ],
  "cognitive-revolution/2024-01-18-unlocking-enterprise-data-with-knowledge-graphs-juan-sequeda-head-of-a": [
-  "enterprise-adoption",
-  "models-and-benchmarks"
+  "agents",
+  "jobs-and-work"
  ],
  "cognitive-revolution/2024-01-20-the-quest-for-autonomous-web-agents-with-div-garg-cofounder-and-ceo-of": [
-  "openai"
+  "agents",
+  "ai-safety"
  ],
  "cognitive-revolution/2024-01-23-nytimes-vs-openai-generative-ai-and-the-law-with-cecilia-ziniti-founde": [
+  "open-weight-models",
   "openai"
  ],
  "cognitive-revolution/2024-01-26-the-pixel-revolution-part-2-with-suhail-doshi-founder-of-playground-ai": [
-  "openai"
+  "ai-safety"
  ],
  "cognitive-revolution/2024-01-30-ignore-previous-instructions-listen-to-this-interview-sander-schulhoff": [
-  "context-engineering"
+  "context-engineering",
+  "agents"
  ],
- "cognitive-revolution/2024-02-01-ai-identity-from-east-and-west-with-yohei-nakajima-gp-at-untapped-capi": [],
- "cognitive-revolution/2024-02-07-a-brief-history-of-biological-and-artificial-intelligence-with-max-ben": [],
- "cognitive-revolution/2024-02-09-dr-michael-levin-on-embodied-minds-and-cognitive-agents": [],
+ "cognitive-revolution/2024-02-01-ai-identity-from-east-and-west-with-yohei-nakajima-gp-at-untapped-capi": [
+  "agents",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2024-02-07-a-brief-history-of-biological-and-artificial-intelligence-with-max-ben": [
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2024-02-09-dr-michael-levin-on-embodied-minds-and-cognitive-agents": [
+  "agents",
+  "interpretability"
+ ],
  "cognitive-revolution/2024-02-13-ai-abundance-a16z-partners-justine-moore-and-anish-acharya-forecast-a": [
-  "consumer-ai"
+  "policy-and-regulation"
  ],
  "cognitive-revolution/2024-02-16-ai-friends-real-relationships-with-eugenia-kuyda-replika-s-founder-ceo": [],
  "cognitive-revolution/2024-02-21-openai-sora-google-gemini-and-meta-with-zvi-mowshowitz": [
   "generative-media",
-  "google",
+  "open-weight-models",
   "openai"
  ],
- "cognitive-revolution/2024-02-23-looking-up-the-ai-exponential-with-azeem-azhar-of-the-exponential-view": [],
+ "cognitive-revolution/2024-02-23-looking-up-the-ai-exponential-with-azeem-azhar-of-the-exponential-view": [
+  "enterprise-adoption",
+  "policy-and-regulation"
+ ],
  "cognitive-revolution/2024-02-27-is-agi-far-with-robin-hanson-economist-at-george-mason-university": [
-  "jobs-and-work"
+  "ai-safety",
+  "ai-coding"
  ],
  "cognitive-revolution/2024-02-29-amazing-answers-richard-socher-on-how-you-com-is-reimagining-search-wi": [
   "consumer-ai",
-  "google",
-  "openai"
- ],
- "cognitive-revolution/2024-03-05-the-example-engine-how-exa-is-creating-the-ai-librarian-for-the-web-wi": [
-  "google"
- ],
- "cognitive-revolution/2024-03-12-flow-engineering-and-code-integrity-at-scale-with-itamar-friedman-ceo": [
-  "ai-coding"
- ],
- "cognitive-revolution/2024-03-14-ai-and-the-practice-of-law-from-casetext-to-cocounsel-with-pablo-arred": [
-  "openai"
- ],
- "cognitive-revolution/2024-03-16-envisioning-a-positive-ai-future-with-tim-reutemann-author-of-liquid-r": [],
- "cognitive-revolution/2024-03-21-surveying-2-700-ai-researchers-on-the-industry-s-future-with-katja-gra": [],
- "cognitive-revolution/2024-03-27-exploitable-by-default-vulnerabilities-in-gpt-4-apis-superhuman-go-ais": [
-  "training-and-rl",
-  "openai"
- ],
- "cognitive-revolution/2024-03-30-mamba-palooza-90-days-of-mamba-inspired-research-with-jason-meaux-part": [],
- "cognitive-revolution/2024-04-03-unbounded-ai-assisted-research-with-elicit-founders-andreas-stuhlm-lle": [],
- "cognitive-revolution/2024-04-05-opening-ai-s-black-box-with-prof-david-bau-koyena-pal-and-eric-todd-of": [],
- "cognitive-revolution/2024-04-08-the-ai-email-assistant-i-ve-been-waiting-for-with-andrew-lee-of-shortw": [],
- "cognitive-revolution/2024-04-10-inside-china-s-ai-ecosystem-a-view-from-beijing": [
-  "us-china",
-  "infrastructure-and-chips",
   "ai-safety"
  ],
+ "cognitive-revolution/2024-03-05-the-example-engine-how-exa-is-creating-the-ai-librarian-for-the-web-wi": [
+  "consumer-ai",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-03-12-flow-engineering-and-code-integrity-at-scale-with-itamar-friedman-ceo": [
+  "ai-coding",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-03-14-ai-and-the-practice-of-law-from-casetext-to-cocounsel-with-pablo-arred": [
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-03-16-envisioning-a-positive-ai-future-with-tim-reutemann-author-of-liquid-r": [
+  "open-weight-models"
+ ],
+ "cognitive-revolution/2024-03-21-surveying-2-700-ai-researchers-on-the-industry-s-future-with-katja-gra": [
+  "ai-safety",
+  "us-china"
+ ],
+ "cognitive-revolution/2024-03-27-exploitable-by-default-vulnerabilities-in-gpt-4-apis-superhuman-go-ais": [],
+ "cognitive-revolution/2024-03-30-mamba-palooza-90-days-of-mamba-inspired-research-with-jason-meaux-part": [],
+ "cognitive-revolution/2024-04-03-unbounded-ai-assisted-research-with-elicit-founders-andreas-stuhlm-lle": [
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-04-05-opening-ai-s-black-box-with-prof-david-bau-koyena-pal-and-eric-todd-of": [
+  "interpretability",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-04-08-the-ai-email-assistant-i-ve-been-waiting-for-with-andrew-lee-of-shortw": [
+  "open-weight-models",
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2024-04-10-inside-china-s-ai-ecosystem-a-view-from-beijing": [
+  "us-china",
+  "open-weight-models"
+ ],
  "cognitive-revolution/2024-04-13-data-data-everywhere-enough-for-agi": [
+  "ai-safety",
+  "models-and-benchmarks",
   "openai"
  ],
- "cognitive-revolution/2024-04-15-interfacing-with-ai-with-linus-lee-of-notion": [],
- "cognitive-revolution/2024-04-17-reading-minds-from-shared-latent-space": [],
- "cognitive-revolution/2024-04-20-ai-inference-good-fast-and-cheap-with-lin-qiao-dmytro-ivchenko-of-fire": [],
+ "cognitive-revolution/2024-04-15-interfacing-with-ai-with-linus-lee-of-notion": [
+  "interpretability",
+  "generative-media",
+  "openai"
+ ],
+ "cognitive-revolution/2024-04-17-reading-minds-from-shared-latent-space": [
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-04-20-ai-inference-good-fast-and-cheap-with-lin-qiao-dmytro-ivchenko-of-fire": [
+  "training-and-rl",
+  "infrastructure-and-chips"
+ ],
  "cognitive-revolution/2024-04-22-robotics-research-update-with-keerthana-gopalakrishnan-and-ted-xiao-of": [
+  "consumer-ai",
   "physical-ai",
   "google"
  ],
  "cognitive-revolution/2024-04-26-automating-circuit-board-design-using-reinforcement-learning-w-sergiy": [
+  "training-and-rl",
+  "jobs-and-work"
+ ],
+ "cognitive-revolution/2024-04-26-merging-man-and-machine-the-neurotech-frontier-with-dean-w-ball": [
+  "agents",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-04-29-organic-holodeck-with-prophetic-ai-co-founders-eric-wollberg-and-wesle": [
   "training-and-rl"
  ],
- "cognitive-revolution/2024-04-26-merging-man-and-machine-the-neurotech-frontier-with-dean-w-ball": [],
- "cognitive-revolution/2024-04-29-organic-holodeck-with-prophetic-ai-co-founders-eric-wollberg-and-wesle": [],
  "cognitive-revolution/2024-05-03-infinite-ai-interns-how-young-professionals-can-win-in-an-ai-powered-w": [
   "jobs-and-work",
   "models-and-benchmarks",
-  "openai"
+  "ai-coding"
  ],
  "cognitive-revolution/2024-05-04-emergency-pod-examining-sb-1047-california-s-proposed-ai-legislation": [
-  "policy-and-regulation"
+  "policy-and-regulation",
+  "open-weight-models"
  ],
  "cognitive-revolution/2024-05-06-tinygpu-massive-learning-with-adam-majmudar": [
   "infrastructure-and-chips"
  ],
  "cognitive-revolution/2024-05-10-governing-frontier-ai-with-ca-senator-scott-wiener-author-of-sb-1047": [
-  "ai-safety"
+  "policy-and-regulation",
+  "jobs-and-work"
  ],
  "cognitive-revolution/2024-05-13-the-state-of-ai-from-the-80-000-hours-podcast": [
-  "policy-and-regulation"
+  "policy-and-regulation",
+  "agents"
  ],
  "cognitive-revolution/2024-05-15-the-open-source-ai-question-part-2-robert-wright-nathan-labenz": [
-  "ai-safety"
+  "ai-safety",
+  "interpretability",
+  "open-weight-models"
  ],
  "cognitive-revolution/2024-05-18-openai-and-google-race-to-her-is-the-big-tech-singularity-near-part-1": [
+  "jobs-and-work",
   "openai",
   "google"
  ],
  "cognitive-revolution/2024-05-19-openai-s-safety-team-exodus-ilya-departs-leike-speaks-out-altman-respo": [
+  "ai-safety",
   "openai"
  ],
  "cognitive-revolution/2024-05-22-claude-interpreter-taking-safe-ai-to-market-with-alex-albert-of-anthro": [
+  "models-and-benchmarks",
   "anthropic"
  ],
- "cognitive-revolution/2024-06-01-ai-scouting-report-not-investment-advice-edition": [],
+ "cognitive-revolution/2024-06-01-ai-scouting-report-not-investment-advice-edition": [
+  "models-and-benchmarks",
+  "infrastructure-and-chips",
+  "openai"
+ ],
  "cognitive-revolution/2024-06-04-implications-of-ai-on-the-global-balance-of-power-w-alex-wang-andrew-n": [
+  "policy-and-regulation",
   "us-china"
  ],
  "cognitive-revolution/2024-06-06-inside-google-s-ai-studio-with-logan-kilpatrick": [
-  "google",
-  "openai"
+  "ai-economics",
+  "models-and-benchmarks"
  ],
  "cognitive-revolution/2024-06-08-feeling-the-agi-with-flo-crivello": [
-  "ai-safety"
+  "ai-safety",
+  "models-and-benchmarks",
+  "openai"
  ],
  "cognitive-revolution/2024-06-12-investing-in-ai-for-hard-tech-with-eric-vishria-of-benchmark-and-sergi": [
-  "models-and-benchmarks",
-  "training-and-rl"
+  "training-and-rl",
+  "infrastructure-and-chips"
  ],
- "cognitive-revolution/2024-06-15-building-brave-private-search-one-ai-layer-at-a-time-with-josep-m-pujo": [],
- "cognitive-revolution/2024-06-19-the-case-for-cautious-ai-optimism-from-the-consistently-candid-podcast": [],
+ "cognitive-revolution/2024-06-15-building-brave-private-search-one-ai-layer-at-a-time-with-josep-m-pujo": [
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2024-06-19-the-case-for-cautious-ai-optimism-from-the-consistently-candid-podcast": [
+  "ai-safety",
+  "ai-coding",
+  "openai"
+ ],
  "cognitive-revolution/2024-06-22-the-ai-doctor-can-see-you-now-with-vivek-natarajan-and-khaled-saab-fro": [
-  "google"
+  "models-and-benchmarks"
  ],
  "cognitive-revolution/2024-06-26-fluid-intelligence-simulating-solutions-with-tim-duignan": [],
- "cognitive-revolution/2024-06-28-ai-safety-regulations-prudent-or-paranoid-with-a16z-s-martin-casado": [],
- "cognitive-revolution/2024-07-04-the-state-space-model-revolution-with-albert-gu": [],
- "cognitive-revolution/2024-07-06-building-an-intelligent-business-os-with-runway-ceo-siqi-chen": [],
- "cognitive-revolution/2024-07-09-delving-into-the-prompt-report-with-sander-schulhoff-of-learnprompting": [],
+ "cognitive-revolution/2024-06-28-ai-safety-regulations-prudent-or-paranoid-with-a16z-s-martin-casado": [
+  "policy-and-regulation",
+  "ai-safety"
+ ],
+ "cognitive-revolution/2024-07-04-the-state-space-model-revolution-with-albert-gu": [
+  "infrastructure-and-chips"
+ ],
+ "cognitive-revolution/2024-07-06-building-an-intelligent-business-os-with-runway-ceo-siqi-chen": [
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2024-07-09-delving-into-the-prompt-report-with-sander-schulhoff-of-learnprompting": [
+  "context-engineering",
+  "agents"
+ ],
  "cognitive-revolution/2024-07-11-a-foundation-model-for-food-with-chef-robotics-ceo-rajat-bhageria": [
   "physical-ai"
  ],
  "cognitive-revolution/2024-07-13-the-arc-prize-efficiency-intuition-and-agi-with-mike-knoop-co-founder": [
-  "models-and-benchmarks"
- ],
- "cognitive-revolution/2024-07-17-guaranteed-safe-ai-world-models-safety-specs-verifiers-with-nora-amman": [
-  "physical-ai",
-  "generative-media"
- ],
- "cognitive-revolution/2024-07-19-long-term-memory-for-llms-with-hipporag-author-bernal-jim-nez-gutierre": [],
- "cognitive-revolution/2024-07-24-from-poetry-to-programming-the-evolution-of-prompt-engineering-with-ri": [
-  "context-engineering",
-  "training-and-rl"
- ],
- "cognitive-revolution/2024-07-27-zooming-out-on-ai-from-the-nick-halaris-show": [
+  "models-and-benchmarks",
   "openai"
  ],
- "cognitive-revolution/2024-08-02-ai-avatars-the-future-of-video-with-heygen-ceo-joshua-xu-and-benchmark": [
-  "models-and-benchmarks"
+ "cognitive-revolution/2024-07-17-guaranteed-safe-ai-world-models-safety-specs-verifiers-with-nora-amman": [
+  "ai-for-science",
+  "ai-safety"
  ],
- "cognitive-revolution/2024-08-03-underlord-descript-s-ai-video-editor-with-ceo-andrew-mason": [],
+ "cognitive-revolution/2024-07-19-long-term-memory-for-llms-with-hipporag-author-bernal-jim-nez-gutierre": [
+  "training-and-rl"
+ ],
+ "cognitive-revolution/2024-07-24-from-poetry-to-programming-the-evolution-of-prompt-engineering-with-ri": [
+  "training-and-rl",
+  "context-engineering"
+ ],
+ "cognitive-revolution/2024-07-27-zooming-out-on-ai-from-the-nick-halaris-show": [
+  "ai-safety",
+  "jobs-and-work",
+  "us-china",
+  "google"
+ ],
+ "cognitive-revolution/2024-08-02-ai-avatars-the-future-of-video-with-heygen-ceo-joshua-xu-and-benchmark": [],
+ "cognitive-revolution/2024-08-03-underlord-descript-s-ai-video-editor-with-ceo-andrew-mason": [
+  "training-and-rl"
+ ],
  "cognitive-revolution/2024-08-07-self-driving-cars-timothy-b-lee-answers-all-the-questions-you-were-too": [
-  "physical-ai",
-  "policy-and-regulation"
+  "physical-ai"
  ],
  "cognitive-revolution/2024-08-10-ai-consciousness-exploring-the-possibility-with-prof-eric-schwitzgebel": [
-  "ai-consciousness"
+  "ai-consciousness",
+  "interpretability",
+  "anthropic"
  ],
  "cognitive-revolution/2024-08-14-understanding-ai-understanding-with-robert-wright-of-nonzero-newslette": [
-  "us-china"
+  "open-weight-models",
+  "generative-media",
+  "anthropic"
  ],
  "cognitive-revolution/2024-08-17-popular-mechanistic-interpretability-goodfire-lights-the-way-to-ai-saf": [
-  "interpretability"
+  "interpretability",
+  "ai-safety"
  ],
  "cognitive-revolution/2024-08-21-ai-automation-making-ai-work-for-you-now-with-gpt-4o-fine-tuning": [
   "training-and-rl",
-  "openai"
+  "agents"
  ],
  "cognitive-revolution/2024-08-24-final-analysis-on-ca-s-ai-bill-sb-1047-with-nathan-calvin-dean-w-ball": [
-  "policy-and-regulation"
+  "policy-and-regulation",
+  "ai-safety"
  ],
  "cognitive-revolution/2024-08-28-scaling-superforecasting-ai-forecasting-tournaments-road-to-epistemic": [
-  "generative-media",
-  "physical-ai"
+  "ai-safety",
+  "models-and-benchmarks"
  ],
- "cognitive-revolution/2024-08-30-computational-life-how-self-replicators-arise-from-randomness-with-goo": [
-  "google"
- ],
+ "cognitive-revolution/2024-08-30-computational-life-how-self-replicators-arise-from-randomness-with-goo": [],
  "cognitive-revolution/2024-09-04-ai-live-players-the-geopolitics-strategic-dynamics-of-ai-with-samo-bur": [
   "us-china",
   "infrastructure-and-chips"
  ],
  "cognitive-revolution/2024-09-07-empathy-for-ais-reframing-alignment-with-robopsychologist-yeshua-god": [
+  "ai-safety",
+  "ai-consciousness",
+  "anthropic"
+ ],
+ "cognitive-revolution/2024-09-11-the-path-to-utopia-with-nick-bostrom-from-clearer-thinking-with-spence": [
   "ai-safety"
  ],
- "cognitive-revolution/2024-09-11-the-path-to-utopia-with-nick-bostrom-from-clearer-thinking-with-spence": [],
  "cognitive-revolution/2024-09-14-red-teaming-o1-part-1-2-automated-jailbreaking-w-haize-labs-leonard-ta": [
-  "ai-safety",
-  "openai"
+  "ai-safety"
  ],
  "cognitive-revolution/2024-09-14-red-teaming-o1-part-2-2-detecting-deception-with-marius-hobbhahn-of-ap": [
   "ai-safety",
-  "training-and-rl",
   "openai"
  ],
- "cognitive-revolution/2024-09-18-the-professional-network-for-ai-agents-with-agent-ai-engineering-lead": [],
+ "cognitive-revolution/2024-09-18-the-professional-network-for-ai-agents-with-agent-ai-engineering-lead": [
+  "agents",
+  "ai-coding"
+ ],
  "cognitive-revolution/2024-09-25-anthropic-s-responsible-scaling-policy-with-nick-joseph-from-the-80-00": [
-  "policy-and-regulation",
+  "models-and-benchmarks",
+  "interpretability",
   "anthropic"
  ],
- "cognitive-revolution/2024-09-26-zapier-s-ai-revolution-from-no-code-pioneer-to-llm-knowledge-worker": [],
+ "cognitive-revolution/2024-09-26-zapier-s-ai-revolution-from-no-code-pioneer-to-llm-knowledge-worker": [
+  "enterprise-adoption",
+  "agents"
+ ],
  "cognitive-revolution/2024-10-02-automating-software-engineering-genie-tops-swe-bench-w-alistair-pullen": [
+  "models-and-benchmarks",
   "training-and-rl",
   "ai-coding"
  ],
  "cognitive-revolution/2024-10-05-biologically-inspired-ai-alignment-exploring-neglected-approaches-with": [
-  "ai-safety"
+  "ai-consciousness"
  ],
- "cognitive-revolution/2024-10-09-runway-s-video-revolution-empowering-creators-with-general-world-model": [],
+ "cognitive-revolution/2024-10-09-runway-s-video-revolution-empowering-creators-with-general-world-model": [
+  "generative-media",
+  "physical-ai"
+ ],
  "cognitive-revolution/2024-10-12-convergent-evolution-the-co-revolution-of-ai-biology-with-prof-michael": [
-  "ai-for-science"
+  "ai-safety"
  ],
  "cognitive-revolution/2024-10-16-leading-indicators-of-ai-danger-owain-evans-on-situational-awareness-f": [
   "ai-safety"
  ],
  "cognitive-revolution/2024-10-19-gelu-mmlu-x-risk-defense-in-depth-with-the-great-dan-hendrycks": [
-  "ai-safety",
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "infrastructure-and-chips",
+  "xai"
  ],
- "cognitive-revolution/2024-10-23-can-ais-generate-novel-research-ideas-with-lead-author-chenglei-si": [],
+ "cognitive-revolution/2024-10-23-can-ais-generate-novel-research-ideas-with-lead-author-chenglei-si": [
+  "models-and-benchmarks",
+  "ai-safety"
+ ],
  "cognitive-revolution/2024-10-26-mind-hacked-by-ai-a-cautionary-tale-from-a-lesswrong-user-s-confession": [],
  "cognitive-revolution/2024-10-30-training-zamba-a-hybrid-model-master-class-with-zyphra-s-quentin-antho": [
+  "open-weight-models",
   "training-and-rl"
  ],
  "cognitive-revolution/2024-10-31-gemini-update-search-grounding-json-mode-code-execution-more-with-goog": [
-  "google"
+  "models-and-benchmarks"
  ],
  "cognitive-revolution/2024-11-01-ai-under-trump-the-stakes-of-2024-w-samuel-hammond-pt-1-of-2": [
-  "us-china"
+  "us-china",
+  "policy-and-regulation",
+  "ai-safety",
+  "openai"
  ],
  "cognitive-revolution/2024-11-02-ai-under-trump-the-stakes-of-2024-w-joshua-steinman-pt-2-of-2": [
-  "us-china"
+  "us-china",
+  "policy-and-regulation"
  ],
  "cognitive-revolution/2024-11-12-agi-lab-transparency-requirements-whistleblower-protections-with-dean": [
+  "ai-safety",
   "policy-and-regulation",
   "openai"
  ],
  "cognitive-revolution/2024-11-16-zvi-s-pov-ilya-s-ssi-openai-s-o1-claude-computer-use-trump-s-election": [
-  "agents",
-  "openai",
-  "anthropic"
+  "policy-and-regulation",
+  "models-and-benchmarks",
+  "ai-safety",
+  "google",
+  "openai"
  ],
  "cognitive-revolution/2024-11-21-everything-you-wanted-to-know-about-llm-post-training-with-nathan-lamb": [
-  "training-and-rl",
-  "open-weight-models",
-  "meta"
+  "models-and-benchmarks",
+  "open-weight-models"
  ],
- "cognitive-revolution/2024-11-23-designing-the-future-inside-canva-s-ai-strategy-with-john-milinovich-g": [],
+ "cognitive-revolution/2024-11-23-designing-the-future-inside-canva-s-ai-strategy-with-john-milinovich-g": [
+  "models-and-benchmarks",
+  "ai-economics"
+ ],
  "cognitive-revolution/2024-11-27-is-an-ai-arms-race-inevitable-with-robert-wright-of-nonzero-newsletter": [
   "us-china",
-  "infrastructure-and-chips"
+  "ai-safety",
+  "infrastructure-and-chips",
+  "anthropic"
  ],
  "cognitive-revolution/2024-11-30-beyond-preference-alignment-teaching-ais-to-play-roles-respect-norms-w": [
+  "ai-safety",
+  "us-china"
+ ],
+ "cognitive-revolution/2024-12-03-the-evolution-of-ai-agents-lessons-from-2024-with-multion-ceo-div-garg": [
+  "agents",
   "ai-safety"
  ],
- "cognitive-revolution/2024-12-03-the-evolution-of-ai-agents-lessons-from-2024-with-multion-ceo-div-garg": [],
  "cognitive-revolution/2024-12-05-automating-scientific-discovery-with-andrew-white-head-of-science-at-f": [
-  "ai-for-science"
+  "ai-for-science",
+  "ai-safety"
  ],
- "cognitive-revolution/2024-12-07-emergency-pod-o1-schemes-against-users-with-alexander-meinke-from-apol": [],
- "cognitive-revolution/2024-12-11-building-government-s-largest-civilian-ai-team-with-dhs-ai-corps-dir-m": [],
+ "cognitive-revolution/2024-12-07-emergency-pod-o1-schemes-against-users-with-alexander-meinke-from-apol": [
+  "ai-safety",
+  "policy-and-regulation"
+ ],
+ "cognitive-revolution/2024-12-11-building-government-s-largest-civilian-ai-team-with-dhs-ai-corps-dir-m": [
+  "consumer-ai",
+  "enterprise-adoption"
+ ],
  "cognitive-revolution/2024-12-18-breakthroughs-in-ai-for-biology-ai-lab-groups-protein-model-interpreta": [
   "ai-for-science",
   "interpretability"
  ],
  "cognitive-revolution/2024-12-21-can-ais-do-ai-r-d-reviewing-rebench-results-with-neev-parikh-of-metr": [
   "models-and-benchmarks",
+  "ai-safety",
   "training-and-rl"
  ],
- "cognitive-revolution/2024-12-25-emad-mostaque-on-the-intelligent-internet-and-universal-basic-ai": [],
+ "cognitive-revolution/2024-12-25-emad-mostaque-on-the-intelligent-internet-and-universal-basic-ai": [
+  "ai-safety",
+  "open-weight-models",
+  "google"
+ ],
  "cognitive-revolution/2024-12-28-roon-s-heroic-duty-will-the-good-guys-build-agi-first-from-doom-debate": [
-  "training-and-rl",
+  "ai-safety",
+  "open-weight-models",
   "openai"
  ],
  "cognitive-revolution/2025-01-03-teaching-ai-to-see-a-technical-deep-dive-on-vision-language-models-wit": [
-  "training-and-rl",
-  "models-and-benchmarks",
-  "open-weight-models"
+  "context-engineering",
+  "us-china"
  ],
  "cognitive-revolution/2025-01-08-ai-ama-part-1-openai-s-o3-deliberative-alignment-and-ai-surprises-of-2": [
-  "ai-safety",
+  "models-and-benchmarks",
+  "jobs-and-work",
   "openai"
  ],
  "cognitive-revolution/2025-01-08-ai-ama-part-2-ai-utopia-consciousness-and-the-future-of-work": [
-  "ai-consciousness",
   "ai-safety",
-  "jobs-and-work"
+  "jobs-and-work",
+  "ai-consciousness",
+  "anthropic"
  ],
  "cognitive-revolution/2025-01-15-gene-hunting-with-o1-pro-reasoning-about-rare-diseases-with-chatgpt-pr": [
+  "ai-for-science",
   "consumer-ai",
   "openai"
  ],
- "cognitive-revolution/2025-01-18-dodging-latent-space-detectors-obfuscated-activation-attacks-with-luke": [],
+ "cognitive-revolution/2025-01-18-dodging-latent-space-detectors-obfuscated-activation-attacks-with-luke": [
+  "interpretability"
+ ],
  "cognitive-revolution/2025-01-22-material-progress-developing-ai-s-scientific-intuition-with-orbital-ma": [
-  "ai-for-science"
+  "infrastructure-and-chips",
+  "jobs-and-work"
  ],
  "cognitive-revolution/2025-01-25-emergency-pod-reinforcement-learning-works-reflecting-on-chinese-model": [
   "open-weight-models",
-  "us-china",
   "training-and-rl",
+  "us-china",
   "deepseek"
  ],
  "cognitive-revolution/2025-01-29-aaron-levie-ceo-of-box-on-box-ai-enterprise-enthusiasm-and-the-evoluti": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "agents"
  ],
- "cognitive-revolution/2025-02-05-distributed-training-decentralized-ai-prime-intellect-s-master-plan-to": [],
+ "cognitive-revolution/2025-02-05-distributed-training-decentralized-ai-prime-intellect-s-master-plan-to": [
+  "open-weight-models",
+  "infrastructure-and-chips"
+ ],
  "cognitive-revolution/2025-02-06-gemini-2-0-flash-goes-live-inside-google-deepmind-s-latest-release-wit": [
-  "models-and-benchmarks",
-  "google"
+  "ai-economics",
+  "ai-coding",
+  "models-and-benchmarks"
  ],
- "cognitive-revolution/2025-02-09-software-supernova-bolt-new-the-ai-web-app-developer-in-your-browser": [],
+ "cognitive-revolution/2025-02-09-software-supernova-bolt-new-the-ai-web-app-developer-in-your-browser": [
+  "ai-coding",
+  "agents"
+ ],
  "cognitive-revolution/2025-02-09-software-supernova-lovable-s-superhuman-full-stack-engineer-to-transfo": [
-  "ai-coding"
+  "ai-coding",
+  "agents"
  ],
  "cognitive-revolution/2025-02-12-claude-cooperates-exploring-cultural-evolution-in-llm-societies-with-a": [
-  "anthropic",
-  "google",
-  "openai"
+  "ai-safety",
+  "models-and-benchmarks"
  ],
- "cognitive-revolution/2025-02-15-an-application-free-future-speaking-directly-to-data-with-illumex-ceo": [],
+ "cognitive-revolution/2025-02-15-an-application-free-future-speaking-directly-to-data-with-illumex-ceo": [
+  "enterprise-adoption",
+  "jobs-and-work"
+ ],
  "cognitive-revolution/2025-02-20-inference-scaling-alignment-faking-deal-making-frontier-research-with": [
   "ai-safety",
-  "anthropic"
+  "open-weight-models",
+  "anthropic",
+  "openai"
  ],
- "cognitive-revolution/2025-02-22-new-jersey-s-ai-moonshot-governor-phil-murphy-on-partnerships-progress": [],
+ "cognitive-revolution/2025-02-22-new-jersey-s-ai-moonshot-governor-phil-murphy-on-partnerships-progress": [
+  "infrastructure-and-chips",
+  "jobs-and-work",
+  "us-china"
+ ],
  "cognitive-revolution/2025-02-27-the-adversarial-mind-defeating-ai-defenses-with-nicholas-carlini-of-go": [
+  "open-weight-models",
+  "ai-safety",
   "google"
  ],
  "cognitive-revolution/2025-03-01-us-china-relations-history-culture-and-ai-competition-with-noah-smith": [
-  "us-china"
+  "us-china",
+  "open-weight-models"
  ],
  "cognitive-revolution/2025-03-06-frontier-models-for-frontier-science-with-prof-derya-unutmaz-immunolog": [
-  "openai"
+  "ai-safety",
+  "consumer-ai"
  ],
  "cognitive-revolution/2025-03-08-historic-ai-developments-the-emerging-shape-of-superintelligence-from": [
   "ai-safety",
+  "models-and-benchmarks",
   "training-and-rl",
-  "us-china"
+  "anthropic"
  ],
  "cognitive-revolution/2025-03-12-china-s-tech-tightrope-power-regulation-and-the-ai-race-with-angela-zh": [
   "us-china",
-  "policy-and-regulation"
+  "policy-and-regulation",
+  "open-weight-models",
+  "deepseek"
  ],
  "cognitive-revolution/2025-03-15-agency-over-ai-allan-dafoe-on-technological-determinism-deepmind-s-saf": [
-  "ai-safety",
+  "ai-for-science",
+  "open-weight-models",
   "google"
  ],
  "cognitive-revolution/2025-03-19-a16z-on-ai-voices-call-centers-coaches-and-companions-with-olivia-moor": [
+  "jobs-and-work",
   "consumer-ai"
  ],
- "cognitive-revolution/2025-03-23-unlocking-cells-secrets-diffusion-deconvolution-discovery-with-siyu-he": [],
+ "cognitive-revolution/2025-03-23-unlocking-cells-secrets-diffusion-deconvolution-discovery-with-siyu-he": [
+  "models-and-benchmarks"
+ ],
  "cognitive-revolution/2025-03-27-code-context-is-king-augment-s-ai-assistant-for-professional-software": [
+  "context-engineering",
+  "models-and-benchmarks"
+ ],
+ "cognitive-revolution/2025-03-29-shortwave-rides-the-tidal-wave-inbox-agents-hyper-growth-hiring-ai-man": [
+  "agents",
+  "enterprise-adoption",
   "ai-coding"
  ],
- "cognitive-revolution/2025-03-29-shortwave-rides-the-tidal-wave-inbox-agents-hyper-growth-hiring-ai-man": [],
  "cognitive-revolution/2025-04-02-reward-hacking-by-reasoning-models-loss-of-control-scenarios-w-jeffrey": [
-  "models-and-benchmarks",
   "ai-safety",
-  "anthropic"
+  "training-and-rl",
+  "openai"
  ],
  "cognitive-revolution/2025-04-05-scaling-thinking-gemini-2-5-tech-lead-jack-rae-on-reasoning-long-conte": [
-  "training-and-rl",
   "models-and-benchmarks",
+  "ai-safety",
   "google"
  ],
  "cognitive-revolution/2025-04-10-new-in-nature-google-agents-beat-human-doctors-make-scientific-discove": [
-  "training-and-rl",
+  "ai-for-science",
   "google"
  ],
- "cognitive-revolution/2025-04-13-is-a-us-china-thucydides-trap-unavoidable-with-david-c-kang-from-the-c": [
-  "us-china"
- ],
+ "cognitive-revolution/2025-04-13-is-a-us-china-thucydides-trap-unavoidable-with-david-c-kang-from-the-c": [],
  "cognitive-revolution/2025-04-16-helen-toner-openai-reflections-adaptation-buffers-and-ai-in-warfare": [
+  "policy-and-regulation",
+  "ai-safety",
   "openai"
  ],
- "cognitive-revolution/2025-04-19-ai-news-crossover-a-candid-chat-with-liron-shapira-of-doom-debates": [],
+ "cognitive-revolution/2025-04-19-ai-news-crossover-a-candid-chat-with-liron-shapira-of-doom-debates": [
+  "ai-safety",
+  "interpretability",
+  "openai"
+ ],
  "cognitive-revolution/2025-04-21-is-o3-agi-zvi-mowshowitz-on-early-ai-takeoff-the-mechanize-launch-live": [
   "ai-safety",
+  "open-weight-models",
   "openai"
  ],
  "cognitive-revolution/2025-04-23-securing-superintelligence-national-security-espionage-ai-control-with": [
+  "open-weight-models",
   "ai-safety",
-  "us-china"
+  "anthropic"
  ],
- "cognitive-revolution/2025-04-26-fiverr-goes-all-in-on-ai-empowering-creators-not-replacing-them-with-m": [],
+ "cognitive-revolution/2025-04-26-fiverr-goes-all-in-on-ai-empowering-creators-not-replacing-them-with-m": [
+  "jobs-and-work",
+  "ai-economics"
+ ],
  "cognitive-revolution/2025-05-01-blueprint-for-ai-armageddon-josh-clymer-imagines-ai-takeover-from-the": [
-  "training-and-rl",
-  "ai-safety"
+  "ai-safety",
+  "agents",
+  "anthropic"
  ],
  "cognitive-revolution/2025-05-04-ai-control-using-untrusted-systems-safely-with-buck-shlegeris-redwood": [
   "ai-safety"
  ],
  "cognitive-revolution/2025-05-08-openai-s-identity-crisis-history-culture-non-profit-control-with-ex-em": [
+  "models-and-benchmarks",
+  "ai-safety",
   "openai"
  ],
- "cognitive-revolution/2025-05-11-luma-labs-diffusion-revolution-from-dream-machine-to-multimodal-worlds": [],
+ "cognitive-revolution/2025-05-11-luma-labs-diffusion-revolution-from-dream-machine-to-multimodal-worlds": [
+  "interpretability",
+  "generative-media"
+ ],
  "cognitive-revolution/2025-05-15-titans-neural-long-term-memory-for-llms-with-author-ali-behrouz": [],
  "cognitive-revolution/2025-05-17-gemini-robotics-ai-for-the-physical-world-with-keerthana-and-ted-of-go": [
   "physical-ai",
-  "google"
+  "training-and-rl"
  ],
  "cognitive-revolution/2025-05-19-the-raise-act-minimum-standards-for-frontier-ai-development-with-ny-as": [],
  "cognitive-revolution/2025-05-22-the-perfect-substrate-for-agi-with-replit-ceo-amjad-masad": [
@@ -2393,129 +3178,185 @@
  ],
  "cognitive-revolution/2025-06-07-don-t-make-mirror-life-synthetic-biologist-kate-adamala-on-risks-respo": [],
  "cognitive-revolution/2025-06-10-a16z-on-protecting-little-tech-the-techno-optimist-ai-policy-agenda-wi": [
-  "policy-and-regulation"
+  "ai-safety"
  ],
  "cognitive-revolution/2025-06-12-the-decade-of-may-15-22-2025-google-s-50x-ai-growth-transformation-wit": [
+  "agents",
+  "ai-coding",
   "google"
  ],
  "cognitive-revolution/2025-06-14-ai-scouting-report-ai-agents-vs-agentic-ai-from-imagine-ai-live": [
-  "agents",
   "training-and-rl",
   "ai-safety",
-  "anthropic",
-  "openai"
+  "agents"
  ],
  "cognitive-revolution/2025-06-18-embryology-of-ai-how-training-data-shapes-ai-development-w-timaeus-jes": [
+  "interpretability",
   "ai-safety"
  ],
- "cognitive-revolution/2025-06-21-living-lindy-a-no-bs-conversation-on-ai-agents-with-flo-crivello": [],
+ "cognitive-revolution/2025-06-21-living-lindy-a-no-bs-conversation-on-ai-agents-with-flo-crivello": [
+  "agents",
+  "training-and-rl"
+ ],
  "cognitive-revolution/2025-06-25-2-sigma-in-2-hours-how-alpha-schools-are-using-ai-to-revolutionize-edu": [
   "jobs-and-work"
  ],
- "cognitive-revolution/2025-06-28-402-payment-required-a-new-way-for-ai-agents-to-pay-with-nemil-dalal-d": [
-  "agents"
- ],
+ "cognitive-revolution/2025-06-28-402-payment-required-a-new-way-for-ai-agents-to-pay-with-nemil-dalal-d": [],
  "cognitive-revolution/2025-07-02-the-ai-village-previewing-the-giga-agent-future-with-adam-binksmith-fo": [
-  "agents"
+  "agents",
+  "ai-consciousness",
+  "openai"
  ],
- "cognitive-revolution/2025-07-05-cheat-on-everything-cluely-s-vision-for-always-on-ai-assistance": [],
+ "cognitive-revolution/2025-07-05-cheat-on-everything-cluely-s-vision-for-always-on-ai-assistance": [
+  "jobs-and-work"
+ ],
  "cognitive-revolution/2025-07-08-the-data-factory-inside-the-100b-race-for-post-training-supremacy-with": [
-  "training-and-rl"
+  "training-and-rl",
+  "context-engineering",
+  "meta"
  ],
  "cognitive-revolution/2025-07-10-cracking-the-medical-code-why-cleveland-clinic-doctors-love-their-ambi": [
-  "ai-for-science",
-  "training-and-rl",
-  "ai-coding"
+  "ai-safety",
+  "training-and-rl"
  ],
  "cognitive-revolution/2025-07-16-the-dawn-of-dynamic-ai-rft-comes-online-w-predibase-ceo-dev-rishi-from": [
   "training-and-rl",
-  "enterprise-adoption"
+  "open-weight-models"
  ],
  "cognitive-revolution/2025-07-22-private-governance-creating-a-market-in-ai-regulation-with-dr-gillian": [
   "policy-and-regulation"
  ],
  "cognitive-revolution/2025-07-26-liability-for-ai-harms-how-ancient-law-can-govern-frontier-technology": [
-  "ai-safety"
- ],
- "cognitive-revolution/2025-08-02-the-revolution-in-services-general-catalyst-s-ai-rollup-strategy-with": [],
- "cognitive-revolution/2025-08-06-sovereign-ai-geopolitical-strategy-industrial-policy-for-countries-3-1": [
-  "infrastructure-and-chips",
+  "policy-and-regulation",
   "us-china"
  ],
+ "cognitive-revolution/2025-08-02-the-revolution-in-services-general-catalyst-s-ai-rollup-strategy-with": [
+  "jobs-and-work",
+  "enterprise-adoption"
+ ],
+ "cognitive-revolution/2025-08-06-sovereign-ai-geopolitical-strategy-industrial-policy-for-countries-3-1": [
+  "open-weight-models",
+  "policy-and-regulation",
+  "us-china",
+  "deepseek"
+ ],
  "cognitive-revolution/2025-08-09-jake-sullivan-on-navigating-ai-uncertainty-and-managing-competition-wi": [
+  "policy-and-regulation",
   "us-china"
  ],
  "cognitive-revolution/2025-08-13-dean-w-ball-on-america-s-ai-action-plan-4-months-at-the-white-house": [
+  "infrastructure-and-chips",
   "policy-and-regulation"
  ],
  "cognitive-revolution/2025-08-16-autonomous-organizations-vending-bench-beyond-w-lukas-petersson-axel-b": [
-  "agents"
+  "agents",
+  "ai-safety",
+  "models-and-benchmarks"
  ],
  "cognitive-revolution/2025-08-20-the-ai-whistleblower-initiative-supporting-agi-insiders-when-it-matter": [
+  "models-and-benchmarks",
   "openai"
  ],
- "cognitive-revolution/2025-08-23-what-if-humans-weaponize-superintelligence-w-tom-davidson-from-future": [],
+ "cognitive-revolution/2025-08-23-what-if-humans-weaponize-superintelligence-w-tom-davidson-from-future": [
+  "policy-and-regulation"
+ ],
  "cognitive-revolution/2025-08-27-untangling-neural-network-mechanisms-goodfire-s-lee-sharkey-on-paramet": [
   "interpretability"
  ],
  "cognitive-revolution/2025-08-30-material-abundance-radical-ai-s-closed-loop-lab-automates-scientific-d": [
-  "ai-for-science"
+  "ai-for-science",
+  "interpretability"
  ],
- "cognitive-revolution/2025-09-03-in-ai-advertising-better-answers-for-users-big-questions-for-society-w": [
-  "consumer-ai"
- ],
+ "cognitive-revolution/2025-09-03-in-ai-advertising-better-answers-for-users-big-questions-for-society-w": [],
  "cognitive-revolution/2025-09-06-zvi-mowshowitz-on-longer-timelines-rl-induced-doom-and-why-china-is-re": [
-  "training-and-rl",
   "ai-safety",
-  "infrastructure-and-chips",
+  "us-china",
+  "training-and-rl",
+  "openai",
+  "nvidia"
+ ],
+ "cognitive-revolution/2025-09-10-coaching-the-creators-inside-the-minds-building-frontier-ai-with-execu": [
+  "ai-safety",
+  "jobs-and-work",
   "openai"
  ],
- "cognitive-revolution/2025-09-10-coaching-the-creators-inside-the-minds-building-frontier-ai-with-execu": [],
  "cognitive-revolution/2025-09-13-user-owned-ai-on-chain-training-inference-and-agents-with-near-s-illia": [
+  "agents",
   "infrastructure-and-chips"
  ],
  "cognitive-revolution/2025-09-18-can-we-stop-ai-deception-apollo-research-tests-openai-s-deliberative-a": [
   "ai-safety",
+  "ai-coding",
   "openai"
  ],
- "cognitive-revolution/2025-09-20-full-stack-ai-safety-why-defense-in-depth-might-work-with-far-ai-ceo-a": [],
- "cognitive-revolution/2025-09-25-stripe-s-payments-foundation-model-how-data-infra-create-compounding-a": [],
- "cognitive-revolution/2025-09-28-the-machines-are-taking-our-jobs-thank-god-emad-mostaque-s-guide-to-th": [
-  "jobs-and-work"
+ "cognitive-revolution/2025-09-20-full-stack-ai-safety-why-defense-in-depth-might-work-with-far-ai-ceo-a": [
+  "ai-safety",
+  "training-and-rl"
  ],
- "cognitive-revolution/2025-10-02-training-an-ai-scientist-with-feedback-from-reality-w-liam-fedus-ekin": [],
- "cognitive-revolution/2025-10-04-the-customer-service-revolution-building-fin-with-eoghan-mccabe-fergal": [],
+ "cognitive-revolution/2025-09-25-stripe-s-payments-foundation-model-how-data-infra-create-compounding-a": [
+  "ai-coding",
+  "consumer-ai"
+ ],
+ "cognitive-revolution/2025-09-28-the-machines-are-taking-our-jobs-thank-god-emad-mostaque-s-guide-to-th": [
+  "jobs-and-work",
+  "ai-economics"
+ ],
+ "cognitive-revolution/2025-10-02-training-an-ai-scientist-with-feedback-from-reality-w-liam-fedus-ekin": [
+  "ai-for-science",
+  "consumer-ai"
+ ],
+ "cognitive-revolution/2025-10-04-the-customer-service-revolution-building-fin-with-eoghan-mccabe-fergal": [
+  "context-engineering",
+  "jobs-and-work",
+  "models-and-benchmarks"
+ ],
  "cognitive-revolution/2025-10-08-education-in-the-ai-age-a-teacher-rethinks-learning-purpose-w-johan-fa": [
-  "jobs-and-work"
+  "jobs-and-work",
+  "models-and-benchmarks"
  ],
  "cognitive-revolution/2025-10-18-chinese-ai-they-re-just-like-us-with-beijing-based-concordia-ai-ceo-br": [
   "us-china",
-  "ai-safety"
+  "open-weight-models"
  ],
  "cognitive-revolution/2025-10-22-always-bet-on-the-models-how-tasklet-puts-the-agency-in-agents-with-ce": [
-  "agents"
+  "agents",
+  "context-engineering"
  ],
  "cognitive-revolution/2025-10-25-a-positive-vision-for-the-future-part-2-with-illia-polosukhin-of-near": [
-  "ai-safety"
+  "ai-for-science",
+  "ai-coding"
  ],
  "cognitive-revolution/2025-10-29-is-ai-stalling-out-cutting-through-capabilities-confusion-w-erik-toren": [
-  "models-and-benchmarks",
+  "ai-safety",
+  "jobs-and-work",
+  "agents",
   "openai"
  ],
- "cognitive-revolution/2025-11-02-a-simulationship-with-ai-with-smiles-and-kisses-you-star-chris-stokes": [],
+ "cognitive-revolution/2025-11-02-a-simulationship-with-ai-with-smiles-and-kisses-you-star-chris-stokes": [
+  "ai-consciousness",
+  "ai-safety"
+ ],
  "cognitive-revolution/2025-11-05-more-truthful-ais-report-conscious-experience-new-mechanistic-research": [
+  "ai-consciousness",
+  "interpretability"
+ ],
+ "cognitive-revolution/2025-11-08-what-is-catholic-ai-technology-meets-theology-with-matthew-harvey-sand": [
+  "open-weight-models",
   "ai-consciousness"
  ],
- "cognitive-revolution/2025-11-08-what-is-catholic-ai-technology-meets-theology-with-matthew-harvey-sand": [],
  "cognitive-revolution/2025-11-12-my-positive-vision-for-the-ai-future-from-the-existential-hope-podcast": [
+  "jobs-and-work",
   "ai-safety",
-  "physical-ai"
- ],
- "cognitive-revolution/2025-11-17-ai-in-the-cancer-journey-how-i-m-using-ai-to-help-my-son": [
   "openai"
  ],
+ "cognitive-revolution/2025-11-17-ai-in-the-cancer-journey-how-i-m-using-ai-to-help-my-son": [
+  "ai-for-science",
+  "ai-economics",
+  "google"
+ ],
  "cognitive-revolution/2025-11-20-escaping-ai-slop-how-atlassian-gives-ai-teammates-taste-knowledge-work": [
-  "generative-media"
+  "generative-media",
+  "agents"
  ],
  "cognitive-revolution/2025-11-25-what-ai-means-for-students-teachers-my-keynote-from-the-michigan-virtu": [
   "jobs-and-work",
@@ -3012,177 +3853,241 @@
   "anthropic"
  ],
  "dwarkesh/2020-07-10-tyler-cowen-the-great-reset": [],
- "dwarkesh/2022-01-31-david-deutsch-ai-america-fun-bayes": [],
+ "dwarkesh/2022-01-31-david-deutsch-ai-america-fun-bayes": [
+  "policy-and-regulation"
+ ],
  "dwarkesh/2022-07-05-sam-bankman-fried-crypto-altruism-and-leadership": [],
- "dwarkesh/2022-08-09-will-macaskill-longtermism-altruism-history-technology": [],
+ "dwarkesh/2022-08-09-will-macaskill-longtermism-altruism-history-technology": [
+  "ai-safety"
+ ],
  "dwarkesh/2022-08-23-steve-hsu-intelligence-embryo-selection-the-future-of-humanity": [],
  "dwarkesh/2022-09-08-austin-vernon-energy-superabundance-starship-missiles-finding-alpha": [],
  "dwarkesh/2022-09-14-charles-c-mann-americas-before-columbus-scientific-wizardry": [],
- "dwarkesh/2022-09-28-tyler-cowen-talent-collapse-pessimism-of-sex": [],
- "dwarkesh/2022-10-20-bryan-caplan-feminists-billionaires-and-demagogues": [
-  "jobs-and-work"
+ "dwarkesh/2022-09-28-tyler-cowen-talent-collapse-pessimism-of-sex": [
+  "ai-safety"
  ],
+ "dwarkesh/2022-10-20-bryan-caplan-feminists-billionaires-and-demagogues": [],
  "dwarkesh/2022-10-27-brian-potter-future-of-construction-ugly-modernism-environmental-revie": [],
  "dwarkesh/2022-11-08-kenneth-t-jackson-robert-moses-hero-of-new-york": [],
- "dwarkesh/2022-11-28-edward-glaeser-cities-terrorism-housing-remote-work": [],
- "dwarkesh/2022-12-21-bethany-mclean-enron-ftx-2008-musk-frauds-visionaries": [],
- "dwarkesh/2023-01-03-holden-karnofsky-history-s-most-important-century": [],
+ "dwarkesh/2022-11-28-edward-glaeser-cities-terrorism-housing-remote-work": [
+  "jobs-and-work"
+ ],
+ "dwarkesh/2022-12-21-bethany-mclean-enron-ftx-2008-musk-frauds-visionaries": [
+  "xai"
+ ],
+ "dwarkesh/2023-01-03-holden-karnofsky-history-s-most-important-century": [
+  "ai-safety"
+ ],
  "dwarkesh/2023-01-09-lars-doucet-progress-poverty-georgism-why-rent-is-too-damn-high": [],
  "dwarkesh/2023-02-01-marc-andreessen-ai-crypto-1000-elon-musks-regrets-vulnerabilities-mana": [],
  "dwarkesh/2023-03-13-brett-harrison-ftx-us-former-president-speaks-out": [],
  "dwarkesh/2023-03-22-nat-friedman-github-ceo-reading-ancient-scrolls-open-source-ai": [
+  "ai-coding",
+  "ai-safety",
   "microsoft"
  ],
  "dwarkesh/2023-03-27-ilya-sutskever-openai-chief-scientist-why-next-token-prediction-could": [
+  "ai-safety",
+  "infrastructure-and-chips",
   "openai"
  ],
  "dwarkesh/2023-04-06-eliezer-yudkowsky-why-ai-will-kill-us-aligning-llms-nature-of-intellig": [
-  "ai-safety"
+  "ai-safety",
+  "interpretability"
  ],
  "dwarkesh/2023-05-23-richard-rhodes-the-making-of-the-atomic-bomb": [],
  "dwarkesh/2023-06-14-carl-shulman-pt-1-intelligence-explosion-primate-evolution-robot-doubl": [
-  "physical-ai",
-  "ai-safety"
+  "ai-safety",
+  "infrastructure-and-chips"
  ],
  "dwarkesh/2023-06-26-carl-shulman-pt-2-ai-takeover-bio-cyber-attacks-detecting-deception-hu": [
-  "ai-safety"
+  "ai-safety",
+  "ai-for-science"
  ],
- "dwarkesh/2023-07-12-andy-matuschak-the-reason-most-learning-tools-fail": [],
+ "dwarkesh/2023-07-12-andy-matuschak-the-reason-most-learning-tools-fail": [
+  "jobs-and-work"
+ ],
  "dwarkesh/2023-08-08-dario-amodei-anthropic-ceo-the-hidden-pattern-behind-every-ai-breakthr": [
   "ai-safety",
+  "interpretability",
+  "models-and-benchmarks",
   "anthropic"
  ],
  "dwarkesh/2023-10-04-sarah-c-m-paine-why-dictators-keep-making-the-same-fatal-mistake": [],
  "dwarkesh/2023-10-12-grant-sanderson-3blue1brown-past-present-future-of-mathematics": [
-  "jobs-and-work",
   "ai-for-science"
  ],
  "dwarkesh/2023-10-26-shane-legg-deepmind-founder-2028-agi-superhuman-alignment-new-architec": [
   "ai-safety",
+  "ai-for-science",
   "google"
  ],
  "dwarkesh/2023-10-31-paul-christiano-preventing-an-ai-takeover": [
-  "ai-safety"
+  "ai-safety",
+  "infrastructure-and-chips",
+  "anthropic"
  ],
- "dwarkesh/2023-11-15-dominic-cummings-covid-brexit-fixing-western-governance": [],
+ "dwarkesh/2023-11-15-dominic-cummings-covid-brexit-fixing-western-governance": [
+  "ai-safety",
+  "us-china"
+ ],
  "dwarkesh/2023-11-22-andrew-roberts-why-hitler-lost-wwii-churchill-as-applied-historian-nap": [],
  "dwarkesh/2023-11-29-jung-chang-wild-swans-author-living-through-history-s-largest-man-made": [],
- "dwarkesh/2024-01-31-tyler-cowen-hayek-keynes-smith-on-ai-animal-spirits-anarchy-growth": [],
- "dwarkesh/2024-02-21-patrick-collison-why-silicon-valley-s-most-talented-should-leave": [],
+ "dwarkesh/2024-01-31-tyler-cowen-hayek-keynes-smith-on-ai-animal-spirits-anarchy-growth": [
+  "agents",
+  "ai-safety"
+ ],
+ "dwarkesh/2024-02-21-patrick-collison-why-silicon-valley-s-most-talented-should-leave": [
+  "agents",
+  "models-and-benchmarks"
+ ],
  "dwarkesh/2024-02-28-demis-hassabis-scaling-superhuman-ais-alphazero-atop-llms-alphafold": [
+  "ai-safety",
+  "models-and-benchmarks",
   "ai-for-science",
   "google"
  ],
  "dwarkesh/2024-03-28-sholto-douglas-trenton-bricken-how-llms-actually-think": [
   "interpretability",
+  "agents",
   "google"
  ],
  "dwarkesh/2024-04-18-mark-zuckerberg-llama-3-10b-models-caesar-augustus-1-gw-datacenters": [
-  "open-weight-models",
   "infrastructure-and-chips",
+  "open-weight-models",
   "meta"
  ],
  "dwarkesh/2024-05-15-john-schulman-openai-cofounder-reasoning-rlhf-plan-for-2027-agi": [
+  "ai-safety",
+  "consumer-ai",
   "training-and-rl",
   "openai"
  ],
  "dwarkesh/2024-06-04-leopold-aschenbrenner-2027-agi-china-us-super-intelligence-race-the-re": [
   "ai-safety",
+  "us-china",
+  "infrastructure-and-chips",
   "openai"
  ],
- "dwarkesh/2024-06-11-francois-chollet-why-the-biggest-ai-models-can-t-solve-simple-puzzles": [],
- "dwarkesh/2024-06-26-tony-blair-why-political-leaders-keep-failing-at-major-change": [],
- "dwarkesh/2024-07-24-patrick-mckenzie-money-laundering-big-tech-censorship-sbf-japan": [],
+ "dwarkesh/2024-06-11-francois-chollet-why-the-biggest-ai-models-can-t-solve-simple-puzzles": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "dwarkesh/2024-06-26-tony-blair-why-political-leaders-keep-failing-at-major-change": [
+  "jobs-and-work",
+  "policy-and-regulation"
+ ],
+ "dwarkesh/2024-07-24-patrick-mckenzie-money-laundering-big-tech-censorship-sbf-japan": [
+  "policy-and-regulation"
+ ],
  "dwarkesh/2024-08-22-joe-carlsmith-preventing-an-ai-takeover": [
   "ai-safety"
  ],
  "dwarkesh/2024-08-29-david-reich-how-one-small-tribe-conquered-the-world-70-000-years-ago": [
-  "ai-for-science"
+  "models-and-benchmarks"
  ],
- "dwarkesh/2024-09-18-daniel-yergin-oil-destroyed-hitler-fracking-destroyed-putin": [],
+ "dwarkesh/2024-09-18-daniel-yergin-oil-destroyed-hitler-fracking-destroyed-putin": [
+  "infrastructure-and-chips"
+ ],
  "dwarkesh/2024-10-02-asianometry-dylan-patel-how-the-semiconductor-industry-actually-works": [
   "infrastructure-and-chips",
-  "us-china"
+  "us-china",
+  "ai-economics",
+  "openai"
  ],
- "dwarkesh/2024-11-13-gwern-anonymous-writer-who-predicted-ai-trajectory-on-12k-year-salary": [],
+ "dwarkesh/2024-11-13-gwern-anonymous-writer-who-predicted-ai-trajectory-on-12k-year-salary": [
+  "ai-safety",
+  "agents"
+ ],
  "dwarkesh/2024-12-26-adam-brown-bubble-universes-space-elevators-ads-cft": [
-  "google"
+  "ai-for-science",
+  "models-and-benchmarks"
  ],
  "dwarkesh/2025-01-09-tyler-cowen-the-1-bottleneck-to-ai-progress-is-humans": [],
- "dwarkesh/2025-01-16-sarah-paine-the-war-for-india-lecture-interview": [
-  "us-china"
- ],
+ "dwarkesh/2025-01-16-sarah-paine-the-war-for-india-lecture-interview": [],
  "dwarkesh/2025-01-23-sarah-paine-why-japan-lost-wwii-lecture-interview": [],
- "dwarkesh/2025-01-30-sarah-paine-how-mao-conquered-china-lecture-interview": [
-  "us-china"
- ],
+ "dwarkesh/2025-01-30-sarah-paine-how-mao-conquered-china-lecture-interview": [],
  "dwarkesh/2025-02-12-jeff-dean-noam-shazeer-25-years-at-google-from-pagerank-to-agi": [
+  "training-and-rl",
+  "models-and-benchmarks",
   "google"
  ],
  "dwarkesh/2025-02-19-satya-nadella-microsoft-s-agi-plan-quantum-breakthrough": [
-  "microsoft"
+  "consumer-ai",
+  "agents",
+  "microsoft",
+  "meta"
  ],
  "dwarkesh/2025-03-12-joseph-henrich-humans-defeated-smarter-species-with-cultural-evolution": [],
  "dwarkesh/2025-03-25-ama-career-advice-given-agi-how-i-research-ft-sholto-trenton": [
-  "anthropic"
+  "jobs-and-work",
+  "ai-safety"
  ],
  "dwarkesh/2025-04-03-ai-2027-month-by-month-model-of-intelligence-explosion-scott-alexander": [
   "ai-safety",
-  "ai-coding"
+  "us-china",
+  "xai"
  ],
- "dwarkesh/2025-04-17-agi-is-still-30-years-away-ege-erdil-tamay-besiroglu": [],
+ "dwarkesh/2025-04-17-agi-is-still-30-years-away-ege-erdil-tamay-besiroglu": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
  "dwarkesh/2025-04-24-why-rome-actually-fell-plagues-slavery-ice-age-kyle-harper": [],
  "dwarkesh/2025-04-29-mark-zuckerberg-ai-will-write-most-meta-code-in-18-months": [
   "open-weight-models",
+  "us-china",
   "meta"
  ],
  "dwarkesh/2025-05-22-is-rl-llms-enough-for-agi-sholto-douglas-trenton-bricken": [
-  "training-and-rl",
   "interpretability",
+  "ai-coding",
   "anthropic"
  ],
  "dwarkesh/2025-05-29-xi-jinping-s-paranoid-approach-to-agi-debt-crisis-politburo-politics-v": [
-  "us-china"
+  "open-weight-models",
+  "us-china",
+  "deepseek"
  ],
  "dwarkesh/2025-06-12-china-is-digging-out-of-a-crisis-and-america-s-luck-is-wearing-thin-ke": [
-  "us-china"
+  "policy-and-regulation"
  ],
  "dwarkesh/2025-06-19-why-china-s-manufacturing-economy-is-dominating-arthur-kroeber": [
-  "us-china"
+  "us-china",
+  "ai-safety"
  ],
  "dwarkesh/2025-06-26-a-billion-years-of-evolution-in-a-single-afternoon-george-church": [
   "ai-for-science"
  ],
- "dwarkesh/2025-07-10-stephen-kotkin-how-stalin-became-the-most-powerful-dictator-in-history": [
-  "us-china"
- ],
- "dwarkesh/2025-07-25-sarah-paine-how-imperial-japan-defeated-tsarist-russia-qing-china": [
-  "us-china"
- ],
+ "dwarkesh/2025-07-10-stephen-kotkin-how-stalin-became-the-most-powerful-dictator-in-history": [],
+ "dwarkesh/2025-07-25-sarah-paine-how-imperial-japan-defeated-tsarist-russia-qing-china": [],
  "dwarkesh/2025-08-07-artificial-meat-is-harder-than-artificial-intelligence-lewis-bollard": [],
  "dwarkesh/2025-08-15-china-is-killing-the-us-on-energy-does-that-mean-they-ll-win-agi-casey": [
   "infrastructure-and-chips",
   "us-china"
  ],
  "dwarkesh/2025-08-21-evolution-designed-us-to-die-fast-we-can-change-that-jacob-kimmel": [],
- "dwarkesh/2025-09-05-how-hitler-almost-starved-britain-sarah-paine": [
-  "us-china"
- ],
+ "dwarkesh/2025-09-05-how-hitler-almost-starved-britain-sarah-paine": [],
  "dwarkesh/2025-09-12-fully-autonomous-robots-are-much-closer-than-you-think-sergey-levine": [
-  "physical-ai"
+  "physical-ai",
+  "ai-economics"
  ],
  "dwarkesh/2025-09-26-richard-sutton-father-of-rl-thinks-llms-are-a-dead-end": [
-  "models-and-benchmarks"
+  "training-and-rl"
  ],
  "dwarkesh/2025-10-10-nick-lane-life-as-we-know-it-is-chemically-inevitable": [],
  "dwarkesh/2025-10-17-andrej-karpathy-agi-is-still-a-decade-away": [
-  "training-and-rl"
+  "training-and-rl",
+  "ai-safety",
+  "jobs-and-work",
+  "openai"
  ],
- "dwarkesh/2025-10-31-sarah-paine-how-russia-sabotaged-china-s-rise": [
-  "us-china"
- ],
+ "dwarkesh/2025-10-31-sarah-paine-how-russia-sabotaged-china-s-rise": [],
  "dwarkesh/2025-11-12-satya-nadella-how-microsoft-is-preparing-for-agi": [
-  "microsoft"
+  "infrastructure-and-chips",
+  "ai-coding",
+  "ai-economics",
+  "microsoft",
+  "openai"
  ],
  "dwarkesh/2025-11-25-ilya-sutskever-we-re-moving-from-the-age-of-scaling-to-the-age-of-rese": [
   "ai-safety",
@@ -4175,243 +5080,386 @@
  ],
  "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami": [],
  "no-priors/2023-02-02-the-bot-cicero-can-collaborate-scheme-and-build-trust-with-humans-what": [
-  "meta"
+  "models-and-benchmarks"
  ],
  "no-priors/2023-02-09-what-does-ai-powered-content-creation-look-like-with-runway-ml-s-crist": [],
- "no-priors/2023-02-16-how-can-we-make-sure-that-everyone-has-access-to-ai-can-small-models-o": [],
- "no-priors/2023-02-20-founder-stories-what-s-behind-the-largest-commercial-autonomous-system": [],
+ "no-priors/2023-02-16-how-can-we-make-sure-that-everyone-has-access-to-ai-can-small-models-o": [
+  "ai-safety",
+  "consumer-ai"
+ ],
+ "no-priors/2023-02-20-founder-stories-what-s-behind-the-largest-commercial-autonomous-system": [
+  "physical-ai"
+ ],
  "no-priors/2023-02-23-why-the-future-of-machine-learning-is-open-source-with-huggingface-s-c": [
   "open-weight-models",
   "hugging-face"
  ],
  "no-priors/2023-03-02-how-ai-can-make-drug-discovery-fail-less-with-daphne-koller-from-insit": [
-  "ai-for-science"
+  "jobs-and-work"
  ],
- "no-priors/2023-03-09-what-is-the-role-of-academia-in-modern-ai-research-with-stanford-profe": [],
- "no-priors/2023-03-16-what-is-the-future-of-search-with-neeva-s-sridhar-ramaswamy": [],
+ "no-priors/2023-03-09-what-is-the-role-of-academia-in-modern-ai-research-with-stanford-profe": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "no-priors/2023-03-16-what-is-the-future-of-search-with-neeva-s-sridhar-ramaswamy": [
+  "consumer-ai",
+  "google"
+ ],
  "no-priors/2023-03-23-how-do-we-go-from-search-engines-to-answer-engines-with-perplexity-ai": [
   "consumer-ai",
   "google"
  ],
  "no-priors/2023-03-30-what-s-beyond-github-copilot-with-copilot-s-chief-architect-and-founde": [
+  "agents",
   "ai-coding",
+  "models-and-benchmarks",
   "microsoft"
  ],
  "no-priors/2023-04-06-the-future-is-small-models-with-matei-zaharia-cto-of-databricks": [
-  "openai"
+  "enterprise-adoption",
+  "models-and-benchmarks"
  ],
- "no-priors/2023-04-13-your-ai-friends-have-awoken-with-noam-shazeer": [],
+ "no-priors/2023-04-13-your-ai-friends-have-awoken-with-noam-shazeer": [
+  "context-engineering",
+  "models-and-benchmarks"
+ ],
  "no-priors/2023-04-20-the-computing-platform-underlying-ai-with-jensen-huang-founder-ceo-of": [
   "infrastructure-and-chips",
+  "consumer-ai",
   "nvidia"
  ],
  "no-priors/2023-04-27-listener-q-a-ai-investment-hype-foundation-models-regulation-opportuni": [
   "policy-and-regulation",
-  "open-weight-models"
+  "agents"
  ],
  "no-priors/2023-05-04-personalizing-ai-models-with-kelvin-guu-senior-staff-research-scientis": [
-  "training-and-rl",
-  "google"
+  "agents",
+  "models-and-benchmarks"
  ],
  "no-priors/2023-05-11-will-everyone-have-a-personal-ai-with-mustafa-suleyman-founder-of-deep": [
+  "ai-for-science",
+  "models-and-benchmarks",
   "google"
  ],
  "no-priors/2023-05-18-the-ai-will-see-you-now-exploring-biomedical-ai-and-google-s-med-palm2": [
-  "ai-safety",
+  "models-and-benchmarks",
+  "ai-for-science",
   "google"
  ],
  "no-priors/2023-05-24-going-full-send-on-ai-and-the-positive-impact-of-ai-on-jobs-with-kevin": [
   "jobs-and-work",
-  "microsoft",
-  "openai"
+  "ai-coding",
+  "openai",
+  "microsoft"
  ],
- "no-priors/2023-06-01-ai-defense-technology-with-anduril-ceo-brian-schimpf": [],
- "no-priors/2023-06-08-listener-q-a-ai-misconceptions-the-reality-of-regulation-infinite-cont": [
+ "no-priors/2023-06-01-ai-defense-technology-with-anduril-ceo-brian-schimpf": [
   "policy-and-regulation"
  ],
- "no-priors/2023-06-15-what-happens-to-observability-if-code-is-ai-generated-the-potential-fo": [],
+ "no-priors/2023-06-08-listener-q-a-ai-misconceptions-the-reality-of-regulation-infinite-cont": [
+  "policy-and-regulation",
+  "ai-coding"
+ ],
+ "no-priors/2023-06-15-what-happens-to-observability-if-code-is-ai-generated-the-potential-fo": [
+  "open-weight-models"
+ ],
  "no-priors/2023-06-22-what-s-for-dinner-ai-driven-commerce-with-instacart-ceo-fidji-simo": [
+  "consumer-ai",
+  "enterprise-adoption",
   "openai"
  ],
- "no-priors/2023-06-29-bringing-ai-to-the-data-cloud-with-snowflake-s-ceo-frank-slootman": [
-  "enterprise-adoption"
- ],
- "no-priors/2023-07-20-the-timeline-for-realistic-4-d-devi-parikh-from-meta-on-research-hurdl": [
-  "generative-media",
-  "meta"
- ],
+ "no-priors/2023-06-29-bringing-ai-to-the-data-cloud-with-snowflake-s-ceo-frank-slootman": [],
+ "no-priors/2023-07-20-the-timeline-for-realistic-4-d-devi-parikh-from-meta-on-research-hurdl": [],
  "no-priors/2023-07-27-how-palantir-s-ai-bet-is-revolutionizing-defense-and-beyond-with-cto-s": [
-  "enterprise-adoption"
+  "agents",
+  "models-and-benchmarks"
  ],
  "no-priors/2023-08-03-eradicating-machine-learning-pain-points-with-weights-biases-ceo-lukas": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "open-weight-models"
  ],
  "no-priors/2023-08-10-listener-q-a-2024-tech-market-predictions-long-term-implications-of-to": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "agents",
+  "enterprise-adoption",
+  "nvidia"
  ],
  "no-priors/2023-08-17-the-ai-tutor-for-every-child-and-the-next-frontier-of-education-from-k": [
-  "jobs-and-work"
+  "jobs-and-work",
+  "consumer-ai",
+  "openai"
  ],
  "no-priors/2023-08-24-ai-powered-biological-software-with-jakob-uszkoreit-ceo-of-inceptive": [
   "ai-for-science"
  ],
- "no-priors/2023-08-31-ai-superpowers-for-frontend-developers-with-vercel-founder-ceo-guiller": [],
- "no-priors/2023-09-07-the-world-s-largest-ai-processor-with-cerebras-ceo-andrew-feldman": [
-  "infrastructure-and-chips"
- ],
- "no-priors/2023-09-15-the-intersection-of-ai-and-blockchain-with-transformers-author-and-nea": [
+ "no-priors/2023-08-31-ai-superpowers-for-frontend-developers-with-vercel-founder-ceo-guiller": [
+  "enterprise-adoption",
   "agents"
  ],
+ "no-priors/2023-09-07-the-world-s-largest-ai-processor-with-cerebras-ceo-andrew-feldman": [
+  "infrastructure-and-chips",
+  "training-and-rl",
+  "nvidia"
+ ],
+ "no-priors/2023-09-15-the-intersection-of-ai-and-blockchain-with-transformers-author-and-nea": [
+  "agents",
+  "infrastructure-and-chips"
+ ],
  "no-priors/2023-09-21-how-replit-s-ai-tools-are-changing-software-development-with-co-founde": [
-  "ai-coding"
- ],
- "no-priors/2023-09-28-if-dna-is-code-can-ai-help-write-it-scaling-cell-programming-and-synth": [
-  "ai-for-science"
- ],
- "no-priors/2023-10-09-model-quality-fine-tuning-meta-sponsoring-open-source-ecosystem": [
+  "agents",
+  "ai-coding",
   "meta"
  ],
- "no-priors/2023-10-12-from-app-to-suite-to-platform-with-hubspot-s-co-founder-brian-halligan": [],
- "no-priors/2023-10-23-what-google-cloud-can-teach-enterprises-developing-rolling-out-ai-tool": [
-  "enterprise-adoption",
+ "no-priors/2023-09-28-if-dna-is-code-can-ai-help-write-it-scaling-cell-programming-and-synth": [
+  "ai-for-science",
   "google"
  ],
- "no-priors/2023-10-26-ai-threats-opportunities-in-cyber-security-with-material-security-co-f": [],
+ "no-priors/2023-10-09-model-quality-fine-tuning-meta-sponsoring-open-source-ecosystem": [
+  "consumer-ai",
+  "open-weight-models",
+  "meta"
+ ],
+ "no-priors/2023-10-12-from-app-to-suite-to-platform-with-hubspot-s-co-founder-brian-halligan": [
+  "openai"
+ ],
+ "no-priors/2023-10-23-what-google-cloud-can-teach-enterprises-developing-rolling-out-ai-tool": [
+  "enterprise-adoption",
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2023-10-26-ai-threats-opportunities-in-cyber-security-with-material-security-co-f": [
+  "enterprise-adoption"
+ ],
  "no-priors/2023-11-02-what-is-digital-life-with-openai-co-founder-chief-scientist-ilya-sutsk": [
+  "ai-safety",
+  "models-and-benchmarks",
   "openai"
  ],
  "no-priors/2023-11-09-mistral-7b-and-the-open-source-revolution-with-arthur-mensch-ceo-mistr": [
-  "open-weight-models"
+  "open-weight-models",
+  "agents"
  ],
- "no-priors/2023-11-16-ai-agents-that-reason-and-code-with-imbue-co-founders-kanjun-qiu-and-j": [],
+ "no-priors/2023-11-16-ai-agents-that-reason-and-code-with-imbue-co-founders-kanjun-qiu-and-j": [
+  "agents",
+  "ai-safety"
+ ],
  "no-priors/2023-11-30-open-ai-leadership-shuffle-new-diffusion-models-and-starting-the-cult": [
-  "generative-media",
+  "policy-and-regulation",
   "openai"
  ],
  "no-priors/2023-12-07-ai-is-the-new-enterprise-ui-with-clara-shih-ceo-salesforce-ai": [
   "enterprise-adoption",
+  "agents",
   "salesforce"
  ],
- "no-priors/2023-12-14-how-ai-can-help-small-businesses": [],
- "no-priors/2023-12-21-the-case-for-ai-optimism": [],
- "no-priors/2024-01-11-a-no-priors-clip-show-the-best-of-2023": [],
- "no-priors/2024-01-18-coding-in-collaboration-with-ai-with-sourcegraph-cto-beyang-liu": [
-  "ai-coding"
+ "no-priors/2023-12-14-how-ai-can-help-small-businesses": [
+  "infrastructure-and-chips"
  ],
- "no-priors/2024-01-25-building-the-factories-of-the-future-with-covariant-ceo-peter-chen": [
-  "physical-ai",
+ "no-priors/2023-12-21-the-case-for-ai-optimism": [
+  "jobs-and-work",
+  "policy-and-regulation"
+ ],
+ "no-priors/2024-01-11-a-no-priors-clip-show-the-best-of-2023": [
+  "infrastructure-and-chips",
+  "jobs-and-work",
   "openai"
  ],
- "no-priors/2024-01-31-the-copilot-for-ecommerce-with-shopify-vp-of-core-product-glen-coates": [],
- "no-priors/2024-02-08-build-ai-products-at-on-ai-companies-with-emily-glassberg-sands-from-s": [],
- "no-priors/2024-02-15-rag-is-the-key-for-smarter-productivity-tools-with-notion-ceo-ivan-zha": [],
+ "no-priors/2024-01-18-coding-in-collaboration-with-ai-with-sourcegraph-cto-beyang-liu": [
+  "agents"
+ ],
+ "no-priors/2024-01-25-building-the-factories-of-the-future-with-covariant-ceo-peter-chen": [
+  "ai-safety",
+  "models-and-benchmarks"
+ ],
+ "no-priors/2024-01-31-the-copilot-for-ecommerce-with-shopify-vp-of-core-product-glen-coates": [
+  "consumer-ai"
+ ],
+ "no-priors/2024-02-08-build-ai-products-at-on-ai-companies-with-emily-glassberg-sands-from-s": [
+  "enterprise-adoption",
+  "jobs-and-work"
+ ],
+ "no-priors/2024-02-15-rag-is-the-key-for-smarter-productivity-tools-with-notion-ceo-ivan-zha": [
+  "agents"
+ ],
  "no-priors/2024-02-22-improving-search-with-rag-architecture-with-pinecone-ceo-edo-liberty": [
   "training-and-rl"
  ],
  "no-priors/2024-02-29-competition-makes-for-better-chip-design-with-amd-cto-mark-papermaster": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "open-weight-models"
  ],
  "no-priors/2024-03-07-big-tech-earnings-and-the-current-ai-debates-with-sarah-guo-and-elad-g": [
-  "enterprise-adoption",
   "infrastructure-and-chips",
+  "enterprise-adoption",
+  "google",
   "nvidia"
  ],
- "no-priors/2024-03-14-designing-the-future-dylan-field-on-ai-collaboration-and-independence": [],
- "no-priors/2024-03-21-speed-will-win-the-ai-computing-battle-with-tuhin-srivastava-from-base": [],
+ "no-priors/2024-03-14-designing-the-future-dylan-field-on-ai-collaboration-and-independence": [
+  "jobs-and-work"
+ ],
+ "no-priors/2024-03-21-speed-will-win-the-ai-computing-battle-with-tuhin-srivastava-from-base": [
+  "ai-coding",
+  "enterprise-adoption"
+ ],
  "no-priors/2024-03-28-open-sourcing-ai-app-development-with-harrison-chase-from-langchain": [
+  "agents",
+  "context-engineering",
   "training-and-rl",
   "openai"
  ],
  "no-priors/2024-04-04-the-argument-for-humanoid-ai-robots-with-brett-adcock-from-figure": [
-  "physical-ai"
- ],
- "no-priors/2024-04-11-hyperscaler-strategy-in-ai-the-application-landscape-heats-up-and-what": [
+  "physical-ai",
   "openai"
  ],
- "no-priors/2024-04-18-the-future-of-ai-artistry-with-suhail-doshi-from-playground-ai": [],
+ "no-priors/2024-04-11-hyperscaler-strategy-in-ai-the-application-landscape-heats-up-and-what": [
+  "agents",
+  "ai-coding",
+  "microsoft"
+ ],
+ "no-priors/2024-04-18-the-future-of-ai-artistry-with-suhail-doshi-from-playground-ai": [
+  "models-and-benchmarks",
+  "open-weight-models"
+ ],
  "no-priors/2024-04-25-openai-s-sora-team-thinks-we-ve-only-seen-the-gpt-1-of-video-models": [
   "generative-media",
+  "models-and-benchmarks",
+  "physical-ai",
   "openai"
  ],
  "no-priors/2024-05-02-cognition-s-scott-wu-on-how-devin-the-ai-software-engineer-will-work-f": [
-  "ai-coding"
+  "ai-coding",
+  "jobs-and-work"
  ],
- "no-priors/2024-05-09-context-windows-computer-constraints-and-energy-consumption-with-sarah": [],
+ "no-priors/2024-05-09-context-windows-computer-constraints-and-energy-consumption-with-sarah": [
+  "infrastructure-and-chips",
+  "ai-economics",
+  "apple"
+ ],
  "no-priors/2024-05-16-music-consumers-are-becoming-the-creators-with-suno-ceo-mikey-shulman": [
-  "consumer-ai"
+  "models-and-benchmarks"
  ],
  "no-priors/2024-05-22-the-data-foundry-for-ai-with-alexandr-wang-from-scale": [
+  "models-and-benchmarks",
   "talent-war",
   "meta"
  ],
- "no-priors/2024-05-23-how-yc-fosters-ai-innovation-with-garry-tan": [],
- "no-priors/2024-06-06-the-evolution-and-promise-of-rag-architecture-with-tengyu-ma-from-voya": [
+ "no-priors/2024-05-23-how-yc-fosters-ai-innovation-with-garry-tan": [
   "enterprise-adoption"
  ],
- "no-priors/2024-06-11-how-the-arc-prize-is-democratizing-the-race-to-agi-with-mike-knoop-fro": [],
- "no-priors/2024-06-20-can-ai-replace-the-camera-with-joshua-xu-from-heygen": [],
+ "no-priors/2024-06-06-the-evolution-and-promise-of-rag-architecture-with-tengyu-ma-from-voya": [],
+ "no-priors/2024-06-11-how-the-arc-prize-is-democratizing-the-race-to-agi-with-mike-knoop-fro": [
+  "models-and-benchmarks",
+  "agents"
+ ],
+ "no-priors/2024-06-20-can-ai-replace-the-camera-with-joshua-xu-from-heygen": [
+  "generative-media",
+  "openai"
+ ],
  "no-priors/2024-06-27-state-space-models-and-real-time-intelligence-with-karan-goel-and-albe": [],
- "no-priors/2024-07-11-the-best-of-2024-so-far-with-sarah-guo-and-elad-gil": [],
- "no-priors/2024-07-18-how-ai-is-opening-up-new-markets-and-impacting-the-startup-status-quo": [],
- "no-priors/2024-07-25-low-code-in-the-age-of-ai-and-going-enterprise-with-howie-liu-from-air": [
+ "no-priors/2024-07-11-the-best-of-2024-so-far-with-sarah-guo-and-elad-gil": [
+  "generative-media",
+  "models-and-benchmarks",
+  "talent-war",
+  "openai",
+  "meta"
+ ],
+ "no-priors/2024-07-18-how-ai-is-opening-up-new-markets-and-impacting-the-startup-status-quo": [
+  "ai-economics",
   "enterprise-adoption"
+ ],
+ "no-priors/2024-07-25-low-code-in-the-age-of-ai-and-going-enterprise-with-howie-liu-from-air": [
+  "enterprise-adoption",
+  "infrastructure-and-chips"
  ],
  "no-priors/2024-08-01-google-deepmind-s-vision-for-ai-search-and-gemini-with-oriol-vinyals-f": [
+  "models-and-benchmarks",
+  "ai-safety",
   "google"
  ],
- "no-priors/2024-08-08-innovating-spend-management-through-ai-with-pedro-franceschi-from-brex": [],
+ "no-priors/2024-08-08-innovating-spend-management-through-ai-with-pedro-franceschi-from-brex": [
+  "consumer-ai"
+ ],
  "no-priors/2024-08-15-how-ai-can-help-build-smarter-systems-for-every-team-with-eric-glyman": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "jobs-and-work"
  ],
  "no-priors/2024-08-22-the-marketplace-for-ai-compute-with-jared-quincy-davis-from-foundry": [
-  "infrastructure-and-chips"
- ],
- "no-priors/2024-08-29-cloud-strategy-in-the-ai-era-with-matt-garman-ceo-of-aws": [
-  "amazon"
- ],
- "no-priors/2024-08-30-building-toward-a-bright-post-agi-future-with-eric-steinberger-from-ma": [],
- "no-priors/2024-09-05-the-road-to-autonomous-intelligence-with-andrej-karpathy": [
-  "jobs-and-work",
-  "physical-ai"
- ],
- "no-priors/2024-09-12-future-of-llm-markets-consolidation-and-small-models-with-sarah-and-el": [
-  "infrastructure-and-chips"
- ],
- "no-priors/2024-09-19-transforming-customer-service-through-company-agents-with-sierra-s-bre": [],
- "no-priors/2024-09-25-using-ai-to-evaluate-employee-performance-with-rippling-s-coo-matt-mac": [],
- "no-priors/2024-10-03-the-sheriff-of-silicon-valley-lina-khan-s-ftc-agenda-for-m-a-ai-acquis": [],
- "no-priors/2024-10-08-launching-ai-products-with-braintrust-s-ceo-ankur-goyal": [
+  "infrastructure-and-chips",
   "models-and-benchmarks"
  ],
- "no-priors/2024-10-17-gaming-nobel-prizes-and-at-risk-businesses-in-the-ai-era": [],
+ "no-priors/2024-08-29-cloud-strategy-in-the-ai-era-with-matt-garman-ceo-of-aws": [
+  "infrastructure-and-chips",
+  "enterprise-adoption",
+  "amazon"
+ ],
+ "no-priors/2024-08-30-building-toward-a-bright-post-agi-future-with-eric-steinberger-from-ma": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "no-priors/2024-09-05-the-road-to-autonomous-intelligence-with-andrej-karpathy": [
+  "physical-ai",
+  "jobs-and-work"
+ ],
+ "no-priors/2024-09-12-future-of-llm-markets-consolidation-and-small-models-with-sarah-and-el": [
+  "ai-economics",
+  "infrastructure-and-chips"
+ ],
+ "no-priors/2024-09-19-transforming-customer-service-through-company-agents-with-sierra-s-bre": [
+  "agents",
+  "enterprise-adoption"
+ ],
+ "no-priors/2024-09-25-using-ai-to-evaluate-employee-performance-with-rippling-s-coo-matt-mac": [],
+ "no-priors/2024-10-03-the-sheriff-of-silicon-valley-lina-khan-s-ftc-agenda-for-m-a-ai-acquis": [
+  "open-weight-models",
+  "policy-and-regulation"
+ ],
+ "no-priors/2024-10-08-launching-ai-products-with-braintrust-s-ceo-ankur-goyal": [
+  "models-and-benchmarks",
+  "agents"
+ ],
+ "no-priors/2024-10-17-gaming-nobel-prizes-and-at-risk-businesses-in-the-ai-era": [
+  "google"
+ ],
  "no-priors/2024-10-24-waymo-s-journey-to-full-autonomy-ai-breakthroughs-safety-and-scaling": [
   "physical-ai"
  ],
- "no-priors/2024-10-31-forecasting-the-future-with-kalshi-america-s-first-regulated-predictio": [],
+ "no-priors/2024-10-31-forecasting-the-future-with-kalshi-america-s-first-regulated-predictio": [
+  "policy-and-regulation"
+ ],
  "no-priors/2024-11-07-nvidia-s-jensen-huang-on-ai-chip-design-scaling-data-centers-and-his-1": [
   "infrastructure-and-chips",
-  "nvidia"
+  "agents",
+  "nvidia",
+  "xai"
  ],
  "no-priors/2024-11-14-ai-and-the-future-of-math-with-deepmind-s-alphaproof-team": [
-  "ai-for-science",
   "training-and-rl",
-  "google"
+  "ai-for-science"
  ],
  "no-priors/2024-11-21-model-plateaus-and-enterprise-ai-adoption-with-cohere-s-aidan-gomez": [
+  "models-and-benchmarks",
   "enterprise-adoption"
  ],
  "no-priors/2024-12-05-bolt-s-eric-simons-on-enabling-everyone-to-generate-websites-with-ai": [
-  "ai-coding"
+  "ai-coding",
+  "models-and-benchmarks"
  ],
  "no-priors/2024-12-12-how-diamond-cooling-could-power-the-future-of-ai-with-akash-systems": [
   "infrastructure-and-chips"
  ],
- "no-priors/2024-12-19-revolutionizing-customer-success-with-agency-s-elias-torres": [],
+ "no-priors/2024-12-19-revolutionizing-customer-success-with-agency-s-elias-torres": [
+  "enterprise-adoption",
+  "consumer-ai",
+  "openai"
+ ],
  "no-priors/2024-12-26-the-best-of-2024-with-sarah-guo-and-elad-gil": [
-  "physical-ai"
+  "generative-media",
+  "physical-ai",
+  "infrastructure-and-chips",
+  "nvidia",
+  "openai",
+  "meta"
  ],
  "no-priors/2025-01-09-erik-bernhardsson-on-creating-tools-that-make-ai-feel-effortless": [
-  "infrastructure-and-chips"
+  "ai-for-science"
  ],
  "no-priors/2025-01-16-how-ai-agents-are-transforming-customer-support-with-decagon-s-jesse-z": [
   "agents",
@@ -4422,123 +5470,173 @@
  "no-priors/2025-02-07-deepseek-deep-research-and-2025-predictions-with-sarah-and-elad": [
   "open-weight-models",
   "us-china",
-  "deepseek",
-  "openai"
+  "models-and-benchmarks",
+  "deepseek"
  ],
- "no-priors/2025-02-14-how-harvey-ai-is-changing-the-legal-industry-with-winston-weinberg": [],
+ "no-priors/2025-02-14-how-harvey-ai-is-changing-the-legal-industry-with-winston-weinberg": [
+  "models-and-benchmarks"
+ ],
  "no-priors/2025-02-20-building-hard-tech-in-hard-markets-kyle-vogt-on-cruise-twitch-and-the": [
   "physical-ai"
  ],
  "no-priors/2025-02-25-virtual-cell-models-tahoe-100-and-data-for-ai-in-bio-with-vevo-therape": [
-  "ai-for-science"
+  "models-and-benchmarks"
  ],
  "no-priors/2025-02-27-building-the-platform-for-scientific-breakthrough-with-noubar-afeyan-o": [
-  "ai-for-science"
+  "agents",
+  "infrastructure-and-chips"
  ],
  "no-priors/2025-03-05-national-security-strategy-and-ai-evals-on-the-eve-of-superintelligenc": [
+  "ai-safety",
   "models-and-benchmarks",
-  "infrastructure-and-chips",
-  "ai-safety"
+  "us-china"
  ],
  "no-priors/2025-03-13-copilot-agent-mode-and-the-new-world-of-dev-tools-with-github-s-ceo-th": [
+  "ai-coding",
+  "open-weight-models",
   "microsoft"
  ],
  "no-priors/2025-03-20-the-robotics-revolution-with-physical-intelligence-s-cofounder-chelsea": [
   "physical-ai"
  ],
  "no-priors/2025-03-27-conversations-are-the-source-of-truth-in-healthcare-with-abridge-ceo-s": [
-  "ai-for-science"
+  "training-and-rl"
  ],
  "no-priors/2025-04-03-public-markets-image-gen-and-specialized-models-with-sarah-and-elad": [
-  "context-engineering"
+  "context-engineering",
+  "agents"
  ],
  "no-priors/2025-04-10-from-job-displacement-to-ai-trainers-brendan-foody-on-work-in-the-ai-a": [
   "jobs-and-work",
   "models-and-benchmarks"
  ],
- "no-priors/2025-04-17-predicting-the-earth-with-josh-goldman-how-kobold-uses-ai-to-find-crit": [],
+ "no-priors/2025-04-17-predicting-the-earth-with-josh-goldman-how-kobold-uses-ai-to-find-crit": [
+  "infrastructure-and-chips"
+ ],
  "no-priors/2025-04-24-inside-deep-research-with-isa-fulford-building-the-future-of-ai-agents": [
-  "training-and-rl",
+  "agents",
+  "context-engineering",
   "openai"
  ],
  "no-priors/2025-05-01-o3-and-the-next-leap-in-reasoning-with-openai-s-eric-mitchell-and-bran": [
   "models-and-benchmarks",
-  "training-and-rl",
+  "agents",
   "openai"
  ],
  "no-priors/2025-05-08-gaming-as-the-future-of-education-with-duolingo-ceo-luis-von-ahn": [
   "jobs-and-work"
  ],
  "no-priors/2025-05-15-ai-is-making-enterprise-search-relevant-with-arvind-jain-of-glean": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "agents"
  ],
  "no-priors/2025-05-29-ai-consolidation-biotech-opportunities-and-world-models-with-sarah-and": [
+  "ai-coding",
   "generative-media",
   "physical-ai",
-  "ai-for-science"
+  "openai"
  ],
  "no-priors/2025-06-05-teaching-ai-to-understand-the-physical-world-with-dr-fei-fei-li-of-wor": [
-  "physical-ai"
+  "physical-ai",
+  "generative-media"
  ],
  "no-priors/2025-06-12-will-we-have-superintelligence-by-2028-with-anthropic-s-ben-mann": [
   "ai-safety",
-  "agents",
   "ai-coding",
+  "context-engineering",
   "anthropic"
  ],
- "no-priors/2025-06-17-the-operating-system-for-self-driving-cars-and-tanks-and-trucks-with-q": [],
+ "no-priors/2025-06-17-the-operating-system-for-self-driving-cars-and-tanks-and-trucks-with-q": [
+  "physical-ai"
+ ],
  "no-priors/2025-06-26-meet-alphaevolve-the-autonomous-agent-that-discovers-algorithms-better": [
+  "ai-safety",
+  "ai-for-science",
   "google"
  ],
- "no-priors/2025-07-10-why-platforms-win-and-point-solutions-fail-with-rippling-ceo-parker-co": [],
+ "no-priors/2025-07-10-why-platforms-win-and-point-solutions-fail-with-rippling-ceo-parker-co": [
+  "jobs-and-work"
+ ],
  "no-priors/2025-07-17-asimov-building-an-omniscient-rl-oracle-with-reflectionai-s-misha-lask": [
   "training-and-rl",
-  "ai-coding"
+  "ai-coding",
+  "models-and-benchmarks",
+  "anthropic"
  ],
- "no-priors/2025-07-24-the-power-of-quality-human-data-with-surgeai-founder-and-ceo-edwin-che": [],
+ "no-priors/2025-07-24-the-power-of-quality-human-data-with-surgeai-founder-and-ceo-edwin-che": [
+  "models-and-benchmarks",
+  "training-and-rl"
+ ],
  "no-priors/2025-07-31-america-s-plan-to-dominate-the-full-ai-stack-with-sriram-krishnan": [
-  "policy-and-regulation",
-  "us-china"
+  "open-weight-models",
+  "policy-and-regulation"
  ],
  "no-priors/2025-08-07-the-shifting-value-of-content-in-the-ai-age-with-cloudflare-ceo-matthe": [
+  "open-weight-models",
+  "context-engineering",
   "google"
  ],
  "no-priors/2025-08-14-chips-neoclouds-and-the-quest-for-ai-dominance-with-semianalysis-found": [
   "infrastructure-and-chips",
+  "us-china",
   "nvidia"
  ],
  "no-priors/2025-08-21-how-agentic-ai-is-transforming-the-startup-landscape-with-andrew-ng": [
-  "agents",
-  "ai-coding"
+  "ai-coding",
+  "consumer-ai"
  ],
  "no-priors/2025-08-28-reshaping-america-s-economy-for-the-superintelligence-century-with-jac": [
-  "ai-safety"
+  "infrastructure-and-chips",
+  "ai-economics",
+  "us-china"
  ],
- "no-priors/2025-09-05-a-new-operating-system-for-physicians-with-openevidence-founder-daniel": [],
- "no-priors/2025-09-15-jared-kushner-brainco-affinity-partners-and-the-geopolitics-of-ai": [],
+ "no-priors/2025-09-05-a-new-operating-system-for-physicians-with-openevidence-founder-daniel": [
+  "ai-for-science"
+ ],
+ "no-priors/2025-09-15-jared-kushner-brainco-affinity-partners-and-the-geopolitics-of-ai": [
+  "enterprise-adoption",
+  "policy-and-regulation"
+ ],
  "no-priors/2025-09-18-ai-agents-talking-to-ai-agents-reinventing-commerce-with-decagon-ceo-j": [
+  "agents",
   "enterprise-adoption"
  ],
  "no-priors/2025-09-25-reinventing-k-12-education-using-ai-with-alpha-school-principal-joe-li": [
-  "jobs-and-work"
+  "jobs-and-work",
+  "consumer-ai"
  ],
- "no-priors/2025-10-04-the-impact-of-ai-from-business-models-to-cybersecurity-with-palo-alto": [],
- "no-priors/2025-10-09-humans-bridging-iq-and-eq-in-machine-learning-with-eric-zelikman": [],
- "no-priors/2025-10-15-unlocking-the-road-to-energy-abundance-with-base-power-ceo-and-co-foun": [],
+ "no-priors/2025-10-04-the-impact-of-ai-from-business-models-to-cybersecurity-with-palo-alto": [
+  "ai-safety",
+  "agents",
+  "google"
+ ],
+ "no-priors/2025-10-09-humans-bridging-iq-and-eq-in-machine-learning-with-eric-zelikman": [
+  "models-and-benchmarks",
+  "context-engineering",
+  "xai"
+ ],
+ "no-priors/2025-10-15-unlocking-the-road-to-energy-abundance-with-base-power-ceo-and-co-foun": [
+  "infrastructure-and-chips"
+ ],
  "no-priors/2025-10-23-reinventing-the-developer-terminal-with-warp-co-founder-and-ceo-zach-l": [
-  "ai-coding"
+  "ai-coding",
+  "ai-consciousness",
+  "anthropic"
  ],
  "no-priors/2025-10-31-the-best-of-2025-so-far-with-sarah-guo-and-elad-gil": [
-  "ai-safety"
+  "models-and-benchmarks",
+  "enterprise-adoption"
  ],
  "no-priors/2025-11-06-meet-snowflake-intelligence-a-personalized-enterprise-intelligence-age": [
+  "agents",
   "enterprise-adoption"
  ],
  "no-priors/2025-11-13-how-ai-will-accelerate-breakthroughs-in-biotechnology-with-benchling-c": [
-  "ai-for-science"
+  "agents",
+  "anthropic"
  ],
  "no-priors/2025-11-19-sunday-robotics-scaling-the-home-robot-revolution-with-co-founders-ton": [
-  "physical-ai"
+  "training-and-rl"
  ],
  "no-priors/2025-12-05-scaling-legal-ai-and-building-next-generation-law-firms-with-harvey-co": [
   "agents",
