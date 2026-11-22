@@ -1,4 +1,34 @@
 {
+ "practical-ai/2018-08-27-robot-perception-and-mask-r-cnn": [
+  "physical-ai"
+ ],
+ "practical-ai/2018-09-03-ai-in-healthcare-synthesizing-dance-moves-hardware-acceleration": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2018-09-18-answering-recent-ai-questions-from-quora": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2018-10-01-openai-reinforcement-learning-robots-safety": [
+  "training-and-rl",
+  "physical-ai",
+  "openai"
+ ],
+ "practical-ai/2018-10-08-artificial-intelligence-at-nvidia": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2018-10-15-pytorch-1-0-vs-tensorflow-2-0": [],
+ "practical-ai/2018-10-22-fighting-bias-in-ai-and-in-hiring": [],
+ "practical-ai/2018-10-31-ais-that-look-human-and-create-portraits-of-humans": [],
+ "practical-ai/2018-11-05-getting-into-data-science-and-ai": [],
+ "practical-ai/2018-11-12-analyzing-ai-s-impact-on-society-through-art-and-film": [],
+ "practical-ai/2018-11-19-uber-and-intel-s-machine-learning-platforms": [
+  "infrastructure-and-chips"
+ ],
+ "practical-ai/2018-11-27-bert-one-nlp-model-to-rule-them-all": [
+  "training-and-rl",
+  "google"
+ ],
+ "practical-ai/2018-12-03-pachyderm-s-kubernetes-based-infrastructure-for-ai": [],
  "practical-ai/2018-12-10-so-you-have-an-ai-model-now-what": [
   "infrastructure-and-chips"
  ],
@@ -3248,6 +3278,19 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2018-08-26-max-tegmark-life-3-0": [],
+ "lex-fridman/2018-09-02-christof-koch-consciousness": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2018-10-17-steven-pinker-ai-in-the-age-of-reason": [],
+ "lex-fridman/2018-10-20-yoshua-bengio-deep-learning": [],
+ "lex-fridman/2018-11-16-vladimir-vapnik-statistical-learning": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2018-11-22-guido-van-rossum-python": [],
+ "lex-fridman/2018-11-29-jeff-atwood-stack-overflow-and-coding-horror": [
+  "ai-coding"
  ],
  "lex-fridman/2018-12-04-eric-schmidt-google": [
   "jobs-and-work",
