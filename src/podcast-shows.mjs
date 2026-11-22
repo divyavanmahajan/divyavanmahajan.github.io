@@ -57,6 +57,12 @@ export const podcastShows = [
     description: "Ksenia Se's Inference interviews with AI builders and researchers, plus Attention Span episodes on the week's AI news.",
     homepage: 'https://www.turingpost.com/podcast',
   },
+  {
+    slug: 'epoch-ai',
+    name: 'Epoch After Hours',
+    description: "Epoch AI's podcast: its researchers and guests on AI forecasting, scaling, compute, benchmarks and the economics of AGI.",
+    homepage: 'https://epoch.ai/epoch-after-hours',
+  },
 ];
 
 export const podcastShowSlugs = podcastShows.map((s) => s.slug);

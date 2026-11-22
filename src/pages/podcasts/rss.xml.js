@@ -10,7 +10,7 @@ export async function GET(context) {
 
     return rss({
         title: 'Podcast episode summaries',
-        description: "Divya's summaries of AI podcasts: Practical AI, Latent Space, The Cognitive Revolution, Dwarkesh Podcast, Lex Fridman Podcast, No Priors and Turing Post.",
+        description: "Divya's summaries of AI podcasts: Practical AI, Latent Space, The Cognitive Revolution, Dwarkesh Podcast, Lex Fridman Podcast, No Priors, Turing Post and Epoch After Hours (Epoch AI).",
         site: context.site || 'https://divyavanmahajan.github.io',
         items: episodes.map((ep) => ({
             title: `${getPodcastShow(ep.data.show)?.name ?? ep.data.show}: ${ep.data.title}`,

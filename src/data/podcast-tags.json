@@ -7312,5 +7312,39 @@
   "models-and-benchmarks",
   "ai-coding",
   "anthropic"
+ ],
+ "epoch-ai/2025-01-16-ai-in-2030-scaling-bottlenecks-and-explosive-growth": [
+  "infrastructure-and-chips",
+  "models-and-benchmarks",
+  "economics-and-crypto"
+ ],
+ "epoch-ai/2025-03-28-is-it-3-years-or-3-decades-away-disagreements-on-agi-timelines": [
+  "ai-safety",
+  "agents",
+  "models-and-benchmarks",
+  "anthropic"
+ ],
+ "epoch-ai/2025-09-05-forecasting-ai-progress-until-2040": [
+  "ai-safety",
+  "physical-ai",
+  "infrastructure-and-chips",
+  "openai"
+ ],
+ "epoch-ai/2025-10-01-what-does-economics-actually-tell-us-about-agi-phil-trammell": [
+  "models-and-benchmarks",
+  "economics-and-crypto"
+ ],
+ "epoch-ai/2025-12-18-the-eu-and-the-not-so-simple-macroeconomics-of-ai-luis-garicano": [
+  "jobs-and-work",
+  "policy-and-regulation",
+  "economics-and-crypto"
+ ],
+ "epoch-ai/2026-01-29-ai-math-capabilities-could-be-jagged-for-a-long-time-daniel-litt": [
+  "models-and-benchmarks",
+  "ai-for-science"
+ ],
+ "epoch-ai/2026-05-01-are-ai-benchmarks-doomed": [
+  "models-and-benchmarks",
+  "ai-coding"
  ]
 }

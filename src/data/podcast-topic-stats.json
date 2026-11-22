@@ -1860,7 +1860,14 @@
   "turing-post/2026-10-07-salesforce-s-rohan-kumar-on-the-unsolved-problem-holding-ai-agents-bac": "extraction",
   "turing-post/2026-10-08-i-tried-openai-dots-how-much-can-i-hand-over": "extraction",
   "turing-post/2026-10-09-peter-norvig-disagrees-with-yann-lecun-here-s-why": "extraction",
-  "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software": "extraction"
+  "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software": "extraction",
+  "epoch-ai/2025-01-16-ai-in-2030-scaling-bottlenecks-and-explosive-growth": "extraction",
+  "epoch-ai/2025-03-28-is-it-3-years-or-3-decades-away-disagreements-on-agi-timelines": "extraction",
+  "epoch-ai/2025-09-05-forecasting-ai-progress-until-2040": "extraction",
+  "epoch-ai/2025-10-01-what-does-economics-actually-tell-us-about-agi-phil-trammell": "extraction",
+  "epoch-ai/2025-12-18-the-eu-and-the-not-so-simple-macroeconomics-of-ai-luis-garicano": "extraction",
+  "epoch-ai/2026-01-29-ai-math-capabilities-could-be-jagged-for-a-long-time-daniel-litt": "extraction",
+  "epoch-ai/2026-05-01-are-ai-benchmarks-doomed": "extraction"
  },
  "topics": {
   "machine-learning": {
@@ -2142,6 +2149,29 @@
      }
     ]
    },
+   "epoch-ai": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Compute scaling",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Explosive economic growth",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Epoch AI",
+      "kind": "company",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 71,
     "related": [
@@ -2322,6 +2352,29 @@
      },
      {
       "name": "AI builders",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI and interest rates",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI value chain",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -2911,6 +2964,29 @@
      }
     ]
    },
+   "epoch-ai": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Explosive economic growth",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Automation of software engineering",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 43,
     "related": [
@@ -3069,6 +3145,29 @@
      {
       "name": "Eric Ries",
       "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Epoch AI",
+      "kind": "company",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI and interest rates",
+      "kind": "concept",
       "central": 1,
       "mentions": 1
      }
@@ -3377,6 +3476,29 @@
      }
     ]
    },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Acceleration of math research",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Attention bottleneck",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Benchmarks",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 10,
     "related": [
@@ -3560,6 +3682,29 @@
       "kind": "concept",
       "central": 1,
       "mentions": 1
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 5,
+    "related": [
+     {
+      "name": "Epoch AI",
+      "kind": "company",
+      "central": 3,
+      "mentions": 5
+     },
+     {
+      "name": "Explosive economic growth",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 3
+     },
+     {
+      "name": "FrontierMath: Open Problems",
+      "kind": "publication",
+      "central": 2,
+      "mentions": 2
      }
     ]
    },
@@ -3837,6 +3982,29 @@
      },
      {
       "name": "AI memory",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Automation of software engineering",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Compute scaling",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -4189,6 +4357,29 @@
       "kind": "person",
       "central": 2,
       "mentions": 2
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Automation of software engineering",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Compute scaling",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
@@ -4558,6 +4749,29 @@
      },
      {
       "name": "Corporate corruption",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI and interest rates",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI regulation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI value chain",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -5962,6 +6176,29 @@
      }
     ]
    },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI-assisted benchmark development",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Benchmark saturation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Benchmark-reality gap",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 175,
     "related": [
@@ -6656,6 +6893,29 @@
      },
      {
       "name": "AI builders",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI alignment",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Country of geniuses in a data center",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -7520,6 +7780,29 @@
       "kind": "person",
       "central": 1,
       "mentions": 2
+     }
+    ]
+   },
+   "epoch-ai": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI alignment",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
