@@ -1,4 +1,24 @@
 {
+ "practical-ai/2019-09-09-automl-and-ai-at-google": [
+  "google"
+ ],
+ "practical-ai/2019-09-17-worlds-are-colliding-ai-and-hpc": [],
+ "practical-ai/2019-09-25-the-influence-of-open-source-on-ai-development": [],
+ "practical-ai/2019-09-30-ai-in-the-majority-world-and-model-distillation": [
+  "open-weight-models",
+  "training-and-rl"
+ ],
+ "practical-ai/2019-10-07-flying-high-with-ai-drone-racing-at-alphapilot": [],
+ "practical-ai/2019-10-15-blacklisted-facial-recognition-and-surveillance-companies": [
+  "us-china"
+ ],
+ "practical-ai/2019-10-21-ai-in-the-browser": [],
+ "practical-ai/2019-10-28-it-s-time-to-talk-time-series": [],
+ "practical-ai/2019-11-05-open-source-data-labeling-tools": [],
+ "practical-ai/2019-11-11-robot-hands-solving-rubik-s-cubes": [
+  "physical-ai",
+  "openai"
+ ],
  "practical-ai/2019-11-18-intelligent-systems-and-knowledge-graphs": [],
  "practical-ai/2019-11-25-build-custom-ml-tools-with-streamlit": [],
  "practical-ai/2019-12-02-making-gans-practical": [
@@ -3167,6 +3187,18 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2019-09-14-francois-chollet-fran-ois-chollet-keras-deep-learning-and-the-progress": [],
+ "lex-fridman/2019-09-19-colin-angle-irobot": [
+  "physical-ai"
+ ],
+ "lex-fridman/2019-09-23-regina-barzilay-deep-learning-for-cancer-diagnosis-and-treatment": [],
+ "lex-fridman/2019-09-26-leonard-susskind-quantum-mechanics-string-theory-and-black-holes": [],
+ "lex-fridman/2019-09-30-peter-norvig-artificial-intelligence-a-modern-approach": [],
+ "lex-fridman/2019-10-11-david-ferrucci-ibm-watson-jeopardy-deep-conversations-with-ai": [],
+ "lex-fridman/2019-10-22-michio-kaku-future-of-humans-aliens-space-travel-physics": [],
+ "lex-fridman/2019-10-27-garry-kasparov-chess-deep-blue-ai-and-putin": [],
+ "lex-fridman/2019-11-01-sean-carroll-quantum-mechanics-and-the-many-worlds-interpretation": [],
+ "lex-fridman/2019-11-07-bjarne-stroustrup-c": [],
  "lex-fridman/2019-11-12-elon-musk-neuralink-ai-autopilot-and-the-pale-blue-dot": [
   "xai"
  ],
