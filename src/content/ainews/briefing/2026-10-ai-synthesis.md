@@ -39,7 +39,7 @@ AI models now find software faults faster than organisations can install the cor
 
 The agreed answer is symmetrical defence: agents must defend against agents. Brockman argues that security spend must be larger than software spend. Knecht expects most team time to go to security for the next 18 months, and Cloudflare plans to go from one red team to four or five. Kurtz and Knecht both say that zero-trust architecture puts companies in a better position.
 
-**Why it matters:** correction speed is now a safety limit. Volvo has long patch cycles in vehicles and plants for good engineering reasons, and operations in South-East Asia where one show reports high attack rates.
+**Why it matters:** correction speed is now a safety limit. Manufacturers have long patch cycles in vehicles and plants for good engineering reasons, and one show reports high attack rates in South-East Asia.
 
 ### 2. Defenders Lost Access to the Strongest Cyber Models
 
@@ -176,7 +176,7 @@ Anthropic filed its S-1. Revenue went from 4.6 billion USD for 2025 to 16.3 bill
 
 The White House held an AI summit with a superintelligence accord and two executive orders. The FTC opened an investigation into OpenAI and Anthropic about rogue agents (AIDB, 1 Oct). Jay Clayton became AI czar (AIDB, 5 Oct). A White House task force set an oversight agenda (AIDB, 16 Oct). Anthropic circulated its own federal safety bill, which critics on two sides attacked (AIDB, 19 Oct; Cognitive Revolution, 24 Oct). Alan Chan says that Anthropic implemented watermarking to comply with Article 50 of the EU AI Act, and calls Article 50 an under-appreciated base for identifying AI activity online (Cognitive Revolution, 14 Oct). RAND described US strategy options for superintelligence (Cognitive Revolution, 28 Oct).
 
-**Why it matters:** for Volvo the binding instrument is the EU AI Act. The US activity affects supplier behaviour more than Volvo obligations.
+**Why it matters:** for European companies the binding instrument is the EU AI Act. The US activity affects supplier behaviour more than their own obligations.
 
 ### 14. AI-Native Operating Models and the Workforce
 
@@ -184,7 +184,7 @@ The White House held an AI summit with a superintelligence accord and two execut
 
 Spawn runs a 10-person company with a persistent agent fleet: 77,000 changes each month and 30 times more spend on tokens than on salaries (AIDB, 30 Oct). Union has an AI chief marketing officer with AI sub-employees (Cognitive Revolution, 31 Oct). Cloudflare restructured to be AI-first, built an internal "Cloudflare OS" with governance over data flows, and will hire 1,000 interns at a company of about 5,000 people (No Priors, 23 Oct). Tenex pays engineers by story points and says that 90 percent of about 100 enterprises gave Claude or Codex to employees, 50 percent gave coding agents to engineers, and only about 5 percent have agents in production for non-engineering work (Latent Space, 21 Oct). The Midwest AI Summit (Practical AI, 29 Oct) gives six constraints for choosing a team's level of agent autonomy and says that workers who help build a tool become its champions. Nufar Gaspar (AIDB, 12 Oct) calls an internal AI champions network the highest-return transformation activity. Practical AI (15 Oct) and Turing Post (Peter Norvig, 9 Oct) say that education lags.
 
-**Why it matters:** Volvo cannot copy Spawn. It can copy the durable practices: standing responsibility for agents, shared records instead of messages, observability, written precedent and a funded champions network.
+**Why it matters:** Large enterprises cannot copy Spawn. They can copy the durable practices: standing responsibility for agents, shared records instead of messages, observability, written precedent and a funded champions network.
 
 ### 15. Physical AI and World Models
 
@@ -192,7 +192,7 @@ Spawn runs a 10-person company with a persistent agent fleet: 77,000 changes eac
 
 Nvidia's Cosmos lab describes world models as world simulation and says that robots are not yet commercially ready (Practical AI, 1 Oct). Google DeepMind's Gemini Robotics 2 controls whole humanoid bodies across robot types (Cognitive Revolution, 3 Oct). Dyna-2 is pretrained on more than one million hours of data and runs hour-long tasks at Din Tai Fung and Best Western (Latent Space, 13 Oct). Genie 4 composes several models and makes worlds that users can change while they run, limited to two minutes (AIDB, 28 Oct). Peter Norvig argues that language models are already world models (Turing Post, 9 Oct).
 
-**Why it matters:** simulated robot training is relevant to Volvo plants and autonomous systems over several years. No action this quarter.
+**Why it matters:** simulated robot training is relevant to manufacturing plants and autonomous systems over several years. No action this quarter.
 
 ## By building block
 

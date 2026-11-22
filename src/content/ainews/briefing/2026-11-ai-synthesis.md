@@ -33,7 +33,7 @@ The effect in China was fast. TSMC and Samsung suspended some deliveries to Chin
 
 On The Cognitive Revolution, former Biden advisers Ben Buchanan and Tantum Collins estimate that the US and its allies have about a 100:1 advantage in compute production and 15:1 in compute access. They say closing the remote-access loophole moves access toward 100:1. Nathan Labenz argues for a "chips for controls" deal with China instead. On Dwarkesh Podcast, Paul Christiano says Chinese developers stay close behind mainly through distillation and the spread of ideas. The evidence about Megaspeed is contested: CNN reported that intelligence does not yet prove the spy claim.
 
-Why it matters: the location of compute is now a licensed decision. Volvo has operations in Brazil and South-East Asia. Any AI workload there on advanced chips, run by Volvo or by a supplier, can need a licence.
+Why it matters: the location of compute is now a licensed decision. For companies with operations in Brazil or South-East Asia, any AI workload there on advanced chips, run by the company or by a supplier, can need a licence.
 
 ### The Nvidia Financing Backstop Became Uncertain
 
@@ -182,7 +182,7 @@ Why it matters: this is for the planning horizon, not current decisions. Supplie
 - Monitoring moves from "trust the logs" to monitoring that the agent cannot reach.
 - Open-weight and local models become good enough for privacy-heavy work (Qwen 3.8 27B on a laptop is reported to match closed models of 18 months ago).
 - Data centre construction becomes a US political issue: after the midterms, 43 of 44 local moratorium-type votes passed.
-- AI-for-science claims accelerate (Isomorphic Labs, Helmholtz Munich, Fermat's Last Theorem formalised), but have low direct Volvo exposure.
+- AI-for-science claims accelerate (Isomorphic Labs, Helmholtz Munich, Fermat's Last Theorem formalised), but have low direct exposure for most enterprises.
 
 ## Emerging Ideas
 
