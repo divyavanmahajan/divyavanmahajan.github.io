@@ -1,4 +1,14 @@
 {
+ "practical-ai/2020-03-02-tensorflow-in-the-cloud": [
+  "enterprise-adoption",
+  "google"
+ ],
+ "practical-ai/2020-03-09-what-exactly-is-data-science-these-days": [],
+ "practical-ai/2020-03-16-building-a-career-in-data-science": [],
+ "practical-ai/2020-03-23-speech-recognition-to-say-it-just-right": [],
+ "practical-ai/2020-03-25-welcome-to-practical-ai": [],
+ "practical-ai/2020-03-30-mapping-the-intersection-of-ai-and-gis": [],
+ "practical-ai/2020-04-06-covid-19-q-a-and-cord-19": [],
  "practical-ai/2020-04-13-achieving-provably-beneficial-human-compatible-ai": [],
  "practical-ai/2020-04-20-exploring-the-covid-19-open-research-dataset": [],
  "practical-ai/2020-04-27-reinforcement-learning-for-chip-design": [
@@ -3137,8 +3147,32 @@
   "hugging-face",
   "openai"
  ],
+ "lex-fridman/2020-02-26-marcus-hutter-universal-artificial-intelligence-aixi-and-agi": [],
+ "lex-fridman/2020-02-29-john-hopfield-physics-view-of-the-mind-and-neurobiology": [],
+ "lex-fridman/2020-03-03-alex-garland-ex-machina-devs-annihilation-and-the-poetry-of-science": [],
+ "lex-fridman/2020-03-05-ann-druyan-cosmos-carl-sagan-voyager-and-the-beauty-of-science": [],
+ "lex-fridman/2020-03-07-lee-smolin-quantum-gravity-and-einstein-s-unfinished-revolution": [],
+ "lex-fridman/2020-03-16-vitalik-buterin-ethereum-cryptocurrency-and-the-future-of-money": [],
+ "lex-fridman/2020-03-19-anca-dragan-human-robot-interaction-and-reward-engineering": [
+  "physical-ai"
+ ],
+ "lex-fridman/2020-03-21-simon-sinek-leadership-hard-work-optimism-and-the-infinite-game": [],
+ "lex-fridman/2020-03-26-nick-bostrom-simulation-and-superintelligence": [
+  "ai-safety"
+ ],
+ "lex-fridman/2020-03-31-roger-penrose-physics-of-consciousness-and-the-infinite-universe": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2020-04-03-david-silver-alphago-alphazero-and-deep-reinforcement-learning": [
+  "training-and-rl",
+  "google"
+ ],
+ "lex-fridman/2020-04-09-richard-dawkins-evolution-intelligence-simulation-and-memes": [],
  "lex-fridman/2020-04-13-eric-weinstein-geometric-unity-and-the-call-for-new-ideas-leaders-inst": [],
  "lex-fridman/2020-04-18-stephen-wolfram-cellular-automata-computation-and-physics": [],
+ "lex-fridman/2020-04-22-dmitry-korkin-computational-biology-of-coronavirus": [
+  "ai-for-science"
+ ],
  "lex-fridman/2020-04-24-jack-dorsey-square-cryptocurrency-and-artificial-intelligence": [],
  "lex-fridman/2020-04-29-harry-cliff-particle-physics-and-the-large-hadron-collider": [],
  "lex-fridman/2020-05-05-daphne-koller-biomedicine-and-machine-learning": [],
