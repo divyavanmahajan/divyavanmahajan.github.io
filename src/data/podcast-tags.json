@@ -1,4 +1,15 @@
 {
+ "practical-ai/2019-06-17-model-inspection-and-interpretation-at-seldon": [
+  "enterprise-adoption"
+ ],
+ "practical-ai/2019-06-25-exposing-the-deception-of-deepfakes": [],
+ "practical-ai/2019-07-03-celebrating-episode-50-and-the-neural-net": [],
+ "practical-ai/2019-07-19-ai-code-that-facilitates-good-science": [],
+ "practical-ai/2019-07-30-ai-driven-studies-of-the-ancient-world-and-good-gans": [],
+ "practical-ai/2019-08-12-serving-deep-learning-models-with-redisai": [],
+ "practical-ai/2019-08-26-on-being-humain": [
+  "jobs-and-work"
+ ],
  "practical-ai/2019-09-09-automl-and-ai-at-google": [
   "google"
  ],
@@ -3186,6 +3197,39 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "lex-fridman/2019-07-01-jeff-hawkins-thousand-brains-theory-of-intelligence": [],
+ "lex-fridman/2019-07-10-sean-carroll-the-nature-of-the-universe-life-and-intelligence": [
+  "ai-consciousness"
+ ],
+ "lex-fridman/2019-07-15-kai-fu-lee-ai-superpowers-china-and-silicon-valley": [
+  "us-china",
+  "jobs-and-work"
+ ],
+ "lex-fridman/2019-07-22-chris-urmson-self-driving-cars-at-aurora-google-cmu-and-darpa": [
+  "physical-ai",
+  "google"
+ ],
+ "lex-fridman/2019-07-29-gustav-soderstrom-spotify": [],
+ "lex-fridman/2019-08-01-kevin-scott-microsoft-cto": [
+  "microsoft"
+ ],
+ "lex-fridman/2019-08-05-george-hotz-comma-ai-openpilot-and-autonomous-vehicles": [
+  "physical-ai"
+ ],
+ "lex-fridman/2019-08-12-paola-arlotta-brain-development-from-stem-cell-to-organoid": [],
+ "lex-fridman/2019-08-19-keoki-jackson-lockheed-martin": [],
+ "lex-fridman/2019-08-23-pamela-mccorduck-machines-who-think-and-the-early-days-of-ai": [
+  "ai-for-science"
+ ],
+ "lex-fridman/2019-08-27-jeremy-howard-fast-ai-deep-learning-courses-and-research": [
+  "infrastructure-and-chips"
+ ],
+ "lex-fridman/2019-08-31-yann-lecun-deep-learning-convolutional-neural-networks-and-self-superv": [
+  "training-and-rl"
+ ],
+ "lex-fridman/2019-09-08-vijay-kumar-flying-robots": [
+  "physical-ai"
  ],
  "lex-fridman/2019-09-14-francois-chollet-fran-ois-chollet-keras-deep-learning-and-the-progress": [],
  "lex-fridman/2019-09-19-colin-angle-irobot": [
