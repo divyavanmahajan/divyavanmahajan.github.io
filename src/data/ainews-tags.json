@@ -2492,5 +2492,10 @@
   "models-and-benchmarks",
   "anthropic",
   "google"
+ ],
+ "2026-11-22-when-ai-labs-rival-nations": [
+  "models-and-benchmarks",
+  "agents",
+  "anthropic"
  ]
 }
