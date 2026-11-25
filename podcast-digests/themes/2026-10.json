@@ -1,6 +1,6 @@
 {
   "period": "2026-10",
-  "episodeCount": 69,
+  "episodeCount": 73,
   "headline": "October was dominated by Anthropic's IPO filing and the money questions around it, from a 400-page S-1 to neocloud distress and GPU credit. Underneath, AI agents moved onto both sides of the ledger: finding vulnerabilities, producing mathematical results and running whole companies.",
   "themes": [
     {
@@ -57,7 +57,9 @@
         "no-priors/2026-10-29",
         "cognitive-revolution/2026-10-07",
         "practical-ai/2026-10-29",
-        "latent-space/2026-10-28"
+        "latent-space/2026-10-28",
+        "pragmatic-engineer/2026-10-14",
+        "pragmatic-engineer/2026-10-07"
       ]
     },
     {

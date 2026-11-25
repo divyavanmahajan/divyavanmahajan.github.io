@@ -3,8 +3,8 @@
  "start": "2026-03-01",
  "end": "2026-03-31",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 62,
+ "generated": "2026-11-25",
+ "episodeCount": 65,
  "counts": {
   "aidb": 28,
   "turing-post": 7,
@@ -13,7 +13,8 @@
   "practical-ai": 3,
   "lex-fridman": 3,
   "dwarkesh": 3,
-  "no-priors": 2
+  "no-priors": 2,
+  "pragmatic-engineer": 3
  },
  "headline": "March was the month personal agents went mainstream: OpenClaw-style 'claws', Claude Cowork and cloud coding agents spread from hobbyists to every major lab and product. Underneath it, the hard questions moved to verification, governance, compute, open versus closed models and who bears the cost for jobs, as AI became a political issue.",
  "themes": [
@@ -41,7 +42,8 @@
     "aidb/2026-03-18-how-to-use-agent-skills",
     "aidb/2026-03-27-anthropic-accidentally-revealed-their-most-powerful-model-ever",
     "aidb/2026-03-12-what-vibe-coding-is-turning-into",
-    "aidb/2026-03-30-the-state-of-ai-q2-ais-second-moment"
+    "aidb/2026-03-30-the-state-of-ai-q2-ais-second-moment",
+    "pragmatic-engineer/2026-03-04-building-claude-code-with-boris-cherny"
    ]
   },
   {
@@ -55,7 +57,8 @@
     "practical-ai/2026-03-17-humility-in-the-age-of-agentic-coding",
     "aidb/2026-03-12-what-vibe-coding-is-turning-into",
     "aidb/2026-03-10-the-debate-over-anthropics-new-product-price-or-existential-dread",
-    "aidb/2026-03-01-schrodingers-apocalypse"
+    "aidb/2026-03-01-schrodingers-apocalypse",
+    "pragmatic-engineer/2026-03-11-from-ides-to-ai-agents-with-steve-yegge"
    ]
   },
   {
@@ -159,7 +162,7 @@
   "Design the integration layer for agents, not just humans. CLIs, skills and well-documented APIs lower the cost of agent use. Keeping skills portable and evaluating open-weight models alongside closed ones reduces lock-in to any single model vendor.",
   "AI is now a political and workforce issue. Pair adoption plans with clear messaging on role redesign and reskilling, and track emerging national AI rules and vendor-government disputes as supplier risk."
  ],
- "themesEpisodeCount": 62,
+ "themesEpisodeCount": 65,
  "episodes": [
   {
    "key": "aidb/2026-03-31-the-ultimate-ai-catch-up-guide",
@@ -544,6 +547,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-03-18-building-whatsapp-with-jean-lee",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-03-18",
+   "slug": "building-whatsapp-with-jean-lee",
+   "title": "Building WhatsApp with Jean Lee",
+   "url": "https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee",
+   "youtube": "https://www.youtube.com/watch?v=5Kn32cIWPSY",
+   "guests": [
+    "Jean Lee"
+   ],
+   "durationMin": 71,
+   "summary": "Gergely Orosz talks with Jean Lee, engineer #19 at WhatsApp, about how a team of about 30 engineers built and ran the app across eight platforms with almost no formal process, Erlang on the backend and a founder habit of saying no to features. She describes the $19B Facebook acquisition from the inside, moving into management and starting the London office, how calibration meetings at Facebook work, and whether AI really explains today's small teams.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-03-17-the-race-to-put-ai-agents-everywhere",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -798,6 +818,23 @@
    ],
    "durationMin": 317,
    "summary": "Game designer Jeff Kaplan recounts his path from failed writer and obsessive EverQuest guild leader to Blizzard, where he designed quests and later directed World of Warcraft, worked on the canceled MMO Titan, and led Overwatch. He explains why he left Blizzard in 2021 amid Overwatch League and Overwatch 2 pressure, and introduces his new studio Kintsugiyama and its game The Legend of California, closing with views on game design, online toxicity, small studios and AI in game development.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-03-11-from-ides-to-ai-agents-with-steve-yegge",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-03-11",
+   "slug": "from-ides-to-ai-agents-with-steve-yegge",
+   "title": "From IDEs to AI Agents with Steve Yegge",
+   "url": "https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve",
+   "youtube": "https://www.youtube.com/watch?v=aFsAOu2bgFk",
+   "guests": [
+    "Steve Yegge"
+   ],
+   "durationMin": 91,
+   "summary": "Gergely Orosz talks with Steve Yegge about how what engineers need to know keeps moving up the abstraction ladder, his eight levels of AI adoption, and Gas Town, his open-source multi-agent orchestrator. They cover AI-blamed layoffs, the 'vampiric' burnout effect and value capture, prototype-driven product development at Anthropic, vibe-coding 'heresies', monoliths as a blocker, the Bitter Lesson, and Steve's predictions for personal software and programming for everyone.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -1087,6 +1124,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover Cursor doubling to $2B ARR, Claude outages amid surging demand, ChatGPT uninstalls after OpenAI's Pentagon deal, government fallout for Anthropic and a rumored OpenAI device. The main episode surveys zero-human company experiments such as FelixCraft, Polsia and ZHC Company, and NLW's skepticism grounded in human attention as the constraint. The transcript contains a long speech-to-text repetition loop in the headlines.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-03-04-building-claude-code-with-boris-cherny",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-03-04",
+   "slug": "building-claude-code-with-boris-cherny",
+   "title": "Building Claude Code with Boris Cherny",
+   "url": "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny",
+   "youtube": "https://www.youtube.com/watch?v=julbw1JuAz0",
+   "guests": [
+    "Boris Cherny"
+   ],
+   "durationMin": 97,
+   "summary": "Gergely Orosz talks with Boris Cherny, creator and head of Claude Code at Anthropic, about his path from startups through Meta, where he led code quality, to building Claude Code as a side project. They cover his parallel-agent workflow shipping 20-30 PRs a day, AI and deterministic code review, Claude Code's simple architecture, agentic search, permissions and safety layers, prototyping instead of PRDs, Claude Cowork, agent teams, and his printing-press analogy for the future of software engineering.",
    "summarySource": "extraction",
    "partial": false
   },

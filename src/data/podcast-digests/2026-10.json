@@ -3,8 +3,8 @@
  "start": "2026-10-01",
  "end": "2026-10-31",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 69,
+ "generated": "2026-11-25",
+ "episodeCount": 73,
  "counts": {
   "cognitive-revolution": 11,
   "latent-space": 12,
@@ -12,6 +12,7 @@
   "dwarkesh": 3,
   "no-priors": 6,
   "practical-ai": 5,
+  "pragmatic-engineer": 4,
   "lex-fridman": 1,
   "turing-post": 5
  },
@@ -71,7 +72,9 @@
     "no-priors/2026-10-29-taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found",
     "cognitive-revolution/2026-10-07-software-that-never-breaks-outsystems-ceo-woodson-martin-on-building-e",
     "practical-ai/2026-10-29-abundant-intelligence-at-the-midwest-ai-summit",
-    "latent-space/2026-10-28-why-agents-love-supabase"
+    "latent-space/2026-10-28-why-agents-love-supabase",
+    "pragmatic-engineer/2026-10-14-ubers-ai-infra-from-the-inside",
+    "pragmatic-engineer/2026-10-07-building-resilient-systems-with-sam-newman"
    ]
   },
   {
@@ -163,7 +166,7 @@
   "Agent-run workflows in these accounts succeed when determinism surrounds them: agent registries and identities, approvals, audit trails, verifiers and evals built from staff feedback. Build these controls into the platform before scaling agent autonomy across teams.",
   "Watch the financial health of AI vendors. Neocloud distress, compute debt and IPO scrutiny of the labs mean contracts, data portability and exit plans deserve the same attention as model capability."
  ],
- "themesEpisodeCount": 69,
+ "themesEpisodeCount": 73,
  "episodes": [
   {
    "key": "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer",
@@ -283,6 +286,23 @@
    ],
    "durationMin": 54,
    "summary": "Daniel Whitenack presents three talks from the second Midwest AI Summit. Heidi Porter of Moyer Group AI covers durable AI-augmented workflows using the right mechanism per task plus guardrails, evals and observability; Kevin Solorio of Focused explains building agents with blue-collar workers to earn adoption; and Chris Shinkle and Andrew Dunlap of SEP present a constraints-based framework for choosing a team's level of agentic autonomy, from individual coding to a dark factory.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-10-29-software-engineering-at-google-cs-education-with-titus-winters",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-10-29",
+   "slug": "software-engineering-at-google-cs-education-with-titus-winters",
+   "title": "Software engineering at Google & CS education with Titus Winters",
+   "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+   "youtube": "https://www.youtube.com/watch?v=mQu0zN4IvSI",
+   "guests": [
+    "Titus Winters"
+   ],
+   "durationMin": 100,
+   "summary": "Titus Winters, lead author of Software Engineering at Google and now at Adobe, describes Google's mandatory testing, the Abseil cleanup of a 250-million-line C++ codebase with compiler-assisted refactoring, and the readability program. He discusses teams and psychological safety, layoffs, why productivity metrics miss AI's biggest value, and why the undergraduate CS curriculum he helped set should largely be burned down and refocused on design, specification, testing and teamwork.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -601,6 +621,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-10-21-the-revised-rules-of-engineering-management-with-will-larson",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-10-21",
+   "slug": "the-revised-rules-of-engineering-management-with-will-larson",
+   "title": "The revised rules of engineering management with Will Larson",
+   "url": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering",
+   "youtube": "https://www.youtube.com/watch?v=Prl858_AovM",
+   "guests": [
+    "Will Larson"
+   ],
+   "durationMin": 116,
+   "summary": "Gergely Orosz talks with Will Larson, CTO of Imprint and former CTO of Carta and Calm, about his career from Yahoo and Digg's troubled v4 rewrite through Uber and Stripe. They discuss how ZIRP shaped 2010s engineering management, why managers are expected to be technical again, career ladders, the CTO role as technologist plus bureaucrat, and Larson's advice that middle managers reskill. The episode closes on writing in the AI era.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-10-20-why-ai-companies-are-betting-personality-beats-intelligence",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -809,6 +846,23 @@
    "durationMin": 110,
    "summary": "A few years ago I stumbled upon Leash Bio’s Substack, and was hooked. Be it their Kaggle competition that showed that no, we really haven’t solved protein-ligand binding, or their crazy discovery that knowing a molecule’s author is perhaps all you need...",
    "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-10-14-ubers-ai-infra-from-the-inside",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-10-14",
+   "slug": "ubers-ai-infra-from-the-inside",
+   "title": "Uber’s AI infra, from the inside",
+   "url": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside",
+   "youtube": "https://www.youtube.com/watch?v=MDUYSMJmi8A",
+   "guests": [
+    "Uday Kiran Medisetty"
+   ],
+   "durationMin": 93,
+   "summary": "Gergely Orosz talks with Uber Distinguished Engineer Uday Kiran Medisetty about Uber's internal developer tooling, from pre-AI systems like DevPods, M3DB, Cadence, Morpheus, Jaeger and Slate to AI-era systems such as Model Gateway, AIFX, MCP Gateway, the context graph, the Minion background agent, Code Inbox, Capri, Shepherd/Fox and Wisdom. They discuss AI spend tiers, code review as a bottleneck, measuring feature velocity instead of diff velocity, and how the engineer's job is shifting toward context engineering and verification.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1068,6 +1122,23 @@
    ],
    "durationMin": null,
    "summary": "OutSystems CEO Woodson Martin discusses how the platform's abstraction layer and deterministic code generation keep AI-built enterprise software reliable and compliant. He covers enterprise readiness, compliance backlogs, cybersecurity, token-spend optimization via a custom harness and LLM router, legacy modernization, platform convergence and hiring AI-native junior talent.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-10-07-building-resilient-systems-with-sam-newman",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-10-07",
+   "slug": "building-resilient-systems-with-sam-newman",
+   "title": "Building resilient systems with Sam Newman",
+   "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems-with-sam",
+   "youtube": "https://www.youtube.com/watch?v=a0sZV0qIbI0",
+   "guests": [
+    "Sam Newman"
+   ],
+   "durationMin": 118,
+   "summary": "Gergely Orosz interviews Sam Newman, author of Building Microservices, about his Thoughtworks years, the origin of the term microservices and why he calls them an architecture of last resort. They cover his new book Building Resilient Distributed Systems: three rules of distributed systems, observability, idempotency, thundering herds, fail open vs fail closed, and David Woods' four resilience concepts. The final part covers AI: specs vs code as source of truth, cognitive debt and cognitive surrender, vendor hedging and modular architecture for software factories.",
    "summarySource": "extraction",
    "partial": false
   },

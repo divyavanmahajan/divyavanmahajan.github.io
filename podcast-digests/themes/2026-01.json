@@ -1,6 +1,6 @@
 {
   "period": "2026-01",
-  "episodeCount": 50,
+  "episodeCount": 52,
   "headline": "January belonged to Claude Code: after a holiday surge around Opus 4.5, hosts across shows asked whether code AGI is already functional AGI, and Claude Cowork carried the same agent into non-coding work. Underneath it ran a widening gap between the people and companies who reorganise around agents and everyone else, with jobs, capital and governance debates trying to catch up.",
   "themes": [
     {
@@ -19,14 +19,15 @@
     },
     {
       "title": "Longer-running agents: loops, swarms, personal agents",
-      "body": "The practice of vibe coding shifted toward extending agent autonomy: NLW explains Cursor's multi-agent browser experiment, the Ralph Wiggum loop and Clawdbot on Mac minis, then asks whether Kimi K2.5's Agent Swarm makes 2026 the year of swarms. By month's end 100,000 agents had joined Moltbook. Daniel Miessler shows his Claude Code-based Personal AI Infrastructure, Brex CTO James Reggio a custom multi-agent network, and Dominic Williams proposes governing unstoppable agents through model ensembles and consensus.",
+      "body": "The practice of vibe coding shifted toward extending agent autonomy: NLW explains Cursor's multi-agent browser experiment, the Ralph Wiggum loop and Clawdbot on Mac minis, then asks whether Kimi K2.5's Agent Swarm makes 2026 the year of swarms. By month's end 100,000 agents had joined Moltbook. Daniel Miessler shows his Claude Code-based Personal AI Infrastructure, Brex CTO James Reggio a custom multi-agent network, and Dominic Williams proposes governing unstoppable agents through model ensembles and consensus. Clawdbot creator Peter Steinberger tells Gergely Orosz he runs 5-10 Codex agents in parallel.",
       "eps": [
         "aidb/2026-01-26",
         "aidb/2026-01-28-are-agent-swarms-the-nex",
         "aidb/2026-01-31",
         "cognitive-revolution/2026-01-18",
         "latent-space/2026-01-17",
-        "cognitive-revolution/2026-01-25"
+        "cognitive-revolution/2026-01-25",
+        "pragmatic-engineer/2026-01-28-the-creator-of-clawd-i-s"
       ]
     },
     {

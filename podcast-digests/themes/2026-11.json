@@ -1,6 +1,6 @@
 {
   "period": "2026-11",
-  "episodeCount": 41,
+  "episodeCount": 47,
   "headline": "November was dominated by Jensen Huang's ouster from Nvidia over an alleged Chinese spy affair and by Anthropic's record IPO, which pulled chip export controls and AI valuations into Washington politics. Underneath, enterprise AI spend and coding-agent use kept climbing while warnings about recursive self-improvement grew louder.",
   "themes": [
     {
@@ -15,7 +15,8 @@
         "aidb/2026-11-18",
         "aidb/2026-11-11",
         "cognitive-revolution/2026-11-21",
-        "aidb/2026-11-20"
+        "aidb/2026-11-20",
+        "aidb/2026-11-23"
       ]
     },
     {
@@ -29,7 +30,8 @@
         "aidb/2026-11-16",
         "aidb/2026-11-03",
         "cognitive-revolution/2026-11-07",
-        "aidb/2026-11-20"
+        "aidb/2026-11-20",
+        "aidb/2026-11-22"
       ]
     },
     {
@@ -57,7 +59,9 @@
         "practical-ai/2026-11-19",
         "practical-ai/2026-11-05",
         "cognitive-revolution/2026-11-14",
-        "turing-post/2026-11-19"
+        "turing-post/2026-11-19",
+        "pragmatic-engineer/2026-11-18",
+        "pragmatic-engineer/2026-11-16"
       ]
     },
     {
@@ -95,7 +99,8 @@
         "no-priors/2026-11-05",
         "no-priors/2026-11-19",
         "latent-space/2026-11-09",
-        "aidb/2026-11-05"
+        "aidb/2026-11-05",
+        "aidb/2026-11-24"
       ]
     },
     {

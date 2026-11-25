@@ -1,6 +1,6 @@
 {
   "period": "2026-05",
-  "episodeCount": 60,
+  "episodeCount": 63,
   "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
   "themes": [
     {
@@ -29,7 +29,9 @@
         "cognitive-revolution/2026-05-20",
         "cognitive-revolution/2026-05-15",
         "practical-ai/2026-05-21",
-        "latent-space/2026-05-21"
+        "latent-space/2026-05-21",
+        "pragmatic-engineer/2026-05-27-building-opencode-with-d",
+        "pragmatic-engineer/2026-05-13-typescript-c-and-turbo-p"
       ]
     },
     {

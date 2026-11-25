@@ -1,6 +1,6 @@
 {
   "period": "2026-06",
-  "episodeCount": 61,
+  "episodeCount": 64,
   "headline": "June was dominated by the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, a saga that grew into what NLW calls an ad hoc AI licensing regime now covering OpenAI's GPT-5.6 too. Underneath it ran a quieter story about scarcity: tokens, compute and memory got expensive, pushing enterprises toward token efficiency, cheaper open-weight models and multi-model stacks.",
   "themes": [
     {
@@ -86,7 +86,9 @@
         "latent-space/2026-06-02",
         "latent-space/2026-06-03-satya-nadella-no-priors-",
         "latent-space/2026-06-24",
-        "turing-post/2026-06-07"
+        "turing-post/2026-06-07",
+        "pragmatic-engineer/2026-06-24-tech-interviews-with-nee",
+        "pragmatic-engineer/2026-06-17-ci-cd-with-robert-erez"
       ]
     },
     {

@@ -3,13 +3,14 @@
  "start": "2026-07-01",
  "end": "2026-07-31",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 52,
+ "generated": "2026-11-25",
+ "episodeCount": 56,
  "counts": {
   "aidb": 27,
   "no-priors": 4,
   "cognitive-revolution": 6,
   "practical-ai": 5,
+  "pragmatic-engineer": 4,
   "latent-space": 6,
   "lex-fridman": 1,
   "turing-post": 2,
@@ -73,14 +74,16 @@
   },
   {
    "title": "Harnesses, loops and agent infrastructure",
-   "body": "At the AI Engineer World's Fair, focus moved to harnesses, loop engineering, software factories and skills, with coding agents replacing IDEs. ZenML's Hamza Tahir told Practical AI how MLOps carries over to agents and introduced the Kitaru runtime for durable, replayable agents. Modal CTO Akshat Bubna described a shift from developer experience to agent experience, with sandboxes and elastic GPU inference. Poolside's Eiso Kant argued for minimal harnesses over tool calling, and CoreWeave's Corey Sanders explained why AI needs differently designed infrastructure.",
+   "body": "At the AI Engineer World's Fair, focus moved to harnesses, loop engineering, software factories and skills, with coding agents replacing IDEs. ZenML's Hamza Tahir told Practical AI how MLOps carries over to agents and introduced the Kitaru runtime for durable, replayable agents. Modal CTO Akshat Bubna described a shift from developer experience to agent experience, with sandboxes and elastic GPU inference. Poolside's Eiso Kant argued for minimal harnesses over tool calling, and CoreWeave's Corey Sanders explained why AI needs differently designed infrastructure. Dex Horthy told Gergely Orosz about context engineering.",
    "eps": [
     "aidb/2026-07-15-5-ai-engineering-trends-for-non-engineers",
     "practical-ai/2026-07-09-building-durable-ai-agents",
     "latent-space/2026-07-08-why-ai-infrastructure-must-evolve-for-agent-experience-akshat-bubna-mo",
     "latent-space/2026-07-23-inside-the-model-factory-eiso-kant-poolside-ai",
     "practical-ai/2026-07-17-the-future-of-ai-infrastructure-with-coreweave",
-    "cognitive-revolution/2026-07-09-ai-am-highlights-exploring-the-j-space-ai-superforecasters-sambanova-s"
+    "cognitive-revolution/2026-07-09-ai-am-highlights-exploring-the-j-space-ai-superforecasters-sambanova-s",
+    "pragmatic-engineer/2026-07-15-context-engineering-with-dex-horthy",
+    "pragmatic-engineer/2026-07-29-formal-methods-with-hillel-wayne"
    ]
   },
   {
@@ -92,7 +95,9 @@
     "aidb/2026-07-06-ai-is-making-one-person-million-dollar-companies-more-common",
     "aidb/2026-07-05-the-job-positions-of-the-ai-future",
     "no-priors/2026-07-23-building-an-autonomous-delivery-experience-with-doordash-co-founders-a",
-    "no-priors/2026-07-09-travel-through-the-lens-of-ai-with-with-booking-com-ceo-glenn-fogel"
+    "no-priors/2026-07-09-travel-through-the-lens-of-ai-with-with-booking-com-ceo-glenn-fogel",
+    "pragmatic-engineer/2026-07-08-the-pragmatic-engineer-ama",
+    "pragmatic-engineer/2026-07-01-how-kent-beck-shapes-the-software-engineering-industry"
    ]
   },
   {
@@ -150,7 +155,7 @@
   "Invest in harnesses, loops and durable runtimes, not only model access. Practitioners now locate production reliability in the harness, its tools, and its replay and failure handling rather than in the model alone.",
   "Plan for changed roles rather than assumed headcount cuts. The evidence discussed this month points to augmentation, so pair pull-based adoption and champions programs with role redesign and upskilling, and watch entry-level hiring closely."
  ],
- "themesEpisodeCount": 52,
+ "themesEpisodeCount": 56,
  "episodes": [
   {
    "key": "aidb/2026-07-31-what-a-30b-hedge-fund-implosion-really-means-for-ai",
@@ -243,6 +248,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "The episode covers Dario Amodei's blog post clarifying Anthropic has never advocated banning open-weight models, then the Pacing the Frontier letter signed by over 1,100 AI lab employees asking the US government to support international tools to deliberately pace frontier AI development. NLW surveys critiques (regulatory capture, China won't comply, why not slow yourselves) and supporters, criticizes the open letter tactic, and ties the moment to the Hugging Face hack post-mortems, ending on optimism that society is not sleepwalking.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-07-29-formal-methods-with-hillel-wayne",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-07-29",
+   "slug": "formal-methods-with-hillel-wayne",
+   "title": "Formal methods with Hillel Wayne",
+   "url": "https://newsletter.pragmaticengineer.com/p/formal-methods-with-hillel-wayne",
+   "youtube": "https://www.youtube.com/watch?v=KSkcgIYQy0U",
+   "guests": [
+    "Hillel Wayne"
+   ],
+   "durationMin": 84,
+   "summary": "Gergely Orosz talks with formal methods consultant Hillel Wayne about his Crossover Project comparing software and traditional engineering, what formal methods are, and demos of TLA+, Alloy and property-based testing. They discuss why distributed systems and concurrency are hard, whether AI will bring formal verification into the mainstream, and Hillel's 2025 predictions about AI's impact on software careers.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -608,6 +630,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-07-15-context-engineering-with-dex-horthy",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-07-15",
+   "slug": "context-engineering-with-dex-horthy",
+   "title": "Context engineering with Dex Horthy",
+   "url": "https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy",
+   "youtube": "https://www.youtube.com/watch?v=Usufn8IQJgw",
+   "guests": [
+    "Dex Horthy"
+   ],
+   "durationMin": 92,
+   "summary": "Gergely Orosz talks with HumanLayer CEO Dex Horthy, who coined 'context engineering', about his path through platform engineering and Replicated, the 12-Factor Agents principles, and the physics of context windows (smart zone vs dumb zone, compaction, trajectory). They cover harness engineering, loop engineering and slow loops, the history of software factories, Dex's failed 'lights off' factory experiment, the Research-Plan-Implement workflow, token harder vs token smarter, and what HumanLayer is building.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-07-14-ai-optimism-vs-ai-pessimism",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -800,6 +839,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-07-08-the-pragmatic-engineer-ama",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-07-08",
+   "slug": "the-pragmatic-engineer-ama",
+   "title": "The Pragmatic Engineer AMA",
+   "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-ama",
+   "youtube": "https://www.youtube.com/watch?v=cSIMVYjVF28",
+   "guests": [
+    "Volodymyr Giginiak"
+   ],
+   "durationMin": 78,
+   "summary": "In an ask-me-anything episode, Gergely Orosz answers listener questions read by Wordsmith AI CTO Volodymyr Giginiak. Topics include why he left Uber to write, AI-native SDLC at Anthropic and Big Tech, how AI changes hiring and which engineers are in demand, Meta's 'wartime mode', tech debt, engineering managers coding, measuring AI productivity, CS degrees, career future-proofing, the newsletter's business, and his decisions on the Bunq and Pollen articles.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-07-07-anthropic-can-now-read-claudes-mind",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -973,6 +1029,23 @@
    "durationMin": 109,
    "summary": "This episode has a fun personal twist: There’s a counterfactual world where I was employee #1 at Genesis Molecular AI, the company behind today’s episode. A certain introduction happened a few weeks too late and I had already happily signed at Atomwise...",
    "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-07-01-how-kent-beck-shapes-the-software-engineering-industry",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-07-01",
+   "slug": "how-kent-beck-shapes-the-software-engineering-industry",
+   "title": "How Kent Beck shapes the software engineering industry",
+   "url": "https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software",
+   "youtube": "https://www.youtube.com/watch?v=ddHQQtjIOpw",
+   "guests": [
+    "Kent Beck"
+   ],
+   "durationMin": 147,
+   "summary": "Kent Beck tells Gergely Orosz the story of his career: Smalltalk at Tektronix with Ward Cunningham, Apple, SUnit/JUnit, the Chrysler C3 project and Extreme Programming, the rediscovery of TDD, the Agile Manifesto, his post-dotcom lost decade and seven years at Facebook. He closes with his view that AI ('the genie') accelerates coding but not trust or business, that nobody yet knows the playbook, and his explore-expand-extract (3X) model.",
+   "summarySource": "extraction",
    "partial": false
   }
  ]

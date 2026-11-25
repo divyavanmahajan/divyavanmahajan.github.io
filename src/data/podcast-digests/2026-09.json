@@ -3,11 +3,12 @@
  "start": "2026-09-01",
  "end": "2026-09-30",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 62,
+ "generated": "2026-11-25",
+ "episodeCount": 66,
  "counts": {
   "aidb": 26,
   "latent-space": 9,
+  "pragmatic-engineer": 4,
   "cognitive-revolution": 11,
   "no-priors": 4,
   "practical-ai": 4,
@@ -79,14 +80,16 @@
   },
   {
    "title": "From single-player to team agents",
-   "body": "NLW argues agents are shifting from individual tools to multiplayer team AI with shared context, citing Anthropic's Claude Tag, OpenClaw 2.0 and a Y Combinator request for startups, and launched a four-week sprint to build a first shared agent. Nufar Gaspar set out four team agent archetypes and five design decisions. OpenAI's DevDay added the Space collaborative workspace. Thariq Shihipar described Claude Tag and Projects among new Claude Code harness features.",
+   "body": "NLW argues agents are shifting from individual tools to multiplayer team AI with shared context, citing Anthropic's Claude Tag, OpenClaw 2.0 and a Y Combinator request for startups, and launched a four-week sprint to build a first shared agent. Nufar Gaspar set out four team agent archetypes and five design decisions. OpenAI's DevDay added the Space collaborative workspace. Thariq Shihipar described Claude Tag and Projects among new Claude Code harness features. Maggie Appleton told Gergely Orosz about collaborative multiplayer agent work.",
    "eps": [
     "aidb/2026-09-07-the-multiplayer-ai-sprint-build-your-teams-first-shared-agent",
     "aidb/2026-09-29-how-to-build-team-agents",
     "aidb/2026-09-01-openclaw-20-shows-where-ai-agents-are-going-next",
     "aidb/2026-09-20-7-ways-how-we-use-ai-is-changing",
     "aidb/2026-09-30-the-most-important-new-ai-tools-from-openai-devday",
-    "latent-space/2026-09-29-claude-code-s-next-era-thariq-shihipar-anthropic"
+    "latent-space/2026-09-29-claude-code-s-next-era-thariq-shihipar-anthropic",
+    "pragmatic-engineer/2026-09-23-design-engineering-with-maggie-appleton",
+    "pragmatic-engineer/2026-09-17-ai-skills-with-matt-pocock"
    ]
   },
   {
@@ -125,7 +128,9 @@
     "aidb/2026-09-18-the-ai-challenges-businesses-are-actually-focused-on-right-now",
     "aidb/2026-09-06-how-to-build-an-ai-native-company-today",
     "aidb/2026-09-03-agentic-loops-for-knowledge-workers",
-    "latent-space/2026-09-16-underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-a"
+    "latent-space/2026-09-16-underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-a",
+    "pragmatic-engineer/2026-09-09-building-codex-with-tibo-sottiaux",
+    "pragmatic-engineer/2026-09-30-distributed-databases-with-peter-mattis"
    ]
   },
   {
@@ -165,7 +170,7 @@
   "Shared team agents with common knowledge, memory and configuration are becoming a product category. Decide early who owns each agent, what it knows, what it can touch and how it is run, because those choices are hard to retrofit.",
   "Cheap calibrated judgment models suit triage, rule checks and scoring inside workflows. Many high-volume decisions may be better served by these small, code-consumed calls than by a general chat model, which changes cost and testing approaches."
  ],
- "themesEpisodeCount": 62,
+ "themesEpisodeCount": 66,
  "episodes": [
   {
    "key": "aidb/2026-09-30-the-most-important-new-ai-tools-from-openai-devday",
@@ -194,6 +199,23 @@
    "guests": [],
    "durationMin": 39,
    "summary": "An OpenAI DevDay special with Ari, who leads OpenAI's computer use agents team, and Nikunj, who leads API product. They cover Dots, GPT 6.1 Sol, computer use in the Agents API and app shots, then the Jev-inspired Decisions API, async tool calling, WebSockets, Ultrafast, caching guarantees and compaction.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-09-30-distributed-databases-with-peter-mattis",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-09-30",
+   "slug": "distributed-databases-with-peter-mattis",
+   "title": "Distributed databases with Peter Mattis",
+   "url": "https://newsletter.pragmaticengineer.com/p/distributed-databases-with-peter",
+   "youtube": "https://www.youtube.com/watch?v=0GzwuYGvKA4",
+   "guests": [
+    "Peter Mattis"
+   ],
+   "durationMin": 102,
+   "summary": "Gergely Orosz talks with Peter Mattis, co-founder and CTO of Cockroach Labs and co-creator of GIMP, about building GIMP, Gmail's storage backend, Google3 build files and the Colossus distributed file system at Google, and faster B-tree and Swiss table data structures. They cover CockroachDB's design: automatic sharding, strong consistency and Raft consensus. The second half is about how AI coding agents brought Peter back to coding at high output and quality, his agent workflow, testing, code review and AI amplifying domain experts.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -462,6 +484,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-09-23-design-engineering-with-maggie-appleton",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-09-23",
+   "slug": "design-engineering-with-maggie-appleton",
+   "title": "Design Engineering with Maggie Appleton",
+   "url": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
+   "youtube": "https://www.youtube.com/watch?v=KZSzF0KEFRg",
+   "guests": [
+    "Maggie Appleton"
+   ],
+   "durationMin": 87,
+   "summary": "Gergely Orosz talks with Maggie Appleton, a design engineer prototyping agentic tools at GitHub Next, about what designers and design engineers do, why she still sketches in notebooks, and how she builds 'jigs' with agents to tweak live prototypes. They also cover capability gaslighting, collaborative multiplayer agent work, AI design tells, digital gardens, home-cooked software and barefoot developers, and lessons from anthropology.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-09-22-agent-wars",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -674,6 +713,23 @@
    ],
    "durationMin": 55,
    "summary": "Liam Dunne and Ben Moore, co-founders of the organic search agency Discovered Labs, explain answer engine optimization and how brands surface in LLM answers. They cover the mechanics of retrieval, query fan-out and citation, research on Reddit's role, measurement under stochastic outputs, and a coming shift to agents taking actions on websites.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-09-17-ai-skills-with-matt-pocock",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-09-17",
+   "slug": "ai-skills-with-matt-pocock",
+   "title": "AI Skills with Matt Pocock",
+   "url": "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock",
+   "youtube": "https://www.youtube.com/watch?v=4DhcSPkEbwI",
+   "guests": [
+    "Matt Pocock"
+   ],
+   "durationMin": 96,
+   "summary": "Gergely Orosz talks with Matt Pocock, former voice coach turned TypeScript educator (Total TypeScript) and creator of the popular 'grill me' AI coding skill, about his path into tech, Vercel and building a course business. They discuss his skills (grill me, Wayfinder, spec-to-tickets), smart vs dumb context zones, 'leading words' mined from classic software books, cloud vs local agents, TDD with agents, tech debt, and why software fundamentals matter more with AI.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -945,6 +1001,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover OpenAI's claimed Navier-Stokes solution and the scooping/data-trust controversy with Tristan Buckmaster, a class action over Claude Max usage limits, ElevenLabs' IPO prep and Cognition's $48B raise. The main episode reviews Gemini 3.8 Flash, Meta's Muse Spark 1.3 and Muse personal agent, and ChatGPT Images 2.5.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-09-09-building-codex-with-tibo-sottiaux",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-09-09",
+   "slug": "building-codex-with-tibo-sottiaux",
+   "title": "Building Codex with Tibo Sottiaux",
+   "url": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
+   "youtube": "https://www.youtube.com/watch?v=sLSTM9znQNs",
+   "guests": [
+    "Tibo Sottiaux"
+   ],
+   "durationMin": 73,
+   "summary": "Gergely Orosz talks with Tibo Sottiaux, one of Codex's creators who now leads OpenAI's Core Products & Platform org, about his path from Google and DeepMind to OpenAI and how Codex started. They cover why Codex is written in Rust and open source, multi-model support, how the harness relates to the model, Codex's internal use across OpenAI's SDLC including automated code and security review, cheap maintenance and re-architecture, and the merge of Codex into ChatGPT as ChatGPT Work.",
    "summarySource": "extraction",
    "partial": false
   },

@@ -3,8 +3,8 @@
  "start": "2026-05-01",
  "end": "2026-05-31",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 60,
+ "generated": "2026-11-25",
+ "episodeCount": 63,
  "counts": {
   "aidb": 27,
   "cognitive-revolution": 8,
@@ -13,6 +13,7 @@
   "latent-space": 7,
   "no-priors": 5,
   "practical-ai": 4,
+  "pragmatic-engineer": 3,
   "dwarkesh": 3,
   "epoch-ai": 1
  },
@@ -45,7 +46,9 @@
     "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
     "cognitive-revolution/2026-05-15-three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-b",
     "practical-ai/2026-05-21-hermes-agent-agents-that-grow-with-you",
-    "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona"
+    "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona",
+    "pragmatic-engineer/2026-05-27-building-opencode-with-dax-raad",
+    "pragmatic-engineer/2026-05-13-typescript-c-and-turbo-pascal-with-anders-hejlsberg"
    ]
   },
   {
@@ -154,7 +157,7 @@
   "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
   "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
  ],
- "themesEpisodeCount": 60,
+ "themesEpisodeCount": 63,
  "episodes": [
   {
    "key": "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
@@ -351,6 +354,23 @@
    "durationMin": 70,
    "summary": "Editor’s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale, led by Alex Rives, who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from ac...",
    "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-05-27-building-opencode-with-dax-raad",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-05-27",
+   "slug": "building-opencode-with-dax-raad",
+   "title": "Building OpenCode with Dax Raad",
+   "url": "https://newsletter.pragmaticengineer.com/p/opencode",
+   "youtube": "https://www.youtube.com/watch?v=1VqKUrxR2C8",
+   "guests": [
+    "Dax Raad"
+   ],
+   "durationMin": 80,
+   "summary": "Dax Raad, co-founder of the open source coding agent OpenCode, covers its growth to nearly 8 million monthly active users, how Anthropic blocking Claude subscriptions in OpenCode turned into an OpenAI partnership, and the business behind it (Zen inference and an enterprise control plane). He also explains why AI coding tools have not made his team faster, the memo he sent about shipping too many features and hacks, inference margins and GPU scarcity, and his skepticism about AI predictions.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -581,6 +601,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-05-20-why-rust-is-different-with-alice-ryhl",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-05-20",
+   "slug": "why-rust-is-different-with-alice-ryhl",
+   "title": "Why Rust is different, with Alice Ryhl",
+   "url": "https://newsletter.pragmaticengineer.com/p/why-rust-is-different-with-alice",
+   "youtube": "https://www.youtube.com/watch?v=q9xD36NCtZ8",
+   "guests": [
+    "Alice Ryhl"
+   ],
+   "durationMin": 65,
+   "summary": "Gergely Orosz talks with Alice Ryhl of Google's Android Rust team, a Tokio maintainer, about why Rust code tends to work once it compiles: memory safety, ownership, borrowing, unsafe, error handling and Cargo. They cover Rust governance (teams, RFCs, final comment periods, editions, six-week releases), Rust in the Linux kernel, and using AI with Rust.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-05-19-9-codex-tips-from-the-codex-team",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -770,6 +807,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover Google's Gemini Intelligence and Google Book ahead of I/O, orbital data center talks with SpaceX, Google's forward-deployed engineers and PE partnerships, and Anthropic's Claude for Legal. The main segment defends 'tokenmaxxing' against critics who use reports of gamed usage leaderboards to revive 'AI isn't good' and bubble narratives, arguing experimentation is essential.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-05-13-typescript-c-and-turbo-pascal-with-anders-hejlsberg",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-05-13",
+   "slug": "typescript-c-and-turbo-pascal-with-anders-hejlsberg",
+   "title": "TypeScript, C# and Turbo Pascal with Anders Hejlsberg",
+   "url": "https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with",
+   "youtube": "https://www.youtube.com/watch?v=K-Xv8D8NjTk",
+   "guests": [
+    "Anders Hejlsberg"
+   ],
+   "durationMin": 75,
+   "summary": "Gergely Orosz interviews Anders Hejlsberg, creator of Turbo Pascal, Delphi, C# and TypeScript, about his career from Borland to 30 years at Microsoft. They cover how C# arose after the Sun-Microsoft Java lawsuit, the small C# design team, async/await, why TypeScript was built and open sourced, how its interactive compiler works, and how AI is changing languages and the software engineering craft.",
    "summarySource": "extraction",
    "partial": false
   },

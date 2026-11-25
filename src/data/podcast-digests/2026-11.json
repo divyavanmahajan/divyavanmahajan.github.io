@@ -3,16 +3,17 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "inProgress": true,
- "generated": "2026-11-22",
- "episodeCount": 41,
+ "generated": "2026-11-25",
+ "episodeCount": 47,
  "counts": {
+  "aidb": 21,
   "cognitive-revolution": 6,
-  "aidb": 18,
   "latent-space": 7,
   "lex-fridman": 2,
   "no-priors": 3,
   "practical-ai": 3,
   "turing-post": 1,
+  "pragmatic-engineer": 3,
   "dwarkesh": 1
  },
  "headline": "November was dominated by Jensen Huang's ouster from Nvidia over an alleged Chinese spy affair and by Anthropic's record IPO, which pulled chip export controls and AI valuations into Washington politics. Underneath, enterprise AI spend and coding-agent use kept climbing while warnings about recursive self-improvement grew louder.",
@@ -29,7 +30,8 @@
     "aidb/2026-11-18-why-the-ai-kids-hate-astra-62",
     "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
     "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
-    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable"
+    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable",
+    "aidb/2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo"
    ]
   },
   {
@@ -43,7 +45,8 @@
     "aidb/2026-11-16-5-questions-that-could-reshape-ai",
     "aidb/2026-11-03-ai-lurches-toward-recursive-self-improvement",
     "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
-    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable"
+    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable",
+    "aidb/2026-11-22-when-ai-labs-rival-nations"
    ]
   },
   {
@@ -71,7 +74,9 @@
     "practical-ai/2026-11-19-building-human-centered-ai",
     "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2",
     "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
-    "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software"
+    "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
+    "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill",
+    "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella"
    ]
   },
   {
@@ -109,7 +114,8 @@
     "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow",
     "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
     "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord",
-    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech"
+    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech",
+    "aidb/2026-11-24-ai-just-made-history-in-the-middle-of-a-meltdown"
    ]
   },
   {
@@ -131,8 +137,53 @@
   "Do not choose models on launch benchmarks. New flagships arrive jagged, with regressions on some tasks, so keep task-level evaluations and let teams stay on older models where those still perform better.",
   "Prepare governance for faster AI progress and stricter rules. Independent lab evaluations, pause proposals and state-level data center fights suggest controls on frontier systems and infrastructure could tighten quickly."
  ],
- "themesEpisodeCount": 41,
+ "themesEpisodeCount": 47,
  "episodes": [
+  {
+   "key": "aidb/2026-11-24-ai-just-made-history-in-the-middle-of-a-meltdown",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-24",
+   "slug": "ai-just-made-history-in-the-middle-of-a-meltdown",
+   "title": "AI Just Made History in the Middle of a Meltdown",
+   "url": "https://www.patreon.com/posts/176284431",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "This episode of The AI Daily Brief covers two stories that the host presents as signs that AI is \"entering a new phase.\" The first is a claimed proof of the Riemann hypothesis, produced by an Anthropic mathematician working with Claude. The second...",
+   "summarySource": "blog",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-23",
+   "slug": "too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo",
+   "title": "Too Big to Fire: Jensen Huang Is Back as Nvidia CEO",
+   "url": "https://www.patreon.com/posts/176175943",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "This episode of The AI Daily Brief, a daily podcast and video series about AI news, covers Jensen Huang's reinstatement as NVIDIA CEO on Monday, November 23, eleven days after he resigned. According to the host, the White House appears to have int...",
+   "summarySource": "blog",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-22-when-ai-labs-rival-nations",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-22",
+   "slug": "when-ai-labs-rival-nations",
+   "title": "When AI Labs Rival Nations",
+   "url": "https://www.patreon.com/posts/176053678",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A Long Read Sunday episode covering the Center for AI Safety-organized 'misanthropic statement' against Anthropic around its IPO, and NLW's argument that AI companies challenge the balance between state and private power. It introduces the debate over 'handoverism', Yoni Rechtman's claim that every company is converging on enterprise AI transformation, and Jacob Lauritzen's argument that the bitter lesson is coming for software engineering and agent organization.",
+   "summarySource": "extraction",
+   "partial": false
+  },
   {
    "key": "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
    "show": "cognitive-revolution",
@@ -282,6 +333,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-11-18",
+   "slug": "software-factories-and-code-reviews-with-harjot-gill",
+   "title": "Software factories and code reviews with Harjot Gill",
+   "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+   "youtube": "https://www.youtube.com/watch?v=4Cjb7691GJ8",
+   "guests": [
+    "Harjot Gill"
+   ],
+   "durationMin": 87,
+   "summary": "Gergely Orosz interviews CodeRabbit CEO Harjot Gill about shipping over 5,000 pull requests in a month with agents, running CodeRabbit as a software factory, and why he believes human code review is dead while human review of releases remains. They cover verification loops (formal methods, simulations, staged rollouts), the driver's license model for shipping rights, AI and CI costs, startup funding, hiring for agency, and sleep and burnout.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-11-17-how-business-ai-use-is-changing",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -343,6 +411,23 @@
    ],
    "durationMin": 98,
    "summary": "Black Forest Labs co-founder Andreas Blattmann and founding researcher Dustin Podell trace the lineage from latent diffusion and Stable Diffusion at Stability AI to the FLUX model family. They discuss SDXL, SD3 and flow matching, FLUX.1 Kontext image editing, autoregressive versus diffusion generation, and FLUX 3, a single multimodal model trained on images, video and audio that also drives robot action prediction.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-11-16",
+   "slug": "software-engineering-after-code-becomes-cheap-with-satya-nadella",
+   "title": "Software engineering after code becomes cheap with Satya Nadella",
+   "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
+   "youtube": "https://www.youtube.com/watch?v=0NE89Nzfk20",
+   "guests": [
+    "Satya Nadella"
+   ],
+   "durationMin": 63,
+   "summary": "Microsoft CEO Satya Nadella talks with Gergely Orosz about Microsoft's open-source shift, how GitHub Copilot was overtaken by Cursor and Claude Code, decision models, and why verification is the hard part once code generation is cheap. They cover software factories inside Microsoft, the voluntary exit offers, the junior hiring slowdown, open and local models, owning your AI infrastructure, treating agents as insider risk, and advice for engineers.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -721,6 +806,23 @@
    ],
    "durationMin": 48,
    "summary": "Three more Midwest AI Summit talks: Don Barger of the International Mission Board on drafting an AI charter defining what AI will and won't do, including the Faithbot chatbot; Mark Lay, CIO of Noblis, on four organizational AI decisions spanning delegation, accountability and technical debt; and Darren Taillie of AeroCore Technologies on deploying a text-to-SQL agent in Teams and a vision model for jet engine wash work order verification.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-11-05-scaling-slack-and-github-with-maude-lemaire",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-11-05",
+   "slug": "scaling-slack-and-github-with-maude-lemaire",
+   "title": "Scaling Slack and GitHub with Maude Lemaire",
+   "url": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+   "youtube": "https://www.youtube.com/watch?v=x6WqD4qHxSc",
+   "guests": [
+    "Maude Lemaire"
+   ],
+   "durationMin": 79,
+   "summary": "Principal engineer Maude Lemaire, author of Refactoring at Scale, recounts scaling Slack for enterprise customers (channel-table migration, thundering herds, event floods, the Koi Pond load tester) and GitHub's database challenges (16 shards, scatter queries, Active Record in the Rails monolith). She also describes improving time to first token at Cursor, how she uses and verifies LLM output, and why platform and product engineers should rotate.",
    "summarySource": "extraction",
    "partial": false
   },

@@ -3,11 +3,12 @@
  "start": "2026-04-01",
  "end": "2026-04-30",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 59,
+ "generated": "2026-11-25",
+ "episodeCount": 63,
  "counts": {
   "aidb": 29,
   "dwarkesh": 3,
+  "pragmatic-engineer": 4,
   "latent-space": 8,
   "cognitive-revolution": 8,
   "no-priors": 4,
@@ -32,7 +33,7 @@
   },
   {
    "title": "Harness engineering becomes the discipline",
-   "body": "NLW positioned harness engineering, designing the systems, tools and context around a model, as the successor to prompt and context engineering, citing HumanLayer, LangChain, OpenAI and Anthropic's Managed Agents. OpenAI's Ryan Lopopolo described a million-line app built with zero human-written code in Codex. Notion's Simon Last and Sarah Sachs recounted four to five harness rebuilds since 2022. Practical AI dissected the leaked Claude Code harness, and NLW used Cursor's SDK to propose 'Harness as a Service' as a new infrastructure category.",
+   "body": "NLW positioned harness engineering, designing the systems, tools and context around a model, as the successor to prompt and context engineering, citing HumanLayer, LangChain, OpenAI and Anthropic's Managed Agents. OpenAI's Ryan Lopopolo described a million-line app built with zero human-written code in Codex. Notion's Simon Last and Sarah Sachs recounted four to five harness rebuilds since 2022. Practical AI dissected the leaked Claude Code harness, and NLW used Cursor's SDK to propose 'Harness as a Service' as a new infrastructure category. DHH told Gergely Orosz he now works agent-first.",
    "eps": [
     "aidb/2026-04-13-harness-engineering-101",
     "latent-space/2026-04-07-extreme-harness-engineering-for-token-billionaires-1m-loc-1b-toks-day",
@@ -40,7 +41,9 @@
     "practical-ai/2026-04-09-post-mortem-of-anthropic-s-claude-code-leak",
     "aidb/2026-04-30-how-harness-as-a-service-will-change-agents",
     "latent-space/2026-04-03-marc-andreessen-introspects-on-the-death-of-the-browser-pi-openclaw-an",
-    "aidb/2026-04-09-all-of-ais-new-models-and-tools"
+    "aidb/2026-04-09-all-of-ais-new-models-and-tools",
+    "pragmatic-engineer/2026-04-29-building-pi-and-what-makes-self-modifying-software-so-fascinating",
+    "pragmatic-engineer/2026-04-08-dhhs-new-way-of-writing-code"
    ]
   },
   {
@@ -92,7 +95,8 @@
     "aidb/2026-04-19-how-the-best-companies-use-ai",
     "aidb/2026-04-12-the-new-ai-org-chart",
     "latent-space/2026-04-22-shopify-s-ai-phase-transition-2026-usage-explosion-unlimited-opus-4-6",
-    "no-priors/2026-04-17-scaling-global-organizations-in-the-age-of-ai-with-servicenow-chairman"
+    "no-priors/2026-04-17-scaling-global-organizations-in-the-age-of-ai-with-servicenow-chairman",
+    "pragmatic-engineer/2026-04-01-scaling-uber-with-thuan-pham-ubers-first-cto"
    ]
   },
   {
@@ -142,7 +146,7 @@
   "Invest in people and shared platforms, not only licences. The adoption studies point to gaps in leadership, training, data and outcome measurement, and organization-level platforms like Ramp's Glass raise the floor more than individual tool access does.",
   "Standardize skills, context and memory as reusable assets. Skill libraries, portable context files and MCP servers reduce lock-in across converging agent tools, but they need governance, testing and ownership like any other shared enterprise component."
  ],
- "themesEpisodeCount": 59,
+ "themesEpisodeCount": 63,
  "episodes": [
   {
    "key": "aidb/2026-04-30-how-harness-as-a-service-will-change-agents",
@@ -188,6 +192,24 @@
    ],
    "durationMin": 134,
    "summary": "In a blackboard lecture, MatX CEO Reiner Pope walks Dwarkesh Patel through roofline analysis of LLM inference: batch size, KV cache, MoE layout on GPU racks, scale-up vs. scale-out, and pipeline parallelism. They estimate frontier models are ~100x over-trained beyond Chinchilla, deduce memory costs from API pricing, and discuss parallels between neural nets and cryptography.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-04-29-building-pi-and-what-makes-self-modifying-software-so-fascinating",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-04-29",
+   "slug": "building-pi-and-what-makes-self-modifying-software-so-fascinating",
+   "title": "Building Pi, and what makes self-modifying software so fascinating",
+   "url": "https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying",
+   "youtube": "https://www.youtube.com/watch?v=n5f51gtuGHE",
+   "guests": [
+    "Mario Zechner",
+    "Armin Ronacher"
+   ],
+   "durationMin": 93,
+   "summary": "Gergely Orosz talks with Mario Zechner, creator of the minimalist self-modifying coding agent Pi that powers OpenClaw, and Armin Ronacher, creator of Flask and a Pi user. They discuss why Pi was built after Claude Code became unpredictable, what Armin learned from 30+ engineering teams adopting agents (falling quality, review fatigue, automation bias), friction and complexity, agent-generated open source contributions, the case for slowing down, and MCP versus CLIs.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -409,6 +431,23 @@
    ],
    "durationMin": 72,
    "summary": "Shopify CTO Mikhail Parakhin walks through Shopify's internal AI adoption data, including a December 2025 inflection in tool usage and an unlimited token budget with an Opus 4.6 minimum, and argues for expensive-model PR review over parallel agent swarms. He describes the Tangle experimentation platform, the Tangent auto-research loop, the SimGym customer simulator, Shopify's use of Liquid AI models, and Bing Sydney history.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-04-22-designing-data-intensive-applications-with-martin-kleppmann",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-04-22",
+   "slug": "designing-data-intensive-applications-with-martin-kleppmann",
+   "title": "Designing Data-intensive Applications with Martin Kleppmann",
+   "url": "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications",
+   "youtube": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+   "guests": [
+    "Martin Kleppmann"
+   ],
+   "durationMin": 85,
+   "summary": "Gergely Orosz interviews Martin Kleppmann about his startups (GoTestIt, Rapportive), working on stream processing at LinkedIn alongside Kafka, and writing Designing Data-Intensive Applications and its second edition co-written with Chris Riccomini. They discuss cloud-native architecture, scaling up and down, the trouble with distributed systems, ethics, formal verification in the AI era, local-first software, and computer science education.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -843,6 +882,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-04-08-dhhs-new-way-of-writing-code",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-04-08",
+   "slug": "dhhs-new-way-of-writing-code",
+   "title": "DHH’s new way of writing code",
+   "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
+   "youtube": "https://www.youtube.com/watch?v=JiWgKRgdgpI",
+   "guests": [
+    "David Heinemeier Hansson"
+   ],
+   "durationMin": 106,
+   "summary": "Gergely Orosz talks with David Heinemeier Hansson (DHH) about Omarchy, Ruby on Rails, 37signals' history with Basecamp and HEY, and the company's designer-as-builder model. DHH explains why he went agent-first after Opus 4.5 and agent harnesses arrived, describes his tmux/OpenCode/Claude Code workflow and CLIs for 37signals products, and discusses senior vs. junior developers, 'peak programmer', hiring, and avoiding burnout.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "dwarkesh/2026-04-07-michael-nielsen-how-science-actually-progresses",
    "show": "dwarkesh",
    "showName": "Dwarkesh Podcast",
@@ -1082,6 +1138,23 @@
    ],
    "durationMin": 105,
    "summary": "A cross-post of Nathan Labenz's appearance on The Intelligence Horizon podcast with hosts Owen Zhang and Will Sanok Dufallo. Nathan discusses AGI timelines, RL scaling, LLM world models and interpretability, energy and chip bottlenecks, his p(doom) and modest optimism about alignment, defense-in-depth safety strategies, AI regulation, the Pentagon–Anthropic standoff, and US–China AI competition.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-04-01-scaling-uber-with-thuan-pham-ubers-first-cto",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-04-01",
+   "slug": "scaling-uber-with-thuan-pham-ubers-first-cto",
+   "title": "Scaling Uber with Thuan Pham (Uber’s first CTO)",
+   "url": "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers",
+   "youtube": "https://www.youtube.com/watch?v=3jjRNVfm3V4",
+   "guests": [
+    "Thuan Pham"
+   ],
+   "durationMin": 99,
+   "summary": "Gergely Orosz interviews Thuan Pham, Uber's first CTO and now CTO of Faire, about his path from Vietnamese refugee to HP Labs, Silicon Graphics, NetGravity and VMware, and his seven years scaling Uber. They cover Travis Kalanick's 30-hour interview, the dispatch rewrite, launching China in five months, the program/platform split, microservices and internal tools, Helix, career levels, and how Faire uses AI agents.",
    "summarySource": "extraction",
    "partial": false
   }

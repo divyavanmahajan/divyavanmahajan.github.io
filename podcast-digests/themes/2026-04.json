@@ -1,6 +1,6 @@
 {
   "period": "2026-04",
-  "episodeCount": 59,
+  "episodeCount": 63,
   "headline": "April was dominated by Anthropic's withheld Claude Mythos model and a dense release cycle of GPT-5.5, Opus 4.7, the new Codex and Claude Design. Underneath it, the shows converged on the harness around the model, and the usage-based pricing and compute limits that agentic workloads now force, as the real story.",
   "themes": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "title": "Harness engineering becomes the discipline",
-      "body": "NLW positioned harness engineering, designing the systems, tools and context around a model, as the successor to prompt and context engineering, citing HumanLayer, LangChain, OpenAI and Anthropic's Managed Agents. OpenAI's Ryan Lopopolo described a million-line app built with zero human-written code in Codex. Notion's Simon Last and Sarah Sachs recounted four to five harness rebuilds since 2022. Practical AI dissected the leaked Claude Code harness, and NLW used Cursor's SDK to propose 'Harness as a Service' as a new infrastructure category.",
+      "body": "NLW positioned harness engineering, designing the systems, tools and context around a model, as the successor to prompt and context engineering, citing HumanLayer, LangChain, OpenAI and Anthropic's Managed Agents. OpenAI's Ryan Lopopolo described a million-line app built with zero human-written code in Codex. Notion's Simon Last and Sarah Sachs recounted four to five harness rebuilds since 2022. Practical AI dissected the leaked Claude Code harness, and NLW used Cursor's SDK to propose 'Harness as a Service' as a new infrastructure category. DHH told Gergely Orosz he now works agent-first.",
       "eps": [
         "aidb/2026-04-13",
         "latent-space/2026-04-07",
@@ -26,7 +26,9 @@
         "practical-ai/2026-04-09",
         "aidb/2026-04-30",
         "latent-space/2026-04-03",
-        "aidb/2026-04-09"
+        "aidb/2026-04-09",
+        "pragmatic-engineer/2026-04-29-building-pi-and-what-mak",
+        "pragmatic-engineer/2026-04-08-dhhs-new-way-of-writing-"
       ]
     },
     {
@@ -78,7 +80,8 @@
         "aidb/2026-04-19",
         "aidb/2026-04-12",
         "latent-space/2026-04-22",
-        "no-priors/2026-04-17"
+        "no-priors/2026-04-17",
+        "pragmatic-engineer/2026-04-01-scaling-uber-with-thuan-"
       ]
     },
     {

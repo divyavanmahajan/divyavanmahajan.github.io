@@ -1,6 +1,6 @@
 {
   "period": "2026-03",
-  "episodeCount": 62,
+  "episodeCount": 65,
   "headline": "March was the month personal agents went mainstream: OpenClaw-style 'claws', Claude Cowork and cloud coding agents spread from hobbyists to every major lab and product. Underneath it, the hard questions moved to verification, governance, compute, open versus closed models and who bears the cost for jobs, as AI became a political issue.",
   "themes": [
     {
@@ -27,7 +27,8 @@
         "aidb/2026-03-18",
         "aidb/2026-03-27",
         "aidb/2026-03-12",
-        "aidb/2026-03-30"
+        "aidb/2026-03-30",
+        "pragmatic-engineer/2026-03-04-building-claude-code-wit"
       ]
     },
     {
@@ -41,7 +42,8 @@
         "practical-ai/2026-03-17",
         "aidb/2026-03-12",
         "aidb/2026-03-10",
-        "aidb/2026-03-01"
+        "aidb/2026-03-01",
+        "pragmatic-engineer/2026-03-11-from-ides-to-ai-agents-w"
       ]
     },
     {

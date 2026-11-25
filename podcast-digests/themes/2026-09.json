@@ -1,6 +1,6 @@
 {
   "period": "2026-09",
-  "episodeCount": 62,
+  "episodeCount": 66,
   "headline": "September was dominated by Dario Amodei's call to pace the frontier and the fallout from the OpenAI agent swarm that hacked Hugging Face, while GPT-6 Astra, Claude Fable 5.1, Opus 5.5 and GPT-6 Sol arrived within weeks of each other. Underneath, agents moved from single-user tools into personal, shared and enterprise deployments, and risk became the main constraint on how far they go.",
   "themes": [
     {
@@ -65,14 +65,16 @@
     },
     {
       "title": "From single-player to team agents",
-      "body": "NLW argues agents are shifting from individual tools to multiplayer team AI with shared context, citing Anthropic's Claude Tag, OpenClaw 2.0 and a Y Combinator request for startups, and launched a four-week sprint to build a first shared agent. Nufar Gaspar set out four team agent archetypes and five design decisions. OpenAI's DevDay added the Space collaborative workspace. Thariq Shihipar described Claude Tag and Projects among new Claude Code harness features.",
+      "body": "NLW argues agents are shifting from individual tools to multiplayer team AI with shared context, citing Anthropic's Claude Tag, OpenClaw 2.0 and a Y Combinator request for startups, and launched a four-week sprint to build a first shared agent. Nufar Gaspar set out four team agent archetypes and five design decisions. OpenAI's DevDay added the Space collaborative workspace. Thariq Shihipar described Claude Tag and Projects among new Claude Code harness features. Maggie Appleton told Gergely Orosz about collaborative multiplayer agent work.",
       "eps": [
         "aidb/2026-09-07",
         "aidb/2026-09-29",
         "aidb/2026-09-01",
         "aidb/2026-09-20",
         "aidb/2026-09-30",
-        "latent-space/2026-09-29"
+        "latent-space/2026-09-29",
+        "pragmatic-engineer/2026-09-23",
+        "pragmatic-engineer/2026-09-17"
       ]
     },
     {
@@ -111,7 +113,9 @@
         "aidb/2026-09-18",
         "aidb/2026-09-06",
         "aidb/2026-09-03",
-        "latent-space/2026-09-16"
+        "latent-space/2026-09-16",
+        "pragmatic-engineer/2026-09-09",
+        "pragmatic-engineer/2026-09-30"
       ]
     },
     {

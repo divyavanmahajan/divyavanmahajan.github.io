@@ -3,13 +3,14 @@
  "start": "2026-02-01",
  "end": "2026-02-28",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 53,
+ "generated": "2026-11-25",
+ "episodeCount": 56,
  "counts": {
   "aidb": 25,
   "latent-space": 9,
   "no-priors": 4,
   "cognitive-revolution": 8,
+  "pragmatic-engineer": 3,
   "practical-ai": 3,
   "dwarkesh": 2,
   "lex-fridman": 2
@@ -18,7 +19,7 @@
  "themes": [
   {
    "title": "Coding agents become the inflection point",
-   "body": "NLW argues the near-simultaneous Opus 4.6 and GPT-5.3 Codex launches capped a run of recognitions that agents now do real work, shifting debate from an AI bubble to underbuilt compute, and reads SemiAnalysis's 'Claude Code is the Inflection Point'. SemiAnalysis's Doug O'Laughlin describes his own Claude Code 'psychosis' and tracks its share of GitHub commits. Blitzy pitches enterprise-scale autonomous code generation, Jeff Dean says coding agents change software work, and Spotify engineers reportedly no longer hand-code.",
+   "body": "NLW argues the near-simultaneous Opus 4.6 and GPT-5.3 Codex launches capped a run of recognitions that agents now do real work, shifting debate from an AI bubble to underbuilt compute, and reads SemiAnalysis's 'Claude Code is the Inflection Point'. SemiAnalysis's Doug O'Laughlin describes his own Claude Code 'psychosis' and tracks its share of GitHub commits. Blitzy pitches enterprise-scale autonomous code generation, Jeff Dean says coding agents change software work, and Spotify engineers reportedly no longer hand-code. Mitchell Hashimoto says AI pull requests push open source toward default deny.",
    "eps": [
     "aidb/2026-02-08-claude-code-killed-the-ai-bubble",
     "aidb/2026-02-06-opus-46-and-chatgpt-53-codex-are-here-and-the-labs-are-at-war",
@@ -27,7 +28,9 @@
     "cognitive-revolution/2026-02-04-infinite-code-context-ai-coding-at-enterprise-scale-w-blitzy-ceo-brian",
     "latent-space/2026-02-12-owning-the-ai-pareto-frontier-jeff-dean",
     "aidb/2026-02-18-sonnet-46-changes-the-agent-math",
-    "aidb/2026-02-16-something-big-is-happening"
+    "aidb/2026-02-16-something-big-is-happening",
+    "pragmatic-engineer/2026-02-25-mitchell-hashimotos-new-way-of-writing-code",
+    "pragmatic-engineer/2026-02-12-the-programming-language-after-kotlin-with-the-creator-of-kotlin"
    ]
   },
   {
@@ -69,7 +72,8 @@
     "aidb/2026-02-16-something-big-is-happening",
     "aidb/2026-02-22-why-ai-could-be-better-for-plumbers-than-programmers",
     "practical-ai/2026-02-18-cognitive-synthesis-and-neural-athletes",
-    "aidb/2026-02-20-does-gemini-31-pro-matter"
+    "aidb/2026-02-20-does-gemini-31-pro-matter",
+    "pragmatic-engineer/2026-02-04-the-third-golden-age-of-software-engineering-thanks-to-ai-with-grady-b"
    ]
   },
   {
@@ -160,7 +164,7 @@
   "Vendor access can change for political reasons, as the Anthropic-Pentagon dispute showed. Keep a multi-model strategy with tested fallbacks and contract terms that address usage restrictions and sudden policy shifts.",
   "Evidence on productivity is mixed: output and new capabilities rise, but work can intensify. Measure outcomes rather than time saved, and plan for the cognitive load and role changes that come with supervising agents."
  ],
- "themesEpisodeCount": 53,
+ "themesEpisodeCount": 56,
  "episodes": [
   {
    "key": "aidb/2026-02-28-are-40-staff-cuts-the-new-ai-normal",
@@ -285,6 +289,23 @@
    ],
    "durationMin": 34,
    "summary": "Prof. Max Welling discusses his path from quantum gravity to machine learning, CuspAI's AI platform for searching material space, and why humans stay in the loop. He also explains equivariance and his upcoming book linking generative AI and stochastic thermodynamics.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-02-25-mitchell-hashimotos-new-way-of-writing-code",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-02-25",
+   "slug": "mitchell-hashimotos-new-way-of-writing-code",
+   "title": "Mitchell Hashimoto’s new way of writing code",
+   "url": "https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto",
+   "youtube": "https://www.youtube.com/watch?v=WjckELpzLOU",
+   "guests": [
+    "Mitchell Hashimoto"
+   ],
+   "durationMin": 118,
+   "summary": "Mitchell Hashimoto, co-founder of HashiCorp and creator of the Ghostty terminal, tells Gergely Orosz how HashiCorp went from Vagrant and a failed first commercial product to an open-core enterprise business, IPO and a near VMware acquisition, and gives his candid view of AWS, Azure and Google Cloud. He then explains how he works with AI agents (always one running in the background), why AI-generated pull requests are pushing open source from default trust to default deny, and why Git, CI/CD and testing must change for agentic development.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -713,6 +734,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-02-12-the-programming-language-after-kotlin-with-the-creator-of-kotlin",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-02-12",
+   "slug": "the-programming-language-after-kotlin-with-the-creator-of-kotlin",
+   "title": "The programming language after Kotlin – with the creator of Kotlin",
+   "url": "https://newsletter.pragmaticengineer.com/p/the-programming-language-after-kotlin",
+   "youtube": "https://www.youtube.com/watch?v=ZggUn2mNqMU",
+   "guests": [
+    "Andrey Breslav"
+   ],
+   "durationMin": 104,
+   "summary": "Andrey Breslav, creator of Kotlin, tells Gergely Orosz how Kotlin was started at JetBrains in 2010 because Java had stagnated, which ideas it borrowed from Scala, C#, Groovy and Gosu, why null safety and bidirectional Java interoperability took years, and how Google's 2017 Android announcement made it mainstream. He then describes CodeSpeak, his new English-based programming language that uses LLMs to shrink code about 10x, and shares views on coding agents, code review, testing and advice for engineers in the AI era.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-02-11-how-the-global-ai-race-has-shifted",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -917,6 +955,23 @@
    ],
    "durationMin": 117,
    "summary": "Nathan Labenz interviews Blitzy CEO Brian Elliott and CTO Sid Pardeshi (a sponsored episode) about autonomous enterprise-scale code generation. They cover dynamic agent orchestration, relational code knowledge graphs, effective context windows, cross-vendor model review, memory vs fine-tuning, per-line pricing, the path to full autonomy, code security, and the software engineering labor market.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-02-04-the-third-golden-age-of-software-engineering-thanks-to-ai-with-grady-b",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-02-04",
+   "slug": "the-third-golden-age-of-software-engineering-thanks-to-ai-with-grady-b",
+   "title": "The third golden age of software engineering – thanks to AI, with Grady Booch",
+   "url": "https://newsletter.pragmaticengineer.com/p/the-third-golden-age-of-software",
+   "youtube": "https://www.youtube.com/watch?v=OfMAtaocvJw",
+   "guests": [
+    "Grady Booch"
+   ],
+   "durationMin": 77,
+   "summary": "Grady Booch walks Gergely Orosz through the history of software engineering as rising levels of abstraction: a first golden age of algorithmic abstraction (late 1940s-1970s), a second of object-oriented abstraction and platforms, and a third, systems-focused age that he says began around 2000 and into which AI coding tools fit. He calls Dario Amodei's claim that software engineering will be automatable in 12 months 'utter bullshit', argues developers have faced such existential crises before, and recommends systems theory, Simon and Newell, and Minsky's Society of Mind as foundations.",
    "summarySource": "extraction",
    "partial": false
   },

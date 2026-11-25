@@ -1,12 +1,12 @@
 {
   "period": "2026-02",
-  "episodeCount": 53,
+  "episodeCount": 56,
   "headline": "February was the month coding agents went from demo to default: Claude Opus 4.6 and GPT-5.3 Codex launched almost simultaneously, OpenClaw popularized personal agent teams, and software stocks sold off on the prospect. Underneath it ran a fight over who controls frontier AI, from the Anthropic-Pentagon standoff to the capital, chips and power needed to keep scaling.",
   "themes": [
     {
       "title": "Coding agents become the inflection point",
-      "body": "NLW argues the near-simultaneous Opus 4.6 and GPT-5.3 Codex launches capped a run of recognitions that agents now do real work, shifting debate from an AI bubble to underbuilt compute, and reads SemiAnalysis's 'Claude Code is the Inflection Point'. SemiAnalysis's Doug O'Laughlin describes his own Claude Code 'psychosis' and tracks its share of GitHub commits. Blitzy pitches enterprise-scale autonomous code generation, Jeff Dean says coding agents change software work, and Spotify engineers reportedly no longer hand-code.",
-      "eps": ["aidb/2026-02-08-claude-code-killed-the-a", "aidb/2026-02-06", "aidb/2026-02-03", "latent-space/2026-02-24", "cognitive-revolution/2026-02-04", "latent-space/2026-02-12-owning-the-ai-pareto-fro", "aidb/2026-02-18", "aidb/2026-02-16-something-big-is-happeni"]
+      "body": "NLW argues the near-simultaneous Opus 4.6 and GPT-5.3 Codex launches capped a run of recognitions that agents now do real work, shifting debate from an AI bubble to underbuilt compute, and reads SemiAnalysis's 'Claude Code is the Inflection Point'. SemiAnalysis's Doug O'Laughlin describes his own Claude Code 'psychosis' and tracks its share of GitHub commits. Blitzy pitches enterprise-scale autonomous code generation, Jeff Dean says coding agents change software work, and Spotify engineers reportedly no longer hand-code. Mitchell Hashimoto says AI pull requests push open source toward default deny.",
+      "eps": ["aidb/2026-02-08-claude-code-killed-the-a", "aidb/2026-02-06", "aidb/2026-02-03", "latent-space/2026-02-24", "cognitive-revolution/2026-02-04", "latent-space/2026-02-12-owning-the-ai-pareto-fro", "aidb/2026-02-18", "aidb/2026-02-16-something-big-is-happeni", "pragmatic-engineer/2026-02-25-mitchell-hashimotos-new-", "pragmatic-engineer/2026-02-12-the-programming-language"]
     },
     {
       "title": "OpenClaw and personal agent teams",
@@ -21,7 +21,7 @@
     {
       "title": "Work, jobs and productivity",
       "body": "Block cut over 4,000 staff, about 40%, with Jack Dorsey citing intelligence tools, though skeptics blamed COVID overhiring. Erik Brynjolfsson reads revised US labor data as an AI productivity boom, while a Berkeley Haas study finds AI intensifies work. NLW's survey of 583 listeners puts time savings third behind output and new capabilities. Matt Shumer's viral essay says knowledge work is next. Deloitte's Deborah Golden stresses the cognitive load of working with agents.",
-      "eps": ["aidb/2026-02-28-are-40-staff-cuts-the-ne", "aidb/2026-02-17", "aidb/2026-02-10", "aidb/2026-02-13", "aidb/2026-02-16-something-big-is-happeni", "aidb/2026-02-22", "practical-ai/2026-02-18", "aidb/2026-02-20"]
+      "eps": ["aidb/2026-02-28-are-40-staff-cuts-the-ne", "aidb/2026-02-17", "aidb/2026-02-10", "aidb/2026-02-13", "aidb/2026-02-16-something-big-is-happeni", "aidb/2026-02-22", "practical-ai/2026-02-18", "aidb/2026-02-20", "pragmatic-engineer/2026-02-04-the-third-golden-age-of-"]
     },
     {
       "title": "Who controls frontier AI",

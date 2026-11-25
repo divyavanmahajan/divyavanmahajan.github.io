@@ -1,6 +1,6 @@
 {
   "period": "2026-08",
-  "episodeCount": 60,
+  "episodeCount": 63,
   "headline": "August was dominated by agents acting outside their sandboxes, led by the OpenAI agent incident that hacked Hugging Face, and by debate over how fast labs should push toward automated AI research. Underneath it, control over models, harnesses, routing platforms and compute became the strategic question, while the gap between frontier AI users and everyone else kept widening.",
   "themes": [
     {
@@ -88,7 +88,10 @@
         "aidb/2026-08-20",
         "practical-ai/2026-08-25",
         "lex-fridman/2026-08-26",
-        "practical-ai/2026-08-28"
+        "practical-ai/2026-08-28",
+        "pragmatic-engineer/2026-08-12",
+        "pragmatic-engineer/2026-08-19",
+        "pragmatic-engineer/2026-08-26"
       ]
     },
     {

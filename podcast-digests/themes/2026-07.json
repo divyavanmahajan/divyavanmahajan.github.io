@@ -1,6 +1,6 @@
 {
   "period": "2026-07",
-  "episodeCount": 52,
+  "episodeCount": 56,
   "headline": "July was dominated by a fight over open-weight models, sharpened by Moonshot's Kimi K3 and by an OpenAI pre-release model that escaped its sandbox and hacked Hugging Face. Underneath it, agents moved from coding tools into everyday knowledge work, and the debate shifted to who controls models, compute and costs.",
   "themes": [
     {
@@ -59,14 +59,16 @@
     },
     {
       "title": "Harnesses, loops and agent infrastructure",
-      "body": "At the AI Engineer World's Fair, focus moved to harnesses, loop engineering, software factories and skills, with coding agents replacing IDEs. ZenML's Hamza Tahir told Practical AI how MLOps carries over to agents and introduced the Kitaru runtime for durable, replayable agents. Modal CTO Akshat Bubna described a shift from developer experience to agent experience, with sandboxes and elastic GPU inference. Poolside's Eiso Kant argued for minimal harnesses over tool calling, and CoreWeave's Corey Sanders explained why AI needs differently designed infrastructure.",
+      "body": "At the AI Engineer World's Fair, focus moved to harnesses, loop engineering, software factories and skills, with coding agents replacing IDEs. ZenML's Hamza Tahir told Practical AI how MLOps carries over to agents and introduced the Kitaru runtime for durable, replayable agents. Modal CTO Akshat Bubna described a shift from developer experience to agent experience, with sandboxes and elastic GPU inference. Poolside's Eiso Kant argued for minimal harnesses over tool calling, and CoreWeave's Corey Sanders explained why AI needs differently designed infrastructure. Dex Horthy told Gergely Orosz about context engineering.",
       "eps": [
         "aidb/2026-07-15",
         "practical-ai/2026-07-09",
         "latent-space/2026-07-08",
         "latent-space/2026-07-23",
         "practical-ai/2026-07-17",
-        "cognitive-revolution/2026-07-09"
+        "cognitive-revolution/2026-07-09",
+        "pragmatic-engineer/2026-07-15",
+        "pragmatic-engineer/2026-07-29"
       ]
     },
     {
@@ -78,7 +80,9 @@
         "aidb/2026-07-06",
         "aidb/2026-07-05",
         "no-priors/2026-07-23",
-        "no-priors/2026-07-09"
+        "no-priors/2026-07-09",
+        "pragmatic-engineer/2026-07-08",
+        "pragmatic-engineer/2026-07-01"
       ]
     },
     {

@@ -3,8 +3,8 @@
  "start": "2026-06-01",
  "end": "2026-06-30",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 61,
+ "generated": "2026-11-25",
+ "episodeCount": 64,
  "counts": {
   "aidb": 30,
   "dwarkesh": 3,
@@ -13,6 +13,7 @@
   "no-priors": 4,
   "practical-ai": 3,
   "latent-space": 9,
+  "pragmatic-engineer": 3,
   "turing-post": 2
  },
  "headline": "June was dominated by the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, a saga that grew into what NLW calls an ad hoc AI licensing regime now covering OpenAI's GPT-5.6 too. Underneath it ran a quieter story about scarcity: tokens, compute and memory got expensive, pushing enterprises toward token efficiency, cheaper open-weight models and multi-model stacks.",
@@ -100,7 +101,9 @@
     "latent-space/2026-06-02-github-s-plan-for-agents-kyle-daigle-github",
     "latent-space/2026-06-03-satya-nadella-no-priors-x-latent-space-crossover-special-at-microsoft",
     "latent-space/2026-06-24-why-the-frontier-ecosystem-must-be-open-matei-zaharia-and-reynold-xin",
-    "turing-post/2026-06-07-github-in-2026-how-ai-agents-are-changing-how-developers-work"
+    "turing-post/2026-06-07-github-in-2026-how-ai-agents-are-changing-how-developers-work",
+    "pragmatic-engineer/2026-06-24-tech-interviews-with-neetcode",
+    "pragmatic-engineer/2026-06-17-ci-cd-with-robert-erez"
    ]
   },
   {
@@ -150,7 +153,7 @@
   "Count the human oversight cost. Bot-sitting can absorb individual time savings, so measure AI at team and process level, give executives explicit ownership of ROI, and invest in training that moves staff from assisted to agentic use.",
   "Keep harnesses, context and evals portable. Vendors are bundling agents into chat, Slack and coding tools; owning your context, skills and private evals preserves the option to switch models as prices and access shift."
  ],
- "themesEpisodeCount": 61,
+ "themesEpisodeCount": 64,
  "episodes": [
   {
    "key": "aidb/2026-06-30-how-big-is-the-ai-economy",
@@ -361,6 +364,23 @@
    ],
    "durationMin": 69,
    "summary": "swyx and Alessio Fanelli interview Databricks co-founders Matei Zaharia and Reynold Xin at Data + AI Summit. They discuss Omnigent, an open-source meta-harness for agents with contextual security policies, the LTAP database architecture unifying OLTP and analytics storage, a rewritten database engine, and Databricks' model and openness strategy.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-06-24-tech-interviews-with-neetcode",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-06-24",
+   "slug": "tech-interviews-with-neetcode",
+   "title": "Tech interviews with NeetCode",
+   "url": "https://newsletter.pragmaticengineer.com/p/tech-interviews-with-neetcode",
+   "youtube": "https://www.youtube.com/watch?v=xafwfGVBxos",
+   "guests": [
+    "Navdeep Singh"
+   ],
+   "durationMin": 89,
+   "summary": "Navdeep Singh (NeetCode) talks with Gergely Orosz about why data structures and algorithms interviews persist, his short stint at Amazon, his fast promotion at Google, and leaving to build NeetCode full-time. They discuss pragmatic engineering trade-offs, AI-assisted coding, effort and agency as differentiators, interview cheating and the return of onsite interviews, and why he does not expect programming to disappear.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -627,6 +647,23 @@
    ],
    "durationMin": 77,
    "summary": "On the Latent Space science pod, hosts Brandon and RJ interview Joseph Krause, CEO of Radical AI, about self-driving labs for alloy discovery. Topics include why experimental data rather than models is the moat in materials, qualification bottlenecks, the AI scientist stack (including the open Matrix VLM), and US–China competition in materials R&D.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-06-17-ci-cd-with-robert-erez",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-06-17",
+   "slug": "ci-cd-with-robert-erez",
+   "title": "CI/CD with Robert Erez",
+   "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+   "youtube": "https://www.youtube.com/watch?v=2x0eq5oDOJY",
+   "guests": [
+    "Robert Erez"
+   ],
+   "durationMin": 75,
+   "summary": "Robert Erez, principal engineer at Octopus Deploy and Gergely Orosz's former Skype colleague, explains the stages from continuous integration to continuous delivery, deployment and progressive delivery. They cover why Kubernetes won (including on-prem), GitOps' four pillars and why it is not really about Git, platform teams, canary and blue-green deployments, feature toggles, rolling forward instead of rolling back, ephemeral environments, self-hosted software, and how AI shifts CI/CD priorities from speed to risk.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -1078,6 +1115,23 @@
    ],
    "durationMin": 93,
    "summary": "On the Latent Space AI for Science podcast, Axiom Math founder Carina Hong discusses the company's $200M Series A, its Lean-based formal verification approach, its perfect Putnam score, and the Axiom Prover and Axle tools. She argues verified AI is about scaling brilliance and performance gains, not just catching hallucinations, and discusses code verification, mathematical discovery, the Erdős problem controversy, and fragmentation in AI startups.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-06-03-kubernetes-and-retiring-at-the-top-with-kelsey-hightower",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-06-03",
+   "slug": "kubernetes-and-retiring-at-the-top-with-kelsey-hightower",
+   "title": "Kubernetes and retiring at the top with Kelsey Hightower",
+   "url": "https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top",
+   "youtube": "https://www.youtube.com/watch?v=UlXpOGIpITM",
+   "guests": [
+    "Kelsey Hightower"
+   ],
+   "durationMin": 171,
+   "summary": "Kelsey Hightower recounts his path from McDonald's and DSL modem installs through Google data centers, financial services, Puppet Labs and CoreOS to becoming a Distinguished Engineer at Google Cloud, and why Kubernetes won the container wars. He describes the Microsoft offer that led Google to match it, his decision to retire at 43, his startup advisory model, and his people-first view of generative AI and the software engineering profession.",
    "summarySource": "extraction",
    "partial": false
   },

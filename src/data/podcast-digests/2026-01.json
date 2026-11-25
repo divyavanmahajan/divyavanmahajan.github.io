@@ -3,14 +3,15 @@
  "start": "2026-01-01",
  "end": "2026-01-31",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 50,
+ "generated": "2026-11-25",
+ "episodeCount": 52,
  "counts": {
   "aidb": 26,
   "cognitive-revolution": 8,
   "epoch-ai": 1,
   "no-priors": 4,
   "latent-space": 6,
+  "pragmatic-engineer": 2,
   "practical-ai": 3,
   "turing-post": 1,
   "lex-fridman": 1
@@ -33,14 +34,15 @@
   },
   {
    "title": "Longer-running agents: loops, swarms, personal agents",
-   "body": "The practice of vibe coding shifted toward extending agent autonomy: NLW explains Cursor's multi-agent browser experiment, the Ralph Wiggum loop and Clawdbot on Mac minis, then asks whether Kimi K2.5's Agent Swarm makes 2026 the year of swarms. By month's end 100,000 agents had joined Moltbook. Daniel Miessler shows his Claude Code-based Personal AI Infrastructure, Brex CTO James Reggio a custom multi-agent network, and Dominic Williams proposes governing unstoppable agents through model ensembles and consensus.",
+   "body": "The practice of vibe coding shifted toward extending agent autonomy: NLW explains Cursor's multi-agent browser experiment, the Ralph Wiggum loop and Clawdbot on Mac minis, then asks whether Kimi K2.5's Agent Swarm makes 2026 the year of swarms. By month's end 100,000 agents had joined Moltbook. Daniel Miessler shows his Claude Code-based Personal AI Infrastructure, Brex CTO James Reggio a custom multi-agent network, and Dominic Williams proposes governing unstoppable agents through model ensembles and consensus. Clawdbot creator Peter Steinberger tells Gergely Orosz he runs 5-10 Codex agents in parallel.",
    "eps": [
     "aidb/2026-01-26-ralph-wiggum-clawdbot-and-mac-minis-how-pros-are-vibe-coding-in-2026",
     "aidb/2026-01-28-are-agent-swarms-the-next-ai-paradigm",
     "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook",
     "cognitive-revolution/2026-01-18-pioneering-pai-how-daniel-miessler-s-personal-ai-infrastructure-activa",
     "latent-space/2026-01-17-brex-s-ai-hail-mary-with-cto-james-reggio",
-    "cognitive-revolution/2026-01-25-the-internet-computer-caffeine-ai-ceo-dominic-williams-on-unstoppable"
+    "cognitive-revolution/2026-01-25-the-internet-computer-caffeine-ai-ceo-dominic-williams-on-unstoppable",
+    "pragmatic-engineer/2026-01-28-the-creator-of-clawd-i-ship-code-i-dont-read"
    ]
   },
   {
@@ -143,7 +145,7 @@
   "Independent evaluations and leaderboards can be gamed or misread. Build internal evals on your own tasks, track cost per outcome alongside capability, and expect total AI spend to grow even as the price per unit of intelligence falls.",
   "Workforce exposure is uneven. Pair agent rollouts with skills programs for directing agents and redesigning processes, and identify roles with high exposure and low adaptability early so transitions are planned rather than reactive."
  ],
- "themesEpisodeCount": 50,
+ "themesEpisodeCount": 52,
  "episodes": [
   {
    "key": "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook",
@@ -271,6 +273,23 @@
    ],
    "durationMin": 74,
    "summary": "The first episode of Latent Space's AI for Science podcast, hosted by Brandon (Atomic AI) and RJ Honicky (MiraOmics), interviews Andrew White, co-founder of Future House and Edison Scientific. Topics include his path from academia to automating science, the Cosmos AI scientist and its world model, scientific taste, Robin's dry AMD result, critiques of molecular dynamics and DFT, CBRN risk, and reward hacking in the ether0 chemistry RL model.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-01-28-the-creator-of-clawd-i-ship-code-i-dont-read",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-01-28",
+   "slug": "the-creator-of-clawd-i-ship-code-i-dont-read",
+   "title": "The creator of Clawd: \\\"I ship code I don't read\\\"",
+   "url": "https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code",
+   "youtube": "https://www.youtube.com/watch?v=8lF7HmQ_RgY",
+   "guests": [
+    "Peter Steinberger"
+   ],
+   "durationMin": 114,
+   "summary": "Gergely Orosz talks with Peter Steinberger about building PSPDFKit, burning out and returning to coding after three years, and his AI-agent-centred workflow. Peter explains running 5-10 Codex agents in parallel, closing the loop so agents verify their own work, treating pull requests as prompt requests, and building his viral personal-assistant project Clawdbot (now OpenClaw).",
    "summarySource": "extraction",
    "partial": false
   },
@@ -461,6 +480,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "NLW explores the 'AI capabilities overhang', OpenAI's term for the gap between what AI can do and the value people capture, across individuals, communities, municipalities, educators, businesses and sovereigns. Headlines cover Claude Code breaking into mainstream press, Anthropic's enlarged fundraise, a Google/Ipsos AI survey, xAI's 1GW Colossus 2, and Elon Musk seeking up to $134B from OpenAI and Microsoft.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-01-21-how-aws-s3-is-built",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-01-21",
+   "slug": "how-aws-s3-is-built",
+   "title": "How AWS S3 is built",
+   "url": "https://newsletter.pragmaticengineer.com/p/how-aws-s3-is-built",
+   "youtube": "https://www.youtube.com/watch?v=5vL6aCvgQXU",
+   "guests": [
+    "Mai-Lan Tomsen Bukovec"
+   ],
+   "durationMin": 78,
+   "summary": "Gergely Orosz talks with Mai-Lan Tomsen Bukovec, VP of Data and Analytics at AWS, about the scale and engineering of Amazon S3. Topics include the move from eventual to strong consistency via a replicated journal, formal methods/automated reasoning, durability auditing, correlated failures and crash consistency, S3 Tables and S3 Vectors, pricing, and S3's engineering tenets and culture.",
    "summarySource": "extraction",
    "partial": false
   },

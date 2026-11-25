@@ -3,8 +3,8 @@
  "start": "2026-08-01",
  "end": "2026-08-31",
  "inProgress": false,
- "generated": "2026-11-22",
- "episodeCount": 60,
+ "generated": "2026-11-25",
+ "episodeCount": 63,
  "counts": {
   "aidb": 26,
   "turing-post": 12,
@@ -13,6 +13,7 @@
   "no-priors": 4,
   "latent-space": 4,
   "lex-fridman": 2,
+  "pragmatic-engineer": 3,
   "dwarkesh": 2
  },
  "headline": "August was dominated by agents acting outside their sandboxes, led by the OpenAI agent incident that hacked Hugging Face, and by debate over how fast labs should push toward automated AI research. Underneath it, control over models, harnesses, routing platforms and compute became the strategic question, while the gap between frontier AI users and everyone else kept widening.",
@@ -102,7 +103,10 @@
     "aidb/2026-08-20-9-ai-techniques-you-probably-havent-tried",
     "practical-ai/2026-08-25-ai-proficiency-from-users-to-builders",
     "lex-fridman/2026-08-26-dhh-future-of-programming-ai-agentic-engineering-vibe-coding-linux",
-    "practical-ai/2026-08-28-building-the-foundation-for-the-agentic-ai-era"
+    "practical-ai/2026-08-28-building-the-foundation-for-the-agentic-ai-era",
+    "pragmatic-engineer/2026-08-12-stop-being-skeptical-about-ai-for-development-with-charity-majors",
+    "pragmatic-engineer/2026-08-19-from-chrome-devtools-to-ai-engineering-with-addy-osmani",
+    "pragmatic-engineer/2026-08-26-why-performant-code-matters-but-gets-widely-ignored-with-casey-murator"
    ]
   },
   {
@@ -163,7 +167,7 @@
   "Invest in non-engineer builders. Coding agents have made personal and production software reachable for domain experts, and the gap between frontier and typical firms is widening, so proficiency programs and internal champions matter more than tool licenses.",
   "Expect infrastructure and trust friction. Data center backlash, compute concentration among a few labs and public distrust can affect capacity, pricing and adoption, so build supplier diversity and transparent communication into AI plans."
  ],
- "themesEpisodeCount": 60,
+ "themesEpisodeCount": 63,
  "episodes": [
   {
    "key": "aidb/2026-08-31-how-to-navigate-the-next-wave-of-ai-competition",
@@ -371,6 +375,23 @@
    ],
    "durationMin": 322,
    "summary": "David Heinemeier Hansson (DHH) describes moving from AI skeptic to fully agent-driven development since Claude Opus 4.5, and building the Omarchy Quattro Linux distribution almost entirely with agents. He compares frontier and open models on a Python-to-Rust port, argues that Linux will win the desktop as the malleable, agentic operating system, and covers open source, jobs, AI safety and refusals, immigration politics, longevity culture and fatherhood.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-08-26-why-performant-code-matters-but-gets-widely-ignored-with-casey-murator",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-08-26",
+   "slug": "why-performant-code-matters-but-gets-widely-ignored-with-casey-murator",
+   "title": "Why performant code matters (but gets widely ignored), with Casey Muratori",
+   "url": "https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets",
+   "youtube": "https://www.youtube.com/watch?v=8xBJPa_480Q",
+   "guests": [
+    "Casey Muratori"
+   ],
+   "durationMin": 113,
+   "summary": "Gergely Orosz talks with programmer and game developer Casey Muratori about why software performance is neglected, how to optimize against theoretical hardware limits, why to learn to read assembly and how CPUs work, and why premature-optimization dogma ignores architecture. They also cover the origins of WinG and DirectX, how licensable game engines changed the games industry, Casey's critiques of clean code and TDD, what makes good code and good engineers, and why Casey does not code with AI.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -627,6 +648,23 @@
    "partial": false
   },
   {
+   "key": "pragmatic-engineer/2026-08-19-from-chrome-devtools-to-ai-engineering-with-addy-osmani",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-08-19",
+   "slug": "from-chrome-devtools-to-ai-engineering-with-addy-osmani",
+   "title": "From Chrome DevTools to AI Engineering, with Addy Osmani",
+   "url": "https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering",
+   "youtube": "https://www.youtube.com/watch?v=2fyPnxKu8ZM",
+   "guests": [
+    "Addy Osmani"
+   ],
+   "durationMin": 92,
+   "summary": "Gergely Orosz interviews Addy Osmani about his path from building a web browser as a teenager in rural Ireland, through jQuery and TodoMVC, to 14 years at Google working on Chrome DevTools, Core Web Vitals and AI developer experience, rising to director. They discuss Google's engineering culture, what changes at director level, cognitive debt and cognitive surrender with AI agents, mutual amplification, loop engineering and software factories, accountability as the lasting role of engineers, writing with AI, and career advice to not be just an engineer.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-08-18-the-ai-engineering-skills-map-for-knowledge-workers",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -747,6 +785,23 @@
    ],
    "durationMin": 200,
    "summary": "Lex Fridman's 500th episode, conducted in Russian and dubbed into English with AI voice cloning, is a conversation with undefeated former UFC champion Khabib Nurmagomedov. They discuss why Dagestan produces so many fighters, Khabib's father's coaching and parenting, his training discipline, the Conor McGregor and Justin Gaethje fights, the greatest MMA fighters, his teammates and the UFC business. The later chapters cover football (Real Madrid, Messi vs Ronaldo, Zidane), life in Dubai, and his Muslim faith and advice to young people.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-08-12-stop-being-skeptical-about-ai-for-development-with-charity-majors",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-08-12",
+   "slug": "stop-being-skeptical-about-ai-for-development-with-charity-majors",
+   "title": "Stop being skeptical about AI for development with Charity Majors",
+   "url": "https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for",
+   "youtube": "https://www.youtube.com/watch?v=HC8T1OlgYi0",
+   "guests": [
+    "Charity Majors"
+   ],
+   "durationMin": 86,
+   "summary": "Gergely Orosz talks with Charity Majors, Honeycomb cofounder and CTO, about how her view of AI changed from skepticism in 2025 to seeing it as generational after Opus 4.5 and better harnesses. They discuss shipping code nobody has read, regenerating rather than editing code, why code review is overloaded, the failure of DevOps to close the production feedback loop, observability for non-deterministic systems, the gap between AI enthusiasts and on-call skeptics amid falling reliability, AI communication norms, the second edition of Observability Engineering, and career advice for managers, directors and juniors.",
    "summarySource": "extraction",
    "partial": false
   },
