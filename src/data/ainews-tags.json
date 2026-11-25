@@ -2497,5 +2497,17 @@
   "models-and-benchmarks",
   "agents",
   "anthropic"
+ ],
+ "2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo": [
+  "policy-and-regulation",
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
+ "2026-11-24-ai-just-made-history-in-the-middle-of-a-meltdown": [
+  "policy-and-regulation",
+  "infrastructure-and-chips",
+  "open-weight-models",
+  "nvidia",
+  "xai"
  ]
 }
