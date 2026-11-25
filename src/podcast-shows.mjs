@@ -63,6 +63,12 @@ export const podcastShows = [
     description: "Epoch AI's podcast: its researchers and guests on AI forecasting, scaling, compute, benchmarks and the economics of AGI.",
     homepage: 'https://epoch.ai/epoch-after-hours',
   },
+  {
+    slug: 'pragmatic-engineer',
+    name: 'The Pragmatic Engineer',
+    description: 'Gergely Orosz talks with engineers and engineering leaders about how software is built at Big Tech and startups, engineering careers and culture, and AI for software engineering.',
+    homepage: 'https://newsletter.pragmaticengineer.com/podcast',
+  },
 ];
 
 export const podcastShowSlugs = podcastShows.map((s) => s.slug);
