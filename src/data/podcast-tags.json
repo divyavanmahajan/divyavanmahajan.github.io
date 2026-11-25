@@ -5813,54 +5813,72 @@
  "lex-fridman/2023-02-25-aaron-smith-levin-scientology": [
   "society-and-culture"
  ],
- "lex-fridman/2023-03-02-ginni-rometty-ibm-ceo-on-leadership-power-and-adversity": [],
+ "lex-fridman/2023-03-02-ginni-rometty-ibm-ceo-on-leadership-power-and-adversity": [
+  "consumer-ai",
+  "policy-and-regulation"
+ ],
  "lex-fridman/2023-03-06-b-team-jiu-jitsu-craig-jones-nicky-rod-and-nicky-ryan": [],
- "lex-fridman/2023-03-10-chris-voss-fbi-hostage-negotiator": [],
+ "lex-fridman/2023-03-10-chris-voss-fbi-hostage-negotiator": [
+  "policy-and-regulation"
+ ],
  "lex-fridman/2023-03-14-sam-harris-trump-pandemic-twitter-elon-bret-idw-kanye-ai-ufos": [
-  "society-and-culture"
+  "ai-safety",
+  "policy-and-regulation",
+  "society-and-culture",
+  "xai"
  ],
  "lex-fridman/2023-03-21-shannon-curry-johnny-depp-amber-heard-trial-marriage-dating-love": [
+  "policy-and-regulation",
   "science"
  ],
  "lex-fridman/2023-03-25-sam-altman-openai-ceo-on-gpt-4-chatgpt-and-the-future-of-ai": [
   "ai-safety",
   "consumer-ai",
+  "jobs-and-work",
   "openai"
  ],
  "lex-fridman/2023-03-30-eliezer-yudkowsky-dangers-of-ai-and-the-end-of-human-civilization": [
-  "ai-safety"
+  "ai-safety",
+  "interpretability",
+  "policy-and-regulation",
+  "openai"
  ],
  "lex-fridman/2023-04-04-paul-rosolie-amazon-jungle-uncontacted-tribes-anacondas-and-ayahuasca": [
-  "amazon"
+  "physics-and-space"
  ],
  "lex-fridman/2023-04-10-edward-frenkel-reality-is-a-paradox-mathematics-physics-truth-love": [
-  "ai-for-science",
   "physics-and-space"
  ],
  "lex-fridman/2023-04-13-max-tegmark-the-case-for-halting-ai-development": [
-  "openai"
+  "ai-safety",
+  "agents"
  ],
  "lex-fridman/2023-04-16-simone-giertz-queen-of-sh-tty-robots-innovative-engineering-and-design": [
-  "physical-ai"
- ],
- "lex-fridman/2023-04-21-manolis-kellis-evolution-of-human-civilization-and-superintelligent-ai": [
-  "ai-safety",
-  "science"
- ],
- "lex-fridman/2023-04-28-robert-playter-boston-dynamics-ceo-on-humanoid-and-legged-robotics": [
-  "physical-ai",
   "consumer-ai"
  ],
+ "lex-fridman/2023-04-21-manolis-kellis-evolution-of-human-civilization-and-superintelligent-ai": [
+  "jobs-and-work",
+  "ai-safety",
+  "consumer-ai",
+  "openai"
+ ],
+ "lex-fridman/2023-04-28-robert-playter-boston-dynamics-ceo-on-humanoid-and-legged-robotics": [
+  "jobs-and-work",
+  "physical-ai"
+ ],
  "lex-fridman/2023-05-06-david-pakman-politics-of-trump-biden-bernie-aoc-socialism-wokeism": [
+  "policy-and-regulation",
+  "consumer-ai",
   "society-and-culture"
  ],
  "lex-fridman/2023-05-09-stephen-wolfram-chatgpt-and-the-nature-of-truth-reality-computation": [
   "consumer-ai",
+  "jobs-and-work",
   "nlp-and-speech",
-  "physics-and-space",
   "openai"
  ],
  "lex-fridman/2023-05-16-harvey-silverglate-freedom-of-speech": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
  "lex-fridman/2023-05-18-anna-frebel-origin-and-evolution-of-the-universe-galaxies-and-stars": [
@@ -5868,7 +5886,6 @@
   "science"
  ],
  "lex-fridman/2023-05-24-randall-kennedy-the-n-word-history-of-race-law-politics-and-power": [
-  "jobs-and-work",
   "society-and-culture",
   "history-and-geopolitics"
  ],
@@ -5877,50 +5894,68 @@
   "physics-and-space",
   "science"
  ],
- "lex-fridman/2023-06-02-chris-lattner-future-of-programming-and-ai": [],
+ "lex-fridman/2023-06-02-chris-lattner-future-of-programming-and-ai": [
+  "ai-safety",
+  "machine-learning"
+ ],
  "lex-fridman/2023-06-05-bert-kreischer-comedy-drinking-rogan-segura-churchill-kim-jong-un": [
   "nlp-and-speech"
  ],
  "lex-fridman/2023-06-08-mark-zuckerberg-future-of-ai-at-meta-facebook-instagram-and-whatsapp": [
+  "ai-safety",
+  "models-and-benchmarks",
+  "society-and-culture",
   "meta"
  ],
- "lex-fridman/2023-06-13-matthew-mcconaughey-freedom-truth-family-hardship-and-love": [],
+ "lex-fridman/2023-06-13-matthew-mcconaughey-freedom-truth-family-hardship-and-love": [
+  "physics-and-space"
+ ],
  "lex-fridman/2023-06-18-jimmy-wales-wikipedia": [
   "consumer-ai",
-  "society-and-culture"
+  "society-and-culture",
+  "openai"
  ],
  "lex-fridman/2023-06-22-marc-andreessen-future-of-the-internet-technology-and-ai": [
-  "policy-and-regulation"
+  "jobs-and-work",
+  "policy-and-regulation",
+  "us-china",
+  "google"
  ],
  "lex-fridman/2023-06-30-george-hotz-tiny-corp-twitter-ai-safety-self-driving-gpt-agi-god": [
-  "physical-ai",
-  "open-weight-models"
+  "ai-safety",
+  "consumer-ai",
+  "society-and-culture",
+  "meta"
  ],
  "lex-fridman/2023-07-06-robert-f-kennedy-jr-cia-power-corruption-war-freedom-and-meaning": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2023-07-12-benjamin-netanyahu-israel-palestine-power-corruption-hate-and-peace": [
+  "jobs-and-work",
+  "infrastructure-and-chips",
   "history-and-geopolitics"
  ],
  "lex-fridman/2023-07-17-yuval-noah-harari-human-nature-intelligence-power-and-conspiracies": [
-  "history-and-geopolitics",
-  "society-and-culture"
+  "ai-consciousness",
+  "ai-safety",
+  "history-and-geopolitics"
  ],
  "lex-fridman/2023-07-24-mohammed-el-kurd-palestine": [
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2023-08-01-joscha-bach-life-intelligence-consciousness-ai-the-future-of-humans": [
-  "ai-consciousness"
+  "consumer-ai",
+  "ai-safety",
+  "openai"
  ],
  "lex-fridman/2023-08-17-andrew-huberman-relationships-drama-betrayal-sex-and-love": [],
  "lex-fridman/2023-09-01-neri-oxman-biology-art-and-science-of-design-engineering-with-nature": [
-  "ai-for-science",
   "science"
  ],
  "lex-fridman/2023-09-10-walter-isaacson-elon-musk-steve-jobs-einstein-da-vinci-ben-franklin": [
-  "jobs-and-work",
   "xai"
  ],
  "lex-fridman/2023-09-18-james-sexton-divorce-lawyer-on-marriage-relationships-sex-lies-love": [],
@@ -5928,52 +5963,68 @@
   "society-and-culture"
  ],
  "lex-fridman/2023-09-28-mark-zuckerberg-first-interview-in-the-metaverse": [
-  "ai-safety",
+  "open-weight-models",
   "meta"
  ],
  "lex-fridman/2023-10-11-jared-kushner-israel-palestine-hamas-gaza-iran-and-the-middle-east": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2023-11-09-elon-musk-war-ai-aliens-politics-physics-video-games-and-humanity": [
+  "policy-and-regulation",
+  "infrastructure-and-chips",
   "physics-and-space",
-  "history-and-geopolitics",
-  "xai"
+  "xai",
+  "openai"
  ],
  "lex-fridman/2023-11-18-john-mearsheimer-israel-palestine-russia-ukraine-china-nato-and-ww3": [
-  "us-china",
   "history-and-geopolitics"
  ],
- "lex-fridman/2023-11-25-michael-malice-thanksgiving-pirate-special": [],
+ "lex-fridman/2023-11-25-michael-malice-thanksgiving-pirate-special": [
+  "society-and-culture"
+ ],
  "lex-fridman/2023-12-03-lisa-randall-dark-matter-theoretical-physics-and-extinction-events": [
   "physics-and-space"
  ],
  "lex-fridman/2023-12-09-lee-cronin-controversial-nature-paper-on-evolution-of-life-and-univers": [
+  "consumer-ai",
+  "policy-and-regulation",
   "science"
  ],
  "lex-fridman/2023-12-14-jeff-bezos-amazon-and-blue-origin": [
+  "ai-safety",
   "physics-and-space",
   "amazon"
  ],
  "lex-fridman/2023-12-24-teddy-atlas-mike-tyson-cus-d-amato-boxing-loyalty-fear-greatness": [],
  "lex-fridman/2023-12-29-guillaume-verdon-beff-jezos-e-acc-movement-physics-computation-agi": [
+  "ai-safety",
+  "policy-and-regulation",
   "physics-and-space"
  ],
  "lex-fridman/2024-01-09-tal-wilkenfeld-music-guitar-bass-jeff-beck-prince-and-leonard-cohen": [],
  "lex-fridman/2024-01-17-matthew-cox-fbi-most-wanted-con-man-55-million-in-bank-fraud": [],
  "lex-fridman/2024-01-23-ben-shapiro-destiny-debate-ben-shapiro-vs-destiny-debate-politics-jan": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2024-02-02-omar-suleiman-palestine-gaza-oct-7-israel-resistance-faith-islam": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2024-02-16-marc-raibert-boston-dynamics-and-the-future-of-robotics": [
-  "physical-ai"
+  "physical-ai",
+  "training-and-rl"
  ],
  "lex-fridman/2024-02-20-bill-ackman-investing-financial-battles-harvard-dei-x-free-speech": [
-  "society-and-culture"
+  "consumer-ai",
+  "policy-and-regulation",
+  "society-and-culture",
+  "openai"
  ],
  "lex-fridman/2024-02-27-tucker-carlson-putin-navalny-trump-cia-nsa-war-politics-freedom": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
@@ -5981,8 +6032,9 @@
   "history-and-geopolitics"
  ],
  "lex-fridman/2024-03-07-yann-lecun-meta-ai-open-source-limits-of-llms-agi-the-future-of-ai": [
-  "generative-media",
+  "ai-safety",
   "physical-ai",
+  "generative-media",
   "meta"
  ],
  "lex-fridman/2024-03-10-kimbal-musk-the-art-of-cooking-tesla-spacex-zip2-and-family": [
@@ -5992,19 +6044,28 @@
   "history-and-geopolitics"
  ],
  "lex-fridman/2024-03-18-sam-altman-openai-gpt-5-sora-board-saga-elon-musk-ilya-power-agi": [
+  "ai-safety",
   "generative-media",
-  "openai"
+  "consumer-ai",
+  "openai",
+  "xai"
  ],
  "lex-fridman/2024-03-22-annie-jacobsen-nuclear-war-cia-kgb-aliens-area-51-roswell-secrecy": [
   "history-and-geopolitics",
   "physics-and-space"
  ],
- "lex-fridman/2024-03-25-dana-white-ufc-fighting-khabib-conor-tyson-ali-rogan-elon-zuck": [],
+ "lex-fridman/2024-03-25-dana-white-ufc-fighting-khabib-conor-tyson-ali-rogan-elon-zuck": [
+  "policy-and-regulation"
+ ],
  "lex-fridman/2024-03-29-mark-cuban-shark-tank-dei-wokeism-debate-elon-musk-politics-drugs": [
+  "ai-economics",
+  "infrastructure-and-chips",
   "society-and-culture",
   "xai"
  ],
  "lex-fridman/2024-04-02-tulsi-gabbard-war-politics-and-the-military-industrial-complex": [
+  "policy-and-regulation",
+  "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2024-04-05-bassem-youssef-israel-palestine-gaza-hamas-middle-east-satire-fame": [
@@ -6014,64 +6075,78 @@
  "lex-fridman/2024-04-13-andrew-callaghan-channel-5-gonzo-qanon-o-block-politics-alex-jones": [
   "society-and-culture"
  ],
- "lex-fridman/2024-04-17-edward-gibson-human-language-psycholinguistics-syntax-grammar-llms": [],
+ "lex-fridman/2024-04-17-edward-gibson-human-language-psycholinguistics-syntax-grammar-llms": [
+  "nlp-and-speech"
+ ],
  "lex-fridman/2024-04-20-neil-adams-judo-olympics-winning-losing-and-the-champion-mindset": [],
  "lex-fridman/2024-04-22-sean-carroll-general-relativity-quantum-mechanics-black-holes-aliens": [
   "physics-and-space"
  ],
  "lex-fridman/2024-05-15-paul-rosolie-jungle-apex-predators-aliens-uncontacted-tribes-and-god": [
-  "physics-and-space",
-  "amazon"
+  "physics-and-space"
  ],
  "lex-fridman/2024-05-25-charan-ranganath-human-memory-imagination-deja-vu-and-false-memories": [
   "science"
  ],
  "lex-fridman/2024-06-02-roman-yampolskiy-dangers-of-superintelligent-ai": [
-  "ai-safety"
+  "ai-safety",
+  "policy-and-regulation"
  ],
  "lex-fridman/2024-06-05-kevin-spacey-power-controversy-betrayal-truth-love-in-film-and-life": [],
  "lex-fridman/2024-06-13-sara-walker-physics-of-life-time-complexity-and-aliens": [
-  "physics-and-space",
-  "science"
+  "ai-consciousness",
+  "science",
+  "physics-and-space"
  ],
  "lex-fridman/2024-06-19-aravind-srinivas-perplexity-ceo-on-future-of-ai-search-the-internet": [
   "consumer-ai",
+  "models-and-benchmarks",
+  "ai-safety",
   "google"
  ],
  "lex-fridman/2024-06-28-andrew-huberman-focus-controversy-politics-and-relationships": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
  "lex-fridman/2024-07-02-ivanka-trump-politics-family-real-estate-fashion-music-and-life": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
  "lex-fridman/2024-07-21-jordan-jonas-survival-hunting-siberia-god-and-winning-alone-season-6": [
   "history-and-geopolitics"
  ],
  "lex-fridman/2024-08-02-elon-musk-and-neuralink-team-elon-musk-neuralink-and-the-future-of-hum": [
+  "ai-safety",
+  "generative-media",
   "xai"
  ],
  "lex-fridman/2024-08-14-craig-jones-jiu-jitsu-2-million-prize-cji-adcc-ukraine-trolling": [
   "history-and-geopolitics"
  ],
- "lex-fridman/2024-08-20-pieter-levels-programming-viral-ai-startups-and-digital-nomad-life": [],
+ "lex-fridman/2024-08-20-pieter-levels-programming-viral-ai-startups-and-digital-nomad-life": [
+  "infrastructure-and-chips",
+  "jobs-and-work"
+ ],
  "lex-fridman/2024-08-30-cenk-uygur-trump-vs-harris-progressive-politics-communism-capitalism": [
+  "policy-and-regulation",
   "society-and-culture",
   "economics-and-crypto"
  ],
  "lex-fridman/2024-09-03-donald-trump-interview": [
-  "history-and-geopolitics",
-  "society-and-culture"
+  "policy-and-regulation",
+  "ai-coding",
+  "history-and-geopolitics"
  ],
  "lex-fridman/2024-09-12-gregory-aldrete-the-roman-empire-rise-and-fall-of-ancient-rome": [
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2024-09-20-vejas-liulevicius-communism-marxism-nazism-stalin-mao-and-hitler": [
-  "ai-for-science",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2024-09-25-vivek-ramaswamy-trump-conservatism-nationalism-immigration-and-war": [
+  "policy-and-regulation",
   "society-and-culture",
   "history-and-geopolitics"
  ],
@@ -6079,7 +6154,9 @@
   "history-and-geopolitics"
  ],
  "lex-fridman/2024-10-06-cursor-team-future-of-programming-with-ai": [
-  "ai-coding"
+  "models-and-benchmarks",
+  "ai-coding",
+  "open-weight-models"
  ],
  "lex-fridman/2024-10-11-jordan-peterson-nietzsche-hitler-god-psychopathy-suffering-meaning": [
   "society-and-culture",
@@ -6095,13 +6172,18 @@
   "history-and-geopolitics"
  ],
  "lex-fridman/2024-11-11-dario-amodei-anthropic-ceo-on-claude-agi-the-future-of-ai-humanity": [
+  "ai-safety",
   "interpretability",
+  "models-and-benchmarks",
   "anthropic"
  ],
  "lex-fridman/2024-11-20-javier-milei-president-of-argentina-freedom-economics-and-corruption": [
-  "economics-and-crypto"
+  "policy-and-regulation",
+  "economics-and-crypto",
+  "xai"
  ],
  "lex-fridman/2024-12-08-saagar-enjeti-trump-maga-doge-obama-fdr-jfk-history-politics": [
+  "policy-and-regulation",
   "society-and-culture",
   "history-and-geopolitics"
  ],
@@ -6109,87 +6191,116 @@
   "physics-and-space"
  ],
  "lex-fridman/2025-01-06-volodymyr-zelenskyy-ukraine-war-peace-putin-trump-nato-and-freedom": [
+  "policy-and-regulation",
+  "ai-coding",
   "history-and-geopolitics"
  ],
  "lex-fridman/2025-01-19-jennifer-burns-milton-friedman-ayn-rand-economics-capitalism-freedom": [
-  "economics-and-crypto",
-  "history-and-geopolitics"
+  "jobs-and-work",
+  "policy-and-regulation",
+  "economics-and-crypto"
  ],
  "lex-fridman/2025-01-26-marc-andreessen-trump-power-tech-ai-immigration-future-of-america": [
   "policy-and-regulation",
-  "society-and-culture"
- ],
- "lex-fridman/2025-02-03-deepseek-dylan-patel-nathan-lambert-deepseek-china-openai-nvidia-xai-t": [
-  "infrastructure-and-chips",
-  "us-china",
-  "open-weight-models",
-  "deepseek",
-  "openai",
+  "ai-coding",
+  "society-and-culture",
+  "meta",
   "xai"
  ],
+ "lex-fridman/2025-02-03-deepseek-dylan-patel-nathan-lambert-deepseek-china-openai-nvidia-xai-t": [
+  "us-china",
+  "infrastructure-and-chips",
+  "open-weight-models",
+  "deepseek",
+  "nvidia",
+  "openai"
+ ],
  "lex-fridman/2025-03-16-narendra-modi-prime-minister-of-india-power-democracy-war-peace": [
-  "society-and-culture",
-  "history-and-geopolitics"
+  "policy-and-regulation",
+  "generative-media",
+  "society-and-culture"
  ],
  "lex-fridman/2025-03-22-theprimeagen-programming-ai-adhd-productivity-addiction-and-god": [
-  "society-and-culture"
+  "ai-coding",
+  "jobs-and-work",
+  "society-and-culture",
+  "microsoft"
  ],
  "lex-fridman/2025-03-26-ezra-klein-and-derek-thompson-politics-trump-aoc-elon-doge": [
-  "society-and-culture"
+  "policy-and-regulation",
+  "society-and-culture",
+  "xai"
  ],
  "lex-fridman/2025-03-30-douglas-murray-putin-zelenskyy-trump-israel-netanyahu-hamas-gaza": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2025-04-09-dave-smith-israel-ukraine-epstein-mossad-conspiracies-antisemitism": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2025-04-17-robert-rodriguez-sin-city-desperado-el-mariachi-alita-and-filmmaking": [],
  "lex-fridman/2025-04-24-jeffrey-wasserstrom-china-xi-jinping-trade-war-taiwan-hong-kong-mao": [
-  "us-china",
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2025-04-30-tim-sweeney-fortnite-unreal-engine-and-the-future-of-gaming": [
-  "apple",
-  "google"
+  "jobs-and-work",
+  "apple"
  ],
  "lex-fridman/2025-05-05-janna-levin-black-holes-wormholes-aliens-paradoxes-extra-dimensions": [
   "physics-and-space"
  ],
  "lex-fridman/2025-05-20-oliver-anthony-country-music-blue-collar-america-fame-money-and-pain": [
-  "jobs-and-work",
   "society-and-culture"
  ],
  "lex-fridman/2025-05-24-james-holland-world-war-ii-hitler-churchill-stalin-biggest-battles": [
   "history-and-geopolitics"
  ],
  "lex-fridman/2025-06-05-sundar-pichai-ceo-of-google-and-alphabet": [
+  "ai-safety",
+  "models-and-benchmarks",
+  "ai-coding",
   "google"
  ],
  "lex-fridman/2025-06-15-terence-tao-hardest-problems-in-mathematics-physics-the-future-of-ai": [
-  "ai-for-science"
+  "ai-for-science",
+  "ai-coding"
  ],
  "lex-fridman/2025-06-26-iran-war-debate-nuclear-weapons-trump-peace-power-the-middle-east": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
- "lex-fridman/2025-07-12-dhh-david-heinemeier-hansson-dhh-future-of-programming-ai-ruby-on-rail": [],
+ "lex-fridman/2025-07-12-dhh-david-heinemeier-hansson-dhh-future-of-programming-ai-ruby-on-rail": [
+  "ai-coding",
+  "jobs-and-work",
+  "amazon",
+  "apple"
+ ],
  "lex-fridman/2025-07-23-demis-hassabis-future-of-ai-simulating-reality-physics-and-video-games": [
+  "ai-safety",
   "ai-for-science",
-  "physics-and-space",
+  "generative-media",
   "google"
  ],
  "lex-fridman/2025-08-01-jack-weatherford-genghis-khan-and-the-mongol-empire": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2025-08-13-keyu-jin-china-s-economy-tariffs-trade-trump-communism-capitalism": [
   "us-china",
-  "economics-and-crypto"
+  "open-weight-models",
+  "policy-and-regulation",
+  "deepseek"
  ],
  "lex-fridman/2025-08-24-scott-horton-the-case-against-war-and-the-military-industrial-complex": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2025-08-29-dave-plummer-programming-autism-and-old-school-microsoft-stories": [
+  "ai-coding",
   "microsoft"
  ],
  "lex-fridman/2025-09-04-dave-hone-t-rex-dinosaurs-extinction-evolution-and-jurassic-park": [
@@ -6206,7 +6317,10 @@
  ],
  "lex-fridman/2025-10-31-dan-houser-gta-red-dead-redemption-rockstar-absurd-future-of-gaming": [],
  "lex-fridman/2025-11-17-david-kirtley-nuclear-fusion-plasma-physics-and-the-future-of-energy": [
-  "physics-and-space"
+  "infrastructure-and-chips",
+  "policy-and-regulation",
+  "physics-and-space",
+  "microsoft"
  ],
  "lex-fridman/2025-11-30-michael-levin-hidden-reality-of-alien-intelligence-biological-life": [
   "science",
@@ -7346,5 +7460,277 @@
  "epoch-ai/2026-05-01-are-ai-benchmarks-doomed": [
   "models-and-benchmarks",
   "ai-coding"
+ ],
+ "pragmatic-engineer/2024-09-17-the-pragmatic-engineer-podcast-trailer": [],
+ "pragmatic-engineer/2024-09-25-ai-tools-for-software-engineers-but-without-the-hype-with-simon-willis": [
+  "training-and-rl",
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2024-10-09-efficient-scaleups-in-2024-vs-2021-sourcegraph-with-ceo-co-founder-qui": [],
+ "pragmatic-engineer/2024-10-23-twisting-the-rules-of-building-software-bending-spoons-the-team-behind": [],
+ "pragmatic-engineer/2024-11-06-promotions-and-tooling-at-google-with-irina-stanescu-ex-google": [
+  "google"
+ ],
+ "pragmatic-engineer/2024-11-20-linear-move-fast-with-little-process-with-first-engineering-manager-sa": [],
+ "pragmatic-engineer/2024-12-04-software-architecture-with-grady-booch": [
+  "ai-for-science",
+  "history-and-geopolitics"
+ ],
+ "pragmatic-engineer/2024-12-11-notion-going-native-on-ios-and-android": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2024-12-18-shipping-projects-at-big-tech-with-sean-goedecke": [
+  "ai-coding",
+  "consumer-ai"
+ ],
+ "pragmatic-engineer/2025-01-08-confessions-of-a-big-tech-recruiter": [],
+ "pragmatic-engineer/2025-01-15-the-coding-machine-at-meta-with-michael-novati": [
+  "meta"
+ ],
+ "pragmatic-engineer/2025-01-22-observability-the-present-and-future-with-charity-majors": [],
+ "pragmatic-engineer/2025-01-29-building-a-best-selling-game-with-a-tiny-team-with-jonas-tyroller": [
+  "ai-coding",
+  "consumer-ai"
+ ],
+ "pragmatic-engineer/2025-02-05-ai-engineering-with-chip-huyen": [
+  "training-and-rl",
+  "consumer-ai",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2025-02-12-live-streaming-at-world-record-scale-with-ashutosh-agrawal": [],
+ "pragmatic-engineer/2025-02-19-developer-productivity-with-dr-nicole-forsgren-creator-of-dora-co-crea": [
+  "ai-coding",
+  "microsoft"
+ ],
+ "pragmatic-engineer/2025-02-26-the-man-behind-the-big-tech-comics-with-manu-cornet": [
+  "google"
+ ],
+ "pragmatic-engineer/2025-03-05-design-first-software-engineering-craft-with-balint-orosz": [],
+ "pragmatic-engineer/2025-03-12-developer-experience-at-uber-with-gautam-korlam": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2025-03-19-how-linux-is-built-with-greg-kroah-hartman": [],
+ "pragmatic-engineer/2025-03-26-building-figma-slides-with-noah-finer-and-jonathan-kaufman": [],
+ "pragmatic-engineer/2025-04-02-stacked-diffs-and-tooling-at-meta-with-tomas-reimers": [
+  "ai-coding",
+  "meta"
+ ],
+ "pragmatic-engineer/2025-04-09-the-philosophy-of-software-design-with-john-ousterhout": [
+  "consumer-ai",
+  "society-and-culture"
+ ],
+ "pragmatic-engineer/2025-04-16-working-at-amazon-as-a-software-engineer-with-dave-anderson": [
+  "amazon"
+ ],
+ "pragmatic-engineer/2025-04-23-building-reddits-ios-and-android-app": [],
+ "pragmatic-engineer/2025-04-30-how-to-work-better-with-product-as-an-engineer-with-ebi-atawodi": [],
+ "pragmatic-engineer/2025-05-07-building-windsurf-with-varun-mohan": [
+  "ai-coding",
+  "jobs-and-work"
+ ],
+ "pragmatic-engineer/2025-05-14-how-kubernetes-is-built-with-kat-cosgrove": [],
+ "pragmatic-engineer/2025-05-28-from-software-engineer-to-ai-engineer-with-janvi-kalra": [
+  "ai-coding",
+  "ai-safety",
+  "openai"
+ ],
+ "pragmatic-engineer/2025-06-04-50-years-of-microsoft-and-developer-tools-with-scott-guthrie": [
+  "jobs-and-work",
+  "ai-coding",
+  "microsoft"
+ ],
+ "pragmatic-engineer/2025-06-11-tdd-ai-agents-and-coding-with-kent-beck": [],
+ "pragmatic-engineer/2025-06-18-the-present-past-and-future-of-github": [
+  "ai-coding",
+  "jobs-and-work",
+  "microsoft"
+ ],
+ "pragmatic-engineer/2025-07-02-how-ai-is-changing-software-engineering-at-shopify-with-farhan-thawar": [
+  "ai-coding",
+  "context-engineering",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2025-07-09-what-is-a-principal-engineer-at-amazon-with-steve-huynh": [
+  "amazon"
+ ],
+ "pragmatic-engineer/2025-07-16-amazon-google-and-vibe-coding-with-steve-yegge": [
+  "ai-coding",
+  "jobs-and-work",
+  "amazon",
+  "anthropic",
+  "google"
+ ],
+ "pragmatic-engineer/2025-07-23-measuring-the-impact-of-ai-on-software-engineering-with-laura-tacho": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2025-08-06-the-state-of-vc-within-software-and-ai-startups-with-peter-walker": [
+  "ai-coding",
+  "jobs-and-work"
+ ],
+ "pragmatic-engineer/2025-09-10-code-complete-with-steve-mcconnell": [],
+ "pragmatic-engineer/2025-09-24-hypergrowth-startups-uber-and-cloudkitchens-with-charles-axel-dein": [
+  "jobs-and-work"
+ ],
+ "pragmatic-engineer/2025-10-08-python-go-rust-typescript-and-ai-with-armin-ronacher": [
+  "ai-coding",
+  "consumer-ai",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2025-10-15-googles-engineering-culture": [
+  "google"
+ ],
+ "pragmatic-engineer/2025-10-29-beyond-vibe-coding-with-addy-osmani": [
+  "ai-coding",
+  "context-engineering",
+  "google"
+ ],
+ "pragmatic-engineer/2025-11-05-from-swift-to-mojo-and-high-performance-ai-engineering-with-chris-latt": [
+  "ai-coding",
+  "infrastructure-and-chips",
+  "google"
+ ],
+ "pragmatic-engineer/2025-11-12-netflixs-engineering-culture": [],
+ "pragmatic-engineer/2025-11-19-how-ai-will-change-software-engineering-with-martin-fowler": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2025-11-26-code-security-for-software-engineers": [
+  "ai-coding",
+  "context-engineering"
+ ],
+ "pragmatic-engineer/2025-12-03-being-a-founding-engineer-at-an-ai-startup": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2025-12-17-the-history-of-servers-the-cloud-and-whats-next-with-oxide": [
+  "history-and-geopolitics",
+  "amazon"
+ ],
+ "pragmatic-engineer/2026-01-21-how-aws-s3-is-built": [],
+ "pragmatic-engineer/2026-01-28-the-creator-of-clawd-i-ship-code-i-dont-read": [
+  "ai-coding",
+  "agents",
+  "anthropic",
+  "openai"
+ ],
+ "pragmatic-engineer/2026-02-04-the-third-golden-age-of-software-engineering-thanks-to-ai-with-grady-b": [
+  "jobs-and-work",
+  "agents",
+  "history-and-geopolitics",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-02-12-the-programming-language-after-kotlin-with-the-creator-of-kotlin": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2026-02-25-mitchell-hashimotos-new-way-of-writing-code": [
+  "ai-coding",
+  "agents"
+ ],
+ "pragmatic-engineer/2026-03-04-building-claude-code-with-boris-cherny": [
+  "ai-coding",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-03-11-from-ides-to-ai-agents-with-steve-yegge": [
+  "agents",
+  "jobs-and-work",
+  "ai-coding",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-03-18-building-whatsapp-with-jean-lee": [],
+ "pragmatic-engineer/2026-04-01-scaling-uber-with-thuan-pham-ubers-first-cto": [],
+ "pragmatic-engineer/2026-04-08-dhhs-new-way-of-writing-code": [
+  "ai-coding",
+  "jobs-and-work",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-04-22-designing-data-intensive-applications-with-martin-kleppmann": [
+  "ai-for-science"
+ ],
+ "pragmatic-engineer/2026-04-29-building-pi-and-what-makes-self-modifying-software-so-fascinating": [
+  "ai-coding",
+  "agents",
+  "context-engineering",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-05-13-typescript-c-and-turbo-pascal-with-anders-hejlsberg": [
+  "ai-coding",
+  "microsoft"
+ ],
+ "pragmatic-engineer/2026-05-20-why-rust-is-different-with-alice-ryhl": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2026-05-27-building-opencode-with-dax-raad": [
+  "ai-coding",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-06-03-kubernetes-and-retiring-at-the-top-with-kelsey-hightower": [
+  "jobs-and-work",
+  "google"
+ ],
+ "pragmatic-engineer/2026-06-17-ci-cd-with-robert-erez": [],
+ "pragmatic-engineer/2026-06-24-tech-interviews-with-neetcode": [
+  "ai-coding",
+  "jobs-and-work",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-07-01-how-kent-beck-shapes-the-software-engineering-industry": [
+  "ai-coding",
+  "jobs-and-work"
+ ],
+ "pragmatic-engineer/2026-07-08-the-pragmatic-engineer-ama": [
+  "ai-coding",
+  "consumer-ai",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-07-15-context-engineering-with-dex-horthy": [
+  "context-engineering",
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2026-07-29-formal-methods-with-hillel-wayne": [
+  "ai-coding",
+  "jobs-and-work"
+ ],
+ "pragmatic-engineer/2026-08-12-stop-being-skeptical-about-ai-for-development-with-charity-majors": [],
+ "pragmatic-engineer/2026-08-19-from-chrome-devtools-to-ai-engineering-with-addy-osmani": [
+  "context-engineering",
+  "google"
+ ],
+ "pragmatic-engineer/2026-08-26-why-performant-code-matters-but-gets-widely-ignored-with-casey-murator": [],
+ "pragmatic-engineer/2026-09-09-building-codex-with-tibo-sottiaux": [
+  "ai-coding",
+  "agents",
+  "openai"
+ ],
+ "pragmatic-engineer/2026-09-17-ai-skills-with-matt-pocock": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2026-09-23-design-engineering-with-maggie-appleton": [
+  "ai-coding",
+  "enterprise-adoption"
+ ],
+ "pragmatic-engineer/2026-09-30-distributed-databases-with-peter-mattis": [
+  "ai-coding",
+  "anthropic"
+ ],
+ "pragmatic-engineer/2026-10-07-building-resilient-systems-with-sam-newman": [],
+ "pragmatic-engineer/2026-10-14-ubers-ai-infra-from-the-inside": [
+  "context-engineering"
+ ],
+ "pragmatic-engineer/2026-10-21-the-revised-rules-of-engineering-management-with-will-larson": [
+  "jobs-and-work"
+ ],
+ "pragmatic-engineer/2026-10-29-software-engineering-at-google-cs-education-with-titus-winters": [
+  "ai-coding",
+  "google"
+ ],
+ "pragmatic-engineer/2026-11-05-scaling-slack-and-github-with-maude-lemaire": [
+  "ai-coding"
+ ],
+ "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella": [
+  "ai-coding",
+  "jobs-and-work",
+  "microsoft"
+ ],
+ "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill": [
+  "ai-coding",
+  "ai-for-science"
  ]
 }

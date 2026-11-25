@@ -13,7 +13,10 @@ Fridman Podcast (`lex-fridman`), No Priors (`no-priors`, added 2026-11-21) and T
 (`turing-post`, Ksenia Se's Inference interviews and Attention Span solo episodes, added
 2026-11-21) and Epoch After Hours (`epoch-ai`, Epoch AI's podcast: its researchers and guests
 on forecasting, scaling, compute, benchmarks and the economics of AGI; 7 episodes from 2025-01,
-added 2026-11-22, transcripts from epoch.ai's edited transcripts or Transistor); their
+added 2026-11-22, transcripts from epoch.ai's edited transcripts or Transistor) and The Pragmatic
+Engineer (`pragmatic-engineer`, Gergely Orosz's interviews on how software is built at Big Tech and
+startups, engineering careers and AI for software engineering; 84 episodes from 2024-09, added
+2026-11-25, transcripts = Substack's diarized ASR from the podcast RSS `podcast:transcript`); their
 transcripts live in the blog wiki repo (`~/projects/wiki/blog/<show>/episodes/YYYY/MM/`).
 This section publishes short per-episode summaries of those shows with the same
 shape as AIDB (listing by year/month, one page per episode, RSS, topics,
@@ -216,5 +219,9 @@ npm run build
 - Shows added after the backfill driver's 2026 phase (Lex Fridman, No Priors)
   got their 2026 summaries written directly (Turing Post: its whole catalogue,
   2025-04 onward, was written directly before registering the show; Epoch After Hours: all 7
-  episodes written directly when the show was added); the driver covers their older
+  episodes written directly when the show was added; The Pragmatic Engineer: all 84 episodes
+  written directly with parallel `episode-workers.py` workers when the show was added); the driver covers their older
   episodes (it only takes episodes before 2026-01-01 in its "older" phase).
+- The Pragmatic Engineer transcripts are Substack ASR with diarization; host/guest labels are
+  mapped by a heuristic and multi-guest episodes keep `Speaker N`, so summaries attribute
+  multi-guest statements from context.
