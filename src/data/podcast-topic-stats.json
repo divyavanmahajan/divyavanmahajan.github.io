@@ -1120,357 +1120,357 @@
   "dwarkesh/2026-10-22-what-will-computer-chips-look-like-in-2045": "extraction",
   "dwarkesh/2026-10-30-what-robert-caro-learned-about-power-after-studying-it-for-50-years": "extraction",
   "dwarkesh/2026-11-16-paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow": "extraction",
-  "lex-fridman/2018-08-26-max-tegmark-life-3-0": "summary",
-  "lex-fridman/2018-09-02-christof-koch-consciousness": "summary",
-  "lex-fridman/2018-10-17-steven-pinker-ai-in-the-age-of-reason": "summary",
-  "lex-fridman/2018-10-20-yoshua-bengio-deep-learning": "summary",
-  "lex-fridman/2018-11-16-vladimir-vapnik-statistical-learning": "summary",
-  "lex-fridman/2018-11-22-guido-van-rossum-python": "summary",
-  "lex-fridman/2018-11-29-jeff-atwood-stack-overflow-and-coding-horror": "summary",
-  "lex-fridman/2018-12-04-eric-schmidt-google": "summary",
-  "lex-fridman/2018-12-09-stuart-russell-long-term-future-of-ai": "summary",
-  "lex-fridman/2018-12-16-pieter-abbeel-deep-reinforcement-learning": "summary",
-  "lex-fridman/2018-12-23-juergen-schmidhuber-godel-machines-meta-learning-and-lstms": "summary",
-  "lex-fridman/2018-12-28-tuomas-sandholm-poker-and-game-theory": "summary",
-  "lex-fridman/2019-01-19-tomaso-poggio-brains-minds-and-machines": "summary",
-  "lex-fridman/2019-02-07-kyle-vogt-cruise-automation": "summary",
-  "lex-fridman/2019-03-12-leslie-kaelbling-reinforcement-learning-planning-and-robotics": "summary",
-  "lex-fridman/2019-03-20-eric-weinstein-revolutionary-ideas-in-science-math-and-society": "summary",
-  "lex-fridman/2019-04-03-greg-brockman-openai-and-agi": "summary",
-  "lex-fridman/2019-04-12-elon-musk-tesla-autopilot": "summary",
-  "lex-fridman/2019-04-18-ian-goodfellow-generative-adversarial-networks-gans": "summary",
-  "lex-fridman/2019-04-29-oriol-vinyals-deepmind-alphastar-starcraft-language-and-sequences": "summary",
-  "lex-fridman/2019-05-13-chris-lattner-compilers-llvm-swift-tpu-and-ml-accelerators": "summary",
-  "lex-fridman/2019-06-03-rajat-monga-tensorflow": "summary",
-  "lex-fridman/2019-06-17-rosalind-picard-affective-computing-emotion-privacy-and-health": "summary",
-  "lex-fridman/2019-07-01-jeff-hawkins-thousand-brains-theory-of-intelligence": "summary",
-  "lex-fridman/2019-07-10-sean-carroll-the-nature-of-the-universe-life-and-intelligence": "summary",
-  "lex-fridman/2019-07-15-kai-fu-lee-ai-superpowers-china-and-silicon-valley": "summary",
-  "lex-fridman/2019-07-22-chris-urmson-self-driving-cars-at-aurora-google-cmu-and-darpa": "summary",
-  "lex-fridman/2019-07-29-gustav-soderstrom-spotify": "summary",
-  "lex-fridman/2019-08-01-kevin-scott-microsoft-cto": "summary",
-  "lex-fridman/2019-08-05-george-hotz-comma-ai-openpilot-and-autonomous-vehicles": "summary",
-  "lex-fridman/2019-08-12-paola-arlotta-brain-development-from-stem-cell-to-organoid": "summary",
-  "lex-fridman/2019-08-19-keoki-jackson-lockheed-martin": "summary",
-  "lex-fridman/2019-08-23-pamela-mccorduck-machines-who-think-and-the-early-days-of-ai": "summary",
-  "lex-fridman/2019-08-27-jeremy-howard-fast-ai-deep-learning-courses-and-research": "summary",
-  "lex-fridman/2019-08-31-yann-lecun-deep-learning-convolutional-neural-networks-and-self-superv": "summary",
-  "lex-fridman/2019-09-08-vijay-kumar-flying-robots": "summary",
-  "lex-fridman/2019-09-14-francois-chollet-fran-ois-chollet-keras-deep-learning-and-the-progress": "summary",
-  "lex-fridman/2019-09-19-colin-angle-irobot": "summary",
-  "lex-fridman/2019-09-23-regina-barzilay-deep-learning-for-cancer-diagnosis-and-treatment": "summary",
-  "lex-fridman/2019-09-26-leonard-susskind-quantum-mechanics-string-theory-and-black-holes": "summary",
-  "lex-fridman/2019-09-30-peter-norvig-artificial-intelligence-a-modern-approach": "summary",
-  "lex-fridman/2019-10-11-david-ferrucci-ibm-watson-jeopardy-deep-conversations-with-ai": "summary",
-  "lex-fridman/2019-10-22-michio-kaku-future-of-humans-aliens-space-travel-physics": "summary",
-  "lex-fridman/2019-10-27-garry-kasparov-chess-deep-blue-ai-and-putin": "summary",
-  "lex-fridman/2019-11-01-sean-carroll-quantum-mechanics-and-the-many-worlds-interpretation": "summary",
-  "lex-fridman/2019-11-07-bjarne-stroustrup-c": "summary",
-  "lex-fridman/2019-11-12-elon-musk-neuralink-ai-autopilot-and-the-pale-blue-dot": "summary",
-  "lex-fridman/2019-11-19-michael-kearns-algorithmic-fairness-bias-privacy-and-ethics-in-machine": "summary",
-  "lex-fridman/2019-11-22-dava-newman-space-exploration-space-suits-and-life-on-mars": "summary",
-  "lex-fridman/2019-11-25-gilbert-strang-linear-algebra-deep-learning-teaching-and-mit-opencours": "summary",
-  "lex-fridman/2019-11-29-noam-chomsky-language-cognition-and-deep-learning": "summary",
-  "lex-fridman/2019-12-02-ray-dalio-principles-the-economic-machine-artificial-intelligence-the": "summary",
-  "lex-fridman/2019-12-05-whitney-cummings-comedy-robotics-neurology-and-love": "summary",
-  "lex-fridman/2019-12-11-judea-pearl-causal-reasoning-counterfactuals-bayesian-networks-and-the": "summary",
-  "lex-fridman/2019-12-14-rohit-prasad-amazon-alexa-and-conversational-ai": "summary",
-  "lex-fridman/2019-12-17-michael-stevens-vsauce": "summary",
-  "lex-fridman/2019-12-21-sebastian-thrun-flying-cars-autonomous-vehicles-and-education": "summary",
-  "lex-fridman/2019-12-25-jim-gates-supersymmetry-string-theory-and-proving-einstein-right": "summary",
-  "lex-fridman/2019-12-28-melanie-mitchell-concepts-analogies-common-sense-future-of-ai": "summary",
-  "lex-fridman/2019-12-30-donald-knuth-algorithms-tex-life-and-the-art-of-computer-programming": "summary",
-  "lex-fridman/2020-01-03-stephen-kotkin-stalin-putin-and-the-nature-of-power": "summary",
-  "lex-fridman/2020-01-07-grant-sanderson-3blue1brown-and-the-beauty-of-mathematics": "summary",
-  "lex-fridman/2020-01-14-daniel-kahneman-thinking-fast-and-slow-deep-learning-and-ai": "summary",
-  "lex-fridman/2020-01-17-ayanna-howard-human-robot-interaction-and-ethics-of-safety-critical-sy": "summary",
-  "lex-fridman/2020-01-21-paul-krugman-economics-of-innovation-automation-safety-nets-universal": "summary",
-  "lex-fridman/2020-01-25-cristos-goodrow-youtube-algorithm": "summary",
-  "lex-fridman/2020-01-29-david-chalmers-the-hard-problem-of-consciousness": "summary",
-  "lex-fridman/2020-02-05-jim-keller-moore-s-law-microprocessors-abstractions-and-first-principl": "summary",
-  "lex-fridman/2020-02-14-vladimir-vapnik-predicates-invariants-and-the-essence-of-intelligence": "summary",
-  "lex-fridman/2020-02-17-scott-aaronson-quantum-computing": "summary",
-  "lex-fridman/2020-02-20-andrew-ng-deep-learning-education-and-real-world-ai": "summary",
-  "lex-fridman/2020-02-24-michael-i-jordan-machine-learning-recommender-systems-and-the-future-o": "summary",
-  "lex-fridman/2020-02-26-marcus-hutter-universal-artificial-intelligence-aixi-and-agi": "summary",
-  "lex-fridman/2020-02-29-john-hopfield-physics-view-of-the-mind-and-neurobiology": "summary",
-  "lex-fridman/2020-03-03-alex-garland-ex-machina-devs-annihilation-and-the-poetry-of-science": "summary",
-  "lex-fridman/2020-03-05-ann-druyan-cosmos-carl-sagan-voyager-and-the-beauty-of-science": "summary",
-  "lex-fridman/2020-03-07-lee-smolin-quantum-gravity-and-einstein-s-unfinished-revolution": "summary",
-  "lex-fridman/2020-03-16-vitalik-buterin-ethereum-cryptocurrency-and-the-future-of-money": "summary",
-  "lex-fridman/2020-03-19-anca-dragan-human-robot-interaction-and-reward-engineering": "summary",
-  "lex-fridman/2020-03-21-simon-sinek-leadership-hard-work-optimism-and-the-infinite-game": "summary",
-  "lex-fridman/2020-03-26-nick-bostrom-simulation-and-superintelligence": "summary",
-  "lex-fridman/2020-03-31-roger-penrose-physics-of-consciousness-and-the-infinite-universe": "summary",
-  "lex-fridman/2020-04-03-david-silver-alphago-alphazero-and-deep-reinforcement-learning": "summary",
-  "lex-fridman/2020-04-09-richard-dawkins-evolution-intelligence-simulation-and-memes": "summary",
-  "lex-fridman/2020-04-13-eric-weinstein-geometric-unity-and-the-call-for-new-ideas-leaders-inst": "summary",
-  "lex-fridman/2020-04-18-stephen-wolfram-cellular-automata-computation-and-physics": "summary",
+  "lex-fridman/2018-08-26-max-tegmark-life-3-0": "extraction",
+  "lex-fridman/2018-09-02-christof-koch-consciousness": "extraction",
+  "lex-fridman/2018-10-17-steven-pinker-ai-in-the-age-of-reason": "extraction",
+  "lex-fridman/2018-10-20-yoshua-bengio-deep-learning": "extraction",
+  "lex-fridman/2018-11-16-vladimir-vapnik-statistical-learning": "extraction",
+  "lex-fridman/2018-11-22-guido-van-rossum-python": "extraction",
+  "lex-fridman/2018-11-29-jeff-atwood-stack-overflow-and-coding-horror": "extraction",
+  "lex-fridman/2018-12-04-eric-schmidt-google": "extraction",
+  "lex-fridman/2018-12-09-stuart-russell-long-term-future-of-ai": "extraction",
+  "lex-fridman/2018-12-16-pieter-abbeel-deep-reinforcement-learning": "extraction",
+  "lex-fridman/2018-12-23-juergen-schmidhuber-godel-machines-meta-learning-and-lstms": "extraction",
+  "lex-fridman/2018-12-28-tuomas-sandholm-poker-and-game-theory": "extraction",
+  "lex-fridman/2019-01-19-tomaso-poggio-brains-minds-and-machines": "extraction",
+  "lex-fridman/2019-02-07-kyle-vogt-cruise-automation": "extraction",
+  "lex-fridman/2019-03-12-leslie-kaelbling-reinforcement-learning-planning-and-robotics": "extraction",
+  "lex-fridman/2019-03-20-eric-weinstein-revolutionary-ideas-in-science-math-and-society": "extraction",
+  "lex-fridman/2019-04-03-greg-brockman-openai-and-agi": "extraction",
+  "lex-fridman/2019-04-12-elon-musk-tesla-autopilot": "extraction",
+  "lex-fridman/2019-04-18-ian-goodfellow-generative-adversarial-networks-gans": "extraction",
+  "lex-fridman/2019-04-29-oriol-vinyals-deepmind-alphastar-starcraft-language-and-sequences": "extraction",
+  "lex-fridman/2019-05-13-chris-lattner-compilers-llvm-swift-tpu-and-ml-accelerators": "extraction",
+  "lex-fridman/2019-06-03-rajat-monga-tensorflow": "extraction",
+  "lex-fridman/2019-06-17-rosalind-picard-affective-computing-emotion-privacy-and-health": "extraction",
+  "lex-fridman/2019-07-01-jeff-hawkins-thousand-brains-theory-of-intelligence": "extraction",
+  "lex-fridman/2019-07-10-sean-carroll-the-nature-of-the-universe-life-and-intelligence": "extraction",
+  "lex-fridman/2019-07-15-kai-fu-lee-ai-superpowers-china-and-silicon-valley": "extraction",
+  "lex-fridman/2019-07-22-chris-urmson-self-driving-cars-at-aurora-google-cmu-and-darpa": "extraction",
+  "lex-fridman/2019-07-29-gustav-soderstrom-spotify": "extraction",
+  "lex-fridman/2019-08-01-kevin-scott-microsoft-cto": "extraction",
+  "lex-fridman/2019-08-05-george-hotz-comma-ai-openpilot-and-autonomous-vehicles": "extraction",
+  "lex-fridman/2019-08-12-paola-arlotta-brain-development-from-stem-cell-to-organoid": "extraction",
+  "lex-fridman/2019-08-19-keoki-jackson-lockheed-martin": "extraction",
+  "lex-fridman/2019-08-23-pamela-mccorduck-machines-who-think-and-the-early-days-of-ai": "extraction",
+  "lex-fridman/2019-08-27-jeremy-howard-fast-ai-deep-learning-courses-and-research": "extraction",
+  "lex-fridman/2019-08-31-yann-lecun-deep-learning-convolutional-neural-networks-and-self-superv": "extraction",
+  "lex-fridman/2019-09-08-vijay-kumar-flying-robots": "extraction",
+  "lex-fridman/2019-09-14-francois-chollet-fran-ois-chollet-keras-deep-learning-and-the-progress": "extraction",
+  "lex-fridman/2019-09-19-colin-angle-irobot": "extraction",
+  "lex-fridman/2019-09-23-regina-barzilay-deep-learning-for-cancer-diagnosis-and-treatment": "extraction",
+  "lex-fridman/2019-09-26-leonard-susskind-quantum-mechanics-string-theory-and-black-holes": "extraction",
+  "lex-fridman/2019-09-30-peter-norvig-artificial-intelligence-a-modern-approach": "extraction",
+  "lex-fridman/2019-10-11-david-ferrucci-ibm-watson-jeopardy-deep-conversations-with-ai": "extraction",
+  "lex-fridman/2019-10-22-michio-kaku-future-of-humans-aliens-space-travel-physics": "extraction",
+  "lex-fridman/2019-10-27-garry-kasparov-chess-deep-blue-ai-and-putin": "extraction",
+  "lex-fridman/2019-11-01-sean-carroll-quantum-mechanics-and-the-many-worlds-interpretation": "extraction",
+  "lex-fridman/2019-11-07-bjarne-stroustrup-c": "extraction",
+  "lex-fridman/2019-11-12-elon-musk-neuralink-ai-autopilot-and-the-pale-blue-dot": "extraction",
+  "lex-fridman/2019-11-19-michael-kearns-algorithmic-fairness-bias-privacy-and-ethics-in-machine": "extraction",
+  "lex-fridman/2019-11-22-dava-newman-space-exploration-space-suits-and-life-on-mars": "extraction",
+  "lex-fridman/2019-11-25-gilbert-strang-linear-algebra-deep-learning-teaching-and-mit-opencours": "extraction",
+  "lex-fridman/2019-11-29-noam-chomsky-language-cognition-and-deep-learning": "extraction",
+  "lex-fridman/2019-12-02-ray-dalio-principles-the-economic-machine-artificial-intelligence-the": "extraction",
+  "lex-fridman/2019-12-05-whitney-cummings-comedy-robotics-neurology-and-love": "extraction",
+  "lex-fridman/2019-12-11-judea-pearl-causal-reasoning-counterfactuals-bayesian-networks-and-the": "extraction",
+  "lex-fridman/2019-12-14-rohit-prasad-amazon-alexa-and-conversational-ai": "extraction",
+  "lex-fridman/2019-12-17-michael-stevens-vsauce": "extraction",
+  "lex-fridman/2019-12-21-sebastian-thrun-flying-cars-autonomous-vehicles-and-education": "extraction",
+  "lex-fridman/2019-12-25-jim-gates-supersymmetry-string-theory-and-proving-einstein-right": "extraction",
+  "lex-fridman/2019-12-28-melanie-mitchell-concepts-analogies-common-sense-future-of-ai": "extraction",
+  "lex-fridman/2019-12-30-donald-knuth-algorithms-tex-life-and-the-art-of-computer-programming": "extraction",
+  "lex-fridman/2020-01-03-stephen-kotkin-stalin-putin-and-the-nature-of-power": "extraction",
+  "lex-fridman/2020-01-07-grant-sanderson-3blue1brown-and-the-beauty-of-mathematics": "extraction",
+  "lex-fridman/2020-01-14-daniel-kahneman-thinking-fast-and-slow-deep-learning-and-ai": "extraction",
+  "lex-fridman/2020-01-17-ayanna-howard-human-robot-interaction-and-ethics-of-safety-critical-sy": "extraction",
+  "lex-fridman/2020-01-21-paul-krugman-economics-of-innovation-automation-safety-nets-universal": "extraction",
+  "lex-fridman/2020-01-25-cristos-goodrow-youtube-algorithm": "extraction",
+  "lex-fridman/2020-01-29-david-chalmers-the-hard-problem-of-consciousness": "extraction",
+  "lex-fridman/2020-02-05-jim-keller-moore-s-law-microprocessors-abstractions-and-first-principl": "extraction",
+  "lex-fridman/2020-02-14-vladimir-vapnik-predicates-invariants-and-the-essence-of-intelligence": "extraction",
+  "lex-fridman/2020-02-17-scott-aaronson-quantum-computing": "extraction",
+  "lex-fridman/2020-02-20-andrew-ng-deep-learning-education-and-real-world-ai": "extraction",
+  "lex-fridman/2020-02-24-michael-i-jordan-machine-learning-recommender-systems-and-the-future-o": "extraction",
+  "lex-fridman/2020-02-26-marcus-hutter-universal-artificial-intelligence-aixi-and-agi": "extraction",
+  "lex-fridman/2020-02-29-john-hopfield-physics-view-of-the-mind-and-neurobiology": "extraction",
+  "lex-fridman/2020-03-03-alex-garland-ex-machina-devs-annihilation-and-the-poetry-of-science": "extraction",
+  "lex-fridman/2020-03-05-ann-druyan-cosmos-carl-sagan-voyager-and-the-beauty-of-science": "extraction",
+  "lex-fridman/2020-03-07-lee-smolin-quantum-gravity-and-einstein-s-unfinished-revolution": "extraction",
+  "lex-fridman/2020-03-16-vitalik-buterin-ethereum-cryptocurrency-and-the-future-of-money": "extraction",
+  "lex-fridman/2020-03-19-anca-dragan-human-robot-interaction-and-reward-engineering": "extraction",
+  "lex-fridman/2020-03-21-simon-sinek-leadership-hard-work-optimism-and-the-infinite-game": "extraction",
+  "lex-fridman/2020-03-26-nick-bostrom-simulation-and-superintelligence": "extraction",
+  "lex-fridman/2020-03-31-roger-penrose-physics-of-consciousness-and-the-infinite-universe": "extraction",
+  "lex-fridman/2020-04-03-david-silver-alphago-alphazero-and-deep-reinforcement-learning": "extraction",
+  "lex-fridman/2020-04-09-richard-dawkins-evolution-intelligence-simulation-and-memes": "extraction",
+  "lex-fridman/2020-04-13-eric-weinstein-geometric-unity-and-the-call-for-new-ideas-leaders-inst": "extraction",
+  "lex-fridman/2020-04-18-stephen-wolfram-cellular-automata-computation-and-physics": "extraction",
   "lex-fridman/2020-04-22-dmitry-korkin-computational-biology-of-coronavirus": "summary",
-  "lex-fridman/2020-04-24-jack-dorsey-square-cryptocurrency-and-artificial-intelligence": "summary",
-  "lex-fridman/2020-04-29-harry-cliff-particle-physics-and-the-large-hadron-collider": "summary",
-  "lex-fridman/2020-05-05-daphne-koller-biomedicine-and-machine-learning": "summary",
-  "lex-fridman/2020-05-08-ilya-sutskever-deep-learning": "summary",
-  "lex-fridman/2020-05-12-dawn-song-adversarial-machine-learning-and-computer-security": "summary",
-  "lex-fridman/2020-05-15-stephen-schwarzman-going-big-in-business-investing-and-ai": "summary",
-  "lex-fridman/2020-05-20-sertac-karaman-robots-that-fly-and-robots-that-drive": "summary",
-  "lex-fridman/2020-05-28-karl-friston-neuroscience-and-the-free-energy-principle": "summary",
-  "lex-fridman/2020-06-13-joscha-bach-artificial-consciousness-and-the-nature-of-reality": "summary",
-  "lex-fridman/2020-06-20-steven-pressfield-the-war-of-art": "summary",
-  "lex-fridman/2020-06-22-ben-goertzel-artificial-general-intelligence": "summary",
-  "lex-fridman/2020-06-27-david-patterson-computer-architecture-and-data-storage": "summary",
-  "lex-fridman/2020-06-30-robert-langer-edison-of-medicine": "summary",
-  "lex-fridman/2020-07-03-matt-botvinick-neuroscience-psychology-and-ai-at-deepmind": "summary",
-  "lex-fridman/2020-07-08-peter-singer-suffering-in-humans-animals-and-ai": "summary",
-  "lex-fridman/2020-07-14-sergey-levine-robotics-and-machine-learning": "summary",
-  "lex-fridman/2020-07-18-brian-kernighan-unix-c-awk-ampl-and-go-programming": "summary",
-  "lex-fridman/2020-07-21-jitendra-malik-computer-vision": "summary",
-  "lex-fridman/2020-07-26-richard-karp-algorithms-and-computational-complexity": "summary",
-  "lex-fridman/2020-07-29-ian-hutchinson-nuclear-fusion-plasma-physics-and-religion": "summary",
+  "lex-fridman/2020-04-24-jack-dorsey-square-cryptocurrency-and-artificial-intelligence": "extraction",
+  "lex-fridman/2020-04-29-harry-cliff-particle-physics-and-the-large-hadron-collider": "extraction",
+  "lex-fridman/2020-05-05-daphne-koller-biomedicine-and-machine-learning": "extraction",
+  "lex-fridman/2020-05-08-ilya-sutskever-deep-learning": "extraction",
+  "lex-fridman/2020-05-12-dawn-song-adversarial-machine-learning-and-computer-security": "extraction",
+  "lex-fridman/2020-05-15-stephen-schwarzman-going-big-in-business-investing-and-ai": "extraction",
+  "lex-fridman/2020-05-20-sertac-karaman-robots-that-fly-and-robots-that-drive": "extraction",
+  "lex-fridman/2020-05-28-karl-friston-neuroscience-and-the-free-energy-principle": "extraction",
+  "lex-fridman/2020-06-13-joscha-bach-artificial-consciousness-and-the-nature-of-reality": "extraction",
+  "lex-fridman/2020-06-20-steven-pressfield-the-war-of-art": "extraction",
+  "lex-fridman/2020-06-22-ben-goertzel-artificial-general-intelligence": "extraction",
+  "lex-fridman/2020-06-27-david-patterson-computer-architecture-and-data-storage": "extraction",
+  "lex-fridman/2020-06-30-robert-langer-edison-of-medicine": "extraction",
+  "lex-fridman/2020-07-03-matt-botvinick-neuroscience-psychology-and-ai-at-deepmind": "extraction",
+  "lex-fridman/2020-07-08-peter-singer-suffering-in-humans-animals-and-ai": "extraction",
+  "lex-fridman/2020-07-14-sergey-levine-robotics-and-machine-learning": "extraction",
+  "lex-fridman/2020-07-18-brian-kernighan-unix-c-awk-ampl-and-go-programming": "extraction",
+  "lex-fridman/2020-07-21-jitendra-malik-computer-vision": "extraction",
+  "lex-fridman/2020-07-26-richard-karp-algorithms-and-computational-complexity": "extraction",
+  "lex-fridman/2020-07-29-ian-hutchinson-nuclear-fusion-plasma-physics-and-religion": "extraction",
   "lex-fridman/2020-07-31-manolis-kellis-human-genome-and-evolutionary-dynamics": "summary",
-  "lex-fridman/2020-08-09-russ-tedrake-underactuated-robotics-control-dynamics-and-touch": "summary",
-  "lex-fridman/2020-08-14-dileep-george-brain-inspired-ai": "summary",
-  "lex-fridman/2020-08-16-sara-seager-search-for-planets-and-life-outside-our-solar-system": "summary",
-  "lex-fridman/2020-08-20-sheldon-solomon-death-and-meaning": "summary",
-  "lex-fridman/2020-08-23-grant-sanderson-math-manim-neural-networks-teaching-with-3blue1brown": "summary",
-  "lex-fridman/2020-08-26-david-eagleman-neuroplasticity-and-the-livewired-brain": "summary",
-  "lex-fridman/2020-08-31-francois-chollet-2-fran-ois-chollet-measures-of-intelligence": "summary",
-  "lex-fridman/2020-09-05-eugenia-kuyda-friendship-with-an-ai-companion": "summary",
-  "lex-fridman/2020-09-07-lex-solo-grandmother-lex-solo-3-in-memory-of-my-grandmother": "summary",
-  "lex-fridman/2020-09-08-david-fravor-ufos-aliens-fighter-jets-and-aerospace-engineering": "summary",
-  "lex-fridman/2020-09-12-manolis-kellis-origin-of-life-humans-ideas-suffering-and-happiness": "summary",
-  "lex-fridman/2020-09-15-stephen-wolfram-fundamental-theory-of-physics-life-and-the-universe": "summary",
-  "lex-fridman/2020-09-20-ryan-hall-martial-arts-and-the-philosophy-of-violence-power-and-grace": "summary",
-  "lex-fridman/2020-09-24-james-gosling-java-jvm-emacs-and-the-early-days-of-computing": "summary",
-  "lex-fridman/2020-09-26-joe-rogan-conversations-ideas-love-freedom-the-joe-rogan-experience": "summary",
-  "lex-fridman/2020-10-02-michael-malice-anarchy-democracy-libertarianism-love-and-trolling": "summary",
-  "lex-fridman/2020-10-04-lisa-feldman-barrett-counterintuitive-ideas-about-how-the-brain-works": "summary",
-  "lex-fridman/2020-10-12-scott-aaronson-computational-complexity-and-consciousness": "summary",
-  "lex-fridman/2020-10-19-chris-lattner-the-future-of-computing-and-programming-languages": "summary",
-  "lex-fridman/2020-10-22-george-hotz-hacking-the-simulation-learning-to-drive-with-neural-nets": "summary",
-  "lex-fridman/2020-10-25-manolis-kellis-biology-of-disease": "summary",
-  "lex-fridman/2020-10-30-eric-weinstein-on-the-nature-of-good-and-evil-genius-and-madness": "summary",
-  "lex-fridman/2020-11-03-dan-carlin-hardcore-history": "summary",
-  "lex-fridman/2020-11-08-alex-filippenko-supernovae-dark-energy-aliens-the-expanding-universe": "summary",
-  "lex-fridman/2020-11-13-yaron-brook-ayn-rand-and-the-philosophy-of-objectivism": "summary",
-  "lex-fridman/2020-11-16-andrew-huberman-neuroscience-of-optimal-performance": "summary",
-  "lex-fridman/2020-11-20-lisa-feldman-barrett-love-evolution-and-the-human-brain": "summary",
-  "lex-fridman/2020-11-30-manolis-kellis-meaning-of-life-the-universe-and-everything": "summary",
-  "lex-fridman/2020-12-06-john-clarke-the-art-of-fighting-and-the-pursuit-of-excellence": "summary",
-  "lex-fridman/2020-12-13-michael-littman-reinforcement-learning-and-the-future-of-ai": "summary",
-  "lex-fridman/2020-12-14-matthew-johnson-psychedelics": "summary",
+  "lex-fridman/2020-08-09-russ-tedrake-underactuated-robotics-control-dynamics-and-touch": "extraction",
+  "lex-fridman/2020-08-14-dileep-george-brain-inspired-ai": "extraction",
+  "lex-fridman/2020-08-16-sara-seager-search-for-planets-and-life-outside-our-solar-system": "extraction",
+  "lex-fridman/2020-08-20-sheldon-solomon-death-and-meaning": "extraction",
+  "lex-fridman/2020-08-23-grant-sanderson-math-manim-neural-networks-teaching-with-3blue1brown": "extraction",
+  "lex-fridman/2020-08-26-david-eagleman-neuroplasticity-and-the-livewired-brain": "extraction",
+  "lex-fridman/2020-08-31-francois-chollet-2-fran-ois-chollet-measures-of-intelligence": "extraction",
+  "lex-fridman/2020-09-05-eugenia-kuyda-friendship-with-an-ai-companion": "extraction",
+  "lex-fridman/2020-09-07-lex-solo-grandmother-lex-solo-3-in-memory-of-my-grandmother": "extraction",
+  "lex-fridman/2020-09-08-david-fravor-ufos-aliens-fighter-jets-and-aerospace-engineering": "extraction",
+  "lex-fridman/2020-09-12-manolis-kellis-origin-of-life-humans-ideas-suffering-and-happiness": "extraction",
+  "lex-fridman/2020-09-15-stephen-wolfram-fundamental-theory-of-physics-life-and-the-universe": "extraction",
+  "lex-fridman/2020-09-20-ryan-hall-martial-arts-and-the-philosophy-of-violence-power-and-grace": "extraction",
+  "lex-fridman/2020-09-24-james-gosling-java-jvm-emacs-and-the-early-days-of-computing": "extraction",
+  "lex-fridman/2020-09-26-joe-rogan-conversations-ideas-love-freedom-the-joe-rogan-experience": "extraction",
+  "lex-fridman/2020-10-02-michael-malice-anarchy-democracy-libertarianism-love-and-trolling": "extraction",
+  "lex-fridman/2020-10-04-lisa-feldman-barrett-counterintuitive-ideas-about-how-the-brain-works": "extraction",
+  "lex-fridman/2020-10-12-scott-aaronson-computational-complexity-and-consciousness": "extraction",
+  "lex-fridman/2020-10-19-chris-lattner-the-future-of-computing-and-programming-languages": "extraction",
+  "lex-fridman/2020-10-22-george-hotz-hacking-the-simulation-learning-to-drive-with-neural-nets": "extraction",
+  "lex-fridman/2020-10-25-manolis-kellis-biology-of-disease": "extraction",
+  "lex-fridman/2020-10-30-eric-weinstein-on-the-nature-of-good-and-evil-genius-and-madness": "extraction",
+  "lex-fridman/2020-11-03-dan-carlin-hardcore-history": "extraction",
+  "lex-fridman/2020-11-08-alex-filippenko-supernovae-dark-energy-aliens-the-expanding-universe": "extraction",
+  "lex-fridman/2020-11-13-yaron-brook-ayn-rand-and-the-philosophy-of-objectivism": "extraction",
+  "lex-fridman/2020-11-16-andrew-huberman-neuroscience-of-optimal-performance": "extraction",
+  "lex-fridman/2020-11-20-lisa-feldman-barrett-love-evolution-and-the-human-brain": "extraction",
+  "lex-fridman/2020-11-30-manolis-kellis-meaning-of-life-the-universe-and-everything": "extraction",
+  "lex-fridman/2020-12-06-john-clarke-the-art-of-fighting-and-the-pursuit-of-excellence": "extraction",
+  "lex-fridman/2020-12-13-michael-littman-reinforcement-learning-and-the-future-of-ai": "extraction",
+  "lex-fridman/2020-12-14-matthew-johnson-psychedelics": "extraction",
   "lex-fridman/2020-12-19-michael-mina-rapid-testing-viruses-and-the-engineering-mindset": "summary",
-  "lex-fridman/2020-12-20-dmitri-dolgov-waymo-and-the-future-of-self-driving-cars": "summary",
-  "lex-fridman/2020-12-26-charles-isbell-and-michael-littman-machine-learning-and-education": "summary",
-  "lex-fridman/2020-12-28-diana-walsh-pasulka-aliens-technology-religion-and-the-nature-of-belie": "summary",
-  "lex-fridman/2020-12-31-michael-malice-the-white-pill-freedom-hope-and-happiness-amidst-chaos": "summary",
-  "lex-fridman/2021-01-04-dan-kokotov-speech-recognition-with-ai-and-humans": "summary",
-  "lex-fridman/2021-01-09-dan-gable-olympic-wrestling-mental-toughness-the-making-of-champions": "summary",
+  "lex-fridman/2020-12-20-dmitri-dolgov-waymo-and-the-future-of-self-driving-cars": "extraction",
+  "lex-fridman/2020-12-26-charles-isbell-and-michael-littman-machine-learning-and-education": "extraction",
+  "lex-fridman/2020-12-28-diana-walsh-pasulka-aliens-technology-religion-and-the-nature-of-belie": "extraction",
+  "lex-fridman/2020-12-31-michael-malice-the-white-pill-freedom-hope-and-happiness-amidst-chaos": "extraction",
+  "lex-fridman/2021-01-04-dan-kokotov-speech-recognition-with-ai-and-humans": "extraction",
+  "lex-fridman/2021-01-09-dan-gable-olympic-wrestling-mental-toughness-the-making-of-champions": "extraction",
   "lex-fridman/2021-01-11-dmitry-korkin-evolution-of-proteins-viruses-life-and-ai": "summary",
-  "lex-fridman/2021-01-14-avi-loeb-aliens-black-holes-and-the-mystery-of-the-oumuamua": "summary",
-  "lex-fridman/2021-01-18-max-tegmark-ai-and-physics": "summary",
-  "lex-fridman/2021-01-27-ama1-lex-fridman-ask-me-anything-ama-january-2021": "summary",
-  "lex-fridman/2021-01-29-tim-dillon-comedy-power-conspiracy-theories-and-freedom": "summary",
-  "lex-fridman/2021-02-01-natalya-bailey-rocket-engines-and-electric-spacecraft-propulsion": "summary",
-  "lex-fridman/2021-02-05-zev-weinstein-the-next-generation-of-big-ideas-and-brave-minds": "summary",
-  "lex-fridman/2021-02-07-richard-craib-wallstreetbets-numerai-and-the-future-of-stock-trading": "summary",
-  "lex-fridman/2021-02-12-brendan-eich-javascript-firefox-mozilla-and-brave": "summary",
-  "lex-fridman/2021-02-15-jason-calacanis-startups-angel-investing-capitalism-and-friendship": "summary",
-  "lex-fridman/2021-02-18-jim-keller-the-future-of-computing-ai-life-and-consciousness": "summary",
-  "lex-fridman/2021-02-23-eric-weinstein-difficult-conversations-freedom-of-speech-and-physics": "summary",
-  "lex-fridman/2021-02-28-andrew-huberman-sleep-dreams-creativity-the-limits-of-the-human-mind": "summary",
-  "lex-fridman/2021-03-01-josh-barnett-philosophy-of-violence-power-and-the-martial-arts": "summary",
-  "lex-fridman/2021-03-05-cal-newport-deep-work-focus-productivity-email-and-social-media": "summary",
-  "lex-fridman/2021-03-14-saagar-enjeti-politics-history-and-power": "summary",
-  "lex-fridman/2021-03-15-silvio-micali-cryptocurrency-blockchain-algorand-bitcoin-and-ethereum": "summary",
-  "lex-fridman/2021-03-20-ryan-hall-solving-martial-arts-from-first-principles": "summary",
-  "lex-fridman/2021-03-22-ronald-sullivan-the-ideal-of-justice-in-the-face-of-controversy-and-ev": "summary",
-  "lex-fridman/2021-03-25-anthony-pompliano-bitcoin": "summary",
-  "lex-fridman/2021-03-30-ryan-schiller-librex-and-the-free-exchange-of-ideas-on-college-campuse": "summary",
-  "lex-fridman/2021-04-01-nic-carter-bitcoin-core-values-layered-scaling-and-blocksize-debates": "summary",
-  "lex-fridman/2021-04-10-tyler-cowen-economic-growth-and-the-fight-against-conformity-and-medio": "summary",
-  "lex-fridman/2021-04-12-yannis-pappas-history-and-comedy": "summary",
-  "lex-fridman/2021-04-17-robert-breedlove-philosophy-of-bitcoin-from-first-principles": "summary",
-  "lex-fridman/2021-04-19-risto-miikkulainen-neuroevolution-and-evolutionary-computation": "summary",
-  "lex-fridman/2021-04-26-georges-st-pierre-the-science-of-fighting": "summary",
-  "lex-fridman/2021-04-30-jeremi-suri-history-of-american-power": "summary",
-  "lex-fridman/2021-05-01-sergey-nazarov-chainlink-smart-contracts-and-oracle-networks": "summary",
-  "lex-fridman/2021-05-09-john-danaher-the-path-to-mastery-in-jiu-jitsu-grappling-judo-and-mma": "summary",
-  "lex-fridman/2021-05-14-po-shen-loh-mathematics-math-olympiad-combinatorics-contact-tracing": "summary",
-  "lex-fridman/2021-05-17-katherine-de-kleer-planets-moons-and-asteroids-in-our-solar-system": "summary",
-  "lex-fridman/2021-05-20-sam-harris-consciousness-free-will-psychedelics-ai-ufos-and-meaning": "summary",
-  "lex-fridman/2021-05-24-bryan-johnson-kernel-brain-computer-interfaces": "summary",
-  "lex-fridman/2021-05-29-frank-wilczek-physics-of-quarks-dark-matter-complexity-life-aliens": "summary",
-  "lex-fridman/2021-06-03-vitalik-buterin-ethereum-2-0": "summary",
-  "lex-fridman/2021-06-07-david-sinclair-extending-the-human-lifespan-beyond-100-years": "summary",
-  "lex-fridman/2021-06-13-jordan-ellenberg-mathematics-of-high-dimensional-shapes-and-geometries": "summary",
-  "lex-fridman/2021-06-14-daniel-schmachtenberger-steering-civilization-away-from-self-destructi": "summary",
-  "lex-fridman/2021-06-16-charles-hoskinson-cardano": "summary",
+  "lex-fridman/2021-01-14-avi-loeb-aliens-black-holes-and-the-mystery-of-the-oumuamua": "extraction",
+  "lex-fridman/2021-01-18-max-tegmark-ai-and-physics": "extraction",
+  "lex-fridman/2021-01-27-ama1-lex-fridman-ask-me-anything-ama-january-2021": "extraction",
+  "lex-fridman/2021-01-29-tim-dillon-comedy-power-conspiracy-theories-and-freedom": "extraction",
+  "lex-fridman/2021-02-01-natalya-bailey-rocket-engines-and-electric-spacecraft-propulsion": "extraction",
+  "lex-fridman/2021-02-05-zev-weinstein-the-next-generation-of-big-ideas-and-brave-minds": "extraction",
+  "lex-fridman/2021-02-07-richard-craib-wallstreetbets-numerai-and-the-future-of-stock-trading": "extraction",
+  "lex-fridman/2021-02-12-brendan-eich-javascript-firefox-mozilla-and-brave": "extraction",
+  "lex-fridman/2021-02-15-jason-calacanis-startups-angel-investing-capitalism-and-friendship": "extraction",
+  "lex-fridman/2021-02-18-jim-keller-the-future-of-computing-ai-life-and-consciousness": "extraction",
+  "lex-fridman/2021-02-23-eric-weinstein-difficult-conversations-freedom-of-speech-and-physics": "extraction",
+  "lex-fridman/2021-02-28-andrew-huberman-sleep-dreams-creativity-the-limits-of-the-human-mind": "extraction",
+  "lex-fridman/2021-03-01-josh-barnett-philosophy-of-violence-power-and-the-martial-arts": "extraction",
+  "lex-fridman/2021-03-05-cal-newport-deep-work-focus-productivity-email-and-social-media": "extraction",
+  "lex-fridman/2021-03-14-saagar-enjeti-politics-history-and-power": "extraction",
+  "lex-fridman/2021-03-15-silvio-micali-cryptocurrency-blockchain-algorand-bitcoin-and-ethereum": "extraction",
+  "lex-fridman/2021-03-20-ryan-hall-solving-martial-arts-from-first-principles": "extraction",
+  "lex-fridman/2021-03-22-ronald-sullivan-the-ideal-of-justice-in-the-face-of-controversy-and-ev": "extraction",
+  "lex-fridman/2021-03-25-anthony-pompliano-bitcoin": "extraction",
+  "lex-fridman/2021-03-30-ryan-schiller-librex-and-the-free-exchange-of-ideas-on-college-campuse": "extraction",
+  "lex-fridman/2021-04-01-nic-carter-bitcoin-core-values-layered-scaling-and-blocksize-debates": "extraction",
+  "lex-fridman/2021-04-10-tyler-cowen-economic-growth-and-the-fight-against-conformity-and-medio": "extraction",
+  "lex-fridman/2021-04-12-yannis-pappas-history-and-comedy": "extraction",
+  "lex-fridman/2021-04-17-robert-breedlove-philosophy-of-bitcoin-from-first-principles": "extraction",
+  "lex-fridman/2021-04-19-risto-miikkulainen-neuroevolution-and-evolutionary-computation": "extraction",
+  "lex-fridman/2021-04-26-georges-st-pierre-the-science-of-fighting": "extraction",
+  "lex-fridman/2021-04-30-jeremi-suri-history-of-american-power": "extraction",
+  "lex-fridman/2021-05-01-sergey-nazarov-chainlink-smart-contracts-and-oracle-networks": "extraction",
+  "lex-fridman/2021-05-09-john-danaher-the-path-to-mastery-in-jiu-jitsu-grappling-judo-and-mma": "extraction",
+  "lex-fridman/2021-05-14-po-shen-loh-mathematics-math-olympiad-combinatorics-contact-tracing": "extraction",
+  "lex-fridman/2021-05-17-katherine-de-kleer-planets-moons-and-asteroids-in-our-solar-system": "extraction",
+  "lex-fridman/2021-05-20-sam-harris-consciousness-free-will-psychedelics-ai-ufos-and-meaning": "extraction",
+  "lex-fridman/2021-05-24-bryan-johnson-kernel-brain-computer-interfaces": "extraction",
+  "lex-fridman/2021-05-29-frank-wilczek-physics-of-quarks-dark-matter-complexity-life-aliens": "extraction",
+  "lex-fridman/2021-06-03-vitalik-buterin-ethereum-2-0": "extraction",
+  "lex-fridman/2021-06-07-david-sinclair-extending-the-human-lifespan-beyond-100-years": "extraction",
+  "lex-fridman/2021-06-13-jordan-ellenberg-mathematics-of-high-dimensional-shapes-and-geometries": "extraction",
+  "lex-fridman/2021-06-14-daniel-schmachtenberger-steering-civilization-away-from-self-destructi": "extraction",
+  "lex-fridman/2021-06-16-charles-hoskinson-cardano": "extraction",
   "lex-fridman/2021-06-21-rob-reid-the-existential-threat-of-engineered-viruses-and-lab-leaks": "summary",
   "lex-fridman/2021-06-25-bret-weinstein-truth-science-and-censorship-in-the-time-of-a-pandemic": "summary",
-  "lex-fridman/2021-06-28-clara-sousa-silva-searching-for-signs-of-life-on-venus-and-other-plane": "summary",
-  "lex-fridman/2021-07-01-yeonmi-park-north-korea": "summary",
-  "lex-fridman/2021-07-05-jocko-willink-war-leadership-and-discipline": "summary",
-  "lex-fridman/2021-07-09-sara-walker-the-origin-of-life-on-earth-and-alien-worlds": "summary",
-  "lex-fridman/2021-07-11-roger-reaves-smuggling-drugs-for-pablo-escobar-and-the-medellin-cartel": "summary",
-  "lex-fridman/2021-07-15-michael-malice-totalitarianism-and-anarchy": "summary",
-  "lex-fridman/2021-07-19-konstantin-batygin-planet-9-and-the-edge-of-our-solar-system": "summary",
-  "lex-fridman/2021-07-21-rick-doblin-psychedelics": "summary",
-  "lex-fridman/2021-07-23-anya-fernald-regenerative-farming-and-the-art-of-cooking-meat": "summary",
-  "lex-fridman/2021-07-26-cumrun-vafa-string-theory": "summary",
-  "lex-fridman/2021-07-29-zach-bitter-ultramarathon-running": "summary",
-  "lex-fridman/2021-08-03-chris-duffin-the-mad-scientist-of-strength": "summary",
-  "lex-fridman/2021-08-08-jeff-hawkins-the-thousand-brains-theory-of-intelligence": "summary",
-  "lex-fridman/2021-08-09-luis-and-joao-batalha-lu-s-and-jo-o-batalha-fermat-s-library-and-the-a": "summary",
-  "lex-fridman/2021-08-11-matt-walker-sleep": "summary",
-  "lex-fridman/2021-08-15-brian-muraresku-the-secret-history-of-psychedelics": "summary",
-  "lex-fridman/2021-08-21-joscha-bach-nature-of-reality-dreams-and-consciousness": "summary",
-  "lex-fridman/2021-08-23-barry-barish-gravitational-waves-and-the-most-precise-device-ever-buil": "summary",
-  "lex-fridman/2021-08-27-jed-buchwald-isaac-newton-and-the-philosophy-of-science": "summary",
-  "lex-fridman/2021-08-29-wojciech-zaremba-openai-codex-gpt-3-robotics-and-the-future-of-ai": "summary",
+  "lex-fridman/2021-06-28-clara-sousa-silva-searching-for-signs-of-life-on-venus-and-other-plane": "extraction",
+  "lex-fridman/2021-07-01-yeonmi-park-north-korea": "extraction",
+  "lex-fridman/2021-07-05-jocko-willink-war-leadership-and-discipline": "extraction",
+  "lex-fridman/2021-07-09-sara-walker-the-origin-of-life-on-earth-and-alien-worlds": "extraction",
+  "lex-fridman/2021-07-11-roger-reaves-smuggling-drugs-for-pablo-escobar-and-the-medellin-cartel": "extraction",
+  "lex-fridman/2021-07-15-michael-malice-totalitarianism-and-anarchy": "extraction",
+  "lex-fridman/2021-07-19-konstantin-batygin-planet-9-and-the-edge-of-our-solar-system": "extraction",
+  "lex-fridman/2021-07-21-rick-doblin-psychedelics": "extraction",
+  "lex-fridman/2021-07-23-anya-fernald-regenerative-farming-and-the-art-of-cooking-meat": "extraction",
+  "lex-fridman/2021-07-26-cumrun-vafa-string-theory": "extraction",
+  "lex-fridman/2021-07-29-zach-bitter-ultramarathon-running": "extraction",
+  "lex-fridman/2021-08-03-chris-duffin-the-mad-scientist-of-strength": "extraction",
+  "lex-fridman/2021-08-08-jeff-hawkins-the-thousand-brains-theory-of-intelligence": "extraction",
+  "lex-fridman/2021-08-09-luis-and-joao-batalha-lu-s-and-jo-o-batalha-fermat-s-library-and-the-a": "extraction",
+  "lex-fridman/2021-08-11-matt-walker-sleep": "extraction",
+  "lex-fridman/2021-08-15-brian-muraresku-the-secret-history-of-psychedelics": "extraction",
+  "lex-fridman/2021-08-21-joscha-bach-nature-of-reality-dreams-and-consciousness": "extraction",
+  "lex-fridman/2021-08-23-barry-barish-gravitational-waves-and-the-most-precise-device-ever-buil": "extraction",
+  "lex-fridman/2021-08-27-jed-buchwald-isaac-newton-and-the-philosophy-of-science": "extraction",
+  "lex-fridman/2021-08-29-wojciech-zaremba-openai-codex-gpt-3-robotics-and-the-future-of-ai": "extraction",
   "lex-fridman/2021-09-01-vincent-racaniello-viruses-and-vaccines": "summary",
-  "lex-fridman/2021-09-03-rodney-brooks-robotics": "summary",
-  "lex-fridman/2021-09-06-jaron-lanier-virtual-reality-social-media-the-future-of-humans-and-ai": "summary",
-  "lex-fridman/2021-09-09-donald-knuth-programming-algorithms-hard-problems-the-game-of-life": "summary",
-  "lex-fridman/2021-09-11-niels-jorgensen-new-york-firefighters-and-the-heroes-of-9-11": "summary",
-  "lex-fridman/2021-09-15-douglas-lenat-cyc-and-the-quest-to-solve-common-sense-reasoning-in-ai": "summary",
-  "lex-fridman/2021-09-20-jay-mcclelland-neural-networks-and-the-emergence-of-cognition": "summary",
-  "lex-fridman/2021-09-21-travis-stevens-judo-olympics-and-mental-toughness": "summary",
-  "lex-fridman/2021-09-23-travis-oliphant-numpy-scipy-anaconda-python-scientific-programming": "summary",
-  "lex-fridman/2021-09-26-jeffrey-shainline-neuromorphic-computing-and-optoelectronic-intelligen": "summary",
-  "lex-fridman/2021-09-27-jo-boaler-how-to-learn-math": "summary",
-  "lex-fridman/2021-09-30-sean-kelly-existentialism-nihilism-and-the-search-for-meaning": "summary",
-  "lex-fridman/2021-10-05-rza-wu-tang-clan-kung-fu-chess-god-life-and-death": "summary",
-  "lex-fridman/2021-10-10-richard-wrangham-role-of-violence-sex-and-fire-in-human-evolution": "summary",
-  "lex-fridman/2021-10-14-kelsi-sheren-war-artillery-ptsd-and-love": "summary",
-  "lex-fridman/2021-10-16-alex-gladstein-bitcoin-authoritarianism-and-human-rights": "summary",
-  "lex-fridman/2021-10-20-brian-greene-quantum-gravity-big-bang-aliens-life-death-and-meaning": "summary",
-  "lex-fridman/2021-10-23-carl-hart-heroin-cocaine-mdma-alcohol-the-role-of-drugs-in-society": "summary",
-  "lex-fridman/2021-10-27-stephen-wolfram-complexity-and-the-fabric-of-reality": "summary",
-  "lex-fridman/2021-10-29-michael-mina-rapid-covid-testing": "summary",
-  "lex-fridman/2021-10-31-jimmy-pedro-judo-and-the-forging-of-champions": "summary",
-  "lex-fridman/2021-11-03-steve-viscelli-trucking-and-the-decline-of-the-american-dream": "summary",
-  "lex-fridman/2021-11-05-francis-collins-national-institutes-of-health-nih": "summary",
-  "lex-fridman/2021-11-08-niall-ferguson-history-of-money-power-war-and-truth": "summary",
-  "lex-fridman/2021-11-11-neal-stephenson-sci-fi-space-aliens-ai-vr-the-future-of-humanity": "summary",
-  "lex-fridman/2021-11-16-boris-sofman-waymo-cozmo-self-driving-cars-and-the-future-of-robotics": "summary",
-  "lex-fridman/2021-11-20-ben-askren-wrestling-and-mma": "summary",
-  "lex-fridman/2021-11-23-kevin-systrom-instagram": "summary",
-  "lex-fridman/2021-11-28-robert-crews-afghanistan-taliban-bin-laden-and-war-in-the-middle-east": "summary",
-  "lex-fridman/2021-11-30-tom-brands-iowa-wrestling": "summary",
-  "lex-fridman/2021-12-03-peter-woit-theories-of-everything-and-why-string-theory-is-not-even-wr": "summary",
+  "lex-fridman/2021-09-03-rodney-brooks-robotics": "extraction",
+  "lex-fridman/2021-09-06-jaron-lanier-virtual-reality-social-media-the-future-of-humans-and-ai": "extraction",
+  "lex-fridman/2021-09-09-donald-knuth-programming-algorithms-hard-problems-the-game-of-life": "extraction",
+  "lex-fridman/2021-09-11-niels-jorgensen-new-york-firefighters-and-the-heroes-of-9-11": "extraction",
+  "lex-fridman/2021-09-15-douglas-lenat-cyc-and-the-quest-to-solve-common-sense-reasoning-in-ai": "extraction",
+  "lex-fridman/2021-09-20-jay-mcclelland-neural-networks-and-the-emergence-of-cognition": "extraction",
+  "lex-fridman/2021-09-21-travis-stevens-judo-olympics-and-mental-toughness": "extraction",
+  "lex-fridman/2021-09-23-travis-oliphant-numpy-scipy-anaconda-python-scientific-programming": "extraction",
+  "lex-fridman/2021-09-26-jeffrey-shainline-neuromorphic-computing-and-optoelectronic-intelligen": "extraction",
+  "lex-fridman/2021-09-27-jo-boaler-how-to-learn-math": "extraction",
+  "lex-fridman/2021-09-30-sean-kelly-existentialism-nihilism-and-the-search-for-meaning": "extraction",
+  "lex-fridman/2021-10-05-rza-wu-tang-clan-kung-fu-chess-god-life-and-death": "extraction",
+  "lex-fridman/2021-10-10-richard-wrangham-role-of-violence-sex-and-fire-in-human-evolution": "extraction",
+  "lex-fridman/2021-10-14-kelsi-sheren-war-artillery-ptsd-and-love": "extraction",
+  "lex-fridman/2021-10-16-alex-gladstein-bitcoin-authoritarianism-and-human-rights": "extraction",
+  "lex-fridman/2021-10-20-brian-greene-quantum-gravity-big-bang-aliens-life-death-and-meaning": "extraction",
+  "lex-fridman/2021-10-23-carl-hart-heroin-cocaine-mdma-alcohol-the-role-of-drugs-in-society": "extraction",
+  "lex-fridman/2021-10-27-stephen-wolfram-complexity-and-the-fabric-of-reality": "extraction",
+  "lex-fridman/2021-10-29-michael-mina-rapid-covid-testing": "extraction",
+  "lex-fridman/2021-10-31-jimmy-pedro-judo-and-the-forging-of-champions": "extraction",
+  "lex-fridman/2021-11-03-steve-viscelli-trucking-and-the-decline-of-the-american-dream": "extraction",
+  "lex-fridman/2021-11-05-francis-collins-national-institutes-of-health-nih": "extraction",
+  "lex-fridman/2021-11-08-niall-ferguson-history-of-money-power-war-and-truth": "extraction",
+  "lex-fridman/2021-11-11-neal-stephenson-sci-fi-space-aliens-ai-vr-the-future-of-humanity": "extraction",
+  "lex-fridman/2021-11-16-boris-sofman-waymo-cozmo-self-driving-cars-and-the-future-of-robotics": "extraction",
+  "lex-fridman/2021-11-20-ben-askren-wrestling-and-mma": "extraction",
+  "lex-fridman/2021-11-23-kevin-systrom-instagram": "extraction",
+  "lex-fridman/2021-11-28-robert-crews-afghanistan-taliban-bin-laden-and-war-in-the-middle-east": "extraction",
+  "lex-fridman/2021-11-30-tom-brands-iowa-wrestling": "extraction",
+  "lex-fridman/2021-12-03-peter-woit-theories-of-everything-and-why-string-theory-is-not-even-wr": "extraction",
   "lex-fridman/2021-12-08-jamie-metzl-lab-leak-theory": "summary",
-  "lex-fridman/2021-12-18-albert-bourla-pfizer-ceo": "summary",
-  "lex-fridman/2021-12-23-peter-wang-python-and-the-source-code-of-humans-computers-and-reality": "summary",
-  "lex-fridman/2021-12-25-ray-dalio-money-power-and-the-collapse-of-empires": "summary",
-  "lex-fridman/2021-12-28-elon-musk-spacex-mars-tesla-autopilot-self-driving-robotics-and-ai": "summary",
-  "lex-fridman/2021-12-31-michael-malice-new-year-s-special": "summary",
-  "lex-fridman/2022-01-04-jay-bhattacharya-the-case-against-lockdowns": "summary",
-  "lex-fridman/2022-01-08-mark-normand-comedy": "summary",
-  "lex-fridman/2022-01-15-nationalism-debate-yaron-brook-and-yoram-hazony": "summary",
-  "lex-fridman/2022-01-18-brian-keating-cosmology-astrophysics-aliens-losing-the-nobel-prize": "summary",
-  "lex-fridman/2022-01-22-yann-lecun-dark-matter-of-intelligence-and-self-supervised-learning": "summary",
-  "lex-fridman/2022-01-26-thomas-tull-from-batman-dark-knight-trilogy-to-ai-and-the-rolling-ston": "summary",
-  "lex-fridman/2022-01-30-georges-st-pierre-john-danaher-gordon-ryan-the-greatest-of-all-time": "summary",
-  "lex-fridman/2022-02-03-philip-goff-consciousness-panpsychism-and-the-philosophy-of-mind": "summary",
-  "lex-fridman/2022-02-06-garry-nolan-ufos-and-aliens": "summary",
-  "lex-fridman/2022-02-11-john-abramson-big-pharma": "summary",
-  "lex-fridman/2022-02-13-tim-urban-elon-musk-neuralink-ai-aliens-and-the-future-of-humanity": "summary",
-  "lex-fridman/2022-02-16-devon-larratt-arm-wrestling": "summary",
-  "lex-fridman/2022-02-20-nicole-perlroth-cybersecurity-and-the-weapons-of-cyberwar": "summary",
-  "lex-fridman/2022-02-26-mark-zuckerberg-meta-facebook-instagram-and-the-metaverse": "summary",
-  "lex-fridman/2022-03-05-robert-proctor-nazi-science-and-ideology": "summary",
-  "lex-fridman/2022-03-11-lee-cronin-origin-of-life-aliens-complexity-and-consciousness": "summary",
-  "lex-fridman/2022-03-16-david-wolpe-judaism": "summary",
-  "lex-fridman/2022-03-23-ariel-ekblaw-space-colonization-and-self-assembling-space-megastructur": "summary",
-  "lex-fridman/2022-03-27-brett-johnson-us-most-wanted-cybercriminal": "summary",
-  "lex-fridman/2022-04-03-chris-blattman-war-and-violence": "summary",
-  "lex-fridman/2022-04-07-karl-deisseroth-depression-schizophrenia-and-psychiatry": "summary",
-  "lex-fridman/2022-04-10-rick-rubin-legendary-music-producer": "summary",
-  "lex-fridman/2022-04-14-michael-saylor-bitcoin-inflation-and-the-future-of-money": "summary",
-  "lex-fridman/2022-04-17-andrew-huberman-focus-stress-relationships-and-friendship": "summary",
-  "lex-fridman/2022-04-20-skye-fitzgerald-hunger-war-and-human-suffering": "summary",
-  "lex-fridman/2022-04-24-alien-debate-sara-walker-and-lee-cronin": "summary",
-  "lex-fridman/2022-04-27-cristiano-amon-qualcomm-ceo": "summary",
-  "lex-fridman/2022-04-29-grimes-music-ai-and-the-future-of-humanity": "summary",
-  "lex-fridman/2022-05-04-david-buss-sex-dating-relationships-and-sex-differences": "summary",
-  "lex-fridman/2022-05-08-chris-mason-space-travel-colonization-and-long-term-survival-in-space": "summary",
-  "lex-fridman/2022-05-11-saifedean-ammous-bitcoin-anarchy-and-austrian-economics": "summary",
-  "lex-fridman/2022-05-14-glenn-loury-race-racism-identity-politics-and-cancel-culture": "summary",
-  "lex-fridman/2022-05-17-oliver-stone-vladimir-putin-and-war-in-ukraine": "summary",
-  "lex-fridman/2022-05-20-bobby-lee-comedy-skyrim-sex-robots-love-fame-and-power": "summary",
-  "lex-fridman/2022-05-23-sarma-melngailis-bad-vegan": "summary",
-  "lex-fridman/2022-05-25-stephen-kotkin-putin-zelenskyy-and-war-in-ukraine": "summary",
-  "lex-fridman/2022-05-30-dan-reynolds-imagine-dragons": "summary",
-  "lex-fridman/2022-06-04-jonathan-haidt-the-case-against-social-media": "summary",
-  "lex-fridman/2022-06-09-robin-hanson-alien-civilizations-ufos-and-the-future-of-humanity": "summary",
-  "lex-fridman/2022-06-12-donald-hoffman-reality-is-an-illusion-how-evolution-hid-the-truth": "summary",
-  "lex-fridman/2022-06-15-tony-fadell-iphone-ipod-and-nest": "summary",
-  "lex-fridman/2022-06-17-richard-wolff-marxism-and-communism": "summary",
-  "lex-fridman/2022-06-21-douglas-murray-racism-marxism-and-the-war-on-the-west": "summary",
-  "lex-fridman/2022-06-25-jonathan-reisman-the-human-body-from-sex-sperm-to-hands-heart": "summary",
-  "lex-fridman/2022-07-01-demis-hassabis-deepmind": "summary",
-  "lex-fridman/2022-07-04-joe-rogan-comedy-controversy-aliens-ufos-putin-cia-and-freedom": "summary",
-  "lex-fridman/2022-07-09-jack-barsky-kgb-spy": "summary",
-  "lex-fridman/2022-07-14-richard-haier-iq-tests-human-intelligence-and-group-differences": "summary",
-  "lex-fridman/2022-07-17-steve-keen-marxism-capitalism-and-economics": "summary",
-  "lex-fridman/2022-07-20-robert-barron-bishop-robert-barron-christianity-and-the-catholic-churc": "summary",
-  "lex-fridman/2022-07-23-martin-rees-black-holes-alien-life-dark-matter-and-the-big-bang": "summary",
-  "lex-fridman/2022-07-26-oriol-vinyals-deep-learning-and-artificial-general-intelligence": "summary",
-  "lex-fridman/2022-07-29-brian-armstrong-coinbase-cryptocurrency-and-government-regulation": "summary",
-  "lex-fridman/2022-08-01-ryan-graves-ufos-fighter-jets-and-aliens": "summary",
-  "lex-fridman/2022-08-04-john-carmack-doom-quake-vr-agi-programming-video-games-and-rockets": "summary",
-  "lex-fridman/2022-08-08-andrew-bustamante-cia-spy": "summary",
-  "lex-fridman/2022-08-13-magatte-wade-africa-capitalism-communism-and-the-future-of-humanity": "summary",
-  "lex-fridman/2022-08-16-duncan-trussell-comedy-sentient-robots-suffering-love-burning-man": "summary",
-  "lex-fridman/2022-08-19-jordan-peterson-life-death-power-fame-and-meaning": "summary",
-  "lex-fridman/2022-08-24-liv-boeree-poker-game-theory-ai-simulation-aliens-existential-risk": "summary",
-  "lex-fridman/2022-08-27-magnus-carlsen-greatest-chess-player-of-all-time": "summary",
-  "lex-fridman/2022-08-31-noam-chomsky-putin-ukraine-china-and-nuclear-war": "summary",
-  "lex-fridman/2022-09-04-john-vervaeke-meaning-crisis-atheism-religion-the-search-for-wisdom": "summary",
-  "lex-fridman/2022-09-07-nick-lane-origin-of-life-evolution-aliens-biology-and-consciousness": "summary",
-  "lex-fridman/2022-09-09-botez-sisters-chess-streaming-and-fame": "summary",
-  "lex-fridman/2022-09-14-christopher-capozzola-world-war-i-ideology-propaganda-and-politics": "summary",
-  "lex-fridman/2022-09-17-ray-kurzweil-singularity-superintelligence-and-immortality": "summary",
-  "lex-fridman/2022-09-21-rana-el-kaliouby-emotion-ai-social-robots-and-self-driving-cars": "summary",
-  "lex-fridman/2022-09-24-will-sasso-comedy-madtv-ai-friendship-madness-and-pro-wrestling": "summary",
-  "lex-fridman/2022-09-27-daniel-negreanu-poker": "summary",
-  "lex-fridman/2022-10-01-michael-levin-biology-life-aliens-evolution-embryogenesis-xenobots": "summary",
-  "lex-fridman/2022-10-05-annaka-harris-free-will-consciousness-and-the-nature-of-reality": "summary",
-  "lex-fridman/2022-10-07-gothamchess-hans-niemann-magnus-carlsen-cheating-scandal-chess-bots": "summary",
-  "lex-fridman/2022-10-10-john-danaher-submission-grappling-adcc-animal-combat-and-knives": "summary",
-  "lex-fridman/2022-10-15-kate-darling-social-robots-ethics-privacy-and-the-future-of-mit": "summary",
-  "lex-fridman/2022-10-17-hikaru-nakamura-chess-magnus-kasparov-and-the-psychology-of-greatness": "summary",
-  "lex-fridman/2022-10-20-balaji-srinivasan-how-to-fix-government-twitter-science-and-the-fda": "summary",
-  "lex-fridman/2022-10-24-ye-aka-kanye-west-kanye-ye-west-interview": "summary",
-  "lex-fridman/2022-10-29-andrej-karpathy-tesla-ai-self-driving-optimus-aliens-and-agi": "summary",
-  "lex-fridman/2022-11-02-abbas-amanat-iran-protests-mahsa-amini-history-cia-nuclear-weapons": "summary",
-  "lex-fridman/2022-11-04-fiona-hill-vladimir-putin-and-donald-trump": "summary",
-  "lex-fridman/2022-11-07-ben-shapiro-politics-kanye-trump-biden-hitler-extremism-and-war": "summary",
-  "lex-fridman/2022-11-11-destiny-politics-free-speech-controversy-sex-war-and-relationships": "summary",
-  "lex-fridman/2022-11-15-chamath-palihapitiya-money-success-startups-energy-poker-happiness": "summary",
-  "lex-fridman/2022-11-18-climate-change-debate-bj-rn-lomborg-and-andrew-revkin": "summary",
-  "lex-fridman/2022-11-22-chris-tarbell-fbi-agent-who-took-down-silk-road": "summary",
-  "lex-fridman/2022-11-26-guido-van-rossum-python-and-the-future-of-programming": "summary",
-  "lex-fridman/2022-11-29-todd-howard-skyrim-elder-scrolls-6-fallout-and-starfield": "summary",
-  "lex-fridman/2022-12-03-roger-gracie-greatest-jiu-jitsu-competitor-of-all-time": "summary",
-  "lex-fridman/2022-12-06-noam-brown-ai-vs-humans-in-poker-and-games-of-strategic-negotiation": "summary",
-  "lex-fridman/2022-12-09-coffeezilla-sbf-ftx-fraud-scams-fake-gurus-money-fame-and-power": "summary",
-  "lex-fridman/2022-12-12-ed-calderon-mexican-drug-cartels": "summary",
-  "lex-fridman/2022-12-15-michael-malice-christmas-special": "summary",
-  "lex-fridman/2022-12-19-nathalie-cabrol-search-for-alien-life": "summary",
-  "lex-fridman/2022-12-22-bhaskar-sunkara-the-case-for-socialism": "summary",
-  "lex-fridman/2022-12-29-betul-kacar-bet-l-ka-ar-origin-of-life-ancient-dna-panspermia-and-alie": "summary",
-  "lex-fridman/2023-01-11-mrbeast-future-of-youtube-twitter-tiktok-and-instagram": "summary",
-  "lex-fridman/2023-01-17-omar-suleiman-islam": "summary",
-  "lex-fridman/2023-01-21-dennis-whyte-nuclear-fusion-and-the-future-of-energy": "summary",
-  "lex-fridman/2023-01-25-jeremi-suri-american-civil-war": "summary",
-  "lex-fridman/2023-01-28-david-kipping-alien-civilizations-and-habitable-worlds": "summary",
-  "lex-fridman/2023-02-02-tim-dodd-spacex-starship-rocket-engines-and-future-of-space-travel": "summary",
-  "lex-fridman/2023-02-07-paul-conti-narcissism-sociopathy-envy-and-the-nature-of-good-and-evil": "summary",
-  "lex-fridman/2023-02-10-aella-sex-work-onlyfans-porn-escorting-dating-and-human-sexuality": "summary",
-  "lex-fridman/2023-02-15-andrew-strominger-black-holes-quantum-gravity-and-theoretical-physics": "summary",
-  "lex-fridman/2023-02-20-tim-urban-tribalism-marxism-liberalism-social-justice-and-politics": "summary",
+  "lex-fridman/2021-12-18-albert-bourla-pfizer-ceo": "extraction",
+  "lex-fridman/2021-12-23-peter-wang-python-and-the-source-code-of-humans-computers-and-reality": "extraction",
+  "lex-fridman/2021-12-25-ray-dalio-money-power-and-the-collapse-of-empires": "extraction",
+  "lex-fridman/2021-12-28-elon-musk-spacex-mars-tesla-autopilot-self-driving-robotics-and-ai": "extraction",
+  "lex-fridman/2021-12-31-michael-malice-new-year-s-special": "extraction",
+  "lex-fridman/2022-01-04-jay-bhattacharya-the-case-against-lockdowns": "extraction",
+  "lex-fridman/2022-01-08-mark-normand-comedy": "extraction",
+  "lex-fridman/2022-01-15-nationalism-debate-yaron-brook-and-yoram-hazony": "extraction",
+  "lex-fridman/2022-01-18-brian-keating-cosmology-astrophysics-aliens-losing-the-nobel-prize": "extraction",
+  "lex-fridman/2022-01-22-yann-lecun-dark-matter-of-intelligence-and-self-supervised-learning": "extraction",
+  "lex-fridman/2022-01-26-thomas-tull-from-batman-dark-knight-trilogy-to-ai-and-the-rolling-ston": "extraction",
+  "lex-fridman/2022-01-30-georges-st-pierre-john-danaher-gordon-ryan-the-greatest-of-all-time": "extraction",
+  "lex-fridman/2022-02-03-philip-goff-consciousness-panpsychism-and-the-philosophy-of-mind": "extraction",
+  "lex-fridman/2022-02-06-garry-nolan-ufos-and-aliens": "extraction",
+  "lex-fridman/2022-02-11-john-abramson-big-pharma": "extraction",
+  "lex-fridman/2022-02-13-tim-urban-elon-musk-neuralink-ai-aliens-and-the-future-of-humanity": "extraction",
+  "lex-fridman/2022-02-16-devon-larratt-arm-wrestling": "extraction",
+  "lex-fridman/2022-02-20-nicole-perlroth-cybersecurity-and-the-weapons-of-cyberwar": "extraction",
+  "lex-fridman/2022-02-26-mark-zuckerberg-meta-facebook-instagram-and-the-metaverse": "extraction",
+  "lex-fridman/2022-03-05-robert-proctor-nazi-science-and-ideology": "extraction",
+  "lex-fridman/2022-03-11-lee-cronin-origin-of-life-aliens-complexity-and-consciousness": "extraction",
+  "lex-fridman/2022-03-16-david-wolpe-judaism": "extraction",
+  "lex-fridman/2022-03-23-ariel-ekblaw-space-colonization-and-self-assembling-space-megastructur": "extraction",
+  "lex-fridman/2022-03-27-brett-johnson-us-most-wanted-cybercriminal": "extraction",
+  "lex-fridman/2022-04-03-chris-blattman-war-and-violence": "extraction",
+  "lex-fridman/2022-04-07-karl-deisseroth-depression-schizophrenia-and-psychiatry": "extraction",
+  "lex-fridman/2022-04-10-rick-rubin-legendary-music-producer": "extraction",
+  "lex-fridman/2022-04-14-michael-saylor-bitcoin-inflation-and-the-future-of-money": "extraction",
+  "lex-fridman/2022-04-17-andrew-huberman-focus-stress-relationships-and-friendship": "extraction",
+  "lex-fridman/2022-04-20-skye-fitzgerald-hunger-war-and-human-suffering": "extraction",
+  "lex-fridman/2022-04-24-alien-debate-sara-walker-and-lee-cronin": "extraction",
+  "lex-fridman/2022-04-27-cristiano-amon-qualcomm-ceo": "extraction",
+  "lex-fridman/2022-04-29-grimes-music-ai-and-the-future-of-humanity": "extraction",
+  "lex-fridman/2022-05-04-david-buss-sex-dating-relationships-and-sex-differences": "extraction",
+  "lex-fridman/2022-05-08-chris-mason-space-travel-colonization-and-long-term-survival-in-space": "extraction",
+  "lex-fridman/2022-05-11-saifedean-ammous-bitcoin-anarchy-and-austrian-economics": "extraction",
+  "lex-fridman/2022-05-14-glenn-loury-race-racism-identity-politics-and-cancel-culture": "extraction",
+  "lex-fridman/2022-05-17-oliver-stone-vladimir-putin-and-war-in-ukraine": "extraction",
+  "lex-fridman/2022-05-20-bobby-lee-comedy-skyrim-sex-robots-love-fame-and-power": "extraction",
+  "lex-fridman/2022-05-23-sarma-melngailis-bad-vegan": "extraction",
+  "lex-fridman/2022-05-25-stephen-kotkin-putin-zelenskyy-and-war-in-ukraine": "extraction",
+  "lex-fridman/2022-05-30-dan-reynolds-imagine-dragons": "extraction",
+  "lex-fridman/2022-06-04-jonathan-haidt-the-case-against-social-media": "extraction",
+  "lex-fridman/2022-06-09-robin-hanson-alien-civilizations-ufos-and-the-future-of-humanity": "extraction",
+  "lex-fridman/2022-06-12-donald-hoffman-reality-is-an-illusion-how-evolution-hid-the-truth": "extraction",
+  "lex-fridman/2022-06-15-tony-fadell-iphone-ipod-and-nest": "extraction",
+  "lex-fridman/2022-06-17-richard-wolff-marxism-and-communism": "extraction",
+  "lex-fridman/2022-06-21-douglas-murray-racism-marxism-and-the-war-on-the-west": "extraction",
+  "lex-fridman/2022-06-25-jonathan-reisman-the-human-body-from-sex-sperm-to-hands-heart": "extraction",
+  "lex-fridman/2022-07-01-demis-hassabis-deepmind": "extraction",
+  "lex-fridman/2022-07-04-joe-rogan-comedy-controversy-aliens-ufos-putin-cia-and-freedom": "extraction",
+  "lex-fridman/2022-07-09-jack-barsky-kgb-spy": "extraction",
+  "lex-fridman/2022-07-14-richard-haier-iq-tests-human-intelligence-and-group-differences": "extraction",
+  "lex-fridman/2022-07-17-steve-keen-marxism-capitalism-and-economics": "extraction",
+  "lex-fridman/2022-07-20-robert-barron-bishop-robert-barron-christianity-and-the-catholic-churc": "extraction",
+  "lex-fridman/2022-07-23-martin-rees-black-holes-alien-life-dark-matter-and-the-big-bang": "extraction",
+  "lex-fridman/2022-07-26-oriol-vinyals-deep-learning-and-artificial-general-intelligence": "extraction",
+  "lex-fridman/2022-07-29-brian-armstrong-coinbase-cryptocurrency-and-government-regulation": "extraction",
+  "lex-fridman/2022-08-01-ryan-graves-ufos-fighter-jets-and-aliens": "extraction",
+  "lex-fridman/2022-08-04-john-carmack-doom-quake-vr-agi-programming-video-games-and-rockets": "extraction",
+  "lex-fridman/2022-08-08-andrew-bustamante-cia-spy": "extraction",
+  "lex-fridman/2022-08-13-magatte-wade-africa-capitalism-communism-and-the-future-of-humanity": "extraction",
+  "lex-fridman/2022-08-16-duncan-trussell-comedy-sentient-robots-suffering-love-burning-man": "extraction",
+  "lex-fridman/2022-08-19-jordan-peterson-life-death-power-fame-and-meaning": "extraction",
+  "lex-fridman/2022-08-24-liv-boeree-poker-game-theory-ai-simulation-aliens-existential-risk": "extraction",
+  "lex-fridman/2022-08-27-magnus-carlsen-greatest-chess-player-of-all-time": "extraction",
+  "lex-fridman/2022-08-31-noam-chomsky-putin-ukraine-china-and-nuclear-war": "extraction",
+  "lex-fridman/2022-09-04-john-vervaeke-meaning-crisis-atheism-religion-the-search-for-wisdom": "extraction",
+  "lex-fridman/2022-09-07-nick-lane-origin-of-life-evolution-aliens-biology-and-consciousness": "extraction",
+  "lex-fridman/2022-09-09-botez-sisters-chess-streaming-and-fame": "extraction",
+  "lex-fridman/2022-09-14-christopher-capozzola-world-war-i-ideology-propaganda-and-politics": "extraction",
+  "lex-fridman/2022-09-17-ray-kurzweil-singularity-superintelligence-and-immortality": "extraction",
+  "lex-fridman/2022-09-21-rana-el-kaliouby-emotion-ai-social-robots-and-self-driving-cars": "extraction",
+  "lex-fridman/2022-09-24-will-sasso-comedy-madtv-ai-friendship-madness-and-pro-wrestling": "extraction",
+  "lex-fridman/2022-09-27-daniel-negreanu-poker": "extraction",
+  "lex-fridman/2022-10-01-michael-levin-biology-life-aliens-evolution-embryogenesis-xenobots": "extraction",
+  "lex-fridman/2022-10-05-annaka-harris-free-will-consciousness-and-the-nature-of-reality": "extraction",
+  "lex-fridman/2022-10-07-gothamchess-hans-niemann-magnus-carlsen-cheating-scandal-chess-bots": "extraction",
+  "lex-fridman/2022-10-10-john-danaher-submission-grappling-adcc-animal-combat-and-knives": "extraction",
+  "lex-fridman/2022-10-15-kate-darling-social-robots-ethics-privacy-and-the-future-of-mit": "extraction",
+  "lex-fridman/2022-10-17-hikaru-nakamura-chess-magnus-kasparov-and-the-psychology-of-greatness": "extraction",
+  "lex-fridman/2022-10-20-balaji-srinivasan-how-to-fix-government-twitter-science-and-the-fda": "extraction",
+  "lex-fridman/2022-10-24-ye-aka-kanye-west-kanye-ye-west-interview": "extraction",
+  "lex-fridman/2022-10-29-andrej-karpathy-tesla-ai-self-driving-optimus-aliens-and-agi": "extraction",
+  "lex-fridman/2022-11-02-abbas-amanat-iran-protests-mahsa-amini-history-cia-nuclear-weapons": "extraction",
+  "lex-fridman/2022-11-04-fiona-hill-vladimir-putin-and-donald-trump": "extraction",
+  "lex-fridman/2022-11-07-ben-shapiro-politics-kanye-trump-biden-hitler-extremism-and-war": "extraction",
+  "lex-fridman/2022-11-11-destiny-politics-free-speech-controversy-sex-war-and-relationships": "extraction",
+  "lex-fridman/2022-11-15-chamath-palihapitiya-money-success-startups-energy-poker-happiness": "extraction",
+  "lex-fridman/2022-11-18-climate-change-debate-bj-rn-lomborg-and-andrew-revkin": "extraction",
+  "lex-fridman/2022-11-22-chris-tarbell-fbi-agent-who-took-down-silk-road": "extraction",
+  "lex-fridman/2022-11-26-guido-van-rossum-python-and-the-future-of-programming": "extraction",
+  "lex-fridman/2022-11-29-todd-howard-skyrim-elder-scrolls-6-fallout-and-starfield": "extraction",
+  "lex-fridman/2022-12-03-roger-gracie-greatest-jiu-jitsu-competitor-of-all-time": "extraction",
+  "lex-fridman/2022-12-06-noam-brown-ai-vs-humans-in-poker-and-games-of-strategic-negotiation": "extraction",
+  "lex-fridman/2022-12-09-coffeezilla-sbf-ftx-fraud-scams-fake-gurus-money-fame-and-power": "extraction",
+  "lex-fridman/2022-12-12-ed-calderon-mexican-drug-cartels": "extraction",
+  "lex-fridman/2022-12-15-michael-malice-christmas-special": "extraction",
+  "lex-fridman/2022-12-19-nathalie-cabrol-search-for-alien-life": "extraction",
+  "lex-fridman/2022-12-22-bhaskar-sunkara-the-case-for-socialism": "extraction",
+  "lex-fridman/2022-12-29-betul-kacar-bet-l-ka-ar-origin-of-life-ancient-dna-panspermia-and-alie": "extraction",
+  "lex-fridman/2023-01-11-mrbeast-future-of-youtube-twitter-tiktok-and-instagram": "extraction",
+  "lex-fridman/2023-01-17-omar-suleiman-islam": "extraction",
+  "lex-fridman/2023-01-21-dennis-whyte-nuclear-fusion-and-the-future-of-energy": "extraction",
+  "lex-fridman/2023-01-25-jeremi-suri-american-civil-war": "extraction",
+  "lex-fridman/2023-01-28-david-kipping-alien-civilizations-and-habitable-worlds": "extraction",
+  "lex-fridman/2023-02-02-tim-dodd-spacex-starship-rocket-engines-and-future-of-space-travel": "extraction",
+  "lex-fridman/2023-02-07-paul-conti-narcissism-sociopathy-envy-and-the-nature-of-good-and-evil": "extraction",
+  "lex-fridman/2023-02-10-aella-sex-work-onlyfans-porn-escorting-dating-and-human-sexuality": "extraction",
+  "lex-fridman/2023-02-15-andrew-strominger-black-holes-quantum-gravity-and-theoretical-physics": "extraction",
+  "lex-fridman/2023-02-20-tim-urban-tribalism-marxism-liberalism-social-justice-and-politics": "extraction",
   "lex-fridman/2023-02-25-aaron-smith-levin-scientology": "extraction",
   "lex-fridman/2023-03-02-ginni-rometty-ibm-ceo-on-leadership-power-and-adversity": "extraction",
   "lex-fridman/2023-03-06-b-team-jiu-jitsu-craig-jones-nicky-rod-and-nicky-ryan": "extraction",
@@ -2048,25 +2048,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 1,
+    "extractionEpisodes": 51,
     "related": [
+     {
+      "name": "Tesla Autopilot",
+      "kind": "product",
+      "central": 4,
+      "mentions": 11
+     },
+     {
+      "name": "Python",
+      "kind": "product",
+      "central": 3,
+      "mentions": 6
+     },
      {
       "name": "Chris Lattner",
       "kind": "person",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "Hardware specialization",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "Modular",
-      "kind": "company",
-      "central": 1,
-      "mentions": 1
+      "central": 3,
+      "mentions": 4
      }
     ]
    },
@@ -2188,25 +2188,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 7,
+    "extractionEpisodes": 16,
     "related": [
      {
-      "name": "AI and jobs",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 2
+      "name": "Tesla Autopilot",
+      "kind": "product",
+      "central": 4,
+      "mentions": 7
      },
      {
-      "name": "AI regulation",
+      "name": "Moore's law",
       "kind": "concept",
-      "central": 1,
+      "central": 3,
       "mentions": 3
      },
      {
-      "name": "AI agents",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 2
+      "name": "Tesla",
+      "kind": "company",
+      "central": 2,
+      "mentions": 6
      }
     ]
    },
@@ -2303,7 +2303,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 74,
+    "extractionEpisodes": 76,
     "related": [
      {
       "name": "AI bubble",
@@ -2321,7 +2321,7 @@
       "name": "Chip export controls",
       "kind": "concept",
       "central": 7,
-      "mentions": 16
+      "mentions": 18
      }
     ]
    }
@@ -2420,25 +2420,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 42,
+    "extractionEpisodes": 76,
     "related": [
      {
       "name": "Vladimir Putin",
       "kind": "person",
-      "central": 6,
-      "mentions": 12
+      "central": 10,
+      "mentions": 23
      },
      {
       "name": "Joe Biden",
       "kind": "person",
-      "central": 5,
-      "mentions": 12
+      "central": 7,
+      "mentions": 25
      },
      {
       "name": "Russia-Ukraine war",
       "kind": "event",
-      "central": 5,
-      "mentions": 8
+      "central": 6,
+      "mentions": 11
      }
     ]
    },
@@ -2512,7 +2512,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 65,
+    "extractionEpisodes": 67,
     "related": [
      {
       "name": "Data centers and power",
@@ -2629,25 +2629,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 18,
+    "extractionEpisodes": 82,
     "related": [
-     {
-      "name": "Dark matter",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 4
-     },
-     {
-      "name": "Dark energy",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 3
-     },
      {
       "name": "Albert Einstein",
       "kind": "person",
-      "central": 2,
-      "mentions": 4
+      "central": 7,
+      "mentions": 20
+     },
+     {
+      "name": "Origin of life",
+      "kind": "concept",
+      "central": 6,
+      "mentions": 10
+     },
+     {
+      "name": "Fermi paradox",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 14
      }
     ]
    },
@@ -2740,6 +2740,29 @@
      {
       "name": "BLINK",
       "kind": "event",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "DARPA Urban Challenge",
+      "kind": "event",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI as a platform",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Aurora Innovation",
+      "kind": "company",
       "central": 1,
       "mentions": 1
      }
@@ -2863,16 +2886,16 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 4,
+    "extractionEpisodes": 9,
     "related": [
      {
-      "name": "AGI timelines",
+      "name": "Scaling laws",
       "kind": "concept",
       "central": 2,
-      "mentions": 3
+      "mentions": 4
      },
      {
-      "name": "Scaling laws",
+      "name": "AGI timelines",
       "kind": "concept",
       "central": 2,
       "mentions": 3
@@ -3072,25 +3095,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 22,
+    "extractionEpisodes": 60,
     "related": [
+     {
+      "name": "Consciousness",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 13
+     },
+     {
+      "name": "Scaling laws",
+      "kind": "concept",
+      "central": 4,
+      "mentions": 10
+     },
      {
       "name": "GPT-4",
       "kind": "model",
       "central": 4,
       "mentions": 8
-     },
-     {
-      "name": "AI and jobs",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 7
-     },
-     {
-      "name": "Scaling laws",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 6
      }
     ]
    },
@@ -3304,25 +3327,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 35,
     "related": [
      {
-      "name": "Javier Milei",
-      "kind": "person",
-      "central": 1,
-      "mentions": 2
+      "name": "Ethereum",
+      "kind": "product",
+      "central": 4,
+      "mentions": 14
      },
      {
-      "name": "A Monetary History of the United States",
-      "kind": "publication",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "Anarcho-capitalism",
+      "name": "Proof of stake",
       "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "central": 3,
+      "mentions": 4
+     },
+     {
+      "name": "Ayn Rand",
+      "kind": "person",
+      "central": 3,
+      "mentions": 3
      }
     ]
    },
@@ -3463,6 +3486,29 @@
       "kind": "person",
       "central": 2,
       "mentions": 2
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Google Brain",
+      "kind": "organization",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Scaling laws",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI Fund",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
@@ -3653,25 +3699,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 4,
+    "extractionEpisodes": 16,
     "related": [
      {
-      "name": "Grigori Perelman",
-      "kind": "person",
-      "central": 1,
-      "mentions": 3
-     },
-     {
-      "name": "AI safety",
+      "name": "Consciousness",
       "kind": "concept",
-      "central": 1,
-      "mentions": 2
+      "central": 3,
+      "mentions": 5
      },
      {
-      "name": "Riemann hypothesis",
-      "kind": "event",
-      "central": 1,
-      "mentions": 2
+      "name": "DeepMind",
+      "kind": "company",
+      "central": 2,
+      "mentions": 5
+     },
+     {
+      "name": "Origin of life",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
      }
     ]
    },
@@ -3885,24 +3931,24 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 6,
+    "extractionEpisodes": 19,
     "related": [
      {
       "name": "AGI timelines",
       "kind": "concept",
       "central": 3,
-      "mentions": 5
+      "mentions": 9
      },
      {
-      "name": "AI and programming",
+      "name": "AI safety",
       "kind": "concept",
       "central": 2,
-      "mentions": 3
+      "mentions": 4
      },
      {
-      "name": "Cursor",
-      "kind": "product",
-      "central": 1,
+      "name": "Moore's law",
+      "kind": "concept",
+      "central": 2,
       "mentions": 4
      }
     ]
@@ -4211,25 +4257,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 4,
+    "extractionEpisodes": 22,
     "related": [
      {
-      "name": "Boston Dynamics",
-      "kind": "company",
-      "central": 2,
-      "mentions": 3
-     },
-     {
-      "name": "ChatGPT Atlas",
+      "name": "Tesla Autopilot",
       "kind": "product",
-      "central": 2,
-      "mentions": 2
+      "central": 4,
+      "mentions": 8
      },
      {
-      "name": "Marc Raibert",
-      "kind": "person",
-      "central": 2,
-      "mentions": 2
+      "name": "Self-driving cars",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 4
+     },
+     {
+      "name": "Driver monitoring",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 3
      }
     ]
    },
@@ -4420,25 +4466,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 1,
+    "extractionEpisodes": 9,
     "related": [
      {
-      "name": "Athletic intelligence",
+      "name": "Self-play",
       "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "central": 2,
+      "mentions": 3
      },
      {
-      "name": "Boston Dynamics",
-      "kind": "company",
-      "central": 1,
-      "mentions": 1
+      "name": "AlphaGo",
+      "kind": "model",
+      "central": 2,
+      "mentions": 2
      },
      {
-      "name": "Boston Dynamics AI Institute",
-      "kind": "organization",
+      "name": "AlphaZero",
+      "kind": "model",
       "central": 1,
-      "mentions": 1
+      "mentions": 3
      }
     ]
    },
@@ -4629,19 +4675,19 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 13,
+    "extractionEpisodes": 16,
     "related": [
+     {
+      "name": "AI alignment",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 5
+     },
      {
       "name": "GPT-4",
       "kind": "model",
       "central": 3,
       "mentions": 5
-     },
-     {
-      "name": "AI alignment",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 4
      },
      {
       "name": "Elon Musk",
@@ -4861,7 +4907,7 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 4,
     "related": [
      {
       "name": "Open-weight models",
@@ -4930,19 +4976,19 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 19,
+    "extractionEpisodes": 21,
     "related": [
      {
       "name": "Chip export controls",
       "kind": "concept",
       "central": 7,
-      "mentions": 8
+      "mentions": 10
      },
      {
       "name": "Anthropic",
       "kind": "company",
       "central": 4,
-      "mentions": 9
+      "mentions": 10
      },
      {
       "name": "US–China AI competition",
@@ -5047,25 +5093,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 12,
+    "extractionEpisodes": 33,
     "related": [
      {
-      "name": "AI alignment",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 2
-     },
-     {
-      "name": "AI regulation",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 4
+      "name": "Bitcoin",
+      "kind": "product",
+      "central": 3,
+      "mentions": 5
      },
      {
       "name": "AI existential risk",
       "kind": "concept",
-      "central": 1,
-      "mentions": 2
+      "central": 2,
+      "mentions": 4
+     },
+     {
+      "name": "AI alignment",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
      }
     ]
    },
@@ -5279,8 +5325,14 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 5,
+    "extractionEpisodes": 6,
     "related": [
+     {
+      "name": "US–China AI competition",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 3
+     },
      {
       "name": "Chip export controls",
       "kind": "concept",
@@ -5290,12 +5342,6 @@
      {
       "name": "Nathan Lambert",
       "kind": "person",
-      "central": 2,
-      "mentions": 2
-     },
-     {
-      "name": "Reinforcement learning with verifiable rewards",
-      "kind": "concept",
       "central": 2,
       "mentions": 2
      }
@@ -5348,7 +5394,7 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 49,
+    "extractionEpisodes": 50,
     "related": [
      {
       "name": "US–China AI competition",
@@ -5363,10 +5409,10 @@
       "mentions": 3
      },
      {
-      "name": "Benchmarks",
+      "name": "Chip export controls",
       "kind": "concept",
       "central": 2,
-      "mentions": 6
+      "mentions": 7
      }
     ]
    }
@@ -5442,7 +5488,7 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 6,
     "related": [
      {
       "name": "Large language models",
@@ -5451,13 +5497,13 @@
       "mentions": 2
      },
      {
-      "name": "Bert Kreischer",
+      "name": "Joe Rogan",
       "kind": "person",
       "central": 1,
-      "mentions": 1
+      "mentions": 2
      },
      {
-      "name": "Center embedding",
+      "name": "AI adoption in healthcare",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -5605,8 +5651,14 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 9,
     "related": [
+     {
+      "name": "Data dignity",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
      {
       "name": "ADHD",
       "kind": "concept",
@@ -5614,16 +5666,10 @@
       "mentions": 2
      },
      {
-      "name": "AI and jobs",
-      "kind": "concept",
+      "name": "GPT-3",
+      "kind": "model",
       "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "AI-assisted programming",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "mentions": 2
      }
     ]
    },
@@ -5814,8 +5860,14 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 4,
+    "extractionEpisodes": 8,
     "related": [
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
      {
       "name": "Nathan Lambert",
       "kind": "person",
@@ -5824,12 +5876,6 @@
      },
      {
       "name": "Open-weight models",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 2
-     },
-     {
-      "name": "Reinforcement learning with verifiable rewards",
       "kind": "concept",
       "central": 2,
       "mentions": 2
@@ -6163,25 +6209,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 10,
+    "extractionEpisodes": 64,
     "related": [
+     {
+      "name": "Consciousness",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 20
+     },
      {
       "name": "Assembly theory",
       "kind": "concept",
-      "central": 2,
-      "mentions": 2
+      "central": 5,
+      "mentions": 5
      },
      {
-      "name": "Lee Cronin",
-      "kind": "person",
-      "central": 1,
-      "mentions": 2
-     },
-     {
-      "name": "Michael Levin",
-      "kind": "person",
-      "central": 1,
-      "mentions": 2
+      "name": "Simulation hypothesis",
+      "kind": "concept",
+      "central": 4,
+      "mentions": 8
      }
     ]
    },
@@ -6303,25 +6349,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 41,
+    "extractionEpisodes": 83,
     "related": [
      {
       "name": "Vladimir Putin",
       "kind": "person",
-      "central": 8,
-      "mentions": 16
+      "central": 17,
+      "mentions": 35
      },
      {
-      "name": "Israel",
-      "kind": "government",
-      "central": 7,
-      "mentions": 7
-     },
-     {
-      "name": "Benjamin Netanyahu",
+      "name": "Donald Trump",
       "kind": "person",
-      "central": 6,
-      "mentions": 12
+      "central": 15,
+      "mentions": 29
+     },
+     {
+      "name": "NATO",
+      "kind": "organization",
+      "central": 8,
+      "mentions": 10
      }
     ]
    },
@@ -6466,7 +6512,7 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 2,
+    "extractionEpisodes": 4,
     "related": [
      {
       "name": "AGI timelines",
@@ -6481,7 +6527,7 @@
       "mentions": 2
      },
      {
-      "name": "AI alignment",
+      "name": "Adversarial examples",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -6606,8 +6652,14 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 11,
+    "extractionEpisodes": 16,
     "related": [
+     {
+      "name": "Donald Trump",
+      "kind": "person",
+      "central": 3,
+      "mentions": 3
+     },
      {
       "name": "AI and jobs",
       "kind": "concept",
@@ -6618,13 +6670,7 @@
       "name": "Scaling laws",
       "kind": "concept",
       "central": 2,
-      "mentions": 3
-     },
-     {
-      "name": "Agentic engineering",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 2
+      "mentions": 4
      }
     ]
    },
@@ -7072,25 +7118,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 36,
+    "extractionEpisodes": 96,
     "related": [
+     {
+      "name": "Donald Trump",
+      "kind": "person",
+      "central": 19,
+      "mentions": 33
+     },
      {
       "name": "Joe Biden",
       "kind": "person",
-      "central": 4,
-      "mentions": 11
+      "central": 6,
+      "mentions": 21
      },
      {
-      "name": "Vladimir Putin",
-      "kind": "person",
-      "central": 3,
-      "mentions": 7
-     },
-     {
-      "name": "Russia-Ukraine war",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 5
+      "name": "Twitter",
+      "kind": "product",
+      "central": 6,
+      "mentions": 17
      }
     ]
    },
@@ -7235,7 +7281,7 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 13,
+    "extractionEpisodes": 16,
     "related": [
      {
       "name": "GPT-4",
@@ -7676,24 +7722,24 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 5,
+    "extractionEpisodes": 9,
     "related": [
+     {
+      "name": "Elon Musk",
+      "kind": "person",
+      "central": 3,
+      "mentions": 6
+     },
+     {
+      "name": "Metaverse",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 4
+     },
      {
       "name": "Open-source AI",
       "kind": "concept",
       "central": 3,
-      "mentions": 3
-     },
-     {
-      "name": "Llama",
-      "kind": "model",
-      "central": 2,
-      "mentions": 2
-     },
-     {
-      "name": "Elon Musk",
-      "kind": "person",
-      "central": 1,
       "mentions": 3
      }
     ]
@@ -7885,8 +7931,14 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 7,
+    "extractionEpisodes": 12,
     "related": [
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 5
+     },
      {
       "name": "AGI timelines",
       "kind": "concept",
@@ -7894,16 +7946,10 @@
       "mentions": 3
      },
      {
-      "name": "AI safety",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 4
-     },
-     {
-      "name": "AI and jobs",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 4
+      "name": "Yann LeCun",
+      "kind": "person",
+      "central": 3,
+      "mentions": 3
      }
     ]
    },
@@ -8746,25 +8792,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 2,
+    "extractionEpisodes": 6,
     "related": [
      {
-      "name": "AI intimacy and manipulation",
+      "name": "Origin of life",
       "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "central": 2,
+      "mentions": 2
      },
      {
-      "name": "AI safety",
-      "kind": "concept",
+      "name": "Nick Lane",
+      "kind": "person",
       "central": 1,
-      "mentions": 1
+      "mentions": 3
      },
      {
-      "name": "Assembly theory",
+      "name": "Simulation hypothesis",
       "kind": "concept",
       "central": 1,
-      "mentions": 1
+      "mentions": 3
      }
     ]
    },
@@ -8886,25 +8932,25 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 10,
+    "extractionEpisodes": 33,
     "related": [
      {
-      "name": "OpenAI",
-      "kind": "company",
-      "central": 2,
-      "mentions": 3
+      "name": "Tesla Autopilot",
+      "kind": "product",
+      "central": 5,
+      "mentions": 6
+     },
+     {
+      "name": "Donald Trump",
+      "kind": "person",
+      "central": 4,
+      "mentions": 9
      },
      {
       "name": "Tesla",
       "kind": "company",
-      "central": 2,
-      "mentions": 3
-     },
-     {
-      "name": "DOGE",
-      "kind": "government",
-      "central": 2,
-      "mentions": 2
+      "central": 4,
+      "mentions": 9
      }
     ]
    },
@@ -8932,13 +8978,13 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 10,
+    "extractionEpisodes": 11,
     "related": [
      {
       "name": "Anthropic",
       "kind": "company",
       "central": 3,
-      "mentions": 6
+      "mentions": 7
      },
      {
       "name": "OpenAI",
@@ -8980,7 +9026,7 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 2,
+    "extractionEpisodes": 4,
     "related": [
      {
       "name": "Jeff Bezos",
@@ -8989,14 +9035,14 @@
       "mentions": 2
      },
      {
-      "name": "37signals",
-      "kind": "company",
+      "name": "Privacy",
+      "kind": "concept",
       "central": 1,
-      "mentions": 1
+      "mentions": 2
      },
      {
-      "name": "AI pair programming",
-      "kind": "concept",
+      "name": "37signals",
+      "kind": "company",
       "central": 1,
       "mentions": 1
      }
@@ -9074,7 +9120,7 @@
   },
   "apple": {
    "lex-fridman": {
-    "extractionEpisodes": 2,
+    "extractionEpisodes": 3,
     "related": [
      {
       "name": "Amazon Web Services",

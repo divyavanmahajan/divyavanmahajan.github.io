@@ -4767,62 +4767,79 @@
   "hugging-face",
   "openai"
  ],
- "lex-fridman/2018-08-26-max-tegmark-life-3-0": [],
+ "lex-fridman/2018-08-26-max-tegmark-life-3-0": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
  "lex-fridman/2018-09-02-christof-koch-consciousness": [
-  "ai-consciousness",
+  "ai-safety",
   "science"
  ],
  "lex-fridman/2018-10-17-steven-pinker-ai-in-the-age-of-reason": [
+  "ai-safety",
+  "jobs-and-work",
   "science"
  ],
  "lex-fridman/2018-10-20-yoshua-bengio-deep-learning": [
+  "ai-safety",
+  "generative-media",
   "machine-learning"
  ],
  "lex-fridman/2018-11-16-vladimir-vapnik-statistical-learning": [
-  "jobs-and-work",
   "machine-learning"
  ],
  "lex-fridman/2018-11-22-guido-van-rossum-python": [],
- "lex-fridman/2018-11-29-jeff-atwood-stack-overflow-and-coding-horror": [
-  "ai-coding"
- ],
+ "lex-fridman/2018-11-29-jeff-atwood-stack-overflow-and-coding-horror": [],
  "lex-fridman/2018-12-04-eric-schmidt-google": [
+  "ai-for-science",
   "jobs-and-work",
   "google"
  ],
- "lex-fridman/2018-12-09-stuart-russell-long-term-future-of-ai": [],
- "lex-fridman/2018-12-16-pieter-abbeel-deep-reinforcement-learning": [
-  "training-and-rl",
-  "physical-ai"
+ "lex-fridman/2018-12-09-stuart-russell-long-term-future-of-ai": [
+  "ai-safety",
+  "policy-and-regulation"
  ],
- "lex-fridman/2018-12-23-juergen-schmidhuber-godel-machines-meta-learning-and-lstms": [],
+ "lex-fridman/2018-12-16-pieter-abbeel-deep-reinforcement-learning": [
+  "ai-safety",
+  "machine-learning"
+ ],
+ "lex-fridman/2018-12-23-juergen-schmidhuber-godel-machines-meta-learning-and-lstms": [
+  "ai-safety",
+  "generative-media"
+ ],
  "lex-fridman/2018-12-28-tuomas-sandholm-poker-and-game-theory": [],
  "lex-fridman/2019-01-19-tomaso-poggio-brains-minds-and-machines": [
+  "ai-safety",
   "science",
   "machine-learning"
  ],
  "lex-fridman/2019-02-07-kyle-vogt-cruise-automation": [],
  "lex-fridman/2019-03-12-leslie-kaelbling-reinforcement-learning-planning-and-robotics": [
-  "physical-ai"
+  "models-and-benchmarks"
  ],
  "lex-fridman/2019-03-20-eric-weinstein-revolutionary-ideas-in-science-math-and-society": [
-  "economics-and-crypto",
+  "jobs-and-work",
+  "policy-and-regulation",
   "physics-and-space"
  ],
  "lex-fridman/2019-04-03-greg-brockman-openai-and-agi": [
-  "machine-learning",
+  "ai-safety",
+  "models-and-benchmarks",
+  "policy-and-regulation",
   "openai"
  ],
  "lex-fridman/2019-04-12-elon-musk-tesla-autopilot": [
-  "physical-ai",
+  "ai-safety",
+  "infrastructure-and-chips",
   "xai"
  ],
  "lex-fridman/2019-04-18-ian-goodfellow-generative-adversarial-networks-gans": [
+  "interpretability",
   "machine-learning"
  ],
  "lex-fridman/2019-04-29-oriol-vinyals-deepmind-alphastar-starcraft-language-and-sequences": [
-  "machine-learning",
-  "google"
+  "ai-safety",
+  "machine-learning"
  ],
  "lex-fridman/2019-05-13-chris-lattner-compilers-llvm-swift-tpu-and-ml-accelerators": [
   "infrastructure-and-chips",
@@ -4830,26 +4847,29 @@
   "google"
  ],
  "lex-fridman/2019-06-03-rajat-monga-tensorflow": [
-  "machine-learning",
-  "google"
- ],
- "lex-fridman/2019-06-17-rosalind-picard-affective-computing-emotion-privacy-and-health": [],
- "lex-fridman/2019-07-01-jeff-hawkins-thousand-brains-theory-of-intelligence": [
-  "science",
+  "enterprise-adoption",
+  "infrastructure-and-chips",
   "machine-learning"
  ],
- "lex-fridman/2019-07-10-sean-carroll-the-nature-of-the-universe-life-and-intelligence": [
+ "lex-fridman/2019-06-17-rosalind-picard-affective-computing-emotion-privacy-and-health": [
   "ai-consciousness",
+  "physical-ai"
+ ],
+ "lex-fridman/2019-07-01-jeff-hawkins-thousand-brains-theory-of-intelligence": [
+  "models-and-benchmarks",
+  "ai-safety",
+  "science"
+ ],
+ "lex-fridman/2019-07-10-sean-carroll-the-nature-of-the-universe-life-and-intelligence": [
+  "science",
   "physics-and-space"
  ],
  "lex-fridman/2019-07-15-kai-fu-lee-ai-superpowers-china-and-silicon-valley": [
-  "us-china",
-  "jobs-and-work"
+  "jobs-and-work",
+  "us-china"
  ],
  "lex-fridman/2019-07-22-chris-urmson-self-driving-cars-at-aurora-google-cmu-and-darpa": [
-  "physical-ai",
-  "computer-vision",
-  "google"
+  "computer-vision"
  ],
  "lex-fridman/2019-07-29-gustav-soderstrom-spotify": [
   "machine-learning"
@@ -4864,28 +4884,29 @@
  "lex-fridman/2019-08-12-paola-arlotta-brain-development-from-stem-cell-to-organoid": [
   "science"
  ],
- "lex-fridman/2019-08-19-keoki-jackson-lockheed-martin": [],
+ "lex-fridman/2019-08-19-keoki-jackson-lockheed-martin": [
+  "physics-and-space"
+ ],
  "lex-fridman/2019-08-23-pamela-mccorduck-machines-who-think-and-the-early-days-of-ai": [
-  "ai-for-science",
+  "ai-safety",
   "history-and-geopolitics"
  ],
  "lex-fridman/2019-08-27-jeremy-howard-fast-ai-deep-learning-courses-and-research": [
+  "ai-safety",
   "infrastructure-and-chips",
   "machine-learning"
  ],
  "lex-fridman/2019-08-31-yann-lecun-deep-learning-convolutional-neural-networks-and-self-superv": [
-  "training-and-rl",
+  "physical-ai",
+  "generative-media",
   "machine-learning"
  ],
- "lex-fridman/2019-09-08-vijay-kumar-flying-robots": [
-  "physical-ai"
- ],
+ "lex-fridman/2019-09-08-vijay-kumar-flying-robots": [],
  "lex-fridman/2019-09-14-francois-chollet-fran-ois-chollet-keras-deep-learning-and-the-progress": [
+  "ai-safety",
   "machine-learning"
  ],
- "lex-fridman/2019-09-19-colin-angle-irobot": [
-  "physical-ai"
- ],
+ "lex-fridman/2019-09-19-colin-angle-irobot": [],
  "lex-fridman/2019-09-23-regina-barzilay-deep-learning-for-cancer-diagnosis-and-treatment": [
   "machine-learning",
   "nlp-and-speech"
@@ -4894,19 +4915,29 @@
   "physics-and-space",
   "machine-learning"
  ],
- "lex-fridman/2019-09-30-peter-norvig-artificial-intelligence-a-modern-approach": [],
- "lex-fridman/2019-10-11-david-ferrucci-ibm-watson-jeopardy-deep-conversations-with-ai": [],
+ "lex-fridman/2019-09-30-peter-norvig-artificial-intelligence-a-modern-approach": [
+  "jobs-and-work"
+ ],
+ "lex-fridman/2019-10-11-david-ferrucci-ibm-watson-jeopardy-deep-conversations-with-ai": [
+  "ai-safety",
+  "physical-ai"
+ ],
  "lex-fridman/2019-10-22-michio-kaku-future-of-humans-aliens-space-travel-physics": [
   "physics-and-space"
  ],
  "lex-fridman/2019-10-27-garry-kasparov-chess-deep-blue-ai-and-putin": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2019-11-01-sean-carroll-quantum-mechanics-and-the-many-worlds-interpretation": [
   "physics-and-space"
  ],
- "lex-fridman/2019-11-07-bjarne-stroustrup-c": [],
+ "lex-fridman/2019-11-07-bjarne-stroustrup-c": [
+  "economics-and-crypto"
+ ],
  "lex-fridman/2019-11-12-elon-musk-neuralink-ai-autopilot-and-the-pale-blue-dot": [
+  "policy-and-regulation",
+  "ai-safety",
   "xai"
  ],
  "lex-fridman/2019-11-19-michael-kearns-algorithmic-fairness-bias-privacy-and-ethics-in-machine": [
@@ -4922,12 +4953,14 @@
   "machine-learning",
   "science"
  ],
- "lex-fridman/2019-12-02-ray-dalio-principles-the-economic-machine-artificial-intelligence-the": [],
+ "lex-fridman/2019-12-02-ray-dalio-principles-the-economic-machine-artificial-intelligence-the": [
+  "jobs-and-work"
+ ],
  "lex-fridman/2019-12-05-whitney-cummings-comedy-robotics-neurology-and-love": [
-  "physical-ai",
   "science"
  ],
  "lex-fridman/2019-12-11-judea-pearl-causal-reasoning-counterfactuals-bayesian-networks-and-the": [
+  "ai-safety",
   "machine-learning"
  ],
  "lex-fridman/2019-12-14-rohit-prasad-amazon-alexa-and-conversational-ai": [
@@ -4937,15 +4970,15 @@
  ],
  "lex-fridman/2019-12-17-michael-stevens-vsauce": [],
  "lex-fridman/2019-12-21-sebastian-thrun-flying-cars-autonomous-vehicles-and-education": [
-  "physical-ai",
   "jobs-and-work",
+  "ai-for-science",
   "machine-learning"
  ],
  "lex-fridman/2019-12-25-jim-gates-supersymmetry-string-theory-and-proving-einstein-right": [
-  "ai-for-science",
   "physics-and-space"
  ],
  "lex-fridman/2019-12-28-melanie-mitchell-concepts-analogies-common-sense-future-of-ai": [
+  "ai-safety",
   "machine-learning"
  ],
  "lex-fridman/2019-12-30-donald-knuth-algorithms-tex-life-and-the-art-of-computer-programming": [],
@@ -4953,22 +4986,22 @@
   "history-and-geopolitics",
   "society-and-culture"
  ],
- "lex-fridman/2020-01-07-grant-sanderson-3blue1brown-and-the-beauty-of-mathematics": [
-  "ai-for-science"
- ],
+ "lex-fridman/2020-01-07-grant-sanderson-3blue1brown-and-the-beauty-of-mathematics": [],
  "lex-fridman/2020-01-14-daniel-kahneman-thinking-fast-and-slow-deep-learning-and-ai": [
   "machine-learning",
   "science"
  ],
  "lex-fridman/2020-01-17-ayanna-howard-human-robot-interaction-and-ethics-of-safety-critical-sy": [
-  "physical-ai"
+  "jobs-and-work"
  ],
  "lex-fridman/2020-01-21-paul-krugman-economics-of-innovation-automation-safety-nets-universal": [
   "jobs-and-work",
+  "policy-and-regulation",
   "economics-and-crypto"
  ],
  "lex-fridman/2020-01-25-cristos-goodrow-youtube-algorithm": [
-  "machine-learning"
+  "machine-learning",
+  "society-and-culture"
  ],
  "lex-fridman/2020-01-29-david-chalmers-the-hard-problem-of-consciousness": [
   "ai-consciousness",
@@ -4976,7 +5009,8 @@
   "society-and-culture"
  ],
  "lex-fridman/2020-02-05-jim-keller-moore-s-law-microprocessors-abstractions-and-first-principl": [
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "xai"
  ],
  "lex-fridman/2020-02-14-vladimir-vapnik-predicates-invariants-and-the-essence-of-intelligence": [
   "machine-learning"
@@ -4987,12 +5021,17 @@
  ],
  "lex-fridman/2020-02-20-andrew-ng-deep-learning-education-and-real-world-ai": [
   "jobs-and-work",
-  "machine-learning"
+  "enterprise-adoption",
+  "models-and-benchmarks"
  ],
  "lex-fridman/2020-02-24-michael-i-jordan-machine-learning-recommender-systems-and-the-future-o": [
-  "machine-learning"
+  "jobs-and-work",
+  "machine-learning",
+  "amazon"
  ],
- "lex-fridman/2020-02-26-marcus-hutter-universal-artificial-intelligence-aixi-and-agi": [],
+ "lex-fridman/2020-02-26-marcus-hutter-universal-artificial-intelligence-aixi-and-agi": [
+  "training-and-rl"
+ ],
  "lex-fridman/2020-02-29-john-hopfield-physics-view-of-the-mind-and-neurobiology": [
   "physics-and-space",
   "science",
@@ -5001,28 +5040,32 @@
  "lex-fridman/2020-03-03-alex-garland-ex-machina-devs-annihilation-and-the-poetry-of-science": [
   "physics-and-space"
  ],
- "lex-fridman/2020-03-05-ann-druyan-cosmos-carl-sagan-voyager-and-the-beauty-of-science": [],
+ "lex-fridman/2020-03-05-ann-druyan-cosmos-carl-sagan-voyager-and-the-beauty-of-science": [
+  "physical-ai",
+  "nvidia"
+ ],
  "lex-fridman/2020-03-07-lee-smolin-quantum-gravity-and-einstein-s-unfinished-revolution": [
   "physics-and-space"
  ],
  "lex-fridman/2020-03-16-vitalik-buterin-ethereum-cryptocurrency-and-the-future-of-money": [
+  "ai-safety",
   "economics-and-crypto"
  ],
  "lex-fridman/2020-03-19-anca-dragan-human-robot-interaction-and-reward-engineering": [
   "physical-ai"
  ],
- "lex-fridman/2020-03-21-simon-sinek-leadership-hard-work-optimism-and-the-infinite-game": [],
+ "lex-fridman/2020-03-21-simon-sinek-leadership-hard-work-optimism-and-the-infinite-game": [
+  "microsoft"
+ ],
  "lex-fridman/2020-03-26-nick-bostrom-simulation-and-superintelligence": [
   "ai-safety",
   "society-and-culture"
  ],
  "lex-fridman/2020-03-31-roger-penrose-physics-of-consciousness-and-the-infinite-universe": [
-  "ai-consciousness",
   "physics-and-space"
  ],
  "lex-fridman/2020-04-03-david-silver-alphago-alphazero-and-deep-reinforcement-learning": [
-  "training-and-rl",
-  "google"
+  "training-and-rl"
  ],
  "lex-fridman/2020-04-09-richard-dawkins-evolution-intelligence-simulation-and-memes": [
   "science",
@@ -5030,7 +5073,8 @@
   "physics-and-space"
  ],
  "lex-fridman/2020-04-13-eric-weinstein-geometric-unity-and-the-call-for-new-ideas-leaders-inst": [
-  "physics-and-space"
+  "physics-and-space",
+  "xai"
  ],
  "lex-fridman/2020-04-18-stephen-wolfram-cellular-automata-computation-and-physics": [
   "physics-and-space"
@@ -5040,25 +5084,34 @@
   "science"
  ],
  "lex-fridman/2020-04-24-jack-dorsey-square-cryptocurrency-and-artificial-intelligence": [
+  "jobs-and-work",
   "economics-and-crypto"
  ],
  "lex-fridman/2020-04-29-harry-cliff-particle-physics-and-the-large-hadron-collider": [
+  "training-and-rl",
   "physics-and-space"
  ],
  "lex-fridman/2020-05-05-daphne-koller-biomedicine-and-machine-learning": [
+  "ai-safety",
   "machine-learning"
  ],
  "lex-fridman/2020-05-08-ilya-sutskever-deep-learning": [
+  "ai-safety",
   "machine-learning",
   "openai"
  ],
  "lex-fridman/2020-05-12-dawn-song-adversarial-machine-learning-and-computer-security": [
+  "ai-for-science",
+  "us-china",
   "machine-learning"
  ],
  "lex-fridman/2020-05-15-stephen-schwarzman-going-big-in-business-investing-and-ai": [
+  "us-china",
+  "open-weight-models",
   "society-and-culture"
  ],
  "lex-fridman/2020-05-20-sertac-karaman-robots-that-fly-and-robots-that-drive": [
+  "infrastructure-and-chips",
   "physical-ai"
  ],
  "lex-fridman/2020-05-28-karl-friston-neuroscience-and-the-free-energy-principle": [
@@ -5066,37 +5119,41 @@
   "machine-learning"
  ],
  "lex-fridman/2020-06-13-joscha-bach-artificial-consciousness-and-the-nature-of-reality": [
-  "ai-consciousness",
-  "science"
+  "science",
+  "xai"
  ],
  "lex-fridman/2020-06-20-steven-pressfield-the-war-of-art": [],
  "lex-fridman/2020-06-22-ben-goertzel-artificial-general-intelligence": [
+  "ai-safety",
   "machine-learning"
  ],
  "lex-fridman/2020-06-27-david-patterson-computer-architecture-and-data-storage": [
   "infrastructure-and-chips",
+  "models-and-benchmarks",
   "machine-learning"
  ],
  "lex-fridman/2020-06-30-robert-langer-edison-of-medicine": [],
  "lex-fridman/2020-07-03-matt-botvinick-neuroscience-psychology-and-ai-at-deepmind": [
-  "training-and-rl",
-  "science",
-  "google"
+  "ai-safety",
+  "science"
  ],
  "lex-fridman/2020-07-08-peter-singer-suffering-in-humans-animals-and-ai": [
-  "ai-consciousness",
   "society-and-culture"
  ],
  "lex-fridman/2020-07-14-sergey-levine-robotics-and-machine-learning": [
-  "physical-ai",
+  "training-and-rl",
+  "ai-safety",
   "machine-learning"
  ],
  "lex-fridman/2020-07-18-brian-kernighan-unix-c-awk-ampl-and-go-programming": [],
  "lex-fridman/2020-07-21-jitendra-malik-computer-vision": [
-  "computer-vision",
+  "ai-safety",
+  "models-and-benchmarks",
   "machine-learning"
  ],
- "lex-fridman/2020-07-26-richard-karp-algorithms-and-computational-complexity": [],
+ "lex-fridman/2020-07-26-richard-karp-algorithms-and-computational-complexity": [
+  "interpretability"
+ ],
  "lex-fridman/2020-07-29-ian-hutchinson-nuclear-fusion-plasma-physics-and-religion": [
   "physics-and-space",
   "society-and-culture"
@@ -5106,11 +5163,11 @@
   "science"
  ],
  "lex-fridman/2020-08-09-russ-tedrake-underactuated-robotics-control-dynamics-and-touch": [
-  "physical-ai",
   "physics-and-space"
  ],
  "lex-fridman/2020-08-14-dileep-george-brain-inspired-ai": [
-  "physical-ai",
+  "generative-media",
+  "models-and-benchmarks",
   "science"
  ],
  "lex-fridman/2020-08-16-sara-seager-search-for-planets-and-life-outside-our-solar-system": [
@@ -5121,18 +5178,25 @@
   "science"
  ],
  "lex-fridman/2020-08-23-grant-sanderson-math-manim-neural-networks-teaching-with-3blue1brown": [
-  "machine-learning"
+  "machine-learning",
+  "xai"
  ],
  "lex-fridman/2020-08-26-david-eagleman-neuroplasticity-and-the-livewired-brain": [
   "science"
  ],
  "lex-fridman/2020-08-31-francois-chollet-2-fran-ois-chollet-measures-of-intelligence": [
-  "models-and-benchmarks",
   "machine-learning"
  ],
- "lex-fridman/2020-09-05-eugenia-kuyda-friendship-with-an-ai-companion": [],
- "lex-fridman/2020-09-07-lex-solo-grandmother-lex-solo-3-in-memory-of-my-grandmother": [],
- "lex-fridman/2020-09-08-david-fravor-ufos-aliens-fighter-jets-and-aerospace-engineering": [],
+ "lex-fridman/2020-09-05-eugenia-kuyda-friendship-with-an-ai-companion": [
+  "models-and-benchmarks"
+ ],
+ "lex-fridman/2020-09-07-lex-solo-grandmother-lex-solo-3-in-memory-of-my-grandmother": [
+  "history-and-geopolitics"
+ ],
+ "lex-fridman/2020-09-08-david-fravor-ufos-aliens-fighter-jets-and-aerospace-engineering": [
+  "physics-and-space",
+  "xai"
+ ],
  "lex-fridman/2020-09-12-manolis-kellis-origin-of-life-humans-ideas-suffering-and-happiness": [
   "science"
  ],
@@ -5140,6 +5204,7 @@
   "physics-and-space"
  ],
  "lex-fridman/2020-09-20-ryan-hall-martial-arts-and-the-philosophy-of-violence-power-and-grace": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
  "lex-fridman/2020-09-24-james-gosling-java-jvm-emacs-and-the-early-days-of-computing": [],
@@ -5147,37 +5212,40 @@
   "society-and-culture"
  ],
  "lex-fridman/2020-10-02-michael-malice-anarchy-democracy-libertarianism-love-and-trolling": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
  "lex-fridman/2020-10-04-lisa-feldman-barrett-counterintuitive-ideas-about-how-the-brain-works": [
   "science"
  ],
  "lex-fridman/2020-10-12-scott-aaronson-computational-complexity-and-consciousness": [
-  "ai-consciousness",
   "physics-and-space"
  ],
  "lex-fridman/2020-10-19-chris-lattner-the-future-of-computing-and-programming-languages": [
-  "infrastructure-and-chips",
+  "models-and-benchmarks",
   "machine-learning"
  ],
  "lex-fridman/2020-10-22-george-hotz-hacking-the-simulation-learning-to-drive-with-neural-nets": [
   "physical-ai",
+  "infrastructure-and-chips",
   "machine-learning"
  ],
  "lex-fridman/2020-10-25-manolis-kellis-biology-of-disease": [
-  "ai-for-science",
   "science"
  ],
- "lex-fridman/2020-10-30-eric-weinstein-on-the-nature-of-good-and-evil-genius-and-madness": [],
+ "lex-fridman/2020-10-30-eric-weinstein-on-the-nature-of-good-and-evil-genius-and-madness": [
+  "policy-and-regulation"
+ ],
  "lex-fridman/2020-11-03-dan-carlin-hardcore-history": [
-  "history-and-geopolitics"
+  "history-and-geopolitics",
+  "xai"
  ],
  "lex-fridman/2020-11-08-alex-filippenko-supernovae-dark-energy-aliens-the-expanding-universe": [
   "physics-and-space"
  ],
  "lex-fridman/2020-11-13-yaron-brook-ayn-rand-and-the-philosophy-of-objectivism": [
-  "society-and-culture",
-  "economics-and-crypto"
+  "economics-and-crypto",
+  "society-and-culture"
  ],
  "lex-fridman/2020-11-16-andrew-huberman-neuroscience-of-optimal-performance": [
   "science"
@@ -5193,10 +5261,12 @@
   "society-and-culture"
  ],
  "lex-fridman/2020-12-13-michael-littman-reinforcement-learning-and-the-future-of-ai": [
-  "training-and-rl",
-  "ai-safety"
+  "models-and-benchmarks",
+  "training-and-rl"
  ],
- "lex-fridman/2020-12-14-matthew-johnson-psychedelics": [],
+ "lex-fridman/2020-12-14-matthew-johnson-psychedelics": [
+  "economics-and-crypto"
+ ],
  "lex-fridman/2020-12-19-michael-mina-rapid-testing-viruses-and-the-engineering-mindset": [
   "policy-and-regulation"
  ],
@@ -5206,7 +5276,6 @@
   "machine-learning"
  ],
  "lex-fridman/2020-12-26-charles-isbell-and-michael-littman-machine-learning-and-education": [
-  "jobs-and-work",
   "machine-learning"
  ],
  "lex-fridman/2020-12-28-diana-walsh-pasulka-aliens-technology-religion-and-the-nature-of-belie": [
@@ -5214,6 +5283,7 @@
   "physics-and-space"
  ],
  "lex-fridman/2020-12-31-michael-malice-the-white-pill-freedom-hope-and-happiness-amidst-chaos": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
@@ -5232,15 +5302,20 @@
  ],
  "lex-fridman/2021-01-18-max-tegmark-ai-and-physics": [
   "ai-safety",
-  "physics-and-space"
+  "ai-for-science",
+  "physics-and-space",
+  "xai"
  ],
  "lex-fridman/2021-01-27-ama1-lex-fridman-ask-me-anything-ama-january-2021": [
   "physics-and-space"
  ],
- "lex-fridman/2021-01-29-tim-dillon-comedy-power-conspiracy-theories-and-freedom": [],
+ "lex-fridman/2021-01-29-tim-dillon-comedy-power-conspiracy-theories-and-freedom": [
+  "policy-and-regulation",
+  "jobs-and-work"
+ ],
  "lex-fridman/2021-02-01-natalya-bailey-rocket-engines-and-electric-spacecraft-propulsion": [
-  "infrastructure-and-chips",
-  "physics-and-space"
+  "physics-and-space",
+  "xai"
  ],
  "lex-fridman/2021-02-05-zev-weinstein-the-next-generation-of-big-ideas-and-brave-minds": [
   "society-and-culture"
@@ -5249,15 +5324,20 @@
   "machine-learning",
   "economics-and-crypto"
  ],
- "lex-fridman/2021-02-12-brendan-eich-javascript-firefox-mozilla-and-brave": [],
+ "lex-fridman/2021-02-12-brendan-eich-javascript-firefox-mozilla-and-brave": [
+  "microsoft"
+ ],
  "lex-fridman/2021-02-15-jason-calacanis-startups-angel-investing-capitalism-and-friendship": [
-  "economics-and-crypto"
+  "economics-and-crypto",
+  "xai"
  ],
  "lex-fridman/2021-02-18-jim-keller-the-future-of-computing-ai-life-and-consciousness": [
-  "ai-consciousness",
-  "infrastructure-and-chips"
+  "infrastructure-and-chips",
+  "models-and-benchmarks"
  ],
  "lex-fridman/2021-02-23-eric-weinstein-difficult-conversations-freedom-of-speech-and-physics": [
+  "policy-and-regulation",
+  "economics-and-crypto",
   "physics-and-space"
  ],
  "lex-fridman/2021-02-28-andrew-huberman-sleep-dreams-creativity-the-limits-of-the-human-mind": [
@@ -5270,6 +5350,7 @@
   "society-and-culture"
  ],
  "lex-fridman/2021-03-14-saagar-enjeti-politics-history-and-power": [
+  "policy-and-regulation",
   "society-and-culture",
   "history-and-geopolitics"
  ],
@@ -5277,20 +5358,20 @@
   "economics-and-crypto"
  ],
  "lex-fridman/2021-03-20-ryan-hall-solving-martial-arts-from-first-principles": [],
- "lex-fridman/2021-03-22-ronald-sullivan-the-ideal-of-justice-in-the-face-of-controversy-and-ev": [
-  "jobs-and-work"
- ],
+ "lex-fridman/2021-03-22-ronald-sullivan-the-ideal-of-justice-in-the-face-of-controversy-and-ev": [],
  "lex-fridman/2021-03-25-anthony-pompliano-bitcoin": [
+  "ai-safety",
   "economics-and-crypto"
  ],
  "lex-fridman/2021-03-30-ryan-schiller-librex-and-the-free-exchange-of-ideas-on-college-campuse": [
-  "jobs-and-work"
+  "society-and-culture"
  ],
  "lex-fridman/2021-04-01-nic-carter-bitcoin-core-values-layered-scaling-and-blocksize-debates": [
   "economics-and-crypto",
   "society-and-culture"
  ],
  "lex-fridman/2021-04-10-tyler-cowen-economic-growth-and-the-fight-against-conformity-and-medio": [
+  "jobs-and-work",
   "economics-and-crypto"
  ],
  "lex-fridman/2021-04-12-yannis-pappas-history-and-comedy": [
@@ -5301,45 +5382,47 @@
   "society-and-culture"
  ],
  "lex-fridman/2021-04-19-risto-miikkulainen-neuroevolution-and-evolutionary-computation": [
+  "training-and-rl",
   "machine-learning",
   "science"
  ],
  "lex-fridman/2021-04-26-georges-st-pierre-the-science-of-fighting": [],
  "lex-fridman/2021-04-30-jeremi-suri-history-of-american-power": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2021-05-01-sergey-nazarov-chainlink-smart-contracts-and-oracle-networks": [
-  "ai-for-science",
-  "economics-and-crypto",
-  "oracle"
+  "economics-and-crypto"
  ],
  "lex-fridman/2021-05-09-john-danaher-the-path-to-mastery-in-jiu-jitsu-grappling-judo-and-mma": [],
- "lex-fridman/2021-05-14-po-shen-loh-mathematics-math-olympiad-combinatorics-contact-tracing": [
-  "ai-for-science"
- ],
+ "lex-fridman/2021-05-14-po-shen-loh-mathematics-math-olympiad-combinatorics-contact-tracing": [],
  "lex-fridman/2021-05-17-katherine-de-kleer-planets-moons-and-asteroids-in-our-solar-system": [
   "physics-and-space"
  ],
  "lex-fridman/2021-05-20-sam-harris-consciousness-free-will-psychedelics-ai-ufos-and-meaning": [
-  "ai-consciousness",
+  "ai-safety",
+  "policy-and-regulation",
   "society-and-culture"
  ],
- "lex-fridman/2021-05-24-bryan-johnson-kernel-brain-computer-interfaces": [],
+ "lex-fridman/2021-05-24-bryan-johnson-kernel-brain-computer-interfaces": [
+  "ai-safety",
+  "science"
+ ],
  "lex-fridman/2021-05-29-frank-wilczek-physics-of-quarks-dark-matter-complexity-life-aliens": [
   "physics-and-space"
  ],
  "lex-fridman/2021-06-03-vitalik-buterin-ethereum-2-0": [
+  "ai-safety",
   "economics-and-crypto"
  ],
  "lex-fridman/2021-06-07-david-sinclair-extending-the-human-lifespan-beyond-100-years": [
   "ai-for-science",
   "science"
  ],
- "lex-fridman/2021-06-13-jordan-ellenberg-mathematics-of-high-dimensional-shapes-and-geometries": [
-  "ai-for-science"
- ],
+ "lex-fridman/2021-06-13-jordan-ellenberg-mathematics-of-high-dimensional-shapes-and-geometries": [],
  "lex-fridman/2021-06-14-daniel-schmachtenberger-steering-civilization-away-from-self-destructi": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
  "lex-fridman/2021-06-16-charles-hoskinson-cardano": [
@@ -5357,12 +5440,15 @@
   "physics-and-space"
  ],
  "lex-fridman/2021-07-01-yeonmi-park-north-korea": [
-  "us-china"
+  "history-and-geopolitics"
  ],
- "lex-fridman/2021-07-05-jocko-willink-war-leadership-and-discipline": [],
+ "lex-fridman/2021-07-05-jocko-willink-war-leadership-and-discipline": [
+  "history-and-geopolitics",
+  "xai"
+ ],
  "lex-fridman/2021-07-09-sara-walker-the-origin-of-life-on-earth-and-alien-worlds": [
-  "physics-and-space",
   "science",
+  "physics-and-space",
   "history-and-geopolitics"
  ],
  "lex-fridman/2021-07-11-roger-reaves-smuggling-drugs-for-pablo-escobar-and-the-medellin-cartel": [],
@@ -5391,48 +5477,56 @@
   "society-and-culture"
  ],
  "lex-fridman/2021-08-21-joscha-bach-nature-of-reality-dreams-and-consciousness": [
-  "ai-consciousness",
+  "ai-coding",
   "science"
  ],
  "lex-fridman/2021-08-23-barry-barish-gravitational-waves-and-the-most-precise-device-ever-buil": [
   "physics-and-space"
  ],
  "lex-fridman/2021-08-27-jed-buchwald-isaac-newton-and-the-philosophy-of-science": [
-  "ai-for-science",
   "society-and-culture",
-  "history-and-geopolitics"
+  "history-and-geopolitics",
+  "physics-and-space"
  ],
  "lex-fridman/2021-08-29-wojciech-zaremba-openai-codex-gpt-3-robotics-and-the-future-of-ai": [
-  "physical-ai",
-  "openai"
+  "ai-coding",
+  "ai-safety",
+  "openai",
+  "microsoft"
  ],
  "lex-fridman/2021-09-01-vincent-racaniello-viruses-and-vaccines": [
   "science"
  ],
  "lex-fridman/2021-09-03-rodney-brooks-robotics": [
+  "ai-for-science",
   "physical-ai",
-  "machine-learning"
+  "machine-learning",
+  "google"
  ],
  "lex-fridman/2021-09-06-jaron-lanier-virtual-reality-social-media-the-future-of-humans-and-ai": [
-  "society-and-culture"
+  "jobs-and-work",
+  "economics-and-crypto",
+  "society-and-culture",
+  "microsoft"
  ],
- "lex-fridman/2021-09-09-donald-knuth-programming-algorithms-hard-problems-the-game-of-life": [],
+ "lex-fridman/2021-09-09-donald-knuth-programming-algorithms-hard-problems-the-game-of-life": [
+  "ai-coding"
+ ],
  "lex-fridman/2021-09-11-niels-jorgensen-new-york-firefighters-and-the-heroes-of-9-11": [],
  "lex-fridman/2021-09-15-douglas-lenat-cyc-and-the-quest-to-solve-common-sense-reasoning-in-ai": [],
  "lex-fridman/2021-09-20-jay-mcclelland-neural-networks-and-the-emergence-of-cognition": [
-  "ai-for-science",
   "machine-learning",
   "science"
  ],
  "lex-fridman/2021-09-21-travis-stevens-judo-olympics-and-mental-toughness": [],
- "lex-fridman/2021-09-23-travis-oliphant-numpy-scipy-anaconda-python-scientific-programming": [],
+ "lex-fridman/2021-09-23-travis-oliphant-numpy-scipy-anaconda-python-scientific-programming": [
+  "machine-learning"
+ ],
  "lex-fridman/2021-09-26-jeffrey-shainline-neuromorphic-computing-and-optoelectronic-intelligen": [
   "physics-and-space",
   "science"
  ],
- "lex-fridman/2021-09-27-jo-boaler-how-to-learn-math": [
-  "jobs-and-work"
- ],
+ "lex-fridman/2021-09-27-jo-boaler-how-to-learn-math": [],
  "lex-fridman/2021-09-30-sean-kelly-existentialism-nihilism-and-the-search-for-meaning": [
   "society-and-culture"
  ],
@@ -5442,9 +5536,12 @@
  "lex-fridman/2021-10-10-richard-wrangham-role-of-violence-sex-and-fire-in-human-evolution": [
   "science"
  ],
- "lex-fridman/2021-10-14-kelsi-sheren-war-artillery-ptsd-and-love": [],
+ "lex-fridman/2021-10-14-kelsi-sheren-war-artillery-ptsd-and-love": [
+  "history-and-geopolitics"
+ ],
  "lex-fridman/2021-10-16-alex-gladstein-bitcoin-authoritarianism-and-human-rights": [
   "economics-and-crypto",
+  "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2021-10-20-brian-greene-quantum-gravity-big-bang-aliens-life-death-and-meaning": [
@@ -5454,30 +5551,35 @@
   "science"
  ],
  "lex-fridman/2021-10-27-stephen-wolfram-complexity-and-the-fabric-of-reality": [
-  "ai-for-science",
   "physics-and-space",
   "economics-and-crypto"
  ],
  "lex-fridman/2021-10-29-michael-mina-rapid-covid-testing": [],
  "lex-fridman/2021-10-31-jimmy-pedro-judo-and-the-forging-of-champions": [],
  "lex-fridman/2021-11-03-steve-viscelli-trucking-and-the-decline-of-the-american-dream": [
-  "jobs-and-work"
+  "jobs-and-work",
+  "physical-ai"
  ],
  "lex-fridman/2021-11-05-francis-collins-national-institutes-of-health-nih": [],
  "lex-fridman/2021-11-08-niall-ferguson-history-of-money-power-war-and-truth": [
-  "history-and-geopolitics",
-  "economics-and-crypto"
+  "economics-and-crypto",
+  "history-and-geopolitics"
  ],
  "lex-fridman/2021-11-11-neal-stephenson-sci-fi-space-aliens-ai-vr-the-future-of-humanity": [
   "physics-and-space",
   "history-and-geopolitics",
-  "society-and-culture"
+  "society-and-culture",
+  "xai"
  ],
  "lex-fridman/2021-11-16-boris-sofman-waymo-cozmo-self-driving-cars-and-the-future-of-robotics": [
   "physical-ai"
  ],
- "lex-fridman/2021-11-20-ben-askren-wrestling-and-mma": [],
+ "lex-fridman/2021-11-20-ben-askren-wrestling-and-mma": [
+  "training-and-rl",
+  "economics-and-crypto"
+ ],
  "lex-fridman/2021-11-23-kevin-systrom-instagram": [
+  "training-and-rl",
   "machine-learning"
  ],
  "lex-fridman/2021-11-28-robert-crews-afghanistan-taliban-bin-laden-and-war-in-the-middle-east": [
@@ -5485,7 +5587,6 @@
  ],
  "lex-fridman/2021-11-30-tom-brands-iowa-wrestling": [],
  "lex-fridman/2021-12-03-peter-woit-theories-of-everything-and-why-string-theory-is-not-even-wr": [
-  "ai-for-science",
   "physics-and-space"
  ],
  "lex-fridman/2021-12-08-jamie-metzl-lab-leak-theory": [
@@ -5499,31 +5600,38 @@
   "machine-learning"
  ],
  "lex-fridman/2021-12-25-ray-dalio-money-power-and-the-collapse-of-empires": [
-  "us-china",
   "history-and-geopolitics"
  ],
  "lex-fridman/2021-12-28-elon-musk-spacex-mars-tesla-autopilot-self-driving-robotics-and-ai": [
+  "jobs-and-work",
   "physical-ai",
   "physics-and-space",
   "xai"
  ],
- "lex-fridman/2021-12-31-michael-malice-new-year-s-special": [],
+ "lex-fridman/2021-12-31-michael-malice-new-year-s-special": [
+  "policy-and-regulation"
+ ],
  "lex-fridman/2022-01-04-jay-bhattacharya-the-case-against-lockdowns": [],
- "lex-fridman/2022-01-08-mark-normand-comedy": [],
+ "lex-fridman/2022-01-08-mark-normand-comedy": [
+  "jobs-and-work"
+ ],
  "lex-fridman/2022-01-15-nationalism-debate-yaron-brook-and-yoram-hazony": [],
  "lex-fridman/2022-01-18-brian-keating-cosmology-astrophysics-aliens-losing-the-nobel-prize": [
   "physics-and-space",
   "economics-and-crypto"
  ],
  "lex-fridman/2022-01-22-yann-lecun-dark-matter-of-intelligence-and-self-supervised-learning": [
-  "physical-ai",
   "generative-media",
-  "machine-learning"
+  "physical-ai",
+  "machine-learning",
+  "meta"
  ],
  "lex-fridman/2022-01-26-thomas-tull-from-batman-dark-knight-trilogy-to-ai-and-the-rolling-ston": [],
- "lex-fridman/2022-01-30-georges-st-pierre-john-danaher-gordon-ryan-the-greatest-of-all-time": [],
+ "lex-fridman/2022-01-30-georges-st-pierre-john-danaher-gordon-ryan-the-greatest-of-all-time": [
+  "physics-and-space",
+  "xai"
+ ],
  "lex-fridman/2022-02-03-philip-goff-consciousness-panpsychism-and-the-philosophy-of-mind": [
-  "ai-consciousness",
   "society-and-culture"
  ],
  "lex-fridman/2022-02-06-garry-nolan-ufos-and-aliens": [
@@ -5531,12 +5639,12 @@
  ],
  "lex-fridman/2022-02-11-john-abramson-big-pharma": [],
  "lex-fridman/2022-02-13-tim-urban-elon-musk-neuralink-ai-aliens-and-the-future-of-humanity": [
+  "science",
   "physics-and-space",
   "xai"
  ],
  "lex-fridman/2022-02-16-devon-larratt-arm-wrestling": [],
  "lex-fridman/2022-02-20-nicole-perlroth-cybersecurity-and-the-weapons-of-cyberwar": [
-  "ai-safety",
   "history-and-geopolitics"
  ],
  "lex-fridman/2022-02-26-mark-zuckerberg-meta-facebook-instagram-and-the-metaverse": [
@@ -5547,18 +5655,21 @@
   "history-and-geopolitics"
  ],
  "lex-fridman/2022-03-11-lee-cronin-origin-of-life-aliens-complexity-and-consciousness": [
-  "ai-for-science",
-  "ai-consciousness",
-  "physical-ai"
+  "ai-safety",
+  "science",
+  "physics-and-space"
  ],
  "lex-fridman/2022-03-16-david-wolpe-judaism": [
   "society-and-culture"
  ],
  "lex-fridman/2022-03-23-ariel-ekblaw-space-colonization-and-self-assembling-space-megastructur": [
-  "physics-and-space"
+  "physics-and-space",
+  "xai"
  ],
  "lex-fridman/2022-03-27-brett-johnson-us-most-wanted-cybercriminal": [],
- "lex-fridman/2022-04-03-chris-blattman-war-and-violence": [],
+ "lex-fridman/2022-04-03-chris-blattman-war-and-violence": [
+  "history-and-geopolitics"
+ ],
  "lex-fridman/2022-04-07-karl-deisseroth-depression-schizophrenia-and-psychiatry": [
   "science"
  ],
@@ -5571,17 +5682,22 @@
  ],
  "lex-fridman/2022-04-20-skye-fitzgerald-hunger-war-and-human-suffering": [],
  "lex-fridman/2022-04-24-alien-debate-sara-walker-and-lee-cronin": [
+  "science",
   "physics-and-space"
  ],
  "lex-fridman/2022-04-27-cristiano-amon-qualcomm-ceo": [
   "physical-ai"
  ],
- "lex-fridman/2022-04-29-grimes-music-ai-and-the-future-of-humanity": [],
+ "lex-fridman/2022-04-29-grimes-music-ai-and-the-future-of-humanity": [
+  "society-and-culture"
+ ],
  "lex-fridman/2022-05-04-david-buss-sex-dating-relationships-and-sex-differences": [
   "science"
  ],
  "lex-fridman/2022-05-08-chris-mason-space-travel-colonization-and-long-term-survival-in-space": [
-  "physics-and-space"
+  "ai-safety",
+  "physics-and-space",
+  "xai"
  ],
  "lex-fridman/2022-05-11-saifedean-ammous-bitcoin-anarchy-and-austrian-economics": [
   "economics-and-crypto",
@@ -5605,36 +5721,40 @@
  ],
  "lex-fridman/2022-06-04-jonathan-haidt-the-case-against-social-media": [
   "society-and-culture",
-  "science"
+  "science",
+  "meta",
+  "xai"
  ],
  "lex-fridman/2022-06-09-robin-hanson-alien-civilizations-ufos-and-the-future-of-humanity": [
+  "ai-safety",
   "physics-and-space",
-  "economics-and-crypto",
-  "history-and-geopolitics"
+  "economics-and-crypto"
  ],
  "lex-fridman/2022-06-12-donald-hoffman-reality-is-an-illusion-how-evolution-hid-the-truth": [
-  "ai-consciousness",
   "science",
   "physics-and-space"
  ],
  "lex-fridman/2022-06-15-tony-fadell-iphone-ipod-and-nest": [
-  "jobs-and-work"
+  "apple"
  ],
  "lex-fridman/2022-06-17-richard-wolff-marxism-and-communism": [
-  "jobs-and-work",
-  "history-and-geopolitics",
-  "economics-and-crypto"
+  "policy-and-regulation",
+  "economics-and-crypto",
+  "history-and-geopolitics"
  ],
  "lex-fridman/2022-06-21-douglas-murray-racism-marxism-and-the-war-on-the-west": [
+  "policy-and-regulation",
   "society-and-culture",
   "history-and-geopolitics"
  ],
  "lex-fridman/2022-06-25-jonathan-reisman-the-human-body-from-sex-sperm-to-hands-heart": [],
  "lex-fridman/2022-07-01-demis-hassabis-deepmind": [
   "ai-for-science",
+  "models-and-benchmarks",
   "google"
  ],
  "lex-fridman/2022-07-04-joe-rogan-comedy-controversy-aliens-ufos-putin-cia-and-freedom": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2022-07-09-jack-barsky-kgb-spy": [
@@ -5650,30 +5770,38 @@
   "society-and-culture"
  ],
  "lex-fridman/2022-07-23-martin-rees-black-holes-alien-life-dark-matter-and-the-big-bang": [
-  "physics-and-space"
+  "jobs-and-work",
+  "physics-and-space",
+  "xai"
  ],
  "lex-fridman/2022-07-26-oriol-vinyals-deep-learning-and-artificial-general-intelligence": [
-  "machine-learning",
-  "google"
+  "models-and-benchmarks",
+  "ai-for-science",
+  "machine-learning"
  ],
  "lex-fridman/2022-07-29-brian-armstrong-coinbase-cryptocurrency-and-government-regulation": [
-  "policy-and-regulation",
   "economics-and-crypto"
  ],
  "lex-fridman/2022-08-01-ryan-graves-ufos-fighter-jets-and-aliens": [
+  "policy-and-regulation",
   "physics-and-space"
  ],
  "lex-fridman/2022-08-04-john-carmack-doom-quake-vr-agi-programming-video-games-and-rockets": [
-  "physics-and-space"
+  "physical-ai",
+  "physics-and-space",
+  "xai",
+  "meta"
  ],
  "lex-fridman/2022-08-08-andrew-bustamante-cia-spy": [
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2022-08-13-magatte-wade-africa-capitalism-communism-and-the-future-of-humanity": [
   "society-and-culture"
  ],
  "lex-fridman/2022-08-16-duncan-trussell-comedy-sentient-robots-suffering-love-burning-man": [
-  "ai-consciousness"
+  "ai-safety",
+  "us-china"
  ],
  "lex-fridman/2022-08-19-jordan-peterson-life-death-power-fame-and-meaning": [
   "science"
@@ -5684,7 +5812,7 @@
  ],
  "lex-fridman/2022-08-27-magnus-carlsen-greatest-chess-player-of-all-time": [],
  "lex-fridman/2022-08-31-noam-chomsky-putin-ukraine-china-and-nuclear-war": [
-  "us-china",
+  "policy-and-regulation",
   "history-and-geopolitics"
  ],
  "lex-fridman/2022-09-04-john-vervaeke-meaning-crisis-atheism-religion-the-search-for-wisdom": [
@@ -5698,10 +5826,13 @@
  ],
  "lex-fridman/2022-09-09-botez-sisters-chess-streaming-and-fame": [],
  "lex-fridman/2022-09-14-christopher-capozzola-world-war-i-ideology-propaganda-and-politics": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2022-09-17-ray-kurzweil-singularity-superintelligence-and-immortality": [
+  "ai-for-science",
+  "ai-safety",
   "science"
  ],
  "lex-fridman/2022-09-21-rana-el-kaliouby-emotion-ai-social-robots-and-self-driving-cars": [
@@ -5714,23 +5845,28 @@
   "science"
  ],
  "lex-fridman/2022-10-05-annaka-harris-free-will-consciousness-and-the-nature-of-reality": [
-  "ai-consciousness",
   "science"
  ],
  "lex-fridman/2022-10-07-gothamchess-hans-niemann-magnus-carlsen-cheating-scandal-chess-bots": [],
  "lex-fridman/2022-10-10-john-danaher-submission-grappling-adcc-animal-combat-and-knives": [],
  "lex-fridman/2022-10-15-kate-darling-social-robots-ethics-privacy-and-the-future-of-mit": [
-  "physical-ai"
+  "physical-ai",
+  "jobs-and-work"
  ],
  "lex-fridman/2022-10-17-hikaru-nakamura-chess-magnus-kasparov-and-the-psychology-of-greatness": [
   "science"
  ],
  "lex-fridman/2022-10-20-balaji-srinivasan-how-to-fix-government-twitter-science-and-the-fda": [
-  "economics-and-crypto"
+  "policy-and-regulation",
+  "economics-and-crypto",
+  "science"
  ],
- "lex-fridman/2022-10-24-ye-aka-kanye-west-kanye-ye-west-interview": [],
+ "lex-fridman/2022-10-24-ye-aka-kanye-west-kanye-ye-west-interview": [
+  "society-and-culture"
+ ],
  "lex-fridman/2022-10-29-andrej-karpathy-tesla-ai-self-driving-optimus-aliens-and-agi": [
-  "physical-ai",
+  "ai-coding",
+  "ai-consciousness",
   "machine-learning"
  ],
  "lex-fridman/2022-11-02-abbas-amanat-iran-protests-mahsa-amini-history-cia-nuclear-weapons": [
@@ -5742,21 +5878,29 @@
   "society-and-culture"
  ],
  "lex-fridman/2022-11-07-ben-shapiro-politics-kanye-trump-biden-hitler-extremism-and-war": [
+  "policy-and-regulation",
+  "history-and-geopolitics",
   "society-and-culture",
-  "history-and-geopolitics"
+  "xai"
  ],
  "lex-fridman/2022-11-11-destiny-politics-free-speech-controversy-sex-war-and-relationships": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
- "lex-fridman/2022-11-15-chamath-palihapitiya-money-success-startups-energy-poker-happiness": [],
+ "lex-fridman/2022-11-15-chamath-palihapitiya-money-success-startups-energy-poker-happiness": [
+  "policy-and-regulation"
+ ],
  "lex-fridman/2022-11-18-climate-change-debate-bj-rn-lomborg-and-andrew-revkin": [],
- "lex-fridman/2022-11-22-chris-tarbell-fbi-agent-who-took-down-silk-road": [],
- "lex-fridman/2022-11-26-guido-van-rossum-python-and-the-future-of-programming": [],
+ "lex-fridman/2022-11-22-chris-tarbell-fbi-agent-who-took-down-silk-road": [
+  "policy-and-regulation"
+ ],
+ "lex-fridman/2022-11-26-guido-van-rossum-python-and-the-future-of-programming": [
+  "ai-coding",
+  "microsoft"
+ ],
  "lex-fridman/2022-11-29-todd-howard-skyrim-elder-scrolls-6-fallout-and-starfield": [],
  "lex-fridman/2022-12-03-roger-gracie-greatest-jiu-jitsu-competitor-of-all-time": [],
- "lex-fridman/2022-12-06-noam-brown-ai-vs-humans-in-poker-and-games-of-strategic-negotiation": [
-  "meta"
- ],
+ "lex-fridman/2022-12-06-noam-brown-ai-vs-humans-in-poker-and-games-of-strategic-negotiation": [],
  "lex-fridman/2022-12-09-coffeezilla-sbf-ftx-fraud-scams-fake-gurus-money-fame-and-power": [
   "economics-and-crypto"
  ],
@@ -5769,7 +5913,8 @@
   "physics-and-space"
  ],
  "lex-fridman/2022-12-22-bhaskar-sunkara-the-case-for-socialism": [
-  "jobs-and-work",
+  "policy-and-regulation",
+  "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2022-12-29-betul-kacar-bet-l-ka-ar-origin-of-life-ancient-dna-panspermia-and-alie": [
@@ -5781,6 +5926,7 @@
   "society-and-culture"
  ],
  "lex-fridman/2023-01-17-omar-suleiman-islam": [
+  "policy-and-regulation",
   "society-and-culture",
   "history-and-geopolitics"
  ],
@@ -5788,10 +5934,12 @@
   "physics-and-space"
  ],
  "lex-fridman/2023-01-25-jeremi-suri-american-civil-war": [
+  "policy-and-regulation",
   "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2023-01-28-david-kipping-alien-civilizations-and-habitable-worlds": [
+  "consumer-ai",
   "physics-and-space"
  ],
  "lex-fridman/2023-02-02-tim-dodd-spacex-starship-rocket-engines-and-future-of-space-travel": [
@@ -5799,15 +5947,18 @@
   "xai"
  ],
  "lex-fridman/2023-02-07-paul-conti-narcissism-sociopathy-envy-and-the-nature-of-good-and-evil": [
+  "history-and-geopolitics",
   "society-and-culture"
  ],
  "lex-fridman/2023-02-10-aella-sex-work-onlyfans-porn-escorting-dating-and-human-sexuality": [
-  "jobs-and-work"
+  "consumer-ai"
  ],
  "lex-fridman/2023-02-15-andrew-strominger-black-holes-quantum-gravity-and-theoretical-physics": [
+  "consumer-ai",
   "physics-and-space"
  ],
  "lex-fridman/2023-02-20-tim-urban-tribalism-marxism-liberalism-social-justice-and-politics": [
+  "policy-and-regulation",
   "society-and-culture"
  ],
  "lex-fridman/2023-02-25-aaron-smith-levin-scientology": [
