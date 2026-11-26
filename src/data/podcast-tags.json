@@ -95,7 +95,7 @@
  "practical-ai/2018-12-03-pachyderm-s-kubernetes-based-infrastructure-for-ai": [
   "policy-and-regulation",
   "mlops-and-data",
-  "machine-learning"
+  "software-engineering"
  ],
  "practical-ai/2018-12-10-so-you-have-an-ai-model-now-what": [
   "infrastructure-and-chips",
@@ -206,7 +206,8 @@
   "machine-learning"
  ],
  "practical-ai/2019-07-19-ai-code-that-facilitates-good-science": [
-  "machine-learning"
+  "machine-learning",
+  "software-engineering"
  ],
  "practical-ai/2019-07-30-ai-driven-studies-of-the-ancient-world-and-good-gans": [
   "machine-learning",
@@ -276,7 +277,9 @@
   "jobs-and-work",
   "machine-learning"
  ],
- "practical-ai/2019-12-23-ai-for-search-at-etsy": [],
+ "practical-ai/2019-12-23-ai-for-search-at-etsy": [
+  "software-engineering"
+ ],
  "practical-ai/2020-01-06-2019-s-ai-top-5": [
   "open-weight-models",
   "machine-learning",
@@ -380,7 +383,8 @@
  ],
  "practical-ai/2020-07-20-mlops-and-tracking-experiments-with-allegro-ai": [
   "mlops-and-data",
-  "machine-learning"
+  "machine-learning",
+  "software-engineering"
  ],
  "practical-ai/2020-07-27-all-things-transformers-with-hugging-face": [
   "open-weight-models",
@@ -421,10 +425,11 @@
  "practical-ai/2020-10-06-r-data-science-computational-biology": [
   "ai-for-science",
   "machine-learning",
-  "science"
+  "software-engineering"
  ],
  "practical-ai/2020-10-13-productionizing-ai-at-linkedin": [
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "practical-ai/2020-10-20-when-data-leakage-turns-into-a-flood-of-trouble": [
   "machine-learning"
@@ -499,7 +504,8 @@
   "nlp-and-speech"
  ],
  "practical-ai/2021-04-13-going-full-bore-with-graphcore": [
-  "machine-learning"
+  "machine-learning",
+  "software-engineering"
  ],
  "practical-ai/2021-04-20-data-science-for-intuitive-user-experiences": [
   "mlops-and-data",
@@ -514,10 +520,12 @@
  ],
  "practical-ai/2021-05-18-apache-tvm-and-octoml": [
   "infrastructure-and-chips",
-  "machine-learning"
+  "machine-learning",
+  "software-engineering"
  ],
  "practical-ai/2021-05-26-elixir-meets-machine-learning": [
-  "machine-learning"
+  "machine-learning",
+  "software-engineering"
  ],
  "practical-ai/2021-06-01-the-fastest-way-to-build-ml-powered-apps": [
   "open-weight-models",
@@ -649,7 +657,8 @@
  ],
  "practical-ai/2022-03-01-deploying-models-to-tractors": [
   "infrastructure-and-chips",
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "practical-ai/2022-03-08-creating-a-culture-of-innovation": [
   "enterprise-adoption"
@@ -673,7 +682,8 @@
  "practical-ai/2022-04-19-ai-in-africa-agriculture": [],
  "practical-ai/2022-04-26-mlops-is-not-real": [
   "open-weight-models",
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "practical-ai/2022-05-03-learning-the-language-of-life": [
   "ai-for-science",
@@ -721,7 +731,8 @@
  ],
  "practical-ai/2022-08-16-cmu-s-ai-pilot-lands-in-the-news": [
   "ai-safety",
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "practical-ai/2022-08-24-practical-positive-uses-for-deep-fakes": [
   "machine-learning"
@@ -804,7 +815,8 @@
  ],
  "practical-ai/2023-02-07-mlops-is-alive-and-well": [
   "consumer-ai",
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "practical-ai/2023-02-14-serverless-gpus": [
   "open-weight-models"
@@ -819,7 +831,8 @@
  ],
  "practical-ai/2023-03-07-end-to-end-cloud-compute-for-ai-ml": [
   "enterprise-adoption",
-  "open-weight-models"
+  "open-weight-models",
+  "software-engineering"
  ],
  "practical-ai/2023-03-15-ai-search-at-you-com": [
   "consumer-ai",
@@ -851,6 +864,7 @@
  "practical-ai/2023-05-11-the-last-mile-of-ai-app-development": [
   "agents",
   "consumer-ai",
+  "software-engineering",
   "openai"
  ],
  "practical-ai/2023-05-16-creating-instruction-tuned-models": [
@@ -916,7 +930,8 @@
  ],
  "practical-ai/2023-08-29-automating-code-optimization-with-llms": [
   "ai-coding",
-  "consumer-ai"
+  "consumer-ai",
+  "software-engineering"
  ],
  "practical-ai/2023-09-06-fine-tuning-vs-rag": [
   "training-and-rl",
@@ -940,6 +955,7 @@
   "consumer-ai"
  ],
  "practical-ai/2023-10-24-deep-learning-in-rust-with-burn": [
+  "software-engineering",
   "machine-learning"
  ],
  "practical-ai/2023-10-31-self-hosting-scaling-models": [
@@ -1018,7 +1034,8 @@
  ],
  "practical-ai/2024-03-26-ai-vs-software-devs": [
   "ai-coding",
-  "jobs-and-work"
+  "jobs-and-work",
+  "software-engineering"
  ],
  "practical-ai/2024-04-02-should-kids-still-learn-to-code": [
   "enterprise-adoption",
@@ -1042,7 +1059,8 @@
  ],
  "practical-ai/2024-05-08-autonomous-fighter-jets": [
   "jobs-and-work",
-  "open-weight-models"
+  "open-weight-models",
+  "software-engineering"
  ],
  "practical-ai/2024-05-15-full-stack-approach-for-effective-ai-agents": [
   "agents",
@@ -1110,7 +1128,8 @@
   "ai-coding"
  ],
  "practical-ai/2024-08-29-metrics-driven-development": [
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "practical-ai/2024-09-05-ai-is-more-than-genai": [
   "machine-learning",
@@ -1138,7 +1157,8 @@
   "mlops-and-data"
  ],
  "practical-ai/2024-10-15-practical-workflow-orchestration": [
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "practical-ai/2024-10-24-big-data-is-dead-analytics-is-alive": [
   "ai-coding",
@@ -1204,7 +1224,8 @@
  ],
  "practical-ai/2025-04-02-software-and-hardware-acceleration-with-groq": [
   "infrastructure-and-chips",
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "software-engineering"
  ],
  "practical-ai/2025-04-14-orchestrating-agents-apis-and-mcp-servers": [
   "ai-coding",
@@ -1212,7 +1233,8 @@
  ],
  "practical-ai/2025-04-17-open-source-ai-to-tackle-your-backlog": [
   "ai-coding",
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "software-engineering"
  ],
  "practical-ai/2025-04-30-seeing-beyond-the-scan-in-neuroimaging": [
   "computer-vision",
@@ -1259,7 +1281,9 @@
   "agents",
   "open-weight-models"
  ],
- "practical-ai/2025-07-25-reimagining-actuarial-science-with-ai": [],
+ "practical-ai/2025-07-25-reimagining-actuarial-science-with-ai": [
+  "software-engineering"
+ ],
  "practical-ai/2025-08-01-workforce-dynamics-in-an-ai-assisted-world": [
   "ai-coding",
   "jobs-and-work",
@@ -1284,6 +1308,7 @@
  "practical-ai/2025-09-11-cracking-the-code-of-failed-ai-pilots": [
   "jobs-and-work",
   "ai-coding",
+  "software-engineering",
   "openai"
  ],
  "practical-ai/2025-09-23-creating-a-private-ai-assistant-in-thunderbird": [],
@@ -1322,7 +1347,8 @@
  ],
  "practical-ai/2025-11-26-chris-on-ai-autonomous-swarming-home-automation-and-rust": [
   "open-weight-models",
-  "physical-ai"
+  "physical-ai",
+  "software-engineering"
  ],
  "practical-ai/2025-12-02-technical-advances-in-document-understanding": [
   "open-weight-models",
@@ -1371,6 +1397,7 @@
  "practical-ai/2026-03-17-humility-in-the-age-of-agentic-coding": [
   "ai-coding",
   "agents",
+  "software-engineering",
   "openai"
  ],
  "practical-ai/2026-03-25-ai-at-the-edge-is-a-different-operating-environment": [
@@ -1415,7 +1442,8 @@
  ],
  "practical-ai/2026-05-28-rebooting-enterprise-ai-with-mcp-and-kubernetes": [
   "context-engineering",
-  "agents"
+  "agents",
+  "software-engineering"
  ],
  "practical-ai/2026-06-04-breaking-down-the-2026-stanford-ai-index-report": [
   "jobs-and-work",
@@ -1653,6 +1681,7 @@
  ],
  "latent-space/2023-09-14-doing-it-the-hard-way-making-the-ai-engine-and-language-of-the-future": [
   "consumer-ai",
+  "software-engineering",
   "machine-learning"
  ],
  "latent-space/2023-09-20-heralds-of-the-ai-content-flippening-with-youssef-rizk-of-wondercraft": [
@@ -1716,7 +1745,8 @@
  ],
  "latent-space/2023-12-14-the-normsky-architecture-for-ai-coding-agents-with-beyang-liu-steve-ye": [
   "agents",
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "latent-space/2023-12-20-the-ai-first-graphics-editor-with-suhail-doshi-of-playground-ai": [
   "models-and-benchmarks",
@@ -1749,6 +1779,7 @@
  "latent-space/2024-02-01-why-stackoverflow-usage-is-down-50-with-david-hsu-of-retool": [
   "enterprise-adoption",
   "agents",
+  "software-engineering",
   "openai"
  ],
  "latent-space/2024-02-08-cloud-intelligence-at-the-speed-of-5000-tok-s-with-ce-zhang-and-vipul": [
@@ -1756,7 +1787,8 @@
   "ai-economics"
  ],
  "latent-space/2024-02-16-truly-serverless-infra-for-ai-engineers-with-erik-bernhardsson-of-moda": [
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "software-engineering"
  ],
  "latent-space/2024-02-28-a-brief-history-of-the-open-source-ai-hacker-with-ben-firshman-of-repl": [
   "open-weight-models",
@@ -1825,7 +1857,8 @@
   "models-and-benchmarks"
  ],
  "latent-space/2024-06-21-how-to-hire-ai-engineers-with-james-brady-adam-wiggins-of-elicit": [
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "software-engineering"
  ],
  "latent-space/2024-06-25-high-agency-ai-engineer-world-s-fair-preview": [
   "consumer-ai"
@@ -2005,11 +2038,13 @@
   "models-and-benchmarks"
  ],
  "latent-space/2025-02-06-agent-engineering-with-pydantic-graphs-with-samuel-colvin": [
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "software-engineering"
  ],
  "latent-space/2025-02-11-the-ai-architect-bret-taylor": [
   "ai-coding",
   "ai-for-science",
+  "software-engineering",
   "openai"
  ],
  "latent-space/2025-02-13-bee-ai-the-wearable-ambient-agent": [
@@ -2077,7 +2112,8 @@
   "nlp-and-speech"
  ],
  "latent-space/2025-06-03-aiewf-preview-containing-agent-chaos-solomon-hykes": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "latent-space/2025-06-06-the-utility-of-interpretability-emmanuel-amiesen": [
   "interpretability",
@@ -2137,6 +2173,7 @@
  "latent-space/2025-10-07-devday-2025-apps-sdk-agent-kit-mcp-codex-and-why-prompting-is-more-imp": [
   "agents",
   "ai-coding",
+  "software-engineering",
   "openai"
  ],
  "latent-space/2025-10-16-why-rl-won-kyle-corbitt-openpipe-acq-coreweave": [
@@ -2203,7 +2240,8 @@
  ],
  "latent-space/2025-12-27-one-year-of-mcp-with-david-soria-parra-and-aaif-leads-from-openai-goos": [
   "context-engineering",
-  "agents"
+  "agents",
+  "software-engineering"
  ],
  "latent-space/2025-12-30-state-of-ai-startups-memory-learning-rl-envs-dbt-fivetran-sarah-catanz": [
   "training-and-rl",
@@ -2563,6 +2601,7 @@
  "latent-space/2026-11-08-one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee": [
   "ai-coding",
   "context-engineering",
+  "software-engineering",
   "anthropic"
  ],
  "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord": [
@@ -2778,6 +2817,7 @@
  "cognitive-revolution/2023-07-25-gpumaxing-with-dr-ronen-dar-of-run-ai": [
   "infrastructure-and-chips",
   "models-and-benchmarks",
+  "software-engineering",
   "nvidia"
  ],
  "cognitive-revolution/2023-07-27-demystifying-llms-with-mechanistic-interpretability-researcher-arthur": [
@@ -2796,7 +2836,8 @@
  ],
  "cognitive-revolution/2023-08-08-replit-s-vp-of-ai-michele-catasta-on-artificial-developer-intelligence": [
   "ai-coding",
-  "ai-safety"
+  "ai-safety",
+  "software-engineering"
  ],
  "cognitive-revolution/2023-08-09-google-s-palm-2-with-paige-bailey": [
   "agents",
@@ -3854,6 +3895,7 @@
  ],
  "cognitive-revolution/2025-12-24-the-great-security-update-ai-formal-methods-with-kathleen-fisher-of-ra": [
   "ai-safety",
+  "software-engineering",
   "amazon"
  ],
  "cognitive-revolution/2025-12-27-controlling-tools-or-aligning-creatures-emmett-shear-softmax-s-b-krier": [
@@ -4262,6 +4304,7 @@
  "cognitive-revolution/2026-10-17-ai-am-where-s-the-steering-wheel-my-agent-set-the-password-hidden-vale": [
   "ai-consciousness",
   "ai-for-science",
+  "software-engineering",
   "anthropic"
  ],
  "cognitive-revolution/2026-10-20-a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement": [
@@ -4788,8 +4831,12 @@
  "lex-fridman/2018-11-16-vladimir-vapnik-statistical-learning": [
   "machine-learning"
  ],
- "lex-fridman/2018-11-22-guido-van-rossum-python": [],
- "lex-fridman/2018-11-29-jeff-atwood-stack-overflow-and-coding-horror": [],
+ "lex-fridman/2018-11-22-guido-van-rossum-python": [
+  "software-engineering"
+ ],
+ "lex-fridman/2018-11-29-jeff-atwood-stack-overflow-and-coding-horror": [
+  "software-engineering"
+ ],
  "lex-fridman/2018-12-04-eric-schmidt-google": [
   "ai-for-science",
   "jobs-and-work",
@@ -4843,6 +4890,7 @@
  ],
  "lex-fridman/2019-05-13-chris-lattner-compilers-llvm-swift-tpu-and-ml-accelerators": [
   "infrastructure-and-chips",
+  "software-engineering",
   "machine-learning",
   "google"
  ],
@@ -4933,7 +4981,7 @@
   "physics-and-space"
  ],
  "lex-fridman/2019-11-07-bjarne-stroustrup-c": [
-  "economics-and-crypto"
+  "software-engineering"
  ],
  "lex-fridman/2019-11-12-elon-musk-neuralink-ai-autopilot-and-the-pale-blue-dot": [
   "policy-and-regulation",
@@ -4981,7 +5029,9 @@
   "ai-safety",
   "machine-learning"
  ],
- "lex-fridman/2019-12-30-donald-knuth-algorithms-tex-life-and-the-art-of-computer-programming": [],
+ "lex-fridman/2019-12-30-donald-knuth-algorithms-tex-life-and-the-art-of-computer-programming": [
+  "software-engineering"
+ ],
  "lex-fridman/2020-01-03-stephen-kotkin-stalin-putin-and-the-nature-of-power": [
   "history-and-geopolitics",
   "society-and-culture"
@@ -5145,7 +5195,9 @@
   "ai-safety",
   "machine-learning"
  ],
- "lex-fridman/2020-07-18-brian-kernighan-unix-c-awk-ampl-and-go-programming": [],
+ "lex-fridman/2020-07-18-brian-kernighan-unix-c-awk-ampl-and-go-programming": [
+  "software-engineering"
+ ],
  "lex-fridman/2020-07-21-jitendra-malik-computer-vision": [
   "ai-safety",
   "models-and-benchmarks",
@@ -5207,7 +5259,9 @@
   "policy-and-regulation",
   "society-and-culture"
  ],
- "lex-fridman/2020-09-24-james-gosling-java-jvm-emacs-and-the-early-days-of-computing": [],
+ "lex-fridman/2020-09-24-james-gosling-java-jvm-emacs-and-the-early-days-of-computing": [
+  "software-engineering"
+ ],
  "lex-fridman/2020-09-26-joe-rogan-conversations-ideas-love-freedom-the-joe-rogan-experience": [
   "society-and-culture"
  ],
@@ -5223,6 +5277,7 @@
  ],
  "lex-fridman/2020-10-19-chris-lattner-the-future-of-computing-and-programming-languages": [
   "models-and-benchmarks",
+  "software-engineering",
   "machine-learning"
  ],
  "lex-fridman/2020-10-22-george-hotz-hacking-the-simulation-learning-to-drive-with-neural-nets": [
@@ -5325,6 +5380,7 @@
   "economics-and-crypto"
  ],
  "lex-fridman/2021-02-12-brendan-eich-javascript-firefox-mozilla-and-brave": [
+  "software-engineering",
   "microsoft"
  ],
  "lex-fridman/2021-02-15-jason-calacanis-startups-angel-investing-capitalism-and-friendship": [
@@ -5426,7 +5482,8 @@
   "society-and-culture"
  ],
  "lex-fridman/2021-06-16-charles-hoskinson-cardano": [
-  "economics-and-crypto"
+  "economics-and-crypto",
+  "software-engineering"
  ],
  "lex-fridman/2021-06-21-rob-reid-the-existential-threat-of-engineered-viruses-and-lab-leaks": [
   "ai-for-science",
@@ -5468,7 +5525,9 @@
  "lex-fridman/2021-08-08-jeff-hawkins-the-thousand-brains-theory-of-intelligence": [
   "science"
  ],
- "lex-fridman/2021-08-09-luis-and-joao-batalha-lu-s-and-jo-o-batalha-fermat-s-library-and-the-a": [],
+ "lex-fridman/2021-08-09-luis-and-joao-batalha-lu-s-and-jo-o-batalha-fermat-s-library-and-the-a": [
+  "software-engineering"
+ ],
  "lex-fridman/2021-08-11-matt-walker-sleep": [
   "science"
  ],
@@ -5510,7 +5569,8 @@
   "microsoft"
  ],
  "lex-fridman/2021-09-09-donald-knuth-programming-algorithms-hard-problems-the-game-of-life": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "lex-fridman/2021-09-11-niels-jorgensen-new-york-firefighters-and-the-heroes-of-9-11": [],
  "lex-fridman/2021-09-15-douglas-lenat-cyc-and-the-quest-to-solve-common-sense-reasoning-in-ai": [],
@@ -5520,7 +5580,8 @@
  ],
  "lex-fridman/2021-09-21-travis-stevens-judo-olympics-and-mental-toughness": [],
  "lex-fridman/2021-09-23-travis-oliphant-numpy-scipy-anaconda-python-scientific-programming": [
-  "machine-learning"
+  "machine-learning",
+  "software-engineering"
  ],
  "lex-fridman/2021-09-26-jeffrey-shainline-neuromorphic-computing-and-optoelectronic-intelligen": [
   "physics-and-space",
@@ -5596,6 +5657,7 @@
  ],
  "lex-fridman/2021-12-18-albert-bourla-pfizer-ceo": [],
  "lex-fridman/2021-12-23-peter-wang-python-and-the-source-code-of-humans-computers-and-reality": [
+  "software-engineering",
   "society-and-culture",
   "machine-learning"
  ],
@@ -5788,6 +5850,7 @@
  ],
  "lex-fridman/2022-08-04-john-carmack-doom-quake-vr-agi-programming-video-games-and-rockets": [
   "physical-ai",
+  "software-engineering",
   "physics-and-space",
   "xai",
   "meta"
@@ -5896,6 +5959,7 @@
  ],
  "lex-fridman/2022-11-26-guido-van-rossum-python-and-the-future-of-programming": [
   "ai-coding",
+  "software-engineering",
   "microsoft"
  ],
  "lex-fridman/2022-11-29-todd-howard-skyrim-elder-scrolls-6-fallout-and-starfield": [],
@@ -6047,6 +6111,7 @@
  ],
  "lex-fridman/2023-06-02-chris-lattner-future-of-programming-and-ai": [
   "ai-safety",
+  "software-engineering",
   "machine-learning"
  ],
  "lex-fridman/2023-06-05-bert-kreischer-comedy-drinking-rogan-segura-churchill-kim-jong-un": [
@@ -6374,7 +6439,7 @@
  "lex-fridman/2025-03-22-theprimeagen-programming-ai-adhd-productivity-addiction-and-god": [
   "ai-coding",
   "jobs-and-work",
-  "society-and-culture",
+  "software-engineering",
   "microsoft"
  ],
  "lex-fridman/2025-03-26-ezra-klein-and-derek-thompson-politics-trump-aoc-elon-doge": [
@@ -6426,6 +6491,7 @@
  "lex-fridman/2025-07-12-dhh-david-heinemeier-hansson-dhh-future-of-programming-ai-ruby-on-rail": [
   "ai-coding",
   "jobs-and-work",
+  "software-engineering",
   "amazon",
   "apple"
  ],
@@ -6503,7 +6569,9 @@
  "lex-fridman/2026-03-01-rick-beato-greatest-guitarists-of-all-time-history-future-of-music": [
   "generative-media"
  ],
- "lex-fridman/2026-03-11-jeff-kaplan-world-of-warcraft-overwatch-blizzard-and-future-of-gaming": [],
+ "lex-fridman/2026-03-11-jeff-kaplan-world-of-warcraft-overwatch-blizzard-and-future-of-gaming": [
+  "software-engineering"
+ ],
  "lex-fridman/2026-03-23-jensen-huang-nvidia-the-4-trillion-company-the-ai-revolution": [
   "infrastructure-and-chips",
   "agents",
@@ -6513,7 +6581,9 @@
  "lex-fridman/2026-04-09-lars-brownworth-vikings-ragnar-berserkers-valhalla-the-warriors-of-the": [
   "history-and-geopolitics"
  ],
- "lex-fridman/2026-05-06-ffmpeg-the-incredible-technology-behind-video-on-the-internet": [],
+ "lex-fridman/2026-05-06-ffmpeg-the-incredible-technology-behind-video-on-the-internet": [
+  "software-engineering"
+ ],
  "lex-fridman/2026-05-29-don-lincoln-biggest-mysteries-in-physics-antimatter-dark-energy-toe-do": [
   "physics-and-space"
  ],
@@ -6529,6 +6599,7 @@
  "lex-fridman/2026-08-26-dhh-future-of-programming-ai-agentic-engineering-vibe-coding-linux": [
   "ai-coding",
   "agents",
+  "software-engineering",
   "anthropic"
  ],
  "lex-fridman/2026-09-17-andrew-scull-psychiatry-insane-asylums-mental-illness-ect-lobotomies-f": [
@@ -6632,7 +6703,8 @@
  ],
  "no-priors/2023-06-15-what-happens-to-observability-if-code-is-ai-generated-the-potential-fo": [
   "open-weight-models",
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "no-priors/2023-06-22-what-s-for-dinner-ai-driven-commerce-with-instacart-ceo-fidji-simo": [
   "consumer-ai",
@@ -6898,7 +6970,8 @@
  ],
  "no-priors/2024-10-08-launching-ai-products-with-braintrust-s-ceo-ankur-goyal": [
   "models-and-benchmarks",
-  "agents"
+  "agents",
+  "software-engineering"
  ],
  "no-priors/2024-10-17-gaming-nobel-prizes-and-at-risk-businesses-in-the-ai-era": [
   "google"
@@ -6946,7 +7019,8 @@
  ],
  "no-priors/2025-01-09-erik-bernhardsson-on-creating-tools-that-make-ai-feel-effortless": [
   "ai-for-science",
-  "mlops-and-data"
+  "mlops-and-data",
+  "software-engineering"
  ],
  "no-priors/2025-01-16-how-ai-agents-are-transforming-customer-support-with-decagon-s-jesse-z": [
   "agents",
@@ -7612,74 +7686,112 @@
   "models-and-benchmarks",
   "ai-coding"
  ],
- "pragmatic-engineer/2024-09-17-the-pragmatic-engineer-podcast-trailer": [],
+ "pragmatic-engineer/2024-09-17-the-pragmatic-engineer-podcast-trailer": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2024-09-25-ai-tools-for-software-engineers-but-without-the-hype-with-simon-willis": [
   "training-and-rl",
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
- "pragmatic-engineer/2024-10-09-efficient-scaleups-in-2024-vs-2021-sourcegraph-with-ceo-co-founder-qui": [],
- "pragmatic-engineer/2024-10-23-twisting-the-rules-of-building-software-bending-spoons-the-team-behind": [],
+ "pragmatic-engineer/2024-10-09-efficient-scaleups-in-2024-vs-2021-sourcegraph-with-ceo-co-founder-qui": [
+  "software-engineering"
+ ],
+ "pragmatic-engineer/2024-10-23-twisting-the-rules-of-building-software-bending-spoons-the-team-behind": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2024-11-06-promotions-and-tooling-at-google-with-irina-stanescu-ex-google": [
+  "software-engineering",
   "google"
  ],
- "pragmatic-engineer/2024-11-20-linear-move-fast-with-little-process-with-first-engineering-manager-sa": [],
+ "pragmatic-engineer/2024-11-20-linear-move-fast-with-little-process-with-first-engineering-manager-sa": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2024-12-04-software-architecture-with-grady-booch": [
   "ai-for-science",
+  "software-engineering",
   "history-and-geopolitics"
  ],
  "pragmatic-engineer/2024-12-11-notion-going-native-on-ios-and-android": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2024-12-18-shipping-projects-at-big-tech-with-sean-goedecke": [
   "ai-coding",
   "consumer-ai"
  ],
- "pragmatic-engineer/2025-01-08-confessions-of-a-big-tech-recruiter": [],
+ "pragmatic-engineer/2025-01-08-confessions-of-a-big-tech-recruiter": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-01-15-the-coding-machine-at-meta-with-michael-novati": [
+  "software-engineering",
   "meta"
  ],
- "pragmatic-engineer/2025-01-22-observability-the-present-and-future-with-charity-majors": [],
+ "pragmatic-engineer/2025-01-22-observability-the-present-and-future-with-charity-majors": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-01-29-building-a-best-selling-game-with-a-tiny-team-with-jonas-tyroller": [
   "ai-coding",
-  "consumer-ai"
+  "consumer-ai",
+  "software-engineering"
  ],
  "pragmatic-engineer/2025-02-05-ai-engineering-with-chip-huyen": [
   "training-and-rl",
   "consumer-ai",
   "anthropic"
  ],
- "pragmatic-engineer/2025-02-12-live-streaming-at-world-record-scale-with-ashutosh-agrawal": [],
+ "pragmatic-engineer/2025-02-12-live-streaming-at-world-record-scale-with-ashutosh-agrawal": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-02-19-developer-productivity-with-dr-nicole-forsgren-creator-of-dora-co-crea": [
   "ai-coding",
+  "software-engineering",
   "microsoft"
  ],
  "pragmatic-engineer/2025-02-26-the-man-behind-the-big-tech-comics-with-manu-cornet": [
+  "software-engineering",
   "google"
  ],
- "pragmatic-engineer/2025-03-05-design-first-software-engineering-craft-with-balint-orosz": [],
- "pragmatic-engineer/2025-03-12-developer-experience-at-uber-with-gautam-korlam": [
-  "ai-coding"
+ "pragmatic-engineer/2025-03-05-design-first-software-engineering-craft-with-balint-orosz": [
+  "software-engineering"
  ],
- "pragmatic-engineer/2025-03-19-how-linux-is-built-with-greg-kroah-hartman": [],
- "pragmatic-engineer/2025-03-26-building-figma-slides-with-noah-finer-and-jonathan-kaufman": [],
+ "pragmatic-engineer/2025-03-12-developer-experience-at-uber-with-gautam-korlam": [
+  "ai-coding",
+  "software-engineering"
+ ],
+ "pragmatic-engineer/2025-03-19-how-linux-is-built-with-greg-kroah-hartman": [
+  "software-engineering"
+ ],
+ "pragmatic-engineer/2025-03-26-building-figma-slides-with-noah-finer-and-jonathan-kaufman": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-04-02-stacked-diffs-and-tooling-at-meta-with-tomas-reimers": [
   "ai-coding",
+  "software-engineering",
   "meta"
  ],
  "pragmatic-engineer/2025-04-09-the-philosophy-of-software-design-with-john-ousterhout": [
   "consumer-ai",
+  "software-engineering",
   "society-and-culture"
  ],
  "pragmatic-engineer/2025-04-16-working-at-amazon-as-a-software-engineer-with-dave-anderson": [
+  "software-engineering",
   "amazon"
  ],
- "pragmatic-engineer/2025-04-23-building-reddits-ios-and-android-app": [],
- "pragmatic-engineer/2025-04-30-how-to-work-better-with-product-as-an-engineer-with-ebi-atawodi": [],
+ "pragmatic-engineer/2025-04-23-building-reddits-ios-and-android-app": [
+  "software-engineering"
+ ],
+ "pragmatic-engineer/2025-04-30-how-to-work-better-with-product-as-an-engineer-with-ebi-atawodi": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-05-07-building-windsurf-with-varun-mohan": [
   "ai-coding",
   "jobs-and-work"
  ],
- "pragmatic-engineer/2025-05-14-how-kubernetes-is-built-with-kat-cosgrove": [],
+ "pragmatic-engineer/2025-05-14-how-kubernetes-is-built-with-kat-cosgrove": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-05-28-from-software-engineer-to-ai-engineer-with-janvi-kalra": [
   "ai-coding",
   "ai-safety",
@@ -7688,95 +7800,121 @@
  "pragmatic-engineer/2025-06-04-50-years-of-microsoft-and-developer-tools-with-scott-guthrie": [
   "jobs-and-work",
   "ai-coding",
+  "software-engineering",
   "microsoft"
  ],
- "pragmatic-engineer/2025-06-11-tdd-ai-agents-and-coding-with-kent-beck": [],
+ "pragmatic-engineer/2025-06-11-tdd-ai-agents-and-coding-with-kent-beck": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-06-18-the-present-past-and-future-of-github": [
   "ai-coding",
   "jobs-and-work",
+  "software-engineering",
   "microsoft"
  ],
  "pragmatic-engineer/2025-07-02-how-ai-is-changing-software-engineering-at-shopify-with-farhan-thawar": [
   "ai-coding",
   "context-engineering",
+  "software-engineering",
   "anthropic"
  ],
  "pragmatic-engineer/2025-07-09-what-is-a-principal-engineer-at-amazon-with-steve-huynh": [
+  "software-engineering",
   "amazon"
  ],
  "pragmatic-engineer/2025-07-16-amazon-google-and-vibe-coding-with-steve-yegge": [
   "ai-coding",
   "jobs-and-work",
+  "software-engineering",
   "amazon",
   "anthropic",
   "google"
  ],
  "pragmatic-engineer/2025-07-23-measuring-the-impact-of-ai-on-software-engineering-with-laura-tacho": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2025-08-06-the-state-of-vc-within-software-and-ai-startups-with-peter-walker": [
   "ai-coding",
   "jobs-and-work"
  ],
- "pragmatic-engineer/2025-09-10-code-complete-with-steve-mcconnell": [],
+ "pragmatic-engineer/2025-09-10-code-complete-with-steve-mcconnell": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-09-24-hypergrowth-startups-uber-and-cloudkitchens-with-charles-axel-dein": [
-  "jobs-and-work"
+  "jobs-and-work",
+  "software-engineering"
  ],
  "pragmatic-engineer/2025-10-08-python-go-rust-typescript-and-ai-with-armin-ronacher": [
   "ai-coding",
   "consumer-ai",
+  "software-engineering",
   "anthropic"
  ],
  "pragmatic-engineer/2025-10-15-googles-engineering-culture": [
+  "software-engineering",
   "google"
  ],
  "pragmatic-engineer/2025-10-29-beyond-vibe-coding-with-addy-osmani": [
   "ai-coding",
   "context-engineering",
+  "software-engineering",
   "google"
  ],
  "pragmatic-engineer/2025-11-05-from-swift-to-mojo-and-high-performance-ai-engineering-with-chris-latt": [
   "ai-coding",
   "infrastructure-and-chips",
+  "software-engineering",
   "google"
  ],
- "pragmatic-engineer/2025-11-12-netflixs-engineering-culture": [],
+ "pragmatic-engineer/2025-11-12-netflixs-engineering-culture": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2025-11-19-how-ai-will-change-software-engineering-with-martin-fowler": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2025-11-26-code-security-for-software-engineers": [
   "ai-coding",
   "context-engineering"
  ],
  "pragmatic-engineer/2025-12-03-being-a-founding-engineer-at-an-ai-startup": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2025-12-17-the-history-of-servers-the-cloud-and-whats-next-with-oxide": [
+  "software-engineering",
   "history-and-geopolitics",
   "amazon"
  ],
- "pragmatic-engineer/2026-01-21-how-aws-s3-is-built": [],
+ "pragmatic-engineer/2026-01-21-how-aws-s3-is-built": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2026-01-28-the-creator-of-clawd-i-ship-code-i-dont-read": [
   "ai-coding",
   "agents",
+  "software-engineering",
   "anthropic",
   "openai"
  ],
  "pragmatic-engineer/2026-02-04-the-third-golden-age-of-software-engineering-thanks-to-ai-with-grady-b": [
   "jobs-and-work",
   "agents",
-  "history-and-geopolitics",
+  "software-engineering",
   "anthropic"
  ],
  "pragmatic-engineer/2026-02-12-the-programming-language-after-kotlin-with-the-creator-of-kotlin": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-02-25-mitchell-hashimotos-new-way-of-writing-code": [
   "ai-coding",
-  "agents"
+  "agents",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-03-04-building-claude-code-with-boris-cherny": [
   "ai-coding",
+  "software-engineering",
   "anthropic"
  ],
  "pragmatic-engineer/2026-03-11-from-ides-to-ai-agents-with-steve-yegge": [
@@ -7785,15 +7923,20 @@
   "ai-coding",
   "anthropic"
  ],
- "pragmatic-engineer/2026-03-18-building-whatsapp-with-jean-lee": [],
- "pragmatic-engineer/2026-04-01-scaling-uber-with-thuan-pham-ubers-first-cto": [],
+ "pragmatic-engineer/2026-03-18-building-whatsapp-with-jean-lee": [
+  "software-engineering"
+ ],
+ "pragmatic-engineer/2026-04-01-scaling-uber-with-thuan-pham-ubers-first-cto": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2026-04-08-dhhs-new-way-of-writing-code": [
   "ai-coding",
   "jobs-and-work",
   "anthropic"
  ],
  "pragmatic-engineer/2026-04-22-designing-data-intensive-applications-with-martin-kleppmann": [
-  "ai-for-science"
+  "ai-for-science",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-04-29-building-pi-and-what-makes-self-modifying-software-so-fascinating": [
   "ai-coding",
@@ -7803,32 +7946,41 @@
  ],
  "pragmatic-engineer/2026-05-13-typescript-c-and-turbo-pascal-with-anders-hejlsberg": [
   "ai-coding",
+  "software-engineering",
   "microsoft"
  ],
  "pragmatic-engineer/2026-05-20-why-rust-is-different-with-alice-ryhl": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-05-27-building-opencode-with-dax-raad": [
   "ai-coding",
+  "software-engineering",
   "anthropic"
  ],
  "pragmatic-engineer/2026-06-03-kubernetes-and-retiring-at-the-top-with-kelsey-hightower": [
   "jobs-and-work",
+  "software-engineering",
   "google"
  ],
- "pragmatic-engineer/2026-06-17-ci-cd-with-robert-erez": [],
+ "pragmatic-engineer/2026-06-17-ci-cd-with-robert-erez": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2026-06-24-tech-interviews-with-neetcode": [
   "ai-coding",
   "jobs-and-work",
+  "software-engineering",
   "anthropic"
  ],
  "pragmatic-engineer/2026-07-01-how-kent-beck-shapes-the-software-engineering-industry": [
   "ai-coding",
-  "jobs-and-work"
+  "jobs-and-work",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-07-08-the-pragmatic-engineer-ama": [
   "ai-coding",
   "consumer-ai",
+  "software-engineering",
   "anthropic"
  ],
  "pragmatic-engineer/2026-07-15-context-engineering-with-dex-horthy": [
@@ -7837,51 +7989,69 @@
  ],
  "pragmatic-engineer/2026-07-29-formal-methods-with-hillel-wayne": [
   "ai-coding",
-  "jobs-and-work"
+  "jobs-and-work",
+  "software-engineering"
  ],
- "pragmatic-engineer/2026-08-12-stop-being-skeptical-about-ai-for-development-with-charity-majors": [],
+ "pragmatic-engineer/2026-08-12-stop-being-skeptical-about-ai-for-development-with-charity-majors": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2026-08-19-from-chrome-devtools-to-ai-engineering-with-addy-osmani": [
   "context-engineering",
+  "software-engineering",
   "google"
  ],
- "pragmatic-engineer/2026-08-26-why-performant-code-matters-but-gets-widely-ignored-with-casey-murator": [],
+ "pragmatic-engineer/2026-08-26-why-performant-code-matters-but-gets-widely-ignored-with-casey-murator": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2026-09-09-building-codex-with-tibo-sottiaux": [
   "ai-coding",
   "agents",
+  "software-engineering",
   "openai"
  ],
  "pragmatic-engineer/2026-09-17-ai-skills-with-matt-pocock": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-09-23-design-engineering-with-maggie-appleton": [
   "ai-coding",
-  "enterprise-adoption"
+  "enterprise-adoption",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-09-30-distributed-databases-with-peter-mattis": [
   "ai-coding",
+  "software-engineering",
   "anthropic"
  ],
- "pragmatic-engineer/2026-10-07-building-resilient-systems-with-sam-newman": [],
+ "pragmatic-engineer/2026-10-07-building-resilient-systems-with-sam-newman": [
+  "software-engineering"
+ ],
  "pragmatic-engineer/2026-10-14-ubers-ai-infra-from-the-inside": [
-  "context-engineering"
+  "context-engineering",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-10-21-the-revised-rules-of-engineering-management-with-will-larson": [
-  "jobs-and-work"
+  "jobs-and-work",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-10-29-software-engineering-at-google-cs-education-with-titus-winters": [
   "ai-coding",
+  "software-engineering",
   "google"
  ],
  "pragmatic-engineer/2026-11-05-scaling-slack-and-github-with-maude-lemaire": [
-  "ai-coding"
+  "ai-coding",
+  "software-engineering"
  ],
  "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella": [
   "ai-coding",
   "jobs-and-work",
+  "software-engineering",
   "microsoft"
  ],
  "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill": [
   "ai-coding",
-  "ai-for-science"
+  "ai-for-science",
+  "software-engineering"
  ]
 }

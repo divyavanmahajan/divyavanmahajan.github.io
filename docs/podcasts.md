@@ -75,13 +75,23 @@ AIDB's are at the repo root). Topic tags are built from them.
   the pre-LLM and non-AI back catalogue): `machine-learning`,
   `computer-vision`, `nlp-and-speech`, `mlops-and-data`, `science`,
   `physics-and-space`, `history-and-geopolitics`, `society-and-culture`,
-  `economics-and-crypto`. Primary (AI) topics are picked exactly as before
+  `economics-and-crypto`, `software-engineering`. Primary (AI) topics are picked exactly as before
   without them; secondary topics only fill the remaining `max_topics` slots
   (extraction score >= 2, then summary-text match >= 4 where the free-form
   tags also count, then a single notable-only match for otherwise untagged
   episodes). So they never change an episode's AI topics. Untagged episodes
   went from 520 to 149 (Lex Fridman 332 -> 106, Practical AI 113 -> 17,
   Dwarkesh 33 -> 2); the rest is mostly sport, comedy and programming.
+- `software-engineering` (secondary, added 2026-11-26 for The Pragmatic
+  Engineer and the programming episodes of Lex Fridman / Practical AI):
+  architecture, distributed systems, engineering management and culture,
+  developer productivity, platform engineering/DevOps/CI/CD, observability,
+  on-call, testing, code review, programming languages, open-source
+  maintenance, hiring and tech careers. Untagged went from 137 to 104
+  (Pragmatic Engineer 23 -> 0, Lex Fridman 71 -> 63, Practical AI 17 -> 15);
+  0 primary tags changed. Generic names (`Testing`, `Hiring`, `Rust`,
+  `Python`, `Java`, ...) are extraction-only (`TEXT_SKIP` in
+  `scripts/lib/podcast-wiki.mjs`) so they do not match free text.
 - AIDB: `scripts/build-ainews-tags.mjs` (unchanged scoring) writes
   `src/data/ainews-tags.json`; `sync-ainews.js` merges them into the AIDB
   frontmatter `tags`. Vocabulary changes reach AIDB on its next publish

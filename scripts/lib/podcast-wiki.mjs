@@ -143,7 +143,9 @@ export function tagsForEpisode(show, ep) {
 // --- summary-text fallback --------------------------------------------------
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // Names too ambiguous to match in free text (matched only via extractions).
-const TEXT_SKIP = new Set(['Muse', 'Astra', 'o3', 'Figure', 'Cosmos', 'Lean', 'Harmonic', 'Fable', 'Mythos', 'Every', 'Recursive', 'Codex', 'Cognition', 'Interpretability']);
+const TEXT_SKIP = new Set(['Muse', 'Astra', 'o3', 'Figure', 'Cosmos', 'Lean', 'Harmonic', 'Fable', 'Mythos', 'Every', 'Recursive', 'Codex', 'Cognition', 'Interpretability',
+  // software-engineering names that are too generic in free text (COVID testing, the game Rust, ...)
+  'Testing', 'Hiring', 'Agile', 'Promotions', 'Layoffs', 'Rewrites', 'Rust', 'Java', 'Python', 'Talent density', 'Open source contribution']);
 const textRules = {};
 for (const [group, defs] of [['topics', taxonomy.topics], ['companies', taxonomy.companies]]) {
   for (const [tag, names] of Object.entries(defs)) {

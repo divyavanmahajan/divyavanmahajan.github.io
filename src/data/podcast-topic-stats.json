@@ -1956,7 +1956,7 @@
  "topics": {
   "machine-learning": {
    "practical-ai": {
-    "extractionEpisodes": 126,
+    "extractionEpisodes": 125,
     "related": [
      {
       "name": "AI safety",
@@ -3327,7 +3327,7 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 35,
+    "extractionEpisodes": 34,
     "related": [
      {
       "name": "Ethereum",
@@ -5557,6 +5557,169 @@
     ]
    }
   },
+  "software-engineering": {
+   "practical-ai": {
+    "extractionEpisodes": 28,
+    "related": [
+     {
+      "name": "MLOps",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 5
+     },
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 4
+     },
+     {
+      "name": "Agentic coding",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "latent-space": {
+    "extractionEpisodes": 11,
+    "related": [
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Context engineering",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "Model Context Protocol",
+      "kind": "product",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
+   "cognitive-revolution": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "AI and control",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI consciousness",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI cybersecurity",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "lex-fridman": {
+    "extractionEpisodes": 22,
+    "related": [
+     {
+      "name": "Chris Lattner",
+      "kind": "person",
+      "central": 3,
+      "mentions": 3
+     },
+     {
+      "name": "Guido van Rossum",
+      "kind": "person",
+      "central": 2,
+      "mentions": 6
+     },
+     {
+      "name": "Open source",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 4
+     }
+    ]
+   },
+   "no-priors": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "AI-generated code",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AIOps",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Ankur Goyal",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "pragmatic-engineer": {
+    "extractionEpisodes": 74,
+    "related": [
+     {
+      "name": "AI coding agents",
+      "kind": "concept",
+      "central": 9,
+      "mentions": 15
+     },
+     {
+      "name": "Uber",
+      "kind": "company",
+      "central": 8,
+      "mentions": 17
+     },
+     {
+      "name": "Junior engineers in the AI era",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 18
+     }
+    ]
+   },
+   "ai-daily-brief": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI business model disruption",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Tailwind",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Adam Wathan",
+      "kind": "person",
+      "central": 0,
+      "mentions": 1
+     }
+    ]
+   }
+  },
   "microsoft": {
    "practical-ai": {
     "extractionEpisodes": 9,
@@ -6117,7 +6280,7 @@
   },
   "science": {
    "practical-ai": {
-    "extractionEpisodes": 4,
+    "extractionEpisodes": 3,
     "related": [
      {
       "name": "Adam Berenzweig",
@@ -6395,25 +6558,25 @@
     ]
    },
    "pragmatic-engineer": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 2,
     "related": [
      {
-      "name": "Golden ages of software engineering",
+      "name": "AI for hardware engineering",
       "kind": "concept",
-      "central": 2,
-      "mentions": 2
+      "central": 1,
+      "mentions": 1
      },
      {
-      "name": "Grady Booch",
+      "name": "Booch method",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Bryan Cantrill",
       "kind": "person",
-      "central": 2,
-      "mentions": 2
-     },
-     {
-      "name": "Rising levels of abstraction",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 2
+      "central": 1,
+      "mentions": 1
      }
     ]
    }
@@ -7118,7 +7281,7 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 96,
+    "extractionEpisodes": 95,
     "related": [
      {
       "name": "Donald Trump",
