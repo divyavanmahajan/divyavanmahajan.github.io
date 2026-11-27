@@ -69,6 +69,12 @@ export const podcastShows = [
     description: 'Gergely Orosz talks with engineers and engineering leaders about how software is built at Big Tech and startups, engineering careers and culture, and AI for software engineering.',
     homepage: 'https://newsletter.pragmaticengineer.com/podcast',
   },
+  {
+    slug: 'moonshot',
+    name: 'The Moonshot Podcast',
+    description: "Astro Teller, Captain of Moonshots at X (Alphabet's moonshot factory), goes behind the scenes of its moonshots in self-driving cars, drones, AI, robotics, energy, climate, agriculture and health.",
+    homepage: 'https://x.company/moonshotpodcast/',
+  },
 ];
 
 export const podcastShowSlugs = podcastShows.map((s) => s.slug);

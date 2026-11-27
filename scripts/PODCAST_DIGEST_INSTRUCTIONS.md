@@ -7,7 +7,7 @@ built by `node scripts/podcast-digest.mjs --month YYYY-MM`. Your job is only the
 ## Input
 Get the pack with `node scripts/podcast-digest.mjs --pack --month YYYY-MM`. It lists every
 episode of the month across all shows (The AI Daily Brief, Practical AI, Latent Space, The
-Cognitive Revolution, Dwarkesh, Lex Fridman, No Priors, Turing Post, Epoch After Hours, The Pragmatic Engineer): a ref, the show, the title and a
+Cognitive Revolution, Dwarkesh, Lex Fridman, No Priors, Turing Post, Epoch After Hours, The Pragmatic Engineer, The Moonshot Podcast): a ref, the show, the title and a
 2-3 sentence summary. Work from the pack only. Do not read transcripts.
 
 ## Output: `podcast-digests/themes/YYYY-MM.json`

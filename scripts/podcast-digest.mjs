@@ -33,7 +33,7 @@ const SHOW_NAMES = {
   aidb: 'The AI Daily Brief', 'practical-ai': 'Practical AI', 'latent-space': 'Latent Space',
   'cognitive-revolution': 'The Cognitive Revolution', dwarkesh: 'Dwarkesh Podcast',
   'lex-fridman': 'Lex Fridman Podcast', 'no-priors': 'No Priors', 'turing-post': 'Turing Post', 'epoch-ai': 'Epoch After Hours',
-  'pragmatic-engineer': 'The Pragmatic Engineer',
+  'pragmatic-engineer': 'The Pragmatic Engineer', moonshot: 'The Moonshot Podcast',
 };
 
 const args = process.argv.slice(2);
