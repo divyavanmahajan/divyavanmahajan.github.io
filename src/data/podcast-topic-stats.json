@@ -1951,7 +1951,70 @@
   "pragmatic-engineer/2026-10-29-software-engineering-at-google-cs-education-with-titus-winters": "extraction",
   "pragmatic-engineer/2026-11-05-scaling-slack-and-github-with-maude-lemaire": "extraction",
   "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella": "extraction",
-  "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill": "extraction"
+  "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill": "extraction",
+  "moonshot/2025-03-10-driving-the-future": "extraction",
+  "moonshot/2025-03-17-essential-connections": "extraction",
+  "moonshot/2025-03-24-machines-that-think-the-ai-moonshot": "extraction",
+  "moonshot/2025-03-31-feeding-the-world": "extraction",
+  "moonshot/2025-04-07-living-with-robots": "extraction",
+  "moonshot/2025-04-14-trash-to-treasure": "extraction",
+  "moonshot/2025-04-21-fires-floods-and-future-proofing": "extraction",
+  "moonshot/2025-04-28-powering-up": "extraction",
+  "moonshot/2025-05-05-supersenses": "extraction",
+  "moonshot/2025-05-12-prototyping-the-future-live-from-sxsw-2025": "extraction",
+  "moonshot/2025-06-27-deep-dive-sebastian-thrun-on-waymos-early-days": "extraction",
+  "moonshot/2025-07-11-deep-dive-andre-prager-on-prototyping-at-wing": "extraction",
+  "moonshot/2025-07-24-deep-dive-catie-cuan-on-dancing-and-living-with-robots": "extraction",
+  "moonshot/2025-08-08-the-moonshot-podcast-deep-dive-andrew-ng-on-deep-learning-and-google-b": "extraction",
+  "moonshot/2025-08-22-deep-dive-jeff-dean-on-google-brains-early-days": "extraction",
+  "moonshot/2025-09-05-deep-dive-david-guerena-on-the-future-of-agriculture": "extraction",
+  "moonshot/2025-10-13-deep-dive-ivy-ross-isabelle-olsson-on-the-early-days-of-google-glass": "extraction",
+  "moonshot/2025-11-25-the-moonshot-podcast-deep-dive-jason-rugolo-on-iyo-and-the-future-of-a": "extraction",
+  "moonshot/2026-01-13-moonshot-podcast-deep-dive-emily-ma-on-solving-food-waste": "extraction",
+  "moonshot/2026-03-25-supercharging-human-health": "extraction",
+  "moonshot/2026-03-30-the-moonshot-podcast-deep-dive-rey-banatao-on-turning-trash-into-treas": "extraction",
+  "moonshot/2026-04-01-coding-the-natural-world": "extraction",
+  "moonshot/2026-04-08-chasing-the-wind-storing-the-sun": "extraction",
+  "moonshot/2026-04-15-breaking-new-ground": "extraction",
+  "moonshot/2026-04-22-ocean-fuel-desert-rain": "extraction",
+  "moonshot/2026-04-29-silicon-horizons": "extraction",
+  "moonshot/2026-05-06-the-digital-trail": "extraction",
+  "moonshot/2026-05-13-neurons-and-networks": "extraction",
+  "moonshot/2026-05-27-underground-potential": "extraction",
+  "moonshot/2026-06-03-the-moonshot-mindset-with-adam-savage-and-sergey-brin": "extraction",
+  "moonshots-diamandis/2026-08-29-openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beat": "extraction",
+  "moonshots-diamandis/2026-09-02-humanitys-first-star-probe-architect-labs-beats-nvidia-3-4x-musk-wants": "extraction",
+  "moonshots-diamandis/2026-09-05-gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anth": "extraction",
+  "moonshots-diamandis/2026-09-09-why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-w": "extraction",
+  "moonshots-diamandis/2026-09-13-ask-the-mates-anything-moonshots-ama-289": "extraction",
+  "moonshots-diamandis/2026-09-15-martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-pe": "extraction",
+  "moonshots-diamandis/2026-09-19-frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-f": "extraction",
+  "moonshots-diamandis/2026-09-19-robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment": "extraction",
+  "moonshots-diamandis/2026-09-22-ask-the-mates-anything-round-2-moonshots-ama-293": "extraction",
+  "moonshots-diamandis/2026-09-28-palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-buil": "extraction",
+  "moonshots-diamandis/2026-09-28-we-gave-away-2-000-000-to-5-ai-builders-moonshots-live": "extraction",
+  "moonshots-diamandis/2026-09-28-why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand": "extraction",
+  "moonshots-diamandis/2026-09-28-why-we-gave-away-3-500-000-00-for-someone-to-build-the-next-star-trek": "extraction",
+  "moonshots-diamandis/2026-09-29-cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep": "extraction",
+  "moonshots-diamandis/2026-09-30-why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-li": "extraction",
+  "moonshots-diamandis/2026-10-03-recursives-670m-bet-on-self-improving-ai-sonnet-5-5-hits-70-elon-co-le": "extraction",
+  "moonshots-diamandis/2026-10-05-google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheape": "extraction",
+  "moonshots-diamandis/2026-10-07-why-altman-says-accept-some-bad-things-happening-and-what-it-means-for": "extraction",
+  "moonshots-diamandis/2026-10-15-openai-bulk-solves-722-math-problems-anthropics-cruelty-policy-and-elo": "extraction",
+  "moonshots-diamandis/2026-10-17-flying-tesla-car-robot-brains-halving-in-cost-every-3-weeks-and-why-in": "extraction",
+  "moonshots-diamandis/2026-10-21-chamath-agi-is-here-anthropics-100b-giveaway-elons-spacex-shares-for-7": "extraction",
+  "moonshots-diamandis/2026-10-23-spacexs-ai-business-up-830-openai-agents-lie-and-startup-turns-mercury": "extraction",
+  "moonshots-diamandis/2026-10-28-anthropics-2t-ipo-elon-predicts-neocloud-death-and-chinas-kimi-catches": "extraction",
+  "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks-ai-market-crashes-307": "extraction",
+  "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai": "extraction",
+  "moonshots-diamandis/2026-11-07-the-great-collision-between-politics-and-ai-309": "extraction",
+  "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310": "extraction",
+  "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis": "extraction",
+  "moonshots-diamandis/2026-11-16-how-figure-ai-is-outcompeting-china-and-tesla-in-robotics-robotic-deep": "extraction",
+  "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history": "extraction",
+  "moonshots-diamandis/2026-11-22-ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m": "extraction",
+  "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days": "extraction",
+  "moonshots-diamandis/2026-11-26-thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra": "extraction"
  },
  "topics": {
   "machine-learning": {
@@ -2090,6 +2153,29 @@
       "kind": "person",
       "central": 1,
       "mentions": 1
+     }
+    ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Google Brain",
+      "kind": "product",
+      "central": 3,
+      "mentions": 3
+     },
+     {
+      "name": "Andrew Ng",
+      "kind": "person",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Jeff Dean",
+      "kind": "person",
+      "central": 2,
+      "mentions": 3
      }
     ]
    }
@@ -2302,6 +2388,52 @@
      }
     ]
    },
+   "moonshot": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Adam Savage",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Failure and learning",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Google Brain",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 12,
+    "related": [
+     {
+      "name": "Recursive self-improvement",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 4
+     },
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 5
+     },
+     {
+      "name": "Pax Silica",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 76,
     "related": [
@@ -2511,6 +2643,29 @@
      }
     ]
    },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI doomerism",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Benchmarks",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 67,
     "related": [
@@ -2673,6 +2828,52 @@
       "mentions": 1
      }
     ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Blixt",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Electric grid",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Matt Forkin",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI wealth concentration in San Francisco",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Anthropic IPO",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI cybersecurity",
+      "kind": "concept",
+      "central": 0,
+      "mentions": 1
+     }
+    ]
    }
   },
   "computer-vision": {
@@ -2788,6 +2989,29 @@
       "kind": "concept",
       "central": 1,
       "mentions": 1
+     }
+    ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Agriculture technology",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "David Guerena",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Mineral",
+      "kind": "product",
+      "central": 2,
+      "mentions": 2
      }
     ]
    }
@@ -2974,6 +3198,52 @@
       "kind": "concept",
       "central": 2,
       "mentions": 3
+     }
+    ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Google Brain",
+      "kind": "product",
+      "central": 3,
+      "mentions": 3
+     },
+     {
+      "name": "Deep learning",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Jeff Dean",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "OpenAI",
+      "kind": "company",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI infrastructure capex",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
@@ -3209,6 +3479,52 @@
      }
     ]
    },
+   "moonshot": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Deep learning",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Google Brain",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Jeff Dean",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 16,
+    "related": [
+     {
+      "name": "AI regulation",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "AI for science",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Abundance",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 3
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 44,
     "related": [
@@ -3413,6 +3729,52 @@
      {
       "name": "AI and interest rates",
       "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Free-space optical communication",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Internet connectivity",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Loon",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Cathie Wood",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Circle",
+      "kind": "company",
       "central": 1,
       "mentions": 1
      }
@@ -3813,6 +4175,52 @@
      }
     ]
    },
+   "moonshot": {
+    "extractionEpisodes": 3,
+    "related": [
+     {
+      "name": "Deep learning",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Google Brain",
+      "kind": "product",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Jeff Dean",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 7,
+    "related": [
+     {
+      "name": "Recursive self-improvement",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI regulation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 10,
     "related": [
@@ -4022,6 +4430,52 @@
      }
     ]
    },
+   "moonshot": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Andrew Ng",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Google Brain",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "One learning algorithm hypothesis",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI regulation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Fable 5.1",
+      "kind": "model",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Robotaxis",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 57,
     "related": [
@@ -4094,7 +4548,7 @@
     ]
    },
    "cognitive-revolution": {
-    "extractionEpisodes": 8,
+    "extractionEpisodes": 7,
     "related": [
      {
       "name": "Fine-tuning",
@@ -4345,6 +4799,52 @@
       "kind": "concept",
       "central": 1,
       "mentions": 1
+     }
+    ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 8,
+    "related": [
+     {
+      "name": "Moonshot thinking",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 5
+     },
+     {
+      "name": "X, the moonshot factory",
+      "kind": "organization",
+      "central": 3,
+      "mentions": 4
+     },
+     {
+      "name": "Catie Cuan",
+      "kind": "person",
+      "central": 3,
+      "mentions": 3
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "Tesla",
+      "kind": "company",
+      "central": 1,
+      "mentions": 3
+     },
+     {
+      "name": "Alphabet",
+      "kind": "company",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Optimus",
+      "kind": "product",
+      "central": 1,
+      "mentions": 2
      }
     ]
    },
@@ -4789,6 +5289,29 @@
      }
     ]
    },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 13,
+    "related": [
+     {
+      "name": "Anthropic",
+      "kind": "company",
+      "central": 7,
+      "mentions": 11
+     },
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 4,
+      "mentions": 7
+     },
+     {
+      "name": "SpaceX",
+      "kind": "company",
+      "central": 3,
+      "mentions": 5
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 123,
     "related": [
@@ -4972,6 +5495,29 @@
       "kind": "concept",
       "central": 2,
       "mentions": 2
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "Anthropic",
+      "kind": "company",
+      "central": 4,
+      "mentions": 5
+     },
+     {
+      "name": "OpenAI",
+      "kind": "company",
+      "central": 2,
+      "mentions": 4
+     },
+     {
+      "name": "Pax Silica",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
      }
     ]
    },
@@ -5207,6 +5753,52 @@
      }
     ]
    },
+   "moonshot": {
+    "extractionEpisodes": 8,
+    "related": [
+     {
+      "name": "Google Brain",
+      "kind": "product",
+      "central": 3,
+      "mentions": 4
+     },
+     {
+      "name": "Moonshot thinking",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 4
+     },
+     {
+      "name": "Everyday Robots",
+      "kind": "organization",
+      "central": 2,
+      "mentions": 3
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "Abundance",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI-native entrepreneurship",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 64,
     "related": [
@@ -5390,6 +5982,29 @@
       "kind": "person",
       "central": 2,
       "mentions": 2
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "AI bubble",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Chain theory",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "CoreWeave",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
@@ -6091,6 +6706,29 @@
      }
     ]
    },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "AI personhood",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "AI autonomy time horizons",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 29,
     "related": [
@@ -6306,12 +6944,6 @@
     "extractionEpisodes": 2,
     "related": [
      {
-      "name": "Virtual cell",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 2
-     },
-     {
       "name": "Daniel Bear",
       "kind": "person",
       "central": 1,
@@ -6322,11 +6954,17 @@
       "kind": "person",
       "central": 1,
       "mentions": 1
+     },
+     {
+      "name": "Helmholtz Munich",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
    "cognitive-revolution": {
-    "extractionEpisodes": 15,
+    "extractionEpisodes": 16,
     "related": [
      {
       "name": "Mechanistic interpretability",
@@ -6372,13 +7010,13 @@
     ]
    },
    "lex-fridman": {
-    "extractionEpisodes": 64,
+    "extractionEpisodes": 65,
     "related": [
      {
       "name": "Consciousness",
       "kind": "concept",
-      "central": 5,
-      "mentions": 20
+      "central": 6,
+      "mentions": 21
      },
      {
       "name": "Assembly theory",
@@ -6390,12 +7028,12 @@
       "name": "Simulation hypothesis",
       "kind": "concept",
       "central": 4,
-      "mentions": 8
+      "mentions": 9
      }
     ]
    },
    "no-priors": {
-    "extractionEpisodes": 5,
+    "extractionEpisodes": 6,
     "related": [
      {
       "name": "AI drug discovery",
@@ -6404,14 +7042,60 @@
       "mentions": 2
      },
      {
-      "name": "Bill Clerico",
-      "kind": "person",
+      "name": "AI in drug discovery",
+      "kind": "concept",
       "central": 1,
       "mentions": 1
      },
      {
-      "name": "Convective Capital",
-      "kind": "company",
+      "name": "Arc Institute",
+      "kind": "organization",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 6,
+    "related": [
+     {
+      "name": "Agriculture technology",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 3
+     },
+     {
+      "name": "Kill criteria",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Mineral",
+      "kind": "product",
+      "central": 2,
+      "mentions": 3
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 4,
+    "related": [
+     {
+      "name": "AI for mathematics",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI welfare",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Artificial womb",
+      "kind": "concept",
       "central": 1,
       "mentions": 1
      }
@@ -6575,6 +7259,29 @@
      {
       "name": "Bryan Cantrill",
       "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Anduril Industries",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Autonomous weapons",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Humanoid robots",
+      "kind": "concept",
       "central": 1,
       "mentions": 1
      }
@@ -7348,6 +8055,29 @@
       "mentions": 1
      }
     ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Data center backlash",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Recursive self-improvement",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "AI market correction",
+      "kind": "concept",
+      "central": 0,
+      "mentions": 1
+     }
+    ]
    }
   },
   "consumer-ai": {
@@ -7764,6 +8494,52 @@
       "kind": "person",
       "central": 1,
       "mentions": 4
+     }
+    ]
+   },
+   "moonshot": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "iyO",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "iyO ONE",
+      "kind": "product",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Jason Rugolo",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Cathie Wood",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Circle",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Nikhil Chandhok",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
@@ -8348,6 +9124,29 @@
      }
     ]
    },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 5,
+    "related": [
+     {
+      "name": "Chain theory",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Optimus",
+      "kind": "product",
+      "central": 1,
+      "mentions": 2
+     },
+     {
+      "name": "Recursive self-improvement",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 98,
     "related": [
@@ -8766,6 +9565,29 @@
      }
     ]
    },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 16,
+    "related": [
+     {
+      "name": "OpenAI",
+      "kind": "company",
+      "central": 6,
+      "mentions": 12
+     },
+     {
+      "name": "SpaceX",
+      "kind": "company",
+      "central": 5,
+      "mentions": 8
+     },
+     {
+      "name": "AI safety",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 7
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 146,
     "related": [
@@ -9000,6 +9822,29 @@
      }
     ]
    },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "Brain-computer interfaces",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Martine Rothblatt",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Thymus rejuvenation",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     }
+    ]
+   },
    "ai-daily-brief": {
     "extractionEpisodes": 3,
     "related": [
@@ -9137,6 +9982,29 @@
       "kind": "concept",
       "central": 1,
       "mentions": 1
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 8,
+    "related": [
+     {
+      "name": "Anthropic",
+      "kind": "company",
+      "central": 6,
+      "mentions": 7
+     },
+     {
+      "name": "OpenAI",
+      "kind": "company",
+      "central": 4,
+      "mentions": 6
+     },
+     {
+      "name": "Tesla",
+      "kind": "company",
+      "central": 2,
+      "mentions": 2
      }
     ]
    },

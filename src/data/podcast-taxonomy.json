@@ -389,7 +389,15 @@
       "Embryo selection",
       "Polygenic risk scores",
       "Neanderthals",
-      "Scientific Revolution"
+      "Scientific Revolution",
+      "Brain-inspired computing",
+      "Biomanufacturing",
+      "Virtual cell",
+      "Plant genome programming",
+      "Plant breeding",
+      "Crop breeding",
+      "Synthetic fuels",
+      "Carbon capture"
     ],
     "physics-and-space": [
       "Physics",
@@ -408,7 +416,9 @@
       "Nuclear fission",
       "Nuclear power",
       "General relativity",
-      "Quantum gravity"
+      "Quantum gravity",
+      "Fusion energy",
+      "Z-pinch fusion"
     ],
     "history-and-geopolitics": [
       "Grand strategy",

@@ -3580,7 +3580,7 @@
  "cognitive-revolution/2025-03-23-unlocking-cells-secrets-diffusion-deconvolution-discovery-with-siyu-he": [
   "models-and-benchmarks",
   "machine-learning",
-  "mlops-and-data"
+  "science"
  ],
  "cognitive-revolution/2025-03-27-code-context-is-king-augment-s-ai-assistant-for-professional-software": [
   "context-engineering",
@@ -5813,6 +5813,7 @@
  "lex-fridman/2022-07-01-demis-hassabis-deepmind": [
   "ai-for-science",
   "models-and-benchmarks",
+  "science",
   "google"
  ],
  "lex-fridman/2022-07-04-joe-rogan-comedy-controversy-aliens-ufos-putin-cia-and-freedom": [
@@ -7043,7 +7044,8 @@
   "physical-ai"
  ],
  "no-priors/2025-02-25-virtual-cell-models-tahoe-100-and-data-for-ai-in-bio-with-vevo-therape": [
-  "models-and-benchmarks"
+  "models-and-benchmarks",
+  "science"
  ],
  "no-priors/2025-02-27-building-the-platform-for-scientific-breakthrough-with-noubar-afeyan-o": [
   "agents",
@@ -8053,5 +8055,275 @@
   "ai-coding",
   "ai-for-science",
   "software-engineering"
- ]
+ ],
+ "moonshot/2025-03-10-driving-the-future": [
+  "physical-ai"
+ ],
+ "moonshot/2025-03-17-essential-connections": [
+  "economics-and-crypto"
+ ],
+ "moonshot/2025-03-24-machines-that-think-the-ai-moonshot": [
+  "ai-for-science",
+  "jobs-and-work",
+  "machine-learning",
+  "google"
+ ],
+ "moonshot/2025-03-31-feeding-the-world": [
+  "jobs-and-work",
+  "science",
+  "computer-vision"
+ ],
+ "moonshot/2025-04-07-living-with-robots": [
+  "physical-ai",
+  "jobs-and-work"
+ ],
+ "moonshot/2025-04-14-trash-to-treasure": [
+  "computer-vision"
+ ],
+ "moonshot/2025-04-21-fires-floods-and-future-proofing": [
+  "science"
+ ],
+ "moonshot/2025-04-28-powering-up": [
+  "physics-and-space"
+ ],
+ "moonshot/2025-05-05-supersenses": [],
+ "moonshot/2025-05-12-prototyping-the-future-live-from-sxsw-2025": [
+  "physical-ai"
+ ],
+ "moonshot/2025-06-27-deep-dive-sebastian-thrun-on-waymos-early-days": [
+  "physical-ai",
+  "jobs-and-work"
+ ],
+ "moonshot/2025-07-11-deep-dive-andre-prager-on-prototyping-at-wing": [],
+ "moonshot/2025-07-24-deep-dive-catie-cuan-on-dancing-and-living-with-robots": [
+  "physical-ai",
+  "jobs-and-work"
+ ],
+ "moonshot/2025-08-08-the-moonshot-podcast-deep-dive-andrew-ng-on-deep-learning-and-google-b": [
+  "models-and-benchmarks",
+  "jobs-and-work",
+  "machine-learning"
+ ],
+ "moonshot/2025-08-22-deep-dive-jeff-dean-on-google-brains-early-days": [
+  "ai-for-science",
+  "ai-safety",
+  "machine-learning",
+  "google"
+ ],
+ "moonshot/2025-09-05-deep-dive-david-guerena-on-the-future-of-agriculture": [
+  "jobs-and-work",
+  "science",
+  "computer-vision"
+ ],
+ "moonshot/2025-10-13-deep-dive-ivy-ross-isabelle-olsson-on-the-early-days-of-google-glass": [],
+ "moonshot/2025-11-25-the-moonshot-podcast-deep-dive-jason-rugolo-on-iyo-and-the-future-of-a": [
+  "agents",
+  "physical-ai"
+ ],
+ "moonshot/2026-01-13-moonshot-podcast-deep-dive-emily-ma-on-solving-food-waste": [],
+ "moonshot/2026-03-25-supercharging-human-health": [
+  "physical-ai"
+ ],
+ "moonshot/2026-03-30-the-moonshot-podcast-deep-dive-rey-banatao-on-turning-trash-into-treas": [],
+ "moonshot/2026-04-01-coding-the-natural-world": [
+  "ai-for-science",
+  "science"
+ ],
+ "moonshot/2026-04-08-chasing-the-wind-storing-the-sun": [],
+ "moonshot/2026-04-15-breaking-new-ground": [],
+ "moonshot/2026-04-22-ocean-fuel-desert-rain": [
+  "science"
+ ],
+ "moonshot/2026-04-29-silicon-horizons": [
+  "physical-ai"
+ ],
+ "moonshot/2026-05-06-the-digital-trail": [],
+ "moonshot/2026-05-13-neurons-and-networks": [
+  "science"
+ ],
+ "moonshot/2026-05-27-underground-potential": [],
+ "moonshot/2026-06-03-the-moonshot-mindset-with-adam-savage-and-sergey-brin": [
+  "infrastructure-and-chips",
+  "jobs-and-work",
+  "google"
+ ],
+ "moonshots-diamandis/2026-08-29-openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beat": [
+  "ai-safety",
+  "ai-for-science",
+  "anthropic",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-09-02-humanitys-first-star-probe-architect-labs-beats-nvidia-3-4x-musk-wants": [
+  "ai-for-science",
+  "infrastructure-and-chips",
+  "openai",
+  "xai"
+ ],
+ "moonshots-diamandis/2026-09-05-gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anth": [
+  "policy-and-regulation",
+  "models-and-benchmarks",
+  "openai",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-09-09-why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-w": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "openai",
+  "nvidia"
+ ],
+ "moonshots-diamandis/2026-09-13-ask-the-mates-anything-moonshots-ama-289": [
+  "ai-consciousness",
+  "jobs-and-work",
+  "science"
+ ],
+ "moonshots-diamandis/2026-09-15-martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-pe": [
+  "ai-consciousness",
+  "science"
+ ],
+ "moonshots-diamandis/2026-09-19-frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-f": [
+  "ai-safety",
+  "policy-and-regulation",
+  "openai",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-09-19-robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment": [
+  "policy-and-regulation",
+  "ai-for-science",
+  "ai-safety",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-09-22-ask-the-mates-anything-round-2-moonshots-ama-293": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2026-09-28-palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-buil": [
+  "physical-ai",
+  "history-and-geopolitics"
+ ],
+ "moonshots-diamandis/2026-09-28-we-gave-away-2-000-000-to-5-ai-builders-moonshots-live": [
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2026-09-28-why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand": [
+  "ai-safety",
+  "policy-and-regulation",
+  "anthropic",
+  "nvidia"
+ ],
+ "moonshots-diamandis/2026-09-28-why-we-gave-away-3-500-000-00-for-someone-to-build-the-next-star-trek": [
+  "ai-safety"
+ ],
+ "moonshots-diamandis/2026-09-29-cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep": [
+  "agents",
+  "physical-ai",
+  "economics-and-crypto",
+  "xai"
+ ],
+ "moonshots-diamandis/2026-09-30-why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-li": [
+  "science",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-10-03-recursives-670m-bet-on-self-improving-ai-sonnet-5-5-hits-70-elon-co-le": [
+  "ai-safety",
+  "ai-for-science"
+ ],
+ "moonshots-diamandis/2026-10-05-google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheape": [
+  "jobs-and-work",
+  "physical-ai"
+ ],
+ "moonshots-diamandis/2026-10-07-why-altman-says-accept-some-bad-things-happening-and-what-it-means-for": [
+  "ai-safety",
+  "us-china",
+  "anthropic",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-10-15-openai-bulk-solves-722-math-problems-anthropics-cruelty-policy-and-elo": [
+  "ai-for-science",
+  "science",
+  "xai",
+  "anthropic",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-10-17-flying-tesla-car-robot-brains-halving-in-cost-every-3-weeks-and-why-in": [
+  "ai-for-science",
+  "ai-safety",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-10-21-chamath-agi-is-here-anthropics-100b-giveaway-elons-spacex-shares-for-7": [
+  "infrastructure-and-chips",
+  "ai-safety",
+  "xai",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-10-23-spacexs-ai-business-up-830-openai-agents-lie-and-startup-turns-mercury": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "xai",
+  "anthropic",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-10-28-anthropics-2t-ipo-elon-predicts-neocloud-death-and-chinas-kimi-catches": [
+  "infrastructure-and-chips",
+  "ai-economics",
+  "open-weight-models",
+  "anthropic",
+  "xai",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks-ai-market-crashes-307": [
+  "infrastructure-and-chips",
+  "ai-economics",
+  "physical-ai",
+  "openai",
+  "google"
+ ],
+ "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai": [
+  "ai-economics",
+  "ai-safety",
+  "infrastructure-and-chips",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-11-07-the-great-collision-between-politics-and-ai-309": [
+  "infrastructure-and-chips",
+  "ai-safety",
+  "society-and-culture",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310": [
+  "infrastructure-and-chips",
+  "physical-ai",
+  "us-china",
+  "nvidia",
+  "xai",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "nvidia",
+  "anthropic",
+  "google"
+ ],
+ "moonshots-diamandis/2026-11-16-how-figure-ai-is-outcompeting-china-and-tesla-in-robotics-robotic-deep": [
+  "physical-ai"
+ ],
+ "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history": [
+  "ai-economics",
+  "infrastructure-and-chips",
+  "physics-and-space",
+  "anthropic",
+  "nvidia"
+ ],
+ "moonshots-diamandis/2026-11-22-ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m": [
+  "ai-economics",
+  "ai-safety",
+  "xai",
+  "anthropic"
+ ],
+ "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days": [
+  "infrastructure-and-chips",
+  "ai-for-science",
+  "nvidia",
+  "openai"
+ ],
+ "moonshots-diamandis/2026-11-26-thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra": []
 }

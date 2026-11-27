@@ -16,7 +16,15 @@ on forecasting, scaling, compute, benchmarks and the economics of AGI; 7 episode
 added 2026-11-22, transcripts from epoch.ai's edited transcripts or Transistor) and The Pragmatic
 Engineer (`pragmatic-engineer`, Gergely Orosz's interviews on how software is built at Big Tech and
 startups, engineering careers and AI for software engineering; 84 episodes from 2024-09, added
-2026-11-25, transcripts = Substack's diarized ASR from the podcast RSS `podcast:transcript`); their
+2026-11-25, transcripts = Substack's diarized ASR from the podcast RSS `podcast:transcript`) and Moonshots
+with Peter Diamandis (`moonshots-diamandis`, Peter H. Diamandis and his "Moonshot Mates" Salim Ismail, Dave
+Blundin and Alexander Wissner-Gross on AI, exponential tech, longevity, robotics, energy and space; ~320
+episodes from 2022-10, added 2026-11-27, transcripts = YouTube auto-captions, the only free source; not to
+be confused with X's The Moonshot Podcast, `moonshot`) and The Moonshot Podcast (`moonshot`, X, the
+moonshot factory: Astro Teller on X's moonshots in self-driving cars, drones, connectivity, AI, robotics,
+energy, climate, agriculture and health; 30 episodes 2025-03..2026-06 incl. one YouTube-only Deep Dive,
+added 2026-11-27, transcripts = YouTube captions: show-uploaded track for season 2, auto-captions for
+season 1 and most Deep Dives); their
 transcripts live in the blog wiki repo (`~/projects/wiki/blog/<show>/episodes/YYYY/MM/`).
 This section publishes short per-episode summaries of those shows with the same
 shape as AIDB (listing by year/month, one page per episode, RSS, topics,
@@ -235,3 +243,12 @@ npm run build
 - The Pragmatic Engineer transcripts are Substack ASR with diarization; host/guest labels are
   mapped by a heuristic and multi-guest episodes keep `Speaker N`, so summaries attribute
   multi-guest statements from context.
+- Moonshots with Peter Diamandis transcripts are YouTube auto-captions (no punctuation, no speaker
+  labels; roundtables of 4-5 voices run 2-2.5 h), so summaries attribute only from context. All
+  episodes were summarised directly when the show was added, by a per-show queue of parallel
+  oneshot workers (`summary-queue.py` pattern), not the backfill driver.
+- The Moonshot Podcast (`moonshot`) transcripts are YouTube captions without speaker labels
+  (season 2 show-uploaded and punctuated; season 1 and Deep Dives 1-9 auto-captions). All 30
+  episodes were summarised directly with parallel `episode-workers.py` workers when the show was
+  added (biology/health episodes in their own worker). Most episodes are not about AI, so topic
+  tags lean on the secondary topics (science, physical-ai) and many episodes may stay untagged.
