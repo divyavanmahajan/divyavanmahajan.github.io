@@ -75,6 +75,12 @@ export const podcastShows = [
     description: "Astro Teller, Captain of Moonshots at X (Alphabet's moonshot factory), goes behind the scenes of its moonshots in self-driving cars, drones, AI, robotics, energy, climate, agriculture and health.",
     homepage: 'https://x.company/moonshotpodcast/',
   },
+  {
+    slug: 'moonshots-diamandis',
+    name: 'Moonshots with Peter Diamandis',
+    description: 'Peter H. Diamandis (XPRIZE, Singularity University, Abundance360) and his Moonshot Mates Salim Ismail, Dave Blundin and Alexander Wissner-Gross on AI, exponential technology, longevity, robotics, energy, space and abundance, with founders, investors and scientists.',
+    homepage: 'https://www.diamandis.com/podcast',
+  },
 ];
 
 export const podcastShowSlugs = podcastShows.map((s) => s.slug);

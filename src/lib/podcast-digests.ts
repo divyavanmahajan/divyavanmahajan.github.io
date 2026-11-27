@@ -23,10 +23,10 @@ export function getDigests(): Digest[] {
     .sort((a, b) => b.period.localeCompare(a.period));
 }
 
-export const SHOW_ORDER = ["aidb", "practical-ai", "latent-space", "cognitive-revolution", "dwarkesh", "lex-fridman", "no-priors", "turing-post", "epoch-ai", "pragmatic-engineer", "moonshot"];
+export const SHOW_ORDER = ["aidb", "practical-ai", "latent-space", "cognitive-revolution", "dwarkesh", "lex-fridman", "no-priors", "turing-post", "epoch-ai", "pragmatic-engineer", "moonshot", "moonshots-diamandis"];
 export const SHOW_SHORT: Record<string, string> = {
   aidb: "AIDB", "practical-ai": "Practical AI", "latent-space": "Latent Space",
-  "cognitive-revolution": "Cognitive Rev.", dwarkesh: "Dwarkesh", "lex-fridman": "Lex Fridman", "no-priors": "No Priors", "turing-post": "Turing Post", "epoch-ai": "Epoch AI", "pragmatic-engineer": "Pragmatic Eng.", moonshot: "Moonshot",
+  "cognitive-revolution": "Cognitive Rev.", dwarkesh: "Dwarkesh", "lex-fridman": "Lex Fridman", "no-priors": "No Priors", "turing-post": "Turing Post", "epoch-ai": "Epoch AI", "pragmatic-engineer": "Pragmatic Eng.", moonshot: "Moonshot", "moonshots-diamandis": "Moonshots (Diamandis)",
 };
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 export const monthLabel = (p: string) => `${MONTHS[Number(p.slice(5, 7)) - 1]} ${p.slice(0, 4)}`;
