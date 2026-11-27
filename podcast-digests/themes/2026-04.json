@@ -1,6 +1,6 @@
 {
   "period": "2026-04",
-  "episodeCount": 68,
+  "episodeCount": 76,
   "headline": "April was dominated by Anthropic's withheld Claude Mythos model and a dense release cycle of GPT-5.5, Opus 4.7, the new Codex and Claude Design. Underneath it, the shows converged on the harness around the model, and the usage-based pricing and compute limits that agentic workloads now force, as the real story.",
   "themes": [
     {
@@ -13,7 +13,8 @@
         "cognitive-revolution/2026-04-23",
         "latent-space/2026-04-23",
         "aidb/2026-04-21",
-        "aidb/2026-04-22"
+        "aidb/2026-04-22",
+        "moonshots-diamandis/2026-04-11-spacex-goes-public"
       ]
     },
     {
@@ -41,7 +42,8 @@
         "aidb/2026-04-22",
         "aidb/2026-04-15-vibe-coding-gets-an-upgr",
         "cognitive-revolution/2026-04-26",
-        "aidb/2026-04-09"
+        "aidb/2026-04-09",
+        "moonshots-diamandis/2026-04-23-irans-ai-supply-chain"
       ]
     },
     {
@@ -69,7 +71,8 @@
         "dwarkesh/2026-04-29",
         "practical-ai/2026-04-23",
         "moonshot/2026-04-29",
-        "moonshot/2026-04-08"
+        "moonshot/2026-04-08",
+        "moonshots-diamandis/2026-04-14-elon-musk-vs-sam-altman"
       ]
     },
     {
@@ -108,7 +111,8 @@
         "aidb/2026-04-26",
         "aidb/2026-04-05",
         "cognitive-revolution/2026-04-11",
-        "cognitive-revolution/2026-04-01"
+        "cognitive-revolution/2026-04-01",
+        "moonshots-diamandis/2026-04-18-sam-altmans-attack"
       ]
     },
     {
@@ -125,7 +129,11 @@
         "dwarkesh/2026-04-07",
         "moonshot/2026-04-01",
         "moonshot/2026-04-15",
-        "moonshot/2026-04-22"
+        "moonshot/2026-04-22",
+        "moonshots-diamandis/2026-04-02-ubers-robotaxi-playbook",
+        "moonshots-diamandis/2026-04-07-how-ai-is-bringing-extinct",
+        "moonshots-diamandis/2026-04-27-david-sinclair",
+        "moonshots-diamandis/2026-04-28-david-sinclair"
       ]
     }
   ],

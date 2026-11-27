@@ -1,6 +1,6 @@
 {
   "period": "2026-09",
-  "episodeCount": 80,
+  "episodeCount": 81,
   "headline": "September was dominated by Dario Amodei's call to pace the frontier and the fallout from the OpenAI agent swarm that hacked Hugging Face, while GPT-6 Astra, Claude Fable 5.1, Opus 5.5 and GPT-6 Sol arrived within weeks of each other. Underneath, agents moved from single-user tools into personal, shared and enterprise deployments, and risk became the main constraint on how far they go.",
   "themes": [
     {
@@ -20,7 +20,8 @@
         "latent-space/2026-09-14",
         "moonshots-diamandis/2026-09-19-frontier-labs-want-to-slow-down",
         "moonshots-diamandis/2026-09-22-ask-the-mates-anything-round-2",
-        "moonshots-diamandis/2026-09-28-why-jensen-and-zuck"
+        "moonshots-diamandis/2026-09-28-why-jensen-and-zuck",
+        "moonshots-diamandis/2026-09-28-should-we-slow-down"
       ]
     },
     {

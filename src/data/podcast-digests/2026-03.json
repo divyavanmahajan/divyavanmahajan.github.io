@@ -31,7 +31,8 @@
     "aidb/2026-03-14-the-coolest-agents-ive-built-so-far",
     "latent-space/2026-03-20-dreamer-the-personal-agent-os-david-singleton",
     "lex-fridman/2026-03-23-jensen-huang-nvidia-the-4-trillion-company-the-ai-revolution",
-    "aidb/2026-03-30-the-state-of-ai-q2-ais-second-moment"
+    "aidb/2026-03-30-the-state-of-ai-q2-ais-second-moment",
+    "moonshots-diamandis/2026-03-09-openclaw-explained-baby-agi-security-threats-and-how-a-mac-mini-became"
    ]
   },
   {
@@ -87,7 +88,10 @@
     "aidb/2026-03-16-a-guy-used-ai-to-cure-his-dogs-cancer",
     "aidb/2026-03-04-the-rise-of-the-zero-human-company",
     "cognitive-revolution/2026-03-19-zvi-s-mic-works-recursive-self-improvement-live-player-analysis-anthro",
-    "no-priors/2026-03-20-andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai"
+    "no-priors/2026-03-20-andrej-karpathy-on-code-agents-autoresearch-and-the-loopy-era-of-ai",
+    "moonshots-diamandis/2026-03-07-andrew-yang-ubi-before-uhi-solving-job-loss-and-the-future-of-work-236",
+    "moonshots-diamandis/2026-03-26-elons-5-trillion-bet-the-end-of-human-drivers-and-chamaths-market-warn",
+    "moonshots-diamandis/2026-03-31-uber-ceo-on-winning-the-robotaxi-race-the-end-of-car-ownership-and-ube"
    ]
   },
   {
@@ -101,7 +105,8 @@
     "cognitive-revolution/2026-03-19-zvi-s-mic-works-recursive-self-improvement-live-player-analysis-anthro",
     "practical-ai/2026-03-09-ai-policy-and-the-battle-for-computing-power",
     "aidb/2026-03-26-why-ai-needs-better-benchmarks",
-    "aidb/2026-03-28-how-ai-can-help-democracy-work-better"
+    "aidb/2026-03-28-how-ai-can-help-democracy-work-better",
+    "moonshots-diamandis/2026-03-02-anthropic-vs-the-pentagon-claude-outpaces-chatgpt-and-consulting-gets"
    ]
   },
   {
@@ -126,7 +131,8 @@
     "aidb/2026-03-20-every-ai-product-is-becoming-every-other-ai-product",
     "aidb/2026-03-27-anthropic-accidentally-revealed-their-most-powerful-model-ever",
     "aidb/2026-03-17-the-race-to-put-ai-agents-everywhere",
-    "latent-space/2026-03-30-mistral-voxtral-tts-forge-leanstral-what-s-next-for-mistral-4-w-pavan"
+    "latent-space/2026-03-30-mistral-voxtral-tts-forge-leanstral-what-s-next-for-mistral-4-w-pavan",
+    "moonshots-diamandis/2026-03-17-meta-buys-moltbook-gpt-5-4-and-fruitfly-brain-upload-moonshots-live-at"
    ]
   },
   {
@@ -138,7 +144,10 @@
     "latent-space/2026-03-10-nvidia-s-ai-engineers-agent-inference-at-planetary-scale-and-speed-of",
     "practical-ai/2026-03-09-ai-policy-and-the-battle-for-computing-power",
     "aidb/2026-03-17-the-race-to-put-ai-agents-everywhere",
-    "practical-ai/2026-03-25-ai-at-the-edge-is-a-different-operating-environment"
+    "practical-ai/2026-03-25-ai-at-the-edge-is-a-different-operating-environment",
+    "moonshots-diamandis/2026-03-05-financializing-super-intelligence-amazons-50b-late-fee-235",
+    "moonshots-diamandis/2026-03-21-nvidias-1-trillion-prediction-anthropic-beats-openai-tesla-vs-tsmc-the",
+    "moonshots-diamandis/2026-03-24-eric-schmidt-singularitys-arrival-the-92-gigawatt-problem-and-recursiv"
    ]
   },
   {
@@ -155,7 +164,8 @@
     "cognitive-revolution/2026-03-11-bioinfohazards-jassi-pannu-on-controlling-dangerous-data-from-which-ai",
     "cognitive-revolution/2026-03-16-ai-scouting-report-the-good-bad-weird-the-law-ai-certificate-program-b",
     "moonshot/2026-03-30-the-moonshot-podcast-deep-dive-rey-banatao-on-turning-trash-into-treas",
-    "moonshot/2026-03-25-supercharging-human-health"
+    "moonshot/2026-03-25-supercharging-human-health",
+    "moonshots-diamandis/2026-03-17-elon-musk-optimus-3-is-coming-recursive-self-improvement-is-already-he"
    ]
   }
  ],
@@ -166,7 +176,7 @@
   "Design the integration layer for agents, not just humans. CLIs, skills and well-documented APIs lower the cost of agent use. Keeping skills portable and evaluating open-weight models alongside closed ones reduces lock-in to any single model vendor.",
   "AI is now a political and workforce issue. Pair adoption plans with clear messaging on role redesign and reskilling, and track emerging national AI rules and vendor-government disputes as supplier risk."
  ],
- "themesEpisodeCount": 67,
+ "themesEpisodeCount": 77,
  "episodes": [
   {
    "key": "aidb/2026-03-31-the-ultimate-ai-catch-up-guide",
@@ -196,8 +206,8 @@
     "Dara Khosrowshahi"
    ],
    "durationMin": 34,
-   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ Dara Khosrowshahi joins to discuss the RoboTaxi race, Uber’s hybrid strategy for autonomy, and how self-driving tech could reshape mobility, delivery, and city life. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Dara Khosrowshahi is the CEO of Uber and former CEO of Expedia Group Peter H. Diamandis, MD, is the Founder of XPRIZE …",
-   "summarySource": "show-notes",
+   "summary": "Peter Diamandis and Salim Ismail interview Uber CEO Dara Khosrowshahi on stage at the 2026 Abundance360 Summit. Khosrowshahi lays out Uber's hybrid autonomy strategy with 20+ AV partners, an asset-light fleet model, the end of car ownership, flying cars with Joby, drone and sidewalk-robot delivery, the impact of autonomy on drivers, and Uber's intense work culture.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -322,8 +332,8 @@
    "youtube": "https://www.youtube.com/watch?v=wMLcIWLlcWg",
    "guests": [],
    "durationMin": 131,
-   "summary": "In this episode, the mates discuss Elon’s TeraFab: 1 terawatt/year chip factory (50x global AI compute), CyberCab fleets crushing rideshares, eVTOLs redesigning cities, garages-to-gyms real estate pivot, and moon disassembly for Dyson swarms amid robotaxi abundance. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates roundtable in a new themed-conversation format: Peter Diamandis, Dave Blundin, Alexander Wissner-Gross and (intermittently) Salim Ismail discuss Elon Musk's Terafab chip-fab plan, robotaxis, flying cars and the end of human driving with its real-estate implications, AI-driven job reshuffling and token-usage metrics, Chamath Palihapitiya's terminal-value-collapse thesis, the new space race, model distillation and a stealth Xiaomi model, AI-designed chips, plus quick hits on the DOE Genesis mission, an Ohio data-center ban, Nvidia H200 sales to China and Nectome's pig-brain preservation, ending with an AMA.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -438,8 +448,8 @@
     "Eric Schmidt"
    ],
    "durationMin": 44,
-   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at a360.com Eric Schmidt ignites Abundance Summit 2026: AI's reasoning boom crushes code (20-80 human split), scaling laws unbound, orbital data centers, China's robot edge, energy/power crunches, recursive self-improvement asymptote, and steering ASI to American values amid geopolitical races. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE …",
-   "summarySource": "show-notes",
+   "summary": "Recorded on stage at the 2026 Abundance360 Summit, Peter Diamandis and Dave Blundin interview former Google CEO Eric Schmidt. Topics include reasoning models transforming programming, the 'San Francisco consensus' on recursive self-improvement, the 92-gigawatt US power shortfall, Google's history with DeepMind and TPUs, data centers in space, China's edge in low-cost robotics, the number of frontier labs, and steering superintelligence toward American values.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -534,8 +544,8 @@
    "youtube": "https://www.youtube.com/watch?v=uOGHXAfvK8w",
    "guests": [],
    "durationMin": 138,
-   "summary": "Mates recap Nvidia GTC madness - Jensen's $1T revenue blitz fueling robots, robocabs, orbital fabs, and NemoClaw - while unpacking OpenClaw's GitHub supernova, Anthropic's enterprise crush on OpenAI, Elon's TerraFab TSMC-killer, and inference deflation exploding abundance. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin …",
-   "summarySource": "show-notes",
+   "summary": "The Moonshot Mates recap Nvidia GTC 2026, including Jensen Huang's $1 trillion bookings forecast, NemoClaw support for OpenClaw, robotaxi partnerships and space data centers. They discuss Sam Altman's claim of a 1,000x reasoning cost drop, Anthropic overtaking OpenAI in enterprise share, Elon Musk's TerraFab chip plan, nuclear power's return, Travis Kalanick's Atoms, robot sports, collapsing CS graduate placement, UHI, and the aliens.gov domain.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -713,8 +723,8 @@
     "Elon Musk"
    ],
    "durationMin": 24,
-   "summary": "Recorded live at https://www.abundance360.com/ Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Elon Musk is the cofounder and CEO of Tesla, cofounder of SpaceX, and xAI. – My companies: Apply to Dave's and my new fund: https://qr.diamandis.com/linkventures... Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Read the Solve Everything Paper Get access to metatrends 10+ years before anyone …",
-   "summarySource": "show-notes",
+   "summary": "Recorded live at the Abundance360 Summit, Peter Diamandis interviews Elon Musk about recursive self-improvement, Grok's progress, and the claim that we are already in a hard takeoff. Musk gives timelines for Optimus 3 production, predicts a 10x economy in 10 years and a mass driver on the Moon, and discusses universal high income, deflation, the singularity and AI-driven healthcare.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -730,8 +740,8 @@
     "Emad Mostaque"
    ],
    "durationMin": 93,
-   "summary": "Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified Emad Mostaque is the founder of Intelligent Internet – My companies: Apply to Dave's and my new fund: https://qr.diamandis.com/linkventures... Go to Blitzy to book a free demo and …",
-   "summarySource": "show-notes",
+   "summary": "Recorded live at the 2026 Abundance Summit, Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross and Emad Mostaque announce the Future Vision XPRIZE and Moonshots Gathering, then discuss GPT-5.4's FrontierMath results, recursive self-improvement, Claude's consumer surge, Meta's Moltbook acquisition, Yann LeCun's $1B raise, Karpathy's autoresearch, Apple's M5 chips, Eon Systems' fruit fly brain upload, xAI power and eVTOLs. An audience AMA covers post-capitalism, basic income and AI-driven job loss.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1104,8 +1114,8 @@
     "OpenClaw Explained"
    ],
    "durationMin": 90,
-   "summary": "Livestream the Abundance Summit: https://www.abundance360.com/livestream The hosts dive into OpenClaw's explosion—unleashing autonomous local agents on Mac minis that code, create content, and self-evolve 24/7—featuring expert Alex Finn's workflows, org charts of AI \"employees,\" and visions for trillion-dollar agent economies. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Alex Finn is the Founder/CEO of Creator Buddy & AI-app Maker. He is widely known as a powerhouse in AI …",
-   "summarySource": "show-notes",
+   "summary": "Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross host AI builder Alex Finn to explain OpenClaw, the open-source self-improving personal AI agent, and why it drove a run on Mac minis. Finn walks through his locally hosted multi-agent 'organization' (Henry, Ralph, Charlie, Scout, Quill), hybrid local/cloud model setups, OAuth subscription use, security risks such as prompt injection and third-party skills, and predictions about agent-driven job destruction and business creation. AWG raises AI personhood and the ethics of hosting 'baby AGIs'.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1170,8 +1180,8 @@
     "Andrew Yang"
    ],
    "durationMin": 102,
-   "summary": "Livestream the Abundance Summit: https://www.abundance360.com/livestream The Moonshots hosts join Andrew Yang to unpack AI's explosive collision with politics - deepfakes weaponizing elections, UBI surging as job-killer abundance hits, and radical fixes like open voting for anyone from Cuban to Robbins - while plotting democracy's entrepreneurial reboot. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Andrew Yang is the founder of Forward Party and Humanity Forward NGO; he …",
-   "summarySource": "show-notes",
+   "summary": "Andrew Yang joins Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross to debate whether universal basic income must precede Elon Musk's universal high income, and how to fund it via government or billionaire philanthropy. They discuss AI-driven white-collar job loss, the value of college and the trades, social unrest, AI companions and falling birth rates, AI lobbying, a possible independent 2028 presidential primary via the Forward Party, and close with an audience AMA.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1282,8 +1292,8 @@
    "youtube": "https://www.youtube.com/watch?v=T8X6kp-pcKs",
    "guests": [],
    "durationMin": 137,
-   "summary": "Livestream the Abundance Summit: https://www.abundance360.com/livestream In this WTF episode, the hosts unpack AI's supersonic tsunami - from Amazon's $35B AGI bet on OpenAI, Anthropic ditching safety pauses amid race pressures, and hyper-efficient Chinese models shrinking to iPhones - to meat puppets at Burger King and Pulsia autonomously running 1,000+ companies. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates news roundtable (Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross) covering Anthropic revising its responsible scaling policy, Claude Cowork and plugins, small Qwen 3.5 models running on phones, Amazon's contingent investment in OpenAI tied to an IPO and AGI, Pulsia's autonomous companies and Burger King's Patty AI headset. It also covers record US power additions, hyperscaler chip deals, prime editing gene therapy, the longevity market, Chinese robots and eVTOLs, plus a listener AMA.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1359,8 +1369,8 @@
    "youtube": "https://www.youtube.com/watch?v=dmtvGKuRE64",
    "guests": [],
    "durationMin": 130,
-   "summary": "The hosts unpack AI's asteroid-like disruption—Anthropic's explosive enterprise growth outpacing OpenAI, Pentagon clashes over safeguards, and agentic revolutions from OpenClaw to meat puppets—urging agile evolution amid sovereign AI summits and trillion-dollar forecasts. Get notified once we go live during Abundance360: https://www.abundance360.com/livestream Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates news roundtable covering India's AI Impact Summit and the New Delhi Declaration, the standoff between Anthropic and the Pentagon over safeguards for surveillance and autonomous weapons, and Anthropic's enterprise revenue growth outpacing OpenAI. It also covers recursive self-improvement, Claude Code Security hitting cyber stocks, Rent-a-Human and OpenClaw agents, Accenture tying promotions to AI use, data center land fights, $100 genome sequencing, lab-grown meat, Tesla FSD safety, white-collar job loss forecasts, and a listener AMA.",
+   "summarySource": "extraction",
    "partial": false
   },
   {

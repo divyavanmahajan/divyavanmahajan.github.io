@@ -4,11 +4,11 @@
  "end": "2026-09-30",
  "inProgress": false,
  "generated": "2026-11-27",
- "episodeCount": 80,
+ "episodeCount": 81,
  "counts": {
   "aidb": 26,
   "latent-space": 9,
-  "moonshots-diamandis": 14,
+  "moonshots-diamandis": 15,
   "pragmatic-engineer": 4,
   "cognitive-revolution": 11,
   "no-priors": 4,
@@ -36,7 +36,8 @@
     "latent-space/2026-09-14-humanity-s-last-invention-richard-socher-of-recursive",
     "moonshots-diamandis/2026-09-19-frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-f",
     "moonshots-diamandis/2026-09-22-ask-the-mates-anything-round-2-moonshots-ama-293",
-    "moonshots-diamandis/2026-09-28-why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand"
+    "moonshots-diamandis/2026-09-28-why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand",
+    "moonshots-diamandis/2026-09-28-should-we-slow-down-ai-progress-moonshots-288"
    ]
   },
   {
@@ -185,7 +186,7 @@
   "Shared team agents with common knowledge, memory and configuration are becoming a product category. Decide early who owns each agent, what it knows, what it can touch and how it is run, because those choices are hard to retrofit.",
   "Cheap calibrated judgment models suit triage, rule checks and scoring inside workflows. Many high-volume decisions may be better served by these small, code-consumed calls than by a general chat model, which changes cost and testing approaches."
  ],
- "themesEpisodeCount": 80,
+ "themesEpisodeCount": 81,
  "episodes": [
   {
    "key": "aidb/2026-09-30-the-most-important-new-ai-tools-from-openai-devday",
@@ -348,6 +349,23 @@
    ],
    "durationMin": 37,
    "summary": "Recorded at Moonshots Live 2026, the Moonshot Mates interview Palmer Luckey after Anduril wins the XPRIZE wildfire prize. Luckey discusses AI doom versus misuse by bad actors, edge autonomy and the long history of autonomous weapons, why Anduril will not build humanoids, defense procurement, the new Meta VR glasses, and advice for founders in the AI era.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-28-should-we-slow-down-ai-progress-moonshots-288",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-28",
+   "slug": "should-we-slow-down-ai-progress-moonshots-288",
+   "title": "Should we slow down AI progress? | MOONSHOTS #288",
+   "url": "https://www.youtube.com/watch?v=AxzcWOxzkiw",
+   "youtube": "https://www.youtube.com/watch?v=AxzcWOxzkiw",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 164,
+   "summary": "Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross and Emad Mostaque debate calls from inside AI labs to slow down, including a researcher's resignation, an Anthropic alignment lead's 10% doom estimate and Sam Altman's reaction to OpenAI's claimed Navier-Stokes solution. They also cover data versus architecture gains, falling AI costs, rising H100 rental prices, ByteDance's world model, DeepSeek memory efficiency, Anthropic withholding a model from the UK AI Security Institute, Anthropic's economic impact scenarios, Insilico's AI-designed longevity drug and DeepMind's AlphaGenome Atlas.",
    "summarySource": "extraction",
    "partial": false
   },

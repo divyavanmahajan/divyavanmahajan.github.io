@@ -1,6 +1,6 @@
 {
   "period": "2026-03",
-  "episodeCount": 67,
+  "episodeCount": 77,
   "headline": "March was the month personal agents went mainstream: OpenClaw-style 'claws', Claude Cowork and cloud coding agents spread from hobbyists to every major lab and product. Underneath it, the hard questions moved to verification, governance, compute, open versus closed models and who bears the cost for jobs, as AI became a political issue.",
   "themes": [
     {
@@ -14,7 +14,8 @@
         "aidb/2026-03-14",
         "latent-space/2026-03-20",
         "lex-fridman/2026-03-23",
-        "aidb/2026-03-30"
+        "aidb/2026-03-30",
+        "moonshots-diamandis/2026-03-09-openclaw-explained"
       ]
     },
     {
@@ -70,7 +71,10 @@
         "aidb/2026-03-16",
         "aidb/2026-03-04-the-rise-of-the-zero-hum",
         "cognitive-revolution/2026-03-19",
-        "no-priors/2026-03-20"
+        "no-priors/2026-03-20",
+        "moonshots-diamandis/2026-03-07-andrew-yang",
+        "moonshots-diamandis/2026-03-26-elons-5-trillion-bet",
+        "moonshots-diamandis/2026-03-31-uber-ceo"
       ]
     },
     {
@@ -84,7 +88,8 @@
         "cognitive-revolution/2026-03-19",
         "practical-ai/2026-03-09",
         "aidb/2026-03-26",
-        "aidb/2026-03-28"
+        "aidb/2026-03-28",
+        "moonshots-diamandis/2026-03-02-anthropic-vs-the-pentagon"
       ]
     },
     {
@@ -109,7 +114,8 @@
         "aidb/2026-03-20",
         "aidb/2026-03-27",
         "aidb/2026-03-17",
-        "latent-space/2026-03-30"
+        "latent-space/2026-03-30",
+        "moonshots-diamandis/2026-03-17-meta-buys-moltbook"
       ]
     },
     {
@@ -121,7 +127,10 @@
         "latent-space/2026-03-10",
         "practical-ai/2026-03-09",
         "aidb/2026-03-17",
-        "practical-ai/2026-03-25"
+        "practical-ai/2026-03-25",
+        "moonshots-diamandis/2026-03-05-financializing-super",
+        "moonshots-diamandis/2026-03-21-nvidias-1-trillion",
+        "moonshots-diamandis/2026-03-24-eric-schmidt"
       ]
     },
     {
@@ -138,7 +147,8 @@
         "cognitive-revolution/2026-03-11",
         "cognitive-revolution/2026-03-16",
         "moonshot/2026-03-30",
-        "moonshot/2026-03-25"
+        "moonshot/2026-03-25",
+        "moonshots-diamandis/2026-03-17-elon-musk-optimus-3"
       ]
     }
   ],

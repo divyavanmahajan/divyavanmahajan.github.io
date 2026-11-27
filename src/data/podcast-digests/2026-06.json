@@ -33,7 +33,10 @@
     "aidb/2026-06-10-fable-5-raises-the-bar-for-ai-ambition",
     "cognitive-revolution/2026-06-13-ai-in-the-am-week-2-highlights-june-2026",
     "cognitive-revolution/2026-06-20-dean-ball-on-joining-openai-new-power-centers-frontier-ai-policy-main",
-    "cognitive-revolution/2026-06-21-ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logisti"
+    "cognitive-revolution/2026-06-21-ai-am-3-zvi-on-fable-the-cases-for-against-the-ban-ai-for-math-logisti",
+    "moonshots-diamandis/2026-06-11-brian-armstrong-on-bitcoin-anthropic-drops-fable-5-mythos-5-newlimits",
+    "moonshots-diamandis/2026-06-18-spacex-ipos-at-2-89t-market-cap-us-govt-suspends-fable-mythos-5-altman",
+    "moonshots-diamandis/2026-06-29-why-the-us-government-is-blocking-model-releases-gpt-5-6-267"
    ]
   },
   {
@@ -118,7 +121,9 @@
     "aidb/2026-06-23-the-right-way-to-deal-with-ai-data-centers",
     "aidb/2026-06-30-how-big-is-the-ai-economy",
     "no-priors/2026-06-18-re-engineering-the-semiconductor-supply-chain-with-intel-ceo-lip-bu-ta",
-    "latent-space/2026-06-18-the-professor-of-outputmaxxing-anjney-midha-amp"
+    "latent-space/2026-06-18-the-professor-of-outputmaxxing-anjney-midha-amp",
+    "moonshots-diamandis/2026-06-06-anthropic-files-965b-ipo-trump-signs-ai-executive-order-and-chatgpt-cr",
+    "moonshots-diamandis/2026-06-26-the-10b-satellite-empire-putting-ai-in-orbit-why-chips-beat-rockets-ch"
    ]
   },
   {
@@ -132,7 +137,10 @@
     "cognitive-revolution/2026-06-27-ai-am-4-cameron-on-model-consciousness-duvenaud-s-gradual-disempowerme",
     "cognitive-revolution/2026-06-23-the-god-we-deserve-nonzero-s-robert-wright-on-ai-as-humanity-s-ultimat",
     "dwarkesh/2026-06-04-alex-imas-and-phil-trammell-what-remains-scarce-after-agi",
-    "moonshot/2026-06-03-the-moonshot-mindset-with-adam-savage-and-sergey-brin"
+    "moonshot/2026-06-03-the-moonshot-mindset-with-adam-savage-and-sergey-brin",
+    "moonshots-diamandis/2026-06-01-opus-4-8-beats-gpt-5-5-the-220b-openai-foundation-and-hassabiss-2029-a",
+    "moonshots-diamandis/2026-06-03-why-agi-is-close-but-not-here-yet-ray-kurzweil-ep-261",
+    "moonshots-diamandis/2026-06-08-emerging-situation-anthropics-global-pause-recursive-self-improvement"
    ]
   },
   {
@@ -156,7 +164,7 @@
   "Count the human oversight cost. Bot-sitting can absorb individual time savings, so measure AI at team and process level, give executives explicit ownership of ROI, and invest in training that moves staff from assisted to agentic use.",
   "Keep harnesses, context and evals portable. Vendors are bundling agents into chat, Slack and coding tools; owning your context, skills and private evals preserves the option to switch models as prices and access shift."
  ],
- "themesEpisodeCount": 65,
+ "themesEpisodeCount": 73,
  "episodes": [
   {
    "key": "aidb/2026-06-30-how-big-is-the-ai-economy",
@@ -318,8 +326,8 @@
     "Will Marshall"
    ],
    "durationMin": 147,
-   "summary": "This episode is about the collision of Earth intelligence, orbital compute, Chinese open-weight AI, and a new wave of space infrastructure. The big idea is that “large earth models” and “project Suncatcher” are turning space data and space compute into core AI primitives. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Will Marshall …",
-   "summarySource": "show-notes",
+   "summary": "Peter Diamandis and the Moonshot Mates interview Planet CEO Will Marshall about large earth models, Earth observation, orbital compute with Google's Project Suncatcher, space debris and launch economics. The roundtable then covers Eric Schmidt's Relativity Space, AI talent moving from Google to OpenAI and Anthropic, Javier Milei's AI personhood proposals versus Yuval Noah Harari, China's open-weight GLM 5.2, and AI capex and compute pricing.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -631,8 +639,8 @@
    "youtube": "https://www.youtube.com/watch?v=BX9ofqxmeYw",
    "guests": [],
    "durationMin": 121,
-   "summary": "This episode is about three huge shifts: SpaceX’s record IPO and the rise of trillionaire-scale capital, the U.S. government’s direct intervention in frontier AI access, and OpenAI’s move toward agentic self-direction with Codex. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of Open ExO, a GP at Exponential …",
-   "summarySource": "show-notes",
+   "summary": "The Moonshot Mates discuss SpaceX's record IPO, Elon Musk becoming the first trillionaire, and wealth concentration. They debate the US government's export control directive that forced Anthropic to suspend Fable 5 and Mythos 5, OpenAI's price cuts, Sam Altman's comments on delaying the IPO amid recursive self-improvement, and Codex setting its own goals. Later segments cover data center power bottlenecks, AI taxation, youth unemployment and unrest, plus an AMA on Bitcoin and sovereign wealth funds.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -862,8 +870,8 @@
     "Brian Armstrong"
    ],
    "durationMin": 118,
-   "summary": "This episode is a dense Moonshots roundtable on Bitcoin, agentic payments, government stakes in AI companies, the OpenAI IPO, SpaceX’s compute expansion, Apple’s Siri reboot, and longevity biotech. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Brian Armstrong is the Co-founder and CEO of Coinbase. Salim Ismail is the founder of Open ExO …",
-   "summarySource": "show-notes",
+   "summary": "Moonshot Mates roundtable with Coinbase CEO Brian Armstrong covering Bitcoin's price outlook, quantum risk to Bitcoin, and Coinbase's agentic payments, followed by debate on US government equity stakes in frontier AI labs, the OpenAI S-1, SpaceX's compute deals, AI1 satellites and Gigasat factory. It closes with NewLimit's $435M raise for epigenetic reprogramming, longevity escape velocity, embryo editing, Anthropic's Fable 5 and Mythos 5 release, and Apple rebuilding Siri on Google Gemini.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -971,8 +979,8 @@
    "youtube": "https://www.youtube.com/watch?v=P2HJEz3oqLs",
    "guests": [],
    "durationMin": 68,
-   "summary": "In this episode, the mates discuss Anthropic’s recursive self-improvement and recent admission. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of Open ExO, a GP at Exponential Venture Capital/The Organizational Singularity Fund and a sought after global speaker and thought leader. Dave Blundin is the founder & GP …",
-   "summarySource": "show-notes",
+   "summary": "An unscheduled Moonshot Mates episode on the Anthropic Institute paper 'When AI Builds Itself', which reports Claude writing over 80% of Anthropic's merged code and calls for the option of a global pause on frontier AI. The Mates also discuss Javier Milei's plan to make Argentina an unregulated haven for AI with a 'non-human corporation' legal category, a strong May jobs report followed by a market sell-off, and offer mid-2026 predictions.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1055,8 +1063,8 @@
     "Emad Mostaque"
    ],
    "durationMin": 125,
-   "summary": "In this episode, the mates discuss the Anthropic IPO filing, Trump signing the AI Executive Order, and more. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Emad Mostaque is the founder of Intelligent Internet ( https://www.ii.inc ) Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer …",
-   "summarySource": "show-notes",
+   "summary": "Moonshot Mates roundtable with guest Emad Mostaque covering Trump's AI executive order with voluntary 30-day pre-release model access, ChatGPT passing 1 billion monthly users, OpenAI's Rosalind biodefense and robotics push, a DNA synthesis screening letter, Anthropic's confidential IPO filing, Microsoft's in-house models, and Bernie Sanders' 50% AI sovereign wealth fund proposal. It also covers AI and jobs, Nvidia's N1X laptop chip, data center water use, the Leiden Declaration by mathematicians, a teachers' union AI plan, and longevity news including Russia's $26B program, NewLimit's raise and the Verve-102 PCSK9 gene-editing therapy.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1251,8 +1259,8 @@
     "Steven Kotler"
    ],
    "durationMin": 94,
-   "summary": "In this episode, the mates and Steven Kotler sit down with Ray Kurzweil to discuss AGI, the future, and more. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Ray Kurzweil is an American inventor and futurist best known for his pioneering work in optical character recognition and his predictions regarding the technological singularity. Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 …",
-   "summarySource": "show-notes",
+   "summary": "A live stage conversation at MIT in which Peter Diamandis, the Moonshot Mates and Steven Kotler interview Ray Kurzweil about his AGI-by-2029 and singularity-by-2045 predictions, the law of accelerating returns, and what is still missing (physics understanding and robotics). Audience questions cover AI consciousness and personhood, AI in government, education and MIT's curriculum, and Kurzweil's career at Google and his reading machine for the blind.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1347,8 +1355,8 @@
    "youtube": "https://www.youtube.com/watch?v=aMyubFA106U",
    "guests": [],
    "durationMin": 104,
-   "summary": "In this episode, the mates discuss Opus 4.8, The OpenAI Foundation, Demis Hassabis' views on AGI, AI extremism on the rise, and more. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of Open ExO, a GP at Exponential Venture Capital/The Organizational Singularity Fund and a sought after global …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates news roundtable covering Anthropic's Opus 4.8 release against GPT 5.5, Demis Hassabis's 2029 AGI timeline and the AGI-definition debate, and the OpenAI Foundation's size and economic-futures grants with a long discussion of UBI and related models. Other segments cover Amazon's AI shopping assistant, IBM's quantum chip foundry, wind and solar overtaking gas, anti-tech extremism, California's AI workforce dashboard, a cheap Chinese cancer detector, US robotics competitiveness, the New Glenn explosion, and audience questions.",
+   "summarySource": "extraction",
    "partial": false
   }
  ]

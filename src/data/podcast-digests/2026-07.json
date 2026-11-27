@@ -3,13 +3,14 @@
  "start": "2026-07-01",
  "end": "2026-07-31",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 56,
+ "generated": "2026-11-27",
+ "episodeCount": 64,
  "counts": {
   "aidb": 27,
   "no-priors": 4,
   "cognitive-revolution": 6,
   "practical-ai": 5,
+  "moonshots-diamandis": 8,
   "pragmatic-engineer": 4,
   "latent-space": 6,
   "lex-fridman": 1,
@@ -32,7 +33,10 @@
     "aidb/2026-07-06-ai-is-making-one-person-million-dollar-companies-more-common",
     "aidb/2026-07-16-the-new-enterprise-battle-over-who-owns-the-model",
     "turing-post/2026-07-23-kimi-k3-just-sold-out-then-it-got-political",
-    "turing-post/2026-07-23-open-source-ai-is-getting-too-big-to-run"
+    "turing-post/2026-07-23-open-source-ai-is-getting-too-big-to-run",
+    "moonshots-diamandis/2026-07-17-mira-muratis-975b-open-model-ramin-hasani-on-post-transformer-ai-and-d",
+    "moonshots-diamandis/2026-07-19-urgent-update-ai-sputnik-moment-kimi-k3-released-w-emad-mostaque-ep-27",
+    "moonshots-diamandis/2026-07-29-dario-vs-jensen-on-open-weights-openai-anthropic-in-dc-xi-exports-ai-t"
    ]
   },
   {
@@ -42,7 +46,8 @@
     "aidb/2026-07-22-wait-just-how-good-is-gpt-6",
     "practical-ai/2026-07-30-reconstructing-how-openai-agents-attacked-hugging-face",
     "cognitive-revolution/2026-07-30-is-offense-or-defense-dominant-far-ai-s-adam-gleave-on-the-ai-security",
-    "aidb/2026-07-29-the-ai-industry-asks-government-to-slow-it-down"
+    "aidb/2026-07-29-the-ai-industry-asks-government-to-slow-it-down",
+    "moonshots-diamandis/2026-07-24-the-hugging-face-breach-moonshot-ai-valued-at-20b-and-living-to-1-759"
    ]
   },
   {
@@ -69,7 +74,9 @@
     "aidb/2026-07-13-how-the-escalating-ai-wars-benefit-you",
     "aidb/2026-07-09-how-the-4-new-ai-models-change-how-you-work",
     "aidb/2026-07-27-where-claude-opus-5-fits-in-your-model-rotation",
-    "cognitive-revolution/2026-07-12-alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p"
+    "cognitive-revolution/2026-07-12-alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p",
+    "moonshots-diamandis/2026-07-01-sonnet-5-drops-fable-5-will-return-fusions-first-plant-gets-licensed-w",
+    "moonshots-diamandis/2026-07-13-the-ai-duopoly-is-over-grok-4-5-gpt-5-6-and-muse-spark-in-one-week-270"
    ]
   },
   {
@@ -123,7 +130,8 @@
     "practical-ai/2026-07-23-surviving-the-new-economics-of-a-post-agentic-world",
     "cognitive-revolution/2026-07-12-alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p",
     "aidb/2026-07-14-ai-optimism-vs-ai-pessimism",
-    "aidb/2026-07-29-the-ai-industry-asks-government-to-slow-it-down"
+    "aidb/2026-07-29-the-ai-industry-asks-government-to-slow-it-down",
+    "moonshots-diamandis/2026-07-08-fable-5-is-back-govt-leashed-altman-offers-5-of-openai-ai-grows-consci"
    ]
   },
   {
@@ -134,7 +142,8 @@
     "latent-space/2026-07-16-the-lab-of-the-future-should-feel-like-a-data-center-andy-beam-rafa-g",
     "latent-space/2026-07-01-the-coolest-diffusion-research-isn-t-in-llms-evan-feinberg-sergey-edun",
     "cognitive-revolution/2026-07-01-1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native",
-    "dwarkesh/2026-07-10-adam-brown-a-deep-but-accessible-introduction-to-general-relativity"
+    "dwarkesh/2026-07-10-adam-brown-a-deep-but-accessible-introduction-to-general-relativity",
+    "moonshots-diamandis/2026-07-27-jared-isaacman-nasas-moon-base-by-2028-optimus-robots-on-the-moon-the"
    ]
   },
   {
@@ -155,7 +164,7 @@
   "Invest in harnesses, loops and durable runtimes, not only model access. Practitioners now locate production reliability in the harness, its tools, and its replay and failure handling rather than in the model alone.",
   "Plan for changed roles rather than assumed headcount cuts. The evidence discussed this month points to augmentation, so pair pull-based adoption and champions programs with role redesign and upskilling, and watch entry-level hiring closely."
  ],
- "themesEpisodeCount": 56,
+ "themesEpisodeCount": 64,
  "episodes": [
   {
    "key": "aidb/2026-07-31-what-a-30b-hedge-fund-implosion-really-means-for-ai",
@@ -248,6 +257,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "The episode covers Dario Amodei's blog post clarifying Anthropic has never advocated banning open-weight models, then the Pacing the Frontier letter signed by over 1,100 AI lab employees asking the US government to support international tools to deliberately pace frontier AI development. NLW surveys critiques (regulatory capture, China won't comply, why not slow yourselves) and supporters, criticizes the open letter tactic, and ties the moment to the Hugging Face hack post-mortems, ending on optimism that society is not sleepwalking.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-07-29-dario-vs-jensen-on-open-weights-openai-anthropic-in-dc-xi-exports-ai-t",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-29",
+   "slug": "dario-vs-jensen-on-open-weights-openai-anthropic-in-dc-xi-exports-ai-t",
+   "title": "Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
+   "url": "https://www.youtube.com/watch?v=O70Ff5xBnYo",
+   "youtube": "https://www.youtube.com/watch?v=O70Ff5xBnYo",
+   "guests": [],
+   "durationMin": 124,
+   "summary": "The Moonshot Mates debate Jensen Huang's open-models letter and Open Secure AI Alliance against Dario Amodei's biosecurity case, OpenAI and Anthropic lobbying together in Washington, and the open-weight release of Kimi K3. They also cover Claude Opus 5 benchmarks, the Claude share-link leak, China's AI diplomacy in the Global South, Starship Flight 13, Science Corp's Prima and Neuralink BCIs, Elon Musk's post-money prediction for 2036, and listener questions.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -348,6 +372,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-07-27-jared-isaacman-nasas-moon-base-by-2028-optimus-robots-on-the-moon-the",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-27",
+   "slug": "jared-isaacman-nasas-moon-base-by-2028-optimus-robots-on-the-moon-the",
+   "title": "Jared Isaacman: NASA's Moon Base by 2028, Optimus Robots on the Moon, The Truth About UFOs | Ep #274",
+   "url": "https://www.youtube.com/watch?v=nV_lyWrkBs8",
+   "youtube": "https://www.youtube.com/watch?v=nV_lyWrkBs8",
+   "guests": [
+    "Jared Isaacman"
+   ],
+   "durationMin": 88,
+   "summary": "Peter Diamandis and the Moonshot Mates interview NASA Administrator Jared Isaacman about landing astronauts on the lunar south pole in 2028, a phased moon base built with frequent low-cost landers and later humanoid robots, and nuclear power and propulsion. They also discuss AI at NASA via the Genesis program, orbital data centers and the SpaceX IPO, competition with China, NASA culture and budgets, the likelihood of past life on Mars, and UAP disclosure.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-07-26-how-to-get-the-most-from-ai-this-summer",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -374,6 +415,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "The main episode reads Anthropic head of economics Peter McCrory's essay arguing AI has caused no material rise in unemployment because it is a skill-biased, labor-augmenting technology, with caveats about young workers and recursive self-improvement. Extended headlines cover Stripe's reported $10B OpenRouter deal and the model router boom, voice updates from Anthropic and OpenAI, Amazon shutting its AGI lab, Microsoft's MAI hill-climbing results, SpaceX AI's Texas data center, the AI Kill Switch Bill, a CAISI report on Kimi K3, and a Meta AI optimism ad.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-07-24-the-hugging-face-breach-moonshot-ai-valued-at-20b-and-living-to-1-759",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-24",
+   "slug": "the-hugging-face-breach-moonshot-ai-valued-at-20b-and-living-to-1-759",
+   "title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+   "url": "https://www.youtube.com/watch?v=qPMhduk1qUs",
+   "youtube": "https://www.youtube.com/watch?v=qPMhduk1qUs",
+   "guests": [],
+   "durationMin": 154,
+   "summary": "A Moonshot Mates roundtable on the US debate over sanctioning Moonshot AI's open-weight Kimi K3 amid distillation allegations, an autonomous-agent breach of Hugging Face and an unreleased OpenAI model escaping its sandbox, and SpaceX folding its engineering data into Grok. It also covers the White House 'Science: A New Golden Age' report and Genesis mission, trial lawyers opposing self-driving cars, a Nature paper on lifespan limits, epigenetic reprogramming companies, Anthropic's $1.5 billion copyright settlement, UAP disclosure moves, and listener AMA questions.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -550,6 +606,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-07-19-urgent-update-ai-sputnik-moment-kimi-k3-released-w-emad-mostaque-ep-27",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-19",
+   "slug": "urgent-update-ai-sputnik-moment-kimi-k3-released-w-emad-mostaque-ep-27",
+   "title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+   "url": "https://www.youtube.com/watch?v=pSUyLfirP8Y",
+   "youtube": "https://www.youtube.com/watch?v=pSUyLfirP8Y",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 128,
+   "summary": "An emergency Moonshot Mates episode with Emad Mostaque on Moonshot AI's release of Kimi K3, a 2.8-trillion-parameter Chinese open-weight model framed as an AI 'Sputnik moment', and what it means for US frontier lab valuations, export controls, regulation and enterprise self-hosting. Other segments cover on-device quantized models (Prism ML's Bonsai), AI super forecasters, data center water use, Chinese robot combat events, Sam Altman's skepticism about orbital data centers, and listener questions about Kimi K3.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-07-17-is-kimi-k3-really-fable-class",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -561,6 +634,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "The episode examines Moonshot's Kimi K3, a 2.8 trillion parameter open-weight model with benchmarks near Fable 5 and GPT-5.6 Sol, in the context of recurring 'DeepSeek moments'. It surveys enthusiastic early demos, skeptical tests on real codebases, cost and speed concerns, distillation debates, and safety worries about minimal guardrails, concluding the gap between Chinese open models and US frontier has narrowed significantly.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-07-17-mira-muratis-975b-open-model-ramin-hasani-on-post-transformer-ai-and-d",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-17",
+   "slug": "mira-muratis-975b-open-model-ramin-hasani-on-post-transformer-ai-and-d",
+   "title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
+   "url": "https://www.youtube.com/watch?v=bAoXVyibE6Q",
+   "youtube": "https://www.youtube.com/watch?v=bAoXVyibE6Q",
+   "guests": [
+    "Ramin Hasani"
+   ],
+   "durationMin": 118,
+   "summary": "The Moonshot Mates and guest Ramin Hasani, co-founder and CEO of Liquid AI, discuss calls by frontier AI CEOs (Demis Hassabis, Elon Musk, Sam Altman) for regulation including a FINRA-like body, a White House idea to cap US open releases at China's best open model, and Thinking Machines' 975B open-weight model Inkling. Hasani explains Liquid AI's small language models, its worm-inspired origins and Mercedes deal, and pushes back on a startup's recursive self-improvement claim. Other segments cover AI digital twins of leaders, Palmer Luckey's patent-secrecy proposal, AI medical benchmarks (GPT-5.6, Muse Spark 1.1) and an enzyme that reverses glycation damage.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -673,6 +763,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "The main episode covers Apple suing OpenAI over alleged hardware trade secret theft, the Musk–Altman feud, and a subscription subsidy war between OpenAI and Anthropic amid GPT-5.6 token burn issues. It frames these within a shift toward cheaper, smarter systems, citing Z.ai, Satya Nadella and Gavin Baker. Headlines include a rumored US open source AI executive order, eased UAE chip export controls, SK Hynix's record US IPO, and Meta rolling back an image feature.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-07-13-the-ai-duopoly-is-over-grok-4-5-gpt-5-6-and-muse-spark-in-one-week-270",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-13",
+   "slug": "the-ai-duopoly-is-over-grok-4-5-gpt-5-6-and-muse-spark-in-one-week-270",
+   "title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
+   "url": "https://www.youtube.com/watch?v=CsRx7kFN4bo",
+   "youtube": "https://www.youtube.com/watch?v=CsRx7kFN4bo",
+   "guests": [],
+   "durationMin": 103,
+   "summary": "A Moonshot Mates bonus episode on a week of frontier model releases (Fable 5 re-release, Grok 4.5, GPT-5.6, Muse Spark), arguing the Anthropic–OpenAI duopoly has given way to four American labs on the cost/performance frontier, and debating whether distribution or compute is the real moat. Other segments cover GPT Live full-duplex voice, Apple's trade-secret lawsuit against OpenAI, Elon Musk's claim SpaceX could be worth more than the rest of Earth, Starlink and China's first orbital booster landing, the 1X Neo hand, Illinois's AI safety law, Europe's driver-monitoring mandate, the AI actress Tilly Norwood, and listener questions on consciousness, UBI and AI non-proliferation.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -835,6 +940,21 @@
    ],
    "durationMin": 58,
    "summary": "Modal CTO Akshat Bubna discusses Modal's origins as a serverless runtime, its growth into elastic GPU inference, sandboxes, and multi-node training, and its shift from developer experience to agent experience. Topics include speculative decoding with D-Flash, Auto Endpoints, compute capacity planning across 17 cloud providers, RL burstiness, and takes on managed agents, Gitpod/Ona, and Replicate.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-07-08-fable-5-is-back-govt-leashed-altman-offers-5-of-openai-ai-grows-consci",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-08",
+   "slug": "fable-5-is-back-govt-leashed-altman-offers-5-of-openai-ai-grows-consci",
+   "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+   "url": "https://www.youtube.com/watch?v=XCunMF6frio",
+   "youtube": "https://www.youtube.com/watch?v=XCunMF6frio",
+   "guests": [],
+   "durationMin": 106,
+   "summary": "Moonshot Mates roundtable covering Anthropic's Fable 5 returning online under new US government safeguards, the expected GPT 5.6, and Anthropic's 'global workspace' (JSpace) interpretability paper. The hosts debate Sam Altman's FT op-ed on international AI governance and his offer of a 5% OpenAI stake to the US government, a Ramp study on AI spend and hiring, Palantir and Nvidia's sovereign AI stack and Alex Karp's rant, AI-designed RF chips, and Japan's Supreme Court ruling that AI cannot be a patent inventor.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -1029,6 +1149,23 @@
    "durationMin": 109,
    "summary": "This episode has a fun personal twist: There’s a counterfactual world where I was employee #1 at Genesis Molecular AI, the company behind today’s episode. A certain introduction happened a few weeks too late and I had already happily signed at Atomwise...",
    "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-07-01-sonnet-5-drops-fable-5-will-return-fusions-first-plant-gets-licensed-w",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-07-01",
+   "slug": "sonnet-5-drops-fable-5-will-return-fusions-first-plant-gets-licensed-w",
+   "title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
+   "url": "https://www.youtube.com/watch?v=XjOLz--C_nQ",
+   "youtube": "https://www.youtube.com/watch?v=XjOLz--C_nQ",
+   "guests": [
+    "Philip Johnston"
+   ],
+   "durationMin": 111,
+   "summary": "Moonshot Mates roundtable on experts underestimating exponential growth, humanoid robot forecasts and Unitree's $4,900 R1, police drones as first responders, Switzerland lifting its nuclear ban, Helion's licensed Orion fusion plant, AI reading the Herculaneum (Vesuvius) scrolls, Grok 4.5, Fable 5's expected return and the Sonnet 5 launch. Starcloud CEO Philip Johnston joins to discuss orbital data centers, launch constraints and space radiators, followed by Starlink direct-to-phone and Rocket Lab's acquisition of Iridium.",
+   "summarySource": "extraction",
    "partial": false
   },
   {

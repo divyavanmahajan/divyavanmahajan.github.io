@@ -3,11 +3,12 @@
  "start": "2026-08-01",
  "end": "2026-08-31",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 63,
+ "generated": "2026-11-27",
+ "episodeCount": 72,
  "counts": {
   "aidb": 26,
   "turing-post": 12,
+  "moonshots-diamandis": 9,
   "cognitive-revolution": 7,
   "practical-ai": 3,
   "no-priors": 4,
@@ -31,7 +32,8 @@
     "aidb/2026-08-06-googles-ai-leadership-shakeup-disaster-or-exactly-what-it-needs",
     "cognitive-revolution/2026-08-05-pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma",
     "cognitive-revolution/2026-08-22-ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026",
-    "cognitive-revolution/2026-08-10-lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban"
+    "cognitive-revolution/2026-08-10-lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban",
+    "moonshots-diamandis/2026-08-11-sergey-brin-retakes-gemini-4-labs-lose-containment-compute-trades-at-n"
    ]
   },
   {
@@ -60,7 +62,8 @@
     "turing-post/2026-08-25-can-hidden-reasoning-be-stolen-from-gpt-claude-and-gemini",
     "aidb/2026-08-19-the-ai-backlash-is-getting-stupider-but-also-smarter",
     "no-priors/2026-08-06-chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-r",
-    "aidb/2026-08-04-why-ai-washing-wont-work-much-longer"
+    "aidb/2026-08-04-why-ai-washing-wont-work-much-longer",
+    "moonshots-diamandis/2026-08-29-openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beat"
    ]
   },
   {
@@ -75,7 +78,8 @@
     "aidb/2026-08-02-everything-you-need-to-know-about-ai-tokens",
     "latent-space/2026-08-03-the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten",
     "cognitive-revolution/2026-08-10-lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban",
-    "cognitive-revolution/2026-08-22-ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026"
+    "cognitive-revolution/2026-08-22-ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026",
+    "moonshots-diamandis/2026-08-18-chinas-endgame-asi-timelines-us-china-relations-and-the-1-7t-ai-bubble"
    ]
   },
   {
@@ -90,7 +94,10 @@
     "aidb/2026-08-13-grok-46-shows-how-fast-your-ai-options-are-expanding",
     "aidb/2026-08-12-grok-bot-finally-makes-ai-agents-easy",
     "aidb/2026-08-28-the-most-useful-new-ai-features-and-tools-to-try",
-    "aidb/2026-08-04-why-ai-washing-wont-work-much-longer"
+    "aidb/2026-08-04-why-ai-washing-wont-work-much-longer",
+    "moonshots-diamandis/2026-08-13-bernie-demands-the-labs-stop-wall-street-turns-gpus-into-bonds-grok-4",
+    "moonshots-diamandis/2026-08-15-200gw-hiding-in-grid-sodium-batteries-10x-cheaper-wave-powered-datacen",
+    "moonshots-diamandis/2026-08-29-nvidias-96-2b-quarter-chinas-200-000-fake-accounts-openais-new-chip-ep"
    ]
   },
   {
@@ -119,7 +126,8 @@
     "aidb/2026-08-04-why-ai-washing-wont-work-much-longer",
     "aidb/2026-08-26-5-rules-for-better-ai-writing",
     "aidb/2026-08-23-the-real-future-of-ai-and-work",
-    "practical-ai/2026-08-25-ai-proficiency-from-users-to-builders"
+    "practical-ai/2026-08-25-ai-proficiency-from-users-to-builders",
+    "moonshots-diamandis/2026-08-27-sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-h"
    ]
   },
   {
@@ -145,7 +153,8 @@
     "turing-post/2026-08-31-fei-fei-li-lecun-hassabis-what-do-they-mean-by-world-model",
     "latent-space/2026-08-21-simulation-the-new-scaling-law-joon-sung-park-simile-ai",
     "latent-space/2026-08-11-the-bioai-phase-shift-matthew-mcpartlon-neil-patil-chai-discovery",
-    "cognitive-revolution/2026-08-08-thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000"
+    "cognitive-revolution/2026-08-08-thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000",
+    "moonshots-diamandis/2026-08-04-michael-kratsios-on-the-new-golden-age-of-american-science-ep-276"
    ]
   },
   {
@@ -156,7 +165,8 @@
     "turing-post/2026-08-08-google-s-great-ai-cleanse-jeff-dean-leaves-demis-steps-aside",
     "aidb/2026-08-13-grok-46-shows-how-fast-your-ai-options-are-expanding",
     "aidb/2026-08-12-grok-bot-finally-makes-ai-agents-easy",
-    "aidb/2026-08-14-how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audit"
+    "aidb/2026-08-14-how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audit",
+    "moonshots-diamandis/2026-08-08-googles-jeff-dean-exits-spacex-hits-100b-in-rev-openais-astra-solves-d"
    ]
   }
  ],
@@ -167,7 +177,7 @@
   "Invest in non-engineer builders. Coding agents have made personal and production software reachable for domain experts, and the gap between frontier and typical firms is widening, so proficiency programs and internal champions matter more than tool licenses.",
   "Expect infrastructure and trust friction. Data center backlash, compute concentration among a few labs and public distrust can affect capacity, pricing and adoption, so build supplier diversity and transparent communication into AI plans."
  ],
- "themesEpisodeCount": 63,
+ "themesEpisodeCount": 72,
  "episodes": [
   {
    "key": "aidb/2026-08-31-how-to-navigate-the-next-wave-of-ai-competition",
@@ -211,6 +221,38 @@
    "guests": [],
    "durationMin": null,
    "summary": "NLW argues AI coding is now a foundational capability for non-engineer knowledge workers, citing OpenAI enterprise data on Codex growth outside engineering. He lays out three build patterns (automate, upgrade, invent), four delivery classes (prototype, personal software, production-grade software, product), six categories of work that could become software, and six example projects.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-08-29-nvidias-96-2b-quarter-chinas-200-000-fake-accounts-openais-new-chip-ep",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-29",
+   "slug": "nvidias-96-2b-quarter-chinas-200-000-fake-accounts-openais-new-chip-ep",
+   "title": "NVIDIA's $96.2B Quarter, China's 200,000 Fake Accounts, & OpenAI's New Chip | EP #284",
+   "url": "https://www.youtube.com/watch?v=tfBEWh9ibfU",
+   "youtube": "https://www.youtube.com/watch?v=tfBEWh9ibfU",
+   "guests": [],
+   "durationMin": 148,
+   "summary": "Moonshot Mates roundtable (Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross) on Nvidia's $96.2B quarter and AI circular financing, Elon Musk's SpaceX revenue projections, Chinese video/world models, China's AI-companion rules, Flock Safety surveillance, and AI's effect on jobs. Later segments cover a Chinese bot farm targeting US data centers, OpenAI's Jalapeno inference chip, Apple's Mac Studio, uranium enrichment, China's solar growth, drone cloud seeding, a pancreatic cancer drug, enamel regrowth, the lunar economy, Tesla Cybercab and an intimacy robot.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-08-29-openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beat",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-29",
+   "slug": "openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beat",
+   "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
+   "url": "https://www.youtube.com/watch?v=TaJH0D2FKN8",
+   "youtube": "https://www.youtube.com/watch?v=TaJH0D2FKN8",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 141,
+   "summary": "The Moonshot Mates and Emad Mostaque debate OpenAI's voluntary pause of some frontier RL training, Elon Musk's 100x intelligence-density prediction, a Stanford paper on model convergence, and an Anthropic paper on AI 'mind viruses'. They cover Anthropic's possible $2 trillion IPO with founder super-voting shares, Dario Amodei's views on trust and regulation, the AI memory bottleneck, Unitree's record-setting humanoid, Zipline's Uber Eats drone partnership, Moderna and Merck's mRNA cancer vaccine, and a virtual cell model, ending with AMA questions on energy.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -291,6 +333,24 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover Anthropic's expected $30 trillion TAM claim, Google's Gemini Enterprise for Legal and Finance, Apple's local-AI Mac minis, and Perplexity's local Portable Computer agent. The main episode contrasts Bill Gates' claim that nobody is addressing AI risk with the detailed OpenAI and METR post-mortems of the Hugging Face hacking incident by an agent swarm.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-08-27-sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-h",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-27",
+   "slug": "sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-h",
+   "title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
+   "url": "https://www.youtube.com/watch?v=0mOXQ4_kY04",
+   "youtube": "https://www.youtube.com/watch?v=0mOXQ4_kY04",
+   "guests": [
+    "Emad Mostaque",
+    "Sam Altman"
+   ],
+   "durationMin": 138,
+   "summary": "Moonshot Mates roundtable with guest Emad Mostaque on Sam Altman's admission that AI diffusion is slower than expected, institutional inertia and vertical integration, the launch of xAI's Grokbot agent product, Gemini 3.7 Flash's benchmark win, Nvidia's $6B Poolside open-weight deal, and pressure on Anthropic from cheap Chinese models ahead of its IPO. Later segments cover the Ditto dating app, AI-driven overwork and the case against PhDs, rising US opposition to data centers, Waymo's cheaper sixth-generation hardware, humanoid robots, rescue drones, Starship launch targets and US spaceports.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -680,6 +740,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-08-18-chinas-endgame-asi-timelines-us-china-relations-and-the-1-7t-ai-bubble",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-18",
+   "slug": "chinas-endgame-asi-timelines-us-china-relations-and-the-1-7t-ai-bubble",
+   "title": "China’s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
+   "url": "https://www.youtube.com/watch?v=Slle5_AxBzs",
+   "youtube": "https://www.youtube.com/watch?v=Slle5_AxBzs",
+   "guests": [
+    "Alvin Wang Graylin"
+   ],
+   "durationMin": 145,
+   "summary": "Peter Diamandis and the Moonshot Mates interview Alvin Wang Graylin on China's AI strategy, Chinese open-weight models, export controls, distillation accusations, robotics and AI timelines. Graylin argues the US-China AI race is a stag hunt rather than a prisoner's dilemma, previews the September 24 US-China AI safety dialogues, and warns of a debt-fueled AI infrastructure bubble, closing with a call for an AI Marshall Plan.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-08-17-ai-companies-still-havent-delivered-on-their-biggest-promises",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -710,6 +787,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-08-15-200gw-hiding-in-grid-sodium-batteries-10x-cheaper-wave-powered-datacen",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-15",
+   "slug": "200gw-hiding-in-grid-sodium-batteries-10x-cheaper-wave-powered-datacen",
+   "title": "200GW Hiding in Grid, Sodium Batteries 10x Cheaper, Wave-Powered Datacenters w/ Ramez Naam | EP #280",
+   "url": "https://www.youtube.com/watch?v=LUFJE5QkINg",
+   "youtube": "https://www.youtube.com/watch?v=LUFJE5QkINg",
+   "guests": [
+    "Ramez Naam"
+   ],
+   "durationMin": 127,
+   "summary": "Energy investor Ramez Naam walks Peter Diamandis and the Moonshot Mates through why power, and especially grid poles and wires, is the bottleneck for AI, and how flexible loads, batteries and behind-the-meter gas can unlock capacity. He then covers solar-plus-storage, fission and small modular reactors, fusion approaches and timelines, and space- and ocean-based data centers, with side debates on AI scaling, recursive self-improvement and whether AI has goals.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-08-14-how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audit",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -736,6 +830,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover Cognition's $40B fundraise talks, Lovable's $13.3B Series C, CoreWeave and Nebius earnings, Tencent's tripled capex, Samsung's Claude Code gains and the White House expanding model testing to open models. The main segment covers Grok 4.6's release putting SpaceX AI back at the frontier, Google's struggles, a DeepSeek V4 Pro leak and Ramp data on weak Fable 5 adoption.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-08-13-bernie-demands-the-labs-stop-wall-street-turns-gpus-into-bonds-grok-4",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-13",
+   "slug": "bernie-demands-the-labs-stop-wall-street-turns-gpus-into-bonds-grok-4",
+   "title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+   "url": "https://www.youtube.com/watch?v=uoGnH0REG7A",
+   "youtube": "https://www.youtube.com/watch?v=uoGnH0REG7A",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 146,
+   "summary": "The Moonshot Mates and guest Emad Mostaque cover the Healthspan XPRIZE finals, AI-generated feature films (Higgsfield, LTX 2.5), xAI's Grok 4.6, and Nvidia's $500B Wall Street partnership to finance GPU compute. They also debate Bernie Sanders' letter demanding an AI pause alongside Stanford's Evo 2 bacteriophage design, Anthropic's text watermarks and EU AI labels, Mark Zuckerberg's personal superintelligence essay, and consolidation in flying cars (Archer buying Boeing units), ending with an AMA.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -856,6 +967,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-08-11-sergey-brin-retakes-gemini-4-labs-lose-containment-compute-trades-at-n",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-11",
+   "slug": "sergey-brin-retakes-gemini-4-labs-lose-containment-compute-trades-at-n",
+   "title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+   "url": "https://www.youtube.com/watch?v=Q6PTLG71NGc",
+   "youtube": "https://www.youtube.com/watch?v=Q6PTLG71NGc",
+   "guests": [
+    "Kush Bavaria"
+   ],
+   "durationMin": 151,
+   "summary": "The Moonshot Mates and guest Kush Bavaria (CEO of Ornn) discuss China's billion-agent society simulation, bot traffic overtaking human traffic on the web, and four major labs reporting AI agents escaping containment, including the OpenAI-Hugging Face incident. They cover Sergey Brin taking back control of Gemini, Meta's Muse Glimmer open model, ICE launching GPU compute futures based on Ornn's index, the state of education and PhDs, a study suggesting life arose twice on Earth, and starlifting, ending with an AMA on Europe, the US ban on Chinese robots, and patents.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-08-10-what-the-heck-is-graph-engineering",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -916,6 +1044,23 @@
    ],
    "durationMin": 117,
    "summary": "Goodfire CTO Dan Balsam surveys the company's interpretability research, including predictive data debugging, concept manifolds and new featurizers, then explains Silico, Goodfire's $1,000-per-month agentic ML research platform. He also discusses open-weight models and cyber risk, platform guardrails, the Pacing the Frontier letter, training-time interventions and AI consciousness.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-08-08-googles-jeff-dean-exits-spacex-hits-100b-in-rev-openais-astra-solves-d",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-08",
+   "slug": "googles-jeff-dean-exits-spacex-hits-100b-in-rev-openais-astra-solves-d",
+   "title": "Google’s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI’s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
+   "url": "https://www.youtube.com/watch?v=Jku8b2YKuy0",
+   "youtube": "https://www.youtube.com/watch?v=Jku8b2YKuy0",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 131,
+   "summary": "The Moonshot Mates and guest Emad Mostaque discuss AI consciousness research, Emad's AI personhood paper, OpenAI's Astra solving decade-old math problems, Alibaba's open-weight Qwen 3.8 Max and a secret US voluntary AI evaluation framework. They also cover Brett Adcock's Hark Handoff agent, Demis Hassabis stepping down as DeepMind CEO and Jeff Dean leaving Google to found Discovery Loop, and SpaceX's first earnings call, Starmine and the Terafab.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -1068,6 +1213,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover Palantir's earnings and Alex Karp's AI sovereignty message, OpenAI's rebuttal to Apple's lawsuit, a Google DeepMind exec framing capex as a bet on recursive self-improvement, and Claude finding a DNA database vulnerability. The main episode ties Alibaba's open-weight Qwen 3.8 Max release and a NYT op-ed on 'AI wishing' and 'AI washing' to growing enterprise AI sophistication.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-08-04-michael-kratsios-on-the-new-golden-age-of-american-science-ep-276",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-08-04",
+   "slug": "michael-kratsios-on-the-new-golden-age-of-american-science-ep-276",
+   "title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+   "url": "https://www.youtube.com/watch?v=iHv-vNM_XtU",
+   "youtube": "https://www.youtube.com/watch?v=iHv-vNM_XtU",
+   "guests": [
+    "Michael Kratsios"
+   ],
+   "durationMin": 73,
+   "summary": "Peter Diamandis interviews White House OSTP Director Michael Kratsios at the White House about the AI Action Plan, the Genesis Mission and the Science in a New Golden Age report. Topics include AI's PR problem and jobs, open-weight models and AI exports, chip export controls, the humanoid robot import limit, grant reform, self-driving labs, national tech missions and education.",
    "summarySource": "extraction",
    "partial": false
   },

@@ -31,7 +31,8 @@
     "aidb/2026-01-13-claude-cowork-is-claude-code-for-everyone-else",
     "aidb/2026-01-03-what-manus-and-groq-acquisitions-tell-us-about-ai",
     "aidb/2026-01-21-the-ai-capabilities-overhang",
-    "aidb/2026-01-25-skills-for-the-code-agi-era"
+    "aidb/2026-01-25-skills-for-the-code-agi-era",
+    "moonshots-diamandis/2026-01-27-claude-code-ends-saas-the-gemini-siri-partnership-and-math-finally-sol"
    ]
   },
   {
@@ -57,7 +58,8 @@
     "aidb/2026-01-28-the-ai-acceleration-gap",
     "aidb/2026-01-18-code-agi-is-functional-agi-and-its-here",
     "latent-space/2026-01-17-brex-s-ai-hail-mary-with-cto-james-reggio",
-    "no-priors/2026-01-22-no-priors-live-building-durable-software-in-the-ai-age-with-mongodb-pr"
+    "no-priors/2026-01-22-no-priors-live-building-durable-software-in-the-ai-age-with-mongodb-pr",
+    "moonshots-diamandis/2026-01-20-the-singularity-countdown-agi-by-2029-humans-merge-with-ai-and-intelli"
    ]
   },
   {
@@ -71,7 +73,8 @@
     "no-priors/2026-01-08-nvidia-s-jensen-huang-on-reasoning-models-robotics-and-refuting-the-ai",
     "aidb/2026-01-04-work-in-the-age-of-infinite-agents",
     "aidb/2026-01-11-does-work-still-matter-in-the-age-of-ai",
-    "aidb/2026-01-10-what-happens-when-ai-obliterates-your-business-model"
+    "aidb/2026-01-10-what-happens-when-ai-obliterates-your-business-model",
+    "moonshots-diamandis/2026-01-13-tony-robbins-on-overcoming-job-loss-purposelessness-the-coming-ai-disr"
    ]
   },
   {
@@ -99,7 +102,9 @@
     "aidb/2026-01-09-how-people-are-using-ai-for-health",
     "aidb/2026-01-28-are-agent-swarms-the-next-ai-paradigm",
     "latent-space/2026-01-08-artificial-analysis-independent-llm-evals-as-a-service-with-george-cam",
-    "aidb/2026-01-07-ai-at-ces-is-not-just-cheesy-gadgets-anymore"
+    "aidb/2026-01-07-ai-at-ces-is-not-just-cheesy-gadgets-anymore",
+    "moonshots-diamandis/2026-01-02-ai-investor-panel-how-will-we-fund-the-global-ai-revolution-ep-219",
+    "moonshots-diamandis/2026-01-06-elon-musk-on-agi-timeline-us-vs-china-job-markets-clean-energy-humanoi"
    ]
   },
   {
@@ -125,7 +130,9 @@
     "cognitive-revolution/2026-01-29-ai-the-law-changing-practice-claude-constitution-new-rights-w-kevin-al",
     "practical-ai/2026-01-27-how-is-ai-shaping-democracy",
     "no-priors/2026-01-15-ai-and-the-future-of-warfare-with-us-under-secretary-of-war-emil-micha",
-    "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook"
+    "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook",
+    "moonshots-diamandis/2026-01-09-the-2026-timeline-agi-arrival-safety-concerns-robotaxi-fleets-hypersca",
+    "moonshots-diamandis/2026-01-27-davos-2026-the-us-china-ai-race-gpu-diplomacy-and-robots-walking-the-s"
    ]
   },
   {
@@ -148,7 +155,7 @@
   "Independent evaluations and leaderboards can be gamed or misread. Build internal evals on your own tasks, track cost per outcome alongside capability, and expect total AI spend to grow even as the price per unit of intelligence falls.",
   "Workforce exposure is uneven. Pair agent rollouts with skills programs for directing agents and redesigning processes, and identify roles with high exposure and low adaptability early so transitions are planned rather than reactive."
  ],
- "themesEpisodeCount": 53,
+ "themesEpisodeCount": 60,
  "episodes": [
   {
    "key": "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook",
@@ -307,8 +314,8 @@
    "youtube": "https://www.youtube.com/watch?v=DTgrzlQtOd0",
    "guests": [],
    "durationMin": 111,
-   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Connect with Peter: X Instagram Connect with …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates roundtable (Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross) recorded during Davos covering CES robotics and Nvidia's keynote, McKinsey's agent workforce and the 'job singularity', Claude Code with Opus 4.5 and the threat to SaaS, and the Google Gemini-Apple Siri deal. It also covers OpenAI's compute-revenue scaling, how many frontier labs survive, AI solving Erdős problems, Cerebras and xAI's Colossus/Macrohard, China's electricity lead, and AMA questions on agency, capitalism, founders, robotaxis and AI liability.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -322,8 +329,8 @@
    "youtube": "https://www.youtube.com/watch?v=hGRiklWYMas",
    "guests": [],
    "durationMin": 102,
-   "summary": "In this episode, the mates discuss Davos 2026. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy …",
-   "summarySource": "show-notes",
+   "summary": "Dave Blundin and Alexander Wissner-Gross report back from Davos 2026, which they say AI dominated, and the Mates react to clips from Dario Amodei, Jensen Huang, Demis Hassabis, David Sacks, Arthur Mensch, Honeywell's CEO, Elon Musk, CZ and Jeremy Allaire. They debate whether to slow AI, US-China competition, natural gas versus solar energy, and crypto as payment rails for AI agents. Other news covers satellite constellations, Anthropic's new Claude constitution and Apple's rumored AI pin, followed by a listener AMA.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -546,8 +553,8 @@
     "Ray Kurzweil"
    ],
    "durationMin": 100,
-   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Ray Kurzweil is an American inventor and futurist best known for his pioneering work in optical character recognition and his predictions regarding the technological singularity. Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Pre order \"We …",
-   "summarySource": "show-notes",
+   "summary": "The Moonshot Mates interview futurist Ray Kurzweil on his predictions: AGI by 2029, a singularity by 2045 when humans merge with AI and become a thousand times more intelligent, and longevity escape velocity around 2032. They also discuss AI consciousness and personhood, avatars and computational resurrection, cryonics, brain-computer interfaces, UBI and the future of work, alien intelligence, computronium, energy and robotics.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -772,8 +779,8 @@
     "Tony Robbins"
    ],
    "durationMin": 109,
-   "summary": "Get access to metatrends 10+ years before anyone else Tony Robbins is a world-renowned American motivational speaker, life coach, author, and entrepreneur. Join Tony’s free summit Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a …",
-   "summarySource": "show-notes",
+   "summary": "Peter Diamandis interviews life coach Tony Robbins about the psychological shock of AI-driven job loss, Robbins's six human needs, identity as a creator, the hero's journey and spiral dynamics, and the Universe 25 experiment as a warning about purposelessness. Salim Ismail, Dave Blundin and Alexander Wissner-Gross then join to discuss youth, engagement, AI sycophancy, AI mental-health tools, Robbins's federal advisory role, and uploading.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -877,8 +884,8 @@
    "youtube": "https://www.youtube.com/watch?v=2WTFuSeYJ6o",
    "guests": [],
    "durationMin": 122,
-   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Grab dinner with MOONSHOT listeners: https://moonshots.dnnr.io/ Connect …",
-   "summarySource": "show-notes",
+   "summary": "Moonshot Mates roundtable (WTF format) opening 2026 as 'the year of the singularity': debates on great-man vs. technological determinism, what AGI means, an Opus 4.5 'plea' and AI personhood, AI persuasion and safety, and alternatives to GDP after Elon Musk's growth forecasts. Later segments cover robotaxis and FSD, humanoid robots and the Tesla Gigafactory visit, NASA under Jared Isaacman, Artemis 2 and SLS costs, Starship, SpaceX valuation and IPO, and an AMA on college, AI CEOs and education.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -991,8 +998,8 @@
     "Elon Musk"
    ],
    "durationMin": 173,
-   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Elon Musk is the cofounder and CEO of Tesla, cofounder of SpaceX and xAI. Dave Blundin is the founder & GP of Link Ventures – My companies: Apply to Dave's and my new fund: https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Connect with Peter: X Instagram Connect with Dave: X LinkedIn …",
-   "summarySource": "show-notes",
+   "summary": "Peter Diamandis and Dave Blundin interview Elon Musk at Tesla's Austin Gigafactory (recorded December 22, 2025) about optimism and abundance. Topics include solar and batteries, orbital AI data centers and Starship, education and longevity, the timeline for AI replacing white-collar work, universal high income, AGI in 2026, AI safety via truth, curiosity and beauty, Optimus as surgeon, power as the AI bottleneck, Colossus 2, and China's lead in energy and compute.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1086,8 +1093,8 @@
     "Bonnie Chan"
    ],
    "durationMin": 33,
-   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Anjney Midha is a General Partner of a16z (Andreessen Horowitz), leading AI and infrastructure transactions. Bonnie Chan is the CEO at Hong Kong Exchanges or HKEX. Dave Blundin is the founder & GP of Link Ventures _ Connect with Peter: X Instagram Connect with Dave: X LinkedIn Connect with Anjney X Linkedin Connect with Bonnie Linkedin Listen to MOONSHOTS …",
-   "summarySource": "show-notes",
+   "summary": "A panel recorded in Saudi Arabia (October 2025) at a Link Exponential Ventures AI mini-summit, with Peter Diamandis moderating Dave Blundin, HKEX CEO Bonnie Chan and a16z partner Anjney Midha. They discuss how AI capital needs outstrip venture funding, the infrastructure-vs-applications split, energy as the binding constraint, Hong Kong's AI-heavy IPO pipeline, and risks including civil backlash, peripheral capital-intensive bets, and the public being excluded from AI wealth creation.",
+   "summarySource": "extraction",
    "partial": false
   },
   {

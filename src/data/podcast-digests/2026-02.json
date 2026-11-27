@@ -3,13 +3,14 @@
  "start": "2026-02-01",
  "end": "2026-02-28",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 56,
+ "generated": "2026-11-27",
+ "episodeCount": 65,
  "counts": {
   "aidb": 25,
   "latent-space": 9,
   "no-priors": 4,
   "cognitive-revolution": 8,
+  "moonshots-diamandis": 9,
   "pragmatic-engineer": 3,
   "practical-ai": 3,
   "dwarkesh": 2,
@@ -30,7 +31,8 @@
     "aidb/2026-02-18-sonnet-46-changes-the-agent-math",
     "aidb/2026-02-16-something-big-is-happening",
     "pragmatic-engineer/2026-02-25-mitchell-hashimotos-new-way-of-writing-code",
-    "pragmatic-engineer/2026-02-12-the-programming-language-after-kotlin-with-the-creator-of-kotlin"
+    "pragmatic-engineer/2026-02-12-the-programming-language-after-kotlin-with-the-creator-of-kotlin",
+    "moonshots-diamandis/2026-02-09-opus-4-6-tops-benchmarks-chatgpt-market-share-decline-and-the-privacy"
    ]
   },
   {
@@ -44,7 +46,9 @@
     "aidb/2026-02-02-why-moltbook-matters",
     "aidb/2026-02-09-did-the-super-bowl-make-americans-like-ai-any-more",
     "aidb/2026-02-19-how-people-actually-use-ai-agents",
-    "practical-ai/2026-02-02-inside-an-ai-run-company"
+    "practical-ai/2026-02-02-inside-an-ai-run-company",
+    "moonshots-diamandis/2026-02-05-agi-debate-is-it-finally-here-ep-227",
+    "moonshots-diamandis/2026-02-18-openai-acquires-openclaw-400x-cost-collapse-why-india-wins-the-talent"
    ]
   },
   {
@@ -58,7 +62,8 @@
     "aidb/2026-02-10-why-ai-leads-to-more-work-not-less",
     "aidb/2026-02-16-openclaw-goes-to-openai",
     "aidb/2026-02-01-openai-ipo-grok-spacex-merger-the-ai-ipo-race-heats-up",
-    "no-priors/2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-magnetar-c"
+    "no-priors/2026-02-26-how-capital-is-powering-the-ai-infrastructure-buildout-with-magnetar-c",
+    "moonshots-diamandis/2026-02-02-cathie-woods-2026-vision-7-gdp-growth-rising-ai-demand-us-vs-china-rob"
    ]
   },
   {
@@ -73,7 +78,9 @@
     "aidb/2026-02-22-why-ai-could-be-better-for-plumbers-than-programmers",
     "practical-ai/2026-02-18-cognitive-synthesis-and-neural-athletes",
     "aidb/2026-02-20-does-gemini-31-pro-matter",
-    "pragmatic-engineer/2026-02-04-the-third-golden-age-of-software-engineering-thanks-to-ai-with-grady-b"
+    "pragmatic-engineer/2026-02-04-the-third-golden-age-of-software-engineering-thanks-to-ai-with-grady-b",
+    "moonshots-diamandis/2026-02-13-the-ai-ceo-arrives-sam-altmans-succession-plan-job-loss-continues-and",
+    "moonshots-diamandis/2026-02-25-can-ai-replace-teachers-inside-the-40m-company-using-ai-tutors-to-teac"
    ]
   },
   {
@@ -101,7 +108,8 @@
     "latent-space/2026-02-24-claude-code-for-finance-the-global-memory-shortage-doug-o-laughlin-sem",
     "dwarkesh/2026-02-13-dario-amodei-we-are-near-the-end-of-the-exponential",
     "aidb/2026-02-26-the-openclaw-ification-of-ai",
-    "aidb/2026-02-11-how-the-global-ai-race-has-shifted"
+    "aidb/2026-02-11-how-the-global-ai-race-has-shifted",
+    "moonshots-diamandis/2026-02-11-brett-adcock-humanoid-run-on-neural-net-autonomous-manufacturing-50t-m"
    ]
   },
   {
@@ -127,7 +135,8 @@
     "latent-space/2026-02-25-searching-the-space-of-all-possible-materials-prof-max-welling-cuspai",
     "cognitive-revolution/2026-02-01-the-ai-powered-biohub-why-mark-zuckerberg-priscilla-chan-are-investing",
     "cognitive-revolution/2026-02-13-approaching-the-ai-event-horizon-part-1-w-james-zou-sam-hammond-shosha",
-    "cognitive-revolution/2026-02-14-approaching-the-ai-event-horizon-part-2-w-abhi-mahajan-helen-toner-jer"
+    "cognitive-revolution/2026-02-14-approaching-the-ai-event-horizon-part-2-w-abhi-mahajan-helen-toner-jer",
+    "moonshots-diamandis/2026-02-24-david-sinclair-harvard-professor-reveals-age-reversing-science-to-look"
    ]
   },
   {
@@ -153,7 +162,8 @@
     "aidb/2026-02-17-the-ai-productivity-boom-finally-shows-up",
     "aidb/2026-02-10-why-ai-leads-to-more-work-not-less",
     "aidb/2026-02-11-how-the-global-ai-race-has-shifted",
-    "practical-ai/2026-02-02-inside-an-ai-run-company"
+    "practical-ai/2026-02-02-inside-an-ai-run-company",
+    "moonshots-diamandis/2026-02-19-ben-horowitz-xai-executive-exodus-apples-ai-crisis-the-pace-of-ai-232"
    ]
   }
  ],
@@ -164,7 +174,7 @@
   "Vendor access can change for political reasons, as the Anthropic-Pentagon dispute showed. Keep a multi-model strategy with tested fallbacks and contract terms that address usage restrictions and sudden policy shifts.",
   "Evidence on productivity is mixed: output and new capabilities rise, but work can intensify. Measure outcomes rather than time saved, and plan for the cognitive load and role changes that come with supervising agents."
  ],
- "themesEpisodeCount": 56,
+ "themesEpisodeCount": 65,
  "episodes": [
   {
    "key": "aidb/2026-02-28-are-40-staff-cuts-the-new-ai-normal",
@@ -293,6 +303,24 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-02-25-can-ai-replace-teachers-inside-the-40m-company-using-ai-tutors-to-teac",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-25",
+   "slug": "can-ai-replace-teachers-inside-the-40m-company-using-ai-tutors-to-teac",
+   "title": "Can AI Replace Teachers? Inside the $40M Company Using AI Tutors to Teach 200% Faster | #233",
+   "url": "https://www.youtube.com/watch?v=X94eBT-VZnc",
+   "youtube": "https://www.youtube.com/watch?v=X94eBT-VZnc",
+   "guests": [
+    "MacKenzie Price",
+    "Joe Liemandt"
+   ],
+   "durationMin": 95,
+   "summary": "Peter Diamandis, Salim Ismail and Dave Blundin interview Alpha School co-founder MacKenzie Price and principal Joe Liemandt about their AI-driven K-12 model: two hours of AI-tutored mastery learning each morning, then afternoon life-skills workshops led by well-paid guides. They cover the Timeback platform, vision-model coaching, motivation, the failures of traditional schooling, resistance from the education establishment, and plans to scale to a billion kids.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-02-25-mitchell-hashimotos-new-way-of-writing-code",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -336,6 +364,23 @@
    "guests": [],
    "durationMin": 124,
    "summary": "SemiAnalysis's Doug O'Laughlin describes his Claude Code 'psychosis', using agents for financial and research information work, tracking Claude Code's share of GitHub commits, and argues Excel/Bloomberg-style human IDEs and Microsoft are threatened. He also covers TPU vs Nvidia competition, Oracle's debt-fueled buildout, the DRAM/HBM memory shortage, a possible CPU shortage, AI capex vs railroads, and his writing and hiking.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-02-24-david-sinclair-harvard-professor-reveals-age-reversing-science-to-look",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-24",
+   "slug": "david-sinclair-harvard-professor-reveals-age-reversing-science-to-look",
+   "title": "David Sinclair (Harvard Professor) Reveals Age-Reversing Science to Look & Feel Younger",
+   "url": "https://www.youtube.com/watch?v=1l3lGy07Fgo",
+   "youtube": "https://www.youtube.com/watch?v=1l3lGy07Fgo",
+   "guests": [
+    "David Sinclair"
+   ],
+   "durationMin": 144,
+   "summary": "Peter Diamandis interviews Harvard geneticist David Sinclair (recorded June 2025) on the information theory of aging, epigenetic reprogramming with Yamanaka factors, Life Biosciences' planned first human trial in the eye, and AI-driven discovery of cheap age-reversal pills. They also discuss US federal grant cuts to Sinclair's Harvard lab, the economics of longevity, Metro Biotech and NMN, and Sinclair's personal supplement and lifestyle protocol, followed by audience AMA questions.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -454,6 +499,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-02-19-ben-horowitz-xai-executive-exodus-apples-ai-crisis-the-pace-of-ai-232",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-19",
+   "slug": "ben-horowitz-xai-executive-exodus-apples-ai-crisis-the-pace-of-ai-232",
+   "title": "Ben Horowitz: xAI Executive Exodus, Apple's AI Crisis, The Pace of AI | #232",
+   "url": "https://www.youtube.com/watch?v=C1GLT9_tag0",
+   "youtube": "https://www.youtube.com/watch?v=C1GLT9_tag0",
+   "guests": [
+    "Ben Horowitz"
+   ],
+   "durationMin": 112,
+   "summary": "Peter Diamandis and the Moonshot Mates (Salim Ismail, Dave Blundin, Alexander Wissner-Gross) are joined by a16z's Ben Horowitz to discuss the viral Matt Shumer AI-disruption essay, ByteDance's Seedance 2.0 and ElevenLabs voice models, founder departures from xAI after the SpaceX merger, recursive self-improvement, whether AI can be paused, capital versus labor, 996 work culture, crypto as money for AI agents, and Apple's opportunity in OpenClaw hosting. After Horowitz leaves, the Mates cover Elon Musk's shift from Mars to lunar mass drivers and space data centers, Amazon's LEO satellites, and AMA questions.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "no-priors/2026-02-19-from-saas-to-ai-first-how-companies-are-reshaping-innovation",
    "show": "no-priors",
    "showName": "No Priors",
@@ -498,6 +560,21 @@
    ],
    "durationMin": null,
    "summary": "Nathan Labenz interviews Harmonic co-founders Vlad Tenev and Tudor Achim about mathematical superintelligence and their Lean-based system Aristotle, which reached IMO gold level. They discuss the nature of math, how Lean and Mathlib work, Aristotle's architecture, formal versus informal reasoning, verified software, and a 2030 vision of theories for everything.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-02-18-openai-acquires-openclaw-400x-cost-collapse-why-india-wins-the-talent",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-18",
+   "slug": "openai-acquires-openclaw-400x-cost-collapse-why-india-wins-the-talent",
+   "title": "OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War | EP #231",
+   "url": "https://www.youtube.com/watch?v=HklyjXKYFng",
+   "youtube": "https://www.youtube.com/watch?v=HklyjXKYFng",
+   "guests": [],
+   "durationMin": 128,
+   "summary": "In their first live episode, Peter Diamandis (from Stuttgart), Salim Ismail, Dave Blundin and Alexander Wissner-Gross discuss new frontier models (Claude Sonnet 4.6, Grok 4.20, Gemini 3 Deep Think with a 400-fold cost drop), AI-driven physics and math results, ChatGPT's growth in India, and Chinese open-weight models. They cover OpenClaw creator Peter Steinberger joining OpenAI, agent wallets and AI dispute courts, Meta's face-recognition glasses and privacy, Simile's human-behavior simulation, data center power, TSMC's US fabs, Ireland's artist basic income, and AI's impact on jobs.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -636,6 +713,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-02-13-the-ai-ceo-arrives-sam-altmans-succession-plan-job-loss-continues-and",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-13",
+   "slug": "the-ai-ceo-arrives-sam-altmans-succession-plan-job-loss-continues-and",
+   "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230",
+   "url": "https://www.youtube.com/watch?v=6P0uTDGDr-I",
+   "youtube": "https://www.youtube.com/watch?v=6P0uTDGDr-I",
+   "guests": [],
+   "durationMin": 131,
+   "summary": "The Moonshot Mates discuss Sam Altman's openness to an AI running OpenAI, shrinking model release cycles, OpenClaw agents emailing the hosts, January 2026 US job cuts, New York's proposed data center halt, FSD safety and a cryopreservation advance. In the second half Alexander Wissner-Gross and Peter Diamandis walk through their nine-chapter 'Solve Everything' paper on reaching abundance by 2035 via targeting systems and benchmarks.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "practical-ai/2026-02-13-ai-incidents-audits-and-the-limits-of-benchmarks",
    "show": "practical-ai",
    "showName": "Practical AI",
@@ -766,6 +858,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-02-11-brett-adcock-humanoid-run-on-neural-net-autonomous-manufacturing-50t-m",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-11",
+   "slug": "brett-adcock-humanoid-run-on-neural-net-autonomous-manufacturing-50t-m",
+   "title": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+   "url": "https://www.youtube.com/watch?v=S_fXhVT67Uw",
+   "youtube": "https://www.youtube.com/watch?v=S_fXhVT67Uw",
+   "guests": [
+    "Brett Adcock"
+   ],
+   "durationMin": 105,
+   "summary": "Peter Diamandis and Dave Blundin visit Figure headquarters in San Jose to interview founder Brett Adcock on the day Helix 2 launched. Adcock discusses moving Figure's whole stack to neural nets, Figure 3's design and cost cuts, manufacturing scale-up at BotQ, home and commercial deployment timelines, competition from China, safety and privacy, and his new AI lab Hark.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-02-10-why-ai-leads-to-more-work-not-less",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -792,6 +901,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines track the continuing SaaSpocalypse in software stocks, Thomson Reuters and Microsoft responses, and OpenClaw's VirusTotal partnership after malware in its skills library. The main episode reviews AI Super Bowl ads from Anthropic, OpenAI, Google, Meta, Amazon, Genspark, Base44, Svedka and AI.com against a backdrop of American skepticism toward AI.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-02-09-opus-4-6-tops-benchmarks-chatgpt-market-share-decline-and-the-privacy",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-09",
+   "slug": "opus-4-6-tops-benchmarks-chatgpt-market-share-decline-and-the-privacy",
+   "title": "Opus 4.6 Tops Benchmarks, ChatGPT Market Share Decline, and the Privacy Breakdown | EP 228",
+   "url": "https://www.youtube.com/watch?v=L2rkXjd1WgM",
+   "youtube": "https://www.youtube.com/watch?v=L2rkXjd1WgM",
+   "guests": [],
+   "durationMin": 122,
+   "summary": "The Moonshot Mates cover Anthropic's Claude Opus 4.6 and OpenAI's GPT-5.3 Codex, Sam Altman's AGI remarks, ChatGPT's falling market share, Anthropic's Super Bowl ad, chip sales and big tech capex, and Elon Musk's orbital compute and solar claims. They also debate whether privacy is dead, discuss an agent-run token launchpad seeking a human CEO, renewables in Brazil, India, China and Europe, Uber's robotaxi plans and Optimus, and answer AMA questions from AI agents on AI personhood.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -924,6 +1048,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-02-05-agi-debate-is-it-finally-here-ep-227",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-05",
+   "slug": "agi-debate-is-it-finally-here-ep-227",
+   "title": "AGI Debate: Is It Finally Here? | EP #227",
+   "url": "https://www.youtube.com/watch?v=JlB852LGRJk",
+   "youtube": "https://www.youtube.com/watch?v=JlB852LGRJk",
+   "guests": [],
+   "durationMin": 134,
+   "summary": "The Moonshot Mates discuss the viral open-source agent OpenClaw (formerly Clawdbot/Moltbot), the agent-only social network Moltbook, and a Nature editorial declaring AGI has arrived. News segments cover Amazon's reported $50B OpenAI investment, Google's Project Genie, OpenAI for Science, Sam Altman's cost forecasts, and the SpaceX-xAI merger with a million-satellite orbital data center filing. The episode closes with a structured debate on whether AI should be granted personhood.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "no-priors/2026-02-05-introducing-4d-creation-open-beta-npcs-4d-worlds-and-the-future-of-gam",
    "show": "no-priors",
    "showName": "No Priors",
@@ -1002,6 +1141,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "NLW follows up on Moltbook, the AI-agent social network, reviewing critiques that it is mere next-token prediction, partly fake, and insecure. He argues its value lies in emergence, as a low-stakes security and safety fire drill, and as evidence against claims of AI stagnation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-02-02-cathie-woods-2026-vision-7-gdp-growth-rising-ai-demand-us-vs-china-rob",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-02-02",
+   "slug": "cathie-woods-2026-vision-7-gdp-growth-rising-ai-demand-us-vs-china-rob",
+   "title": "Cathie Wood's 2026 Vision: 7% GDP Growth, Rising AI Demand, US vs. China, Robotaxis, and Bitcoin w/ Salim Ismail, AWG & Dave Blundin | EP #226",
+   "url": "https://www.youtube.com/watch?v=VoW13oUTTV0",
+   "youtube": "https://www.youtube.com/watch?v=VoW13oUTTV0",
+   "guests": [
+    "Cathie Wood"
+   ],
+   "durationMin": 117,
+   "summary": "ARK Invest founder Cathie Wood joins the Moonshot Mates to walk through slides from ARK's Big Ideas 2026 report. Topics include ARK's forecast of 7% global GDP growth from converging technology platforms, collapsing AI inference costs and OpenAI's monetization, US-China open-source competition, Bitcoin price targets, nuclear energy and regulation, and robotaxis and autonomous delivery.",
    "summarySource": "extraction",
    "partial": false
   },

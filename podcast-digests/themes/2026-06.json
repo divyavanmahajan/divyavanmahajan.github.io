@@ -1,6 +1,6 @@
 {
   "period": "2026-06",
-  "episodeCount": 65,
+  "episodeCount": 73,
   "headline": "June was dominated by the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, a saga that grew into what NLW calls an ad hoc AI licensing regime now covering OpenAI's GPT-5.6 too. Underneath it ran a quieter story about scarcity: tokens, compute and memory got expensive, pushing enterprises toward token efficiency, cheaper open-weight models and multi-model stacks.",
   "themes": [
     {
@@ -16,7 +16,10 @@
         "aidb/2026-06-10",
         "cognitive-revolution/2026-06-13",
         "cognitive-revolution/2026-06-20",
-        "cognitive-revolution/2026-06-21"
+        "cognitive-revolution/2026-06-21",
+        "moonshots-diamandis/2026-06-11-brian-armstrong",
+        "moonshots-diamandis/2026-06-18-spacex-ipos",
+        "moonshots-diamandis/2026-06-29-why-the-us-government"
       ]
     },
     {
@@ -101,7 +104,9 @@
         "aidb/2026-06-23",
         "aidb/2026-06-30",
         "no-priors/2026-06-18",
-        "latent-space/2026-06-18"
+        "latent-space/2026-06-18",
+        "moonshots-diamandis/2026-06-06-anthropic-files-965b",
+        "moonshots-diamandis/2026-06-26-the-10b-satellite"
       ]
     },
     {
@@ -115,7 +120,10 @@
         "cognitive-revolution/2026-06-27",
         "cognitive-revolution/2026-06-23",
         "dwarkesh/2026-06-04",
-        "moonshot/2026-06-03"
+        "moonshot/2026-06-03",
+        "moonshots-diamandis/2026-06-01-opus-4-8",
+        "moonshots-diamandis/2026-06-03-why-agi-is-close",
+        "moonshots-diamandis/2026-06-08-emerging-situation"
       ]
     },
     {

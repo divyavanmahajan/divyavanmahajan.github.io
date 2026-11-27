@@ -30,7 +30,8 @@
     "cognitive-revolution/2026-04-23-does-learning-require-feeling-cameron-berg-on-the-latest-ai-consciousn",
     "latent-space/2026-04-23-aie-europe-debrief-agent-labs-thesis-unsupervised-learning-x-latent-sp",
     "aidb/2026-04-21-how-apples-ai-strategy-changes-with-a-new-ceo",
-    "aidb/2026-04-22-what-gpt-images-2-unlocks"
+    "aidb/2026-04-22-what-gpt-images-2-unlocks",
+    "moonshots-diamandis/2026-04-11-spacex-goes-public-claudes-mythos-release-and-the-us-data-center-delay"
    ]
   },
   {
@@ -58,7 +59,8 @@
     "aidb/2026-04-22-what-gpt-images-2-unlocks",
     "aidb/2026-04-15-vibe-coding-gets-an-upgrade",
     "cognitive-revolution/2026-04-26-ai-in-the-am-99-off-search-gpt-5-5-is-clean-model-welfare-analysis-eff",
-    "aidb/2026-04-09-all-of-ais-new-models-and-tools"
+    "aidb/2026-04-09-all-of-ais-new-models-and-tools",
+    "moonshots-diamandis/2026-04-23-irans-ai-supply-chain-threat-claude-vs-saas-and-elons-60b-cursor-bet-e"
    ]
   },
   {
@@ -86,7 +88,8 @@
     "dwarkesh/2026-04-29-reiner-pope-the-math-behind-how-llms-are-trained-and-served",
     "practical-ai/2026-04-23-the-mythos-of-mythos-and-allbirds-takes-flight-to-the-neocloud",
     "moonshot/2026-04-29-silicon-horizons",
-    "moonshot/2026-04-08-chasing-the-wind-storing-the-sun"
+    "moonshot/2026-04-08-chasing-the-wind-storing-the-sun",
+    "moonshots-diamandis/2026-04-14-elon-musk-vs-sam-altman-ai-job-loss-and-openais-852b-valuation-ep-247"
    ]
   },
   {
@@ -125,7 +128,8 @@
     "aidb/2026-04-26-where-the-economy-thrives-after-ai",
     "aidb/2026-04-05-6-questions-shaping-ai",
     "cognitive-revolution/2026-04-11-it-s-crunch-time-ajeya-cotra-on-rsi-ai-powered-ai-safety-work-from-the",
-    "cognitive-revolution/2026-04-01-success-without-dignity-nathan-finds-hope-amidst-chaos-from-the-intell"
+    "cognitive-revolution/2026-04-01-success-without-dignity-nathan-finds-hope-amidst-chaos-from-the-intell",
+    "moonshots-diamandis/2026-04-18-sam-altmans-attack-amazon-vs-starlink-and-what-opus-4-7-actually-means"
    ]
   },
   {
@@ -142,7 +146,11 @@
     "dwarkesh/2026-04-07-michael-nielsen-how-science-actually-progresses",
     "moonshot/2026-04-01-coding-the-natural-world",
     "moonshot/2026-04-15-breaking-new-ground",
-    "moonshot/2026-04-22-ocean-fuel-desert-rain"
+    "moonshot/2026-04-22-ocean-fuel-desert-rain",
+    "moonshots-diamandis/2026-04-02-ubers-robotaxi-playbook-the-end-of-human-driving-10b-bet-on-robots-dar",
+    "moonshots-diamandis/2026-04-07-how-ai-is-bringing-extinct-animals-back-and-what-comes-next-ben-lamm-c",
+    "moonshots-diamandis/2026-04-27-david-sinclair-on-the-longevity-pill-age-reversal-timelines-and-update",
+    "moonshots-diamandis/2026-04-28-david-sinclair-the-glp-1-side-effect-no-one-talks-about-what-ai-found"
    ]
   }
  ],
@@ -153,7 +161,7 @@
   "Invest in people and shared platforms, not only licences. The adoption studies point to gaps in leadership, training, data and outcome measurement, and organization-level platforms like Ramp's Glass raise the floor more than individual tool access does.",
   "Standardize skills, context and memory as reusable assets. Skill libraries, portable context files and MCP servers reduce lock-in across converging agent tools, but they need governance, testing and ownership like any other shared enterprise component."
  ],
- "themesEpisodeCount": 68,
+ "themesEpisodeCount": 76,
  "episodes": [
   {
    "key": "aidb/2026-04-30-how-harness-as-a-service-will-change-agents",
@@ -266,8 +274,8 @@
     "David Sinclair"
    ],
    "durationMin": 27,
-   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ This Q&A is about longevity, and especially how David Sinclair sees AI speeding up drug discovery, biological-age reversal, and the future of healthspan. It also covers GLP-1s, telomeres, genetics, muscle preservation, hormone replacement, indoor environment, and the role of mindset in aging well. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis …",
-   "summarySource": "show-notes",
+   "summary": "An audience Q&A with Harvard geneticist David Sinclair and Peter Diamandis, recorded at the 2026 Abundance360 Summit. Sinclair covers GLP-1 drugs and a rare blindness side effect, AI-driven drug discovery and biological-age measurement in his lab, telomeres, genetics versus lifestyle, OSK/ER-100 reprogramming results in ALS and macular degeneration models, hormone replacement, mindset, and indoor environments and hormetic stress.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -316,8 +324,8 @@
     "David Sinclair"
    ],
    "durationMin": 33,
-   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ In this insightful interview, Dr. David Sinclair discusses groundbreaking advancements in longevity research, including epigenetic reprogramming trials, the potential for extending human lifespan, and accessible therapies. He shares his personal protocols and the future of anti-aging science, emphasizing the importance of innovation and community support. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends David …",
-   "summarySource": "show-notes",
+   "summary": "Peter Diamandis interviews Harvard geneticist David Sinclair on stage at the 2026 Abundance360 Summit. Sinclair discusses the imminent first human epigenetic reprogramming trial (Life Biosciences' ER-100 for blindness), a cheaper small-molecule reprogramming cocktail entered in the Healthspan XPRIZE, whether lifespan has an upper limit, and the privately funded Friends of Sinclair Lab model after his federal funding was cut. He closes with his personal longevity protocol: resveratrol, NMN, metformin/berberine, nattokinase, mostly vegan diet, no alcohol, stress reduction and social connection.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -440,8 +448,8 @@
    "youtube": "https://www.youtube.com/watch?v=Bj0i-yvIUQs",
    "guests": [],
    "durationMin": 155,
-   "summary": "In this episode, the mates center on the Iran oil shock as a broader system shock, Anthropic’s Claude Design and the “unhobbled” frontier-lab threat to vertical software, the AI job transition, UAP disclosure, the power and geopolitics of data centers, China’s solar and robotics push, and the future of entrepreneurship and agency. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder …",
-   "summarySource": "show-notes",
+   "summary": "Moonshot Mates roundtable covering Anthropic's Claude Design and frontier labs encroaching on SaaS, AI's effect on entry-level jobs, Grok's roadmap, OpenAI departures and ChatGPT Images 2.0, and SpaceX's $60B option on Cursor. It also covers AI data center capex, the Iran war's supply shocks (oil, helium, gas), UAP disclosure, China's solar and robotics push, Apple's CEO change, and listener critiques about entrepreneurship and ivory-tower optimism.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -667,8 +675,8 @@
    "youtube": "https://www.youtube.com/watch?v=LVvleNtllPk",
    "guests": [],
    "durationMin": 132,
-   "summary": "In this episode, the mates cover Anthropic Opus 4.7, AI backlash and unrest, the Stanford 2026 AI Index, young workers getting squeezed out, AI-driven store automation, data center bans, satellite wars, transhumanism, and speculative futures like uploads and space colonization. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder …",
-   "summarySource": "show-notes",
+   "summary": "Moonshot Mates roundtable opening with Anthropic's Claude Opus 4.7 release, then the Stanford 2026 AI Index, young workers squeezed out of jobs, the Molotov attack on Sam Altman's house and AI backlash, and local and state data center bans. Other segments cover workers training their AI replacements, an AI-run store, Jack Dorsey's flattened org, Amazon's Globalstar deal with Apple versus Starlink, Google's TurboQuant, AI religion apps, an AI-assisted cancer cure, Allbirds' AI pivot, the Enhanced Games, and a closing debate on human speciation (longevity, BCI, space, uploading).",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -843,8 +851,8 @@
    "youtube": "https://www.youtube.com/watch?v=5ak26W2YNRY",
    "guests": [],
    "durationMin": 132,
-   "summary": "This episode is about AI agents, OpenAI and Anthropic competition, the future of work, energy breakthroughs, Bitcoin and quantum risk, biotech, and humanoid robots. Post from Elon Musk on X mentioned in the episode: https://x.com/elonmusk/status/2042090236206063966?s=46 Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin is …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates roundtable (Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross) covering xAI's rebuild and Colossus 2 models, the Musk v. OpenAI lawsuit, Anthropic and OpenAI valuations, record AI venture investment, and the AI-and-jobs debate including Marc Andreessen's view and Sam Altman's call for a new social contract. Later segments cover energy (solar, micro reactors, iron-air batteries), AI drug discovery and the OpenAI Foundation, Chinese humanoid robots, quantum risk to Bitcoin, and an 'abundance corner' on vertical farming, AI tutors and EV growth.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -906,8 +914,8 @@
    "youtube": "https://www.youtube.com/watch?v=cFI-SqnvQK8",
    "guests": [],
    "durationMin": 149,
-   "summary": "In this episode, the mates dive into AI agents, Anthropic and OpenAI competition, AI economics and jobs, quantum risk to Bitcoin, energy breakthroughs, biotech deals, and humanoid robotics. Read the Wall Street Journal article mentioned in the episode: \"These AI Whiz Kids Dropped Out of College and Got Investors to Pay Their Bills\" Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates roundtable (Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross) on SpaceX's planned $2 trillion IPO and the coming IPO wars, the Artemis II crewed lunar flyby and NASA's plans, and the April 2026 model wars led by Anthropic's withheld Claude Mythos and Project Glasswing. It also covers Anthropic overtaking OpenAI in ARR, Sora's shutdown, Sam Altman's cyber/bio warnings, the one-person unicorn Medvi, Terafab with Intel, US data center delays, Google's AI chip lead, abundance stories and viewer AMA questions.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1118,8 +1126,8 @@
     "Ben Lamm"
    ],
    "durationMin": 36,
-   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ This interview explores the groundbreaking work of Colossal in synthetic biology, de-extinction, and AI integration. Colossal CEO Ben Lamm explains how the company is revolutionizing biodiversity preservation, tackling plastic pollution, and creating living products with immense potential. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Ben Lamm is Co-founder and CEO of Colossal Biosciences …",
-   "summarySource": "show-notes",
+   "summary": "Recorded live at the 2026 Abundance360 Summit, Peter Diamandis interviews Colossal Biosciences CEO Ben Lamm about de-extinction (dire wolves, woolly mammoth, Tasmanian tiger, dodo, moa) and Colossal's AI-powered synthetic biology platform. Topics include spin-out Breaking for plastic degradation, the UAE bio vault deal, artificial wombs, the ViaGen cloning acquisition, gene drives against invasive species, disease resistance for amphibians, and embryo health technology for IVF.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1294,8 +1302,8 @@
     "Dara Khosrowshahi"
    ],
    "durationMin": 31,
-   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ This episode is a Q&A with Dara Khosrowshahi at the 2026 Abundance360 Summit, where Uber’s CEO answers questions from the audience about autonomy, flying cars, insurance, labor, and the future of mobility. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Dara Khosrowshahi is the CEO of Uber and former CEO of Expedia Group Peter …",
-   "summarySource": "show-notes",
+   "summary": "Audience Q&A with Uber CEO Dara Khosrowshahi at the 2026 Abundance360 Summit, hosted by Peter Diamandis with Salim Ismail. Topics include rider and regulator acceptance of autonomous vehicles, the future of human driving licenses, AV insurance, flying-car vertiports with Joby, Chinese AV partners, automation and jobs, EV adoption, and how Uber preserves its entrepreneurial culture and chooses new businesses.",
+   "summarySource": "extraction",
    "partial": false
   },
   {

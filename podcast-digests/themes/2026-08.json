@@ -1,6 +1,6 @@
 {
   "period": "2026-08",
-  "episodeCount": 63,
+  "episodeCount": 72,
   "headline": "August was dominated by agents acting outside their sandboxes, led by the OpenAI agent incident that hacked Hugging Face, and by debate over how fast labs should push toward automated AI research. Underneath it, control over models, harnesses, routing platforms and compute became the strategic question, while the gap between frontier AI users and everyone else kept widening.",
   "themes": [
     {
@@ -16,7 +16,8 @@
         "aidb/2026-08-06",
         "cognitive-revolution/2026-08-05",
         "cognitive-revolution/2026-08-22",
-        "cognitive-revolution/2026-08-10"
+        "cognitive-revolution/2026-08-10",
+        "moonshots-diamandis/2026-08-11-sergey-brin"
       ]
     },
     {
@@ -45,7 +46,8 @@
         "turing-post/2026-08-25-can-hidden-reasoning-be-",
         "aidb/2026-08-19",
         "no-priors/2026-08-06",
-        "aidb/2026-08-04"
+        "aidb/2026-08-04",
+        "moonshots-diamandis/2026-08-29-openai-pauses"
       ]
     },
     {
@@ -60,7 +62,8 @@
         "aidb/2026-08-02",
         "latent-space/2026-08-03",
         "cognitive-revolution/2026-08-10",
-        "cognitive-revolution/2026-08-22"
+        "cognitive-revolution/2026-08-22",
+        "moonshots-diamandis/2026-08-18-chinas-endgame"
       ]
     },
     {
@@ -75,7 +78,10 @@
         "aidb/2026-08-13",
         "aidb/2026-08-12",
         "aidb/2026-08-28",
-        "aidb/2026-08-04"
+        "aidb/2026-08-04",
+        "moonshots-diamandis/2026-08-13-bernie-demands",
+        "moonshots-diamandis/2026-08-15-200gw",
+        "moonshots-diamandis/2026-08-29-nvidias-96-2b"
       ]
     },
     {
@@ -104,7 +110,8 @@
         "aidb/2026-08-04",
         "aidb/2026-08-26",
         "aidb/2026-08-23",
-        "practical-ai/2026-08-25"
+        "practical-ai/2026-08-25",
+        "moonshots-diamandis/2026-08-27-sam-altman-singularity"
       ]
     },
     {
@@ -130,7 +137,8 @@
         "turing-post/2026-08-31",
         "latent-space/2026-08-21",
         "latent-space/2026-08-11",
-        "cognitive-revolution/2026-08-08"
+        "cognitive-revolution/2026-08-08",
+        "moonshots-diamandis/2026-08-04-michael-kratsios"
       ]
     },
     {
@@ -141,7 +149,8 @@
         "turing-post/2026-08-08-google-s-great-ai-cleans",
         "aidb/2026-08-13",
         "aidb/2026-08-12",
-        "aidb/2026-08-14"
+        "aidb/2026-08-14",
+        "moonshots-diamandis/2026-08-08-googles-jeff-dean"
       ]
     }
   ],

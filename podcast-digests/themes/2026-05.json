@@ -1,6 +1,6 @@
 {
   "period": "2026-05",
-  "episodeCount": 66,
+  "episodeCount": 74,
   "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
   "themes": [
     {
@@ -15,7 +15,10 @@
         "no-priors/2026-05-01",
         "no-priors/2026-05-21",
         "latent-space/2026-05-21",
-        "latent-space/2026-05-20"
+        "latent-space/2026-05-20",
+        "moonshots-diamandis/2026-05-04-google-invests-40b",
+        "moonshots-diamandis/2026-05-16-anthropic-partners-with-spacex",
+        "moonshots-diamandis/2026-05-23-spacex-75b"
       ]
     },
     {
@@ -61,7 +64,8 @@
         "aidb/2026-05-19-beating-the-ai-doom-cycl",
         "cognitive-revolution/2026-05-26",
         "practical-ai/2026-05-14",
-        "turing-post/2026-05-29-eric-ries-on-building-in"
+        "turing-post/2026-05-29-eric-ries-on-building-in",
+        "moonshots-diamandis/2026-05-30-pope-leo"
       ]
     },
     {
@@ -77,7 +81,8 @@
         "cognitive-revolution/2026-05-09",
         "aidb/2026-05-25",
         "aidb/2026-05-05",
-        "aidb/2026-05-09"
+        "aidb/2026-05-09",
+        "moonshots-diamandis/2026-05-26-the-organizational-singularity"
       ]
     },
     {
@@ -88,7 +93,8 @@
         "cognitive-revolution/2026-05-20",
         "turing-post/2026-05-29-inside-google-ai-studio-",
         "aidb/2026-05-15",
-        "aidb/2026-05-13"
+        "aidb/2026-05-13",
+        "moonshots-diamandis/2026-05-21-google-i-o-2026"
       ]
     },
     {
@@ -117,7 +123,8 @@
         "aidb/2026-05-28",
         "cognitive-revolution/2026-05-24",
         "cognitive-revolution/2026-05-26",
-        "latent-space/2026-05-18"
+        "latent-space/2026-05-18",
+        "moonshots-diamandis/2026-05-09-googles-record-quarter"
       ]
     },
     {
@@ -131,7 +138,8 @@
         "dwarkesh/2026-05-22",
         "epoch-ai/2026-05-01",
         "moonshot/2026-05-13",
-        "moonshot/2026-05-27"
+        "moonshot/2026-05-27",
+        "moonshots-diamandis/2026-05-07-demis-hassabis"
       ]
     }
   ],

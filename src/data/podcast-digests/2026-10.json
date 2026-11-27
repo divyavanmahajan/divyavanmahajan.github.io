@@ -4,11 +4,11 @@
  "end": "2026-10-31",
  "inProgress": false,
  "generated": "2026-11-27",
- "episodeCount": 82,
+ "episodeCount": 83,
  "counts": {
   "cognitive-revolution": 11,
   "latent-space": 12,
-  "moonshots-diamandis": 9,
+  "moonshots-diamandis": 10,
   "aidb": 26,
   "dwarkesh": 3,
   "no-priors": 6,
@@ -151,7 +151,8 @@
     "cognitive-revolution/2026-10-08-ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salarie",
     "aidb/2026-10-01-gemini-4-argon-sonnet-55-and-what-matters-with-ai-models",
     "cognitive-revolution/2026-10-14-governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-a",
-    "moonshots-diamandis/2026-10-07-why-altman-says-accept-some-bad-things-happening-and-what-it-means-for"
+    "moonshots-diamandis/2026-10-07-why-altman-says-accept-some-bad-things-happening-and-what-it-means-for",
+    "moonshots-diamandis/2026-10-02-can-we-still-build-ai-safely-the-white-house-thinks-so-moonshots-298"
    ]
   },
   {
@@ -176,7 +177,7 @@
   "Agent-run workflows in these accounts succeed when determinism surrounds them: agent registries and identities, approvals, audit trails, verifiers and evals built from staff feedback. Build these controls into the platform before scaling agent autonomy across teams.",
   "Watch the financial health of AI vendors. Neocloud distress, compute debt and IPO scrutiny of the labs mean contracts, data portability and exit plans deserve the same attention as model capability."
  ],
- "themesEpisodeCount": 82,
+ "themesEpisodeCount": 83,
  "episodes": [
   {
    "key": "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer",
@@ -1438,6 +1439,23 @@
    ],
    "durationMin": 101,
    "summary": "MIT PhD student Alex Zhang discusses GPU Mode and AI-written GPU kernels, why academics should take big bets, and recursive language models (RLMs) as a harness design that aids compositional generalization. He also covers Prime Agent with Prime Intellect, Jev and decision models, OpenAI's agent swarm, open-endedness, and Sakana.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-10-02-can-we-still-build-ai-safely-the-white-house-thinks-so-moonshots-298",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-02",
+   "slug": "can-we-still-build-ai-safely-the-white-house-thinks-so-moonshots-298",
+   "title": "Can We Still Build AI Safely? The White House Thinks So | MOONSHOTS #298",
+   "url": "https://www.youtube.com/watch?v=mZh8IUuNnvs",
+   "youtube": "https://www.youtube.com/watch?v=mZh8IUuNnvs",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 145,
+   "summary": "Peter Diamandis, Salim Ismail, Alexander Wissner-Gross, Emad Mostaque and (late) Dave Blundin discuss the White House superintelligence accord signed by US AI leaders, alignment and the orthogonality thesis, and Elon Musk's case for abundance and universal high income. They also cover Anthropic's $2 trillion IPO filing, OpenAI's DevDay (Dots, GPT-6.1 Sol), AMD's acquisition of World Labs, Starship reaching orbit with V3 Starlink satellites, Anthropic's meetings with religious scholars, and the FTC chair's stance on AI agent liability.",
    "summarySource": "extraction",
    "partial": false
   },

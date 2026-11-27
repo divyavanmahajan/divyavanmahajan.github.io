@@ -33,7 +33,10 @@
     "no-priors/2026-05-01-baseten-ceo-tuhin-srivastava-on-the-ai-inference-crunch-custom-models",
     "no-priors/2026-05-21-the-story-behind-cerebras-63-billion-ipo-with-founder-and-ceo-andrew-f",
     "latent-space/2026-05-21-giving-agents-computers-ivan-burazin-daytona",
-    "latent-space/2026-05-20-railway-the-agent-native-cloud-jake-cooper"
+    "latent-space/2026-05-20-railway-the-agent-native-cloud-jake-cooper",
+    "moonshots-diamandis/2026-05-04-google-invests-40b-into-anthropic-gpt-5-5-drops-and-google-cloud-domin",
+    "moonshots-diamandis/2026-05-16-anthropic-partners-with-spacex-ai-leopolds-5-5b-bet-and-the-singularit",
+    "moonshots-diamandis/2026-05-23-spacex-75b-historic-ipo-gpt-5-5-outperforms-polymarket-and-ai-solves-8"
    ]
   },
   {
@@ -81,7 +84,8 @@
     "aidb/2026-05-19-beating-the-ai-doom-cycle",
     "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
     "practical-ai/2026-05-14-u-s-congressman-beyer-on-ai-challenges-facing-america-and-the-world",
-    "turing-post/2026-05-29-eric-ries-on-building-incorruptible-companies-ai-disruption-and-the-fu"
+    "turing-post/2026-05-29-eric-ries-on-building-incorruptible-companies-ai-disruption-and-the-fu",
+    "moonshots-diamandis/2026-05-30-pope-leo-vs-ai-gpt-5-5-beats-claude-and-sam-altman-walks-back-job-apoc"
    ]
   },
   {
@@ -97,7 +101,8 @@
     "cognitive-revolution/2026-05-09-milliseconds-to-match-criteo-s-adtech-ai-the-future-of-commerce-w-diar",
     "aidb/2026-05-25-the-4-ai-team-members-execs-should-hire-right-now",
     "aidb/2026-05-05-why-openai-and-anthropic-are-becoming-consultants",
-    "aidb/2026-05-09-how-to-build-an-ai-native-team-with-mike-cannon-brookes"
+    "aidb/2026-05-09-how-to-build-an-ai-native-team-with-mike-cannon-brookes",
+    "moonshots-diamandis/2026-05-26-the-organizational-singularity-ai-proof-your-company-ep-258"
    ]
   },
   {
@@ -108,7 +113,8 @@
     "cognitive-revolution/2026-05-20-the-model-eats-the-scaffolding-deepmind-s-logan-kilpatrick-tulsee-dosh",
     "turing-post/2026-05-29-inside-google-ai-studio-ammaar-reshi-on-vibe-coding-agent-swarms-and-t",
     "aidb/2026-05-15-googles-big-ai-test-comes-next-week",
-    "aidb/2026-05-13-in-defense-of-tokenmaxxing"
+    "aidb/2026-05-13-in-defense-of-tokenmaxxing",
+    "moonshots-diamandis/2026-05-21-google-i-o-2026-karpathy-joins-anthropic-and-cerebras-95b-ipo-ep-256"
    ]
   },
   {
@@ -137,7 +143,8 @@
     "aidb/2026-05-28-the-case-for-an-ai-token-tax",
     "cognitive-revolution/2026-05-24-all-compute-is-food-palisade-s-jeffrey-ladish-on-ai-shutdown-resistanc",
     "cognitive-revolution/2026-05-26-your-biggest-lever-designing-your-ai-career-for-maximum-impact-with-80",
-    "latent-space/2026-05-18-the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t"
+    "latent-space/2026-05-18-the-autonomous-drone-tech-stack-economics-of-drones-yaroslav-azhnyuk-t",
+    "moonshots-diamandis/2026-05-09-googles-record-quarter-the-white-house-intervenes-and-gpt-5-5-silently"
    ]
   },
   {
@@ -151,7 +158,8 @@
     "dwarkesh/2026-05-22-reiner-pope-chip-design-from-the-bottom-up",
     "epoch-ai/2026-05-01-are-ai-benchmarks-doomed",
     "moonshot/2026-05-13-neurons-and-networks",
-    "moonshot/2026-05-27-underground-potential"
+    "moonshot/2026-05-27-underground-potential",
+    "moonshots-diamandis/2026-05-07-demis-hassabis-on-agi-robots-scale-production-and-elons-1t-mars-shot-c"
    ]
   }
  ],
@@ -162,7 +170,7 @@
   "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
   "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
  ],
- "themesEpisodeCount": 66,
+ "themesEpisodeCount": 74,
  "episodes": [
   {
    "key": "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
@@ -207,8 +215,8 @@
    "youtube": "https://www.youtube.com/watch?v=dtuPovnf4XQ",
    "guests": [],
    "durationMin": 109,
-   "summary": "This episode is a sprawling Moonshots roundup with three big pillars: AI governance and religion, AI’s impact on jobs and entrepreneurship, and a moon/space-compute future centered on SpaceX, Starlink, and Tesla. Education survey: Moonshots.com/survey Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of Open ExO, a GP at …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates news roundtable opening with Pope Leo XIV's AI encyclical and its stance against AI personhood, then a scrapped White House AI pre-release review order, GPT 5.5 beating Claude Opus 4.7 on the new DeepSWE benchmark, Jevons paradox in token pricing, OpenAI and Anthropic revenue, and a DeepMind forecasting system. The second half covers AI and jobs (layoffs, Sam Altman walking back his job-apocalypse warnings, solo founders), an education survey, and space stories: Starship V3, a possible Tesla-SpaceX merger, a private Mars flyby, Starlink lunar connectivity and China's lunar plans.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -453,8 +461,8 @@
    "youtube": "https://www.youtube.com/watch?v=I9c8STV7Hnw",
    "guests": [],
    "durationMin": 63,
-   "summary": "This episode is a deep dive on the “organizational singularity”: how AI agents, AI-native workflows, and recursive self-improvement will restructure companies much faster than traditional hierarchy can adapt. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of Open ExO, a GP at Exponential Venture Capital/The Organizational Singularity Fund …",
-   "summarySource": "show-notes",
+   "summary": "Salim Ismail presents his 'organizational singularity' framework (ExO 3.0) to Peter Diamandis: companies must be architected around intelligence and agentic workflows rather than hierarchy. He outlines the intelligence stack, governance for agents, the effect on C-suite and middle management, and the 'rewrite' methodology of building an AI-native digital twin at the edge of an existing company.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -515,8 +523,8 @@
    "youtube": "https://www.youtube.com/watch?v=n5-RNSKz0sc",
    "guests": [],
    "durationMin": 113,
-   "summary": "In this episode, the Moonshot mates discuss SpaceX's record-breaking IPO filing and its growing ties to Anthropic, OpenAI's AI model disproving a decades-old Erdős conjecture in mathematics, and GPT-5.5 beating prediction markets at forecasting. Get access to metatrends 10+ years before anyone else - ⁠https://qr.diamandis.com/metatrends⁠ Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin is the …",
-   "summarySource": "show-notes",
+   "summary": "The Moonshot Mates discuss SpaceX's record IPO filing and its prospectus (including Anthropic paying for Colossus compute), the upcoming Starship V3 flight, GPT-5.5 leading the FutureSim forecasting benchmark, ChatGPT personal finance, and an OpenAI model disproving Erdős's unit distance conjecture. They also cover Chinese video models, students booing AI at commencements and AI cheating at Stanford, Meta tracking employees, Mark Cuban's token tax, Colossal's artificial egg, data center opposition and energy, and Salim Ismail's organizational singularity thesis.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -596,8 +604,8 @@
     "Andrew Feldman"
    ],
    "durationMin": 144,
-   "summary": "In this episode, the mates welcome Andrew Feldman, Co-founder and CEO of Cerebras Systems, and discuss several tech news such as Google’s I/O comeback, the jury verdict in Elon Musk’s OpenAI lawsuit, Anthropic’s accelerating enterprise momentum, and a long interview with Andrew Feldman of Cerebras after its major IPO. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity …",
-   "summarySource": "show-notes",
+   "summary": "The Moonshot Mates recap Google I/O 2026 (usage and capex numbers, Gemini Omni, Gemini 3.5 Flash, SynthID, Antigravity 2.0, Gemini Spark, agentic AI search, universal cart, audio glasses, Gemini for Science and the Build with Gemini XPRIZE). They discuss Andrej Karpathy joining Anthropic and the jury verdict against Elon Musk in the OpenAI lawsuit, then interview Cerebras CEO Andrew Feldman about the company's record IPO, wafer-scale chips, fast inference, US fabs and orbital data centers.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -774,8 +782,8 @@
    "youtube": "https://www.youtube.com/watch?v=0hK__1vkqMg",
    "guests": [],
    "durationMin": 132,
-   "summary": "This episode is a dense AI-and-abundance conversation about Anthropic’s explosive growth, compute shortages, SpaceX becoming a hyperscaler, Google’s orbital data-center ambitions, OpenAI’s super-app strategy, Claude’s legal and small-business “unhobbling,” and a long segment on UAP/UFO disclosure. It also weaves in alignment, privacy, AI personhood, and the idea that the singularity may become visible in space before it does on Earth. Get access to metatrends 10+ years before anyone else - …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates roundtable on Anthropic's 80x quarterly growth and compute shortage, its deal to take over SpaceX AI's Colossus 1, Anthropic's alignment research, OpenAI's super-app and audio models, Hermes agent, and Claude's push into legal and small business. It also covers Terafab and Google's orbital Suncatcher data centers, the 'singularity economy' returns of chip and energy stocks and Leopold Aschenbrenner's fund, the White House UAP file releases, and listener AMA questions on privacy, consumer vs enterprise AI and model gatekeeping.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1051,8 +1059,8 @@
    "youtube": "https://www.youtube.com/watch?v=zdAqvqhdVgU",
    "guests": [],
    "durationMin": 129,
-   "summary": "In this episode, the mates welcome Blitzy CEO Brian Elliott to discuss Google’s blowout AI-driven earnings, White House model vetting, Pentagon deals with frontier labs, compute scarcity, the rise of private-equity-led enterprise AI, ocean and space data centers, OpenAI’s changing cloud strategy and delayed IPO talk, AGI definitions, AI risk/insurance, and the growing role of AI in GDP and infrastructure. Get access to metatrends 10+ years before anyone else - …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates roundtable with Blitzy CEO Brian Elliott covering the White House's proposed pre-release vetting of AI models, Pentagon deals with seven AI companies, Alphabet's record quarter and compute constraints, OpenAI's shift from Microsoft, missed targets and possible IPO delay, and lab ventures with private-equity firms. It also covers AGI and consciousness claims, China blocking Meta's Manus acquisition, Blitzy's $200M raise, chip stocks, ocean, orbital and rural data centers, AI as a GDP driver, Sam Altman rethinking UBI, insurers excluding AI risk, and listener AMA questions including the Mates' p(doom).",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1116,8 +1124,8 @@
     "Demis Hassabis"
    ],
    "durationMin": 95,
-   "summary": "This episode features a dynamic panel discussion on exponential technologies, AI advancements, robotics, and the future of humanity. Experts explore the implications of AI, robotics, biotech, and societal shifts, offering insights into what the next decade holds for innovation and civilization. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Steven Kotler is a …",
-   "summarySource": "show-notes",
+   "summary": "A live Moonshots recording at MIT with the Moonshot Mates and guest Steven Kotler, who pushes back skeptically on AI capability claims. Topics include Elon Musk's SpaceX Mars-colony compensation package, the Musk v. OpenAI trial, humanoid robot production at Figure, 1X and Tesla, a Chinese court ruling limiting AI-driven job displacement, Demis Hassabis on whether AGI needs another breakthrough, Colossal's bluebuck de-extinction, GLP-1 and retatrutide drugs, and predictions of what AI will feel like by mid-2028.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -1281,8 +1289,8 @@
    "youtube": "https://www.youtube.com/watch?v=RCbJKkG_mZs",
    "guests": [],
    "durationMin": 140,
-   "summary": "In this episode, the mates explore the rapid advancements in AI, the global AI race, new models like Kimi K 2.6 and GPT 5.5, and the implications for privacy, security, and the future of technology. The mates discuss the future of work, AI regulation, and transformative biomedical breakthroughs. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University …",
-   "summarySource": "show-notes",
+   "summary": "A Moonshot Mates roundtable (Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross) on the flood of model releases (Kimi K2.6, GPT-5.5, DeepSeek V4), Google's TPU and Vera Rubin compute build-out, and Google's and Amazon's cash-for-compute deals with Anthropic. It also covers the Musk v. OpenAI trial, AI surveillance and deepfake identity verification, token maxing, the UAE's agentic government plan, biomedical advances (ChatGPT for Clinicians, mRNA cancer vaccines, CAR-T, drug repurposing), Tesla Cybercab and Joby air taxis, and listener AMA questions on jobs and consulting.",
+   "summarySource": "extraction",
    "partial": false
   },
   {

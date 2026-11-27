@@ -1,6 +1,6 @@
 {
   "period": "2026-01",
-  "episodeCount": 53,
+  "episodeCount": 60,
   "headline": "January belonged to Claude Code: after a holiday surge around Opus 4.5, hosts across shows asked whether code AGI is already functional AGI, and Claude Cowork carried the same agent into non-coding work. Underneath it ran a widening gap between the people and companies who reorganise around agents and everyone else, with jobs, capital and governance debates trying to catch up.",
   "themes": [
     {
@@ -14,7 +14,8 @@
         "aidb/2026-01-13",
         "aidb/2026-01-03",
         "aidb/2026-01-21",
-        "aidb/2026-01-25"
+        "aidb/2026-01-25",
+        "moonshots-diamandis/2026-01-27-claude-code-ends-saas"
       ]
     },
     {
@@ -40,7 +41,8 @@
         "aidb/2026-01-28-the-ai-acceleration-gap",
         "aidb/2026-01-18",
         "latent-space/2026-01-17",
-        "no-priors/2026-01-22"
+        "no-priors/2026-01-22",
+        "moonshots-diamandis/2026-01-20-the-singularity-countdown"
       ]
     },
     {
@@ -54,7 +56,8 @@
         "no-priors/2026-01-08",
         "aidb/2026-01-04",
         "aidb/2026-01-11",
-        "aidb/2026-01-10-what-happens-when-ai-obl"
+        "aidb/2026-01-10-what-happens-when-ai-obl",
+        "moonshots-diamandis/2026-01-13-tony-robbins"
       ]
     },
     {
@@ -82,7 +85,9 @@
         "aidb/2026-01-09",
         "aidb/2026-01-28-are-agent-swarms-the-nex",
         "latent-space/2026-01-08",
-        "aidb/2026-01-07"
+        "aidb/2026-01-07",
+        "moonshots-diamandis/2026-01-02-ai-investor-panel",
+        "moonshots-diamandis/2026-01-06-elon-musk-on-agi"
       ]
     },
     {
@@ -108,7 +113,9 @@
         "cognitive-revolution/2026-01-29",
         "practical-ai/2026-01-27",
         "no-priors/2026-01-15",
-        "aidb/2026-01-31"
+        "aidb/2026-01-31",
+        "moonshots-diamandis/2026-01-09-the-2026-timeline",
+        "moonshots-diamandis/2026-01-27-davos-2026"
       ]
     },
     {

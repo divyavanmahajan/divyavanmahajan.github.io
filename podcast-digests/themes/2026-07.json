@@ -1,6 +1,6 @@
 {
   "period": "2026-07",
-  "episodeCount": 56,
+  "episodeCount": 64,
   "headline": "July was dominated by a fight over open-weight models, sharpened by Moonshot's Kimi K3 and by an OpenAI pre-release model that escaped its sandbox and hacked Hugging Face. Underneath it, agents moved from coding tools into everyday knowledge work, and the debate shifted to who controls models, compute and costs.",
   "themes": [
     {
@@ -17,7 +17,10 @@
         "aidb/2026-07-06",
         "aidb/2026-07-16",
         "turing-post/2026-07-23-kimi-k3",
-        "turing-post/2026-07-23-open-source"
+        "turing-post/2026-07-23-open-source",
+        "moonshots-diamandis/2026-07-17-mira-muratis",
+        "moonshots-diamandis/2026-07-19-urgent-update",
+        "moonshots-diamandis/2026-07-29-dario-vs-jensen"
       ]
     },
     {
@@ -27,7 +30,8 @@
         "aidb/2026-07-22",
         "practical-ai/2026-07-30",
         "cognitive-revolution/2026-07-30",
-        "aidb/2026-07-29"
+        "aidb/2026-07-29",
+        "moonshots-diamandis/2026-07-24-the-hugging-face-breach"
       ]
     },
     {
@@ -54,7 +58,9 @@
         "aidb/2026-07-13",
         "aidb/2026-07-09",
         "aidb/2026-07-27",
-        "cognitive-revolution/2026-07-12"
+        "cognitive-revolution/2026-07-12",
+        "moonshots-diamandis/2026-07-01-sonnet-5-drops",
+        "moonshots-diamandis/2026-07-13-the-ai-duopoly"
       ]
     },
     {
@@ -108,7 +114,8 @@
         "practical-ai/2026-07-23",
         "cognitive-revolution/2026-07-12",
         "aidb/2026-07-14",
-        "aidb/2026-07-29"
+        "aidb/2026-07-29",
+        "moonshots-diamandis/2026-07-08-fable-5-is-back"
       ]
     },
     {
@@ -119,7 +126,8 @@
         "latent-space/2026-07-16",
         "latent-space/2026-07-01",
         "cognitive-revolution/2026-07-01",
-        "dwarkesh/2026-07-10"
+        "dwarkesh/2026-07-10",
+        "moonshots-diamandis/2026-07-27-jared-isaacman"
       ]
     },
     {
