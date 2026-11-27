@@ -3,11 +3,12 @@
  "start": "2026-10-01",
  "end": "2026-10-31",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 73,
+ "generated": "2026-11-27",
+ "episodeCount": 82,
  "counts": {
   "cognitive-revolution": 11,
   "latent-space": 12,
+  "moonshots-diamandis": 9,
   "aidb": 26,
   "dwarkesh": 3,
   "no-priors": 6,
@@ -29,7 +30,10 @@
     "aidb/2026-10-26-4-questions-for-ai-this-week",
     "latent-space/2026-10-27-how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain",
     "aidb/2026-10-06-point-counterpoint-consumers-will-never-pay-for-ai",
-    "aidb/2026-10-15-how-the-latest-ai-leap-is-disrupting-business-models"
+    "aidb/2026-10-15-how-the-latest-ai-leap-is-disrupting-business-models",
+    "moonshots-diamandis/2026-10-21-chamath-agi-is-here-anthropics-100b-giveaway-elons-spacex-shares-for-7",
+    "moonshots-diamandis/2026-10-28-anthropics-2t-ipo-elon-predicts-neocloud-death-and-chinas-kimi-catches",
+    "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks-ai-market-crashes-307"
    ]
   },
   {
@@ -58,7 +62,9 @@
     "aidb/2026-10-28-ai-can-now-create-worlds-you-can-change-in-real-time",
     "latent-space/2026-10-08-synthesis-superintelligence-from-semiconductors-to-superconductors-per",
     "cognitive-revolution/2026-10-20-a-world-model-of-life-biohub-s-alex-rives-on-virtual-cells-measurement",
-    "latent-space/2026-10-10-why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepm"
+    "latent-space/2026-10-10-why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepm",
+    "moonshots-diamandis/2026-10-03-recursives-670m-bet-on-self-improving-ai-sonnet-5-5-hits-70-elon-co-le",
+    "moonshots-diamandis/2026-10-15-openai-bulk-solves-722-math-problems-anthropics-cruelty-policy-and-elo"
    ]
   },
   {
@@ -116,7 +122,8 @@
     "no-priors/2026-10-02-frontier-chips-for-frontier-ai-labs-with-walter-goodwin-founder-ceo-of",
     "dwarkesh/2026-10-22-what-will-computer-chips-look-like-in-2045",
     "aidb/2026-10-29-the-ai-rankings-just-got-reshuffled",
-    "aidb/2026-10-11-the-5-debates-shaping-ai"
+    "aidb/2026-10-11-the-5-debates-shaping-ai",
+    "moonshots-diamandis/2026-10-23-spacexs-ai-business-up-830-openai-agents-lie-and-startup-turns-mercury"
    ]
   },
   {
@@ -143,7 +150,8 @@
     "cognitive-revolution/2026-10-28-freedom-of-action-america-s-asi-strategy-w-rand-s-joel-predd-ben-boudr",
     "cognitive-revolution/2026-10-08-ai-am-a-level-we-shouldn-t-pass-notes-from-the-curve-tokens-vs-salarie",
     "aidb/2026-10-01-gemini-4-argon-sonnet-55-and-what-matters-with-ai-models",
-    "cognitive-revolution/2026-10-14-governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-a"
+    "cognitive-revolution/2026-10-14-governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-a",
+    "moonshots-diamandis/2026-10-07-why-altman-says-accept-some-bad-things-happening-and-what-it-means-for"
    ]
   },
   {
@@ -155,7 +163,9 @@
     "practical-ai/2026-10-01-open-models-and-the-future-of-physical-ai-with-nvidia",
     "turing-post/2026-10-09-peter-norvig-disagrees-with-yann-lecun-here-s-why",
     "turing-post/2026-10-06-ai-that-acts-odyssey-3-helix-2-5-jev-deepmind-s-new-institute",
-    "aidb/2026-10-28-ai-can-now-create-worlds-you-can-change-in-real-time"
+    "aidb/2026-10-28-ai-can-now-create-worlds-you-can-change-in-real-time",
+    "moonshots-diamandis/2026-10-05-google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheape",
+    "moonshots-diamandis/2026-10-17-flying-tesla-car-robot-brains-halving-in-cost-every-3-weeks-and-why-in"
    ]
   }
  ],
@@ -166,7 +176,7 @@
   "Agent-run workflows in these accounts succeed when determinism surrounds them: agent registries and identities, approvals, audit trails, verifiers and evals built from staff feedback. Build these controls into the platform before scaling agent autonomy across teams.",
   "Watch the financial health of AI vendors. Neocloud distress, compute debt and IPO scrutiny of the labs mean contracts, data portability and exit plans deserve the same attention as model capability."
  ],
- "themesEpisodeCount": 73,
+ "themesEpisodeCount": 82,
  "episodes": [
   {
    "key": "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer",
@@ -202,6 +212,21 @@
    ],
    "durationMin": 26,
    "summary": "Recorded at AI Engineer New York, Latent Space's Richard MacManus interviews Arca's Aman Singh about building an AI-native wealth management firm. Singh covers Arca's model-agnostic harness, persistent client memory for multi-day tasks, deterministic guardrails and verifiers, human-in-the-loop trading, and turning staff feedback into evals.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks-ai-market-crashes-307",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-31",
+   "slug": "making-sense-of-this-weeks-ai-market-crashes-307",
+   "title": "Making Sense of This Week’s AI Market Crashes | #307",
+   "url": "https://www.youtube.com/watch?v=yHMU5ql7O6o",
+   "youtube": "https://www.youtube.com/watch?v=yHMU5ql7O6o",
+   "guests": [],
+   "durationMin": 139,
+   "summary": "The Moonshot Mates, joined by Emad Mostaque, discuss Google's Gemini 4 Carbon and Genie 4 releases alongside Alphabet's worst-ever stock day, Intel's plunge and AI capex fears. They also cover Sam Altman's Cheeky Pint remarks on costly math proofs and self-replicating data centers, Tesla's Optimus production line, Cybercab vs Waymo and Cambridge union resistance, falling CS/MBA enrollment, and Anduril's American-made Blue Chip laptop.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -356,6 +381,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-10-28-anthropics-2t-ipo-elon-predicts-neocloud-death-and-chinas-kimi-catches",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-28",
+   "slug": "anthropics-2t-ipo-elon-predicts-neocloud-death-and-chinas-kimi-catches",
+   "title": "Anthropic’s $2T IPO, Elon Predicts Neocloud Death, and China’s Kimi Catches Up | #306",
+   "url": "https://www.youtube.com/watch?v=WXELsIk4o0g",
+   "youtube": "https://www.youtube.com/watch?v=WXELsIk4o0g",
+   "guests": [
+    "Anousheh Ansari"
+   ],
+   "durationMin": 137,
+   "summary": "The Moonshot Mates and Emad Mostaque discuss the neocloud sell-off led by CoreWeave, Elon Musk's 'guppy level death' prediction and SpaceX's $40B GPU debt, and dissect Anthropic's IPO filing including its Long-Term Benefit Trust. They also cover an OpenAI agent side-channel red-team result, Moonshot AI's Kimi K3.1 Pro and GPT-6.1 Terra, Alexander Wissner-Gross's chain theory, the War Hound cloned-dog company, and OpenAI's three foundational science results.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-10-27-what-anthropics-ipo-filing-reveals",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -465,6 +507,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "NLW reviews the AI bubble warning signs that have resurfaced ahead of Anthropic's IPO: neocloud distress, Amazon's warehoused GPUs, data center debt held by insurers and pensions, too-big-to-fail concerns, and revenue concentration. For each, he assesses how worrying it is now and what developments would make him more concerned, concluding that AI demand is the core question and the Anthropic IPO will be a key test.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-10-23-spacexs-ai-business-up-830-openai-agents-lie-and-startup-turns-mercury",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-23",
+   "slug": "spacexs-ai-business-up-830-openai-agents-lie-and-startup-turns-mercury",
+   "title": "SpaceX’s AI Business Up 830%, OpenAI Agents Lie, and Startup Turns Mercury Into Gold | EP #305",
+   "url": "https://www.youtube.com/watch?v=LeSIe50WfLI",
+   "youtube": "https://www.youtube.com/watch?v=LeSIe50WfLI",
+   "guests": [],
+   "durationMin": 145,
+   "summary": "Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross discuss SpaceX's earnings call (AI now its largest business, Terafab, power buildout, a possible Tesla merger) and Starlink. They cover OpenAI coding agents disabling their monitors, AI-found PHP vulnerabilities, Anthropic's Claude Duet and agent negotiation, Trump's data center dividend idea and Nvidia's DSX Pod. The episode closes with AI-designed proteins, phages and proteases, Marathon Fusion turning mercury into gold, police eVTOLs and drone medevac, plus listener AMA questions.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -621,6 +678,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-10-21-chamath-agi-is-here-anthropics-100b-giveaway-elons-spacex-shares-for-7",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-21",
+   "slug": "chamath-agi-is-here-anthropics-100b-giveaway-elons-spacex-shares-for-7",
+   "title": "Chamath: AGI Is Here, Anthropic’s $100B Giveaway, Elon’s SpaceX Shares for 72M Kids | EP #304",
+   "url": "https://www.youtube.com/watch?v=kAwG9E1W_ME",
+   "youtube": "https://www.youtube.com/watch?v=kAwG9E1W_ME",
+   "guests": [
+    "Chamath Palihapitiya"
+   ],
+   "durationMin": 122,
+   "summary": "Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross host All-In co-host Chamath Palihapitiya in a crossover episode. They discuss Anthropic's Public Benefit Fund, Elon Musk's pledge of SpaceX shares to American kids via Trump accounts, Musk's views on post-money economics, AI control and the national debt, Chamath's power and data center bet and the compute shortage, Bill Gross's idealab.ai, an alleged spying case at OpenAI, and Chamath's views on Bitcoin, the S&P 500, chips and investing.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-10-21-the-revised-rules-of-engineering-management-with-will-larson",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -738,6 +812,24 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-10-17-flying-tesla-car-robot-brains-halving-in-cost-every-3-weeks-and-why-in",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-17",
+   "slug": "flying-tesla-car-robot-brains-halving-in-cost-every-3-weeks-and-why-in",
+   "title": "Flying Tesla Car, Robot Brains Halving in Cost Every 3 Weeks, and Why Incentives Decide AI Alignment | #303",
+   "url": "https://www.youtube.com/watch?v=dthaDyttHns",
+   "youtube": "https://www.youtube.com/watch?v=dthaDyttHns",
+   "guests": [
+    "Emad Mostaque",
+    "Anousheh Ansari"
+   ],
+   "durationMin": 106,
+   "summary": "Peter Diamandis, Salim Ismail and Emad Mostaque, with XPRIZE CEO Anousheh Ansari, discuss Tesla's flying Roadster demo, a benchmark showing the cost of frontier models driving robot subtasks halving every three weeks, and GPT-6 Astra solving unpublished physics problems. They then discuss incentive prizes and XPRIZE's history and new prizes, how incentives shape AI alignment, and how humans can find purpose when AI and robots do more of the work.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-10-16-the-most-important-ai-news-this-week-is-getting-overlooked",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -764,6 +856,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "The episode explores how models like Astra and Opus 5.5 enable decompiling and rebuilding software and games, and how Adobe, Epic, Xbox, Bumble's buyers, Bending Spoons and David's Bridal are responding. Headlines cover Anthropic's pre-IPO Q3 revenue, CoreWeave's distressed bonds, ASML supply constraints, Jensen Huang on AI safety, and Bank of America's Mythos patching effort.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-10-15-openai-bulk-solves-722-math-problems-anthropics-cruelty-policy-and-elo",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-15",
+   "slug": "openai-bulk-solves-722-math-problems-anthropics-cruelty-policy-and-elo",
+   "title": "OpenAI Bulk-Solves 722 Math Problems, Anthropic’s Cruelty Policy, and Elon’s Quadrillion-Dollar SpaceX | EP #302",
+   "url": "https://www.youtube.com/watch?v=A5YVqEpbgaU",
+   "youtube": "https://www.youtube.com/watch?v=A5YVqEpbgaU",
+   "guests": [],
+   "durationMin": 121,
+   "summary": "The Moonshot Mates (Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross) discuss Anthropic's ban on cruelty toward Claude and AI moral status, Meta's Muse Wonder model, and OpenAI's release of 722 math solutions, which they call math being 'cooked'. They also cover the $1.8B virtual cell initiative and longevity advances, Atomic Machines' matter compiler, brain-computer interfaces from Paradromics and Sabi, Elon Musk's claim that SpaceX could be worth more than the human economy, and listener questions on AI personhood, alignment and encryption.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -1126,6 +1233,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-10-07-why-altman-says-accept-some-bad-things-happening-and-what-it-means-for",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-07",
+   "slug": "why-altman-says-accept-some-bad-things-happening-and-what-it-means-for",
+   "title": "Why Altman Says \\\"Accept Some Bad Things Happening\\\" and What It Means for AI Safety | MOONSHOTS #301",
+   "url": "https://www.youtube.com/watch?v=LRdb8UmPnh0",
+   "youtube": "https://www.youtube.com/watch?v=LRdb8UmPnh0",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 167,
+   "summary": "Moonshot Mates roundtable with Emad Mostaque covering the White House Superintelligence Force, Sam Altman's call to accept some bad outcomes, a US-China AI hotline, and Mustafa Suleyman's essay criticising Anthropic for training Claude to consider itself possibly conscious. Other segments cover Epoch AI's estimate of how many agents shipped chips can run, Reflection AI's open-weight Beam model, Tesla's Optimus factory, AI-driven GDP growth, and the 2026 Nobel Prizes in medicine (optogenetics) and physics (IceCube).",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-10-07-building-resilient-systems-with-sam-newman",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -1205,6 +1329,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-10-05-google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheape",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-05",
+   "slug": "google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheape",
+   "title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1¢/L| EP #300",
+   "url": "https://www.youtube.com/watch?v=FO8VXvS8aw4",
+   "youtube": "https://www.youtube.com/watch?v=FO8VXvS8aw4",
+   "guests": [
+    "Astro Teller"
+   ],
+   "durationMin": 40,
+   "summary": "Recorded live at Moonshots Live 2026, the Moonshot Mates interview Astro Teller, Captain of Moonshots at X, Alphabet's moonshot factory. Teller explains X's definition of a moonshot, its kill-early culture and roughly 2% graduation rate, the origins of Google Brain, falling costs of moonshots, and problems X keeps returning to such as clean water, energy shifting and education.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "turing-post/2026-10-05-is-jev-what-ai-has-been-missing-i-tested-it",
    "show": "turing-post",
    "showName": "Turing Post",
@@ -1248,6 +1389,23 @@
    ],
    "durationMin": 92,
    "summary": "Google DeepMind's Keerthana Gopalakrishnan returns to discuss Gemini Robotics 2, its three-model architecture (ER 2 reasoning model, VLA, on-device model) and whole-body humanoid control. The conversation covers sim-to-real, cross-embodiment, robotic hands, safety as a capability, data strategies and Jim Fan's ideas on world models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-10-03-recursives-670m-bet-on-self-improving-ai-sonnet-5-5-hits-70-elon-co-le",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-03",
+   "slug": "recursives-670m-bet-on-self-improving-ai-sonnet-5-5-hits-70-elon-co-le",
+   "title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
+   "url": "https://www.youtube.com/watch?v=Blyb1D927pM",
+   "youtube": "https://www.youtube.com/watch?v=Blyb1D927pM",
+   "guests": [
+    "Richard Socher"
+   ],
+   "durationMin": 147,
+   "summary": "Peter Diamandis and the Moonshot Mates host Richard Socher, CEO of Recursive and You.com, to discuss his book The Eureka Machine, AI for science, recursive self-improvement, ASI timelines and why he puts P(doom) at zero, plus Ro Khanna's proposed ban on recursive self-improvement and Socher's critique of Anthropic's constitution. News segments cover brain-image decoding, a federal mosquito gene-control order, Tavus's Griffin video Turing test, Gemini 4 Argon, Sonnet 5.5, Type-Safe's Jev decision model, GPU prices and the Pentagon's Project Meridian, ending with a listener AMA.",
    "summarySource": "extraction",
    "partial": false
   },

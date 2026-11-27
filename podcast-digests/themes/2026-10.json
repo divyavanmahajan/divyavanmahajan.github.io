@@ -1,6 +1,6 @@
 {
   "period": "2026-10",
-  "episodeCount": 73,
+  "episodeCount": 82,
   "headline": "October was dominated by Anthropic's IPO filing and the money questions around it, from a 400-page S-1 to neocloud distress and GPU credit. Underneath, AI agents moved onto both sides of the ledger: finding vulnerabilities, producing mathematical results and running whole companies.",
   "themes": [
     {
@@ -14,7 +14,10 @@
         "aidb/2026-10-26",
         "latent-space/2026-10-27",
         "aidb/2026-10-06",
-        "aidb/2026-10-15"
+        "aidb/2026-10-15",
+        "moonshots-diamandis/2026-10-21-chamath-agi-is-here",
+        "moonshots-diamandis/2026-10-28-anthropics-2t-ipo",
+        "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks"
       ]
     },
     {
@@ -43,7 +46,9 @@
         "aidb/2026-10-28",
         "latent-space/2026-10-08",
         "cognitive-revolution/2026-10-20",
-        "latent-space/2026-10-10"
+        "latent-space/2026-10-10",
+        "moonshots-diamandis/2026-10-03-recursives-670m-bet",
+        "moonshots-diamandis/2026-10-15-openai-bulk-solves-722"
       ]
     },
     {
@@ -101,7 +106,8 @@
         "no-priors/2026-10-02",
         "dwarkesh/2026-10-22",
         "aidb/2026-10-29",
-        "aidb/2026-10-11"
+        "aidb/2026-10-11",
+        "moonshots-diamandis/2026-10-23-spacexs-ai-business"
       ]
     },
     {
@@ -128,7 +134,8 @@
         "cognitive-revolution/2026-10-28",
         "cognitive-revolution/2026-10-08",
         "aidb/2026-10-01",
-        "cognitive-revolution/2026-10-14"
+        "cognitive-revolution/2026-10-14",
+        "moonshots-diamandis/2026-10-07-why-altman-says"
       ]
     },
     {
@@ -140,7 +147,9 @@
         "practical-ai/2026-10-01",
         "turing-post/2026-10-09",
         "turing-post/2026-10-06",
-        "aidb/2026-10-28"
+        "aidb/2026-10-28",
+        "moonshots-diamandis/2026-10-05-google-xs-astro-teller",
+        "moonshots-diamandis/2026-10-17-flying-tesla-car"
       ]
     }
   ],

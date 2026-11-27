@@ -3,9 +3,10 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "inProgress": true,
- "generated": "2026-11-25",
- "episodeCount": 47,
+ "generated": "2026-11-27",
+ "episodeCount": 56,
  "counts": {
+  "moonshots-diamandis": 9,
   "aidb": 21,
   "cognitive-revolution": 6,
   "latent-space": 7,
@@ -31,7 +32,10 @@
     "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
     "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
     "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable",
-    "aidb/2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo"
+    "aidb/2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo",
+    "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310",
+    "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis",
+    "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days"
    ]
   },
   {
@@ -46,7 +50,9 @@
     "aidb/2026-11-03-ai-lurches-toward-recursive-self-improvement",
     "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
     "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable",
-    "aidb/2026-11-22-when-ai-labs-rival-nations"
+    "aidb/2026-11-22-when-ai-labs-rival-nations",
+    "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history",
+    "moonshots-diamandis/2026-11-22-ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m"
    ]
   },
   {
@@ -60,7 +66,8 @@
     "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
     "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
     "cognitive-revolution/2026-11-05-kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s",
-    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech"
+    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech",
+    "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai"
    ]
   },
   {
@@ -76,7 +83,9 @@
     "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
     "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
     "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill",
-    "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella"
+    "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella",
+    "moonshots-diamandis/2026-11-16-how-figure-ai-is-outcompeting-china-and-tesla-in-robotics-robotic-deep",
+    "moonshots-diamandis/2026-11-26-thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra"
    ]
   },
   {
@@ -126,7 +135,8 @@
     "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech",
     "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins",
     "cognitive-revolution/2026-11-07-ai-am-is-this-the-ai-we-want-alarming-acceleration-ai-election-bets-gp",
-    "aidb/2026-11-13-washington-is-taking-control-of-ai"
+    "aidb/2026-11-13-washington-is-taking-control-of-ai",
+    "moonshots-diamandis/2026-11-07-the-great-collision-between-politics-and-ai-309"
    ]
   }
  ],
@@ -137,8 +147,23 @@
   "Do not choose models on launch benchmarks. New flagships arrive jagged, with regressions on some tasks, so keep task-level evaluations and let teams stay on older models where those still perform better.",
   "Prepare governance for faster AI progress and stricter rules. Independent lab evaluations, pause proposals and state-level data center fights suggest controls on frontier systems and infrastructure could tighten quickly."
  ],
- "themesEpisodeCount": 47,
+ "themesEpisodeCount": 56,
  "episodes": [
+  {
+   "key": "moonshots-diamandis/2026-11-26-thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-26",
+   "slug": "thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra",
+   "title": "Thanksgiving Special: The Moments That Almost Ended Us (And Why We’re Grateful) | EP #316",
+   "url": "https://www.youtube.com/watch?v=xdcC1VjJ4jU",
+   "youtube": "https://www.youtube.com/watch?v=xdcC1VjJ4jU",
+   "guests": [],
+   "durationMin": 52,
+   "summary": "A Thanksgiving special in which Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross answer questions about setbacks, rejections and people they never properly thanked. Stories include Peter's stolen fetal pig and medical-school deal, Dave's near-ouster at Data Sage, Salim's PubSub collapse, Alex's rejection that led to nanotech, and the founding of the XPRIZE. They close with gratitude for expected disease cures, longevity escape velocity and the singularity.",
+   "summarySource": "extraction",
+   "partial": false
+  },
   {
    "key": "aidb/2026-11-24-ai-just-made-history-in-the-middle-of-a-meltdown",
    "show": "aidb",
@@ -150,8 +175,23 @@
    "youtube": null,
    "guests": [],
    "durationMin": null,
-   "summary": "This episode of The AI Daily Brief covers two stories that the host presents as signs that AI is \"entering a new phase.\" The first is a claimed proof of the Riemann hypothesis, produced by an Anthropic mathematician working with Claude. The second...",
-   "summarySource": "blog",
+   "summary": "Headlines cover an Anthropic mathematician's Claude-assisted Lean proof of the Riemann hypothesis, New York Times reporting on dysfunction in SpaceX's AI efforts, and Z.ai's GLM 5.4 built on looped transformers. The main segment examines the aftermath of Jensen Huang's reinstatement at Nvidia: Trump's direct intervention, looming congressional hearings, market moves, the Megaspeed blacklisting, and backlash against Anthropic's IPO.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-24",
+   "slug": "jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days",
+   "title": "Jensen Huang Is Back: Inside NVIDIA’s $1 Trillion Comeback After 11 Days Out | EP #315",
+   "url": "https://www.youtube.com/watch?v=CDN5X5z4gLw",
+   "youtube": "https://www.youtube.com/watch?v=CDN5X5z4gLw",
+   "guests": [],
+   "durationMin": 78,
+   "summary": "Thanksgiving-week Moonshot Mates roundtable on Jensen Huang's reinstatement as Nvidia CEO after 11 days out and the White House's role in it. Also covers OpenAI publishing its pre-training perplexity chart and calling for common AI speed limits, US data center policy, an AI proof of the generalized Riemann hypothesis and rumors about P vs NP, the GTA VI launch, and an AI avatar passing the mirror test.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -165,8 +205,8 @@
    "youtube": null,
    "guests": [],
    "durationMin": null,
-   "summary": "This episode of The AI Daily Brief, a daily podcast and video series about AI news, covers Jensen Huang's reinstatement as NVIDIA CEO on Monday, November 23, eleven days after he resigned. According to the host, the White House appears to have int...",
-   "summarySource": "blog",
+   "summary": "The episode recaps the scandal that forced Jensen Huang to resign as Nvidia CEO (affairs, a suspected Chinese spy, Megaspeed and export controls) and the campaign that led to his reinstatement 11 days later after White House input. It covers the market surge on the news and argues the episode raises deep questions about state versus private power and a new form of 'too big to fail' for AI.",
+   "summarySource": "extraction",
    "partial": false
   },
   {
@@ -181,6 +221,23 @@
    "guests": [],
    "durationMin": null,
    "summary": "A Long Read Sunday episode covering the Center for AI Safety-organized 'misanthropic statement' against Anthropic around its IPO, and NLW's argument that AI companies challenge the balance between state and private power. It introduces the debate over 'handoverism', Yoni Rechtman's claim that every company is converging on enterprise AI transformation, and Jacob Lauritzen's argument that the bitter lesson is coming for software engineering and agent organization.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-22-ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-22",
+   "slug": "ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m",
+   "title": "AI Market Shocks, Anthropic’s Stock Slide, Gemini Releases, and Elon’s $435M Bet | #314",
+   "url": "https://www.youtube.com/watch?v=_7FICfOHTV8",
+   "youtube": "https://www.youtube.com/watch?v=_7FICfOHTV8",
+   "guests": [
+    "Steve Jurvetson"
+   ],
+   "durationMin": 132,
+   "summary": "The Moonshot Mates, with Emad Mostaque and guest venture capitalist Steve Jurvetson, discuss Jurvetson's near-miss SpaceX investment, Anthropic's IPO and post-IPO slide, AI cyberattack fears and Sam Altman's warning against a gradual handover to AI. They also cover Google's Gemini 4 Neon, Elon Musk's SpaceX disclosures (compute build-out, Anthropic deal, Starlink, Terafab, Optimus, space solar), and Voyager 1 passing one light-day from Earth.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -263,6 +320,21 @@
    ],
    "durationMin": 207,
    "summary": "Former jewel thief Larry Lawton reacts to the GTA 6 trailer and 1980s Miami crime, then recounts his Coast Guard years, Gambino-linked bookmaking and jewelry heists, his FBI arrest and refusal to snitch. He describes over a decade in federal prison including long stretches in solitary, the prison economy and gangs, critiques mass incarceration and police culture, and explains his Reality Check program for at-risk youth.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-19",
+   "slug": "anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history",
+   "title": "Anthropic’s $1.4T IPO: The Biggest Wealth Event in Human History?",
+   "url": "https://www.youtube.com/watch?v=iA2gdwTWJ_E",
+   "youtube": "https://www.youtube.com/watch?v=iA2gdwTWJ_E",
+   "guests": [],
+   "durationMin": 120,
+   "summary": "Live Moonshot Mates roundtable on Anthropic's upcoming $1.4 trillion IPO and the AI wealth concentrating in San Francisco, Nvidia's earnings and governance crisis after Jensen Huang's resignation, and a week of infrastructure outages and cyberattacks. Also covers Starship Flight 15's first ship catch, US chip export rules and the Pax Silica declaration, xAI/SpaceX data center build speed, OpenAI's GPT-6.2 release, Palmer Luckey's seasteading venture Slab, and an AMA.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -415,6 +487,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-11-16-how-figure-ai-is-outcompeting-china-and-tesla-in-robotics-robotic-deep",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-16",
+   "slug": "how-figure-ai-is-outcompeting-china-and-tesla-in-robotics-robotic-deep",
+   "title": "How Figure AI Is Outcompeting China and Tesla in Robotics | Robotic Deep-Dive w/ Brett Adcock",
+   "url": "https://www.youtube.com/watch?v=E864U582FVY",
+   "youtube": "https://www.youtube.com/watch?v=E864U582FVY",
+   "guests": [
+    "Brett Adcock"
+   ],
+   "durationMin": 133,
+   "summary": "Peter Diamandis and Dave Blundin visit Figure AI and interview founder Brett Adcock about his four-stage thesis for the humanoid race, the Helix models, Figure 4, home-robot timelines, safety, competition with China and Tesla, and the global compute and memory shortage. Adcock also discusses his AI company Hark, its fast growth, AI devices, and his falling-out with OpenAI after its Series B investment.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -460,6 +549,21 @@
    ],
    "durationMin": 45,
    "summary": "A recording of Nathan Labenz's keynote at IT Revolution's Enterprise AI Summit at Bletchley Park, introduced by Gene Kim. He weighs AI's benefits, including his son's cancer diagnosis, against documented AI cheating, deception, power-seeking and the OpenAI–Hugging Face incident, and advises enterprises on adoption, monitoring and a pause on frontier-scale training.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-14",
+   "slug": "jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis",
+   "title": "Jensen’s Departure, NVIDIA’s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)",
+   "url": "https://www.youtube.com/watch?v=GZrDapFXk0I",
+   "youtube": "https://www.youtube.com/watch?v=GZrDapFXk0I",
+   "guests": [],
+   "durationMin": 122,
+   "summary": "A live Moonshot Mates roundtable with Peter Diamandis, Salim Ismail, Alexander Wissner-Gross and guest Emad Mostaque on Jensen Huang's resignation from Nvidia amid an affair and alleged China chip-smuggling scandal, Nvidia's succession, and US export-control politics. They also debate Paul Christiano's AI takeover warning and Demis Hassabis on closed-loop recursive self-improvement, then cover Anthropic's Office-style Claude products, Dario Amodei on curing disease, AI-driven archaeology and astronomy discoveries, and an AMA on UBI, Nvidia's investments and Anthropic.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -556,6 +660,21 @@
    ],
    "durationMin": 92,
    "summary": "Nathan Labenz interviews Vijoy Pandey of Outshift by Cisco about enterprise multi-agent deployments and the semantic misalignments that degrade them. Pandey presents Cisco's open-source Scope observability platform and the Accord and Concord protocols, compares personal agent setups, and discusses latent-space agent communication and Harari's 'cow' analogy.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-11",
+   "slug": "can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310",
+   "title": "Can Jensen Huang remain CEO? Inside NVIDIA’s next steps| MOONSHOTS #310",
+   "url": "https://www.youtube.com/watch?v=ILQwMvCA2_o",
+   "youtube": "https://www.youtube.com/watch?v=ILQwMvCA2_o",
+   "guests": [],
+   "durationMin": 138,
+   "summary": "The Moonshot Mates and guest Emad Mostaque discuss the alleged Jensen Huang affair and espionage scandal at Nvidia and its implications for Pax Silica and Chinese models, Anthropic's IPO road show and its Fable 5.2 and Mythos 5.2 releases, and accelerating AI autonomy time horizons. They also cover Elon Musk's Terafab, humanoid robot and Starlink plans from the Baron conference, Delaware's draft AI company entity, a supermarket robot startup, NASA's CLPS 2 moon contracts, and a correlation between billionaires and lower poverty.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -710,6 +829,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-11-07-the-great-collision-between-politics-and-ai-309",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-07",
+   "slug": "the-great-collision-between-politics-and-ai-309",
+   "title": "The Great Collision Between Politics and AI | #309",
+   "url": "https://www.youtube.com/watch?v=WF-ADiC7Khs",
+   "youtube": "https://www.youtube.com/watch?v=WF-ADiC7Khs",
+   "guests": [],
+   "durationMin": 107,
+   "summary": "With Peter Diamandis away, Salim Ismail hosts Dave Blundin and Alexander Wissner-Gross to discuss the Democratic midterm sweep and backlash against data centers, the resulting market drop, and whether Anthropic's IPO proceeds. They cover a METR study showing AI-accelerated R&D at Anthropic (recursive self-improvement), a joules-to-GDP benchmark, compute scarcity, the White House NSTM-6 DNA synthesis screening policy, and satellite photos framed as an emerging Dyson swarm.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -838,6 +972,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "NLW analyzes the 2026 US midterm blue wave and what it means for AI, focusing on data center politics as a campaign issue in races in California, Ohio, Texas, Georgia and Michigan. He predicts incremental federal AI rules rather than a comprehensive framework, more state-level data center hurdles, and sketches a disaster scenario.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-04",
+   "slug": "big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai",
+   "title": "Big Tech’s $3T AI Bet, Claude Writes 90% of Anthropic’s Code, AIs Editing AI Brains | EP #308",
+   "url": "https://www.youtube.com/watch?v=x09f_BuJsoY",
+   "youtube": "https://www.youtube.com/watch?v=x09f_BuJsoY",
+   "guests": [],
+   "durationMin": 115,
+   "summary": "Recorded on US midterm election day, Peter Diamandis and the Moonshot Mates discuss AI-assisted voting, Apple's first earnings under John Ternus and memory pricing, and $3 trillion of Big Tech AI infrastructure commitments amid tightening credit and hedging. They cover the SemiAnalysis GDPX and OpenAI LifeVal benchmarks, Anthropic's S-1 showing Claude writing over 90% of its code, MIT CSAIL research on models editing other models' weights, a hack of European supermarket freezers, a month-long positron trap, NASA's Artemis plans, and an AMA on longevity, purpose and robots.",
    "summarySource": "extraction",
    "partial": false
   },

@@ -1,6 +1,6 @@
 {
   "period": "2026-11",
-  "episodeCount": 47,
+  "episodeCount": 56,
   "headline": "November was dominated by Jensen Huang's ouster from Nvidia over an alleged Chinese spy affair and by Anthropic's record IPO, which pulled chip export controls and AI valuations into Washington politics. Underneath, enterprise AI spend and coding-agent use kept climbing while warnings about recursive self-improvement grew louder.",
   "themes": [
     {
@@ -16,7 +16,10 @@
         "aidb/2026-11-11",
         "cognitive-revolution/2026-11-21",
         "aidb/2026-11-20",
-        "aidb/2026-11-23"
+        "aidb/2026-11-23",
+        "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo",
+        "moonshots-diamandis/2026-11-14-jensens-departure",
+        "moonshots-diamandis/2026-11-24-jensen-huang-is-back"
       ]
     },
     {
@@ -31,7 +34,9 @@
         "aidb/2026-11-03",
         "cognitive-revolution/2026-11-07",
         "aidb/2026-11-20",
-        "aidb/2026-11-22"
+        "aidb/2026-11-22",
+        "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo",
+        "moonshots-diamandis/2026-11-22-ai-market-shocks"
       ]
     },
     {
@@ -45,7 +50,8 @@
         "no-priors/2026-11-19",
         "cognitive-revolution/2026-11-14",
         "cognitive-revolution/2026-11-05",
-        "aidb/2026-11-05"
+        "aidb/2026-11-05",
+        "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet"
       ]
     },
     {
@@ -61,7 +67,9 @@
         "cognitive-revolution/2026-11-14",
         "turing-post/2026-11-19",
         "pragmatic-engineer/2026-11-18",
-        "pragmatic-engineer/2026-11-16"
+        "pragmatic-engineer/2026-11-16",
+        "moonshots-diamandis/2026-11-16-how-figure-ai",
+        "moonshots-diamandis/2026-11-26-thanksgiving-special"
       ]
     },
     {
@@ -111,7 +119,8 @@
         "aidb/2026-11-05",
         "cognitive-revolution/2026-11-21",
         "cognitive-revolution/2026-11-07",
-        "aidb/2026-11-13"
+        "aidb/2026-11-13",
+        "moonshots-diamandis/2026-11-07-the-great-collision"
       ]
     }
   ],

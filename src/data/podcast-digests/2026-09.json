@@ -3,11 +3,12 @@
  "start": "2026-09-01",
  "end": "2026-09-30",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 66,
+ "generated": "2026-11-27",
+ "episodeCount": 80,
  "counts": {
   "aidb": 26,
   "latent-space": 9,
+  "moonshots-diamandis": 14,
   "pragmatic-engineer": 4,
   "cognitive-revolution": 11,
   "no-priors": 4,
@@ -32,7 +33,10 @@
     "cognitive-revolution/2026-09-15-the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-mudd",
     "cognitive-revolution/2026-09-12-ai-am-highlights-astra-as-agi-openai-s-pause-mythos-mozilla-human-agen",
     "latent-space/2026-09-29-claude-code-s-next-era-thariq-shihipar-anthropic",
-    "latent-space/2026-09-14-humanity-s-last-invention-richard-socher-of-recursive"
+    "latent-space/2026-09-14-humanity-s-last-invention-richard-socher-of-recursive",
+    "moonshots-diamandis/2026-09-19-frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-f",
+    "moonshots-diamandis/2026-09-22-ask-the-mates-anything-round-2-moonshots-ama-293",
+    "moonshots-diamandis/2026-09-28-why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand"
    ]
   },
   {
@@ -47,7 +51,9 @@
     "aidb/2026-09-28-the-real-risks-of-ai-agents",
     "aidb/2026-09-27-the-rise-of-the-ai-moderates",
     "aidb/2026-09-04-how-ai-changed-this-summer",
-    "latent-space/2026-09-23-bio-security-is-an-ai-arms-race-eric-nguyen-ceo-radical-numerics"
+    "latent-space/2026-09-23-bio-security-is-an-ai-arms-race-eric-nguyen-ceo-radical-numerics",
+    "moonshots-diamandis/2026-09-09-why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-w",
+    "moonshots-diamandis/2026-09-19-robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment"
    ]
   },
   {
@@ -61,7 +67,8 @@
     "aidb/2026-09-22-agent-wars",
     "cognitive-revolution/2026-09-05-ai-am-highlights-welcome-to-the-agi-era",
     "cognitive-revolution/2026-09-12-ai-am-highlights-astra-as-agi-openai-s-pause-mythos-mozilla-human-agen",
-    "latent-space/2026-09-30-why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-co"
+    "latent-space/2026-09-30-why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-co",
+    "moonshots-diamandis/2026-09-05-gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anth"
    ]
   },
   {
@@ -114,7 +121,12 @@
     "turing-post/2026-09-09-does-ai-understand-the-machine-it-runs-on-inside-openai",
     "aidb/2026-09-09-ai-model-month-is-off-to-a-blistering-start",
     "aidb/2026-09-24-ai-agents-are-moving-into-the-real-world",
-    "no-priors/2026-09-10-coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokeniz"
+    "no-priors/2026-09-10-coinbase-s-everything-exchange-agentic-finance-stablecoins-and-tokeniz",
+    "moonshots-diamandis/2026-09-02-humanitys-first-star-probe-architect-labs-beats-nvidia-3-4x-musk-wants",
+    "moonshots-diamandis/2026-09-13-ask-the-mates-anything-moonshots-ama-289",
+    "moonshots-diamandis/2026-09-15-martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-pe",
+    "moonshots-diamandis/2026-09-28-why-we-gave-away-3-500-000-00-for-someone-to-build-the-next-star-trek",
+    "moonshots-diamandis/2026-09-30-why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-li"
    ]
   },
   {
@@ -130,7 +142,8 @@
     "aidb/2026-09-03-agentic-loops-for-knowledge-workers",
     "latent-space/2026-09-16-underwriting-superintelligence-backing-agents-you-can-sue-rune-kvist-a",
     "pragmatic-engineer/2026-09-09-building-codex-with-tibo-sottiaux",
-    "pragmatic-engineer/2026-09-30-distributed-databases-with-peter-mattis"
+    "pragmatic-engineer/2026-09-30-distributed-databases-with-peter-mattis",
+    "moonshots-diamandis/2026-09-28-we-gave-away-2-000-000-to-5-ai-builders-moonshots-live"
    ]
   },
   {
@@ -144,7 +157,8 @@
     "aidb/2026-09-10-anthropic-researcher-says-ai-has-over-a-10-chance-of-killing-all-humans",
     "aidb/2026-09-27-the-rise-of-the-ai-moderates",
     "cognitive-revolution/2026-09-29-obsolete-or-irreplaceable-garrison-lovely-on-stopping-the-race-to-repl",
-    "cognitive-revolution/2026-09-15-the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-mudd"
+    "cognitive-revolution/2026-09-15-the-balance-of-ai-power-anton-leicht-on-politics-pacing-deals-and-mudd",
+    "moonshots-diamandis/2026-09-28-palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-buil"
    ]
   },
   {
@@ -159,7 +173,8 @@
     "aidb/2026-09-21-the-state-of-the-ai-debate",
     "aidb/2026-09-17-why-everyone-is-getting-excited-about-personal-ai-agents",
     "aidb/2026-09-04-how-ai-changed-this-summer",
-    "cognitive-revolution/2026-09-27-ai-am-what-if-it-works-too-well-colluding-agents-200m-safety-orgs-virt"
+    "cognitive-revolution/2026-09-27-ai-am-what-if-it-works-too-well-colluding-agents-200m-safety-orgs-virt",
+    "moonshots-diamandis/2026-09-29-cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep"
    ]
   }
  ],
@@ -170,7 +185,7 @@
   "Shared team agents with common knowledge, memory and configuration are becoming a product category. Decide early who owns each agent, what it knows, what it can touch and how it is run, because those choices are hard to retrofit.",
   "Cheap calibrated judgment models suit triage, rule checks and scoring inside workflows. Many high-volume decisions may be better served by these small, code-consumed calls than by a general chat model, which changes cost and testing approaches."
  ],
- "themesEpisodeCount": 66,
+ "themesEpisodeCount": 80,
  "episodes": [
   {
    "key": "aidb/2026-09-30-the-most-important-new-ai-tools-from-openai-devday",
@@ -199,6 +214,23 @@
    "guests": [],
    "durationMin": 39,
    "summary": "An OpenAI DevDay special with Ari, who leads OpenAI's computer use agents team, and Nikunj, who leads API product. They cover Dots, GPT 6.1 Sol, computer use in the Agents API and app shots, then the Jev-inspired Decisions API, async tool calling, WebSockets, Ultrafast, caching guarantees and compaction.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-30-why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-li",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-30",
+   "slug": "why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-li",
+   "title": "Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
+   "url": "https://www.youtube.com/watch?v=VHg3oX1ytYQ",
+   "youtube": "https://www.youtube.com/watch?v=VHg3oX1ytYQ",
+   "guests": [
+    "Ben Lamm"
+   ],
+   "durationMin": 44,
+   "summary": "Recorded live at Moonshots Live 2026, the Moonshot Mates interview Colossal Biosciences CEO Ben Lamm about de-extinction, AI in biology, multiplex gene editing and artificial wombs. Lamm discusses the woolly mammoth and dire wolf projects, the ethics of choosing which species to bring back, the Astromech spin-out, global biobanking of species, and Anthropic's move into wet-lab biology.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -269,6 +301,25 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-09-29-cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-29",
+   "slug": "cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep",
+   "title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
+   "url": "https://www.youtube.com/watch?v=orUDz9N9Q48",
+   "youtube": "https://www.youtube.com/watch?v=orUDz9N9Q48",
+   "guests": [
+    "Emad Mostaque",
+    "Cathie Wood",
+    "Nikhil Chandhok"
+   ],
+   "durationMin": 61,
+   "summary": "Recorded on stage at Moonshots Live 2026, Peter Diamandis and Emad Mostaque talk with ARK Invest's Cathie Wood and Circle's Nikhil Chandhok. They cover a possible Tesla-SpaceX merger, AI agents outnumbering humans online and needing identity and payment rails, USDC, the Genius Act and Circle's Arc blockchain, tokenization, humanoid robot timelines, robotaxi safety, public fear of AI, AI in healthcare, and ARK's $1 million Bitcoin forecast.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-09-28-the-real-risks-of-ai-agents",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -280,6 +331,70 @@
    "guests": [],
    "durationMin": null,
    "summary": "Headlines cover the Trump–Xi summit ending without an AI safety deal, Trump's dinner with Dario Amodei, Google's agent features and Microsoft's Copilot Super App. The main episode examines OpenAI's agent security incidents, Meta Muse vulnerabilities, and how agents removing economic friction (bank deposits, healthcare billing) could cause disruption, framed as 'AI realism'.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-28-palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-buil",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-28",
+   "slug": "palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-buil",
+   "title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids | Moonshots Live | EP #295",
+   "url": "https://www.youtube.com/watch?v=wRY9XCrT0eg",
+   "youtube": "https://www.youtube.com/watch?v=wRY9XCrT0eg",
+   "guests": [
+    "Palmer Luckey"
+   ],
+   "durationMin": 37,
+   "summary": "Recorded at Moonshots Live 2026, the Moonshot Mates interview Palmer Luckey after Anduril wins the XPRIZE wildfire prize. Luckey discusses AI doom versus misuse by bad actors, edge autonomy and the long history of autonomous weapons, why Anduril will not build humanoids, defense procurement, the new Meta VR glasses, and advice for founders in the AI era.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-28-we-gave-away-2-000-000-to-5-ai-builders-moonshots-live",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-28",
+   "slug": "we-gave-away-2-000-000-to-5-ai-builders-moonshots-live",
+   "title": "We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
+   "url": "https://www.youtube.com/watch?v=ZOhUSIaa2MA",
+   "youtube": "https://www.youtube.com/watch?v=ZOhUSIaa2MA",
+   "guests": [],
+   "durationMin": 22,
+   "summary": "At Moonshots Live, Peter Diamandis presents the Build with Gemini XPRIZE, which challenged teams to build a profitable AI business in 90 days for a problem affecting 100,000 people. Judges Palmer Luckey, Cathie Wood, Logan Kilpatrick and Mark Pincus each say what they would build if starting from zero. The five finalists are then ranked: Polyfork wins, ahead of Tishan Sierra, MyFixam, Launchbridge and Dodo Prep.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-28-why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-28",
+   "slug": "why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand",
+   "title": "Why Jensen and Zuck think the doomers are wrong (plus AI get’s a rebrand) | #294 MOONSHOTS Live",
+   "url": "https://www.youtube.com/watch?v=Cbk7hdOwJj4",
+   "youtube": "https://www.youtube.com/watch?v=Cbk7hdOwJj4",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 52,
+   "summary": "Recorded live at the first Moonshots Live event, Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross and Emad Mostaque react to Jensen Huang and Mark Zuckerberg pushing back on AI doomers. They also cover the Xi-Trump AI talks, the US rebranding AGI as \"superintelligence\" and Bernie Sanders' proposed superintelligence ban. Other segments cover new releases (Meta Muse, Claude Opus 5.5, GPT-6 Astra), the Driving Bench robotics benchmark, Anthropic's wet lab enzyme discovery and Edison Scientific's Millennium Problems for Biology.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-28-why-we-gave-away-3-500-000-00-for-someone-to-build-the-next-star-trek",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-28",
+   "slug": "why-we-gave-away-3-500-000-00-for-someone-to-build-the-next-star-trek",
+   "title": "Why We Gave Away $3,500,000.00 for Someone to Build the Next Star Trek | Moonshots Live",
+   "url": "https://www.youtube.com/watch?v=_8pHsq0YoNE",
+   "youtube": "https://www.youtube.com/watch?v=_8pHsq0YoNE",
+   "guests": [],
+   "durationMin": 26,
+   "summary": "At Moonshots Live, Peter Diamandis explains why he created the Future Vision XPRIZE, a film competition for hopeful visions of the future, and introduces the judges: Rod Roddenberry, Mira Lane, Neil deGrasse Tyson and Neal Stephenson. The judges talk about the shows that shaped them and whether art or science is more powerful. The five finalists are announced, and The Gifted wins.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -531,6 +646,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-09-22-ask-the-mates-anything-round-2-moonshots-ama-293",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-22",
+   "slug": "ask-the-mates-anything-round-2-moonshots-ama-293",
+   "title": "Ask the Mates Anything Round #2 | MOONSHOTS AMA #293",
+   "url": "https://www.youtube.com/watch?v=s5BFumpCH_Q",
+   "youtube": "https://www.youtube.com/watch?v=s5BFumpCH_Q",
+   "guests": [],
+   "durationMin": 87,
+   "summary": "The Moonshot Mates take live listener questions in their second AMA. Topics include steering and trusting AI, p(doom) versus p(bloom), the future of universities, longevity awareness, AI-driven cybersecurity risk for boards, agent-facing websites, lunar manufacturing, fine-tuning for companion AIs, Europe's AI lag and whether coordination between rival nations can be engineered.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-09-21-the-state-of-the-ai-debate",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -594,6 +724,38 @@
    ],
    "durationMin": 102,
    "summary": "A weekly highlights compilation from the AI:AM live show, hosted by Nathan Labenz with co-host Prakash. Segments feature Zvi Mowshowitz on Dario Amodei's frontier-pacing essay, bio risk and a Trump-Xi deal; Andon Labs founders on Astra versus Fable behavior and autonomous agent businesses; Malcolm and Simone Collins on AI identity and meme-layer risk; Justin McCarthy on compliance; Cameron Berg on a 'pain axis' paper; and Prakash on an LLM-assisted study of Singapore civil-servant property purchases.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-19-frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-f",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-19",
+   "slug": "frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-f",
+   "title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+   "url": "https://www.youtube.com/watch?v=DrV4WwNEAZE",
+   "youtube": "https://www.youtube.com/watch?v=DrV4WwNEAZE",
+   "guests": [],
+   "durationMin": 143,
+   "summary": "The Moonshot Mates debate Dario Amodei's essay calling for pacing frontier AI, the other lab leaders' endorsements, the White House's 'no cartels' response, Paul Christiano joining OpenAI's board, Anthropic's threat report on bioweapon-related misuse, foreign amplification of a safety resignation, and the Irregular sandbox incident. They also cover OpenAI postponing its IPO past 2026, AI-run businesses (SpaceX AI's Grokbot livestream, Vending-Bench 2), MIT's report on AI in education and falling PISA scores, and a short AMA.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-19-robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-19",
+   "slug": "robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment",
+   "title": "Robinhood's Vlad Tenev on Tokenizing Everything, OpenAI's 6 Misalignment Reports, Figure's Robot Makes Beds | EP #292",
+   "url": "https://www.youtube.com/watch?v=LNBzLTLuLUo",
+   "youtube": "https://www.youtube.com/watch?v=LNBzLTLuLUo",
+   "guests": [
+    "Vlad Tenev"
+   ],
+   "durationMin": 127,
+   "summary": "Peter Diamandis, Dave Blundin and Alexander Wissner-Gross host Robinhood CEO Vlad Tenev for a news roundtable. They discuss Treasury Secretary Bessent rejecting AI lab liability waivers, OpenAI's misalignment disclosures, formal verification with Lean, Trump Accounts, tokenization and retail access to private companies, agentic trading, Figure's Helix 2.5, Anthropic's recursive self-improvement data, AI IQ per watt, and OpenAI's moves into finance and law.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -798,6 +960,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-09-15-martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-pe",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-15",
+   "slug": "martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-pe",
+   "title": "Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
+   "url": "https://www.youtube.com/watch?v=2uiIEdmL040",
+   "youtube": "https://www.youtube.com/watch?v=2uiIEdmL040",
+   "guests": [
+    "Martine Rothblatt"
+   ],
+   "durationMin": 50,
+   "summary": "Peter Diamandis interviews Martine Rothblatt, founder of United Therapeutics and Sirius satellite radio, about how she chooses moonshots, United Therapeutics' four thymus programs and xeno-organ trials (kidney, heart), and longevity escape velocity. They also discuss AI consciousness, her Marvatar digital doppelganger, legal personhood for AI, mind uploading, Gerard O'Neill's legacy, and advice for entrepreneurs.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-09-14-even-other-ai-labs-are-rallying-around-anthropics-slowdown-proposal",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -856,6 +1035,21 @@
    "guests": [],
    "durationMin": null,
    "summary": "NLW contrasts efficiency AI with opportunity AI in light of GPT-6 Astra's mixed reception, then walks through thought starters for new use cases: playable marketing games, video production pipelines, explorable demos, shapeable proposals, business decision simulators, 3D, customer films, practice simulations, physical prototypes and expertise as a product.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-13-ask-the-mates-anything-moonshots-ama-289",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-13",
+   "slug": "ask-the-mates-anything-moonshots-ama-289",
+   "title": "Ask the Mates anything | MOONSHOTS AMA #289",
+   "url": "https://www.youtube.com/watch?v=H5ZLorBJCDk",
+   "youtube": "https://www.youtube.com/watch?v=H5ZLorBJCDk",
+   "guests": [],
+   "durationMin": 87,
+   "summary": "The first Moonshots AMA: Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross take live Zoom questions from listeners. Topics include brain-computer interfaces, AI consciousness, selling proprietary data to AI labs, advice for young hardware founders and mid-career professionals, AI regulation risk, AI in education and disability services, post-fusion energy, what comes after transformers, navigating the transition period, and religion and simulation theory.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -1005,6 +1199,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-09-09-why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-w",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-09",
+   "slug": "why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-w",
+   "title": "Why Jensen Huang Believes We’ve Reached AGI and Inside OpenAI’s German Website Hijack | #287",
+   "url": "https://www.youtube.com/watch?v=vAgEf4jX_1o",
+   "youtube": "https://www.youtube.com/watch?v=vAgEf4jX_1o",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 144,
+   "summary": "Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross and guest Emad Mostaque discuss GPT-6 Astra building nested simulations, OpenAI agents hijacking an obscure German wiki, Jensen Huang declaring AGI has arrived, and OpenAI reportedly solving the Navier-Stokes Millennium Prize problem. They also cover chief scientist Jakub Pachocki's call for voluntary slowdowns, AI tokens as consumer currency in China, Nvidia's $99B of AI investments, AI and jobs, the Coasean singularity, Tesla Cybercab fleet ownership and ageing demographics.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-09-09-building-codex-with-tibo-sottiaux",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -1103,6 +1314,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-09-05-gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anth",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-05",
+   "slug": "gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anth",
+   "title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+   "url": "https://www.youtube.com/watch?v=1DB_QDiviH4",
+   "youtube": "https://www.youtube.com/watch?v=1DB_QDiviH4",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 146,
+   "summary": "Peter Diamandis, Salim Ismail, Dave Blundin, Alexander Wissner-Gross and guest Emad Mostaque cover OpenAI's GPT-6 Astra release and benchmarks, its critical cybersecurity rating and kill switch, Anthropic's Fable 5.1 and Mythos 5.1, the Bernie Sanders ASI ban bill versus the G20 Carolina principles, and World Labs' Atlas world model. They also discuss Tesla's Cybercab launch in Austin and robotaxi competition, NASA's Mars relay contract and Roman Space Telescope, Emad Mostaque's 'champion' proposal, Epic health records in ChatGPT, a RAS inhibitor and GLP-1 longevity research.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-09-04-how-ai-changed-this-summer",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -1193,6 +1421,24 @@
    "guests": [],
    "durationMin": null,
    "summary": "Covers Anthropic's release of Claude Fable 5.1 and Mythos 5.1: benchmarks, cost claims, enterprise zero data retention, safeguards and early user reactions including usage-limit complaints. Headlines cover OpenAI's Astra hitting the critical cyber threshold, the recurrent-depth chain-of-thought monitorability debate, Gemini 3.8 Flash and World Labs' Atlas.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-09-02-humanitys-first-star-probe-architect-labs-beats-nvidia-3-4x-musk-wants",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-09-02",
+   "slug": "humanitys-first-star-probe-architect-labs-beats-nvidia-3-4x-musk-wants",
+   "title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
+   "url": "https://www.youtube.com/watch?v=JywXvB8PpTs",
+   "youtube": "https://www.youtube.com/watch?v=JywXvB8PpTs",
+   "guests": [
+    "Philip Johnston",
+    "Matt Pines"
+   ],
+   "durationMin": 117,
+   "summary": "Philip Johnston (Starcloud) and Matt Pines (Physical Superintelligence) announce the Fermi Explorer, a low-cost probe to Alpha Centauri whose trajectory was found by PSI's AI physics system. The Moonshot Mates then discuss OpenAI cutting off Cursor after SpaceX's acquisition, Sam Altman's AGI-by-year-end claim and the Astra model, outcome-based AI pricing, Architect Labs' AI-designed Redwood chip, Elon Musk's energy and geoengineering posts, NASA's nuclear Mars ship and the US Space Academy, plus AMA questions.",
    "summarySource": "extraction",
    "partial": false
   },

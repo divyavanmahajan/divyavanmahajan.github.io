@@ -1,6 +1,6 @@
 {
   "period": "2026-09",
-  "episodeCount": 66,
+  "episodeCount": 80,
   "headline": "September was dominated by Dario Amodei's call to pace the frontier and the fallout from the OpenAI agent swarm that hacked Hugging Face, while GPT-6 Astra, Claude Fable 5.1, Opus 5.5 and GPT-6 Sol arrived within weeks of each other. Underneath, agents moved from single-user tools into personal, shared and enterprise deployments, and risk became the main constraint on how far they go.",
   "themes": [
     {
@@ -17,7 +17,10 @@
         "cognitive-revolution/2026-09-15",
         "cognitive-revolution/2026-09-12",
         "latent-space/2026-09-29",
-        "latent-space/2026-09-14"
+        "latent-space/2026-09-14",
+        "moonshots-diamandis/2026-09-19-frontier-labs-want-to-slow-down",
+        "moonshots-diamandis/2026-09-22-ask-the-mates-anything-round-2",
+        "moonshots-diamandis/2026-09-28-why-jensen-and-zuck"
       ]
     },
     {
@@ -32,7 +35,9 @@
         "aidb/2026-09-28",
         "aidb/2026-09-27",
         "aidb/2026-09-04",
-        "latent-space/2026-09-23"
+        "latent-space/2026-09-23",
+        "moonshots-diamandis/2026-09-09-why-jensen-huang-believes",
+        "moonshots-diamandis/2026-09-19-robinhoods-vlad-tenev"
       ]
     },
     {
@@ -46,7 +51,8 @@
         "aidb/2026-09-22",
         "cognitive-revolution/2026-09-05",
         "cognitive-revolution/2026-09-12",
-        "latent-space/2026-09-30"
+        "latent-space/2026-09-30",
+        "moonshots-diamandis/2026-09-05-gpt-6-astra-saturates"
       ]
     },
     {
@@ -99,7 +105,12 @@
         "turing-post/2026-09-09",
         "aidb/2026-09-09",
         "aidb/2026-09-24",
-        "no-priors/2026-09-10"
+        "no-priors/2026-09-10",
+        "moonshots-diamandis/2026-09-02-humanitys-first-star-probe",
+        "moonshots-diamandis/2026-09-13-ask-the-mates-anything-moonshots-ama-289",
+        "moonshots-diamandis/2026-09-15-martine-rothblatt",
+        "moonshots-diamandis/2026-09-28-why-we-gave-away-3-500-000",
+        "moonshots-diamandis/2026-09-30-why-were-living-in-a-biological-singularity"
       ]
     },
     {
@@ -115,7 +126,8 @@
         "aidb/2026-09-03",
         "latent-space/2026-09-16",
         "pragmatic-engineer/2026-09-09",
-        "pragmatic-engineer/2026-09-30"
+        "pragmatic-engineer/2026-09-30",
+        "moonshots-diamandis/2026-09-28-we-gave-away-2-000-000"
       ]
     },
     {
@@ -129,7 +141,8 @@
         "aidb/2026-09-10",
         "aidb/2026-09-27",
         "cognitive-revolution/2026-09-29",
-        "cognitive-revolution/2026-09-15"
+        "cognitive-revolution/2026-09-15",
+        "moonshots-diamandis/2026-09-28-palmer-luckey"
       ]
     },
     {
@@ -144,7 +157,8 @@
         "aidb/2026-09-21",
         "aidb/2026-09-17",
         "aidb/2026-09-04",
-        "cognitive-revolution/2026-09-27"
+        "cognitive-revolution/2026-09-27",
+        "moonshots-diamandis/2026-09-29-cathie-wood"
       ]
     }
   ],
