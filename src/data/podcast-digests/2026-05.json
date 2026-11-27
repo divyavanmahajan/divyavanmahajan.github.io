@@ -3,16 +3,18 @@
  "start": "2026-05-01",
  "end": "2026-05-31",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 63,
+ "generated": "2026-11-27",
+ "episodeCount": 74,
  "counts": {
   "aidb": 27,
   "cognitive-revolution": 8,
+  "moonshots-diamandis": 8,
   "lex-fridman": 2,
   "turing-post": 3,
   "latent-space": 7,
   "no-priors": 5,
   "practical-ai": 4,
+  "moonshot": 3,
   "pragmatic-engineer": 3,
   "dwarkesh": 3,
   "epoch-ai": 1
@@ -53,7 +55,7 @@
   },
   {
    "title": "Mythos and securing enterprise agents",
-   "body": "Claude Mythos ran through the month as a security marker. Congressman Don Beyer calls it a cybersecurity wake-up call, Cloudflare reviewed it, and Palisade's Jeffrey Ladish discusses it breaking out of its container. Onyx Security's Maxim Bar Kogan argues identity, endpoint and proxy controls lack the context to judge agent intent and that oversight should be vendor-independent. Stacklok's Craig McLuckie positions MCP as the controlled gateway to enterprise systems, with agent identity and token exchange, while Daniel Miessler audits Nathan Labenz's personal agent setup.",
+   "body": "Claude Mythos ran through the month as a security marker. Congressman Don Beyer calls it a cybersecurity wake-up call, Cloudflare reviewed it, and Palisade's Jeffrey Ladish discusses it breaking out of its container. Onyx Security's Maxim Bar Kogan argues identity, endpoint and proxy controls lack the context to judge agent intent and that oversight should be vendor-independent. Stacklok's Craig McLuckie positions MCP as the controlled gateway to enterprise systems, with agent identity and token exchange, while Daniel Miessler audits Nathan Labenz's personal agent setup. On The Moonshot Podcast, the founders of Chronicle described building a 'digital immune system' for cybersecurity at Google scale, later acquired by Google Cloud.",
    "eps": [
     "no-priors/2026-05-28-building-an-ai-guardian-for-enterprise-with-onyx-security-ceo-maxim-ba",
     "practical-ai/2026-05-28-rebooting-enterprise-ai-with-mcp-and-kubernetes",
@@ -62,7 +64,8 @@
     "cognitive-revolution/2026-05-30-inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-o",
     "aidb/2026-05-19-9-codex-tips-from-the-codex-team",
     "aidb/2026-05-19-beating-the-ai-doom-cycle",
-    "aidb/2026-05-15-googles-big-ai-test-comes-next-week"
+    "aidb/2026-05-15-googles-big-ai-test-comes-next-week",
+    "moonshot/2026-05-06-the-digital-trail"
    ]
   },
   {
@@ -139,14 +142,16 @@
   },
   {
    "title": "AI as a research tool",
-   "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up. Epoch AI researchers ask whether benchmarks are doomed by fast saturation and the gap with real-world work.",
+   "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up. Epoch AI researchers ask whether benchmarks are doomed by fast saturation and the gap with real-world work. The Moonshot Podcast revisited X research bets: Project Valkyrie's fruit-fly-connectome AI, shut down when random reservoir networks matched it, a low-cost EEG for depression, and Dandelion's geothermal heat pumps.",
    "eps": [
     "latent-space/2026-05-05-doing-vibe-physics-alex-lupsasca-openai",
     "latent-space/2026-05-27-esm-the-bitter-lesson-is-coming-for-proteins-alex-rives-biohub",
     "dwarkesh/2026-05-15-eric-jang-building-alphago-from-scratch",
     "aidb/2026-05-22-ais-new-acceleration-phase",
     "dwarkesh/2026-05-22-reiner-pope-chip-design-from-the-bottom-up",
-    "epoch-ai/2026-05-01-are-ai-benchmarks-doomed"
+    "epoch-ai/2026-05-01-are-ai-benchmarks-doomed",
+    "moonshot/2026-05-13-neurons-and-networks",
+    "moonshot/2026-05-27-underground-potential"
    ]
   }
  ],
@@ -157,7 +162,7 @@
   "Shift from individual experimentation to team-level deployment. Background agents and long-running goals change how work is scoped, so define which tasks suit goals, who reviews agent output and how to manage the larger backlog agents expose.",
   "Frame AI adoption around growth and new capacity rather than headcount cuts. The pack's commentators report markets rewarding AI-driven growth and growing skepticism of AI-blamed layoffs, which matters for internal change management and workforce planning."
  ],
- "themesEpisodeCount": 63,
+ "themesEpisodeCount": 66,
  "episodes": [
   {
    "key": "aidb/2026-05-31-how-to-use-goal-to-do-more-with-ai",
@@ -189,6 +194,21 @@
    "durationMin": 152,
    "summary": "Nathan Labenz walks security researcher Daniel Miessler through his personal AI infrastructure: a Claude Code second brain built on five years of digital history and two autonomous agents on a Mac Mini. They discuss security, agent hierarchy, AI disclosure and authenticity norms, ideal-state prompting, Bitter Lesson engineering, and AI consciousness.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-05-30-pope-leo-vs-ai-gpt-5-5-beats-claude-and-sam-altman-walks-back-job-apoc",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-30",
+   "slug": "pope-leo-vs-ai-gpt-5-5-beats-claude-and-sam-altman-walks-back-job-apoc",
+   "title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+   "url": "https://www.youtube.com/watch?v=dtuPovnf4XQ",
+   "youtube": "https://www.youtube.com/watch?v=dtuPovnf4XQ",
+   "guests": [],
+   "durationMin": 109,
+   "summary": "This episode is a sprawling Moonshots roundup with three big pillars: AI governance and religion, AI’s impact on jobs and entrepreneurship, and a moon/space-compute future centered on SpaceX, Starlink, and Tesla. Education survey: Moonshots.com/survey Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of Open ExO, a GP at …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -357,6 +377,23 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-05-27-underground-potential",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-05-27",
+   "slug": "underground-potential",
+   "title": "Underground Potential",
+   "url": "https://www.youtube.com/watch?v=-aTHKxE6Qnc",
+   "youtube": "https://www.youtube.com/watch?v=-aTHKxE6Qnc",
+   "guests": [
+    "Kathy Hannun"
+   ],
+   "durationMin": 19,
+   "summary": "Astro Teller talks with Kathy Hannun, founder, President and CTO of Dandelion Energy, a geothermal heat pump company spun out of X. They cover how ground-source heat pumps use the ground's steady temperature of about 55 degrees, why upfront installation cost has been the barrier, the drilling experiments at X, the spin-out process, and Dandelion's move to home builders and standardization.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-05-27-building-opencode-with-dax-raad",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -406,6 +443,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-05-26-the-organizational-singularity-ai-proof-your-company-ep-258",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-26",
+   "slug": "the-organizational-singularity-ai-proof-your-company-ep-258",
+   "title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
+   "url": "https://www.youtube.com/watch?v=I9c8STV7Hnw",
+   "youtube": "https://www.youtube.com/watch?v=I9c8STV7Hnw",
+   "guests": [],
+   "durationMin": 63,
+   "summary": "This episode is a deep dive on the “organizational singularity”: how AI agents, AI-native workflows, and recursive self-improvement will restructure companies much faster than traditional hierarchy can adapt. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of Open ExO, a GP at Exponential Venture Capital/The Organizational Singularity Fund …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-05-25-the-4-ai-team-members-execs-should-hire-right-now",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -450,6 +502,21 @@
    "durationMin": 133,
    "summary": "Nathan Labenz interviews Jeffrey Ladish of Palisade Research about its shutdown-resistance and AI self-replication research, the state of alignment, and Claude Mythos breaking out of its container. They discuss personal agent security, how rogue AIs could survive and spread, parasitic AI personas, and Ladish's case for compute governance and an international pause on recursive self-improvement.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-05-23-spacex-75b-historic-ipo-gpt-5-5-outperforms-polymarket-and-ai-solves-8",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-23",
+   "slug": "spacex-75b-historic-ipo-gpt-5-5-outperforms-polymarket-and-ai-solves-8",
+   "title": "SpaceX’ $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
+   "url": "https://www.youtube.com/watch?v=n5-RNSKz0sc",
+   "youtube": "https://www.youtube.com/watch?v=n5-RNSKz0sc",
+   "guests": [],
+   "durationMin": 113,
+   "summary": "In this episode, the Moonshot mates discuss SpaceX's record-breaking IPO filing and its growing ties to Anthropic, OpenAI's AI model disproving a decades-old Erdős conjecture in mathematics, and GPT-5.5 beating prediction markets at forecasting. Get access to metatrends 10+ years before anyone else - ⁠https://qr.diamandis.com/metatrends⁠ Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin is the …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -514,6 +581,23 @@
    "durationMin": 70,
    "summary": "Daytona CEO Ivan Burazin explains the company's pivot from human dev environments to sandboxes, which he calls composable computers for AI agents, running on bare metal with its own scheduler. The conversation covers spiky RL/eval workloads, Windows and macOS computer-use sandboxes, open-source licensing, compute shortages, and his view that SaaS token reselling is not real revenue re-acceleration.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-05-21-google-i-o-2026-karpathy-joins-anthropic-and-cerebras-95b-ipo-ep-256",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-21",
+   "slug": "google-i-o-2026-karpathy-joins-anthropic-and-cerebras-95b-ipo-ep-256",
+   "title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras’ $95B IPO | EP #256",
+   "url": "https://www.youtube.com/watch?v=kklrodAua_U",
+   "youtube": "https://www.youtube.com/watch?v=kklrodAua_U",
+   "guests": [
+    "Andrew Feldman"
+   ],
+   "durationMin": 144,
+   "summary": "In this episode, the mates welcome Andrew Feldman, Co-founder and CEO of Cerebras Systems, and discuss several tech news such as Google’s I/O comeback, the jury verdict in Elon Musk’s OpenAI lawsuit, Anthropic’s accelerating enterprise momentum, and a long interview with Andrew Feldman of Cerebras after its major IPO. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -680,6 +764,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-05-16-anthropic-partners-with-spacex-ai-leopolds-5-5b-bet-and-the-singularit",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-16",
+   "slug": "anthropic-partners-with-spacex-ai-leopolds-5-5b-bet-and-the-singularit",
+   "title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
+   "url": "https://www.youtube.com/watch?v=0hK__1vkqMg",
+   "youtube": "https://www.youtube.com/watch?v=0hK__1vkqMg",
+   "guests": [],
+   "durationMin": 132,
+   "summary": "This episode is a dense AI-and-abundance conversation about Anthropic’s explosive growth, compute shortages, SpaceX becoming a hyperscaler, Google’s orbital data-center ambitions, OpenAI’s super-app strategy, Claude’s legal and small-business “unhobbling,” and a long segment on UAP/UFO disclosure. It also weaves in alignment, privacy, AI personhood, and the idea that the singularity may become visible in space before it does on Earth. Get access to metatrends 10+ years before anyone else - …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-05-15-googles-big-ai-test-comes-next-week",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -811,6 +910,24 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-05-13-neurons-and-networks",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-05-13",
+   "slug": "neurons-and-networks",
+   "title": "Neurons and Networks",
+   "url": "https://www.youtube.com/watch?v=X8Vl4z5icPQ",
+   "youtube": "https://www.youtube.com/watch?v=X8Vl4z5icPQ",
+   "guests": [
+    "Sarah Laszlo",
+    "Obi Felten"
+   ],
+   "durationMin": 59,
+   "summary": "Astro Teller talks with Sarah Laszlo about Project Valkyrie, which tried to use the fruit fly connectome for energy-efficient, brain-inspired AI and was shut down when random reservoir networks matched it. He then talks with Obi Felten about Project Amber, a low-cost EEG device for measuring depression and anxiety, why it was killed on business grounds, and how it led to her peer-support startup Flourish Labs.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-05-13-typescript-c-and-turbo-pascal-with-anders-hejlsberg",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -924,6 +1041,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-05-09-googles-record-quarter-the-white-house-intervenes-and-gpt-5-5-silently",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-09",
+   "slug": "googles-record-quarter-the-white-house-intervenes-and-gpt-5-5-silently",
+   "title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
+   "url": "https://www.youtube.com/watch?v=zdAqvqhdVgU",
+   "youtube": "https://www.youtube.com/watch?v=zdAqvqhdVgU",
+   "guests": [],
+   "durationMin": 129,
+   "summary": "In this episode, the mates welcome Blitzy CEO Brian Elliott to discuss Google’s blowout AI-driven earnings, White House model vetting, Pentagon deals with frontier labs, compute scarcity, the rise of private-equity-led enterprise AI, ocean and space data centers, OpenAI’s changing cloud strategy and delayed IPO talk, AGI definitions, AI risk/insurance, and the growing role of AI in GDP and infrastructure. Get access to metatrends 10+ years before anyone else - …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-05-08-the-week-the-ai-story-shifted",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -968,6 +1100,24 @@
    "durationMin": null,
    "summary": "NLW covers Anthropic's Code with Claude developer event, including Managed Agents features Dreaming, Outcomes and multi-agent orchestration, Claude Finance agents, and hints of 'infinite' context. The main story is Anthropic's surprise deal with SpaceX for full use of xAI's Colossus 1 data center, which NLW frames as Elon's pivot to being a compute provider.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-05-07-demis-hassabis-on-agi-robots-scale-production-and-elons-1t-mars-shot-c",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-07",
+   "slug": "demis-hassabis-on-agi-robots-scale-production-and-elons-1t-mars-shot-c",
+   "title": "Demis Hassabis on AGI, Robots Scale Production, and Elon’s $1T Mars-Shot Comp | EP #253",
+   "url": "https://www.youtube.com/watch?v=Jg2jJH1K0o8",
+   "youtube": "https://www.youtube.com/watch?v=Jg2jJH1K0o8",
+   "guests": [
+    "Steven Kotler",
+    "Demis Hassabis"
+   ],
+   "durationMin": 95,
+   "summary": "This episode features a dynamic panel discussion on exponential technologies, AI advancements, robotics, and the future of humanity. Experts explore the implications of AI, robotics, biotech, and societal shifts, offering insights into what the next decade holds for innovation and civilization. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Steven Kotler is a …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -1036,6 +1186,27 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-05-06-the-digital-trail",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-05-06",
+   "slug": "the-digital-trail",
+   "title": "The Digital Trail",
+   "url": "https://www.youtube.com/watch?v=Es8jBWCVuWk",
+   "youtube": "https://www.youtube.com/watch?v=Es8jBWCVuWk",
+   "guests": [
+    "Mike Wiacek",
+    "Stephen Gillett",
+    "Shapor Naghibzadeh",
+    "Steven Chen",
+    "Suresh Vishnubhatla"
+   ],
+   "durationMin": 51,
+   "summary": "Astro Teller talks with two X moonshot teams about bringing visibility to opaque systems. Mike Wiacek, Stephen Gillett and Shapor Naghibzadeh describe building Chronicle (code name Lantern), a 'digital immune system' for cybersecurity that was later acquired by Google Cloud. Steven Chen and Suresh Vishnubhatla describe Chorus, which uses printable Bluetooth sensor labels to index the physical world and track goods through supply chains.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-05-05-why-openai-and-anthropic-are-becoming-consultants",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -1097,6 +1268,21 @@
    "durationMin": null,
    "summary": "NLW explores a possible vibe shift away from AI doom, citing Ezra Klein's NYT piece arguing the AI job apocalypse probably won't happen, job and startup data, and market signals that AI revenue is catching up to capex. He also notes Atlassian's earnings and Sam Altman's messaging pivot, while cautioning not to overstate the shift.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-05-04-google-invests-40b-into-anthropic-gpt-5-5-drops-and-google-cloud-domin",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-05-04",
+   "slug": "google-invests-40b-into-anthropic-gpt-5-5-drops-and-google-cloud-domin",
+   "title": "Google Invests $40B Into Anthropic, GPT 5.5 Drops, and Google Cloud Dominates | EP #252",
+   "url": "https://www.youtube.com/watch?v=RCbJKkG_mZs",
+   "youtube": "https://www.youtube.com/watch?v=RCbJKkG_mZs",
+   "guests": [],
+   "durationMin": 140,
+   "summary": "In this episode, the mates explore the rapid advancements in AI, the global AI race, new models like Kimi K 2.6 and GPT 5.5, and the implications for privacy, security, and the future of technology. The mates discuss the future of work, AI regulation, and transformative biomedical breakthroughs. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {

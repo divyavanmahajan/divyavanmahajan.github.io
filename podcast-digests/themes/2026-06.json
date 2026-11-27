@@ -1,6 +1,6 @@
 {
   "period": "2026-06",
-  "episodeCount": 64,
+  "episodeCount": 65,
   "headline": "June was dominated by the US government forcing Anthropic to take Fable 5 and Mythos 5 offline, a saga that grew into what NLW calls an ad hoc AI licensing regime now covering OpenAI's GPT-5.6 too. Underneath it ran a quieter story about scarcity: tokens, compute and memory got expensive, pushing enterprises toward token efficiency, cheaper open-weight models and multi-model stacks.",
   "themes": [
     {
@@ -106,7 +106,7 @@
     },
     {
       "title": "Self-improvement and AI governance",
-      "body": "Anthropic's 'When AI Builds Itself' essay and OpenAI's democratic-governance blueprint set the frame. Nathan Labenz reported on a closed-door event about recursive self-improvement and lab safety plans built on AI monitoring. Noam Brown discussed models that reason for weeks and limits on self-improvement, while Dean Ball, now leading OpenAI frontier policy, covered internal deployments. David Duvenaud raised gradual disempowerment, Robert Wright warned markets may favor deceptive AIs, and economists Alex Imas and Phil Trammell asked what stays scarce after AGI.",
+      "body": "Anthropic's 'When AI Builds Itself' essay and OpenAI's democratic-governance blueprint set the frame. Nathan Labenz reported on a closed-door event about recursive self-improvement and lab safety plans built on AI monitoring. Noam Brown discussed models that reason for weeks and limits on self-improvement, while Dean Ball, now leading OpenAI frontier policy, covered internal deployments. David Duvenaud raised gradual disempowerment, Robert Wright warned markets may favor deceptive AIs, and economists Alex Imas and Phil Trammell asked what stays scarce after AGI. In The Moonshot Podcast's season 2 finale, Sergey Brin told Astro Teller that people will have to adjust to ever faster AI progress, and Adam Savage drew out X's habit of trying to kill its own ideas.",
       "eps": [
         "aidb/2026-06-05",
         "cognitive-revolution/2026-06-06",
@@ -114,7 +114,8 @@
         "cognitive-revolution/2026-06-20",
         "cognitive-revolution/2026-06-27",
         "cognitive-revolution/2026-06-23",
-        "dwarkesh/2026-06-04"
+        "dwarkesh/2026-06-04",
+        "moonshot/2026-06-03"
       ]
     },
     {

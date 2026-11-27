@@ -3,8 +3,8 @@
  "start": "2026-01-01",
  "end": "2026-01-31",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 52,
+ "generated": "2026-11-27",
+ "episodeCount": 60,
  "counts": {
   "aidb": 26,
   "cognitive-revolution": 8,
@@ -12,9 +12,11 @@
   "no-priors": 4,
   "latent-space": 6,
   "pragmatic-engineer": 2,
+  "moonshots-diamandis": 7,
   "practical-ai": 3,
   "turing-post": 1,
-  "lex-fridman": 1
+  "lex-fridman": 1,
+  "moonshot": 1
  },
  "headline": "January belonged to Claude Code: after a holiday surge around Opus 4.5, hosts across shows asked whether code AGI is already functional AGI, and Claude Cowork carried the same agent into non-coding work. Underneath it ran a widening gap between the people and companies who reorganise around agents and everyone else, with jobs, capital and governance debates trying to catch up.",
  "themes": [
@@ -74,7 +76,7 @@
   },
   {
    "title": "The fight over context and data",
-   "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, and MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. On Turing Post, Mozilla CTO Raffi Krikorian argues for user-owned, portable context, a four-layer 'LAMP stack for AI' and building in model choice early. Apple's Gemini-powered Siri moved the fight to the device.",
+   "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, and MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. On Turing Post, Mozilla CTO Raffi Krikorian argues for user-owned, portable context, a four-layer 'LAMP stack for AI' and building in model choice early. Apple's Gemini-powered Siri moved the fight to the device. On The Moonshot Podcast, Emily Ma described Project Delta's 'air traffic control' for surplus food, which became the open-source Open Product Recovery data standards.",
    "eps": [
     "aidb/2026-01-15-ais-battle-for-your-context",
     "aidb/2026-01-05-context-graphs-ais-next-big-idea",
@@ -82,7 +84,8 @@
     "no-priors/2026-01-22-no-priors-live-building-durable-software-in-the-ai-age-with-mongodb-pr",
     "turing-post/2026-01-27-this-is-a-fight-worth-having-the-case-for-open-source-ai-raffi-krikori",
     "aidb/2026-01-12-google-to-officially-power-apple-ai-siri",
-    "aidb/2026-01-09-how-people-are-using-ai-for-health"
+    "aidb/2026-01-09-how-people-are-using-ai-for-health",
+    "moonshot/2026-01-13-moonshot-podcast-deep-dive-emily-ma-on-solving-food-waste"
    ]
   },
   {
@@ -145,7 +148,7 @@
   "Independent evaluations and leaderboards can be gamed or misread. Build internal evals on your own tasks, track cost per outcome alongside capability, and expect total AI spend to grow even as the price per unit of intelligence falls.",
   "Workforce exposure is uneven. Pair agent rollouts with skills programs for directing agents and redesigning processes, and identify roles with high exposure and low adaptability early so transitions are planned rather than reactive."
  ],
- "themesEpisodeCount": 52,
+ "themesEpisodeCount": 53,
  "episodes": [
   {
    "key": "aidb/2026-01-31-100000-ai-agents-joined-their-own-social-network-today-its-called-moltbook",
@@ -291,6 +294,36 @@
    "durationMin": 114,
    "summary": "Gergely Orosz talks with Peter Steinberger about building PSPDFKit, burning out and returning to coding after three years, and his AI-agent-centred workflow. Peter explains running 5-10 Codex agents in parallel, closing the loop so agents verify their own work, treating pull requests as prompt requests, and building his viral personal-assistant project Clawdbot (now OpenClaw).",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-01-27-claude-code-ends-saas-the-gemini-siri-partnership-and-math-finally-sol",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-01-27",
+   "slug": "claude-code-ends-saas-the-gemini-siri-partnership-and-math-finally-sol",
+   "title": "Claude Code Ends SaaS, the Gemini + Siri Partnership, and Math Finally Solves AI | #224",
+   "url": "https://www.youtube.com/watch?v=DTgrzlQtOd0",
+   "youtube": "https://www.youtube.com/watch?v=DTgrzlQtOd0",
+   "guests": [],
+   "durationMin": 111,
+   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Connect with Peter: X Instagram Connect with …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-01-27-davos-2026-the-us-china-ai-race-gpu-diplomacy-and-robots-walking-the-s",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-01-27",
+   "slug": "davos-2026-the-us-china-ai-race-gpu-diplomacy-and-robots-walking-the-s",
+   "title": "Davos 2026: The US-China AI Race, GPU Diplomacy, and Robots Walking the Streets | #225",
+   "url": "https://www.youtube.com/watch?v=hGRiklWYMas",
+   "youtube": "https://www.youtube.com/watch?v=hGRiklWYMas",
+   "guests": [],
+   "durationMin": 102,
+   "summary": "In this episode, the mates discuss Davos 2026. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -501,6 +534,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-01-20-the-singularity-countdown-agi-by-2029-humans-merge-with-ai-and-intelli",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-01-20",
+   "slug": "the-singularity-countdown-agi-by-2029-humans-merge-with-ai-and-intelli",
+   "title": "The Singularity Countdown: AGI by 2029, Humans Merge with AI, and Intelligence Multiplies 1000x | Ray Kurzweil | 223",
+   "url": "https://www.youtube.com/watch?v=8iWSNwIRazc",
+   "youtube": "https://www.youtube.com/watch?v=8iWSNwIRazc",
+   "guests": [
+    "Ray Kurzweil"
+   ],
+   "durationMin": 100,
+   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Ray Kurzweil is an American inventor and futurist best known for his pioneering work in optical character recognition and his predictions regarding the technological singularity. Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Pre order \"We …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "practical-ai/2026-01-20-controlling-ai-models-from-the-inside",
    "show": "practical-ai",
    "showName": "Practical AI",
@@ -693,6 +743,40 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-01-13-moonshot-podcast-deep-dive-emily-ma-on-solving-food-waste",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-01-13",
+   "slug": "moonshot-podcast-deep-dive-emily-ma-on-solving-food-waste",
+   "title": "Moonshot Podcast Deep Dive: Emily Ma on Solving Food Waste",
+   "url": "https://www.youtube.com/watch?v=M81eNpPksOs",
+   "youtube": "https://www.youtube.com/watch?v=M81eNpPksOs",
+   "guests": [
+    "Emily Ma"
+   ],
+   "durationMin": 49,
+   "summary": "Astro Teller interviews Emily Ma about how she came to work on food waste at X, the scale of food loss across the supply chain, and Project Delta's 'air traffic control' system for surplus food, which became the open-source Open Product Recovery standards. They also discuss Chorus, X's moonshot to give objects a voice for supply chain tracking, Delta's graduation to Google, and the role of play in moonshots.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-01-13-tony-robbins-on-overcoming-job-loss-purposelessness-the-coming-ai-disr",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-01-13",
+   "slug": "tony-robbins-on-overcoming-job-loss-purposelessness-the-coming-ai-disr",
+   "title": "Tony Robbins on Overcoming Job Loss, Purposelessness & The Coming AI Disruption | 222",
+   "url": "https://www.youtube.com/watch?v=mAtmWhYQvnI",
+   "youtube": "https://www.youtube.com/watch?v=mAtmWhYQvnI",
+   "guests": [
+    "Tony Robbins"
+   ],
+   "durationMin": 109,
+   "summary": "Get access to metatrends 10+ years before anyone else Tony Robbins is a world-renowned American motivational speaker, life coach, author, and entrepreneur. Join Tony’s free summit Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-01-12-google-to-officially-power-apple-ai-siri",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -780,6 +864,21 @@
    "durationMin": 115,
    "summary": "In a solo AMA, Nathan Labenz updates listeners on his son Ernie's cancer treatment and how he uses frontier models for medical decisions. He discusses whether Claude Opus 4.5 and Claude Code amount to software AGI, whether AI is a bubble, Chinese models and H200 exports, and gives a live-player analysis of Google DeepMind, OpenAI, Anthropic, xAI, Meta and Microsoft.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-01-09-the-2026-timeline-agi-arrival-safety-concerns-robotaxi-fleets-hypersca",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-01-09",
+   "slug": "the-2026-timeline-agi-arrival-safety-concerns-robotaxi-fleets-hypersca",
+   "title": "The 2026 Timeline: AGI Arrival, Safety Concerns, Robotaxi Fleets & Hyperscaler Timelines | 221",
+   "url": "https://www.youtube.com/watch?v=2WTFuSeYJ6o",
+   "youtube": "https://www.youtube.com/watch?v=2WTFuSeYJ6o",
+   "guests": [],
+   "durationMin": 122,
+   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified – My companies: Apply to Dave's and my new fund:https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Grab dinner with MOONSHOT listeners: https://moonshots.dnnr.io/ Connect …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -880,6 +979,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-01-06-elon-musk-on-agi-timeline-us-vs-china-job-markets-clean-energy-humanoi",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-01-06",
+   "slug": "elon-musk-on-agi-timeline-us-vs-china-job-markets-clean-energy-humanoi",
+   "title": "Elon Musk on AGI Timeline, US vs China, Job Markets, Clean Energy & Humanoid Robots | 220",
+   "url": "https://www.youtube.com/watch?v=RSNuB9pj9P8",
+   "youtube": "https://www.youtube.com/watch?v=RSNuB9pj9P8",
+   "guests": [
+    "Elon Musk"
+   ],
+   "durationMin": 173,
+   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Elon Musk is the cofounder and CEO of Tesla, cofounder of SpaceX and xAI. Dave Blundin is the founder & GP of Link Ventures – My companies: Apply to Dave's and my new fund: https://qr.diamandis.com/linkventureslanding Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Connect with Peter: X Instagram Connect with Dave: X LinkedIn …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-01-05-context-graphs-ais-next-big-idea",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -954,6 +1070,24 @@
    "durationMin": 28,
    "summary": "The Princeton team behind the NeurIPS best paper on 1000-layer networks for self-supervised RL explain how combining a contrastive goal-conditioned objective with residual connections and layer norm lets RL networks scale in depth. They discuss depth vs width efficiency, GPU-accelerated JAX environments, batch-size scaling, distillation, and robotics applications.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-01-02-ai-investor-panel-how-will-we-fund-the-global-ai-revolution-ep-219",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-01-02",
+   "slug": "ai-investor-panel-how-will-we-fund-the-global-ai-revolution-ep-219",
+   "title": "AI Investor Panel: How Will We Fund the Global AI Revolution? | EP 219",
+   "url": "https://www.youtube.com/watch?v=7q3fhBR3z-A",
+   "youtube": "https://www.youtube.com/watch?v=7q3fhBR3z-A",
+   "guests": [
+    "Anjney Midha",
+    "Bonnie Chan"
+   ],
+   "durationMin": 33,
+   "summary": "Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Anjney Midha is a General Partner of a16z (Andreessen Horowitz), leading AI and infrastructure transactions. Bonnie Chan is the CEO at Hong Kong Exchanges or HKEX. Dave Blundin is the founder & GP of Link Ventures _ Connect with Peter: X Instagram Connect with Dave: X LinkedIn Connect with Anjney X Linkedin Connect with Bonnie Linkedin Listen to MOONSHOTS …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {

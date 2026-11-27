@@ -3,12 +3,14 @@
  "start": "2026-03-01",
  "end": "2026-03-31",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 65,
+ "generated": "2026-11-27",
+ "episodeCount": 77,
  "counts": {
   "aidb": 28,
+  "moonshots-diamandis": 10,
   "turing-post": 7,
   "latent-space": 8,
+  "moonshot": 2,
   "cognitive-revolution": 8,
   "practical-ai": 3,
   "lex-fridman": 3,
@@ -141,7 +143,7 @@
   },
   {
    "title": "Verification, safety and AI for science",
-   "body": "Karpathy's AutoResearch, where an agent edits LLM training code under a five-minute budget and keeps only improvements, led NLW to call agentic loops a new work primitive. Terence Tao told Dwarkesh that idea generation is now nearly free and verification is the bottleneck. UK AISI's Geoffrey Irving argued recent model misbehavior is all reward hacking and safety techniques may fail together; Goodfire described cutting hallucinations with probes and RL. Heather Kulik blamed scarce data for the missing 'AlphaFold for materials', and ARC-AGI-3 launched with frontier models under 1%.",
+   "body": "Karpathy's AutoResearch, where an agent edits LLM training code under a five-minute budget and keeps only improvements, led NLW to call agentic loops a new work primitive. Terence Tao told Dwarkesh that idea generation is now nearly free and verification is the bottleneck. UK AISI's Geoffrey Irving argued recent model misbehavior is all reward hacking and safety techniques may fail together; Goodfire described cutting hallucinations with probes and RL. Heather Kulik blamed scarce data for the missing 'AlphaFold for materials', and ARC-AGI-3 launched with frontier models under 1%. The Moonshot Podcast's season 2 opened with X health efforts (Skip's powered pants, Project Iris's glucose lens, Verily's health-data platform), and Rey Banatao described Materra using infrared spectroscopy and AI to identify plastic waste at the molecular level.",
    "eps": [
     "aidb/2026-03-09-autoresearch-agent-loops-and-the-future-of-work",
     "dwarkesh/2026-03-20-terence-tao-kepler-newton-and-the-true-nature-of-mathematical-discover",
@@ -151,7 +153,9 @@
     "latent-space/2026-03-24-why-there-is-no-alphafold-for-materials-ai-for-materials-discovery-wit",
     "aidb/2026-03-26-why-ai-needs-better-benchmarks",
     "cognitive-revolution/2026-03-11-bioinfohazards-jassi-pannu-on-controlling-dangerous-data-from-which-ai",
-    "cognitive-revolution/2026-03-16-ai-scouting-report-the-good-bad-weird-the-law-ai-certificate-program-b"
+    "cognitive-revolution/2026-03-16-ai-scouting-report-the-good-bad-weird-the-law-ai-certificate-program-b",
+    "moonshot/2026-03-30-the-moonshot-podcast-deep-dive-rey-banatao-on-turning-trash-into-treas",
+    "moonshot/2026-03-25-supercharging-human-health"
    ]
   }
  ],
@@ -162,7 +166,7 @@
   "Design the integration layer for agents, not just humans. CLIs, skills and well-documented APIs lower the cost of agent use. Keeping skills portable and evaluating open-weight models alongside closed ones reduces lock-in to any single model vendor.",
   "AI is now a political and workforce issue. Pair adoption plans with clear messaging on role redesign and reskilling, and track emerging national AI rules and vendor-government disputes as supplier risk."
  ],
- "themesEpisodeCount": 65,
+ "themesEpisodeCount": 67,
  "episodes": [
   {
    "key": "aidb/2026-03-31-the-ultimate-ai-catch-up-guide",
@@ -177,6 +181,23 @@
    "durationMin": null,
    "summary": "A beginner-focused episode explaining AI fundamentals (assistants vs. agents, models, context), rebutting common misconceptions about quality, slop, hallucination and prompting, and mapping the AI tool landscape. NLW suggests starting with research, analysis, strategy, writing and images, building software with vibe coding tools, and watching for confidence, sycophancy, steerability, outsourced judgment, work slop and addictiveness.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-31-uber-ceo-on-winning-the-robotaxi-race-the-end-of-car-ownership-and-ube",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-31",
+   "slug": "uber-ceo-on-winning-the-robotaxi-race-the-end-of-car-ownership-and-ube",
+   "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber’s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+   "url": "https://www.youtube.com/watch?v=fzKVYNBg50E",
+   "youtube": "https://www.youtube.com/watch?v=fzKVYNBg50E",
+   "guests": [
+    "Dara Khosrowshahi"
+   ],
+   "durationMin": 34,
+   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ Dara Khosrowshahi joins to discuss the RoboTaxi race, Uber’s hybrid strategy for autonomy, and how self-driving tech could reshape mobility, delivery, and city life. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Dara Khosrowshahi is the CEO of Uber and former CEO of Expedia Group Peter H. Diamandis, MD, is the Founder of XPRIZE …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -229,6 +250,23 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-03-30-the-moonshot-podcast-deep-dive-rey-banatao-on-turning-trash-into-treas",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-03-30",
+   "slug": "the-moonshot-podcast-deep-dive-rey-banatao-on-turning-trash-into-treas",
+   "title": "The Moonshot Podcast Deep Dive: Rey Banatao on Turning Trash into Treasure",
+   "url": "https://www.youtube.com/watch?v=zLa9XHnBozw",
+   "youtube": "https://www.youtube.com/watch?v=zLa9XHnBozw",
+   "guests": [
+    "Rey Banatao"
+   ],
+   "durationMin": 57,
+   "summary": "Astro Teller interviews Rey Banatao, who leads Materra, X's moonshot for materials circularity, about why recycling lags modern materials and how Materra uses infrared spectroscopy and AI to identify waste at the molecular level. They cover the delivery of a tanker load of pyrolysis feedstock from landfill-bound plastic, plans to scale 10x, extended producer responsibility, a team plastic cleanup in remote Alaska, next targets (textiles, e-waste and critical minerals), and Banatao's personal motivations.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-03-28-how-ai-can-help-democracy-work-better",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -271,6 +309,21 @@
    "durationMin": null,
    "summary": "Headlines cover Apple's ability to distill Gemini for Siri, Google's TurboQuant compression and Lyria 3 Pro, the Sanders–AOC data center moratorium bill, and Manus co-founders barred from leaving China. The main episode reviews benchmark history, saturation and benchmark maxing, and the launch of ARC-AGI-3, an interactive game-based benchmark where frontier models score under 1%.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-26-elons-5-trillion-bet-the-end-of-human-drivers-and-chamaths-market-warn",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-26",
+   "slug": "elons-5-trillion-bet-the-end-of-human-drivers-and-chamaths-market-warn",
+   "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
+   "url": "https://www.youtube.com/watch?v=wMLcIWLlcWg",
+   "youtube": "https://www.youtube.com/watch?v=wMLcIWLlcWg",
+   "guests": [],
+   "durationMin": 131,
+   "summary": "In this episode, the mates discuss Elon’s TeraFab: 1 terawatt/year chip factory (50x global AI compute), CyberCab fleets crushing rideshares, eVTOLs redesigning cities, garages-to-gyms real estate pivot, and moon disassembly for Dyson swarms amid robotaxi abundance. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -321,6 +374,26 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-03-25-supercharging-human-health",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-03-25",
+   "slug": "supercharging-human-health",
+   "title": "Supercharging Human Health",
+   "url": "https://www.youtube.com/watch?v=EB1LIpgEOs0",
+   "youtube": "https://www.youtube.com/watch?v=EB1LIpgEOs0",
+   "guests": [
+    "Kathryn Zealand",
+    "Anna Roumiantseva",
+    "Will Biederman",
+    "Stephen Gillett"
+   ],
+   "durationMin": 44,
+   "summary": "Season 2 premiere in which Astro Teller visits three X health efforts. Kathryn Zealand and Anna Roumiantseva of Skip discuss MO/GO powered pants, kill criteria and the Salesforce Tower stair test; Will Biederman recounts Project Iris's glucose-sensing contact lens and its pivot to continuous glucose monitors; Verily CEO Stephen Gillett describes Verily Me, the Violet AI assistant and the Verily Pre health-data platform.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "practical-ai/2026-03-25-ai-at-the-edge-is-a-different-operating-environment",
    "show": "practical-ai",
    "showName": "Practical AI",
@@ -350,6 +423,23 @@
    "durationMin": 35,
    "summary": "MIT chemical engineering professor Heather Kulik discusses using machine learning and active learning for materials discovery, including an AI-designed tougher polymer and metal organic frameworks for CO2 capture. She explains why materials lack an AlphaFold-style breakthrough: scarce experimental data, low-fidelity DFT training sets, and highly variable bonding.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-24-eric-schmidt-singularitys-arrival-the-92-gigawatt-problem-and-recursiv",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-24",
+   "slug": "eric-schmidt-singularitys-arrival-the-92-gigawatt-problem-and-recursiv",
+   "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
+   "url": "https://www.youtube.com/watch?v=DpwmmXmzvfo",
+   "youtube": "https://www.youtube.com/watch?v=DpwmmXmzvfo",
+   "guests": [
+    "Eric Schmidt"
+   ],
+   "durationMin": 44,
+   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at a360.com Eric Schmidt ignites Abundance Summit 2026: AI's reasoning boom crushes code (20-80 human split), scaling laws unbound, orbital data centers, China's robot edge, energy/power crunches, recursive self-improvement asymptote, and steering ASI to American values amid geopolitical races. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -431,6 +521,21 @@
    "durationMin": 99,
    "summary": "In a sponsored episode, Composio CTO Karan Vaidya explains Composio's agentic tool execution layer: just-in-time tool discovery, managed auth, sandboxes, and a continual-learning pipeline that rewrites tools and distills skills from agent traces. They discuss skills as a hedge against model lock-in, agent enabler tools, SaaS disruption, agent-to-agent patterns, Composio's token-heavy cost structure, and MCP vs CLI.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-21-nvidias-1-trillion-prediction-anthropic-beats-openai-tesla-vs-tsmc-the",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-21",
+   "slug": "nvidias-1-trillion-prediction-anthropic-beats-openai-tesla-vs-tsmc-the",
+   "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
+   "url": "https://www.youtube.com/watch?v=uOGHXAfvK8w",
+   "youtube": "https://www.youtube.com/watch?v=uOGHXAfvK8w",
+   "guests": [],
+   "durationMin": 138,
+   "summary": "Mates recap Nvidia GTC madness - Jensen's $1T revenue blitz fueling robots, robocabs, orbital fabs, and NemoClaw - while unpacking OpenClaw's GitHub supernova, Anthropic's enterprise crush on OpenAI, Elon's TerraFab TSMC-killer, and inference deflation exploding abundance. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -593,6 +698,40 @@
    "durationMin": 87,
    "summary": "Felix Rieseberg, engineering lead for Claude Cowork at Anthropic, explains Cowork as Claude Code running in a local VM for knowledge work, and why Claude benefits from its own computer. Topics include skills and plugins, evals, sandboxing and approval fatigue, AI's impact on junior jobs, Electron and Chromium, and multiplayer agents.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-17-elon-musk-optimus-3-is-coming-recursive-self-improvement-is-already-he",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-17",
+   "slug": "elon-musk-optimus-3-is-coming-recursive-self-improvement-is-already-he",
+   "title": "Elon Musk: Optimus 3 Is Coming, Recursive Self-Improvement Is Already Here, and the Singularity | #239",
+   "url": "https://www.youtube.com/watch?v=N5KCm_55xeQ",
+   "youtube": "https://www.youtube.com/watch?v=N5KCm_55xeQ",
+   "guests": [
+    "Elon Musk"
+   ],
+   "durationMin": 24,
+   "summary": "Recorded live at https://www.abundance360.com/ Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Elon Musk is the cofounder and CEO of Tesla, cofounder of SpaceX, and xAI. – My companies: Apply to Dave's and my new fund: https://qr.diamandis.com/linkventures... Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy _ Read the Solve Everything Paper Get access to metatrends 10+ years before anyone …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-17-meta-buys-moltbook-gpt-5-4-and-fruitfly-brain-upload-moonshots-live-at",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-17",
+   "slug": "meta-buys-moltbook-gpt-5-4-and-fruitfly-brain-upload-moonshots-live-at",
+   "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+   "url": "https://www.youtube.com/watch?v=d__HRChE2ZE",
+   "youtube": "https://www.youtube.com/watch?v=d__HRChE2ZE",
+   "guests": [
+    "Emad Mostaque"
+   ],
+   "durationMin": 93,
+   "summary": "Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin is the founder & GP of Link Ventures Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified Emad Mostaque is the founder of Intelligent Internet – My companies: Apply to Dave's and my new fund: https://qr.diamandis.com/linkventures... Go to Blitzy to book a free demo and …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -952,6 +1091,24 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-03-09-openclaw-explained-baby-agi-security-threats-and-how-a-mac-mini-became",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-09",
+   "slug": "openclaw-explained-baby-agi-security-threats-and-how-a-mac-mini-became",
+   "title": "OpenClaw Explained: Baby AGI, Security Threats, and How a Mac Mini Became Everyone's Supercomputer | #237",
+   "url": "https://www.youtube.com/watch?v=qP73cGLQmCU",
+   "youtube": "https://www.youtube.com/watch?v=qP73cGLQmCU",
+   "guests": [
+    "Alex Finn",
+    "OpenClaw Explained"
+   ],
+   "durationMin": 90,
+   "summary": "Livestream the Abundance Summit: https://www.abundance360.com/livestream The hosts dive into OpenClaw's explosion—unleashing autonomous local agents on Mac minis that code, create content, and self-evolve 24/7—featuring expert Alex Finn's workflows, org charts of AI \"employees,\" and visions for trillion-dollar agent economies. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Alex Finn is the Founder/CEO of Creator Buddy & AI-app Maker. He is widely known as a powerhouse in AI …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "practical-ai/2026-03-09-ai-policy-and-the-battle-for-computing-power",
    "show": "practical-ai",
    "showName": "Practical AI",
@@ -998,6 +1155,23 @@
    "durationMin": 126,
    "summary": "Former Lumi founder Jesse Genet describes running five OpenClaw agents on separate Mac Minis to plan and log her children's homeschool, manage her household and create content. She discusses treating agents like employees, an agent that impersonated her by email, multi-agent coordination in Slack, privacy and local models, software trending toward free, and AI's effect on jobs.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-07-andrew-yang-ubi-before-uhi-solving-job-loss-and-the-future-of-work-236",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-07",
+   "slug": "andrew-yang-ubi-before-uhi-solving-job-loss-and-the-future-of-work-236",
+   "title": "Andrew Yang: UBI Before UHI, Solving Job Loss, and the Future of Work | #236",
+   "url": "https://www.youtube.com/watch?v=toE56X2h0wk",
+   "youtube": "https://www.youtube.com/watch?v=toE56X2h0wk",
+   "guests": [
+    "Andrew Yang"
+   ],
+   "durationMin": 102,
+   "summary": "Livestream the Abundance Summit: https://www.abundance360.com/livestream The Moonshots hosts join Andrew Yang to unpack AI's explosive collision with politics - deepfakes weaponizing elections, UBI surging as job-killer abundance hits, and radical fixes like open voting for anyone from Cuban to Robbins - while plotting democracy's entrepreneurial reboot. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Andrew Yang is the founder of Forward Party and Humanity Forward NGO; he …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -1098,6 +1272,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-03-05-financializing-super-intelligence-amazons-50b-late-fee-235",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-05",
+   "slug": "financializing-super-intelligence-amazons-50b-late-fee-235",
+   "title": "Financializing Super Intelligence, Amazon's $50B Late Fee | #235",
+   "url": "https://www.youtube.com/watch?v=T8X6kp-pcKs",
+   "youtube": "https://www.youtube.com/watch?v=T8X6kp-pcKs",
+   "guests": [],
+   "durationMin": 137,
+   "summary": "Livestream the Abundance Summit: https://www.abundance360.com/livestream In this WTF episode, the hosts unpack AI's supersonic tsunami - from Amazon's $35B AGI bet on OpenAI, Anthropic ditching safety pauses amid race pressures, and hyper-efficient Chinese models shrinking to iPhones - to meat puppets at Burger King and Pulsia autonomously running 1,000+ companies. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-03-04-the-big-questions-that-will-decide-the-consumer-ai-war",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -1157,6 +1346,21 @@
    "durationMin": null,
    "summary": "NLW's February 2026 recap argues AI insiders, white-collar workers, Wall Street and Washington all woke up to a step change in agentic AI, via OpenClaw, the SaaSpocalypse, Block's layoffs and the Anthropic-Pentagon fight. Headlines cover Claude being used in US-Israel strikes on Iran, Claude hitting number one in the App Store, OpenAI's Pentagon contract details, and OpenAI's $110 billion round at an $840 billion valuation.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-03-02-anthropic-vs-the-pentagon-claude-outpaces-chatgpt-and-consulting-gets",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-03-02",
+   "slug": "anthropic-vs-the-pentagon-claude-outpaces-chatgpt-and-consulting-gets",
+   "title": "Anthropic vs. The Pentagon, Claude Outpaces ChatGPT, and Consulting Gets Replaced | #234",
+   "url": "https://www.youtube.com/watch?v=dmtvGKuRE64",
+   "youtube": "https://www.youtube.com/watch?v=dmtvGKuRE64",
+   "guests": [],
+   "durationMin": 130,
+   "summary": "The hosts unpack AI's asteroid-like disruption—Anthropic's explosive enterprise growth outpacing OpenAI, Pentagon clashes over safeguards, and agentic revolutions from OpenClaw to meat puppets—urging agile evolution amid sovereign AI summits and trillion-dollar forecasts. Get notified once we go live during Abundance360: https://www.abundance360.com/livestream Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {

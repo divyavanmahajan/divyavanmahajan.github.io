@@ -3,12 +3,14 @@
  "start": "2026-04-01",
  "end": "2026-04-30",
  "inProgress": false,
- "generated": "2026-11-25",
- "episodeCount": 63,
+ "generated": "2026-11-27",
+ "episodeCount": 76,
  "counts": {
   "aidb": 29,
   "dwarkesh": 3,
+  "moonshot": 5,
   "pragmatic-engineer": 4,
+  "moonshots-diamandis": 8,
   "latent-space": 8,
   "cognitive-revolution": 8,
   "no-priors": 4,
@@ -74,7 +76,7 @@
   },
   {
    "title": "Compute, power and capital",
-   "body": "AIDB tracked Anthropic reaching $30B ARR with a multi-gigawatt Google/Broadcom TPU deal, Google's investment of up to $40 billion in Anthropic, OpenAI's $122B round and 30-gigawatt compute target, and Nvidia hitting $5 trillion. The White House invoked the Defense Production Act for grid infrastructure as DeepSeek V4 arrived near-frontier at a fraction of the price. Jensen Huang defended Nvidia's supply chain moat against TPUs, MatX's Reiner Pope worked through inference economics, and Practical AI covered Allbirds' pivot to a neocloud.",
+   "body": "AIDB tracked Anthropic reaching $30B ARR with a multi-gigawatt Google/Broadcom TPU deal, Google's investment of up to $40 billion in Anthropic, OpenAI's $122B round and 30-gigawatt compute target, and Nvidia hitting $5 trillion. The White House invoked the Defense Production Act for grid infrastructure as DeepSeek V4 arrived near-frontier at a fraction of the price. Jensen Huang defended Nvidia's supply chain moat against TPUs, MatX's Reiner Pope worked through inference economics, and Practical AI covered Allbirds' pivot to a neocloud. On The Moonshot Podcast, Tammo Spalink and Raj Apte recounted X's Positron inference chips and Bodger's automated chip design, and Fort Felker and Raj Apte the Makani energy kite and Malta molten-salt storage.",
    "eps": [
     "aidb/2026-04-08-openais-new-deal",
     "aidb/2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid",
@@ -82,7 +84,9 @@
     "aidb/2026-04-24-how-headless-agents-will-change-work",
     "dwarkesh/2026-04-15-jensen-huang-tpu-competition-why-we-should-sell-chips-to-china-nvidia",
     "dwarkesh/2026-04-29-reiner-pope-the-math-behind-how-llms-are-trained-and-served",
-    "practical-ai/2026-04-23-the-mythos-of-mythos-and-allbirds-takes-flight-to-the-neocloud"
+    "practical-ai/2026-04-23-the-mythos-of-mythos-and-allbirds-takes-flight-to-the-neocloud",
+    "moonshot/2026-04-29-silicon-horizons",
+    "moonshot/2026-04-08-chasing-the-wind-storing-the-sun"
    ]
   },
   {
@@ -126,7 +130,7 @@
   },
   {
    "title": "Physical AI, world models and science",
-   "body": "Applied Intuition's Qasar Younis and Peter Ludwig described autonomy models for cars, trucks, mining and defense, and Comma AI's Harald Schäfer explained training driving policies inside a learned world-model simulator. NVIDIA's Sanja Fidler told Turing Post that transformers and world models are not competing, and traced driving simulation toward the interactive Alpa Dreams model. Moonlake's Chris Manning argued for multimodal, interactive world models. Liam Fedus said AI science needs closed-loop physical experiments, and Noetik described a $50M model licensing deal with GSK.",
+   "body": "Applied Intuition's Qasar Younis and Peter Ludwig described autonomy models for cars, trucks, mining and defense, and Comma AI's Harald Schäfer explained training driving policies inside a learned world-model simulator. NVIDIA's Sanja Fidler told Turing Post that transformers and world models are not competing, and traced driving simulation toward the interactive Alpa Dreams model. Moonlake's Chris Manning argued for multimodal, interactive world models. Liam Fedus said AI science needs closed-loop physical experiments, and Noetik described a $50M model licensing deal with GSK. The Moonshot Podcast covered X's science moonshots: an AI 'virtual cell' for biomanufacturing and ML-programmed crops, AI software that prices building designs in seconds, and water-from-air and seawater-fuel projects ended by kill criteria.",
    "eps": [
     "latent-space/2026-04-27-physical-ai-that-moves-the-world-qasar-younis-peter-ludwig-applied-int",
     "practical-ai/2026-04-16-open-source-self-driving-with-comma-ai",
@@ -135,7 +139,10 @@
     "cognitive-revolution/2026-04-04-training-the-ais-eyes-how-roboflow-is-making-the-real-world-programmab",
     "no-priors/2026-04-03-ai-for-atoms-how-periodic-labs-is-revolutionizing-materials-engineerin",
     "latent-space/2026-04-20-training-transformers-to-solve-95-failure-rate-of-cancer-trials-ron-al",
-    "dwarkesh/2026-04-07-michael-nielsen-how-science-actually-progresses"
+    "dwarkesh/2026-04-07-michael-nielsen-how-science-actually-progresses",
+    "moonshot/2026-04-01-coding-the-natural-world",
+    "moonshot/2026-04-15-breaking-new-ground",
+    "moonshot/2026-04-22-ocean-fuel-desert-rain"
    ]
   }
  ],
@@ -146,7 +153,7 @@
   "Invest in people and shared platforms, not only licences. The adoption studies point to gaps in leadership, training, data and outcome measurement, and organization-level platforms like Ramp's Glass raise the floor more than individual tool access does.",
   "Standardize skills, context and memory as reusable assets. Skill libraries, portable context files and MCP servers reduce lock-in across converging agent tools, but they need governance, testing and ownership like any other shared enterprise component."
  ],
- "themesEpisodeCount": 63,
+ "themesEpisodeCount": 68,
  "episodes": [
   {
    "key": "aidb/2026-04-30-how-harness-as-a-service-will-change-agents",
@@ -196,6 +203,24 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-04-29-silicon-horizons",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-04-29",
+   "slug": "silicon-horizons",
+   "title": "Silicon Horizons",
+   "url": "https://www.youtube.com/watch?v=WpVNQxv0eKc",
+   "youtube": "https://www.youtube.com/watch?v=WpVNQxv0eKc",
+   "guests": [
+    "Tammo Spalink",
+    "Raj Apte"
+   ],
+   "durationMin": 37,
+   "summary": "Astro Teller talks with Tammo Spalink about Project Positron, an X effort begun around 2015 to build inference chips optimized for response time as 'brains for robots', which pivoted to cloud inference and graduated to Google Brain. He then talks with Raj Apte about Project Bodger, which uses inverse design and computer search to automate chip design as Moore's law ends and AI drives demand for compute.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-04-29-building-pi-and-what-makes-self-modifying-software-so-fascinating",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -229,6 +254,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-04-28-david-sinclair-the-glp-1-side-effect-no-one-talks-about-what-ai-found",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-28",
+   "slug": "david-sinclair-the-glp-1-side-effect-no-one-talks-about-what-ai-found",
+   "title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+   "url": "https://www.youtube.com/watch?v=D8ohmtB8MdI",
+   "youtube": "https://www.youtube.com/watch?v=D8ohmtB8MdI",
+   "guests": [
+    "David Sinclair"
+   ],
+   "durationMin": 27,
+   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ This Q&A is about longevity, and especially how David Sinclair sees AI speeding up drug discovery, biological-age reversal, and the future of healthspan. It also covers GLP-1s, telomeres, genetics, muscle preservation, hormone replacement, indoor environment, and the role of mindset in aging well. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -259,6 +301,23 @@
    "durationMin": 72,
    "summary": "Applied Intuition co-founders Qasar Younis (CEO) and Peter Ludwig (CTO) describe their physical AI company: simulation tooling, a vehicle operating system, and autonomy models for cars, trucks, mining, agriculture and defense. They discuss LiDAR, statistical validation, world models, onboard model efficiency, coding agent adoption and founder advice.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-04-27-david-sinclair-on-the-longevity-pill-age-reversal-timelines-and-update",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-27",
+   "slug": "david-sinclair-on-the-longevity-pill-age-reversal-timelines-and-update",
+   "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
+   "url": "https://www.youtube.com/watch?v=4IM866W7yGc",
+   "youtube": "https://www.youtube.com/watch?v=4IM866W7yGc",
+   "guests": [
+    "David Sinclair"
+   ],
+   "durationMin": 33,
+   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ In this insightful interview, Dr. David Sinclair discusses groundbreaking advancements in longevity research, including epigenetic reprogramming trials, the potential for extending human lifespan, and accessible therapies. He shares his personal protocols and the future of anti-aging science, emphasizing the importance of innovation and community support. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends David …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -371,6 +430,21 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-04-23-irans-ai-supply-chain-threat-claude-vs-saas-and-elons-60b-cursor-bet-e",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-23",
+   "slug": "irans-ai-supply-chain-threat-claude-vs-saas-and-elons-60b-cursor-bet-e",
+   "title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
+   "url": "https://www.youtube.com/watch?v=Bj0i-yvIUQs",
+   "youtube": "https://www.youtube.com/watch?v=Bj0i-yvIUQs",
+   "guests": [],
+   "durationMin": 155,
+   "summary": "In this episode, the mates center on the Iran oil shock as a broader system shock, Anthropic’s Claude Design and the “unhobbled” frontier-lab threat to vertical software, the AI job transition, UAP disclosure, the power and geopolitics of data centers, China’s solar and robotics push, and the future of entrepreneurship and agency. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "no-priors/2026-04-23-sap-bringing-the-operating-system-of-a-company-into-the-ai-era-with-ct",
    "show": "no-priors",
    "showName": "No Priors",
@@ -431,6 +505,25 @@
    ],
    "durationMin": 72,
    "summary": "Shopify CTO Mikhail Parakhin walks through Shopify's internal AI adoption data, including a December 2025 inflection in tool usage and an unlimited token budget with an Opus 4.6 minimum, and argues for expensive-model PR review over parallel agent swarms. He describes the Tangle experimentation platform, the Tangent auto-research loop, the SimGym customer simulator, Shopify's use of Liquid AI models, and Bing Sydney history.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshot/2026-04-22-ocean-fuel-desert-rain",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-04-22",
+   "slug": "ocean-fuel-desert-rain",
+   "title": "Ocean Fuel, Desert Rain",
+   "url": "https://www.youtube.com/watch?v=frwi8iEbE5g",
+   "youtube": "https://www.youtube.com/watch?v=frwi8iEbE5g",
+   "guests": [
+    "Neil Treat",
+    "Claudia Truesdell",
+    "Kathy Hannun"
+   ],
+   "durationMin": 47,
+   "summary": "Astro Teller talks with Neil Treat and Claudia Truesdell about H2E, X's attempt to harvest drinking water from air using sunlight for a penny a liter, and then with Kathy Hannun about Foghorn, which turned seawater into carbon-neutral methanol but could not reach a competitive cost. Both projects were wound down via kill criteria and their results published openly.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -561,6 +654,21 @@
    "durationMin": null,
    "summary": "NLW reviews patterns from about 100 submissions to his Agent Madness bracket, judged by AI models. Themes include builders creating digital employees and org charts, 'markets of one' personal tools, memory as the main infrastructure gap, multi-agent debate as architecture, non-technical domain-expert builders, and physical-world crossover; he previews the Elite Eight projects.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-04-18-sam-altmans-attack-amazon-vs-starlink-and-what-opus-4-7-actually-means",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-18",
+   "slug": "sam-altmans-attack-amazon-vs-starlink-and-what-opus-4-7-actually-means",
+   "title": "Sam Altman’s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+   "url": "https://www.youtube.com/watch?v=LVvleNtllPk",
+   "youtube": "https://www.youtube.com/watch?v=LVvleNtllPk",
+   "guests": [],
+   "durationMin": 132,
+   "summary": "In this episode, the mates cover Anthropic Opus 4.7, AI backlash and unrest, the Stanford 2026 AI Index, young workers getting squeezed out, AI-driven store automation, data center bans, satellite wars, transhumanism, and speculative futures like uploads and space colonization. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -708,6 +816,38 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-04-15-breaking-new-ground",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-04-15",
+   "slug": "breaking-new-ground",
+   "title": "Breaking New Ground",
+   "url": "https://www.youtube.com/watch?v=ZnGJ3pkdyBw",
+   "youtube": "https://www.youtube.com/watch?v=ZnGJ3pkdyBw",
+   "guests": [
+    "Michelle Kaufmann"
+   ],
+   "durationMin": 36,
+   "summary": "Astro Teller talks with architect Michelle Kaufmann about her path from Frank Gehry's office and a failed prefab home company to X's Genie project, which spun out as Flux and built 'intelligent clay' software that priced and engineered building designs in seconds. He then talks with Adrian Walker and Julia Ling of Anori, an X venture using AI and data sharing to front-load building constraints, automate permit checks and address the housing crisis.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-04-14-elon-musk-vs-sam-altman-ai-job-loss-and-openais-852b-valuation-ep-247",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-14",
+   "slug": "elon-musk-vs-sam-altman-ai-job-loss-and-openais-852b-valuation-ep-247",
+   "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI’s $852B Valuation | EP #247",
+   "url": "https://www.youtube.com/watch?v=5ak26W2YNRY",
+   "youtube": "https://www.youtube.com/watch?v=5ak26W2YNRY",
+   "guests": [],
+   "durationMin": 132,
+   "summary": "This episode is about AI agents, OpenAI and Anthropic competition, the future of work, energy breakthroughs, Bitcoin and quantum risk, biotech, and humanoid robots. Post from Elon Musk on X mentioned in the episode: https://x.com/elonmusk/status/2042090236206063966?s=46 Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360 Salim Ismail is the founder of OpenExO Dave Blundin is …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "aidb/2026-04-13-harness-engineering-101",
    "show": "aidb",
    "showName": "The AI Daily Brief",
@@ -753,6 +893,21 @@
    "durationMin": 190,
    "summary": "A cross-post of Rob Wiblin's 80,000 Hours interview with Ajeya Cotra on AI timelines, why forecasters disagree so widely about AI-driven growth, and a 'crunch time' when AI automates AI R&D. They discuss transparency requirements, redirecting AI labour toward safety and defense, Open Philanthropy's role, and Cotra's career, sabbatical and views on effective altruism.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-04-11-spacex-goes-public-claudes-mythos-release-and-the-us-data-center-delay",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-11",
+   "slug": "spacex-goes-public-claudes-mythos-release-and-the-us-data-center-delay",
+   "title": "SpaceX Goes Public, Claude’s Mythos Release, and the US Data Center Delay | EP #246",
+   "url": "https://www.youtube.com/watch?v=cFI-SqnvQK8",
+   "youtube": "https://www.youtube.com/watch?v=cFI-SqnvQK8",
+   "guests": [],
+   "durationMin": 149,
+   "summary": "In this episode, the mates dive into AI agents, Anthropic and OpenAI competition, AI economics and jobs, quantum risk to Bitcoin, energy breakthroughs, biotech deals, and humanoid robotics. Read the Wall Street Journal article mentioned in the episode: \"These AI Whiz Kids Dropped Out of College and Got Investors to Pay Their Bills\" Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Peter H. Diamandis, MD, is the …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -882,6 +1037,24 @@
    "partial": false
   },
   {
+   "key": "moonshot/2026-04-08-chasing-the-wind-storing-the-sun",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-04-08",
+   "slug": "chasing-the-wind-storing-the-sun",
+   "title": "Chasing the Wind, Storing the Sun",
+   "url": "https://www.youtube.com/watch?v=DwJHoEDVge8",
+   "youtube": "https://www.youtube.com/watch?v=DwJHoEDVge8",
+   "guests": [
+    "Fort Felker",
+    "Raj Apte"
+   ],
+   "durationMin": 37,
+   "summary": "Astro Teller talks with Fort Felker about Makani, X's tethered energy-kite moonshot for harvesting wind, its testing journey and why it was shut down in 2020. He then talks with Raj Apte about Project Malta, a molten-salt thermal energy storage system based on Bob Laughlin's reversible heat engine idea, later spun out as a company.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "pragmatic-engineer/2026-04-08-dhhs-new-way-of-writing-code",
    "show": "pragmatic-engineer",
    "showName": "The Pragmatic Engineer",
@@ -930,6 +1103,23 @@
    "durationMin": 73,
    "summary": "OpenAI's Ryan Lopopolo describes building a million-line Electron app over five months with zero human-written code using Codex, and the harness engineering practices that made it work: fast builds, observability, skills, review agents and encoding non-functional requirements as text. He introduces Symphony, an Elixir-based agent orchestrator distributed as a spec, and OpenAI Frontier, the enterprise agent platform.",
    "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-04-07-how-ai-is-bringing-extinct-animals-back-and-what-comes-next-ben-lamm-c",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-07",
+   "slug": "how-ai-is-bringing-extinct-animals-back-and-what-comes-next-ben-lamm-c",
+   "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+   "url": "https://www.youtube.com/watch?v=Goa6c6Qz__I",
+   "youtube": "https://www.youtube.com/watch?v=Goa6c6Qz__I",
+   "guests": [
+    "Ben Lamm"
+   ],
+   "durationMin": 36,
+   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ This interview explores the groundbreaking work of Colossal in synthetic biology, de-extinction, and AI integration. Colossal CEO Ben Lamm explains how the company is revolutionizing biodiversity preservation, tackling plastic pollution, and creating living products with immense potential. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Ben Lamm is Co-founder and CEO of Colossal Biosciences …",
+   "summarySource": "show-notes",
    "partial": false
   },
   {
@@ -1092,6 +1282,23 @@
    "partial": false
   },
   {
+   "key": "moonshots-diamandis/2026-04-02-ubers-robotaxi-playbook-the-end-of-human-driving-10b-bet-on-robots-dar",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-04-02",
+   "slug": "ubers-robotaxi-playbook-the-end-of-human-driving-10b-bet-on-robots-dar",
+   "title": "Uber’s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+   "url": "https://www.youtube.com/watch?v=Mh9yC4j0_rI",
+   "youtube": "https://www.youtube.com/watch?v=Mh9yC4j0_rI",
+   "guests": [
+    "Dara Khosrowshahi"
+   ],
+   "durationMin": 31,
+   "summary": "This episode was filmed at the 2026 Abundance360 Summit. Learn more at https://www.abundance360.com/ This episode is a Q&A with Dara Khosrowshahi at the 2026 Abundance360 Summit, where Uber’s CEO answers questions from the audience about autonomy, flying cars, insurance, labor, and the future of mobility. Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends Dara Khosrowshahi is the CEO of Uber and former CEO of Expedia Group Peter …",
+   "summarySource": "show-notes",
+   "partial": false
+  },
+  {
    "key": "practical-ai/2026-04-02-agentic-coding-and-the-economics-of-open-source",
    "show": "practical-ai",
    "showName": "Practical AI",
@@ -1138,6 +1345,24 @@
    ],
    "durationMin": 105,
    "summary": "A cross-post of Nathan Labenz's appearance on The Intelligence Horizon podcast with hosts Owen Zhang and Will Sanok Dufallo. Nathan discusses AGI timelines, RL scaling, LLM world models and interpretability, energy and chip bottlenecks, his p(doom) and modest optimism about alignment, defense-in-depth safety strategies, AI regulation, the Pentagon–Anthropic standoff, and US–China AI competition.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshot/2026-04-01-coding-the-natural-world",
+   "show": "moonshot",
+   "showName": "The Moonshot Podcast",
+   "date": "2026-04-01",
+   "slug": "coding-the-natural-world",
+   "title": "Coding The Natural World",
+   "url": "https://www.youtube.com/watch?v=Y-V8UvuasUU",
+   "youtube": "https://www.youtube.com/watch?v=Y-V8UvuasUU",
+   "guests": [
+    "Brad Zamft",
+    "Relly Brandman"
+   ],
+   "durationMin": 40,
+   "summary": "Astro Teller talks with Brad Zamft, CEO of X spin-out Heritable Agriculture, about using genomic and RNA data with machine learning to program crops for yield, pest and drought resistance. He then speaks with Relly Brandman, project lead of X's A-Life, about building an AI 'virtual cell' that moves biomanufacturing from trial and error to predictive design.",
    "summarySource": "extraction",
    "partial": false
   },

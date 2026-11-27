@@ -1,6 +1,6 @@
 {
   "period": "2026-04",
-  "episodeCount": 63,
+  "episodeCount": 68,
   "headline": "April was dominated by Anthropic's withheld Claude Mythos model and a dense release cycle of GPT-5.5, Opus 4.7, the new Codex and Claude Design. Underneath it, the shows converged on the harness around the model, and the usage-based pricing and compute limits that agentic workloads now force, as the real story.",
   "themes": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "title": "Compute, power and capital",
-      "body": "AIDB tracked Anthropic reaching $30B ARR with a multi-gigawatt Google/Broadcom TPU deal, Google's investment of up to $40 billion in Anthropic, OpenAI's $122B round and 30-gigawatt compute target, and Nvidia hitting $5 trillion. The White House invoked the Defense Production Act for grid infrastructure as DeepSeek V4 arrived near-frontier at a fraction of the price. Jensen Huang defended Nvidia's supply chain moat against TPUs, MatX's Reiner Pope worked through inference economics, and Practical AI covered Allbirds' pivot to a neocloud.",
+      "body": "AIDB tracked Anthropic reaching $30B ARR with a multi-gigawatt Google/Broadcom TPU deal, Google's investment of up to $40 billion in Anthropic, OpenAI's $122B round and 30-gigawatt compute target, and Nvidia hitting $5 trillion. The White House invoked the Defense Production Act for grid infrastructure as DeepSeek V4 arrived near-frontier at a fraction of the price. Jensen Huang defended Nvidia's supply chain moat against TPUs, MatX's Reiner Pope worked through inference economics, and Practical AI covered Allbirds' pivot to a neocloud. On The Moonshot Podcast, Tammo Spalink and Raj Apte recounted X's Positron inference chips and Bodger's automated chip design, and Fort Felker and Raj Apte the Makani energy kite and Malta molten-salt storage.",
       "eps": [
         "aidb/2026-04-08-openais-new-deal",
         "aidb/2026-04-27",
@@ -67,7 +67,9 @@
         "aidb/2026-04-24-how-headless-agents-will",
         "dwarkesh/2026-04-15",
         "dwarkesh/2026-04-29",
-        "practical-ai/2026-04-23"
+        "practical-ai/2026-04-23",
+        "moonshot/2026-04-29",
+        "moonshot/2026-04-08"
       ]
     },
     {
@@ -111,7 +113,7 @@
     },
     {
       "title": "Physical AI, world models and science",
-      "body": "Applied Intuition's Qasar Younis and Peter Ludwig described autonomy models for cars, trucks, mining and defense, and Comma AI's Harald Schäfer explained training driving policies inside a learned world-model simulator. NVIDIA's Sanja Fidler told Turing Post that transformers and world models are not competing, and traced driving simulation toward the interactive Alpa Dreams model. Moonlake's Chris Manning argued for multimodal, interactive world models. Liam Fedus said AI science needs closed-loop physical experiments, and Noetik described a $50M model licensing deal with GSK.",
+      "body": "Applied Intuition's Qasar Younis and Peter Ludwig described autonomy models for cars, trucks, mining and defense, and Comma AI's Harald Schäfer explained training driving policies inside a learned world-model simulator. NVIDIA's Sanja Fidler told Turing Post that transformers and world models are not competing, and traced driving simulation toward the interactive Alpa Dreams model. Moonlake's Chris Manning argued for multimodal, interactive world models. Liam Fedus said AI science needs closed-loop physical experiments, and Noetik described a $50M model licensing deal with GSK. The Moonshot Podcast covered X's science moonshots: an AI 'virtual cell' for biomanufacturing and ML-programmed crops, AI software that prices building designs in seconds, and water-from-air and seawater-fuel projects ended by kill criteria.",
       "eps": [
         "latent-space/2026-04-27",
         "practical-ai/2026-04-16",
@@ -120,7 +122,10 @@
         "cognitive-revolution/2026-04-04",
         "no-priors/2026-04-03",
         "latent-space/2026-04-20",
-        "dwarkesh/2026-04-07"
+        "dwarkesh/2026-04-07",
+        "moonshot/2026-04-01",
+        "moonshot/2026-04-15",
+        "moonshot/2026-04-22"
       ]
     }
   ],

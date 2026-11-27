@@ -1,6 +1,6 @@
 {
   "period": "2026-01",
-  "episodeCount": 52,
+  "episodeCount": 53,
   "headline": "January belonged to Claude Code: after a holiday surge around Opus 4.5, hosts across shows asked whether code AGI is already functional AGI, and Claude Cowork carried the same agent into non-coding work. Underneath it ran a widening gap between the people and companies who reorganise around agents and everyone else, with jobs, capital and governance debates trying to catch up.",
   "themes": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "title": "The fight over context and data",
-      "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, and MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. On Turing Post, Mozilla CTO Raffi Krikorian argues for user-owned, portable context, a four-layer 'LAMP stack for AI' and building in model choice early. Apple's Gemini-powered Siri moved the fight to the device.",
+      "body": "NLW frames Claude Cowork, ChatGPT Health and Gemini Personal Intelligence as a battle for users' personal context, and explains context graphs: Foundation Capital's argument that agents need captured decision traces. Snowflake's Baris Gultekin argues for bringing inference inside the data platform's security boundary, and MongoDB's CJ Desai says platforms stay sticky even as products become replaceable. On Turing Post, Mozilla CTO Raffi Krikorian argues for user-owned, portable context, a four-layer 'LAMP stack for AI' and building in model choice early. Apple's Gemini-powered Siri moved the fight to the device. On The Moonshot Podcast, Emily Ma described Project Delta's 'air traffic control' for surplus food, which became the open-source Open Product Recovery data standards.",
       "eps": [
         "aidb/2026-01-15-ais-battle-for-your-cont",
         "aidb/2026-01-05",
@@ -67,7 +67,8 @@
         "no-priors/2026-01-22",
         "turing-post/2026-01-27",
         "aidb/2026-01-12",
-        "aidb/2026-01-09"
+        "aidb/2026-01-09",
+        "moonshot/2026-01-13"
       ]
     },
     {

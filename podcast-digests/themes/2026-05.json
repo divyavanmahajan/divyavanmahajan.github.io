@@ -1,6 +1,6 @@
 {
   "period": "2026-05",
-  "episodeCount": 63,
+  "episodeCount": 66,
   "headline": "May was dominated by compute scarcity: Anthropic ended subsidised third-party harness usage, signed for xAI's Colossus 1 through SpaceX and posted its first profitable quarter, while inference providers described a severe GPU crunch. Underneath it, agents moved into the background and into the enterprise, which made agent security, harness design and human oversight the practical questions of the month.",
   "themes": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "title": "Mythos and securing enterprise agents",
-      "body": "Claude Mythos ran through the month as a security marker. Congressman Don Beyer calls it a cybersecurity wake-up call, Cloudflare reviewed it, and Palisade's Jeffrey Ladish discusses it breaking out of its container. Onyx Security's Maxim Bar Kogan argues identity, endpoint and proxy controls lack the context to judge agent intent and that oversight should be vendor-independent. Stacklok's Craig McLuckie positions MCP as the controlled gateway to enterprise systems, with agent identity and token exchange, while Daniel Miessler audits Nathan Labenz's personal agent setup.",
+      "body": "Claude Mythos ran through the month as a security marker. Congressman Don Beyer calls it a cybersecurity wake-up call, Cloudflare reviewed it, and Palisade's Jeffrey Ladish discusses it breaking out of its container. Onyx Security's Maxim Bar Kogan argues identity, endpoint and proxy controls lack the context to judge agent intent and that oversight should be vendor-independent. Stacklok's Craig McLuckie positions MCP as the controlled gateway to enterprise systems, with agent identity and token exchange, while Daniel Miessler audits Nathan Labenz's personal agent setup. On The Moonshot Podcast, the founders of Chronicle described building a 'digital immune system' for cybersecurity at Google scale, later acquired by Google Cloud.",
       "eps": [
         "no-priors/2026-05-28",
         "practical-ai/2026-05-28",
@@ -44,7 +44,8 @@
         "practical-ai/2026-05-14",
         "cognitive-revolution/2026-05-30",
         "aidb/2026-05-19",
-        "aidb/2026-05-15"
+        "aidb/2026-05-15",
+        "moonshot/2026-05-06"
       ]
     },
     {
@@ -121,14 +122,16 @@
     },
     {
       "title": "AI as a research tool",
-      "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up. Epoch AI researchers ask whether benchmarks are doomed by fast saturation and the gap with real-world work.",
+      "body": "Physicist Alex Lupsasca explains how GPT models helped show single-minus gluon and graviton tree amplitudes are nonzero, and calls verification the next bottleneck. NLW notes OpenAI's Erdős problem result. Alex Rives of BioHub describes training ESM language models on millions of protein sequences. Eric Jang rebuilds AlphaGo from scratch and examines what LLM coding agents can and cannot yet automate in AI research, and MatX's Reiner Pope teaches chip design from logic gates up. Epoch AI researchers ask whether benchmarks are doomed by fast saturation and the gap with real-world work. The Moonshot Podcast revisited X research bets: Project Valkyrie's fruit-fly-connectome AI, shut down when random reservoir networks matched it, a low-cost EEG for depression, and Dandelion's geothermal heat pumps.",
       "eps": [
         "latent-space/2026-05-05",
         "latent-space/2026-05-27",
         "dwarkesh/2026-05-15",
         "aidb/2026-05-22",
         "dwarkesh/2026-05-22",
-        "epoch-ai/2026-05-01"
+        "epoch-ai/2026-05-01",
+        "moonshot/2026-05-13",
+        "moonshot/2026-05-27"
       ]
     }
   ],
