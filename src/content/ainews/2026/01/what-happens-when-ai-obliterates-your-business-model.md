@@ -10,6 +10,7 @@ type: episode
 tags:
   - agents
   - consumer-ai
+  - software-engineering
 url: 'https://www.patreon.com/posts/147848773'
 draft: false
 ---

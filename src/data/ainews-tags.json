@@ -2510,5 +2510,23 @@
   "open-weight-models",
   "nvidia",
   "xai"
+ ],
+ "2026-11-25-how-to-talk-about-ai-at-thanksgiving": [
+  "jobs-and-work",
+  "ai-economics",
+  "us-china",
+  "anthropic"
+ ],
+ "2026-11-26-how-anthropic-went-from-anti-product-to-81b-a-year": [
+  "ai-coding",
+  "ai-economics",
+  "agents",
+  "anthropic"
+ ],
+ "2026-11-27-ai-is-too-big-to-fail": [
+  "infrastructure-and-chips",
+  "ai-economics",
+  "nvidia",
+  "anthropic"
  ]
 }
