@@ -384,6 +384,7 @@
   "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2": "extraction",
   "practical-ai/2026-11-13-implementing-federated-learning-to-enhance-agentic-ai": "extraction",
   "practical-ai/2026-11-19-building-human-centered-ai": "extraction",
+  "practical-ai/2026-11-26-humans-in-a-post-human-world": "extraction",
   "latent-space/2023-02-23-chatgpt-gpt4-hype-and-building-llm-native-products-with-logan-kilpatri": "extraction",
   "latent-space/2023-03-02-97-cheaper-faster-better-correct-ai-with-varun-mohan-of-codeium": "extraction",
   "latent-space/2023-03-10-from-astrophysics-to-ai-building-the-future-ai-data-stack-with-sarah-n": "extraction",
@@ -624,7 +625,10 @@
   "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord": "extraction",
   "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend": "extraction",
   "latent-space/2026-11-16-building-visual-intelligence-andreas-blattmann-dustin-podell-black-for": "extraction",
-  "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": "extraction",
+  "latent-space/2026-11-19-why-linear-says-issue-tracking-is-dead-cristina-cordova-coo": "extraction",
+  "latent-space/2026-11-25-the-revolution-vs-the-renaissance-thariq-shihipar-openai": "extraction",
+  "latent-space/2026-11-26-how-clay-builds-gtm-agents-jeff-barg-head-of-ai": "extraction",
+  "latent-space/2026-11-27-inside-the-ai-training-data-market-gabe-greenberg-g2i": "extraction",
   "cognitive-revolution/2023-02-03-the-pixel-revolution-with-playground-ai-s-suhail-doshi": "extraction",
   "cognitive-revolution/2023-02-10-the-upside-and-downside-case-for-ai-with-nathan-labenz-and-erik-torenb": "extraction",
   "cognitive-revolution/2023-02-17-creating-compassionate-ai-with-replika-s-eugenia-kuyda": "extraction",
@@ -1016,6 +1020,7 @@
   "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment": "extraction",
   "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai": "extraction",
   "cognitive-revolution/2026-11-21-spend-the-lead-on-safety-biden-ai-advisors-ben-buchanan-tantum-collins": "extraction",
+  "cognitive-revolution/2026-11-26-ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec": "extraction",
   "dwarkesh/2020-07-10-tyler-cowen-the-great-reset": "extraction",
   "dwarkesh/2022-01-31-david-deutsch-ai-america-fun-bayes": "extraction",
   "dwarkesh/2022-07-05-sam-bankman-fried-crypto-altruism-and-leadership": "extraction",
@@ -1120,6 +1125,7 @@
   "dwarkesh/2026-10-22-what-will-computer-chips-look-like-in-2045": "extraction",
   "dwarkesh/2026-10-30-what-robert-caro-learned-about-power-after-studying-it-for-50-years": "extraction",
   "dwarkesh/2026-11-16-paul-christiano-we-could-be-12-months-away-from-ais-that-can-overthrow": "extraction",
+  "dwarkesh/2026-11-27-ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege": "extraction",
   "lex-fridman/2018-08-26-max-tegmark-life-3-0": "extraction",
   "lex-fridman/2018-09-02-christof-koch-consciousness": "extraction",
   "lex-fridman/2018-10-17-steven-pinker-ai-in-the-age-of-reason": "extraction",
@@ -1952,6 +1958,7 @@
   "pragmatic-engineer/2026-11-05-scaling-slack-and-github-with-maude-lemaire": "extraction",
   "pragmatic-engineer/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nadella": "extraction",
   "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill": "extraction",
+  "pragmatic-engineer/2026-11-25-how-anthropic-builds-software-in-2026-with-katelyn-lesse": "extraction",
   "moonshot/2025-03-10-driving-the-future": "extraction",
   "moonshot/2025-03-17-essential-connections": "extraction",
   "moonshot/2025-03-24-machines-that-think-the-ai-moonshot": "extraction",
@@ -1982,6 +1989,148 @@
   "moonshot/2026-05-13-neurons-and-networks": "extraction",
   "moonshot/2026-05-27-underground-potential": "extraction",
   "moonshot/2026-06-03-the-moonshot-mindset-with-adam-savage-and-sergey-brin": "extraction",
+  "moonshots-diamandis/2022-10-05-ep-1-how-to-save-the-world-w-elon-musk": "extraction",
+  "moonshots-diamandis/2022-10-05-ep-2-i-almost-killed-stephen-hawking-true-story-of-flying-stephen-hawk": "extraction",
+  "moonshots-diamandis/2022-10-05-ep-3-are-humans-headed-toward-a-utopian-or-dystopian-future-w-tim-urba": "extraction",
+  "moonshots-diamandis/2022-10-05-ep-4-how-to-create-a-successful-life-w-tony-robbins": "extraction",
+  "moonshots-diamandis/2022-10-05-ep-5-becoming-the-first-black-female-space-pilot-w-dr-sian-proctor": "extraction",
+  "moonshots-diamandis/2022-10-13-ep-6-abuses-of-the-american-regulatory-state-w-balaji-srinivasan": "extraction",
+  "moonshots-diamandis/2022-10-20-ep-7-eric-schmidt-ex-google-ceo-how-to-run-a-tech-giant": "extraction",
+  "moonshots-diamandis/2022-10-20-ep-8-eric-schmidts-ama-ai-national-security-and-cyborgs": "extraction",
+  "moonshots-diamandis/2022-10-27-ep-9-the-future-is-bitcoin-w-michael-saylor": "extraction",
+  "moonshots-diamandis/2022-11-03-ep-10-the-multi-billion-dollar-purpose-behind-salesforce-w-marc-beniof": "extraction",
+  "moonshots-diamandis/2022-11-10-ep-11-the-future-of-twitter-american-democracy-and-ai-w-salim-ismail": "extraction",
+  "moonshots-diamandis/2022-11-17-ep-12-gaming-will-save-the-world-w-jane-mcgonigal": "extraction",
+  "moonshots-diamandis/2022-11-24-ep-13-how-to-think-like-a-billionaire-w-naveen-jain": "extraction",
+  "moonshots-diamandis/2022-12-01-ep-14-steve-aokis-ama-a-djs-crazy-schedule-cryonics-to-live-forever-an": "extraction",
+  "moonshots-diamandis/2022-12-01-ep-15-the-importance-of-sleep-for-creatives-w-steve-aoki": "extraction",
+  "moonshots-diamandis/2022-12-15-ep-16-ai-is-creating-massive-entrepreneurial-opportunity-w-emad-mostaq": "extraction",
+  "moonshots-diamandis/2022-12-22-ep-17-david-sinclairs-ama-age-reversal-breakthroughs-fda-approval-and": "extraction",
+  "moonshots-diamandis/2022-12-22-ep-18-why-aging-is-a-disease-w-david-sinclair": "extraction",
+  "moonshots-diamandis/2022-12-29-ep-19-ask-peter-anything-part-1-our-future-in-space-successful-mindset": "extraction",
+  "moonshots-diamandis/2022-12-29-ep-20-ask-peter-anything-part-2-how-to-be-a-great-entrepreneur-leader": "extraction",
+  "moonshots-diamandis/2023-01-05-ep-21-the-vaccine-that-will-cure-chronic-diseases-w-lou-reese": "extraction",
+  "moonshots-diamandis/2023-01-12-ep-22-why-bitcoin-in-2023-w-anthony-pomp-pompliano": "extraction",
+  "moonshots-diamandis/2023-01-19-ep-23-the-secret-to-happiness-w-deepak-chopra-m-d": "extraction",
+  "moonshots-diamandis/2023-01-26-ep-24-astro-tellers-ama-allocating-resources-for-audacious-ideas": "extraction",
+  "moonshots-diamandis/2023-01-26-ep-25-how-to-build-a-moonshot-w-astro-teller": "extraction",
+  "moonshots-diamandis/2023-02-02-ep-26-amber-straughns-ama-are-wormholes-real-w-nasa-astrophysicist": "extraction",
+  "moonshots-diamandis/2023-02-02-ep-27-black-holes-exoplanets-and-other-webb-telescope-discoveries-w-am": "extraction",
+  "moonshots-diamandis/2023-02-09-ep-28-the-state-of-america-live-twitter-spaces-ama-w-anthony-scaramucc": "extraction",
+  "moonshots-diamandis/2023-02-16-ep-29-the-secret-to-a-long-healthy-life-w-dr-mark-hyman": "extraction",
+  "moonshots-diamandis/2023-02-23-ep-30-venture-capital-in-2023-w-dakin-sloss": "extraction",
+  "moonshots-diamandis/2023-03-02-ep-31-the-truth-about-overpopulation-w-dr-marian-l-tupy-dr-gale-l-pool": "extraction",
+  "moonshots-diamandis/2023-03-09-ep-32-why-cryptocurrency-is-still-relevant-in-2023-w-bill-barhydt": "extraction",
+  "moonshots-diamandis/2023-03-16-ep-33-the-entrepreneur-mindset-w-dan-sullivan": "extraction",
+  "moonshots-diamandis/2023-03-23-ep-34-the-mindset-that-extends-your-life-w-steven-kotler": "extraction",
+  "moonshots-diamandis/2023-03-30-ep-35-ai-gpt-4-revolutionize-education-w-sal-khan": "extraction",
+  "moonshots-diamandis/2023-04-06-ep-36-stability-ai-founder-halting-ai-training-is-hyper-critical-for-o": "extraction",
+  "moonshots-diamandis/2023-04-13-ep-37-how-the-founder-of-oculus-plans-to-save-america-w-palmer-luckey": "extraction",
+  "moonshots-diamandis/2023-04-14-ep-38-palmer-luckeys-ama-the-politics-of-winning-the-a-i-race": "extraction",
+  "moonshots-diamandis/2023-04-20-ep-39-should-we-be-fearful-of-artificial-intelligence-the-ai-panel-w-e": "extraction",
+  "moonshots-diamandis/2023-04-27-ep-40-no-more-waiting-on-heart-transplants-w-dr-doris-taylor": "extraction",
+  "moonshots-diamandis/2023-04-27-ep-41-why-youre-not-leading-a-healthy-life-w-dr-doris-taylor-dr-mark-h": "extraction",
+  "moonshots-diamandis/2023-05-04-ep-42-what-its-really-like-to-live-in-space-w-anousheh-ansari": "extraction",
+  "moonshots-diamandis/2023-05-11-stopping-police-shootings-with-revolutionary-tech-w-rick-smith-ep-43": "extraction",
+  "moonshots-diamandis/2023-05-15-a-meditation-about-the-future-bonus-episode": "extraction",
+  "moonshots-diamandis/2023-05-18-10x-your-business-why-transitioning-from-linear-to-exponential-is-cruc": "extraction",
+  "moonshots-diamandis/2023-05-26-success-guaranteed-what-all-ultra-successful-founders-or-companies-hav": "extraction",
+  "moonshots-diamandis/2023-05-31-how-ai-will-change-business-forever-w-salim-ismail-ep-46": "extraction",
+  "moonshots-diamandis/2023-06-01-the-successful-entrepreneur-formula-w-salim-ismail-ep-47": "extraction",
+  "moonshots-diamandis/2023-06-08-the-realistic-future-of-ai-w-brian-keating": "extraction",
+  "moonshots-diamandis/2023-06-17-ais-moral-dilemma-are-we-building-our-own-nightmare-w-dr-rana-el-kalio": "extraction",
+  "moonshots-diamandis/2023-06-20-oculus-founder-on-apple-vision-pro-w-palmer-luckey-ep-50": "extraction",
+  "moonshots-diamandis/2023-06-22-ai-experts-urgent-wake-up-call-unveiling-the-silent-threat-w-mo-gawdat": "extraction",
+  "moonshots-diamandis/2023-06-29-why-ai-matters-w-emad-mostaque-ep-52": "extraction",
+  "moonshots-diamandis/2023-07-06-how-ai-is-helping-solve-extinction-w-ben-lamm-ep-53": "extraction",
+  "moonshots-diamandis/2023-07-13-the-coming-global-ai-conflict-w-gilman-louie-ep-54": "extraction",
+  "moonshots-diamandis/2023-07-20-outcomes-of-an-ai-future-w-emad-mostaque-ep-55": "extraction",
+  "moonshots-diamandis/2023-07-25-solving-the-sadness-epidemic-w-mo-gawdat-ep-56": "extraction",
+  "moonshots-diamandis/2023-08-03-the-rise-of-humanoid-robotics-w-brett-adcock-ep-57": "extraction",
+  "moonshots-diamandis/2023-08-10-slaughter-free-meat-coming-soon-to-your-dinner-tables-w-josh-tetrick-e": "extraction",
+  "moonshots-diamandis/2023-08-17-how-to-finally-write-that-book-make-it-a-bestseller-w-keith-ferrazzi-e": "extraction",
+  "moonshots-diamandis/2023-08-25-aging-is-now-optional-w-david-sinclair-ep-60": "extraction",
+  "moonshots-diamandis/2023-08-31-how-ai-is-impacting-politics-accelerating-the-need-for-ubi-w-andrew-ya": "extraction",
+  "moonshots-diamandis/2023-09-07-1-on-1-with-a-doomsday-ai-ais-worst-case-scenario-ep-63": "extraction",
+  "moonshots-diamandis/2023-09-07-a-conversation-with-my-ai-clone-on-the-future-of-ai-ep-62": "extraction",
+  "moonshots-diamandis/2023-09-14-ai-tech-and-exponential-organizations-q-a-exponential-organizations-2": "extraction",
+  "moonshots-diamandis/2023-09-14-dont-fall-behind-in-the-ai-and-tech-revolution-exponential-organizatio": "extraction",
+  "moonshots-diamandis/2023-09-21-how-anyone-can-become-a-great-public-speaker-w-keith-ferrazzi-ep-65": "extraction",
+  "moonshots-diamandis/2023-09-28-solving-the-mental-health-crisis-with-technology-w-jewel-ep-66": "extraction",
+  "moonshots-diamandis/2023-10-05-how-to-reprogram-your-mind-to-become-successful-w-roger-hamilton-ep-67": "extraction",
+  "moonshots-diamandis/2023-10-12-the-technology-bigger-than-ai-w-jack-hidary-ep-68": "extraction",
+  "moonshots-diamandis/2023-10-19-this-will-change-how-you-do-everything-w-tony-robbins-ep-69": "extraction",
+  "moonshots-diamandis/2023-10-19-tony-robbins-unveils-his-blueprint-for-a-brighter-future-live-q-a": "extraction",
+  "moonshots-diamandis/2023-10-26-how-ai-will-change-the-music-industry-forever-w-will-i-am-ep-70": "extraction",
+  "moonshots-diamandis/2023-11-02-the-tech-that-will-prevent-and-reverse-chronic-disease-w-naveen-jain-g": "extraction",
+  "moonshots-diamandis/2023-11-09-how-ai-will-democratize-education-for-the-world-w-sal-khan-jacqueline": "extraction",
+  "moonshots-diamandis/2023-11-16-a-data-backed-approach-to-perfect-sleep-w-tom-hale-oura-ceo-dr-rebecca": "extraction",
+  "moonshots-diamandis/2023-11-22-who-will-govern-the-future-of-agi-w-emad-mostaque-stability-ai-founder": "extraction",
+  "moonshots-diamandis/2023-11-23-the-truth-about-american-healthcare-ep-74": "extraction",
+  "moonshots-diamandis/2023-11-30-the-truth-about-aging-longevity-expert-debunks-common-misconceptions-w": "extraction",
+  "moonshots-diamandis/2023-12-07-how-to-eat-to-live-longer-in-2024-w-dr-helen-messier-ep-76": "extraction",
+  "moonshots-diamandis/2023-12-14-the-simple-exercise-routine-that-will-extend-your-life-w-helen-messier": "extraction",
+  "moonshots-diamandis/2023-12-21-the-groundbreaking-science-of-water-fasting-w-valter-longo-ep-78": "extraction",
+  "moonshots-diamandis/2024-01-04-elon-musk-on-abundance-agi-and-the-media-in-2024-ep-79-x-spaces": "extraction",
+  "moonshots-diamandis/2024-01-11-the-proven-longevity-practices-extending-lifespans-w-dr-mark-hyman-ep": "extraction",
+  "moonshots-diamandis/2024-01-18-unlocking-teslas-hiring-secrets-interview-with-ex-chief-people-officer": "extraction",
+  "moonshots-diamandis/2024-01-26-tech-ceo-on-the-future-of-travel-technology-w-adam-goldstein-ep-82": "extraction",
+  "moonshots-diamandis/2024-02-01-ray-kurzweil-q-a-the-singularity-human-machine-integration-ai-ep-83": "extraction",
+  "moonshots-diamandis/2024-02-08-taylor-swift-ai-deep-fakes-agi-sam-altman-the-latest-in-tech-w-salim-i": "extraction",
+  "moonshots-diamandis/2024-02-09-first-neuralink-implanted-where-other-tech-giants-are-headed-w-salim-i": "extraction",
+  "moonshots-diamandis/2024-02-15-optimize-your-blood-sugar-to-improve-health-live-longer-w-glucose-godd": "extraction",
+  "moonshots-diamandis/2024-02-22-latest-ai-news-apple-vision-pro-bitcoin-surge-w-salim-ismail-ep-87": "extraction",
+  "moonshots-diamandis/2024-02-29-the-coming-bitcoin-surge-w-cathie-wood-ep-88": "extraction",
+  "moonshots-diamandis/2024-03-07-bitcoin-surge-ai-job-loss-2024-agi-predictions-w-salim-ismail-ep-89": "extraction",
+  "moonshots-diamandis/2024-03-14-building-the-worlds-most-powerful-satellites-w-will-marshall-ep-90": "extraction",
+  "moonshots-diamandis/2024-03-25-elon-musk-on-agi-safety-superintelligence-and-neuralink-2024-ep-91": "extraction",
+  "moonshots-diamandis/2024-03-26-the-future-of-bitcoin-w-michael-saylor-2024-ep-92": "extraction",
+  "moonshots-diamandis/2024-03-29-why-im-leaving-my-company-immediately-stability-ai-w-emad-mostaque-ep": "extraction",
+  "moonshots-diamandis/2024-04-04-leading-experts-predictions-on-the-future-of-ai-agi-w-salim-ismail-ep": "extraction",
+  "moonshots-diamandis/2024-04-11-ray-kurzweil-geoff-hinton-debate-the-future-of-ai-ep-95": "extraction",
+  "moonshots-diamandis/2024-04-18-ai-panel-discussion-w-emad-mostaque-ray-kurzweil-mo-gawdat-tristan-har": "extraction",
+  "moonshots-diamandis/2024-04-19-ai-panel-discussion-pt-2-w-emad-mostaque-salim-ismail-benjamin-plummer": "extraction",
+  "moonshots-diamandis/2024-04-25-2-ex-ai-ceos-debate-the-future-of-ai-w-emad-mostaque-nat-friedman-ep-9": "extraction",
+  "moonshots-diamandis/2024-05-02-how-governments-should-handle-ai-policy-deepfakes-w-eric-schmidt-ep-99": "extraction",
+  "moonshots-diamandis/2024-05-09-the-world-changing-science-of-organ-manufacturing-w-dean-kamen-ep-100": "extraction",
+  "moonshots-diamandis/2024-05-16-ai-bitcoin-how-our-world-will-change-this-decade-w-salim-ismail-ep-101": "extraction",
+  "moonshots-diamandis/2024-05-23-forget-everything-you-believed-about-computing-w-gill-verdon-ep-102": "extraction",
+  "moonshots-diamandis/2024-05-30-managing-risk-to-build-a-moonshot-venture-w-marc-lore-austin-russell-e": "extraction",
+  "moonshots-diamandis/2024-06-06-what-ai-agi-and-the-metaverse-mean-for-the-future-of-humanity-w-alvin": "extraction",
+  "moonshots-diamandis/2024-06-13-what-separates-billion-dollar-companies-from-failed-startups-w-bill-gr": "extraction",
+  "moonshots-diamandis/2024-06-20-how-to-build-implement-systems-to-grow-your-business-w-francis-pedraza": "extraction",
+  "moonshots-diamandis/2024-06-27-why-americans-live-10-15-years-less-than-other-countries-w-dan-buettne": "extraction",
+  "moonshots-diamandis/2024-07-08-cathie-wood-on-the-bitcoin-halving-apple-open-ai-nvdias-dominance-w-ca": "extraction",
+  "moonshots-diamandis/2024-07-11-the-5-biohacks-anyone-can-implement-to-live-longer-w-dave-asprey-ep-10": "extraction",
+  "moonshots-diamandis/2024-07-18-how-building-muscle-can-add-years-to-your-life-ozempics-long-term-effe": "extraction",
+  "moonshots-diamandis/2024-07-25-how-to-be-insanely-productive-even-with-adhd-w-dr-jeff-karp-ep-111": "extraction",
+  "moonshots-diamandis/2024-08-01-whole-foods-founder-on-american-health-care-ai-and-lack-of-quality-of": "extraction",
+  "moonshots-diamandis/2024-08-07-bitcoin-the-us-election-and-ai-w-bill-barhydt-ep-113": "extraction",
+  "moonshots-diamandis/2024-08-13-humanoid-robots-the-job-market-mass-automation-the-current-state-of-ai": "extraction",
+  "moonshots-diamandis/2024-08-16-ai-hype-vs-reality-2024-the-state-of-emerging-technologies-w-salim-ism": "extraction",
+  "moonshots-diamandis/2024-08-22-the-man-taking-on-tesla-in-the-race-for-humanoid-robots-w-brett-adcock": "extraction",
+  "moonshots-diamandis/2024-08-29-the-company-competing-with-amazon-for-instant-delivery-w-keller-rinaud": "extraction",
+  "moonshots-diamandis/2024-09-05-neil-degrasse-tyson-are-we-alone-on-earth-the-truth-about-aliens-ufos": "extraction",
+  "moonshots-diamandis/2024-09-19-how-i-am-reversing-my-skins-aging-with-peptides-w-carolina-reis-olivei": "extraction",
+  "moonshots-diamandis/2024-09-26-billionaire-naveen-jain-reveals-how-ai-will-change-medicine-forever-ep": "extraction",
+  "moonshots-diamandis/2024-10-04-how-a-10m-bet-made-civilian-spaceflight-a-reality-w-anousheh-ansari-gr": "extraction",
+  "moonshots-diamandis/2024-10-10-how-quantum-ai-will-shape-the-worlds-future-w-jack-hidary-ep-123": "extraction",
+  "moonshots-diamandis/2024-10-17-the-world-changing-technology-everyone-is-missing-w-jack-hidary-ep-124": "extraction",
+  "moonshots-diamandis/2024-10-24-the-man-who-predicted-agi-decades-ago-w-ray-kurzweil-ep-125": "extraction",
+  "moonshots-diamandis/2024-10-31-im-working-with-openai-to-make-work-better-for-humans-w-arianna-huffin": "extraction",
+  "moonshots-diamandis/2024-11-06-the-future-of-ai-leaders-from-tiktok-google-more-weigh-in-fii-panel-ep": "extraction",
+  "moonshots-diamandis/2024-11-07-what-the-election-results-mean-for-emerging-tech-w-salim-ismail-ep-128": "extraction",
+  "moonshots-diamandis/2024-11-08-elons-predictions-for-the-future-ai-free-energy-and-more-ep-129": "extraction",
+  "moonshots-diamandis/2024-11-12-top-minds-in-ai-explain-whats-coming-after-gpt-4o-ep-130": "extraction",
+  "moonshots-diamandis/2024-11-14-the-stats-traditional-media-will-never-show-you-ep-131": "extraction",
+  "moonshots-diamandis/2024-11-22-anthony-scaramucci-elon-doge-americas-fate-under-new-leadership-w-sali": "extraction",
+  "moonshots-diamandis/2024-11-28-the-future-of-medicine-how-ai-can-transform-healthcare-for-billions-fi": "extraction",
+  "moonshots-diamandis/2024-12-05-ex-google-china-president-on-how-china-is-shaping-the-future-of-ai-w-k": "extraction",
+  "moonshots-diamandis/2024-12-10-returning-to-the-office-wont-work-in-the-age-of-ai-jack-hidary-nadia-h": "extraction",
+  "moonshots-diamandis/2024-12-12-should-ai-be-open-sourced-the-debate-that-will-shape-everything-w-mark": "extraction",
+  "moonshots-diamandis/2024-12-19-whats-coming-in-2025-bitcoin-robots-space-exploration-the-ai-revolutio": "extraction",
+  "moonshots-diamandis/2024-12-20-elon-vs-openai-the-battle-over-for-profit-ai-w-salim-ismail-ep-138": "extraction",
+  "moonshots-diamandis/2024-12-23-bitcoin-vs-stocks-whats-the-smarter-investment-ama-w-salim-ismail-ep-1": "extraction",
   "moonshots-diamandis/2025-01-02-neil-degrasse-tyson-on-understanding-our-current-reality-xprize-vision": "extraction",
   "moonshots-diamandis/2025-01-16-salesforce-founder-gives-the-truth-on-ai-agents-w-marc-benioff-ep-141": "extraction",
   "moonshots-diamandis/2025-01-17-she-left-google-to-build-tech-that-could-save-millions-w-mary-lou-jeps": "extraction",
@@ -2397,13 +2546,13 @@
     ]
    },
    "cognitive-revolution": {
-    "extractionEpisodes": 30,
+    "extractionEpisodes": 31,
     "related": [
      {
       "name": "Chip export controls",
       "kind": "concept",
       "central": 3,
-      "mentions": 6
+      "mentions": 7
      },
      {
       "name": "Scaling laws",
@@ -2581,30 +2730,30 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 51,
+    "extractionEpisodes": 62,
     "related": [
      {
       "name": "AI and jobs",
       "kind": "concept",
-      "central": 10,
-      "mentions": 20
+      "central": 12,
+      "mentions": 23
+     },
+     {
+      "name": "AGI timelines",
+      "kind": "concept",
+      "central": 7,
+      "mentions": 12
      },
      {
       "name": "Humanoid robots",
       "kind": "concept",
-      "central": 5,
-      "mentions": 23
-     },
-     {
-      "name": "Recursive self-improvement",
-      "kind": "concept",
-      "central": 4,
-      "mentions": 12
+      "central": 6,
+      "mentions": 28
      }
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 76,
+    "extractionEpisodes": 77,
     "related": [
      {
       "name": "AI bubble",
@@ -2622,7 +2771,7 @@
       "name": "Chip export controls",
       "kind": "concept",
       "central": 7,
-      "mentions": 18
+      "mentions": 19
      }
     ]
    }
@@ -2675,7 +2824,7 @@
     ]
    },
    "cognitive-revolution": {
-    "extractionEpisodes": 53,
+    "extractionEpisodes": 54,
     "related": [
      {
       "name": "US–China AI competition",
@@ -2687,36 +2836,36 @@
       "name": "Chip export controls",
       "kind": "concept",
       "central": 7,
-      "mentions": 10
+      "mentions": 11
      },
      {
       "name": "Recursive self-improvement",
       "kind": "concept",
       "central": 5,
-      "mentions": 11
+      "mentions": 12
      }
     ]
    },
    "dwarkesh": {
-    "extractionEpisodes": 5,
+    "extractionEpisodes": 6,
     "related": [
-     {
-      "name": "AGI and the economy",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
-     },
      {
       "name": "AGI timelines",
       "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "central": 2,
+      "mentions": 2
      },
      {
       "name": "AI alignment",
       "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "US–China AI competition",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
      }
     ]
    },
@@ -2813,25 +2962,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 23,
+    "extractionEpisodes": 36,
     "related": [
-     {
-      "name": "AI and jobs",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 9
-     },
      {
       "name": "Bitcoin",
       "kind": "concept",
-      "central": 3,
-      "mentions": 5
+      "central": 8,
+      "mentions": 10
      },
      {
-      "name": "Recursive self-improvement",
+      "name": "AI and jobs",
       "kind": "concept",
-      "central": 2,
-      "mentions": 8
+      "central": 5,
+      "mentions": 13
+     },
+     {
+      "name": "Emad Mostaque",
+      "kind": "person",
+      "central": 4,
+      "mentions": 7
      }
     ]
    },
@@ -3022,25 +3171,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 12,
+    "extractionEpisodes": 30,
     "related": [
      {
       "name": "Humanoid robots",
       "kind": "concept",
-      "central": 4,
-      "mentions": 4
+      "central": 6,
+      "mentions": 8
      },
      {
-      "name": "Orbital data centers",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 3
+      "name": "Jack Hidary",
+      "kind": "person",
+      "central": 5,
+      "mentions": 5
      },
      {
-      "name": "AI personhood",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 2
+      "name": "SandboxAQ",
+      "kind": "company",
+      "central": 5,
+      "mentions": 5
      }
     ]
    }
@@ -3181,6 +3330,29 @@
       "kind": "product",
       "central": 2,
       "mentions": 2
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 1,
+    "related": [
+     {
+      "name": "Austin Russell",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Luminar Technologies",
+      "kind": "company",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Marc Lore",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
      }
     ]
    }
@@ -3394,13 +3566,13 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 19,
+    "extractionEpisodes": 23,
     "related": [
      {
       "name": "OpenAI",
       "kind": "company",
       "central": 4,
-      "mentions": 10
+      "mentions": 11
      },
      {
       "name": "Anthropic",
@@ -3412,7 +3584,7 @@
       "name": "Recursive self-improvement",
       "kind": "concept",
       "central": 3,
-      "mentions": 5
+      "mentions": 7
      }
     ]
    },
@@ -3442,7 +3614,7 @@
   },
   "ai-safety": {
    "practical-ai": {
-    "extractionEpisodes": 23,
+    "extractionEpisodes": 24,
     "related": [
      {
       "name": "AI regulation",
@@ -3457,7 +3629,7 @@
       "mentions": 3
      },
      {
-      "name": "AI hype",
+      "name": "AI and jobs",
       "kind": "concept",
       "central": 1,
       "mentions": 3
@@ -3465,7 +3637,7 @@
     ]
    },
    "latent-space": {
-    "extractionEpisodes": 25,
+    "extractionEpisodes": 26,
     "related": [
      {
       "name": "Simon Willison",
@@ -3488,7 +3660,7 @@
     ]
    },
    "cognitive-revolution": {
-    "extractionEpisodes": 151,
+    "extractionEpisodes": 152,
     "related": [
      {
       "name": "GPT-4",
@@ -3511,13 +3683,13 @@
     ]
    },
    "dwarkesh": {
-    "extractionEpisodes": 33,
+    "extractionEpisodes": 34,
     "related": [
      {
       "name": "US–China AI competition",
       "kind": "concept",
-      "central": 4,
-      "mentions": 7
+      "central": 5,
+      "mentions": 8
      },
      {
       "name": "Intelligence explosion",
@@ -3672,25 +3844,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 55,
+    "extractionEpisodes": 83,
     "related": [
      {
       "name": "AI and jobs",
       "kind": "concept",
-      "central": 9,
-      "mentions": 22
+      "central": 16,
+      "mentions": 35
      },
      {
       "name": "Emad Mostaque",
       "kind": "person",
-      "central": 4,
-      "mentions": 13
+      "central": 10,
+      "mentions": 20
      },
      {
-      "name": "US–China AI competition",
-      "kind": "concept",
-      "central": 4,
-      "mentions": 8
+      "name": "Bitcoin",
+      "kind": "product",
+      "central": 7,
+      "mentions": 11
      }
     ]
    },
@@ -3927,25 +4099,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 15,
+    "extractionEpisodes": 31,
     "related": [
      {
       "name": "Tesla",
       "kind": "company",
-      "central": 3,
-      "mentions": 4
+      "central": 4,
+      "mentions": 9
      },
      {
-      "name": "AI and jobs",
+      "name": "Cathie Wood",
+      "kind": "person",
+      "central": 4,
+      "mentions": 7
+     },
+     {
+      "name": "Robotaxis",
       "kind": "concept",
-      "central": 2,
+      "central": 4,
       "mentions": 6
-     },
-     {
-      "name": "AI agents",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 4
      }
     ]
    }
@@ -4391,25 +4563,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 17,
+    "extractionEpisodes": 28,
     "related": [
      {
       "name": "AI and jobs",
       "kind": "concept",
+      "central": 4,
+      "mentions": 8
+     },
+     {
+      "name": "Naveen Jain",
+      "kind": "person",
       "central": 3,
-      "mentions": 5
+      "mentions": 3
      },
      {
-      "name": "Open-weight models",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 5
-     },
-     {
-      "name": "AI personhood",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 4
+      "name": "Viome",
+      "kind": "company",
+      "central": 3,
+      "mentions": 3
      }
     ]
    },
@@ -4462,7 +4634,7 @@
     ]
    },
    "latent-space": {
-    "extractionEpisodes": 82,
+    "extractionEpisodes": 83,
     "related": [
      {
       "name": "AI agents",
@@ -5018,25 +5190,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 30,
+    "extractionEpisodes": 42,
     "related": [
      {
-      "name": "Robotaxis",
+      "name": "Bitcoin",
       "kind": "concept",
-      "central": 4,
-      "mentions": 6
+      "central": 6,
+      "mentions": 8
      },
      {
       "name": "Brett Adcock",
       "kind": "person",
-      "central": 4,
-      "mentions": 5
+      "central": 6,
+      "mentions": 8
      },
      {
-      "name": "Figure AI",
-      "kind": "company",
-      "central": 4,
-      "mentions": 5
+      "name": "Robotaxis",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 9
      }
     ]
    },
@@ -5089,7 +5261,7 @@
     ]
    },
    "latent-space": {
-    "extractionEpisodes": 18,
+    "extractionEpisodes": 19,
     "related": [
      {
       "name": "Josh McGrath",
@@ -5505,7 +5677,7 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 57,
+    "extractionEpisodes": 70,
     "related": [
      {
       "name": "Anthropic",
@@ -5516,8 +5688,8 @@
      {
       "name": "AI and jobs",
       "kind": "concept",
-      "central": 15,
-      "mentions": 25
+      "central": 18,
+      "mentions": 31
      },
      {
       "name": "SpaceX",
@@ -5599,22 +5771,22 @@
     ]
    },
    "cognitive-revolution": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 4,
     "related": [
      {
+      "name": "Reward hacking",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Chip export controls",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 2
+     },
+     {
       "name": "AGI timelines",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "AI and copyright",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "AI in creative writing",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -5714,42 +5886,42 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 17,
+    "extractionEpisodes": 20,
     "related": [
      {
       "name": "Anthropic",
       "kind": "company",
       "central": 7,
-      "mentions": 11
-     },
-     {
-      "name": "OpenAI",
-      "kind": "company",
-      "central": 6,
       "mentions": 11
      },
      {
       "name": "AI and jobs",
       "kind": "concept",
+      "central": 7,
+      "mentions": 9
+     },
+     {
+      "name": "OpenAI",
+      "kind": "company",
       "central": 6,
-      "mentions": 7
+      "mentions": 13
      }
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 21,
+    "extractionEpisodes": 22,
     "related": [
      {
       "name": "Chip export controls",
       "kind": "concept",
       "central": 7,
-      "mentions": 10
+      "mentions": 11
      },
      {
       "name": "Anthropic",
       "kind": "company",
-      "central": 4,
-      "mentions": 10
+      "central": 5,
+      "mentions": 11
      },
      {
       "name": "US–China AI competition",
@@ -5762,7 +5934,7 @@
   },
   "jobs-and-work": {
    "practical-ai": {
-    "extractionEpisodes": 35,
+    "extractionEpisodes": 36,
     "related": [
      {
       "name": "AI ethics",
@@ -5992,30 +6164,30 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 55,
+    "extractionEpisodes": 97,
     "related": [
      {
-      "name": "AGI timelines",
-      "kind": "concept",
-      "central": 5,
-      "mentions": 7
+      "name": "Emad Mostaque",
+      "kind": "person",
+      "central": 10,
+      "mentions": 16
      },
      {
-      "name": "Humanoid robots",
+      "name": "Abundance",
       "kind": "concept",
-      "central": 4,
-      "mentions": 19
+      "central": 8,
+      "mentions": 13
      },
      {
-      "name": "Robotaxis",
+      "name": "Bitcoin",
       "kind": "concept",
-      "central": 4,
-      "mentions": 8
+      "central": 8,
+      "mentions": 13
      }
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 64,
+    "extractionEpisodes": 65,
     "related": [
      {
       "name": "Enterprise AI adoption",
@@ -6030,10 +6202,10 @@
       "mentions": 6
      },
      {
-      "name": "Efficiency AI vs opportunity AI",
+      "name": "AI bubble",
       "kind": "concept",
       "central": 2,
-      "mentions": 5
+      "mentions": 6
      }
     ]
    }
@@ -6201,7 +6373,7 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 15,
+    "extractionEpisodes": 16,
     "related": [
      {
       "name": "US–China AI competition",
@@ -6210,16 +6382,16 @@
       "mentions": 7
      },
      {
+      "name": "Emad Mostaque",
+      "kind": "person",
+      "central": 4,
+      "mentions": 6
+     },
+     {
       "name": "AI and jobs",
       "kind": "concept",
       "central": 3,
       "mentions": 6
-     },
-     {
-      "name": "Emad Mostaque",
-      "kind": "person",
-      "central": 3,
-      "mentions": 5
      }
     ]
    },
@@ -6504,7 +6676,7 @@
     ]
    },
    "pragmatic-engineer": {
-    "extractionEpisodes": 74,
+    "extractionEpisodes": 75,
     "related": [
      {
       "name": "AI coding agents",
@@ -6523,6 +6695,29 @@
       "kind": "concept",
       "central": 5,
       "mentions": 18
+     }
+    ]
+   },
+   "moonshots-diamandis": {
+    "extractionEpisodes": 2,
+    "related": [
+     {
+      "name": "ADHD",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Company culture",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 1
+     },
+     {
+      "name": "Gaby Toledano",
+      "kind": "person",
+      "central": 1,
+      "mentions": 1
      }
     ]
    },
@@ -6736,7 +6931,7 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 1,
+    "extractionEpisodes": 2,
     "related": [
      {
       "name": "AGI race",
@@ -6751,7 +6946,7 @@
       "mentions": 1
      },
      {
-      "name": "AI consciousness",
+      "name": "AI and democracy",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -6853,7 +7048,7 @@
     ]
    },
    "dwarkesh": {
-    "extractionEpisodes": 9,
+    "extractionEpisodes": 10,
     "related": [
      {
       "name": "Intelligence explosion",
@@ -6862,16 +7057,16 @@
       "mentions": 3
      },
      {
-      "name": "Chinese Communist Party",
-      "kind": "government",
+      "name": "AI alignment",
+      "kind": "concept",
       "central": 2,
       "mentions": 3
      },
      {
-      "name": "China local government debt",
-      "kind": "concept",
+      "name": "Chinese Communist Party",
+      "kind": "government",
       "central": 2,
-      "mentions": 2
+      "mentions": 3
      }
     ]
    },
@@ -6945,30 +7140,30 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 13,
+    "extractionEpisodes": 16,
     "related": [
      {
       "name": "AI safety",
       "kind": "concept",
       "central": 3,
-      "mentions": 6
+      "mentions": 7
      },
      {
       "name": "AI and jobs",
       "kind": "concept",
       "central": 3,
-      "mentions": 5
+      "mentions": 6
      },
      {
-      "name": "Humanoid robots",
-      "kind": "concept",
-      "central": 2,
-      "mentions": 9
+      "name": "China",
+      "kind": "government",
+      "central": 3,
+      "mentions": 4
      }
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 29,
+    "extractionEpisodes": 30,
     "related": [
      {
       "name": "Donald Trump",
@@ -7039,7 +7234,7 @@
     ]
    },
    "cognitive-revolution": {
-    "extractionEpisodes": 5,
+    "extractionEpisodes": 6,
     "related": [
      {
       "name": "AI safety",
@@ -7048,16 +7243,16 @@
       "mentions": 2
      },
      {
-      "name": "OpenAI",
+      "name": "Reward hacking",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "Nvidia",
       "kind": "company",
       "central": 1,
       "mentions": 3
-     },
-     {
-      "name": "Open-weight models",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 2
      }
     ]
    },
@@ -7340,25 +7535,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 19,
+    "extractionEpisodes": 49,
     "related": [
      {
-      "name": "Colossal Biosciences",
-      "kind": "company",
-      "central": 3,
-      "mentions": 5
+      "name": "David Sinclair",
+      "kind": "person",
+      "central": 6,
+      "mentions": 8
+     },
+     {
+      "name": "Abundance",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 7
      },
      {
       "name": "De-extinction",
       "kind": "concept",
-      "central": 3,
-      "mentions": 4
-     },
-     {
-      "name": "Ben Lamm",
-      "kind": "person",
-      "central": 3,
-      "mentions": 3
+      "central": 4,
+      "mentions": 5
      }
     ]
    }
@@ -7526,19 +7721,19 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 6,
+    "extractionEpisodes": 7,
     "related": [
+     {
+      "name": "AI and jobs",
+      "kind": "concept",
+      "central": 1,
+      "mentions": 3
+     },
      {
       "name": "XPRIZE",
       "kind": "organization",
       "central": 1,
       "mentions": 3
-     },
-     {
-      "name": "AI and jobs",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 2
      },
      {
       "name": "AI Impact Summit",
@@ -7737,13 +7932,13 @@
     ]
    },
    "latent-space": {
-    "extractionEpisodes": 73,
+    "extractionEpisodes": 75,
     "related": [
      {
       "name": "Model evaluation",
       "kind": "concept",
       "central": 8,
-      "mentions": 19
+      "mentions": 20
      },
      {
       "name": "AI agents",
@@ -7898,7 +8093,7 @@
     ]
    },
    "pragmatic-engineer": {
-    "extractionEpisodes": 44,
+    "extractionEpisodes": 45,
     "related": [
      {
       "name": "AI coding agents",
@@ -7916,24 +8111,24 @@
       "name": "Developer productivity",
       "kind": "concept",
       "central": 6,
-      "mentions": 8
+      "mentions": 9
      }
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 12,
+    "extractionEpisodes": 13,
     "related": [
+     {
+      "name": "AI agents",
+      "kind": "concept",
+      "central": 4,
+      "mentions": 5
+     },
      {
       "name": "AI and jobs",
       "kind": "concept",
       "central": 3,
       "mentions": 6
-     },
-     {
-      "name": "AI agents",
-      "kind": "concept",
-      "central": 3,
-      "mentions": 4
      },
      {
       "name": "Benchmarks",
@@ -7944,13 +8139,13 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 184,
+    "extractionEpisodes": 185,
     "related": [
      {
       "name": "AI agents",
       "kind": "concept",
-      "central": 14,
-      "mentions": 29
+      "central": 15,
+      "mentions": 30
      },
      {
       "name": "AI and jobs",
@@ -8038,8 +8233,14 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 1,
+    "extractionEpisodes": 2,
     "related": [
+     {
+      "name": "Marc Benioff",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
+     },
      {
       "name": "Agentforce",
       "kind": "product",
@@ -8048,12 +8249,6 @@
      },
      {
       "name": "AI agents",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "AI and jobs",
       "kind": "concept",
       "central": 1,
       "mentions": 1
@@ -8387,24 +8582,24 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 1,
+    "extractionEpisodes": 6,
     "related": [
      {
-      "name": "Data center backlash",
+      "name": "Bitcoin",
       "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "central": 2,
+      "mentions": 2
      },
      {
-      "name": "Recursive self-improvement",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "name": "Donald Trump",
+      "kind": "person",
+      "central": 2,
+      "mentions": 2
      },
      {
-      "name": "AI market correction",
-      "kind": "concept",
-      "central": 0,
+      "name": "Abra",
+      "kind": "company",
+      "central": 1,
       "mentions": 1
      }
     ]
@@ -8596,25 +8791,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 6,
+    "extractionEpisodes": 13,
     "related": [
      {
       "name": "AI in education",
       "kind": "concept",
-      "central": 1,
+      "central": 3,
+      "mentions": 7
+     },
+     {
+      "name": "Emad Mostaque",
+      "kind": "person",
+      "central": 2,
       "mentions": 3
      },
      {
-      "name": "AI and creativity",
+      "name": "Exponential organizations",
       "kind": "concept",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "AI in government",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
+      "central": 2,
+      "mentions": 2
      }
     ]
    },
@@ -8667,7 +8862,7 @@
     ]
    },
    "latent-space": {
-    "extractionEpisodes": 66,
+    "extractionEpisodes": 67,
     "related": [
      {
       "name": "Retrieval-augmented generation",
@@ -8682,10 +8877,10 @@
       "mentions": 7
      },
      {
-      "name": "SWE-bench",
+      "name": "Model Context Protocol",
       "kind": "product",
       "central": 4,
-      "mentions": 6
+      "mentions": 8
      }
     ]
    },
@@ -8828,10 +9023,16 @@
     ]
    },
    "pragmatic-engineer": {
-    "extractionEpisodes": 6,
+    "extractionEpisodes": 7,
     "related": [
      {
       "name": "AI and jobs",
+      "kind": "concept",
+      "central": 2,
+      "mentions": 2
+     },
+     {
+      "name": "AI code review",
       "kind": "concept",
       "central": 2,
       "mentions": 2
@@ -8841,12 +9042,6 @@
       "kind": "concept",
       "central": 2,
       "mentions": 2
-     },
-     {
-      "name": "Peter Steinberger",
-      "kind": "person",
-      "central": 1,
-      "mentions": 4
      }
     ]
    },
@@ -8874,30 +9069,30 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 24,
+    "extractionEpisodes": 26,
     "related": [
      {
       "name": "AI and jobs",
       "kind": "concept",
       "central": 7,
-      "mentions": 10
+      "mentions": 11
+     },
+     {
+      "name": "Emad Mostaque",
+      "kind": "person",
+      "central": 3,
+      "mentions": 6
      },
      {
       "name": "Stablecoins",
       "kind": "concept",
       "central": 3,
       "mentions": 4
-     },
-     {
-      "name": "Emad Mostaque",
-      "kind": "person",
-      "central": 2,
-      "mentions": 5
      }
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 131,
+    "extractionEpisodes": 132,
     "related": [
      {
       "name": "Enterprise AI adoption",
@@ -9106,8 +9301,14 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 4,
+    "extractionEpisodes": 6,
     "related": [
+     {
+      "name": "OpenAI",
+      "kind": "company",
+      "central": 2,
+      "mentions": 4
+     },
      {
       "name": "Elon Musk",
       "kind": "person",
@@ -9115,16 +9316,10 @@
       "mentions": 3
      },
      {
-      "name": "OpenAI",
-      "kind": "company",
+      "name": "Emad Mostaque",
+      "kind": "person",
       "central": 2,
-      "mentions": 3
-     },
-     {
-      "name": "Anthropic",
-      "kind": "company",
-      "central": 1,
-      "mentions": 3
+      "mentions": 2
      }
     ]
    },
@@ -9524,7 +9719,7 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 19,
+    "extractionEpisodes": 21,
     "related": [
      {
       "name": "Recursive self-improvement",
@@ -9547,13 +9742,13 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 98,
+    "extractionEpisodes": 101,
     "related": [
      {
       "name": "AI and jobs",
       "kind": "concept",
-      "central": 7,
-      "mentions": 19
+      "central": 8,
+      "mentions": 20
      },
      {
       "name": "Enterprise AI adoption",
@@ -9804,7 +9999,7 @@
     ]
    },
    "latent-space": {
-    "extractionEpisodes": 23,
+    "extractionEpisodes": 24,
     "related": [
      {
       "name": "Model evaluation",
@@ -9850,25 +10045,25 @@
     ]
    },
    "dwarkesh": {
-    "extractionEpisodes": 10,
+    "extractionEpisodes": 11,
     "related": [
      {
       "name": "US–China AI competition",
       "kind": "concept",
-      "central": 3,
-      "mentions": 5
+      "central": 4,
+      "mentions": 6
      },
      {
-      "name": "AI takeover",
+      "name": "AI alignment",
+      "kind": "concept",
+      "central": 3,
+      "mentions": 4
+     },
+     {
+      "name": "AGI timelines",
       "kind": "concept",
       "central": 3,
       "mentions": 3
-     },
-     {
-      "name": "OpenAI",
-      "kind": "company",
-      "central": 2,
-      "mentions": 7
      }
     ]
    },
@@ -9965,19 +10160,19 @@
     ]
    },
    "pragmatic-engineer": {
-    "extractionEpisodes": 14,
+    "extractionEpisodes": 15,
     "related": [
+     {
+      "name": "Technical interviews",
+      "kind": "concept",
+      "central": 5,
+      "mentions": 5
+     },
      {
       "name": "AI and jobs",
       "kind": "concept",
       "central": 4,
       "mentions": 5
-     },
-     {
-      "name": "Technical interviews",
-      "kind": "concept",
-      "central": 4,
-      "mentions": 4
      },
      {
       "name": "Junior engineers in the AI era",
@@ -10011,19 +10206,19 @@
     ]
    },
    "ai-daily-brief": {
-    "extractionEpisodes": 146,
+    "extractionEpisodes": 149,
     "related": [
      {
       "name": "OpenAI",
       "kind": "company",
       "central": 20,
-      "mentions": 70
+      "mentions": 71
      },
      {
       "name": "AI and jobs",
       "kind": "concept",
-      "central": 11,
-      "mentions": 24
+      "central": 12,
+      "mentions": 25
      },
      {
       "name": "Enterprise AI adoption",
@@ -10128,7 +10323,7 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 1,
+    "extractionEpisodes": 3,
     "related": [
      {
       "name": "AI 2027",
@@ -10137,14 +10332,14 @@
       "mentions": 1
      },
      {
-      "name": "Bitcoin",
-      "kind": "concept",
+      "name": "Andrew Ng",
+      "kind": "person",
       "central": 1,
       "mentions": 1
      },
      {
-      "name": "Google Gemini 2.5",
-      "kind": "model",
+      "name": "Bitcoin",
+      "kind": "concept",
       "central": 1,
       "mentions": 1
      }
@@ -10268,25 +10463,25 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 7,
+    "extractionEpisodes": 9,
     "related": [
-     {
-      "name": "AI personhood",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 3
-     },
      {
       "name": "Humanoid robots",
       "kind": "concept",
-      "central": 1,
-      "mentions": 3
+      "central": 2,
+      "mentions": 4
      },
      {
       "name": "AI safety",
       "kind": "concept",
-      "central": 1,
-      "mentions": 2
+      "central": 2,
+      "mentions": 3
+     },
+     {
+      "name": "Ray Kurzweil",
+      "kind": "person",
+      "central": 2,
+      "mentions": 3
      }
     ]
    },
@@ -10431,7 +10626,7 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 32,
+    "extractionEpisodes": 44,
     "related": [
      {
       "name": "Anthropic",
@@ -10442,14 +10637,14 @@
      {
       "name": "OpenAI",
       "kind": "company",
-      "central": 9,
-      "mentions": 21
+      "central": 10,
+      "mentions": 22
      },
      {
       "name": "Humanoid robots",
       "kind": "concept",
-      "central": 5,
-      "mentions": 13
+      "central": 7,
+      "mentions": 18
      }
     ]
    },
@@ -10571,7 +10766,7 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 4,
     "related": [
      {
       "name": "Anthropic",
@@ -10586,10 +10781,10 @@
       "mentions": 2
      },
      {
-      "name": "AI backlash",
+      "name": "Exponential organizations",
       "kind": "concept",
       "central": 1,
-      "mentions": 1
+      "mentions": 2
      }
     ]
    },
@@ -10665,22 +10860,22 @@
     ]
    },
    "moonshots-diamandis": {
-    "extractionEpisodes": 3,
+    "extractionEpisodes": 4,
     "related": [
      {
       "name": "OpenAI",
       "kind": "company",
       "central": 2,
+      "mentions": 4
+     },
+     {
+      "name": "Humanoid robots",
+      "kind": "concept",
+      "central": 1,
       "mentions": 3
      },
      {
       "name": "AI agents",
-      "kind": "concept",
-      "central": 1,
-      "mentions": 1
-     },
-     {
-      "name": "AI in education",
       "kind": "concept",
       "central": 1,
       "mentions": 1

@@ -1546,6 +1546,10 @@
   "enterprise-adoption",
   "jobs-and-work"
  ],
+ "practical-ai/2026-11-26-humans-in-a-post-human-world": [
+  "jobs-and-work",
+  "ai-safety"
+ ],
  "latent-space/2023-02-23-chatgpt-gpt4-hype-and-building-llm-native-products-with-logan-kilpatri": [
   "consumer-ai",
   "context-engineering",
@@ -2616,9 +2620,22 @@
   "generative-media",
   "physical-ai"
  ],
- "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo": [
+ "latent-space/2026-11-19-why-linear-says-issue-tracking-is-dead-cristina-cordova-coo": [
   "agents",
   "context-engineering"
+ ],
+ "latent-space/2026-11-25-the-revolution-vs-the-renaissance-thariq-shihipar-openai": [
+  "ai-safety",
+  "ai-coding",
+  "anthropic"
+ ],
+ "latent-space/2026-11-26-how-clay-builds-gtm-agents-jeff-barg-head-of-ai": [
+  "models-and-benchmarks",
+  "ai-coding"
+ ],
+ "latent-space/2026-11-27-inside-the-ai-training-data-market-gabe-greenberg-g2i": [
+  "training-and-rl",
+  "agents"
  ],
  "cognitive-revolution/2023-02-03-the-pixel-revolution-with-playground-ai-s-suhail-doshi": [
   "consumer-ai",
@@ -4357,6 +4374,13 @@
   "ai-safety",
   "anthropic"
  ],
+ "cognitive-revolution/2026-11-26-ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec": [
+  "ai-safety",
+  "policy-and-regulation",
+  "infrastructure-and-chips",
+  "nvidia",
+  "hugging-face"
+ ],
  "dwarkesh/2020-07-10-tyler-cowen-the-great-reset": [
   "economics-and-crypto"
  ],
@@ -4809,6 +4833,12 @@
   "anthropic",
   "hugging-face",
   "openai"
+ ],
+ "dwarkesh/2026-11-27-ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege": [
+  "ai-safety",
+  "policy-and-regulation",
+  "us-china",
+  "anthropic"
  ],
  "lex-fridman/2018-08-26-max-tegmark-life-3-0": [
   "ai-safety",
@@ -8056,6 +8086,12 @@
   "ai-for-science",
   "software-engineering"
  ],
+ "pragmatic-engineer/2026-11-25-how-anthropic-builds-software-in-2026-with-katelyn-lesse": [
+  "ai-coding",
+  "agents",
+  "software-engineering",
+  "anthropic"
+ ],
  "moonshot/2025-03-10-driving-the-future": [
   "physical-ai"
  ],
@@ -8146,6 +8182,519 @@
   "infrastructure-and-chips",
   "jobs-and-work",
   "google"
+ ],
+ "moonshots-diamandis/2022-10-05-ep-1-how-to-save-the-world-w-elon-musk": [
+  "physics-and-space",
+  "xai"
+ ],
+ "moonshots-diamandis/2022-10-05-ep-2-i-almost-killed-stephen-hawking-true-story-of-flying-stephen-hawk": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2022-10-05-ep-3-are-humans-headed-toward-a-utopian-or-dystopian-future-w-tim-urba": [],
+ "moonshots-diamandis/2022-10-05-ep-4-how-to-create-a-successful-life-w-tony-robbins": [
+  "jobs-and-work",
+  "ai-safety",
+  "science"
+ ],
+ "moonshots-diamandis/2022-10-05-ep-5-becoming-the-first-black-female-space-pilot-w-dr-sian-proctor": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2022-10-13-ep-6-abuses-of-the-american-regulatory-state-w-balaji-srinivasan": [
+  "science"
+ ],
+ "moonshots-diamandis/2022-10-20-ep-7-eric-schmidt-ex-google-ceo-how-to-run-a-tech-giant": [
+  "ai-safety",
+  "policy-and-regulation"
+ ],
+ "moonshots-diamandis/2022-10-20-ep-8-eric-schmidts-ama-ai-national-security-and-cyborgs": [
+  "policy-and-regulation",
+  "google"
+ ],
+ "moonshots-diamandis/2022-10-27-ep-9-the-future-is-bitcoin-w-michael-saylor": [
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2022-11-03-ep-10-the-multi-billion-dollar-purpose-behind-salesforce-w-marc-beniof": [
+  "salesforce"
+ ],
+ "moonshots-diamandis/2022-11-10-ep-11-the-future-of-twitter-american-democracy-and-ai-w-salim-ismail": [
+  "jobs-and-work",
+  "policy-and-regulation",
+  "economics-and-crypto",
+  "xai"
+ ],
+ "moonshots-diamandis/2022-11-17-ep-12-gaming-will-save-the-world-w-jane-mcgonigal": [
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2022-11-24-ep-13-how-to-think-like-a-billionaire-w-naveen-jain": [
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2022-12-01-ep-14-steve-aokis-ama-a-djs-crazy-schedule-cryonics-to-live-forever-an": [],
+ "moonshots-diamandis/2022-12-01-ep-15-the-importance-of-sleep-for-creatives-w-steve-aoki": [
+  "science"
+ ],
+ "moonshots-diamandis/2022-12-15-ep-16-ai-is-creating-massive-entrepreneurial-opportunity-w-emad-mostaq": [
+  "consumer-ai",
+  "jobs-and-work",
+  "openai"
+ ],
+ "moonshots-diamandis/2022-12-22-ep-17-david-sinclairs-ama-age-reversal-breakthroughs-fda-approval-and": [
+  "science"
+ ],
+ "moonshots-diamandis/2022-12-22-ep-18-why-aging-is-a-disease-w-david-sinclair": [
+  "science"
+ ],
+ "moonshots-diamandis/2022-12-29-ep-19-ask-peter-anything-part-1-our-future-in-space-successful-mindset": [
+  "jobs-and-work",
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2022-12-29-ep-20-ask-peter-anything-part-2-how-to-be-a-great-entrepreneur-leader": [],
+ "moonshots-diamandis/2023-01-05-ep-21-the-vaccine-that-will-cure-chronic-diseases-w-lou-reese": [
+  "economics-and-crypto",
+  "xai"
+ ],
+ "moonshots-diamandis/2023-01-12-ep-22-why-bitcoin-in-2023-w-anthony-pomp-pompliano": [
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2023-01-19-ep-23-the-secret-to-happiness-w-deepak-chopra-m-d": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-01-26-ep-24-astro-tellers-ama-allocating-resources-for-audacious-ideas": [],
+ "moonshots-diamandis/2023-01-26-ep-25-how-to-build-a-moonshot-w-astro-teller": [
+  "physical-ai"
+ ],
+ "moonshots-diamandis/2023-02-02-ep-26-amber-straughns-ama-are-wormholes-real-w-nasa-astrophysicist": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2023-02-02-ep-27-black-holes-exoplanets-and-other-webb-telescope-discoveries-w-am": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2023-02-09-ep-28-the-state-of-america-live-twitter-spaces-ama-w-anthony-scaramucc": [
+  "jobs-and-work",
+  "economics-and-crypto",
+  "science"
+ ],
+ "moonshots-diamandis/2023-02-16-ep-29-the-secret-to-a-long-healthy-life-w-dr-mark-hyman": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-02-23-ep-30-venture-capital-in-2023-w-dakin-sloss": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2023-03-02-ep-31-the-truth-about-overpopulation-w-dr-marian-l-tupy-dr-gale-l-pool": [],
+ "moonshots-diamandis/2023-03-09-ep-32-why-cryptocurrency-is-still-relevant-in-2023-w-bill-barhydt": [
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2023-03-16-ep-33-the-entrepreneur-mindset-w-dan-sullivan": [
+  "talent-war"
+ ],
+ "moonshots-diamandis/2023-03-23-ep-34-the-mindset-that-extends-your-life-w-steven-kotler": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-03-30-ep-35-ai-gpt-4-revolutionize-education-w-sal-khan": [
+  "jobs-and-work",
+  "consumer-ai",
+  "openai"
+ ],
+ "moonshots-diamandis/2023-04-06-ep-36-stability-ai-founder-halting-ai-training-is-hyper-critical-for-o": [
+  "ai-safety",
+  "jobs-and-work",
+  "openai"
+ ],
+ "moonshots-diamandis/2023-04-13-ep-37-how-the-founder-of-oculus-plans-to-save-america-w-palmer-luckey": [
+  "physical-ai"
+ ],
+ "moonshots-diamandis/2023-04-14-ep-38-palmer-luckeys-ama-the-politics-of-winning-the-a-i-race": [
+  "us-china",
+  "society-and-culture"
+ ],
+ "moonshots-diamandis/2023-04-20-ep-39-should-we-be-fearful-of-artificial-intelligence-the-ai-panel-w-e": [
+  "talent-war",
+  "ai-safety",
+  "meta"
+ ],
+ "moonshots-diamandis/2023-04-27-ep-40-no-more-waiting-on-heart-transplants-w-dr-doris-taylor": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-04-27-ep-41-why-youre-not-leading-a-healthy-life-w-dr-doris-taylor-dr-mark-h": [],
+ "moonshots-diamandis/2023-05-04-ep-42-what-its-really-like-to-live-in-space-w-anousheh-ansari": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2023-05-11-stopping-police-shootings-with-revolutionary-tech-w-rick-smith-ep-43": [],
+ "moonshots-diamandis/2023-05-15-a-meditation-about-the-future-bonus-episode": [
+  "jobs-and-work",
+  "physical-ai"
+ ],
+ "moonshots-diamandis/2023-05-18-10x-your-business-why-transitioning-from-linear-to-exponential-is-cruc": [
+  "consumer-ai",
+  "openai"
+ ],
+ "moonshots-diamandis/2023-05-26-success-guaranteed-what-all-ultra-successful-founders-or-companies-hav": [
+  "xai"
+ ],
+ "moonshots-diamandis/2023-05-31-how-ai-will-change-business-forever-w-salim-ismail-ep-46": [
+  "jobs-and-work",
+  "ai-for-science",
+  "openai"
+ ],
+ "moonshots-diamandis/2023-06-01-the-successful-entrepreneur-formula-w-salim-ismail-ep-47": [],
+ "moonshots-diamandis/2023-06-08-the-realistic-future-of-ai-w-brian-keating": [
+  "jobs-and-work",
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2023-06-17-ais-moral-dilemma-are-we-building-our-own-nightmare-w-dr-rana-el-kalio": [],
+ "moonshots-diamandis/2023-06-20-oculus-founder-on-apple-vision-pro-w-palmer-luckey-ep-50": [
+  "ai-safety",
+  "jobs-and-work",
+  "meta"
+ ],
+ "moonshots-diamandis/2023-06-22-ai-experts-urgent-wake-up-call-unveiling-the-silent-threat-w-mo-gawdat": [
+  "ai-safety",
+  "jobs-and-work",
+  "openai"
+ ],
+ "moonshots-diamandis/2023-06-29-why-ai-matters-w-emad-mostaque-ep-52": [
+  "jobs-and-work",
+  "consumer-ai",
+  "openai"
+ ],
+ "moonshots-diamandis/2023-07-06-how-ai-is-helping-solve-extinction-w-ben-lamm-ep-53": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-07-13-the-coming-global-ai-conflict-w-gilman-louie-ep-54": [
+  "us-china",
+  "policy-and-regulation"
+ ],
+ "moonshots-diamandis/2023-07-20-outcomes-of-an-ai-future-w-emad-mostaque-ep-55": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2023-07-25-solving-the-sadness-epidemic-w-mo-gawdat-ep-56": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2023-08-03-the-rise-of-humanoid-robotics-w-brett-adcock-ep-57": [
+  "physical-ai"
+ ],
+ "moonshots-diamandis/2023-08-10-slaughter-free-meat-coming-soon-to-your-dinner-tables-w-josh-tetrick-e": [],
+ "moonshots-diamandis/2023-08-17-how-to-finally-write-that-book-make-it-a-bestseller-w-keith-ferrazzi-e": [],
+ "moonshots-diamandis/2023-08-25-aging-is-now-optional-w-david-sinclair-ep-60": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-08-31-how-ai-is-impacting-politics-accelerating-the-need-for-ubi-w-andrew-ya": [
+  "jobs-and-work",
+  "society-and-culture"
+ ],
+ "moonshots-diamandis/2023-09-07-1-on-1-with-a-doomsday-ai-ais-worst-case-scenario-ep-63": [
+  "jobs-and-work",
+  "ai-safety"
+ ],
+ "moonshots-diamandis/2023-09-07-a-conversation-with-my-ai-clone-on-the-future-of-ai-ep-62": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2023-09-14-ai-tech-and-exponential-organizations-q-a-exponential-organizations-2": [
+  "jobs-and-work",
+  "consumer-ai"
+ ],
+ "moonshots-diamandis/2023-09-14-dont-fall-behind-in-the-ai-and-tech-revolution-exponential-organizatio": [
+  "amazon"
+ ],
+ "moonshots-diamandis/2023-09-21-how-anyone-can-become-a-great-public-speaker-w-keith-ferrazzi-ep-65": [],
+ "moonshots-diamandis/2023-09-28-solving-the-mental-health-crisis-with-technology-w-jewel-ep-66": [
+  "consumer-ai",
+  "society-and-culture"
+ ],
+ "moonshots-diamandis/2023-10-05-how-to-reprogram-your-mind-to-become-successful-w-roger-hamilton-ep-67": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-10-12-the-technology-bigger-than-ai-w-jack-hidary-ep-68": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2023-10-19-this-will-change-how-you-do-everything-w-tony-robbins-ep-69": [
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2023-10-19-tony-robbins-unveils-his-blueprint-for-a-brighter-future-live-q-a": [
+  "jobs-and-work",
+  "history-and-geopolitics"
+ ],
+ "moonshots-diamandis/2023-10-26-how-ai-will-change-the-music-industry-forever-w-will-i-am-ep-70": [
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2023-11-02-the-tech-that-will-prevent-and-reverse-chronic-disease-w-naveen-jain-g": [
+  "ai-for-science",
+  "ai-safety",
+  "science"
+ ],
+ "moonshots-diamandis/2023-11-09-how-ai-will-democratize-education-for-the-world-w-sal-khan-jacqueline": [
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2023-11-16-a-data-backed-approach-to-perfect-sleep-w-tom-hale-oura-ceo-dr-rebecca": [],
+ "moonshots-diamandis/2023-11-22-who-will-govern-the-future-of-agi-w-emad-mostaque-stability-ai-founder": [
+  "policy-and-regulation",
+  "jobs-and-work",
+  "ai-safety",
+  "openai"
+ ],
+ "moonshots-diamandis/2023-11-23-the-truth-about-american-healthcare-ep-74": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-11-30-the-truth-about-aging-longevity-expert-debunks-common-misconceptions-w": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-12-07-how-to-eat-to-live-longer-in-2024-w-dr-helen-messier-ep-76": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-12-14-the-simple-exercise-routine-that-will-extend-your-life-w-helen-messier": [
+  "science"
+ ],
+ "moonshots-diamandis/2023-12-21-the-groundbreaking-science-of-water-fasting-w-valter-longo-ep-78": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-01-04-elon-musk-on-abundance-agi-and-the-media-in-2024-ep-79-x-spaces": [
+  "ai-safety",
+  "jobs-and-work",
+  "science",
+  "xai"
+ ],
+ "moonshots-diamandis/2024-01-11-the-proven-longevity-practices-extending-lifespans-w-dr-mark-hyman-ep": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-01-18-unlocking-teslas-hiring-secrets-interview-with-ex-chief-people-officer": [
+  "software-engineering"
+ ],
+ "moonshots-diamandis/2024-01-26-tech-ceo-on-the-future-of-travel-technology-w-adam-goldstein-ep-82": [],
+ "moonshots-diamandis/2024-02-01-ray-kurzweil-q-a-the-singularity-human-machine-integration-ai-ep-83": [
+  "ai-safety",
+  "consumer-ai",
+  "science"
+ ],
+ "moonshots-diamandis/2024-02-08-taylor-swift-ai-deep-fakes-agi-sam-altman-the-latest-in-tech-w-salim-i": [
+  "ai-safety",
+  "jobs-and-work",
+  "openai"
+ ],
+ "moonshots-diamandis/2024-02-09-first-neuralink-implanted-where-other-tech-giants-are-headed-w-salim-i": [
+  "physical-ai",
+  "ai-for-science",
+  "science"
+ ],
+ "moonshots-diamandis/2024-02-15-optimize-your-blood-sugar-to-improve-health-live-longer-w-glucose-godd": [],
+ "moonshots-diamandis/2024-02-22-latest-ai-news-apple-vision-pro-bitcoin-surge-w-salim-ismail-ep-87": [
+  "ai-economics",
+  "infrastructure-and-chips",
+  "economics-and-crypto",
+  "openai"
+ ],
+ "moonshots-diamandis/2024-02-29-the-coming-bitcoin-surge-w-cathie-wood-ep-88": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2024-03-07-bitcoin-surge-ai-job-loss-2024-agi-predictions-w-salim-ismail-ep-89": [
+  "jobs-and-work",
+  "ai-safety",
+  "physical-ai",
+  "google"
+ ],
+ "moonshots-diamandis/2024-03-14-building-the-worlds-most-powerful-satellites-w-will-marshall-ep-90": [
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2024-03-25-elon-musk-on-agi-safety-superintelligence-and-neuralink-2024-ep-91": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "physics-and-space",
+  "xai"
+ ],
+ "moonshots-diamandis/2024-03-26-the-future-of-bitcoin-w-michael-saylor-2024-ep-92": [
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2024-03-29-why-im-leaving-my-company-immediately-stability-ai-w-emad-mostaque-ep": [
+  "ai-for-science",
+  "jobs-and-work",
+  "microsoft"
+ ],
+ "moonshots-diamandis/2024-04-04-leading-experts-predictions-on-the-future-of-ai-agi-w-salim-ismail-ep": [
+  "ai-safety",
+  "ai-consciousness",
+  "economics-and-crypto",
+  "xai"
+ ],
+ "moonshots-diamandis/2024-04-11-ray-kurzweil-geoff-hinton-debate-the-future-of-ai-ep-95": [
+  "ai-for-science"
+ ],
+ "moonshots-diamandis/2024-04-18-ai-panel-discussion-w-emad-mostaque-ray-kurzweil-mo-gawdat-tristan-har": [
+  "ai-safety",
+  "jobs-and-work",
+  "google"
+ ],
+ "moonshots-diamandis/2024-04-19-ai-panel-discussion-pt-2-w-emad-mostaque-salim-ismail-benjamin-plummer": [
+  "infrastructure-and-chips",
+  "jobs-and-work",
+  "nvidia"
+ ],
+ "moonshots-diamandis/2024-04-25-2-ex-ai-ceos-debate-the-future-of-ai-w-emad-mostaque-nat-friedman-ep-9": [
+  "agents",
+  "open-weight-models",
+  "ai-coding"
+ ],
+ "moonshots-diamandis/2024-05-02-how-governments-should-handle-ai-policy-deepfakes-w-eric-schmidt-ep-99": [
+  "ai-safety",
+  "policy-and-regulation"
+ ],
+ "moonshots-diamandis/2024-05-09-the-world-changing-science-of-organ-manufacturing-w-dean-kamen-ep-100": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-05-16-ai-bitcoin-how-our-world-will-change-this-decade-w-salim-ismail-ep-101": [
+  "physical-ai",
+  "policy-and-regulation",
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2024-05-23-forget-everything-you-believed-about-computing-w-gill-verdon-ep-102": [
+  "infrastructure-and-chips"
+ ],
+ "moonshots-diamandis/2024-05-30-managing-risk-to-build-a-moonshot-venture-w-marc-lore-austin-russell-e": [
+  "computer-vision"
+ ],
+ "moonshots-diamandis/2024-06-06-what-ai-agi-and-the-metaverse-mean-for-the-future-of-humanity-w-alvin": [
+  "ai-safety",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2024-06-13-what-separates-billion-dollar-companies-from-failed-startups-w-bill-gr": [],
+ "moonshots-diamandis/2024-06-20-how-to-build-implement-systems-to-grow-your-business-w-francis-pedraza": [],
+ "moonshots-diamandis/2024-06-27-why-americans-live-10-15-years-less-than-other-countries-w-dan-buettne": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-07-08-cathie-wood-on-the-bitcoin-halving-apple-open-ai-nvdias-dominance-w-ca": [
+  "infrastructure-and-chips",
+  "physical-ai",
+  "economics-and-crypto",
+  "apple",
+  "nvidia"
+ ],
+ "moonshots-diamandis/2024-07-11-the-5-biohacks-anyone-can-implement-to-live-longer-w-dave-asprey-ep-10": [
+  "ai-for-science",
+  "science"
+ ],
+ "moonshots-diamandis/2024-07-18-how-building-muscle-can-add-years-to-your-life-ozempics-long-term-effe": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-07-25-how-to-be-insanely-productive-even-with-adhd-w-dr-jeff-karp-ep-111": [
+  "software-engineering"
+ ],
+ "moonshots-diamandis/2024-08-01-whole-foods-founder-on-american-health-care-ai-and-lack-of-quality-of": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-08-07-bitcoin-the-us-election-and-ai-w-bill-barhydt-ep-113": [
+  "policy-and-regulation",
+  "economics-and-crypto",
+  "society-and-culture"
+ ],
+ "moonshots-diamandis/2024-08-13-humanoid-robots-the-job-market-mass-automation-the-current-state-of-ai": [
+  "jobs-and-work",
+  "policy-and-regulation",
+  "infrastructure-and-chips"
+ ],
+ "moonshots-diamandis/2024-08-16-ai-hype-vs-reality-2024-the-state-of-emerging-technologies-w-salim-ism": [
+  "jobs-and-work",
+  "ai-safety",
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2024-08-22-the-man-taking-on-tesla-in-the-race-for-humanoid-robots-w-brett-adcock": [
+  "physical-ai",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2024-08-29-the-company-competing-with-amazon-for-instant-delivery-w-keller-rinaud": [],
+ "moonshots-diamandis/2024-09-05-neil-degrasse-tyson-are-we-alone-on-earth-the-truth-about-aliens-ufos": [
+  "physical-ai",
+  "policy-and-regulation",
+  "physics-and-space",
+  "xai"
+ ],
+ "moonshots-diamandis/2024-09-19-how-i-am-reversing-my-skins-aging-with-peptides-w-carolina-reis-olivei": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-09-26-billionaire-naveen-jain-reveals-how-ai-will-change-medicine-forever-ep": [
+  "ai-for-science",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2024-10-04-how-a-10m-bet-made-civilian-spaceflight-a-reality-w-anousheh-ansari-gr": [],
+ "moonshots-diamandis/2024-10-10-how-quantum-ai-will-shape-the-worlds-future-w-jack-hidary-ep-123": [
+  "ai-for-science",
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2024-10-17-the-world-changing-technology-everyone-is-missing-w-jack-hidary-ep-124": [
+  "infrastructure-and-chips",
+  "physics-and-space"
+ ],
+ "moonshots-diamandis/2024-10-24-the-man-who-predicted-agi-decades-ago-w-ray-kurzweil-ep-125": [
+  "ai-safety",
+  "jobs-and-work",
+  "google"
+ ],
+ "moonshots-diamandis/2024-10-31-im-working-with-openai-to-make-work-better-for-humans-w-arianna-huffin": [
+  "openai"
+ ],
+ "moonshots-diamandis/2024-11-06-the-future-of-ai-leaders-from-tiktok-google-more-weigh-in-fii-panel-ep": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "nvidia"
+ ],
+ "moonshots-diamandis/2024-11-07-what-the-election-results-mean-for-emerging-tech-w-salim-ismail-ep-128": [
+  "policy-and-regulation",
+  "jobs-and-work",
+  "economics-and-crypto"
+ ],
+ "moonshots-diamandis/2024-11-08-elons-predictions-for-the-future-ai-free-energy-and-more-ep-129": [
+  "ai-safety",
+  "infrastructure-and-chips",
+  "physics-and-space",
+  "xai"
+ ],
+ "moonshots-diamandis/2024-11-12-top-minds-in-ai-explain-whats-coming-after-gpt-4o-ep-130": [
+  "agents",
+  "jobs-and-work"
+ ],
+ "moonshots-diamandis/2024-11-14-the-stats-traditional-media-will-never-show-you-ep-131": [
+  "science"
+ ],
+ "moonshots-diamandis/2024-11-22-anthony-scaramucci-elon-doge-americas-fate-under-new-leadership-w-sali": [
+  "policy-and-regulation",
+  "economics-and-crypto",
+  "society-and-culture",
+  "xai"
+ ],
+ "moonshots-diamandis/2024-11-28-the-future-of-medicine-how-ai-can-transform-healthcare-for-billions-fi": [
+  "ai-for-science"
+ ],
+ "moonshots-diamandis/2024-12-05-ex-google-china-president-on-how-china-is-shaping-the-future-of-ai-w-k": [
+  "us-china",
+  "ai-safety",
+  "openai"
+ ],
+ "moonshots-diamandis/2024-12-10-returning-to-the-office-wont-work-in-the-age-of-ai-jack-hidary-nadia-h": [
+  "jobs-and-work",
+  "physical-ai"
+ ],
+ "moonshots-diamandis/2024-12-12-should-ai-be-open-sourced-the-debate-that-will-shape-everything-w-mark": [
+  "ai-safety",
+  "policy-and-regulation"
+ ],
+ "moonshots-diamandis/2024-12-19-whats-coming-in-2025-bitcoin-robots-space-exploration-the-ai-revolutio": [
+  "physical-ai",
+  "ai-consciousness",
+  "physics-and-space",
+  "xai"
+ ],
+ "moonshots-diamandis/2024-12-20-elon-vs-openai-the-battle-over-for-profit-ai-w-salim-ismail-ep-138": [
+  "ai-economics",
+  "ai-for-science",
+  "infrastructure-and-chips",
+  "xai",
+  "openai"
+ ],
+ "moonshots-diamandis/2024-12-23-bitcoin-vs-stocks-whats-the-smarter-investment-ama-w-salim-ismail-ep-1": [
+  "ai-for-science",
+  "jobs-and-work",
+  "physics-and-space"
  ],
  "moonshots-diamandis/2025-01-02-neil-degrasse-tyson-on-understanding-our-current-reality-xprize-vision": [
   "physics-and-space",
