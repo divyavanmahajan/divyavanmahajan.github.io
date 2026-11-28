@@ -3,10 +3,10 @@
  "month": "2026-11",
  "weekday": "Thursday",
  "generated": "2026-11-28",
- "episodeCount": 8,
+ "episodeCount": 7,
  "counts": {
   "aidb": 1,
-  "latent-space": 2,
+  "latent-space": 1,
   "lex-fridman": 1,
   "moonshots-diamandis": 1,
   "no-priors": 1,
@@ -27,7 +27,6 @@
    "title": "Agents reshape software work",
    "body": "Linear COO Cristina Cordova tells Latent Space that over half of the issues created on Linear now come from agents, and the company has repositioned around agent workflows. Simon Willison tells Turing Post he can build in an hour what once took a week, yet has never worked harder because only hard decisions remain. Scotiabank's Gautham Pallapa calls coding and test writing low-value work that agents now handle.",
    "eps": [
-    "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
     "latent-space/2026-11-19-why-linear-says-issue-tracking-is-dead-cristina-cordova-coo",
     "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
     "practical-ai/2026-11-19-building-human-centered-ai"
@@ -73,23 +72,6 @@
    "guests": [],
    "durationMin": null,
    "summary": "On Anthropic's IPO day, NLW lists ten pivotal days in generative AI history, from OpenAI's founding and the transformer paper through ChatGPT, the Altman firing, DeepSeek, Opus 4.5/OpenClaw, Anthropic's clash with the US government, and the 2026 midterms. He closes with honorable mentions including Stable Diffusion, Nvidia earnings, o1, Stargate and Jensen Huang's resignation.",
-   "summarySource": "extraction",
-   "partial": false
-  },
-  {
-   "key": "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
-   "show": "latent-space",
-   "showName": "Latent Space",
-   "date": "2026-11-19",
-   "slug": "scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
-   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
-   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo",
-   "youtube": null,
-   "guests": [
-    "Cristina Cordova"
-   ],
-   "durationMin": 84,
-   "summary": "Linear COO Cristina Cordova explains how the company moved from product-led growth with startups to growth-segment and then enterprise sales, and how it repositioned around agents after CEO Karri Saarinen's 'issue tracking is dead' post. She covers the MCP server and agent platform, usage-based pricing for AI features, using AI in support without sacrificing quality, lean hiring, and lessons from Stripe and venture investing.",
    "summarySource": "extraction",
    "partial": false
   },
