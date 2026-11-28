@@ -3,19 +3,19 @@
  "start": "2026-11-01",
  "end": "2026-11-30",
  "inProgress": true,
- "generated": "2026-11-27",
- "episodeCount": 56,
+ "generated": "2026-11-28",
+ "episodeCount": 66,
  "counts": {
+  "aidb": 24,
+  "dwarkesh": 2,
+  "latent-space": 10,
+  "cognitive-revolution": 7,
   "moonshots-diamandis": 9,
-  "aidb": 21,
-  "cognitive-revolution": 6,
-  "latent-space": 7,
+  "practical-ai": 4,
+  "pragmatic-engineer": 4,
   "lex-fridman": 2,
   "no-priors": 3,
-  "practical-ai": 3,
-  "turing-post": 1,
-  "pragmatic-engineer": 3,
-  "dwarkesh": 1
+  "turing-post": 1
  },
  "headline": "November was dominated by Jensen Huang's ouster from Nvidia over an alleged Chinese spy affair and by Anthropic's record IPO, which pulled chip export controls and AI valuations into Washington politics. Underneath, enterprise AI spend and coding-agent use kept climbing while warnings about recursive self-improvement grew louder.",
  "themes": [
@@ -106,7 +106,7 @@
    "title": "Designing products for agents",
    "body": "Linear COO Cristina Cordova describes repositioning around agents after Karri Saarinen's 'issue tracking is dead' post, with an MCP server, an agent platform and usage-based pricing for AI features. Resend's Zeno Rocha serves agents through an 80-tool MCP server, a CLI and machine-readable pages. Cisco's Vijoy Pandey presents the open-source Scope observability platform and the Accord and Concord protocols for aligning enterprise agents. Simon Willison warns builders about the lethal trifecta and prompt injection, and Legora's Jacob Lauritzen runs evals without seeing confidential client data.",
    "eps": [
-    "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+    "latent-space/2026-11-19-why-linear-says-issue-tracking-is-dead-cristina-cordova-coo",
     "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend",
     "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment",
     "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
@@ -150,6 +150,108 @@
  "themesEpisodeCount": 56,
  "episodes": [
   {
+   "key": "aidb/2026-11-27-ai-is-too-big-to-fail",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-27",
+   "slug": "ai-is-too-big-to-fail",
+   "title": "AI is Too Big to Fail",
+   "url": "https://www.patreon.com/posts/176529027",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW examines whether AI has become too big to fail as Senator Adam Schiff prepares no-AI-bailout legislation following the Nvidia/Jensen Huang saga and Democrats' midterm wins. He traces government treatment of AI as strategic from Biden-era export controls through Trump-era deregulation, the Anthropic–Pentagon fight, the Fable ban and the AI Accords, then reviews AI's role in GDP growth and financial risks such as debt funding and revenue concentration. He argues any AI bailout would look nothing like 2008, more likely contracts or soft nationalization.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "dwarkesh/2026-11-27-ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege",
+   "show": "dwarkesh",
+   "showName": "Dwarkesh Podcast",
+   "date": "2026-11-27",
+   "slug": "ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege",
+   "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+   "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+   "youtube": "https://www.youtube.com/watch?v=TbKkN1cesTo",
+   "guests": [
+    "Ege Erdil",
+    "Daniel Kokotajlo"
+   ],
+   "durationMin": 96,
+   "summary": "Dwarkesh Patel hosts Google DeepMind researcher Ege Erdil and AI Futures Project author Daniel Kokotajlo to identify cruxes on superintelligence timelines, whether to pause or slow AI, and US–China coordination. They debate whether superintelligent AIs will be like descendants or invaders, whether AIs care about humans by default, denial about current AI capabilities, predictions for 2027, and the cost of verifying AI research.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-27-inside-the-ai-training-data-market-gabe-greenberg-g2i",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-27",
+   "slug": "inside-the-ai-training-data-market-gabe-greenberg-g2i",
+   "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+   "youtube": null,
+   "guests": [
+    "Gabe Greenberg"
+   ],
+   "durationMin": 32,
+   "summary": "Recorded at AI Engineer CODE, G2i CEO Gabe Greenberg explains how the human training data market for frontier labs works: the shift from gig-style labeling to staff-level engineers building RL environments, how labs buy data without RFPs, exclusive versus off-the-shelf pricing, and selling company raw data. He also predicts growth areas such as robotics, 3D world models and CAD, and describes G2i's multi-agent orchestration platform.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-26-how-anthropic-went-from-anti-product-to-81b-a-year",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-26",
+   "slug": "how-anthropic-went-from-anti-product-to-81b-a-year",
+   "title": "How Anthropic Went From Anti-Product to $81B a Year",
+   "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-Anthropic-Went-From-Anti-Product-to-81B-a-Year-e3t0vt0",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A Thanksgiving excerpt from NLW's longer-form show How We Got Here, covering chapters two and three of a history of Anthropic. It traces Anthropic's early safety-research years, the FTX/Sam Bankman-Fried investment fallout, being overtaken by ChatGPT, and its rise via coding models (Claude 3.5 Sonnet, Claude Code, Claude Opus 4.5) and token-based agentic revenue to pass OpenAI on revenue by April 2026.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-26-ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-26",
+   "slug": "ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec",
+   "title": "AI:AM: Number Must Go Up? Christiano's Warning, Jensen's Return, GiveDirectly's Pitch for the Poor",
+   "url": "https://www.cognitiverevolution.ai/ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirectly-s-pitch-for-the-poor/",
+   "youtube": "https://www.youtube.com/watch?v=hgMbz33fBKc",
+   "guests": [
+    "Tom Davidson",
+    "Prakash Narayanan",
+    "Mackenzie Arnold",
+    "Nick Allardice"
+   ],
+   "durationMin": 132,
+   "summary": "An AI in the AM weekly highlights episode in which Nathan Labenz and Prakash Narayanan debate Paul Christiano's AI takeover warning, what risk threshold would justify going further, and what Jensen Huang's reinstatement at NVIDIA says about markets and power. GiveDirectly's Nick Allardice discusses cash transfers and AI, Tom Davidson assesses intelligence-explosion plausibility, and Mackenzie Arnold covers AI law and regulation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-26-how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-26",
+   "slug": "how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/how_clay_builds_gtm_agents_jeff_barg_head_of_ai",
+   "youtube": null,
+   "guests": [
+    "Jeff Barg"
+   ],
+   "durationMin": 72,
+   "summary": "Jeff Barg, Head of AI at Clay, explains Clay's go-to-market engineering platform, his path via the acquisition of his startup Avenue, and the evolution from Claygents and the Sculptor agent to a rebuilt coding-agent harness on a CLI and sandbox. The conversation covers evals, model routing, post-training and open-weight models for cost, inference scaling, the near 50/50 split between Clay's agent and external harnesses like Claude Code, and institutional courage, including OpenAI's near-cancellation of ChatGPT apps.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
    "key": "moonshots-diamandis/2026-11-26-thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra",
    "show": "moonshots-diamandis",
    "showName": "Moonshots with Peter Diamandis",
@@ -161,6 +263,70 @@
    "guests": [],
    "durationMin": 52,
    "summary": "A Thanksgiving special in which Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross answer questions about setbacks, rejections and people they never properly thanked. Stories include Peter's stolen fetal pig and medical-school deal, Dave's near-ouster at Data Sage, Salim's PubSub collapse, Alex's rejection that led to nanotech, and the founding of the XPRIZE. They close with gratitude for expected disease cures, longevity escape velocity and the singularity.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-11-26-humans-in-a-post-human-world",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-11-26",
+   "slug": "humans-in-a-post-human-world",
+   "title": "Humans in a Post-Human World",
+   "url": "https://share.transistor.fm/s/45701c1a",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 56,
+   "summary": "In a solo episode, Chris Benson discusses themes from his in-progress book Humans in a Post-Human World: AI-driven job displacement, valuing humans beyond productivity, and the limits of human-AI teaming. He cites a Wired article on Peter Thiel's Dialog society, then speculates on swarming, machine consciousness via active inference, and superintelligence.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "aidb/2026-11-25-how-to-talk-about-ai-at-thanksgiving",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-25",
+   "slug": "how-to-talk-about-ai-at-thanksgiving",
+   "title": "How to Talk About AI at Thanksgiving",
+   "url": "https://www.patreon.com/posts/176387665",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW walks through roughly 15 questions skeptical family members are likely to ask about AI at Thanksgiving, from jobs, cheating, kids and chatbots, the environment and the AI bubble to who controls AI, doom risk and the US–China race. He frames the moment as a phase transition in which broader society gains a say in AI's future and urges listeners to invite skeptics into the conversation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-25-the-revolution-vs-the-renaissance-thariq-shihipar-openai",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-25",
+   "slug": "the-revolution-vs-the-renaissance-thariq-shihipar-openai",
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_revolution_vs_the_renaissance_thariq_shihipar_openai",
+   "youtube": null,
+   "guests": [
+    "Thariq Shihipar"
+   ],
+   "durationMin": 54,
+   "summary": "Recorded at AIE Code Summit, Thariq Shihipar (formerly Anthropic, now joining OpenAI) discusses his closing keynote framing AI as both an industrial revolution and a renaissance for software, and his '/human' scripting approach to keep humans in the feedback loop. The conversation covers decision models, personal software, multi-agent communication, recursive self-improvement turning research into knowledge work, and games as 'prosthetics for achievement'.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-11-25-how-anthropic-builds-software-in-2026-with-katelyn-lesse",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-11-25",
+   "slug": "how-anthropic-builds-software-in-2026-with-katelyn-lesse",
+   "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+   "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+   "youtube": "https://www.youtube.com/watch?v=9oNvKMd7xJo",
+   "guests": [
+    "Katelyn Lesse"
+   ],
+   "durationMin": 110,
+   "summary": "Gergely Orosz interviews Katelyn Lesse, who leads Claude Platform engineering at Anthropic, about rewriting the Python Messages API in Rust with shadow traffic, and re-architecting Claude Managed Agents. They cover how agents change code review, on-call, onboarding, team structure, PMs shipping code, the phased-out coding interview, promotions, and the engineer identity crisis.",
    "summarySource": "extraction",
    "partial": false
   },
@@ -290,19 +456,19 @@
    "partial": false
   },
   {
-   "key": "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+   "key": "latent-space/2026-11-19-why-linear-says-issue-tracking-is-dead-cristina-cordova-coo",
    "show": "latent-space",
    "showName": "Latent Space",
    "date": "2026-11-19",
-   "slug": "scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
-   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
-   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo",
+   "slug": "why-linear-says-issue-tracking-is-dead-cristina-cordova-coo",
+   "title": "Why Linear says Issue Tracking is Dead — Cristina Cordova, COO",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/why_linear_says_issue_tracking_is_dead_cristina_cordova_coo",
    "youtube": null,
    "guests": [
     "Cristina Cordova"
    ],
    "durationMin": 84,
-   "summary": "Linear COO Cristina Cordova explains how the company moved from product-led growth with startups to growth-segment and then enterprise sales, and how it repositioned around agents after CEO Karri Saarinen's 'issue tracking is dead' post. She covers the MCP server and agent platform, usage-based pricing for AI features, using AI in support without sacrificing quality, lean hiring, and lessons from Stripe and venture investing.",
+   "summary": "Linear COO Cristina Cordova discusses how Linear scaled from a product-led startup tool to enterprise sales, and why CEO Karri Saarinen declared issue tracking dead as Linear repositions around agents. Topics include MCP and agent-created issues, usage-based pricing for AI features, AI in customer support, hiring philosophy, and lessons from Stripe, Notion and venture investing.",
    "summarySource": "extraction",
    "partial": false
   },
