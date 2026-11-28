@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-15",
+ "month": "2026-11",
+ "weekday": "Sunday",
+ "generated": "2026-11-28",
+ "episodeCount": 1,
+ "counts": {
+  "aidb": 1
+ },
+ "headline": "NLW drew on published practices from Stripe, Shopify, Uber, Ramp, Anthropic and startups to set out seven habits of AI-native companies, summed up as the company becoming a system.",
+ "themes": [
+  {
+   "title": "Context, not the model",
+   "body": "NLW argues the limit for meaningful knowledge work is context, not the model, so AI-native organizations give agents full context. He says being AI native has to span the whole organization, not just engineering. He cites George Savolka, who found employees unsure about their future hoarding context as job security, a cultural barrier to sharing what agents need.",
+   "eps": [
+    "aidb/2026-11-15-7-things-ai-native-companies-do-differently"
+   ]
+  },
+  {
+   "title": "Orchestrators, not teammates",
+   "body": "NLW says teams increasingly run one main orchestrator agent that spins up sub-agents as needed, keeping summaries in its context while each worker gets a narrow instruction and a clean slate. He pairs this with verification and human review scaled to risk. He calls agents as teammates the wrong mental model and proposes on-demand consulting firms as a better analogy.",
+   "eps": [
+    "aidb/2026-11-15-7-things-ai-native-companies-do-differently"
+   ]
+  }
+ ],
+ "whyItMatters": "If context rather than model quality limits agent output, the work for architects is making organizational knowledge accessible and shareable, and designing review controls that scale with risk.",
+ "themesEpisodeCount": 1,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-15-7-things-ai-native-companies-do-differently",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-15",
+   "slug": "7-things-ai-native-companies-do-differently",
+   "title": "7 Things AI-Native Companies Do Differently",
+   "url": "https://www.patreon.com/posts/175392001",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Drawing on published practices from Stripe, Shopify, Uber, Ramp, Anthropic and startups, NLW outlines seven habits of AI-native organizations, from giving agents full context to orchestrator-led sub-agents, verification and risk-scaled human review. He argues the agents-as-teammates mental model is wrong and proposes on-demand consulting firms as a better analogy.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

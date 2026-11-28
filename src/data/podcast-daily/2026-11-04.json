@@ -1,0 +1,76 @@
+{
+ "date": "2026-11-04",
+ "month": "2026-11",
+ "weekday": "Wednesday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "moonshots-diamandis": 1
+ },
+ "headline": "The US midterms set the agenda: NLW argues data centers became a campaign issue that AI companies lost, with every down-ballot data center proposal set to pass. Moonshots, recorded on election day, focused on Anthropic's filing showing Claude writes over 90% of the company's code and on $3 trillion of Big Tech infrastructure commitments.",
+ "themes": [
+  {
+   "title": "Data centers on the ballot",
+   "body": "NLW reads the 2026 US midterm blue wave through data center politics. He cites NBC exit polls in which 56% of voters called data centers a crucial or major factor, notes that all 41 down-ballot data center proposals appeared set to pass, and highlights Texas candidate Gina Hinojosa's platform of a moratorium until regulations are written and an end to tax subsidies.",
+   "eps": [
+    "aidb/2026-11-04-how-the-midterm-results-change-ai"
+   ]
+  },
+  {
+   "title": "Claude writes Anthropic's code",
+   "body": "On Moonshots, Salim Ismail cites Anthropic's IPO filing as saying over 90% of September 2026 code contributions were authored by Claude, with daily contributions per engineer 45 times higher than two years ago. Peter Diamandis says internal Claude usage, priced at consumer rates, has exceeded monthly cash payroll since April. The hosts also discuss MIT CSAIL research in which one model edited another's weights to fix thinking loops.",
+   "eps": [
+    "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai"
+   ]
+  },
+  {
+   "title": "Big Tech capex and new benchmarks",
+   "body": "Diamandis says Alphabet, Meta, Microsoft, Amazon and Oracle have disclosed over $3 trillion in combined AI infrastructure commitments, with Google alone over $1 trillion. Dave Blundin says he could only get an NVL72 by signing a $15 million three-year lease. On the GDPX benchmark of 206 long-running tasks, the best model, Opus 5.5, scored only 12%, which Alexander Wissner-Gross expects to be saturated within a year.",
+   "eps": [
+    "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai"
+   ]
+  },
+  {
+   "title": "Federal AI rules after the vote",
+   "body": "NLW thinks a comprehensive federal AI regulatory framework is unlikely after the midterms. He expects incremental, bipartisan measures instead, such as whistleblower protection for employees of AI labs, along with more state-level hurdles for data center projects. He also sketches a disaster scenario for the industry and argues the results show AI companies lost the narrative war over data centers.",
+   "eps": [
+    "aidb/2026-11-04-how-the-midterm-results-change-ai"
+   ]
+  }
+ ],
+ "whyItMatters": "Local opposition to data centers and tight compute supply can constrain capacity plans, while AI-written code at the scale Anthropic reports signals how quickly software delivery practices and controls may need to change.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-04-how-the-midterm-results-change-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-04",
+   "slug": "how-the-midterm-results-change-ai",
+   "title": "How the Midterm Results Change AI",
+   "url": "https://www.patreon.com/posts/174399366",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW analyzes the 2026 US midterm blue wave and what it means for AI, focusing on data center politics as a campaign issue in races in California, Ohio, Texas, Georgia and Michigan. He predicts incremental federal AI rules rather than a comprehensive framework, more state-level data center hurdles, and sketches a disaster scenario.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-04-big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-04",
+   "slug": "big-techs-3t-ai-bet-claude-writes-90-of-anthropics-code-ais-editing-ai",
+   "title": "Big Tech’s $3T AI Bet, Claude Writes 90% of Anthropic’s Code, AIs Editing AI Brains | EP #308",
+   "url": "https://www.youtube.com/watch?v=x09f_BuJsoY",
+   "youtube": "https://www.youtube.com/watch?v=x09f_BuJsoY",
+   "guests": [],
+   "durationMin": 115,
+   "summary": "Recorded on US midterm election day, Peter Diamandis and the Moonshot Mates discuss AI-assisted voting, Apple's first earnings under John Ternus and memory pricing, and $3 trillion of Big Tech AI infrastructure commitments amid tightening credit and hedging. They cover the SemiAnalysis GDPX and OpenAI LifeVal benchmarks, Anthropic's S-1 showing Claude writing over 90% of its code, MIT CSAIL research on models editing other models' weights, a hack of European supermarket freezers, a month-long positron trap, NASA's Artemis plans, and an AMA on longevity, purpose and robots.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

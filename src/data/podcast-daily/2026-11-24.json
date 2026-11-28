@@ -1,0 +1,78 @@
+{
+ "date": "2026-11-24",
+ "month": "2026-11",
+ "weekday": "Tuesday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "moonshots-diamandis": 1
+ },
+ "headline": "Both shows dug into the aftermath of Jensen Huang's return to Nvidia and Trump's role in it, while a claimed Claude-assisted proof of the Riemann hypothesis and OpenAI's call for shared AI speed limits drew attention.",
+ "themes": [
+  {
+   "title": "Aftermath of Huang's reinstatement",
+   "body": "NLW reports Nvidia closed Monday up 31.5 percent, still 30 percent below its October high, and that Trump told CNBC he convinced the board to return Huang and gave it enough assurance on prosecution. Huang is set to testify before the Senate Banking Committee. On Moonshots, the hosts cite a $1.09 trillion jump in value, and Dave Blundin calls Nvidia the bank funding startups and neoclouds.",
+   "eps": [
+    "aidb/2026-11-24-ai-just-made-history-in-the-middle-of-a-meltdown",
+    "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days"
+   ]
+  },
+  {
+   "title": "AI proofs in mathematics",
+   "body": "NLW reports that Anthropic mathematician Levent Alpogay believes he found a proof of the Riemann hypothesis working with Claude, and held the news back until after Anthropic's IPO after contacting Dario Amodei. NLW also says Anthropic and OpenAI published limited proofs for P equals NP across algebraic space. Moonshots covered an AI proof of the generalized Riemann hypothesis and rumors about P vs NP.",
+   "eps": [
+    "aidb/2026-11-24-ai-just-made-history-in-the-middle-of-a-meltdown",
+    "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days"
+   ]
+  },
+  {
+   "title": "OpenAI proposes AI speed limits",
+   "body": "Peter Diamandis reports OpenAI published its perplexity-versus-intelligence chart and asked every lab to publish theirs and agree on limits until AI monitoring catches up. Alexander Wissner-Gross reads it as a signal that OpenAI can again pre-train smarter models after a plateau, and argues public evals let labs pace each other without antitrust exposure. Diamandis warns that whoever defines the speed limit sets the speed.",
+   "eps": [
+    "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days"
+   ]
+  },
+  {
+   "title": "GTA VI and AI-free production",
+   "body": "Diamandis reports that Take-Two said Grand Theft Auto VI sold $3.79 billion in one day, against $2.5 billion for the year's biggest movie over its full run. Per the show, Take-Two CEO Strauss Zelnick said generative AI played no role in building the game.",
+   "eps": [
+    "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days"
+   ]
+  }
+ ],
+ "whyItMatters": "Political intervention at a key chip supplier and labs proposing their own pace limits both show that AI capacity and rules are being shaped by a few large players, which technology leaders should factor into sourcing and roadmap risk.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-24-ai-just-made-history-in-the-middle-of-a-meltdown",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-24",
+   "slug": "ai-just-made-history-in-the-middle-of-a-meltdown",
+   "title": "AI Just Made History in the Middle of a Meltdown",
+   "url": "https://www.patreon.com/posts/176284431",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover an Anthropic mathematician's Claude-assisted Lean proof of the Riemann hypothesis, New York Times reporting on dysfunction in SpaceX's AI efforts, and Z.ai's GLM 5.4 built on looped transformers. The main segment examines the aftermath of Jensen Huang's reinstatement at Nvidia: Trump's direct intervention, looming congressional hearings, market moves, the Megaspeed blacklisting, and backlash against Anthropic's IPO.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-24-jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-24",
+   "slug": "jensen-huang-is-back-inside-nvidias-1-trillion-comeback-after-11-days",
+   "title": "Jensen Huang Is Back: Inside NVIDIA’s $1 Trillion Comeback After 11 Days Out | EP #315",
+   "url": "https://www.youtube.com/watch?v=CDN5X5z4gLw",
+   "youtube": "https://www.youtube.com/watch?v=CDN5X5z4gLw",
+   "guests": [],
+   "durationMin": 78,
+   "summary": "Thanksgiving-week Moonshot Mates roundtable on Jensen Huang's reinstatement as Nvidia CEO after 11 days out and the White House's role in it. Also covers OpenAI publishing its pre-training perplexity chart and calling for common AI speed limits, US data center policy, an AI proof of the generalized Riemann hypothesis and rumors about P vs NP, the GTA VI launch, and an AI avatar passing the mirror test.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

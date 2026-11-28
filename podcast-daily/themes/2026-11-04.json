@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-04",
+ "episodeCount": 2,
+ "headline": "The US midterms set the agenda: NLW argues data centers became a campaign issue that AI companies lost, with every down-ballot data center proposal set to pass. Moonshots, recorded on election day, focused on Anthropic's filing showing Claude writes over 90% of the company's code and on $3 trillion of Big Tech infrastructure commitments.",
+ "themes": [
+  {
+   "title": "Data centers on the ballot",
+   "body": "NLW reads the 2026 US midterm blue wave through data center politics. He cites NBC exit polls in which 56% of voters called data centers a crucial or major factor, notes that all 41 down-ballot data center proposals appeared set to pass, and highlights Texas candidate Gina Hinojosa's platform of a moratorium until regulations are written and an end to tax subsidies.",
+   "eps": ["aidb/2026-11-04"]
+  },
+  {
+   "title": "Claude writes Anthropic's code",
+   "body": "On Moonshots, Salim Ismail cites Anthropic's IPO filing as saying over 90% of September 2026 code contributions were authored by Claude, with daily contributions per engineer 45 times higher than two years ago. Peter Diamandis says internal Claude usage, priced at consumer rates, has exceeded monthly cash payroll since April. The hosts also discuss MIT CSAIL research in which one model edited another's weights to fix thinking loops.",
+   "eps": ["moonshots-diamandis/2026-11-04"]
+  },
+  {
+   "title": "Big Tech capex and new benchmarks",
+   "body": "Diamandis says Alphabet, Meta, Microsoft, Amazon and Oracle have disclosed over $3 trillion in combined AI infrastructure commitments, with Google alone over $1 trillion. Dave Blundin says he could only get an NVL72 by signing a $15 million three-year lease. On the GDPX benchmark of 206 long-running tasks, the best model, Opus 5.5, scored only 12%, which Alexander Wissner-Gross expects to be saturated within a year.",
+   "eps": ["moonshots-diamandis/2026-11-04"]
+  },
+  {
+   "title": "Federal AI rules after the vote",
+   "body": "NLW thinks a comprehensive federal AI regulatory framework is unlikely after the midterms. He expects incremental, bipartisan measures instead, such as whistleblower protection for employees of AI labs, along with more state-level hurdles for data center projects. He also sketches a disaster scenario for the industry and argues the results show AI companies lost the narrative war over data centers.",
+   "eps": ["aidb/2026-11-04"]
+  }
+ ],
+ "whyItMatters": "Local opposition to data centers and tight compute supply can constrain capacity plans, while AI-written code at the scale Anthropic reports signals how quickly software delivery practices and controls may need to change."
+}

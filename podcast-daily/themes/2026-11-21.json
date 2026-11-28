@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-21",
+ "episodeCount": 1,
+ "headline": "Former Biden White House AI advisors Ben Buchanan and Tantum Collins told The Cognitive Revolution how export controls were meant to build a compute lead over China and then spend that lead on safety.",
+ "themes": [
+  {
+   "title": "Compute lead as a safety strategy",
+   "body": "Buchanan estimates the US and its allies hold about a 100:1 advantage over China in producing compute and about 15:1 in access to it, and says closing remote access and smuggling could push access toward 100:1. The aim, he says, was to use that supply-chain chokehold to build a lead without being unduly accelerationist, and to spend that lead on safety.",
+   "eps": ["cognitive-revolution/2026-11-21"]
+  },
+  {
+   "title": "US-China AI diplomacy",
+   "body": "Buchanan says the Chinese side at the May 2024 Geneva meeting dismissed AI risk and called the risk discussion a kind of plot. He adds that China retaliated little against Biden's calibrated chip controls, far less than against Trump's tariffs. Host Nathan Labenz pressed the guests on cooperation with China under a 'chips for controls' approach.",
+   "eps": ["cognitive-revolution/2026-11-21"]
+  },
+  {
+   "title": "Why the advisors believe in scaling",
+   "body": "Buchanan says GPT-3's release in May 2020 convinced him the scaling arguments were right, and the title of their book, The Bitter Struggle, draws on Rich Sutton's essay The Bitter Lesson. Collins separates a technology's arrival, which feels inevitable, from its impact, citing whether the US or Nazi Germany built nuclear weapons first. The guests expect the first AI emergencies in cyber and bio.",
+   "eps": ["cognitive-revolution/2026-11-21"]
+  }
+ ],
+ "whyItMatters": "If access to compute is treated as a policy lever, export rules and remote-access controls can change which chips, clouds and regions enterprises are able to use, so infrastructure plans need room for regulatory shifts."
+}

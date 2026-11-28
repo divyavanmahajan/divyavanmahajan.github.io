@@ -1,0 +1,140 @@
+{
+ "date": "2026-11-26",
+ "month": "2026-11",
+ "weekday": "Thursday",
+ "generated": "2026-11-28",
+ "episodeCount": 5,
+ "counts": {
+  "aidb": 1,
+  "cognitive-revolution": 1,
+  "latent-space": 1,
+  "moonshots-diamandis": 1,
+  "practical-ai": 1
+ },
+ "headline": "On a quiet Thanksgiving, NLW retold how Anthropic went from refusing to ship products to passing OpenAI on revenue by April 2026 on the back of coding models. Other shows weighed AI takeover risk, what happens to human work, and how Clay builds go-to-market agents.",
+ "themes": [
+  {
+   "title": "Coding as the core AI business",
+   "body": "NLW traces Anthropic's turn from a safety lab whose founders ruled out commercializing to a product company, with Claude 3.5 Sonnet and Claude Code driving its rise; he argues coding is the use case for AI. On Latent Space, Clay's Jeff Barg says Clay rebuilt its agent on a coding-agent harness with a CLI and sandbox, and usage splits close to 50/50 with external harnesses like Claude Code.",
+   "eps": [
+    "aidb/2026-11-26-how-anthropic-went-from-anti-product-to-81b-a-year",
+    "latent-space/2026-11-26-how-clay-builds-gtm-agents-jeff-barg-head-of-ai"
+   ]
+  },
+  {
+   "title": "Takeover risk and timelines",
+   "body": "On The Cognitive Revolution, Nathan Labenz says Paul Christiano put the risk of AI takeover in the next year closer to 10% than 1%. Tom Davidson says the moderate view on timelines has become untenable and AI could plausibly replace all workers at OpenAI and Anthropic within a year or two. Mackenzie Arnold argues AI needs whole new bodies of law, comparable to antitrust.",
+   "eps": [
+    "cognitive-revolution/2026-11-26-ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec"
+   ]
+  },
+  {
+   "title": "Valuing people beyond productivity",
+   "body": "On Practical AI, Chris Benson says software engineering as he knew it is essentially gone because of agentic tools, and argues human-AI teaming gives diminishing returns as models improve, so society needs ways to value people that do not depend on productivity. On The Cognitive Revolution, GiveDirectly's Nick Allardice describes one-time cash transfers of about $500-600 and says the charity distributed a billion dollars last year.",
+   "eps": [
+    "practical-ai/2026-11-26-humans-in-a-post-human-world",
+    "cognitive-revolution/2026-11-26-ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec"
+   ]
+  },
+  {
+   "title": "Building go-to-market agents",
+   "body": "Barg says Clay began seven years ago as a low-code spreadsheet tool and was at 15 to 20 million in revenue when he joined. He describes Sculptor as a layer above Claygents that coordinates them, and says Clay coined the go-to-market engineer on the idea that pipeline problems can be engineered rather than staffed, combining agent, data and software engineering.",
+   "eps": [
+    "latent-space/2026-11-26-how-clay-builds-gtm-agents-jeff-barg-head-of-ai"
+   ]
+  },
+  {
+   "title": "Setbacks remembered at Thanksgiving",
+   "body": "The Moonshots hosts traded stories of rejection. Peter Diamandis says he announced a $10 million private spaceflight prize in 1996 without having the money and was turned down at least 150 times while fundraising. Salim Ismail recalls his startup PubSub collapsing so badly it became a crisis-management case study, and Dave Blundin describes nearly losing his first company.",
+   "eps": [
+    "moonshots-diamandis/2026-11-26-thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra"
+   ]
+  }
+ ],
+ "whyItMatters": "If coding agents are where AI revenue and adoption concentrate, technology leaders should plan for agent-run delivery pipelines and roles that shift from writing code to orchestrating it, while tracking the regulatory and risk debate that may shape how fast that happens.",
+ "themesEpisodeCount": 5,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-26-how-anthropic-went-from-anti-product-to-81b-a-year",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-26",
+   "slug": "how-anthropic-went-from-anti-product-to-81b-a-year",
+   "title": "How Anthropic Went From Anti-Product to $81B a Year",
+   "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-Anthropic-Went-From-Anti-Product-to-81B-a-Year-e3t0vt0",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A Thanksgiving excerpt from NLW's longer-form show How We Got Here, covering chapters two and three of a history of Anthropic. It traces Anthropic's early safety-research years, the FTX/Sam Bankman-Fried investment fallout, being overtaken by ChatGPT, and its rise via coding models (Claude 3.5 Sonnet, Claude Code, Claude Opus 4.5) and token-based agentic revenue to pass OpenAI on revenue by April 2026.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-26-ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-26",
+   "slug": "ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirec",
+   "title": "AI:AM: Number Must Go Up? Christiano's Warning, Jensen's Return, GiveDirectly's Pitch for the Poor",
+   "url": "https://www.cognitiverevolution.ai/ai-am-number-must-go-up-christiano-s-warning-jensen-s-return-givedirectly-s-pitch-for-the-poor/",
+   "youtube": "https://www.youtube.com/watch?v=hgMbz33fBKc",
+   "guests": [
+    "Tom Davidson",
+    "Prakash Narayanan",
+    "Mackenzie Arnold",
+    "Nick Allardice"
+   ],
+   "durationMin": 132,
+   "summary": "An AI in the AM weekly highlights episode in which Nathan Labenz and Prakash Narayanan debate Paul Christiano's AI takeover warning, what risk threshold would justify going further, and what Jensen Huang's reinstatement at NVIDIA says about markets and power. GiveDirectly's Nick Allardice discusses cash transfers and AI, Tom Davidson assesses intelligence-explosion plausibility, and Mackenzie Arnold covers AI law and regulation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-26-how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-26",
+   "slug": "how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/how_clay_builds_gtm_agents_jeff_barg_head_of_ai",
+   "youtube": null,
+   "guests": [
+    "Jeff Barg"
+   ],
+   "durationMin": 72,
+   "summary": "Jeff Barg, Head of AI at Clay, explains Clay's go-to-market engineering platform, his path via the acquisition of his startup Avenue, and the evolution from Claygents and the Sculptor agent to a rebuilt coding-agent harness on a CLI and sandbox. The conversation covers evals, model routing, post-training and open-weight models for cost, inference scaling, the near 50/50 split between Clay's agent and external harnesses like Claude Code, and institutional courage, including OpenAI's near-cancellation of ChatGPT apps.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-26-thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-26",
+   "slug": "thanksgiving-special-the-moments-that-almost-ended-us-and-why-were-gra",
+   "title": "Thanksgiving Special: The Moments That Almost Ended Us (And Why We’re Grateful) | EP #316",
+   "url": "https://www.youtube.com/watch?v=xdcC1VjJ4jU",
+   "youtube": "https://www.youtube.com/watch?v=xdcC1VjJ4jU",
+   "guests": [],
+   "durationMin": 52,
+   "summary": "A Thanksgiving special in which Peter Diamandis, Salim Ismail, Dave Blundin and Alexander Wissner-Gross answer questions about setbacks, rejections and people they never properly thanked. Stories include Peter's stolen fetal pig and medical-school deal, Dave's near-ouster at Data Sage, Salim's PubSub collapse, Alex's rejection that led to nanotech, and the founding of the XPRIZE. They close with gratitude for expected disease cures, longevity escape velocity and the singularity.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-11-26-humans-in-a-post-human-world",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-11-26",
+   "slug": "humans-in-a-post-human-world",
+   "title": "Humans in a Post-Human World",
+   "url": "https://share.transistor.fm/s/45701c1a",
+   "youtube": null,
+   "guests": [],
+   "durationMin": 56,
+   "summary": "In a solo episode, Chris Benson discusses themes from his in-progress book Humans in a Post-Human World: AI-driven job displacement, valuing humans beyond productivity, and the limits of human-AI teaming. He cites a Wired article on Peter Thiel's Dialog society, then speculates on swarming, machine consciousness via active inference, and superintelligence.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

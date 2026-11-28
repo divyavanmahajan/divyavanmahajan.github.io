@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-19",
+ "episodeCount": 8,
+ "headline": "Anthropic's IPO, priced above its range at $83 a share, framed the day: NLW put it on his list of the ten biggest days in AI history and the Moonshots hosts dwelt on the wealth it creates. Elsewhere the shows turned to how agents are changing software work and why the physical world limits superintelligence.",
+ "themes": [
+  {
+   "title": "Anthropic goes public",
+   "body": "NLW says Anthropic priced its IPO on November 18 at $83 a share, above its $70-78 range, and calls it the biggest IPO in history. On Moonshots, Peter Diamandis cites a $1.4 trillion valuation, an annualized revenue run rate of about $81 billion and demand at five times the shares on offer, while Alexander Wissner-Gross calls for IPO reform so frontier labs list earlier.",
+   "eps": ["aidb/2026-11-19", "moonshots-diamandis/2026-11-19"]
+  },
+  {
+   "title": "Agents reshape software work",
+   "body": "Linear COO Cristina Cordova tells Latent Space that over half of the issues created on Linear now come from agents, and the company has repositioned around agent workflows. Simon Willison tells Turing Post he can build in an hour what once took a week, yet has never worked harder because only hard decisions remain. Scotiabank's Gautham Pallapa calls coding and test writing low-value work that agents now handle.",
+   "eps": ["latent-space/2026-11-19", "turing-post/2026-11-19", "practical-ai/2026-11-19"]
+  },
+  {
+   "title": "Physical limits on superintelligence",
+   "body": "Bob McGrew, former OpenAI chief research officer and now CEO of Arda, tells No Priors that the hard-takeoff argument is wrong because GPUs and wet labs, not researchers, are the bottleneck. Arda works with Anduril on software for manufacturing engineers, aiming to reconfigure an automated line in seven days. On Moonshots, the hosts discuss Starship's first ship catch and xAI and SpaceX data center build speed.",
+   "eps": ["no-priors/2026-11-19", "moonshots-diamandis/2026-11-19"]
+  },
+  {
+   "title": "Nvidia after Jensen Huang",
+   "body": "Diamandis reports $115.8 billion in quarterly revenue at Nvidia, up 103 percent, in its first quarter since Huang resigned, yet the stock fell about 1.5 percent. Dave Blundin argues the CUDA moat will erode within a year as competing inference chips arrive. NLW lists Huang's resignation among the honorable mentions on his list of AI's biggest days.",
+   "eps": ["moonshots-diamandis/2026-11-19", "aidb/2026-11-19"]
+  },
+  {
+   "title": "Adopting AI in a cautious enterprise",
+   "body": "Pallapa tells Practical AI that banking is risk-averse for good reason, but Canada's largest banks are now investing heavily in generative and agentic AI. His value-first framework, from the book Invaluable, keeps people at the centre and treats technology as an accelerator. Willison adds a security note: prompt injection attacks of the kind he calls the lethal trifecta have so far been rare.",
+   "eps": ["practical-ai/2026-11-19", "turing-post/2026-11-19"]
+  }
+ ],
+ "whyItMatters": "When agents create half the tickets in a work-tracking tool and write most routine code, delivery processes, security controls and roles built around human authors need redesigning, while physical capacity, not model quality, sets the pace."
+}

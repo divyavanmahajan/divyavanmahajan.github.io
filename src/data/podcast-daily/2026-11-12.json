@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-12",
+ "month": "2026-11",
+ "weekday": "Thursday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "no-priors": 1
+ },
+ "headline": "Jensen Huang's ouster as Nvidia CEO dominated the day, with NLW arguing it reopens questions on chip export controls, open source and AI financing. No Priors covered a quieter story: Isomorphic Labs' effort to move drug discovery onto computers.",
+ "themes": [
+  {
+   "title": "Jensen Huang leaves Nvidia",
+   "body": "NLW reports Huang is out as Nvidia CEO and leaving the board after reports of an affair with an alleged Chinese spy tied to Megaspeed, a second affair with a direct report, and the general counsel reportedly intervening in a Commerce investigation. The board named Harvey C. Jones chairman and CFO Colette Kress interim CEO. NLW says China hawks will push for tighter export controls.",
+   "eps": [
+    "aidb/2026-11-12-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs"
+   ]
+  },
+  {
+   "title": "AI-driven drug discovery",
+   "body": "Isomorphic Labs president Max Jaderberg tells Elad Gil on No Priors that the company aims to bring drug discovery onto computers, building on AlphaFold. Gil says the cost per drug rose to $1.5 billion while approvals stayed flat. Isomorphic does not license its design engine, using it for its own pipeline and pharma partnerships, and Jaderberg says lab synthesis and testing remain the main bottleneck.",
+   "eps": [
+    "no-priors/2026-11-12-powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma"
+   ]
+  }
+ ],
+ "whyItMatters": "A leadership crisis at the dominant AI chip supplier, combined with possible tighter export controls, is a reminder to treat AI hardware supply and regional compute access as strategic risks with contingency plans.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-12-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-12",
+   "slug": "jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
+   "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
+   "url": "https://www.patreon.com/posts/175151147",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW recaps how Jensen Huang was ousted as Nvidia CEO after reports of an affair with an alleged Chinese spy tied to Megaspeed, a second affair, and Nvidia's intervention in a Commerce investigation. He surveys theories about who benefited, the Lutnick export-control reporting, and implications for open source, China policy, Nvidia, and AI financing.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-11-12-powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-11-12",
+   "slug": "powering-ai-driven-drug-discovery-with-president-of-isomorphic-labs-ma",
+   "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+   "url": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+   "youtube": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+   "guests": [
+    "Max Jaderberg"
+   ],
+   "durationMin": 39,
+   "summary": "Elad Gil interviews Max Jaderberg, president and founding team member of Isomorphic Labs, about moving drug discovery onto computers with predictive AI models. They discuss why pharma productivity has stagnated, AlphaFold as proof of concept, Isomorphic's hiring, data strategy, lab automation, partnerships, replacing animal toxicity testing, multidrug combinations, regulatory risk appetite and longevity.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

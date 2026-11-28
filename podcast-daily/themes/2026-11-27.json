@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-27",
+ "episodeCount": 3,
+ "headline": "NLW asked whether AI has become too big to fail as Senator Adam Schiff prepares a no-AI-bailout resolution after the Nvidia and Jensen Huang affair. Dwarkesh hosted a debate on superintelligence timelines and whether to slow AI, and Latent Space looked inside the market for human training data.",
+ "themes": [
+  {
+   "title": "Is AI too big to fail",
+   "body": "NLW says direct intervention by President Trump and VP JD Vance in the Nvidia affair shows how central AI has become in Washington, and many claim Jensen Huang's return was itself a bailout. Schiff argues in a Wall Street Journal op-ed that no AI company is too big to fail. NLW expects any rescue to look like contracts or soft nationalization, not a repeat of the $443 billion TARP.",
+   "eps": ["aidb/2026-11-27"]
+  },
+  {
+   "title": "Timelines and the case for a pause",
+   "body": "On Dwarkesh, Daniel Kokotajlo puts a software-only singularity above 50 percent likely within three years and argues misaligned AIs will probably be running things in a couple of years unless labs are slowed. Ege Erdil puts it at 10-20 percent, with a 15-20 year median to full automation without recursive self-improvement, and is wary of acting on risks before real costs appear.",
+   "eps": ["dwarkesh/2026-11-27"]
+  },
+  {
+   "title": "Anthropic under public scrutiny",
+   "body": "NLW notes Anthropic, the first model lab to go public, now faces more scrutiny, including over early versus retail investors, and recalls its refusal to allow autonomous weapons control or mass surveillance of Americans. On Dwarkesh, Patel says Anthropic's S-1 shows 70 percent of its compute goes to internal use, and Erdil estimates its annualized revenue at around $90 billion.",
+   "eps": ["aidb/2026-11-27", "dwarkesh/2026-11-27"]
+  },
+  {
+   "title": "Inside the training data market",
+   "body": "G2i CEO Gabe Greenberg tells Latent Space that human data work has moved from thousands of mid-level gig engineers in 2023-24 to staff-level engineers building RL environments. Labs buy without competitive RFPs, he says, and a researcher can spend $10 million in 60 seconds. He says G2i will do about $100 million this year, up from $15 million, and sees growth in robotics, 3D and CAD.",
+   "eps": ["latent-space/2026-11-27"]
+  }
+ ],
+ "whyItMatters": "If governments treat leading AI suppliers as strategic assets and lab revenues keep concentrating, technology leaders should plan for policy-driven supplier risk and keep alternatives open rather than assume today's vendors and terms stay stable."
+}

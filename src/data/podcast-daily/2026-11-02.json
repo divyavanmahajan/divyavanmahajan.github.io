@@ -1,0 +1,72 @@
+{
+ "date": "2026-11-02",
+ "month": "2026-11",
+ "weekday": "Monday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "latent-space": 1
+ },
+ "headline": "Quality of AI-assisted work ran through both shows: on The AI Daily Brief, Nufar laid out how to stop producing AI slop, while Legora CTO Jacob Lauritzen told Latent Space how his legal AI company runs evals without ever seeing its customers' confidential data.",
+ "themes": [
+  {
+   "title": "Fighting AI slop at work",
+   "body": "Nufar defines slop as work where the person who should have done the thinking skipped it, moving the cost to the receiver. The episode cites a Stanford workslop study update finding about 40% of US desk workers received sloppy work in the past month. Nufar's first rule is to know what you think before opening the tool, and she recommends an AI 'board' of distinct personas to review important work.",
+   "eps": [
+    "aidb/2026-11-02-how-to-deslopify-your-ai"
+   ]
+  },
+  {
+   "title": "Building legal agents blind",
+   "body": "Lauritzen says Legora began as ChatGPT with Swedish laws and a search tool and is now an agent platform. Because it cannot look at confidential client traces, its evals team approximates usage. Legora tracks models in a heat map across practice areas and finds releases often improve some tasks while regressing others; one citation problem went from 70% to 99% with a new model alone.",
+   "eps": [
+    "latent-space/2026-11-02-building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto"
+   ]
+  },
+  {
+   "title": "Human judgment as the premium",
+   "body": "Nufar predicts handmade work will become premium, with people paying more for a human fingerprint, and NLW describes how he splits human and AI roles on his new show How We Got Here. Lauritzen makes a related point about workflow design: Legora's Tabular Review runs the first 10 rows first so users can check and iterate before running at scale.",
+   "eps": [
+    "aidb/2026-11-02-how-to-deslopify-your-ai",
+    "latent-space/2026-11-02-building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto"
+   ]
+  }
+ ],
+ "whyItMatters": "Evaluating AI output is now core engineering work: teams need review checkpoints before scaling, per-task model evals that catch regressions, and ways to test against sensitive data they cannot inspect.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-02-how-to-deslopify-your-ai",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-02",
+   "slug": "how-to-deslopify-your-ai",
+   "title": "How to Deslopify Your AI",
+   "url": "https://www.patreon.com/posts/174152356",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "An Operator's Cut episode with guest Nufar on AI slop at work: why models and humans produce it, questions to detect it, and a staged playbook for producing original AI-assisted work. NLW describes how he divides human and AI roles in producing his new show How We Got Here and its companion essays.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-02-building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-02",
+   "slug": "building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto",
+   "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora",
+   "youtube": null,
+   "guests": [
+    "Jacob Lauritzen"
+   ],
+   "durationMin": 67,
+   "summary": "Jacob Lauritzen, CTO of Legora, discusses how the legal AI company evolved from a ChatGPT-with-Swedish-law prototype into an agent platform with Tabular Review, Lists, Intake and a Word add-in. He covers running evals without access to confidential client data, model routing and post-training open-weight models, forward deployed and legal engineers, and how AI may change law firm business models.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

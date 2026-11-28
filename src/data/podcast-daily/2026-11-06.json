@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-06",
+ "month": "2026-11",
+ "weekday": "Friday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "latent-space": 1
+ },
+ "headline": "Menlo Ventures' enterprise AI report, as NLW reads it, shows spending per enterprise up nearly fivefold, driven by agents and token use, even as AI stocks had their worst drawdown since 2020. Latent Space looked at AI models of cell biology.",
+ "themes": [
+  {
+   "title": "Enterprise AI spend climbs",
+   "body": "NLW walks through Menlo Ventures' state of enterprise AI report, which estimates enterprise AI spending rose from $1.7 billion in 2023 to almost $177 billion in 2026, and finds enterprises spent about 2.5 times what they had budgeted this year. Anthropic's share of business API spend rose to 55% from 12%. NLW says AI spend is now about tokens rather than seats.",
+   "eps": [
+    "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now"
+   ]
+  },
+  {
+   "title": "Market doubts around Anthropic",
+   "body": "NLW also reports the worst AI stock drawdown since 2020, driven by hedge fund deleveraging, and doubts about the timing and valuation of Anthropic's IPO. He cites the WSJ putting Anthropic's run rate at $80 billion in October, up from $65 billion in July, and METR's first independent safety report on Anthropic, which showed accelerated progress.",
+   "eps": [
+    "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now"
+   ]
+  },
+  {
+   "title": "Virtual cells as world models",
+   "body": "Fabian Theis of Helmholtz Munich tells Latent Space that virtual cells are often equated with perturbation prediction, which he finds simplistic, and frames such models as world models that take a state plus an action. He argues that data eventually beats human-made concepts, and describes the Computational Health Center he built, with 500 to 600 people, as Europe's largest academic health AI centre.",
+   "eps": [
+    "latent-space/2026-11-06-controlling-biology-fabian-theis-helmholtz-munich"
+   ]
+  }
+ ],
+ "whyItMatters": "If AI spend is shifting from seats to tokens and companies are overshooting budgets by 2.5 times, cost governance, usage metering and vendor concentration belong at the centre of AI planning.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-06-companies-are-spending-5x-more-on-ai-now",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-06",
+   "slug": "companies-are-spending-5x-more-on-ai-now",
+   "title": "Companies Are Spending 5x More on AI Now",
+   "url": "https://www.patreon.com/posts/174584112",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover the worst AI stock drawdown since 2020 driven by hedge fund deleveraging, doubts about Anthropic's IPO timing and valuation, METR's first independent safety report on Anthropic showing accelerated progress, and product updates from Anthropic, Meta and OpenAI. The main episode walks through ten stats from Menlo Ventures' state of enterprise AI report, showing spend up nearly 5x per enterprise driven by agents.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-06-controlling-biology-fabian-theis-helmholtz-munich",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-06",
+   "slug": "controlling-biology-fabian-theis-helmholtz-munich",
+   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/controlling_biology_-_fabian_theis_helmholtz_munich_1",
+   "youtube": null,
+   "guests": [
+    "Fabian Theis"
+   ],
+   "durationMin": 51,
+   "summary": "In a Latent Space AI for Science episode, Fabian Theis of Helmholtz Munich discusses virtual cells as perturbation-prediction world models, scaling single-cell datasets and foundation models, the importance of baselines and metrics, and organoid perturbation data. He also covers Helmholtz's funding model, the German startup ecosystem, the Munich School for Data Science's dual-advisor model, and lab-in-the-loop experimentation with his lab's Lab Compass model.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

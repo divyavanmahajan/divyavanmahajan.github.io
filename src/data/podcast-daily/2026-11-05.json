@@ -1,0 +1,142 @@
+{
+ "date": "2026-11-05",
+ "month": "2026-11",
+ "weekday": "Thursday",
+ "generated": "2026-11-28",
+ "episodeCount": 5,
+ "counts": {
+  "aidb": 1,
+  "cognitive-revolution": 1,
+  "no-priors": 1,
+  "practical-ai": 1,
+  "pragmatic-engineer": 1
+ },
+ "headline": "NLW argued that the post-midterm data center slowdown may suit Big Tech, giving hyperscalers cover to trim capex after all four came in under Q3 spending targets. Other shows covered Robinhood's tokenization push, how organizations govern AI use, scaling lessons from Slack and GitHub, and AI biosecurity.",
+ "themes": [
+  {
+   "title": "A data center slowdown",
+   "body": "NLW argues the post-midterm slowdown may help hyperscalers by giving them cover to trim spending: Google, Meta, Amazon and Microsoft all came in under Q3 capex targets, citing construction delays, and 43 of 44 moratorium-type votes passed. He expects building to continue, but with no NDAs and builders paying infrastructure costs. On No Priors, Vlad Tenev argues data center opponents do not share in AI's economic gains.",
+   "eps": [
+    "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech",
+    "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow"
+   ]
+  },
+  {
+   "title": "Robinhood and tokenized ownership",
+   "body": "Robinhood CEO Vlad Tenev tells Sarah Guo the company's mission is ownership. He describes stock tokens relaunched this year alongside Robinhood Chain, which he claims leads in developer activity, and predicts tokens will become the default way people in countries without strong capital markets buy US equities. He also argues AI-driven discovery, including his math startup Harmonic, should be decentralized rather than owned by labs.",
+   "eps": [
+    "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow"
+   ]
+  },
+  {
+   "title": "Governing AI inside organizations",
+   "body": "At the Midwest AI Summit, Practical AI hears Mark Lay, CIO of Noblis, argue that accountability cannot be delegated to AI, so a person must always answer for outcomes. Don Barger describes an AI charter written before any code that bars AI from posing as human or making final decisions about people. Darren Taillie says putting a data agent into Microsoft Teams drove very high adoption.",
+   "eps": [
+    "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2"
+   ]
+  },
+  {
+   "title": "Scaling lessons from Slack and GitHub",
+   "body": "Maude Lemaire tells The Pragmatic Engineer that GitHub once ran all pull requests and issues on 16 Vitess shards, with the repo homepage needing over 100 MySQL queries, partly because Active Record hid where SQL was issued. At Slack, her team replaced costly headless-Chrome load tests with Koi Pond, small Go processes replaying API calls. She argues load testing needs a product view, not only an engineering one.",
+   "eps": [
+    "pragmatic-engineer/2026-11-05-scaling-slack-and-github-with-maude-lemaire"
+   ]
+  },
+  {
+   "title": "AI and biosecurity",
+   "body": "Nathan Labenz talks with Joshua Monrad of the biosecurity nonprofit Sentinel Bio about AI bio-risk, including wet-lab uplift studies and DNA synthesis screening as a chokepoint. Monrad argues that combining weak signals means know-your-customer checks will become know-your-agent checks, flags unsecured benchtop DNA printers, and discusses pausing AI until resilience standards are met.",
+   "eps": [
+    "cognitive-revolution/2026-11-05-kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s"
+   ]
+  }
+ ],
+ "whyItMatters": "Slower infrastructure build-outs, accountability that stays with named people, and agent monitoring modelled on know-your-customer checks all point to governance and capacity planning, not model choice, as the main constraints on enterprise AI.",
+ "themesEpisodeCount": 5,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-05-why-a-data-center-slowdown-benefits-big-tech",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-05",
+   "slug": "why-a-data-center-slowdown-benefits-big-tech",
+   "title": "Why a Data Center Slowdown Benefits Big Tech",
+   "url": "https://www.patreon.com/posts/174495073",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover ChatGPT reaching 20% of Google's search volume and ads, Meta's Conductor and OpenAI's Pierre acquisitions, Apple cutting internal AI budgets, smaller banks enabling agentic payments, and Isomorphic Labs' fundraise. The main episode argues the post-midterm data center slowdown may benefit hyperscalers by providing cover to trim CapEx, and discusses growing Democratic calls for an AI pause.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-05-kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-05",
+   "slug": "kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-s",
+   "title": "KYC Becomes KYA: Sentinel Bio's Joshua Monrad on DNA Screening, Uplift Studies & Agent Monitoring",
+   "url": "https://www.cognitiverevolution.ai/kyc-becomes-kya-sentinel-bio-s-joshua-monrad-on-dna-screening-uplift-studies-agent-monitoring/",
+   "youtube": "https://www.youtube.com/watch?v=WueUrPQFVaI",
+   "guests": [
+    "Joshua Monrad"
+   ],
+   "durationMin": 105,
+   "summary": "Nathan Labenz talks with Joshua Monrad, co-founder of biosecurity nonprofit Sentinel Bio, about AI bio-risk: wet-lab uplift studies (including a 150-person trial), AI wearing down tacit-knowledge barriers, filtering dangerous training data, DNA synthesis screening as a chokepoint and combining weak signals ('KYC will become KYA'), unsecured benchtop DNA printers, and pausing AI until resilience standards are met.",
+   "summarySource": "digest",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-11-05-tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-11-05",
+   "slug": "tokenization-agentic-trading-harmonic-robinhood-s-mission-to-expand-ow",
+   "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+   "url": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+   "youtube": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+   "guests": [
+    "Vlad Tenev"
+   ],
+   "durationMin": 54,
+   "summary": "Sarah Guo interviews Robinhood co-founder and CEO Vlad Tenev about Robinhood's 'ownership' mission, covering stock tokenization and Robinhood Chain, prediction markets and KPI contracts, agentic trading, Robinhood Ventures funds, accredited-investor rules and Trump accounts. Tenev also discusses his math superintelligence startup Harmonic and its Aristotle model, arguing AI-driven discovery should be decentralized rather than owned by AI labs, and reflects on his childhood in hyperinflationary Bulgaria.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-11-05-abundant-intelligence-at-the-midwest-ai-summit-part-2",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-11-05",
+   "slug": "abundant-intelligence-at-the-midwest-ai-summit-part-2",
+   "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
+   "url": "https://share.transistor.fm/s/1b301bdc",
+   "youtube": "https://www.youtube.com/watch?v=7UTjPnNkf2A",
+   "guests": [
+    "Mark Lay",
+    "Darren Taillie",
+    "Don Barger"
+   ],
+   "durationMin": 48,
+   "summary": "Three more Midwest AI Summit talks: Don Barger of the International Mission Board on drafting an AI charter defining what AI will and won't do, including the Faithbot chatbot; Mark Lay, CIO of Noblis, on four organizational AI decisions spanning delegation, accountability and technical debt; and Darren Taillie of AeroCore Technologies on deploying a text-to-SQL agent in Teams and a vision model for jet engine wash work order verification.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-11-05-scaling-slack-and-github-with-maude-lemaire",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-11-05",
+   "slug": "scaling-slack-and-github-with-maude-lemaire",
+   "title": "Scaling Slack and GitHub with Maude Lemaire",
+   "url": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+   "youtube": "https://www.youtube.com/watch?v=x6WqD4qHxSc",
+   "guests": [
+    "Maude Lemaire"
+   ],
+   "durationMin": 79,
+   "summary": "Principal engineer Maude Lemaire, author of Refactoring at Scale, recounts scaling Slack for enterprise customers (channel-table migration, thundering herds, event floods, the Koi Pond load tester) and GitHub's database challenges (16 shards, scatter queries, Active Record in the Rails monolith). She also describes improving time to first token at Cursor, how she uses and verifies LLM output, and why platform and product engineers should rotate.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

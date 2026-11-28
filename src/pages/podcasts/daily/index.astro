@@ -1,0 +1,97 @@
+---
+// Index of the daily cross-show podcast summaries (IBM Carbon style), newest first, by month.
+import WideLayout from "../../../layouts/WideLayout.astro";
+import { getDailies, dayLabel } from "../../../lib/podcast-daily";
+import { getDigests, monthLabel, SHOW_ORDER, SHOW_SHORT } from "../../../lib/podcast-digests";
+
+const days = getDailies();
+const base = import.meta.env.BASE_URL;
+const months = [...new Set(days.map((d) => d.month))];
+const digests = new Set(getDigests().map((g) => g.period));
+const total = days.reduce((n, d) => n + d.episodeCount, 0);
+const rank = (s: string) => { const i = SHOW_ORDER.indexOf(s); return i < 0 ? 99 : i; };
+---
+
+<WideLayout title="Podcast daily" description="A daily cross-show summary of the AI podcasts I follow: what mattered that day, themes, why it matters and every episode with links.">
+<div class="ibm">
+    <header class="masthead">
+        <a class="brand" href={`${base}podcasts/daily/`}>Podcast Daily <span>· all days</span></a>
+        <nav>
+            <a href={`${base}podcasts/`}>All podcasts</a>
+            <a href={`${base}podcasts/digest/`}>Monthly digest</a>
+            <a href={`${base}podcasts/topics/`}>Topics</a>
+            <a href={`${base}podcasts/daily/rss.xml`}>RSS</a>
+        </nav>
+    </header>
+    <div class="wrap hero">
+        <div class="eyebrow mono">{days.length} days · {total} episodes · all shows</div>
+        <h1>Daily podcast summary</h1>
+        <p class="lede">
+            One page per day across every show I follow, The AI Daily Brief included: what mattered that day, a few cross-show
+            themes, one line on why it matters for enterprise architects, and every episode with a short summary and links.
+            For the longer view, see the <a href={`${base}podcasts/digest/`}>monthly digest</a>.
+        </p>
+    </div>
+    {months.map((m) => (
+        <section class="alt">
+            <div class="wrap">
+                <div class="month-h">
+                    <h2>{monthLabel(m)}</h2>
+                    {digests.has(m) && <a href={`${base}podcasts/digest/${m}/`}>Monthly digest →</a>}
+                </div>
+                <div class="list">
+                    {days.filter((d) => d.month === m).map((d) => (
+                        <a class="row" href={`${base}podcasts/daily/${d.date}/`}>
+                            <div class="date mono"><b>{Number(d.date.slice(8, 10))}</b>{dayLabel(d.date, { weekday: "short", month: "short" })}</div>
+                            <div>
+                                <p class="headline">{d.headline}</p>
+                                <div class="meta mono">
+                                    {d.episodeCount} episode{d.episodeCount === 1 ? "" : "s"} · {Object.keys(d.counts).sort((a, b) => rank(a) - rank(b)).map((s) => SHOW_SHORT[s] ?? s).join(" · ")}
+                                </div>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
+    ))}
+</div>
+</WideLayout>
+
+<style>
+    .ibm { font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #161616; background: #fff; line-height: 1.5; letter-spacing: 0; }
+    .ibm :is(h1, h2, h3) { font-family: 'IBM Plex Sans', system-ui, sans-serif; letter-spacing: 0; color: #161616; margin: 0; }
+    .ibm a { text-decoration: none; color: #0f62fe; }
+    .mono { font-family: 'IBM Plex Mono', ui-monospace, Menlo, monospace; }
+    .masthead { position: sticky; top: 0; z-index: 10; height: 48px; background: #161616; display: flex; align-items: center; padding: 0 16px; gap: 32px; }
+    .ibm .masthead .brand { color: #fff; font-size: 14px; font-weight: 600; letter-spacing: .16px; white-space: nowrap; }
+    .masthead .brand span { font-weight: 400; color: #c6c6c6; }
+    .masthead nav { display: flex; height: 48px; overflow-x: auto; scrollbar-width: none; }
+    .ibm .masthead nav a { color: #c6c6c6; font-size: 14px; letter-spacing: .16px; padding: 0 16px; display: flex; align-items: center; white-space: nowrap; }
+    .ibm .masthead nav a:hover { color: #fff; background: #262626; }
+    .wrap { max-width: 1584px; margin: 0 auto; padding: 0 32px; }
+    .hero { padding-top: 48px; padding-bottom: 48px; }
+    .eyebrow { font-size: 12px; letter-spacing: .32px; color: #525252; text-transform: uppercase; margin-bottom: 16px; }
+    .ibm h1 { font-size: 60px; line-height: 1.17; font-weight: 300; }
+    .lede { font-size: 20px; line-height: 1.4; font-weight: 300; color: #525252; max-width: 960px; margin: 24px 0 0; }
+    .ibm section.alt { background: #f4f4f4; padding: 48px 0; }
+    .ibm section.alt + section.alt { padding-top: 0; }
+    .month-h { display: flex; align-items: baseline; gap: 24px; margin-bottom: 24px; flex-wrap: wrap; }
+    .ibm h2 { font-size: 32px; line-height: 1.25; font-weight: 400; }
+    .month-h a { font-size: 14px; letter-spacing: .16px; }
+    .list { display: flex; flex-direction: column; gap: 1px; background: #e0e0e0; border: 1px solid #e0e0e0; }
+    .ibm .row { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 24px; background: #fff; padding: 20px 24px; color: #161616; }
+    .ibm .row:hover { background: #e8e8e8; }
+    .date { font-size: 14px; letter-spacing: .16px; color: #525252; }
+    .date b { display: block; font-weight: 300; font-size: 32px; line-height: 1.1; color: #0f62fe; }
+    .headline { font-size: 16px; line-height: 1.5; color: #161616; margin: 0; max-width: 1100px; }
+    .meta { font-size: 12px; color: #6f6f6f; letter-spacing: .32px; margin-top: 8px; }
+    @media (max-width: 1056px) { .ibm h1 { font-size: 42px; line-height: 1.19; } }
+    @media (max-width: 672px) {
+        .wrap { padding: 0 16px; }
+        .ibm h1 { font-size: 32px; line-height: 1.25; }
+        .masthead .brand span { display: none; }
+        .ibm .row { grid-template-columns: minmax(0, 1fr); gap: 4px; padding: 16px; }
+        .date b { display: inline; font-size: 18px; margin-right: 8px; }
+    }
+</style>

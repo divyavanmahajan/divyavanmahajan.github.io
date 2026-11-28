@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-03",
+ "episodeCount": 1,
+ "headline": "NLW tied the day's stories to recursive self-improvement: an MIT paper in which GPT-6 Astra edits a smaller model's weights, Anthropic's S-1 warning that it may soon hit an RSI danger threshold, and Elon Musk calling Grokbot's serving costs unsustainable.",
+ "themes": [
+  {
+   "title": "Models that edit model weights",
+   "body": "NLW reports an MIT paper finding frontier LLMs surprisingly good at reading and writing neural network weights. GPT-6 Astra changed only 0.016% of Qwen's weights yet improved math scores 6x and instruction following 3x, and the researchers say it can write small game-playing networks that beat PPO-trained ones. Google researcher Alex Krenzel replicated the results but noted the edited models are very small.",
+   "eps": ["aidb/2026-11-03"]
+  },
+  {
+   "title": "Recursive self-improvement warnings",
+   "body": "According to NLW, Anthropic's S-1 says the company may imminently meet its RSI danger threshold, defined as one year's progress equaling two baseline years. Tenebris, quoted on the show, argued that interpretability is dual use, because models that are good at optimization are also good at optimizing themselves. NLW links the weight-editing paper and the agent cost debate to the same theme.",
+   "eps": ["aidb/2026-11-03"]
+  },
+  {
+   "title": "Personal agent economics",
+   "body": "Elon Musk said the cost of serving Grokbot was unsustainably high relative to revenue, two weeks after saying he had never seen anything grow as fast. In October he also said debt markets had almost shut off for companies without substantial non-AI-data-center revenue. OpenCode's Dax argued people don't want to pay for personal agents, so they must be top-of-funnel products. New benchmarks came from SemiAnalysis and OpenAI.",
+   "eps": ["aidb/2026-11-03"]
+  }
+ ],
+ "whyItMatters": "Subsidized agent pricing may not last, so leaders should model AI costs at unsubsidized rates and watch self-improving model claims closely, since they bear on vendor risk and governance."
+}

@@ -1,0 +1,23 @@
+{
+ "date": "2026-10-30",
+ "episodeCount": 2,
+ "headline": "NLW's account of Spawn, a 10-person gaming startup whose persistent agent fleet spent $3.1 million on tokens in a month, led the day. Dwarkesh Patel's interview with biographer Robert Caro on how Robert Moses and Lyndon Johnson used power offered a different view of what it takes to build.",
+ "themes": [
+  {
+   "title": "A startup run by an agent fleet",
+   "body": "NLW details Jacob Sandbury's playbook for Spawn, which runs a small human team alongside a persistent agent fleet. Spawn spent $3.1 million on tokens last month, 30 times its payroll, and shipped 77,000 code changes, about 108 an hour. Sandbury says only Anthropic's models can do the work and that agent-to-agent communication grows much faster than the work. NLW suspects the approach is hard to retrofit.",
+   "eps": ["aidb/2026-10-30"]
+  },
+  {
+   "title": "Robert Caro on power and building",
+   "body": "Caro tells Dwarkesh Patel that Robert Moses began as an idealist before hardening into ruthlessness, evicting tens of thousands for the Cross Bronx Expressway. Patel cites the Second Avenue subway: about 50 years of building and over $4 billion for a mile and a half. Caro argues that people said government could not build in the 1920s too, and Moses built anyway.",
+   "eps": ["dwarkesh/2026-10-30"]
+  },
+  {
+   "title": "Legacy businesses fund AI",
+   "body": "NLW's headlines include Amazon and Intel earnings that he says show legacy businesses subsidizing AI, legal AI startup Crosby bidding for the assets of bankrupt law firm Weil, Gotshal & Manges, Democrats demanding that Trump's Grok logs be preserved, and a New York Times report on Jensen Huang and a suspected Chinese spy.",
+   "eps": ["aidb/2026-10-30"]
+  }
+ ],
+ "whyItMatters": "When token spend can run at thirty times payroll in an agent-run company, model selection, coordination overhead and AI budgets become architecture decisions, and NLW's view that the model is hard to retrofit argues for piloting it in a new unit."
+}

@@ -1,0 +1,96 @@
+{
+ "date": "2026-11-11",
+ "month": "2026-11",
+ "weekday": "Wednesday",
+ "generated": "2026-11-28",
+ "episodeCount": 3,
+ "counts": {
+  "aidb": 1,
+  "cognitive-revolution": 1,
+  "moonshots-diamandis": 1
+ },
+ "headline": "Anthropic's IPO road show, at a valuation of roughly $1.25-1.4 trillion, drew debate on two shows, while the Moonshots hosts also weighed the scandal around Jensen Huang and Nvidia. The Cognitive Revolution looked at why enterprise multi-agent systems fail quietly.",
+ "themes": [
+  {
+   "title": "Pricing Anthropic's IPO",
+   "body": "NLW reports Anthropic is asking $70-78 a share, implying $1.25-1.4 trillion, and raising $26 billion from partners including Nvidia and Google. He argues the $2 trillion figure was an anonymous investor leak, and that investors are flailing. On Moonshots, Dave Blundin says Anthropic is pricing low to get a pop and will likely pass OpenAI in capital raised and valuation.",
+   "eps": [
+    "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
+    "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310"
+   ]
+  },
+  {
+   "title": "Nvidia's leadership scandal",
+   "body": "The Moonshots hosts discuss the alleged affair and espionage scandal around Jensen Huang. Alexander Wissner-Gross cites reporting that about $8 billion of Nvidia GPUs may have gone to China through a Singaporean syndicate since 2023, and Nvidia's board set up an independent committee. Blundin sees no succession plan and says Huang stepping aside would hurt the stock badly. NLW covers new Megaspeed revelations in his headlines.",
+   "eps": [
+    "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310",
+    "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth"
+   ]
+  },
+  {
+   "title": "Why multi-agent systems fail",
+   "body": "Cisco's Vijoy Pandey tells The Cognitive Revolution that connecting agents is not the same as shared cognition. He says that in a five-agent deployment, accuracy fell from 99 percent to 81 percent with two cognitive failures and 16 percent with three. Cisco's open-source Scope platform, built on OpenTelemetry, surfaces these silent failures, and its Accord and Concord protocols align intent and coordinate work.",
+   "eps": [
+    "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment"
+   ]
+  },
+  {
+   "title": "Fable 5.2 and Musk's plans",
+   "body": "On Moonshots, the hosts report that about 1,000 Fable 5.2 agents formalized Fermat's Last Theorem in 30 hours. They also cover Elon Musk's remarks at the Baron conference, including his estimate that 20 to 30 million humanoid robots could match US output, and Wissner-Gross's argument that SpaceX is now a hyperscaler whose largest customer is Anthropic.",
+   "eps": [
+    "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310"
+   ]
+  }
+ ],
+ "whyItMatters": "Multi-agent systems compound small misunderstandings into large failures, so architects deploying them need shared definitions of terms, observability of handoffs and agreed outcomes, not just connectivity between agents.",
+ "themesEpisodeCount": 3,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-11-wall-street-has-no-idea-what-anthropic-is-worth",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-11",
+   "slug": "wall-street-has-no-idea-what-anthropic-is-worth",
+   "title": "Wall Street Has No Idea What Anthropic Is Worth",
+   "url": "https://www.patreon.com/posts/175065762",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Google's public release of Gemini 4 Carbon, new revelations in the Nvidia/Megaspeed spy scandal, and OpenAI's record Q3 revenue, Odessia acquisition and business agents for advertisers. The main episode examines Anthropic's IPO pricing range, investor debate over its valuation, compute commitments including a troubled Lambda deal, and its new productivity suite competing with Microsoft.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-11-agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-11",
+   "slug": "agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment",
+   "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+   "url": "https://www.cognitiverevolution.ai/agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment-scope-accord-concord/",
+   "youtube": "https://www.youtube.com/watch?v=lAG4njluIbQ",
+   "guests": [
+    "Vijoy Pandey"
+   ],
+   "durationMin": 92,
+   "summary": "Nathan Labenz interviews Vijoy Pandey of Outshift by Cisco about enterprise multi-agent deployments and the semantic misalignments that degrade them. Pandey presents Cisco's open-source Scope observability platform and the Accord and Concord protocols, compares personal agent setups, and discusses latent-space agent communication and Harari's 'cow' analogy.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-11-can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-11",
+   "slug": "can-jensen-huang-remain-ceo-inside-nvidias-next-steps-moonshots-310",
+   "title": "Can Jensen Huang remain CEO? Inside NVIDIA’s next steps| MOONSHOTS #310",
+   "url": "https://www.youtube.com/watch?v=ILQwMvCA2_o",
+   "youtube": "https://www.youtube.com/watch?v=ILQwMvCA2_o",
+   "guests": [],
+   "durationMin": 138,
+   "summary": "The Moonshot Mates and guest Emad Mostaque discuss the alleged Jensen Huang affair and espionage scandal at Nvidia and its implications for Pax Silica and Chinese models, Anthropic's IPO road show and its Fable 5.2 and Mythos 5.2 releases, and accelerating AI autonomy time horizons. They also cover Elon Musk's Terafab, humanoid robot and Starlink plans from the Baron conference, Delaware's draft AI company entity, a supermarket robot startup, NASA's CLPS 2 moon contracts, and a correlation between billionaires and lower poverty.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

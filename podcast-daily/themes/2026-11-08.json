@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-08",
+ "episodeCount": 2,
+ "headline": "NLW argued that Opus 5.5 does for video editing what Opus 4.5 did for agentic coding, while Stanford's Mihail Eric told Latent Space that none of his students really type code by hand anymore.",
+ "themes": [
+  {
+   "title": "Agentic video editing arrives",
+   "body": "On an Operator's Cut, NLW says people are discovering that Opus 5.5 is a subtle but significant step change in video editing. He lists eight changes behind agentic video, starting with editing becoming a plain-English conversation, and argues the underestimated one is AI's ability to watch footage. He offers six criteria for when video beats other formats and three levels for getting started, up to self-updating video pipelines.",
+   "eps": ["aidb/2026-11-08"]
+  },
+  {
+   "title": "Teaching AI-native engineering",
+   "body": "Mihail Eric tells Latent Space that his Stanford course CS146S now has students contribute to open source projects reviewed by maintainers, since last year's assignments were easily one-shot. He says the hiring floor is now near senior level, and that few people in industry get past vanilla prompting. At Monaco, a Series B sales platform where he leads AI, the team built its own agentic harness.",
+   "eps": ["latent-space/2026-11-08"]
+  }
+ ],
+ "whyItMatters": "As agents take over hands-on coding and now video editing, organisations need to rethink entry-level roles, training and review practices, and decide where to build their own agent harnesses versus buying tools."
+}

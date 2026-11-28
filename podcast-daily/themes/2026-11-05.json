@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-05",
+ "episodeCount": 5,
+ "headline": "NLW argued that the post-midterm data center slowdown may suit Big Tech, giving hyperscalers cover to trim capex after all four came in under Q3 spending targets. Other shows covered Robinhood's tokenization push, how organizations govern AI use, scaling lessons from Slack and GitHub, and AI biosecurity.",
+ "themes": [
+  {
+   "title": "A data center slowdown",
+   "body": "NLW argues the post-midterm slowdown may help hyperscalers by giving them cover to trim spending: Google, Meta, Amazon and Microsoft all came in under Q3 capex targets, citing construction delays, and 43 of 44 moratorium-type votes passed. He expects building to continue, but with no NDAs and builders paying infrastructure costs. On No Priors, Vlad Tenev argues data center opponents do not share in AI's economic gains.",
+   "eps": ["aidb/2026-11-05", "no-priors/2026-11-05"]
+  },
+  {
+   "title": "Robinhood and tokenized ownership",
+   "body": "Robinhood CEO Vlad Tenev tells Sarah Guo the company's mission is ownership. He describes stock tokens relaunched this year alongside Robinhood Chain, which he claims leads in developer activity, and predicts tokens will become the default way people in countries without strong capital markets buy US equities. He also argues AI-driven discovery, including his math startup Harmonic, should be decentralized rather than owned by labs.",
+   "eps": ["no-priors/2026-11-05"]
+  },
+  {
+   "title": "Governing AI inside organizations",
+   "body": "At the Midwest AI Summit, Practical AI hears Mark Lay, CIO of Noblis, argue that accountability cannot be delegated to AI, so a person must always answer for outcomes. Don Barger describes an AI charter written before any code that bars AI from posing as human or making final decisions about people. Darren Taillie says putting a data agent into Microsoft Teams drove very high adoption.",
+   "eps": ["practical-ai/2026-11-05"]
+  },
+  {
+   "title": "Scaling lessons from Slack and GitHub",
+   "body": "Maude Lemaire tells The Pragmatic Engineer that GitHub once ran all pull requests and issues on 16 Vitess shards, with the repo homepage needing over 100 MySQL queries, partly because Active Record hid where SQL was issued. At Slack, her team replaced costly headless-Chrome load tests with Koi Pond, small Go processes replaying API calls. She argues load testing needs a product view, not only an engineering one.",
+   "eps": ["pragmatic-engineer/2026-11-05"]
+  },
+  {
+   "title": "AI and biosecurity",
+   "body": "Nathan Labenz talks with Joshua Monrad of the biosecurity nonprofit Sentinel Bio about AI bio-risk, including wet-lab uplift studies and DNA synthesis screening as a chokepoint. Monrad argues that combining weak signals means know-your-customer checks will become know-your-agent checks, flags unsecured benchtop DNA printers, and discusses pausing AI until resilience standards are met.",
+   "eps": ["cognitive-revolution/2026-11-05"]
+  }
+ ],
+ "whyItMatters": "Slower infrastructure build-outs, accountability that stays with named people, and agent monitoring modelled on know-your-customer checks all point to governance and capacity planning, not model choice, as the main constraints on enterprise AI."
+}

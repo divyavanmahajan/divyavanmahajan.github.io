@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-07",
+ "episodeCount": 2,
+ "headline": "A METR report on AI-accelerated R&D at Anthropic led both shows, read as a sign of recursive self-improvement ahead of the company's IPO. Moonshots also tied the Democratic midterm sweep to a backlash against data centers, while The Cognitive Revolution looked at election-forecasting agents and the GPU server market.",
+ "themes": [
+  {
+   "title": "AI speeding up AI research",
+   "body": "Nathan Labenz says Anthropic's amended S-1 states it may soon meet its threshold for dramatically accelerated progress attributable to AI, and credits the filing for admitting it cannot do fully automated AI R&D safely. On Moonshots, Alexander Wissner-Gross argues software-only gains could now carry progress without new data centers, and Dave Blundin recalls Anthropic's internal token use rising 235x in six months.",
+   "eps": ["cognitive-revolution/2026-11-07", "moonshots-diamandis/2026-11-07"]
+  },
+  {
+   "title": "Politics turns on data centers",
+   "body": "Salim Ismail cites 56% opposition to Big Tech and data centers after the Democratic midterm sweep, and a Goldman Sachs estimate that 45% of planned US build-out could face restrictions. Dave Blundin says he has never seen a technical topic dominate an election like this, but doubts Anthropic will delay its IPO. Prakash Narayanan reads the quick IPO as a push to widen exposure to the company.",
+   "eps": ["moonshots-diamandis/2026-11-07", "cognitive-revolution/2026-11-07"]
+  },
+  {
+   "title": "Compute scarcity and GPU trading",
+   "body": "Mike San Miguel tells The Cognitive Revolution that B300 eight-GPU nodes trade for about $550,000 to $650,000 depending on specs and warranty. He says the bottleneck is now liquid cooling and data center readiness, with some sites quoting Q3 2027 or 2028. The Moonshots hosts also discuss compute scarcity and a benchmark linking joules to GDP.",
+   "eps": ["cognitive-revolution/2026-11-07", "moonshots-diamandis/2026-11-07"]
+  },
+  {
+   "title": "Agents forecasting and investing",
+   "body": "Brian Zhou says BallotBench gave nine agents, the best from each lab, a sandbox, seven days and $500 each to forecast the election, and they performed about as well as the best human forecasters. Bryan Bischof says Theory Ventures runs thousands of agents, and that builders moved to closed models because fast releases make pinning production to open-source models more work.",
+   "eps": ["cognitive-revolution/2026-11-07"]
+  }
+ ],
+ "whyItMatters": "If AI labs report AI speeding up their own research while local politics restricts data center build-out, technology leaders should expect fast model turnover and constrained compute, and plan for switching models and securing capacity early."
+}

@@ -3,6 +3,7 @@
 // (scripts/podcast-digest.mjs). Only months with themes are built.
 import WideLayout from "../../../layouts/WideLayout.astro";
 import { getDigests, internalLinks, internalHref, monthLabel, SHOW_ORDER, SHOW_SHORT, type Digest } from "../../../lib/podcast-digests";
+import { getDailies } from "../../../lib/podcast-daily";
 
 export async function getStaticPaths() {
     const all = getDigests();
@@ -25,6 +26,7 @@ const dayParts = (iso: string) => { const t = new Date(iso + "T00:00:00Z"); retu
 const label = monthLabel(d.period);
 const lastEp = d.episodes.reduce((m, e) => (e.date > m ? e.date : m), d.start);
 const notesCount = d.episodes.filter((e) => e.summarySource === "show-notes").length;
+const dailies = getDailies().filter((x) => x.month === d.period).reverse();
 ---
 
 <WideLayout title={`Podcast digest: ${label}`} description={d.headline ?? `What the AI podcasts covered in ${label}`}>
@@ -35,6 +37,7 @@ const notesCount = d.episodes.filter((e) => e.summarySource === "show-notes").le
             <a href="#themes">Themes</a>
             {shows.map((s) => <a href={`#show-${s}`}>{short(s)}</a>)}
             {d.implications.length > 0 && <a href="#implications">Implications</a>}
+            {dailies.length > 0 && <a href="#daily">Daily</a>}
         </nav>
     </header>
 
@@ -131,6 +134,23 @@ const notesCount = d.episodes.filter((e) => e.summarySource === "show-notes").le
         </section>
     )}
 
+    {dailies.length > 0 && (
+        <section class="alt" id="daily">
+            <div class="wrap">
+                <h2>Day by day</h2>
+                <p class="sub">The <a href={`${base}podcasts/daily/`}>daily summaries</a> for {label}: what mattered each day across the shows.</p>
+                <div class="days">
+                    {dailies.map((x) => (
+                        <a class="day" href={`${base}podcasts/daily/${x.date}/`} title={x.headline ?? ""}>
+                            <b>{Number(x.date.slice(8, 10))}</b>
+                            <span class="mono">{x.weekday.slice(0, 3)} · {x.episodeCount} ep</span>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
+    )}
+
     <footer class="wrap foot">
         Generated {d.generated} from episode summaries of {shows.length} shows
         {notesCount > 0 && <> ({notesCount} episode{notesCount === 1 ? "" : "s"} summarised from the publisher's show notes)</>}.
@@ -220,6 +240,11 @@ const notesCount = d.episodes.filter((e) => e.summarySource === "show-notes").le
     .dark li { counter-increment: v; background: #262626; padding: 24px; font-size: 14px; line-height: 1.43; letter-spacing: .16px; color: #c6c6c6; }
     .dark li::before { content: counter(v, decimal-leading-zero); display: block; font-family: 'IBM Plex Mono', monospace; color: #78a9ff; font-size: 14px; margin-bottom: 8px; }
     .foot { padding-top: 32px; padding-bottom: 48px; font-size: 12px; letter-spacing: .32px; color: var(--cds-text-helper); }
+    .days { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 1px; background: var(--cds-layer-02); border: 1px solid var(--cds-layer-02); }
+    .ibm .day { background: #fff; padding: 12px 16px; display: flex; flex-direction: column; color: var(--cds-text-primary); }
+    .ibm .day:hover { background: var(--cds-layer-hover); text-decoration: none; }
+    .day b { font-size: 28px; font-weight: 300; line-height: 1.2; color: var(--cds-link); }
+    .day span { font-size: 12px; letter-spacing: .32px; color: var(--cds-text-secondary); }
     @media (max-width: 1056px) { .ibm h1 { font-size: 42px; line-height: 1.19; } }
     @media (max-width: 672px) {
         .wrap { padding: 0 16px; }

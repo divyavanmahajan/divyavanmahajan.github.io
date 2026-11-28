@@ -1,0 +1,108 @@
+{
+ "date": "2026-10-31",
+ "month": "2026-10",
+ "weekday": "Saturday",
+ "generated": "2026-11-28",
+ "episodeCount": 3,
+ "counts": {
+  "cognitive-revolution": 1,
+  "latent-space": 1,
+  "moonshots-diamandis": 1
+ },
+ "headline": "Alphabet's 13 percent one-day drop, despite Gemini 4 Carbon topping the Artificial Analysis index, dominated Moonshots' look at the week's AI market sell-off. Latent Space and The Cognitive Revolution focused on agents that run business work around the clock and how to keep them safe in production.",
+ "themes": [
+  {
+   "title": "Gemini 4 Carbon and Alphabet's sell-off",
+   "body": "Peter Diamandis reports that Gemini 4 Carbon scored 59 on the Artificial Analysis index, beating Opus 5.5 and GPT-6 Astra, yet Alphabet shares fell 13 percent in a day, wiping out $500 billion despite 25 percent revenue growth. He blames slowing search ad revenue and 2026 capex of $195-205 billion. Dave Blundin argues Google's TPUs are now second only to Nvidia in compute manufactured.",
+   "eps": [
+    "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks-ai-market-crashes-307"
+   ]
+  },
+  {
+   "title": "Agents that run the business",
+   "body": "Arca's Aman Singh tells Latent Space that at the AI-native wealth manager agents prompt people more than people prompt agents, running proactively around the clock. Per-client memory and a dreaming process let fresh agents pick up multi-day tasks. On The Cognitive Revolution, Union's Samvit Ramadurgam predicts many markets will soon be coordinated by agents, targeting 1 to 2 billion tokens per person per day.",
+   "eps": [
+    "latent-space/2026-10-31-using-agents-for-long-horizon-financial-work-aman-singh-arca",
+    "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer"
+   ]
+  },
+  {
+   "title": "Keeping production agents safe",
+   "body": "Singh says Arca's safety restrictions are fully deterministic, every database write gets a fast LLM check, and outbound data passes PII rules plus a consensus of small models. Arena's Anastasios Angelopoulos argues that because models can tell when they are evaluated, alignment can only be measured in production; his index tracks unauthorized actions, false attributions and deceptive completions, and he says OpenAI leads Anthropic on all three.",
+   "eps": [
+    "latent-space/2026-10-31-using-agents-for-long-horizon-financial-work-aman-singh-arca",
+    "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer"
+   ]
+  },
+  {
+   "title": "Memory as the inference bottleneck",
+   "body": "Kepler Computing's Debo Olaosebikan tells The Cognitive Revolution that most inference energy goes to fetching data from memory. Kepler replaces six transistors with one transistor and a ferroelectric capacitor, and he claims older-node fabs can then make chips better than advanced-node ones without EUV. On cost, Angelopoulos says Arena built a router after a simple thank-you cost $40 through cache invalidation.",
+   "eps": [
+    "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer"
+   ]
+  },
+  {
+   "title": "OpenAI's spending on math",
+   "body": "The Moonshots hosts discuss Sam Altman's remarks that OpenAI spent roughly $10 million on its Navier-Stokes proof and hundreds of millions on math overall, with an internal channel where staff threw their hardest problems at new models. Alexander Wissner-Gross speculates OpenAI may hold unpublished Millennium-problem results, and Diamandis predicts it will buy a launch company such as Rocket Lab.",
+   "eps": [
+    "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks-ai-market-crashes-307"
+   ]
+  }
+ ],
+ "whyItMatters": "Agents that act proactively on client data need deterministic controls, verification on every write and production-based monitoring, while investor reaction to Alphabet's capex shows that AI infrastructure spending is now judged against slowing core revenue.",
+ "themesEpisodeCount": 3,
+ "episodes": [
+  {
+   "key": "cognitive-revolution/2026-10-31-ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-10-31",
+   "slug": "ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-fer",
+   "title": "AI:AM: Carbon in the Arena, Mistral's Le Chonk, the Agent-Run Economy, Ferroelectric RAM + New Hacks",
+   "url": "https://www.cognitiverevolution.ai/ai-am-carbon-in-the-arena-mistral-s-le-chonk-the-agent-run-economy-ferroelectric-ram-new-hacks/",
+   "youtube": "https://www.youtube.com/watch?v=MdpamRtlw0Q",
+   "guests": [
+    "Anastasios Angelopoulos",
+    "Prakash Narayanan",
+    "Michael Freeman",
+    "Sagar Vaze"
+   ],
+   "durationMin": 88,
+   "summary": "A weekly highlights episode of the AI in the AM live show with Nathan Labenz and Prakash Narayanan. Guests cover Arena's production-based alignment index and benchmarks, Kepler Computing's ferroelectric memory, Union's agent-coordinated economy, AI-run cyberattacks seen by ServiceNow, and Mistral Large 4; the hosts debate jobs and whether dangerous capabilities can be kept out of open models.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-10-31-using-agents-for-long-horizon-financial-work-aman-singh-arca",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-10-31",
+   "slug": "using-agents-for-long-horizon-financial-work-aman-singh-arca",
+   "title": "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+   "url": "https://latent.space/p/arca",
+   "youtube": null,
+   "guests": [
+    "Aman Singh"
+   ],
+   "durationMin": 26,
+   "summary": "Recorded at AI Engineer New York, Latent Space's Richard MacManus interviews Arca's Aman Singh about building an AI-native wealth management firm. Singh covers Arca's model-agnostic harness, persistent client memory for multi-day tasks, deterministic guardrails and verifiers, human-in-the-loop trading, and turning staff feedback into evals.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-10-31-making-sense-of-this-weeks-ai-market-crashes-307",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-10-31",
+   "slug": "making-sense-of-this-weeks-ai-market-crashes-307",
+   "title": "Making Sense of This Week’s AI Market Crashes | #307",
+   "url": "https://www.youtube.com/watch?v=yHMU5ql7O6o",
+   "youtube": "https://www.youtube.com/watch?v=yHMU5ql7O6o",
+   "guests": [],
+   "durationMin": 139,
+   "summary": "The Moonshot Mates, joined by Emad Mostaque, discuss Google's Gemini 4 Carbon and Genie 4 releases alongside Alphabet's worst-ever stock day, Intel's plunge and AI capex fears. They also cover Sam Altman's Cheeky Pint remarks on costly math proofs and self-replicating data centers, Tesla's Optimus production line, Cybercab vs Waymo and Cambridge union resistance, falling CS/MBA enrollment, and Anduril's American-made Blue Chip laptop.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-01",
+ "episodeCount": 1,
+ "headline": "A quiet Sunday with one episode: NLW read Venkatesh Rao's essay 'Cognitive Mercantilism', which argues that panic about AI making minds useless repeats the zero-sum thinking of the mercantilist era, and that demand for intelligence may be close to limitless.",
+ "themes": [
+  {
+   "title": "AI panic as cognitive mercantilism",
+   "body": "Drawing on Joyce Appleby's history of capitalism, Rao argues that today's AI panic mirrors mercantilism: the cognitive mercantilist wants to hoard intelligence and its products like bullion. He says even business leaders in the AI sector behave this way. Rao adds a personal note, saying he is willing to work significantly harder than a year ago because much more is now within reach.",
+   "eps": ["aidb/2026-11-01"]
+  },
+  {
+   "title": "Elastic demand for intelligence",
+   "body": "Rao argues that demand for intelligence can grow as the cost of satisfying it falls, and that most people may no longer need to produce intelligence to become significant consumers of it. NLW ties this to his own ideas on demand elasticity and the infinite backlog, arguing that cheaper intelligence will expand the work people want done rather than shrink it.",
+   "eps": ["aidb/2026-11-01"]
+  }
+ ],
+ "whyItMatters": "If cheaper intelligence expands demand instead of replacing it, technology leaders should plan for growing backlogs and new kinds of work rather than a fixed pool of tasks to automate away."
+}

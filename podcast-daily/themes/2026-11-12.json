@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-12",
+ "episodeCount": 2,
+ "headline": "Jensen Huang's ouster as Nvidia CEO dominated the day, with NLW arguing it reopens questions on chip export controls, open source and AI financing. No Priors covered a quieter story: Isomorphic Labs' effort to move drug discovery onto computers.",
+ "themes": [
+  {
+   "title": "Jensen Huang leaves Nvidia",
+   "body": "NLW reports Huang is out as Nvidia CEO and leaving the board after reports of an affair with an alleged Chinese spy tied to Megaspeed, a second affair with a direct report, and the general counsel reportedly intervening in a Commerce investigation. The board named Harvey C. Jones chairman and CFO Colette Kress interim CEO. NLW says China hawks will push for tighter export controls.",
+   "eps": ["aidb/2026-11-12"]
+  },
+  {
+   "title": "AI-driven drug discovery",
+   "body": "Isomorphic Labs president Max Jaderberg tells Elad Gil on No Priors that the company aims to bring drug discovery onto computers, building on AlphaFold. Gil says the cost per drug rose to $1.5 billion while approvals stayed flat. Isomorphic does not license its design engine, using it for its own pipeline and pharma partnerships, and Jaderberg says lab synthesis and testing remain the main bottleneck.",
+   "eps": ["no-priors/2026-11-12"]
+  }
+ ],
+ "whyItMatters": "A leadership crisis at the dominant AI chip supplier, combined with possible tighter export controls, is a reminder to treat AI hardware supply and regional compute access as strategic risks with contingency plans."
+}

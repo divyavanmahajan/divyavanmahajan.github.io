@@ -1,0 +1,197 @@
+{
+ "date": "2026-11-19",
+ "month": "2026-11",
+ "weekday": "Thursday",
+ "generated": "2026-11-28",
+ "episodeCount": 8,
+ "counts": {
+  "aidb": 1,
+  "latent-space": 2,
+  "lex-fridman": 1,
+  "moonshots-diamandis": 1,
+  "no-priors": 1,
+  "practical-ai": 1,
+  "turing-post": 1
+ },
+ "headline": "Anthropic's IPO, priced above its range at $83 a share, framed the day: NLW put it on his list of the ten biggest days in AI history and the Moonshots hosts dwelt on the wealth it creates. Elsewhere the shows turned to how agents are changing software work and why the physical world limits superintelligence.",
+ "themes": [
+  {
+   "title": "Anthropic goes public",
+   "body": "NLW says Anthropic priced its IPO on November 18 at $83 a share, above its $70-78 range, and calls it the biggest IPO in history. On Moonshots, Peter Diamandis cites a $1.4 trillion valuation, an annualized revenue run rate of about $81 billion and demand at five times the shares on offer, while Alexander Wissner-Gross calls for IPO reform so frontier labs list earlier.",
+   "eps": [
+    "aidb/2026-11-19-the-10-biggest-days-in-ai-history",
+    "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history"
+   ]
+  },
+  {
+   "title": "Agents reshape software work",
+   "body": "Linear COO Cristina Cordova tells Latent Space that over half of the issues created on Linear now come from agents, and the company has repositioned around agent workflows. Simon Willison tells Turing Post he can build in an hour what once took a week, yet has never worked harder because only hard decisions remain. Scotiabank's Gautham Pallapa calls coding and test writing low-value work that agents now handle.",
+   "eps": [
+    "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+    "latent-space/2026-11-19-why-linear-says-issue-tracking-is-dead-cristina-cordova-coo",
+    "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
+    "practical-ai/2026-11-19-building-human-centered-ai"
+   ]
+  },
+  {
+   "title": "Physical limits on superintelligence",
+   "body": "Bob McGrew, former OpenAI chief research officer and now CEO of Arda, tells No Priors that the hard-takeoff argument is wrong because GPUs and wet labs, not researchers, are the bottleneck. Arda works with Anduril on software for manufacturing engineers, aiming to reconfigure an automated line in seven days. On Moonshots, the hosts discuss Starship's first ship catch and xAI and SpaceX data center build speed.",
+   "eps": [
+    "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
+    "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history"
+   ]
+  },
+  {
+   "title": "Nvidia after Jensen Huang",
+   "body": "Diamandis reports $115.8 billion in quarterly revenue at Nvidia, up 103 percent, in its first quarter since Huang resigned, yet the stock fell about 1.5 percent. Dave Blundin argues the CUDA moat will erode within a year as competing inference chips arrive. NLW lists Huang's resignation among the honorable mentions on his list of AI's biggest days.",
+   "eps": [
+    "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history",
+    "aidb/2026-11-19-the-10-biggest-days-in-ai-history"
+   ]
+  },
+  {
+   "title": "Adopting AI in a cautious enterprise",
+   "body": "Pallapa tells Practical AI that banking is risk-averse for good reason, but Canada's largest banks are now investing heavily in generative and agentic AI. His value-first framework, from the book Invaluable, keeps people at the centre and treats technology as an accelerator. Willison adds a security note: prompt injection attacks of the kind he calls the lethal trifecta have so far been rare.",
+   "eps": [
+    "practical-ai/2026-11-19-building-human-centered-ai",
+    "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software"
+   ]
+  }
+ ],
+ "whyItMatters": "When agents create half the tickets in a work-tracking tool and write most routine code, delivery processes, security controls and roles built around human authors need redesigning, while physical capacity, not model quality, sets the pace.",
+ "themesEpisodeCount": 8,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-19-the-10-biggest-days-in-ai-history",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-19",
+   "slug": "the-10-biggest-days-in-ai-history",
+   "title": "The 10 Biggest Days in AI History",
+   "url": "https://www.patreon.com/posts/175830265",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "On Anthropic's IPO day, NLW lists ten pivotal days in generative AI history, from OpenAI's founding and the transformer paper through ChatGPT, the Altman firing, DeepSeek, Opus 4.5/OpenClaw, Anthropic's clash with the US government, and the 2026 midterms. He closes with honorable mentions including Stable Diffusion, Nvidia earnings, o1, Stargate and Jensen Huang's resignation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-19-scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-19",
+   "slug": "scaling-linear-s-gtm-to-100m-arr-cristina-cordova-coo",
+   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo",
+   "youtube": null,
+   "guests": [
+    "Cristina Cordova"
+   ],
+   "durationMin": 84,
+   "summary": "Linear COO Cristina Cordova explains how the company moved from product-led growth with startups to growth-segment and then enterprise sales, and how it repositioned around agents after CEO Karri Saarinen's 'issue tracking is dead' post. She covers the MCP server and agent platform, usage-based pricing for AI features, using AI in support without sacrificing quality, lean hiring, and lessons from Stripe and venture investing.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-19-why-linear-says-issue-tracking-is-dead-cristina-cordova-coo",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-19",
+   "slug": "why-linear-says-issue-tracking-is-dead-cristina-cordova-coo",
+   "title": "Why Linear says Issue Tracking is Dead — Cristina Cordova, COO",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/why_linear_says_issue_tracking_is_dead_cristina_cordova_coo",
+   "youtube": null,
+   "guests": [
+    "Cristina Cordova"
+   ],
+   "durationMin": 84,
+   "summary": "Linear COO Cristina Cordova discusses how Linear scaled from a product-led startup tool to enterprise sales, and why CEO Karri Saarinen declared issue tracking dead as Linear repositions around agents. Topics include MCP and agent-created issues, usage-based pricing for AI features, AI in customer support, hiring philosophy, and lessons from Stripe, Notion and venture investing.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "lex-fridman/2026-11-19-larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami",
+   "show": "lex-fridman",
+   "showName": "Lex Fridman Podcast",
+   "date": "2026-11-19",
+   "slug": "larry-lawton-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami",
+   "title": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+   "url": "https://lexfridman.com/larry-lawton/",
+   "youtube": "https://www.youtube.com/watch?v=v1X9Fqs5a14",
+   "guests": [
+    "Larry Lawton"
+   ],
+   "durationMin": 207,
+   "summary": "Former jewel thief Larry Lawton reacts to the GTA 6 trailer and 1980s Miami crime, then recounts his Coast Guard years, Gambino-linked bookmaking and jewelry heists, his FBI arrest and refusal to snitch. He describes over a decade in federal prison including long stretches in solitary, the prison economy and gangs, critiques mass incarceration and police culture, and explains his Reality Check program for at-risk youth.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-19-anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-19",
+   "slug": "anthropics-1-4t-ipo-the-biggest-wealth-event-in-human-history",
+   "title": "Anthropic’s $1.4T IPO: The Biggest Wealth Event in Human History?",
+   "url": "https://www.youtube.com/watch?v=iA2gdwTWJ_E",
+   "youtube": "https://www.youtube.com/watch?v=iA2gdwTWJ_E",
+   "guests": [],
+   "durationMin": 120,
+   "summary": "Live Moonshot Mates roundtable on Anthropic's upcoming $1.4 trillion IPO and the AI wealth concentrating in San Francisco, Nvidia's earnings and governance crisis after Jensen Huang's resignation, and a week of infrastructure outages and cyberattacks. Also covers Starship Flight 15's first ship catch, US chip export rules and the Pax Silica declaration, xAI/SpaceX data center build speed, OpenAI's GPT-6.2 release, Palmer Luckey's seasteading venture Slab, and an AMA.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-11-19-superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-11-19",
+   "slug": "superintelligence-needs-the-physical-world-with-ceo-and-co-founder-of",
+   "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+   "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+   "youtube": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+   "guests": [
+    "Bob McGrew"
+   ],
+   "durationMin": 60,
+   "summary": "Sarah Guo and Elad Gil interview Bob McGrew, former OpenAI chief research officer and early Palantir executive, now CEO of manufacturing-AI startup Arda. McGrew argues the hard-takeoff/recursive self-improvement argument is wrong because physical resources like GPUs and wet labs are the bottleneck, and describes Arda's work with Anduril, flexible automation, general robotics models and the forward deployed engineering model. The episode closes on self-replicating factories and McGrew's resolution of the Fermi paradox.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-11-19-building-human-centered-ai",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-11-19",
+   "slug": "building-human-centered-ai",
+   "title": "Building Human-Centered AI",
+   "url": "https://share.transistor.fm/s/bb4dad17",
+   "youtube": "https://www.youtube.com/watch?v=E_dSIQ3I2_I",
+   "guests": [
+    "Gautham Pallapa"
+   ],
+   "durationMin": 45,
+   "summary": "Chris Benson interviews Gautham Pallapa, Principal Director of AI and Innovation at Scotiabank and co-author of the book Invaluable, about adopting generative and agentic AI in a risk-averse bank. Topics include his value-first transformation framework, keeping people central as coding becomes low-value work, a startup-style internship program, rethinking the software development lifecycle, and multi-agent team patterns.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "turing-post/2026-11-19-simon-willison-on-ai-coding-agents-and-weird-software",
+   "show": "turing-post",
+   "showName": "Turing Post",
+   "date": "2026-11-19",
+   "slug": "simon-willison-on-ai-coding-agents-and-weird-software",
+   "title": "Simon Willison on AI Coding Agents and Weird Software",
+   "url": "https://www.turingpost.com/p/simon-willison-on-ai-agents-the-future-of-software-and-why-we-should-build-weirder-things",
+   "youtube": "https://www.youtube.com/watch?v=9C8JZTmpbE4",
+   "guests": [
+    "Simon Willison"
+   ],
+   "durationMin": null,
+   "summary": "Ksenia Se interviews independent developer Simon Willison at an AI Engineer conference about evaluating models, the coding-agent inflection point, and why agents have made his work harder. They also cover data tools for journalism, the lethal trifecta and prompt injection, local models, and AI-built games, with Willison urging builders to 'go weird'.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

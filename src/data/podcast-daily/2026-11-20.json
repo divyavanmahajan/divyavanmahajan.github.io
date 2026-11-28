@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-20",
+ "month": "2026-11",
+ "weekday": "Friday",
+ "generated": "2026-11-28",
+ "episodeCount": 1,
+ "counts": {
+  "aidb": 1
+ },
+ "headline": "NLW made the case for Google's Gemini 4 Neon, a model he says puts Google back in the race at the top of the table, while the headlines tallied the first trading day after Anthropic's record IPO.",
+ "themes": [
+  {
+   "title": "Gemini 4 Neon and model diversity",
+   "body": "NLW says Google released Gemini 4 Neon just before the Anthropic IPO, its fourth model in two months. Artificial Analysis scored it 61 on its Intelligence Index, one point behind GPT-6.2 Astra and four behind Fable 5.2. NLW argues Gemini does not need to be better to be useful: Neon reframed an episode outline where OpenAI and Anthropic models stayed in Wikipedia mode.",
+   "eps": [
+    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable"
+   ]
+  },
+  {
+   "title": "Anthropic's first trading day",
+   "body": "NLW reports Anthropic closed its first NASDAQ day at $97.17, up 17 percent from its $83 IPO price, after raising $107 billion, the largest IPO in history, for a $1.8 trillion market cap. Bloomberg economist Anna Wong suggested the listing could mark the end of the AI trade, and Vanda Research's Viraj Patel said retail traded both sides with under $60 million net buying.",
+   "eps": [
+    "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable"
+   ]
+  }
+ ],
+ "whyItMatters": "With a third lab now close to the leaders on benchmarks, architects can treat model choice as a portfolio, using different models for the different perspectives they bring rather than standardizing on one vendor.",
+ "themesEpisodeCount": 1,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-20-why-you-should-try-gemini-neon-even-if-you-love-fable",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-20",
+   "slug": "why-you-should-try-gemini-neon-even-if-you-love-fable",
+   "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
+   "url": "https://www.patreon.com/posts/175910169",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover the day after Anthropic's record $107 billion IPO, an AMD short report, Chinese reaction to new US chip export rules, and a White House cybersecurity personnel change. The main episode examines Google's Gemini 4 Neon, its benchmark results, and NLW's view that its different perspective is valuable despite it being a pushover. It closes with Apple's reported computer-use agent plans.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

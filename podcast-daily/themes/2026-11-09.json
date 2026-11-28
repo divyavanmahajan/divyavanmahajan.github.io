@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-09",
+ "episodeCount": 2,
+ "headline": "NLW led with Jensen Huang's admitted affair with Megaspeed executive Alice Huang, whom US intelligence reportedly suspects of spying for China, and what it means for chip export controls. Latent Space looked at the fast-growing market for expert-authored AI training data.",
+ "themes": [
+  {
+   "title": "Nvidia's CEO and a spy scandal",
+   "body": "NLW reports that Jensen Huang confessed an affair in a company-wide email, and that the NYT says a White House memo identified Alice Huang as a spy for China's MSS. Nvidia's board opened an independent investigation but sees no reason to believe secrets were compromised. Analyst Andrew Liu argues the scandal aims to discredit Huang's lobbying against sanctions and reverse H200 approvals.",
+   "eps": ["aidb/2026-11-09"]
+  },
+  {
+   "title": "Funding and compute deals shift",
+   "body": "In his headlines, NLW reports that Anthropic is going ahead with its IPO at falling valuations and that OpenAI closed a smaller funding round. He also notes Microsoft ending an Oracle compute deal, Google taking over a Crusoe data center site, and Nvidia requiring Southeast Asian data centers to enroll in its fleet intelligence GPU tracking system, alongside lab leaders hinting at accelerating AI-driven science.",
+   "eps": ["aidb/2026-11-09"]
+  },
+  {
+   "title": "What frontier labs buy",
+   "body": "Garrett Lord and the Handshake AI team tell Latent Space the training data market was $1 billion three years ago, is $10 billion now and will likely reach $100 billion in three years. They say all models score 50% or worse on their Vials life sciences benchmark and under 20% on the Atlas finance benchmark, and that purely synthetic environment data produces slop without expert steering.",
+   "eps": ["latent-space/2026-11-09"]
+  }
+ ],
+ "whyItMatters": "Chip supply now carries geopolitical and governance risk, and models still score poorly on expert finance and life sciences tasks, so leaders should plan for supply uncertainty and test domain performance with their own expert-built evaluations."
+}

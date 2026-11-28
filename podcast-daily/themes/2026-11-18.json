@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-18",
+ "episodeCount": 2,
+ "headline": "OpenAI's GPT-6.2 Astra and Sol drew harsh early reviews on The AI Daily Brief, with critics weighing coding regressions against cost efficiency. On The Pragmatic Engineer, CodeRabbit's Harjot Gill described a software factory where humans review releases rather than individual pull requests.",
+ "themes": [
+  {
+   "title": "Mixed reception for GPT-6.2",
+   "body": "NLW examines the harsh early reaction to OpenAI's GPT-6.2 Astra and Sol. Matt Schumer called them essentially unusable and Ethan Mollick said it was the first OpenAI frontier release since GPT-4.5 that was not a clear step forward. Artificial Analysis still scored Astra 62, second behind Fable 5.2, and found Sol about 20% cheaper per task than 6.1 Sol. NLW asks listeners to test it themselves.",
+   "eps": ["aidb/2026-11-18"]
+  },
+  {
+   "title": "Software factories replace code review",
+   "body": "CodeRabbit CEO Harjot Gill tells Gergely Orosz he ships over 5,000 pull requests a month with agents, mostly janitorial work such as fixing CI and flaky tests, and spends about $250,000-$275,000 a month on AI. He says human code review is dead but human review of releases is not, and engineers with a review-exempt driver's license can ship straight to production.",
+   "eps": ["pragmatic-engineer/2026-11-18"]
+  }
+ ],
+ "whyItMatters": "As agents produce thousands of pull requests and new models trade quality for cost, review controls, compliance definitions of change and in-house model testing need to shift from individual code changes to releases and verification loops."
+}

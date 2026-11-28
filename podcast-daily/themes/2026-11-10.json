@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-10",
+ "episodeCount": 4,
+ "headline": "Anthropic's new flagship Fable 5.2 led the day: NLW calls it record-setting but jagged and is not switching yet. Elsewhere, Resend's founder explained how to build products that agents can use, and Goodfire argued that individual neurons in language models are more readable than assumed.",
+ "themes": [
+  {
+   "title": "Fable 5.2: strong but jagged",
+   "body": "NLW reports that Fable 5.2 scored 65 on the Artificial Analysis Intelligence Index, five points ahead of Gemini Carbon and six ahead of Opus 5.5, and that Anthropic cut its token prices by 20 percent to $8 input and $40 output per million. He finds it powerful but unable to judge what humans find interesting, and says many users still prefer Opus 5.5 for most tasks.",
+   "eps": ["aidb/2026-11-10"]
+  },
+  {
+   "title": "Designing products for agents",
+   "body": "Resend founder Zeno Rocha tells Latent Space he wants his email product to be 'formless', which is why it has always been API first and now offers an 80-tool MCP server and a CLI. Because LLMs do not run JavaScript widgets, Resend spells data out in text; a model got its pricing wrong until he added a markdown pricing page. Resend reports 120,000 paid customers.",
+   "eps": ["latent-space/2026-11-10"]
+  },
+  {
+   "title": "Reading individual neurons",
+   "body": "Goodfire's Curt Tigges tells Nathan Labenz on The Cognitive Revolution that individual MLP neurons are more interpretable than the field has thought, and that polysemantic neurons usually carry a compact set of meanings. Goodfire's agentic Neuron Scientist runs contrastive experiments like a human researcher. Tigges cautions that understanding every neuron is not enough: reverse engineering a model requires understanding circuits.",
+   "eps": ["cognitive-revolution/2026-11-10"]
+  },
+  {
+   "title": "The Russia-Ukraine war in year five",
+   "body": "On Lex Fridman, analyst Michael Kofman says 2026 is Ukraine's best year of ground combat since the summer 2023 offensive and Russia's worst since winter 2023. He and Preston Stewart cover drone warfare, the Wagner mutiny and Putin's role, and both judge the Trump administration's engagement fitful, with Stewart saying the US ceded its leading position.",
+   "eps": ["lex-fridman/2026-11-10"]
+  }
+ ],
+ "whyItMatters": "If AI assistants increasingly read documentation and call APIs on behalf of users, products need machine-readable pages and agent-ready interfaces, and model choice should rest on fit for the task rather than benchmark rank alone."
+}

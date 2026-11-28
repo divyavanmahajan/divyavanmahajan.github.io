@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-08",
+ "month": "2026-11",
+ "weekday": "Sunday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "latent-space": 1
+ },
+ "headline": "NLW argued that Opus 5.5 does for video editing what Opus 4.5 did for agentic coding, while Stanford's Mihail Eric told Latent Space that none of his students really type code by hand anymore.",
+ "themes": [
+  {
+   "title": "Agentic video editing arrives",
+   "body": "On an Operator's Cut, NLW says people are discovering that Opus 5.5 is a subtle but significant step change in video editing. He lists eight changes behind agentic video, starting with editing becoming a plain-English conversation, and argues the underestimated one is AI's ability to watch footage. He offers six criteria for when video beats other formats and three levels for getting started, up to self-updating video pipelines.",
+   "eps": [
+    "aidb/2026-11-08-agentic-video-is-real-and-heres-what-you-should-try"
+   ]
+  },
+  {
+   "title": "Teaching AI-native engineering",
+   "body": "Mihail Eric tells Latent Space that his Stanford course CS146S now has students contribute to open source projects reviewed by maintainers, since last year's assignments were easily one-shot. He says the hiring floor is now near senior level, and that few people in industry get past vanilla prompting. At Monaco, a Series B sales platform where he leads AI, the team built its own agentic harness.",
+   "eps": [
+    "latent-space/2026-11-08-one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee"
+   ]
+  }
+ ],
+ "whyItMatters": "As agents take over hands-on coding and now video editing, organisations need to rethink entry-level roles, training and review practices, and decide where to build their own agent harnesses versus buying tools.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-08-agentic-video-is-real-and-heres-what-you-should-try",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-08",
+   "slug": "agentic-video-is-real-and-heres-what-you-should-try",
+   "title": "Agentic Video Is Real and Here’s What You Should Try",
+   "url": "https://www.patreon.com/posts/174735522",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "An Operator's Cut arguing that Opus 5.5 and related models represent a step change for AI video editing, analogous to Opus 4.5 for agentic coding. NLW lays out eight changes enabling agentic video, six criteria for when video beats other formats, internal and external use cases, and three levels for getting started including self-updating video pipelines.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-08-one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-08",
+   "slug": "one-million-ai-engineer-special-how-stanford-teaches-ai-native-enginee",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco",
+   "youtube": null,
+   "guests": [
+    "Mihail Eric"
+   ],
+   "durationMin": 121,
+   "summary": "Mihail Eric, adjunct professor at Stanford and head of AI at Monaco, walks through the second run of his CS146S 'Modern Software Developer' course week by week: coding agent internals, context engineering, skills, agent-ready codebases, agentic code review, security, background agents, AI-native teams and the software factory. He also describes Monaco's AI-native sales platform and its internal build-vs-buy decisions for coding tools.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

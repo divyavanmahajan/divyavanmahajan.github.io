@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-18",
+ "month": "2026-11",
+ "weekday": "Wednesday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "pragmatic-engineer": 1
+ },
+ "headline": "OpenAI's GPT-6.2 Astra and Sol drew harsh early reviews on The AI Daily Brief, with critics weighing coding regressions against cost efficiency. On The Pragmatic Engineer, CodeRabbit's Harjot Gill described a software factory where humans review releases rather than individual pull requests.",
+ "themes": [
+  {
+   "title": "Mixed reception for GPT-6.2",
+   "body": "NLW examines the harsh early reaction to OpenAI's GPT-6.2 Astra and Sol. Matt Schumer called them essentially unusable and Ethan Mollick said it was the first OpenAI frontier release since GPT-4.5 that was not a clear step forward. Artificial Analysis still scored Astra 62, second behind Fable 5.2, and found Sol about 20% cheaper per task than 6.1 Sol. NLW asks listeners to test it themselves.",
+   "eps": [
+    "aidb/2026-11-18-why-the-ai-kids-hate-astra-62"
+   ]
+  },
+  {
+   "title": "Software factories replace code review",
+   "body": "CodeRabbit CEO Harjot Gill tells Gergely Orosz he ships over 5,000 pull requests a month with agents, mostly janitorial work such as fixing CI and flaky tests, and spends about $250,000-$275,000 a month on AI. He says human code review is dead but human review of releases is not, and engineers with a review-exempt driver's license can ship straight to production.",
+   "eps": [
+    "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill"
+   ]
+  }
+ ],
+ "whyItMatters": "As agents produce thousands of pull requests and new models trade quality for cost, review controls, compliance definitions of change and in-house model testing need to shift from individual code changes to releases and verification loops.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-18-why-the-ai-kids-hate-astra-62",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-18",
+   "slug": "why-the-ai-kids-hate-astra-62",
+   "title": "Why the AI Kids Hate Astra 6.2",
+   "url": "https://www.patreon.com/posts/175737575",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover a wave of outages (including the NSA's internal network) attributed to legacy-system modernization rather than cyber attacks, and Nvidia's earnings amid Jensen Huang's bid to return as CEO. The main episode examines the harsh early reaction to OpenAI's GPT-6.2 Astra and GPT-6.2 Sol, weighing coding regressions against cost efficiency and a possible strategic shift toward enterprise knowledge work.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-11-18-software-factories-and-code-reviews-with-harjot-gill",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-11-18",
+   "slug": "software-factories-and-code-reviews-with-harjot-gill",
+   "title": "Software factories and code reviews with Harjot Gill",
+   "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+   "youtube": "https://www.youtube.com/watch?v=4Cjb7691GJ8",
+   "guests": [
+    "Harjot Gill"
+   ],
+   "durationMin": 87,
+   "summary": "Gergely Orosz interviews CodeRabbit CEO Harjot Gill about shipping over 5,000 pull requests in a month with agents, running CodeRabbit as a software factory, and why he believes human code review is dead while human review of releases remains. They cover verification loops (formal methods, simulations, staged rollouts), the driver's license model for shipping rights, AI and CI costs, startup funding, hiring for agency, and sleep and burnout.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

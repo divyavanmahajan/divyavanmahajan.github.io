@@ -173,6 +173,7 @@ src/content/podcast-periodic/<show>/<period>.md       (collection `podcast-perio
 | `/podcasts/rss.xml` (all shows), `/podcasts/<show>/rss.xml` | `src/pages/podcasts/rss.xml.js`, `src/pages/podcasts/[show]/rss.xml.js` |
 | AIDB: `/podcasts/ai-daily-brief/{,periodic/,tags/}` | `src/pages/podcasts/ai-daily-brief/` |
 | `/podcasts/digest/`, `/podcasts/digest/YYYY-MM/` (monthly cross-show digest, IBM Carbon style) | `src/pages/podcasts/digest/` + `src/lib/podcast-digests.ts` + `src/layouts/WideLayout.astro` |
+| `/podcasts/daily/`, `/podcasts/daily/YYYY-MM-DD/`, `/podcasts/daily/rss.xml` (daily cross-show summary) | `src/pages/podcasts/daily/` + `src/lib/podcast-daily.ts` |
 
 ## Monthly cross-show digest (/podcasts/digest/)
 
@@ -198,6 +199,47 @@ src/data/podcast-digests/YYYY-MM.json                 (committed; CI has no wiki
 - Only months with themes get a page. The current month is marked "In progress".
   Regenerate its themes once the month is over.
 - Implications are written for a public audience. No employer-internal content.
+- Episode collection, summary fallbacks and ref resolution live in
+  `scripts/lib/podcast-episodes.mjs`, shared with the daily summary. Shows = AIDB
+  (`aidb`, wiki root) + every show in `src/podcast-shows.mjs` that has a wiki folder.
+- Each digest page links to that month's daily pages ("Day by day").
+
+## Daily cross-show summary (/podcasts/daily/)
+
+The monthly digest's little sibling, same inputs and look: one page per day that has
+episodes, across ALL shows including AIDB. A headline (what mattered that day), 2-5 short
+themes (40-70 words, cross-show where the day allows, chips jump to the episodes), one
+"Why it matters" line for enterprise architects and technology leaders (public: generic,
+nothing internal), then every episode of the day with its 2-3 sentence summary, a link to
+the original episode and to this site's own summary page (added automatically at build
+time once that summary is published). The index lists days newest first, grouped by month;
+day pages link to the previous/next day and to the month's digest. `/podcasts/` shows a
+"Latest daily summary" block. Daily pages are also items in `/podcasts/rss.xml` and in
+their own feed `/podcasts/daily/rss.xml`.
+
+```
+wiki/blog/**/episodes + extractions (summary + central items/claims)   (read only)
+        |  node scripts/podcast-daily.mjs --pack --day D   (agent writes the text from the pack,
+        v                                                    scripts/PODCAST_DAILY_INSTRUCTIONS.md)
+podcast-daily/themes/YYYY-MM-DD.json                  (staging, committed)
+        |  node scripts/podcast-daily.mjs --day D | --range A..B | --all
+        v
+src/data/podcast-daily/YYYY-MM-DD.json                (committed; CI has no wiki)
+```
+
+- `--status [--days 30 | --range A..B]`: episodes and shows per day, episodes without a
+  summary, theme check, `NO-DATA`/`STALE-DATA`, `THEMES-STALE(n->m)` when episodes landed
+  after the text was written.
+- `--todo`: days since the last daily page (inclusive) with episodes and no or stale
+  text, one per line. The daily cron (0a6775770c21, step E3) writes those, rebuilds the
+  last 7 days of data (`--range`), checks, builds and commits only `podcast-daily
+  src/data/podcast-daily`.
+- `--check [--day D | --range A..B | --days N]` (default: every themes file) exits 1 on
+  any theme error (2-5 themes, 1 allowed for a 1-episode day; bodies 30-90 words; refs
+  resolve; headline <= 60 words; why-it-matters line; no Volvo; no hype words) or stale data.
+- Only days with text get a page. Backfill started at 2026-10-29 (30 days); written by 10
+  parallel `hermes chat --oneshot` workers (`daily-workers.sh` in the podcast-blog-publish
+  skill), about 5 minutes for 29 days.
 
 Header nav has a "Podcasts" entry. Show metadata (name, description, homepage,
 URL slug = wiki folder name) is in `src/podcast-shows.mjs`, shared by the

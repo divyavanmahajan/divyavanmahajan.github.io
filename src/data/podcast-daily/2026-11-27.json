@@ -1,0 +1,98 @@
+{
+ "date": "2026-11-27",
+ "month": "2026-11",
+ "weekday": "Friday",
+ "generated": "2026-11-28",
+ "episodeCount": 3,
+ "counts": {
+  "aidb": 1,
+  "dwarkesh": 1,
+  "latent-space": 1
+ },
+ "headline": "NLW asked whether AI has become too big to fail as Senator Adam Schiff prepares a no-AI-bailout resolution after the Nvidia and Jensen Huang affair. Dwarkesh hosted a debate on superintelligence timelines and whether to slow AI, and Latent Space looked inside the market for human training data.",
+ "themes": [
+  {
+   "title": "Is AI too big to fail",
+   "body": "NLW says direct intervention by President Trump and VP JD Vance in the Nvidia affair shows how central AI has become in Washington, and many claim Jensen Huang's return was itself a bailout. Schiff argues in a Wall Street Journal op-ed that no AI company is too big to fail. NLW expects any rescue to look like contracts or soft nationalization, not a repeat of the $443 billion TARP.",
+   "eps": [
+    "aidb/2026-11-27-ai-is-too-big-to-fail"
+   ]
+  },
+  {
+   "title": "Timelines and the case for a pause",
+   "body": "On Dwarkesh, Daniel Kokotajlo puts a software-only singularity above 50 percent likely within three years and argues misaligned AIs will probably be running things in a couple of years unless labs are slowed. Ege Erdil puts it at 10-20 percent, with a 15-20 year median to full automation without recursive self-improvement, and is wary of acting on risks before real costs appear.",
+   "eps": [
+    "dwarkesh/2026-11-27-ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege"
+   ]
+  },
+  {
+   "title": "Anthropic under public scrutiny",
+   "body": "NLW notes Anthropic, the first model lab to go public, now faces more scrutiny, including over early versus retail investors, and recalls its refusal to allow autonomous weapons control or mass surveillance of Americans. On Dwarkesh, Patel says Anthropic's S-1 shows 70 percent of its compute goes to internal use, and Erdil estimates its annualized revenue at around $90 billion.",
+   "eps": [
+    "aidb/2026-11-27-ai-is-too-big-to-fail",
+    "dwarkesh/2026-11-27-ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege"
+   ]
+  },
+  {
+   "title": "Inside the training data market",
+   "body": "G2i CEO Gabe Greenberg tells Latent Space that human data work has moved from thousands of mid-level gig engineers in 2023-24 to staff-level engineers building RL environments. Labs buy without competitive RFPs, he says, and a researcher can spend $10 million in 60 seconds. He says G2i will do about $100 million this year, up from $15 million, and sees growth in robotics, 3D and CAD.",
+   "eps": [
+    "latent-space/2026-11-27-inside-the-ai-training-data-market-gabe-greenberg-g2i"
+   ]
+  }
+ ],
+ "whyItMatters": "If governments treat leading AI suppliers as strategic assets and lab revenues keep concentrating, technology leaders should plan for policy-driven supplier risk and keep alternatives open rather than assume today's vendors and terms stay stable.",
+ "themesEpisodeCount": 3,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-27-ai-is-too-big-to-fail",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-27",
+   "slug": "ai-is-too-big-to-fail",
+   "title": "AI is Too Big to Fail",
+   "url": "https://www.patreon.com/posts/176529027",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW examines whether AI has become too big to fail as Senator Adam Schiff prepares no-AI-bailout legislation following the Nvidia/Jensen Huang saga and Democrats' midterm wins. He traces government treatment of AI as strategic from Biden-era export controls through Trump-era deregulation, the Anthropic–Pentagon fight, the Fable ban and the AI Accords, then reviews AI's role in GDP growth and financial risks such as debt funding and revenue concentration. He argues any AI bailout would look nothing like 2008, more likely contracts or soft nationalization.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "dwarkesh/2026-11-27-ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege",
+   "show": "dwarkesh",
+   "showName": "Dwarkesh Podcast",
+   "date": "2026-11-27",
+   "slug": "ai-researchers-debate-what-we-should-do-next-daniel-kokotajlo-and-ege",
+   "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+   "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+   "youtube": "https://www.youtube.com/watch?v=TbKkN1cesTo",
+   "guests": [
+    "Ege Erdil",
+    "Daniel Kokotajlo"
+   ],
+   "durationMin": 96,
+   "summary": "Dwarkesh Patel hosts Google DeepMind researcher Ege Erdil and AI Futures Project author Daniel Kokotajlo to identify cruxes on superintelligence timelines, whether to pause or slow AI, and US–China coordination. They debate whether superintelligent AIs will be like descendants or invaders, whether AIs care about humans by default, denial about current AI capabilities, predictions for 2027, and the cost of verifying AI research.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-27-inside-the-ai-training-data-market-gabe-greenberg-g2i",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-27",
+   "slug": "inside-the-ai-training-data-market-gabe-greenberg-g2i",
+   "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+   "youtube": null,
+   "guests": [
+    "Gabe Greenberg"
+   ],
+   "durationMin": 32,
+   "summary": "Recorded at AI Engineer CODE, G2i CEO Gabe Greenberg explains how the human training data market for frontier labs works: the shift from gig-style labeling to staff-level engineers building RL environments, how labs buy data without RFPs, exclusive versus off-the-shelf pricing, and selling company raw data. He also predicts growth areas such as robotics, 3D world models and CAD, and describes G2i's multi-agent orchestration platform.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-26",
+ "episodeCount": 5,
+ "headline": "On a quiet Thanksgiving, NLW retold how Anthropic went from refusing to ship products to passing OpenAI on revenue by April 2026 on the back of coding models. Other shows weighed AI takeover risk, what happens to human work, and how Clay builds go-to-market agents.",
+ "themes": [
+  {
+   "title": "Coding as the core AI business",
+   "body": "NLW traces Anthropic's turn from a safety lab whose founders ruled out commercializing to a product company, with Claude 3.5 Sonnet and Claude Code driving its rise; he argues coding is the use case for AI. On Latent Space, Clay's Jeff Barg says Clay rebuilt its agent on a coding-agent harness with a CLI and sandbox, and usage splits close to 50/50 with external harnesses like Claude Code.",
+   "eps": ["aidb/2026-11-26", "latent-space/2026-11-26"]
+  },
+  {
+   "title": "Takeover risk and timelines",
+   "body": "On The Cognitive Revolution, Nathan Labenz says Paul Christiano put the risk of AI takeover in the next year closer to 10% than 1%. Tom Davidson says the moderate view on timelines has become untenable and AI could plausibly replace all workers at OpenAI and Anthropic within a year or two. Mackenzie Arnold argues AI needs whole new bodies of law, comparable to antitrust.",
+   "eps": ["cognitive-revolution/2026-11-26"]
+  },
+  {
+   "title": "Valuing people beyond productivity",
+   "body": "On Practical AI, Chris Benson says software engineering as he knew it is essentially gone because of agentic tools, and argues human-AI teaming gives diminishing returns as models improve, so society needs ways to value people that do not depend on productivity. On The Cognitive Revolution, GiveDirectly's Nick Allardice describes one-time cash transfers of about $500-600 and says the charity distributed a billion dollars last year.",
+   "eps": ["practical-ai/2026-11-26", "cognitive-revolution/2026-11-26"]
+  },
+  {
+   "title": "Building go-to-market agents",
+   "body": "Barg says Clay began seven years ago as a low-code spreadsheet tool and was at 15 to 20 million in revenue when he joined. He describes Sculptor as a layer above Claygents that coordinates them, and says Clay coined the go-to-market engineer on the idea that pipeline problems can be engineered rather than staffed, combining agent, data and software engineering.",
+   "eps": ["latent-space/2026-11-26"]
+  },
+  {
+   "title": "Setbacks remembered at Thanksgiving",
+   "body": "The Moonshots hosts traded stories of rejection. Peter Diamandis says he announced a $10 million private spaceflight prize in 1996 without having the money and was turned down at least 150 times while fundraising. Salim Ismail recalls his startup PubSub collapsing so badly it became a crisis-management case study, and Dave Blundin describes nearly losing his first company.",
+   "eps": ["moonshots-diamandis/2026-11-26"]
+  }
+ ],
+ "whyItMatters": "If coding agents are where AI revenue and adoption concentrate, technology leaders should plan for agent-run delivery pipelines and roles that shift from writing code to orchestrating it, while tracking the regulatory and risk debate that may shape how fast that happens."
+}

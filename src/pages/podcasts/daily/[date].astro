@@ -1,0 +1,201 @@
+---
+// Daily cross-show podcast summary, IBM Carbon style (same look as the monthly digest).
+// Data: src/data/podcast-daily/ (scripts/podcast-daily.mjs). Only days with themes are built.
+import WideLayout from "../../../layouts/WideLayout.astro";
+import { getDailies, dayLabel, dayShort, type Daily } from "../../../lib/podcast-daily";
+import { getDigests, internalLinks, internalHref, monthLabel, SHOW_ORDER, SHOW_SHORT } from "../../../lib/podcast-digests";
+
+export async function getStaticPaths() {
+    const all = getDailies();
+    return all.map((d, i) => ({
+        params: { date: d.date },
+        props: { d, newer: all[i - 1]?.date ?? null, older: all[i + 1]?.date ?? null },
+    }));
+}
+
+const { d, newer, older } = Astro.props as { d: Daily; newer: string | null; older: string | null };
+const base = import.meta.env.BASE_URL;
+const links = await internalLinks();
+const rank = (s: string) => { const i = SHOW_ORDER.indexOf(s); return i < 0 ? 99 : i; };
+const episodes = [...d.episodes].sort((a, b) => rank(a.show) - rank(b.show) || a.key.localeCompare(b.key));
+const byKey = new Map(episodes.map((e) => [e.key, e]));
+const shows = [...new Set(episodes.map((e) => e.show))];
+const short = (s: string) => SHOW_SHORT[s] ?? s;
+const eid = (k: string) => "ep-" + k.replace(/[^a-zA-Z0-9]/g, "-");
+const label = dayLabel(d.date);
+const digest = getDigests().find((g) => g.period === d.month);
+const notesCount = d.episodes.filter((e) => e.summarySource === "show-notes").length;
+---
+
+<WideLayout title={`Podcast daily: ${dayLabel(d.date, { month: "long", day: "numeric", year: "numeric" })}`} description={d.headline ?? `What the AI podcasts covered on ${label}`}>
+<div class="ibm">
+    <header class="masthead">
+        <a class="brand" href={`${base}podcasts/daily/`}>Podcast Daily <span>· {dayShort(d.date)}, {d.date.slice(0, 4)}</span></a>
+        <nav>
+            <a href="#themes">Themes</a>
+            <a href="#episodes">Episodes</a>
+            {d.whyItMatters && <a href="#why">Why it matters</a>}
+            {digest && <a href={`${base}podcasts/digest/${d.month}/`}>{monthLabel(d.month)} digest</a>}
+        </nav>
+    </header>
+
+    <div class="wrap hero">
+        <div class="crumbs mono">
+            <a href={`${base}podcasts/`}>Podcasts</a> / <a href={`${base}podcasts/daily/`}>Daily</a> / {d.date}
+        </div>
+        <div class="eyebrow mono">{d.weekday} · {d.episodeCount} episode{d.episodeCount === 1 ? "" : "s"} · {shows.length} show{shows.length === 1 ? "" : "s"}</div>
+        <h1>The AI podcasts on {label}</h1>
+        {d.headline && <p class="lede">{d.headline}</p>}
+        <div class="stats">
+            <div class="stat total"><div class="n">{d.episodeCount}</div><div class="l">episodes</div></div>
+            {shows.map((s) => (
+                <a class="stat" href={`#show-${s}`}><div class="n">{d.counts[s]}</div><div class="l">{episodes.find((e) => e.show === s)?.showName ?? s}</div></a>
+            ))}
+        </div>
+        <div class="pager">
+            {older ? <a href={`${base}podcasts/daily/${older}/`}>← {dayLabel(older, { weekday: "short", month: "short", day: "numeric" })}</a> : <span></span>}
+            <a href={`${base}podcasts/daily/`}>All days</a>
+            {newer ? <a href={`${base}podcasts/daily/${newer}/`}>{dayLabel(newer, { weekday: "short", month: "short", day: "numeric" })} →</a> : <span></span>}
+        </div>
+    </div>
+
+    <section class="alt" id="themes">
+        <div class="wrap">
+            <h2>Themes of the day</h2>
+            <p class="sub">Synthesised from the episode summaries. Claims are as reported on the shows, not verified. Chips jump to the episode.</p>
+            <div class="themes">
+                {d.themes.map((t, i) => (
+                    <article class="tile">
+                        <div class="num mono">THEME {String(i + 1).padStart(2, "0")}</div>
+                        <h3>{t.title}</h3>
+                        <p>{t.body}</p>
+                        <div class="chips">
+                            {t.eps.map((k) => byKey.get(k)).filter(Boolean).map((e) => (
+                                <a class="tag" href={`#${eid(e!.key)}`} title={e!.title}>{short(e!.show)}</a>
+                            ))}
+                        </div>
+                    </article>
+                ))}
+            </div>
+        </div>
+    </section>
+
+    {d.whyItMatters && (
+        <section class="dark" id="why">
+            <div class="wrap">
+                <h2>Why it matters</h2>
+                <p class="sub">My reading for enterprise architects and technology leaders, not a finding of the shows.</p>
+                <p class="why">{d.whyItMatters}</p>
+            </div>
+        </section>
+    )}
+
+    <section id="episodes">
+        <div class="wrap">
+            <h2>Every episode</h2>
+            <p class="sub">Titles link to the original episode; "Summary" links to the longer summary on this site.</p>
+            {episodes.map((e, i) => {
+                const own = internalHref(links, e);
+                const first = episodes.findIndex((x) => x.show === e.show) === i;
+                return (
+                    <article class="ep" id={eid(e.key)}>
+                        <div class="d mono" id={first ? `show-${e.show}` : undefined}><b>{short(e.show)}</b>{e.showName !== short(e.show) && e.showName}</div>
+                        <div>
+                            <h4>{e.url ? <a href={e.url} target="_blank" rel="noopener">{e.title}</a> : e.title}</h4>
+                            <div class="meta">
+                                {[e.guests.length ? `Guests: ${e.guests.join(", ")}` : "", e.durationMin ? `${e.durationMin} min` : ""].filter(Boolean).join(" · ")}
+                            </div>
+                            <p>{e.summary ?? "No summary yet."}{e.summarySource === "show-notes" && <span class="src"> (from the show notes)</span>}</p>
+                            <div class="links">
+                                {e.url && <a href={e.url} target="_blank" rel="noopener">Episode</a>}
+                                {own && <a href={`${base}${own}`}>Summary</a>}
+                                {e.youtube && <a href={e.youtube} target="_blank" rel="noopener">YouTube</a>}
+                            </div>
+                        </div>
+                    </article>
+                );
+            })}
+        </div>
+    </section>
+
+    <footer class="wrap foot">
+        Generated {d.generated} from the episode summaries
+        {notesCount > 0 && <> ({notesCount} episode{notesCount === 1 ? "" : "s"} summarised from the publisher's show notes)</>}.
+        {digest && <> The whole month: <a href={`${base}podcasts/digest/${d.month}/`}>{monthLabel(d.month)} digest</a>.</>}
+    </footer>
+</div>
+</WideLayout>
+
+<style>
+    .ibm {
+        --cds-layer-01: #f4f4f4; --cds-layer-02: #e0e0e0; --cds-layer-hover: #e8e8e8;
+        --cds-text-primary: #161616; --cds-text-secondary: #525252; --cds-text-helper: #6f6f6f;
+        --cds-border-subtle: #c6c6c6; --cds-link: #0f62fe; --cds-link-hover: #0043ce; --cds-blue-10: #edf5ff;
+        font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        color: var(--cds-text-primary); background: #fff; font-size: 16px; line-height: 1.5; letter-spacing: 0;
+    }
+    .ibm :is(h1, h2, h3, h4) { font-family: 'IBM Plex Sans', system-ui, sans-serif; letter-spacing: 0; color: var(--cds-text-primary); margin: 0; }
+    .ibm a { color: var(--cds-link); text-decoration: none; }
+    .ibm a:hover { color: var(--cds-link-hover); text-decoration: underline; }
+    .ibm .mono { font-family: 'IBM Plex Mono', ui-monospace, Menlo, monospace; }
+    .masthead { position: sticky; top: 0; z-index: 10; height: 48px; background: #161616; display: flex; align-items: center; padding: 0 16px; gap: 32px; }
+    .ibm .masthead .brand { color: #fff; font-size: 14px; font-weight: 600; letter-spacing: .16px; white-space: nowrap; }
+    .masthead .brand span { font-weight: 400; color: #c6c6c6; }
+    .masthead nav { display: flex; height: 48px; overflow-x: auto; scrollbar-width: none; }
+    .ibm .masthead nav a { color: #c6c6c6; font-size: 14px; letter-spacing: .16px; padding: 0 16px; display: flex; align-items: center; white-space: nowrap; }
+    .ibm .masthead nav a:hover { color: #fff; background: #262626; text-decoration: none; }
+    .wrap { max-width: 1584px; margin: 0 auto; padding: 0 32px; }
+    .hero { padding-top: 48px; padding-bottom: 48px; border-bottom: 1px solid var(--cds-layer-02); }
+    .crumbs { font-size: 12px; letter-spacing: .32px; color: var(--cds-text-helper); margin-bottom: 24px; }
+    .eyebrow { font-size: 12px; letter-spacing: .32px; color: var(--cds-text-secondary); text-transform: uppercase; margin-bottom: 16px; }
+    .ibm h1 { font-size: 54px; line-height: 1.17; font-weight: 300; max-width: 1100px; }
+    .lede { font-size: 20px; line-height: 1.4; font-weight: 300; color: var(--cds-text-secondary); max-width: 960px; margin: 24px 0 0; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--cds-layer-02); margin-top: 48px; border: 1px solid var(--cds-layer-02); }
+    .ibm .stat { background: var(--cds-layer-01); padding: 16px; display: block; color: inherit; }
+    .ibm a.stat:hover { background: var(--cds-layer-hover); text-decoration: none; }
+    .stat .n { font-size: 42px; font-weight: 300; line-height: 1.19; }
+    .stat .l { font-size: 14px; letter-spacing: .16px; color: var(--cds-text-secondary); }
+    .ibm .stat.total { background: #161616; color: #fff; }
+    .stat.total .l { color: #c6c6c6; }
+    .pager { display: flex; justify-content: space-between; margin-top: 24px; font-size: 14px; letter-spacing: .16px; }
+    .ibm section { padding: 48px 0; }
+    .ibm section.alt { background: var(--cds-layer-01); }
+    .ibm h2 { font-size: 32px; line-height: 1.25; font-weight: 400; margin-bottom: 8px; }
+    .sub { font-size: 14px; letter-spacing: .16px; color: var(--cds-text-secondary); margin: 0 0 32px; }
+    .themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px; }
+    .tile { background: #fff; padding: 24px; display: flex; flex-direction: column; gap: 12px; border-top: 2px solid var(--cds-link); }
+    .tile .num { font-size: 12px; letter-spacing: .32px; color: var(--cds-text-helper); }
+    .ibm .tile h3 { font-size: 20px; line-height: 1.4; font-weight: 600; }
+    .tile p { font-size: 14px; line-height: 1.43; letter-spacing: .16px; color: var(--cds-text-secondary); margin: 0; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
+    .ibm .tag { display: inline-block; background: var(--cds-blue-10); color: var(--cds-link); font-size: 12px; padding: 4px 8px; border-radius: 24px; line-height: 16px; white-space: nowrap; }
+    .ibm a.tag:hover { background: #d0e2ff; text-decoration: none; }
+    .ep { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--cds-layer-02); scroll-margin-top: 56px; }
+    .ep:first-of-type { border-top: 2px solid var(--cds-text-primary); }
+    .ep:target { background: var(--cds-blue-10); outline: 2px solid var(--cds-link); outline-offset: -2px; }
+    .ep .d { font-size: 14px; letter-spacing: .16px; color: var(--cds-text-secondary); padding-left: 8px; scroll-margin-top: 56px; }
+    .ep .d b { display: block; font-weight: 400; font-size: 18px; line-height: 1.3; color: var(--cds-text-primary); }
+    .ibm .ep h4 { font-size: 16px; font-weight: 600; line-height: 1.5; }
+    .ep .meta { font-size: 12px; letter-spacing: .32px; color: var(--cds-text-helper); margin: 4px 0 8px; min-height: 4px; }
+    .ep p { font-size: 14px; line-height: 1.43; letter-spacing: .16px; color: var(--cds-text-secondary); max-width: 960px; margin: 0; }
+    .ep .src { color: var(--cds-text-helper); font-style: italic; }
+    .links { display: flex; gap: 16px; margin-top: 12px; font-size: 14px; letter-spacing: .16px; }
+    .links a::after { content: " \2192"; }
+    .ibm section.dark { background: #161616; color: #f4f4f4; padding: 40px 0; }
+    .ibm .dark h2 { color: #fff; }
+    .dark .sub { color: #c6c6c6; margin-bottom: 16px; }
+    .why { font-size: 20px; line-height: 1.4; font-weight: 300; color: #f4f4f4; max-width: 960px; margin: 0; border-left: 3px solid #78a9ff; padding-left: 16px; }
+    .foot { padding-top: 32px; padding-bottom: 48px; font-size: 12px; letter-spacing: .32px; color: var(--cds-text-helper); }
+    @media (max-width: 1056px) { .ibm h1 { font-size: 42px; line-height: 1.19; } }
+    @media (max-width: 672px) {
+        .wrap { padding: 0 16px; }
+        .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .ibm h1 { font-size: 30px; line-height: 1.25; }
+        .hero { padding-top: 32px; padding-bottom: 32px; }
+        .ep { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+        .ep .d { padding-left: 0; }
+        .masthead { gap: 8px; }
+        .masthead .brand span { display: none; }
+        .why { font-size: 17px; }
+    }
+</style>

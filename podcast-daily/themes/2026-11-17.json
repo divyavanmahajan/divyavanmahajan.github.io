@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-17",
+ "episodeCount": 1,
+ "headline": "NLW compared enterprise AI studies from Ramp, Databricks and Arcana Research that show token usage growing far faster than spend and Anthropic leading enterprise share, with 68.8% of proprietary model tokens on Databricks' gateway. In the headlines, Nvidia's board ruled out Jensen Huang's return.",
+ "themes": [
+  {
+   "title": "Enterprise AI usage outpaces spend",
+   "body": "NLW compares three studies. Ramp found token usage up 36% over the past month while spend rose only 2%, with 72% of AI spend coming from engineering teams. Databricks reports a 281x gap between its 99th percentile and median user and argues cost per successful task will matter more than token price. Arcana found two-thirds of leaders lacked visibility into model and API spend.",
+   "eps": ["aidb/2026-11-17"]
+  },
+  {
+   "title": "Nvidia board rules out Huang",
+   "body": "NLW cites a CNBC source saying Nvidia's board is focused on its investigation into Jensen Huang, run by Wachtell Lipton, and is not discussing his return, despite a petition with 180,000 signatures including Elon Musk and Tim Sweeney. He also notes a WSJ report that Huang demanded upfront payments for chips from neocloud bosses at a Berlin meeting.",
+   "eps": ["aidb/2026-11-17"]
+  }
+ ],
+ "whyItMatters": "With token usage rising faster than spend, a 281x gap between heavy and median users and two-thirds of leaders unable to see model spend, cost per successful task and usage visibility belong in AI governance now."
+}

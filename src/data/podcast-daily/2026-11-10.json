@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-10",
+ "month": "2026-11",
+ "weekday": "Tuesday",
+ "generated": "2026-11-28",
+ "episodeCount": 4,
+ "counts": {
+  "aidb": 1,
+  "cognitive-revolution": 1,
+  "latent-space": 1,
+  "lex-fridman": 1
+ },
+ "headline": "Anthropic's new flagship Fable 5.2 led the day: NLW calls it record-setting but jagged and is not switching yet. Elsewhere, Resend's founder explained how to build products that agents can use, and Goodfire argued that individual neurons in language models are more readable than assumed.",
+ "themes": [
+  {
+   "title": "Fable 5.2: strong but jagged",
+   "body": "NLW reports that Fable 5.2 scored 65 on the Artificial Analysis Intelligence Index, five points ahead of Gemini Carbon and six ahead of Opus 5.5, and that Anthropic cut its token prices by 20 percent to $8 input and $40 output per million. He finds it powerful but unable to judge what humans find interesting, and says many users still prefer Opus 5.5 for most tasks.",
+   "eps": [
+    "aidb/2026-11-10-fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet"
+   ]
+  },
+  {
+   "title": "Designing products for agents",
+   "body": "Resend founder Zeno Rocha tells Latent Space he wants his email product to be 'formless', which is why it has always been API first and now offers an 80-tool MCP server and a CLI. Because LLMs do not run JavaScript widgets, Resend spells data out in text; a model got its pricing wrong until he added a markdown pricing page. Resend reports 120,000 paid customers.",
+   "eps": [
+    "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend"
+   ]
+  },
+  {
+   "title": "Reading individual neurons",
+   "body": "Goodfire's Curt Tigges tells Nathan Labenz on The Cognitive Revolution that individual MLP neurons are more interpretable than the field has thought, and that polysemantic neurons usually carry a compact set of meanings. Goodfire's agentic Neuron Scientist runs contrastive experiments like a human researcher. Tigges cautions that understanding every neuron is not enough: reverse engineering a model requires understanding circuits.",
+   "eps": [
+    "cognitive-revolution/2026-11-10-the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemantic"
+   ]
+  },
+  {
+   "title": "The Russia-Ukraine war in year five",
+   "body": "On Lex Fridman, analyst Michael Kofman says 2026 is Ukraine's best year of ground combat since the summer 2023 offensive and Russia's worst since winter 2023. He and Preston Stewart cover drone warfare, the Wagner mutiny and Putin's role, and both judge the Trump administration's engagement fitful, with Stewart saying the US ceded its leading position.",
+   "eps": [
+    "lex-fridman/2026-11-10-ukraine-war-preston-stewart-michael-kofman-russia-ukraine-war-putin-ze"
+   ]
+  }
+ ],
+ "whyItMatters": "If AI assistants increasingly read documentation and call APIs on behalf of users, products need machine-readable pages and agent-ready interfaces, and model choice should rest on fit for the task rather than benchmark rank alone.",
+ "themesEpisodeCount": 4,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-10-fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-10",
+   "slug": "fable-52-is-the-best-ai-ever-so-why-am-i-not-switching-yet",
+   "title": "Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?",
+   "url": "https://www.patreon.com/posts/174972208",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW reviews Anthropic's new flagship Fable 5.2 and Mythos 5.2: record benchmarks, pricing and effort settings, showcase demos like a from-scratch operating system and scientific results, and early community impressions. He finds it powerful but jagged, struggling with judgment about what humans find interesting, with many users still preferring Opus 5.5 for most tasks.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "cognitive-revolution/2026-11-10-the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemantic",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-10",
+   "slug": "the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemantic",
+   "title": "The Neuron Basis: Goodfire's Curt Tigges on Agentic Interp, Monosemanticity & Reverse Engineering",
+   "url": "https://www.cognitiverevolution.ai/the-neuron-basis-goodfire-s-curt-tigges-on-agentic-interp-monosemanticity-reverse-engineering/",
+   "youtube": "https://www.youtube.com/watch?v=hqXYtqQq50g",
+   "guests": [
+    "Curt Tigges"
+   ],
+   "durationMin": 116,
+   "summary": "Nathan Labenz interviews Goodfire's Curt Tigges about the paper 'Neurons as an Interpretable Basis', which argues individual MLP neurons in LLMs are far more interpretable than assumed. They cover the Qwen 3.6-35B-A3B architecture and SwiGLU gating, activation sparsity experiments, the agentic Neuron Scientist, expert specialization, factual recall, and the path toward ambitious reverse engineering.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-10-designing-for-agents-zeno-rocha-resend",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-10",
+   "slug": "designing-for-agents-zeno-rocha-resend",
+   "title": "Designing for Agents — Zeno Rocha, Resend",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/designing_for_agents_zeno_rocha_resend",
+   "youtube": null,
+   "guests": [
+    "Zeno Rocha"
+   ],
+   "durationMin": 86,
+   "summary": "Resend founder Zeno Rocha discusses the infrastructure and anti-abuse work behind email deliverability, Resend's move off AWS SES, and its growth against SendGrid. He explains designing for AI agents through an 80-tool MCP server, CLI and machine-readable pages, his answer engine optimization tactics, and balancing founding a company with family.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "lex-fridman/2026-11-10-ukraine-war-preston-stewart-michael-kofman-russia-ukraine-war-putin-ze",
+   "show": "lex-fridman",
+   "showName": "Lex Fridman Podcast",
+   "date": "2026-11-10",
+   "slug": "ukraine-war-preston-stewart-michael-kofman-russia-ukraine-war-putin-ze",
+   "title": "#504 – Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare",
+   "url": "https://lexfridman.com/ukraine-war-preston-stewart-michael-kofman/",
+   "youtube": "https://www.youtube.com/watch?v=2hJkprFnzhY",
+   "guests": [
+    "Michael Kofman",
+    "Preston Stewart"
+   ],
+   "durationMin": 181,
+   "summary": "Military analysts Michael Kofman and Preston Stewart assess the Russia-Ukraine war in its fifth year: Ukraine's improved 2026 battlefield performance, Russia's strike campaign, drone warfare and the kill zone, and Russian infiltration tactics. They revisit the 2022 invasion, the Battle of Bakhmut, Prigozhin's Wagner mutiny, Putin and Zelenskyy as commanders in chief, the Trump administration's handling of the war, and the prospects for a ceasefire.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

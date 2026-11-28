@@ -1,0 +1,126 @@
+{
+ "date": "2026-10-29",
+ "month": "2026-10",
+ "weekday": "Thursday",
+ "generated": "2026-11-28",
+ "episodeCount": 4,
+ "counts": {
+  "aidb": 1,
+  "no-priors": 1,
+  "practical-ai": 1,
+  "pragmatic-engineer": 1
+ },
+ "headline": "Practitioners on No Priors, Practical AI and The Pragmatic Engineer made the same point from different angles: agents in the enterprise need deterministic guardrails and tooling, not better prompts. NLW, meanwhile, covered Artificial Analysis's reworked Intelligence Index, which puts Google's Gemini 4 Carbon in first place.",
+ "themes": [
+  {
+   "title": "Benchmark rankings reshuffled",
+   "body": "NLW explains Artificial Analysis's Intelligence Index V5, which for the first time builds most benchmarks on private datasets and weights four categories equally. Google's Gemini 4 Carbon scored 59, a 9-point jump that puts it ahead of Opus 5.5 in first, at $7.76 per task. NLW argues benchmarks are limited but important; critics note leaderboards run at max settings nobody uses in practice.",
+   "eps": [
+    "aidb/2026-10-29-the-ai-rankings-just-got-reshuffled"
+   ]
+  },
+  {
+   "title": "Coding agents for enterprise IT",
+   "body": "Serval CEO Jake Stauch tells No Priors his two-and-a-half-year-old, 200-person company is going after ServiceNow, which he calls a workflow automation platform that AI code generation can beat. He argues code expresses enterprise automation better than drag-and-drop builders, and that Serval's product is the guardrails rather than the LLMs: deterministic approvals, just-in-time access and audit trails.",
+   "eps": [
+    "no-priors/2026-10-29-taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found"
+   ]
+  },
+  {
+   "title": "Guardrails and least privilege",
+   "body": "Stauch predicts agents will push enterprises to cut everyone's permissions to true least privilege. On Practical AI, Heidi Porter warns that a rule written in a prompt is not deterministically enforced, advises reversible actions or approvals, and says workflows often fail because the LLM was asked to do too much. Kevin Solorio adds that an agent without evals is only a proof of concept.",
+   "eps": [
+    "no-priors/2026-10-29-taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found",
+    "practical-ai/2026-10-29-abundant-intelligence-at-the-midwest-ai-summit"
+   ]
+  },
+  {
+   "title": "AI amplifies the team",
+   "body": "Chris Shinkle of SEP cites the 2025 DORA report to argue AI amplifies what is already in a team, and Andrew Dunlap lists six constraints, from token budget to code oversight, for choosing a level of agent autonomy; one banking app port saw a six-times effort reduction. Titus Winters tells The Pragmatic Engineer that software engineering stays a team sport even with agents.",
+   "eps": [
+    "practical-ai/2026-10-29-abundant-intelligence-at-the-midwest-ai-summit",
+    "pragmatic-engineer/2026-10-29-software-engineering-at-google-cs-education-with-titus-winters"
+   ]
+  },
+  {
+   "title": "Deterministic tools for large rewrites",
+   "body": "Winters describes Google's Abseil cleanup of a 250-million-line C++ codebase by 10-12 people, which he calls probably the largest refactoring in history, using parse-tree matching and edits sharded by directory. He says the field is converging on deterministic rewrite tools whose configuration AI writes, rather than constant inference, and argues the CS curriculum should refocus on design, specification and testing.",
+   "eps": [
+    "pragmatic-engineer/2026-10-29-software-engineering-at-google-cs-education-with-titus-winters"
+   ]
+  }
+ ],
+ "whyItMatters": "Guardrails enforced in code rather than prompts, least-privilege access and AI-written deterministic tooling are emerging as the practical pattern for putting agents into enterprise workflows, while benchmark rankings move too fast to anchor model choices on their own.",
+ "themesEpisodeCount": 4,
+ "episodes": [
+  {
+   "key": "aidb/2026-10-29-the-ai-rankings-just-got-reshuffled",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-10-29",
+   "slug": "the-ai-rankings-just-got-reshuffled",
+   "title": "The AI Rankings Just Got Reshuffled",
+   "url": "https://www.patreon.com/posts/173785026",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Google's Gemini 4 Carbon launch, Microsoft and Google cloud earnings with signs of a CapEx slowdown, and a broadening DOJ antitrust probe of Nvidia. The main episode explains Artificial Analysis's Intelligence Index V5, its shift to private and agentic benchmarks, the resulting reshuffled rankings and a widening open-weights gap.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "no-priors/2026-10-29-taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found",
+   "show": "no-priors",
+   "showName": "No Priors",
+   "date": "2026-10-29",
+   "slug": "taking-on-servicenow-coding-agents-the-rest-of-us-with-serval-co-found",
+   "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+   "url": "https://www.youtube.com/watch?v=EZcWEsMuLb4",
+   "youtube": "https://www.youtube.com/watch?v=EZcWEsMuLb4",
+   "guests": [
+    "Jake Stauch"
+   ],
+   "durationMin": 38,
+   "summary": "Serval co-founder and CEO Jake Stauch explains how Serval brings code-generation agents to enterprise IT teams to challenge ServiceNow as the system of record for service management and automation, with deterministic approvals, just-in-time access and audit trails as the guardrails. He covers the ProServal automation-engineering team, the Catalyst admin agent, token-spend ROI, why the SaaS-pocalypse will mostly hit point solutions, background agents as a moonshot, and running a product-oriented engineering team without a product function.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "practical-ai/2026-10-29-abundant-intelligence-at-the-midwest-ai-summit",
+   "show": "practical-ai",
+   "showName": "Practical AI",
+   "date": "2026-10-29",
+   "slug": "abundant-intelligence-at-the-midwest-ai-summit",
+   "title": "Abundant Intelligence at the Midwest AI Summit",
+   "url": "https://share.transistor.fm/s/37a0c3e9",
+   "youtube": "https://www.youtube.com/watch?v=pLNuhMQMxd8",
+   "guests": [
+    "Kevin Solorio",
+    "Heidi Porter",
+    "Chris Shinkle",
+    "Andrew Dunlap"
+   ],
+   "durationMin": 54,
+   "summary": "Daniel Whitenack presents three talks from the second Midwest AI Summit. Heidi Porter of Moyer Group AI covers durable AI-augmented workflows using the right mechanism per task plus guardrails, evals and observability; Kevin Solorio of Focused explains building agents with blue-collar workers to earn adoption; and Chris Shinkle and Andrew Dunlap of SEP present a constraints-based framework for choosing a team's level of agentic autonomy, from individual coding to a dark factory.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-10-29-software-engineering-at-google-cs-education-with-titus-winters",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-10-29",
+   "slug": "software-engineering-at-google-cs-education-with-titus-winters",
+   "title": "Software engineering at Google & CS education with Titus Winters",
+   "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+   "youtube": "https://www.youtube.com/watch?v=mQu0zN4IvSI",
+   "guests": [
+    "Titus Winters"
+   ],
+   "durationMin": 100,
+   "summary": "Titus Winters, lead author of Software Engineering at Google and now at Adobe, describes Google's mandatory testing, the Abseil cleanup of a 250-million-line C++ codebase with compiler-assisted refactoring, and the readability program. He discusses teams and psychological safety, layoffs, why productivity metrics miss AI's biggest value, and why the undergraduate CS curriculum he helped set should largely be burned down and refocused on design, specification, testing and teamwork.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

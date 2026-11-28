@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-09",
+ "month": "2026-11",
+ "weekday": "Monday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "latent-space": 1
+ },
+ "headline": "NLW led with Jensen Huang's admitted affair with Megaspeed executive Alice Huang, whom US intelligence reportedly suspects of spying for China, and what it means for chip export controls. Latent Space looked at the fast-growing market for expert-authored AI training data.",
+ "themes": [
+  {
+   "title": "Nvidia's CEO and a spy scandal",
+   "body": "NLW reports that Jensen Huang confessed an affair in a company-wide email, and that the NYT says a White House memo identified Alice Huang as a spy for China's MSS. Nvidia's board opened an independent investigation but sees no reason to believe secrets were compromised. Analyst Andrew Liu argues the scandal aims to discredit Huang's lobbying against sanctions and reverse H200 approvals.",
+   "eps": [
+    "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy"
+   ]
+  },
+  {
+   "title": "Funding and compute deals shift",
+   "body": "In his headlines, NLW reports that Anthropic is going ahead with its IPO at falling valuations and that OpenAI closed a smaller funding round. He also notes Microsoft ending an Oracle compute deal, Google taking over a Crusoe data center site, and Nvidia requiring Southeast Asian data centers to enroll in its fleet intelligence GPU tracking system, alongside lab leaders hinting at accelerating AI-driven science.",
+   "eps": [
+    "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy"
+   ]
+  },
+  {
+   "title": "What frontier labs buy",
+   "body": "Garrett Lord and the Handshake AI team tell Latent Space the training data market was $1 billion three years ago, is $10 billion now and will likely reach $100 billion in three years. They say all models score 50% or worse on their Vials life sciences benchmark and under 20% on the Atlas finance benchmark, and that purely synthetic environment data produces slop without expert steering.",
+   "eps": [
+    "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord"
+   ]
+  }
+ ],
+ "whyItMatters": "Chip supply now carries geopolitical and governance risk, and models still score poorly on expert finance and life sciences tasks, so leaders should plan for supply uncertainty and test domain performance with their own expert-built evaluations.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-09-nvidia-ceo-admits-affair-with-suspected-chinese-spy",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-09",
+   "slug": "nvidia-ceo-admits-affair-with-suspected-chinese-spy",
+   "title": "Nvidia CEO Admits Affair With Suspected Chinese Spy",
+   "url": "https://www.patreon.com/posts/174864917",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "Headlines cover Anthropic proceeding with its IPO at falling valuations, OpenAI closing a smaller funding round, Microsoft ending an Oracle compute deal, Google taking over a Crusoe data center site, and lab leaders hinting at accelerating AI-driven science. The main episode covers Jensen Huang's admitted affair with Megaspeed executive Alice Huang, suspected by US intelligence of being a Chinese spy, and its geopolitical, export-control and market implications.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-09-what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-09",
+   "slug": "what-frontier-labs-buy-a-data-deep-dive-with-handshake-ai-garrett-lord",
+   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/what_frontier_labs_buy_a_data_deep_dive_with_handshake_ai_garrett_lord_team",
+   "youtube": null,
+   "guests": [
+    "Garrett Lord"
+   ],
+   "durationMin": 164,
+   "summary": "Garrett Lord and Handshake AI team members explain how frontier labs buy expert-authored data, RL environments, rubrics and evals. Experts walk through the Vials life sciences benchmark, the Atlas finance benchmark and Care Bench plus agentic safety tests, and discuss the data market's growth and enterprise adoption.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

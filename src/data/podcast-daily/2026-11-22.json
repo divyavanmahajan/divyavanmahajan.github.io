@@ -1,0 +1,72 @@
+{
+ "date": "2026-11-22",
+ "month": "2026-11",
+ "weekday": "Sunday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "aidb": 1,
+  "moonshots-diamandis": 1
+ },
+ "headline": "Anthropic stayed at the centre of the conversation: NLW examined a Center for AI Safety statement against the company and the idea of labs rivalling nations, while the Moonshots hosts tracked its post-IPO slide and Elon Musk's SpaceX compute plans.",
+ "themes": [
+  {
+   "title": "Anthropic's power and its stock",
+   "body": "NLW covers the 'misanthropic statement' organized by the Center for AI Safety, whose signers include Thomas Wolf, who said Anthropic is on track to be the most powerful company on Earth. Bill Gurley argued founder views on 'handoverism' belong in its S-1 risk factors. On Moonshots, Diamandis reports the stock rose 17 percent on day one and fell 12 percent the next.",
+   "eps": [
+    "aidb/2026-11-22-when-ai-labs-rival-nations",
+    "moonshots-diamandis/2026-11-22-ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m"
+   ]
+  },
+  {
+   "title": "SpaceX as a compute supplier",
+   "body": "Diamandis reports Musk said SpaceX adds about 500 MW of AI compute a month, expects to pass 1 GW a month by end of 2027, and builds at roughly 60 percent of industry cost. Musk said Anthropic told him its most likely outcome is wanting an extra 10 GW from SpaceX. Guest Steve Jurvetson recalled his partnership first voting down his SpaceX investment.",
+   "eps": [
+    "moonshots-diamandis/2026-11-22-ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m"
+   ]
+  },
+  {
+   "title": "Where value moves in enterprise AI",
+   "body": "On NLW's Long Read Sunday, Yoni Rechtman argues that data, models and inference are commoditizing while delivering a business outcome is not, so every company in the chain is converging on enterprise AI transformation. Jacob Lauritzen argues coding agents are creating tension in software engineering, and that human judgment on systems design and coding standards is about to face a bitter lesson moment.",
+   "eps": [
+    "aidb/2026-11-22-when-ai-labs-rival-nations"
+   ]
+  }
+ ],
+ "whyItMatters": "If models and inference commoditize while outcomes do not, technology leaders should weigh vendors on delivered results and governance disclosures, and expect agents to challenge the design standards their teams currently own.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-22-when-ai-labs-rival-nations",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-22",
+   "slug": "when-ai-labs-rival-nations",
+   "title": "When AI Labs Rival Nations",
+   "url": "https://www.patreon.com/posts/176053678",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "A Long Read Sunday episode covering the Center for AI Safety-organized 'misanthropic statement' against Anthropic around its IPO, and NLW's argument that AI companies challenge the balance between state and private power. It introduces the debate over 'handoverism', Yoni Rechtman's claim that every company is converging on enterprise AI transformation, and Jacob Lauritzen's argument that the bitter lesson is coming for software engineering and agent organization.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-22-ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-22",
+   "slug": "ai-market-shocks-anthropics-stock-slide-gemini-releases-and-elons-435m",
+   "title": "AI Market Shocks, Anthropic’s Stock Slide, Gemini Releases, and Elon’s $435M Bet | #314",
+   "url": "https://www.youtube.com/watch?v=_7FICfOHTV8",
+   "youtube": "https://www.youtube.com/watch?v=_7FICfOHTV8",
+   "guests": [
+    "Steve Jurvetson"
+   ],
+   "durationMin": 132,
+   "summary": "The Moonshot Mates, with Emad Mostaque and guest venture capitalist Steve Jurvetson, discuss Jurvetson's near-miss SpaceX investment, Anthropic's IPO and post-IPO slide, AI cyberattack fears and Sam Altman's warning against a gradual handover to AI. They also cover Google's Gemini 4 Neon, Elon Musk's SpaceX disclosures (compute build-out, Anthropic deal, Starlink, Terafab, Optimus, space solar), and Voyager 1 passing one light-day from Earth.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

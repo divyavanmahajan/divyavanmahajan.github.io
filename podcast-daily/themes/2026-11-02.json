@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-02",
+ "episodeCount": 2,
+ "headline": "Quality of AI-assisted work ran through both shows: on The AI Daily Brief, Nufar laid out how to stop producing AI slop, while Legora CTO Jacob Lauritzen told Latent Space how his legal AI company runs evals without ever seeing its customers' confidential data.",
+ "themes": [
+  {
+   "title": "Fighting AI slop at work",
+   "body": "Nufar defines slop as work where the person who should have done the thinking skipped it, moving the cost to the receiver. The episode cites a Stanford workslop study update finding about 40% of US desk workers received sloppy work in the past month. Nufar's first rule is to know what you think before opening the tool, and she recommends an AI 'board' of distinct personas to review important work.",
+   "eps": ["aidb/2026-11-02"]
+  },
+  {
+   "title": "Building legal agents blind",
+   "body": "Lauritzen says Legora began as ChatGPT with Swedish laws and a search tool and is now an agent platform. Because it cannot look at confidential client traces, its evals team approximates usage. Legora tracks models in a heat map across practice areas and finds releases often improve some tasks while regressing others; one citation problem went from 70% to 99% with a new model alone.",
+   "eps": ["latent-space/2026-11-02"]
+  },
+  {
+   "title": "Human judgment as the premium",
+   "body": "Nufar predicts handmade work will become premium, with people paying more for a human fingerprint, and NLW describes how he splits human and AI roles on his new show How We Got Here. Lauritzen makes a related point about workflow design: Legora's Tabular Review runs the first 10 rows first so users can check and iterate before running at scale.",
+   "eps": ["aidb/2026-11-02", "latent-space/2026-11-02"]
+  }
+ ],
+ "whyItMatters": "Evaluating AI output is now core engineering work: teams need review checkpoints before scaling, per-task model evals that catch regressions, and ways to test against sensitive data they cannot inspect."
+}

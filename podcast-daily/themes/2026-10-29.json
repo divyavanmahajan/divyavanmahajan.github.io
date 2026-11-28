@@ -1,0 +1,33 @@
+{
+ "date": "2026-10-29",
+ "episodeCount": 4,
+ "headline": "Practitioners on No Priors, Practical AI and The Pragmatic Engineer made the same point from different angles: agents in the enterprise need deterministic guardrails and tooling, not better prompts. NLW, meanwhile, covered Artificial Analysis's reworked Intelligence Index, which puts Google's Gemini 4 Carbon in first place.",
+ "themes": [
+  {
+   "title": "Benchmark rankings reshuffled",
+   "body": "NLW explains Artificial Analysis's Intelligence Index V5, which for the first time builds most benchmarks on private datasets and weights four categories equally. Google's Gemini 4 Carbon scored 59, a 9-point jump that puts it ahead of Opus 5.5 in first, at $7.76 per task. NLW argues benchmarks are limited but important; critics note leaderboards run at max settings nobody uses in practice.",
+   "eps": ["aidb/2026-10-29"]
+  },
+  {
+   "title": "Coding agents for enterprise IT",
+   "body": "Serval CEO Jake Stauch tells No Priors his two-and-a-half-year-old, 200-person company is going after ServiceNow, which he calls a workflow automation platform that AI code generation can beat. He argues code expresses enterprise automation better than drag-and-drop builders, and that Serval's product is the guardrails rather than the LLMs: deterministic approvals, just-in-time access and audit trails.",
+   "eps": ["no-priors/2026-10-29"]
+  },
+  {
+   "title": "Guardrails and least privilege",
+   "body": "Stauch predicts agents will push enterprises to cut everyone's permissions to true least privilege. On Practical AI, Heidi Porter warns that a rule written in a prompt is not deterministically enforced, advises reversible actions or approvals, and says workflows often fail because the LLM was asked to do too much. Kevin Solorio adds that an agent without evals is only a proof of concept.",
+   "eps": ["no-priors/2026-10-29", "practical-ai/2026-10-29"]
+  },
+  {
+   "title": "AI amplifies the team",
+   "body": "Chris Shinkle of SEP cites the 2025 DORA report to argue AI amplifies what is already in a team, and Andrew Dunlap lists six constraints, from token budget to code oversight, for choosing a level of agent autonomy; one banking app port saw a six-times effort reduction. Titus Winters tells The Pragmatic Engineer that software engineering stays a team sport even with agents.",
+   "eps": ["practical-ai/2026-10-29", "pragmatic-engineer/2026-10-29"]
+  },
+  {
+   "title": "Deterministic tools for large rewrites",
+   "body": "Winters describes Google's Abseil cleanup of a 250-million-line C++ codebase by 10-12 people, which he calls probably the largest refactoring in history, using parse-tree matching and edits sharded by directory. He says the field is converging on deterministic rewrite tools whose configuration AI writes, rather than constant inference, and argues the CS curriculum should refocus on design, specification and testing.",
+   "eps": ["pragmatic-engineer/2026-10-29"]
+  }
+ ],
+ "whyItMatters": "Guardrails enforced in code rather than prompts, least-privilege access and AI-written deterministic tooling are emerging as the practical pattern for putting agents into enterprise workflows, while benchmark rankings move too fast to anchor model choices on their own."
+}

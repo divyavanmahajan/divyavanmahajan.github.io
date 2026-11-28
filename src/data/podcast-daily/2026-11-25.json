@@ -1,0 +1,97 @@
+{
+ "date": "2026-11-25",
+ "month": "2026-11",
+ "weekday": "Wednesday",
+ "generated": "2026-11-28",
+ "episodeCount": 3,
+ "counts": {
+  "aidb": 1,
+  "latent-space": 1,
+  "pragmatic-engineer": 1
+ },
+ "headline": "Two engineering conversations showed how AI labs now build software with their own models: Anthropic's Katelyn Lesse described a Rust rewrite of the Messages API, and Thariq Shihipar, leaving Anthropic for OpenAI, argued for keeping humans in the loop. NLW offered a guide to the AI questions likely at Thanksgiving dinner.",
+ "themes": [
+  {
+   "title": "How Anthropic rebuilds its platform",
+   "body": "Katelyn Lesse, who leads Claude Platform engineering, tells The Pragmatic Engineer that every Claude token runs through the Messages API, which the team rewrote from Python to Rust using shadow traffic. She argues Rust was viable without in-house experts because models now handle implementation details. Claude Managed Agents was redesigned to run the harness on a durable server and spawn sandboxes only when work needs executing.",
+   "eps": [
+    "pragmatic-engineer/2026-11-25-how-anthropic-builds-software-in-2026-with-katelyn-lesse"
+   ]
+  },
+  {
+   "title": "Keeping humans in the loop",
+   "body": "Thariq Shihipar, formerly of Anthropic and now joining OpenAI, tells Latent Space that 2026 was the year of software factories and a renaissance of software comes next. His '/human' folder uses a scripting language whose lint rules make files read like specs. The host says slop arises when humans do not dogfood enough. Shihipar also argues harnesses under-use decision models, suggesting them for support bots.",
+   "eps": [
+    "latent-space/2026-11-25-the-revolution-vs-the-renaissance-thariq-shihipar-openai"
+   ]
+  },
+  {
+   "title": "Agents change engineering roles",
+   "body": "Lesse and Gergely Orosz discuss how agents change code review, on-call, onboarding, team structure and promotions, including PMs shipping code, the phased-out coding interview and an engineer identity crisis. Lesse notes Anthropic engineers have no titles, only numeric levels. Shihipar argues recursive self-improvement will turn AI research into knowledge work, though he questions whether fully headless self-improvement is the best option.",
+   "eps": [
+    "pragmatic-engineer/2026-11-25-how-anthropic-builds-software-in-2026-with-katelyn-lesse",
+    "latent-space/2026-11-25-the-revolution-vs-the-renaissance-thariq-shihipar-openai"
+   ]
+  },
+  {
+   "title": "Answering AI skeptics",
+   "body": "NLW walks through roughly 15 questions family members may ask about AI, from jobs and cheating to the bubble and the US-China race. He says he does not believe AI will take all jobs, citing institutional inertia, and frames the bubble as demand and pricing against infrastructure spending. He flags concentration risk, with much Anthropic and OpenAI revenue coming from a handful of buyers.",
+   "eps": [
+    "aidb/2026-11-25-how-to-talk-about-ai-at-thanksgiving"
+   ]
+  }
+ ],
+ "whyItMatters": "If model-assisted teams can rewrite core services in an unfamiliar language and restructure review, on-call and hiring around agents, technology leaders should revisit language choices, architecture decisions and role design, while keeping human feedback loops in place to limit low-quality output.",
+ "themesEpisodeCount": 3,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-25-how-to-talk-about-ai-at-thanksgiving",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-25",
+   "slug": "how-to-talk-about-ai-at-thanksgiving",
+   "title": "How to Talk About AI at Thanksgiving",
+   "url": "https://www.patreon.com/posts/176387665",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "NLW walks through roughly 15 questions skeptical family members are likely to ask about AI at Thanksgiving, from jobs, cheating, kids and chatbots, the environment and the AI bubble to who controls AI, doom risk and the US–China race. He frames the moment as a phase transition in which broader society gains a say in AI's future and urges listeners to invite skeptics into the conversation.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "latent-space/2026-11-25-the-revolution-vs-the-renaissance-thariq-shihipar-openai",
+   "show": "latent-space",
+   "showName": "Latent Space",
+   "date": "2026-11-25",
+   "slug": "the-revolution-vs-the-renaissance-thariq-shihipar-openai",
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_revolution_vs_the_renaissance_thariq_shihipar_openai",
+   "youtube": null,
+   "guests": [
+    "Thariq Shihipar"
+   ],
+   "durationMin": 54,
+   "summary": "Recorded at AIE Code Summit, Thariq Shihipar (formerly Anthropic, now joining OpenAI) discusses his closing keynote framing AI as both an industrial revolution and a renaissance for software, and his '/human' scripting approach to keep humans in the feedback loop. The conversation covers decision models, personal software, multi-agent communication, recursive self-improvement turning research into knowledge work, and games as 'prosthetics for achievement'.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "pragmatic-engineer/2026-11-25-how-anthropic-builds-software-in-2026-with-katelyn-lesse",
+   "show": "pragmatic-engineer",
+   "showName": "The Pragmatic Engineer",
+   "date": "2026-11-25",
+   "slug": "how-anthropic-builds-software-in-2026-with-katelyn-lesse",
+   "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+   "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+   "youtube": "https://www.youtube.com/watch?v=9oNvKMd7xJo",
+   "guests": [
+    "Katelyn Lesse"
+   ],
+   "durationMin": 110,
+   "summary": "Gergely Orosz interviews Katelyn Lesse, who leads Claude Platform engineering at Anthropic, about rewriting the Python Messages API in Rust with shadow traffic, and re-architecting Claude Managed Agents. They cover how agents change code review, on-call, onboarding, team structure, PMs shipping code, the phased-out coding interview, promotions, and the engineer identity crisis.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

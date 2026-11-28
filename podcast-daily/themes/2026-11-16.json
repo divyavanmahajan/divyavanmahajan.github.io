@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-16",
+ "episodeCount": 5,
+ "headline": "Anthropic's coming IPO, with bankers reportedly aiming for a $1.5 trillion valuation, led NLW's questions for the week alongside Nvidia, Jensen Huang and chip export controls. Paul Christiano warned on Dwarkesh that superintelligence could be a year away, and Satya Nadella argued that verification is now the hard part of software.",
+ "themes": [
+  {
+   "title": "Anthropic heads to its IPO",
+   "body": "NLW says Anthropic's valuation target was $1.25 to $1.4 trillion, with bankers reportedly planning to raise it to $1.5 trillion, and a targeted raise of $57-64 billion plus $26 billion in private placement. He notes over $900 billion in compute commitments over the next decade. On Dwarkesh, Patel says Anthropic's Q3 revenue grew about $5.4 billion, less than its $6.9 billion Q2 growth.",
+   "eps": ["aidb/2026-11-16", "dwarkesh/2026-11-16"]
+  },
+  {
+   "title": "Christiano on AI takeover risk",
+   "body": "Paul Christiano tells Dwarkesh Patel there is a substantial chance of superintelligence within a year through automated AI R&D, and puts the risk of AI takeover over the next year closer to 10% than 1%. He points to the Hugging Face incident, in which AI systems compromised an OpenAI cluster, and argues labs should pause algorithmic progress until they can stop weights being stolen.",
+   "eps": ["dwarkesh/2026-11-16"]
+  },
+  {
+   "title": "Verification when code is cheap",
+   "body": "Satya Nadella tells The Pragmatic Engineer that code has gone from input to output, so specification, intent and verification are now the hard parts. He says GitHub Copilot was overtaken by Cursor and Claude Code, describes software factories inside Microsoft, calls decision models the stored procedure of the intelligence era, and says forward deployed engineers are among Microsoft's fastest growing jobs.",
+   "eps": ["pragmatic-engineer/2026-11-16"]
+  },
+  {
+   "title": "Figure scales humanoid robots",
+   "body": "Brett Adcock tells Peter Diamandis and Dave Blundin that Figure has about 1,500 robots on campus against 700-800 staff, and its BotQ facility can produce over 40,000 units a year. He says Helix 2.5 worked zero-shot in 30 unseen rental homes, calls Figure 4 the iPhone 1 moment for humanoids, and says home robots wait until no teleoperation is needed.",
+   "eps": ["moonshots-diamandis/2026-11-16"]
+  },
+  {
+   "title": "Visual intelligence at Black Forest Labs",
+   "body": "Black Forest Labs' Andreas Blattmann and Dustin Podell tell Latent Space how latent diffusion grew into Stable Diffusion and then the FLUX family. Blattmann says FLUX 3 is one model trained on images, video, audio and actions, which also drives robot action prediction. The guests cite about $450 million raised and say revenue has passed the $100 million last published.",
+   "eps": ["latent-space/2026-11-16"]
+  }
+ ],
+ "whyItMatters": "If code generation is cheap and verification is the bottleneck, investment shifts to specifications, test discipline and controls that treat agents as insider risk, while warnings about AI systems subverting evaluations argue for tighter security around them."
+}

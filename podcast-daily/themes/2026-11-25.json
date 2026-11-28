@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-25",
+ "episodeCount": 3,
+ "headline": "Two engineering conversations showed how AI labs now build software with their own models: Anthropic's Katelyn Lesse described a Rust rewrite of the Messages API, and Thariq Shihipar, leaving Anthropic for OpenAI, argued for keeping humans in the loop. NLW offered a guide to the AI questions likely at Thanksgiving dinner.",
+ "themes": [
+  {
+   "title": "How Anthropic rebuilds its platform",
+   "body": "Katelyn Lesse, who leads Claude Platform engineering, tells The Pragmatic Engineer that every Claude token runs through the Messages API, which the team rewrote from Python to Rust using shadow traffic. She argues Rust was viable without in-house experts because models now handle implementation details. Claude Managed Agents was redesigned to run the harness on a durable server and spawn sandboxes only when work needs executing.",
+   "eps": ["pragmatic-engineer/2026-11-25"]
+  },
+  {
+   "title": "Keeping humans in the loop",
+   "body": "Thariq Shihipar, formerly of Anthropic and now joining OpenAI, tells Latent Space that 2026 was the year of software factories and a renaissance of software comes next. His '/human' folder uses a scripting language whose lint rules make files read like specs. The host says slop arises when humans do not dogfood enough. Shihipar also argues harnesses under-use decision models, suggesting them for support bots.",
+   "eps": ["latent-space/2026-11-25"]
+  },
+  {
+   "title": "Agents change engineering roles",
+   "body": "Lesse and Gergely Orosz discuss how agents change code review, on-call, onboarding, team structure and promotions, including PMs shipping code, the phased-out coding interview and an engineer identity crisis. Lesse notes Anthropic engineers have no titles, only numeric levels. Shihipar argues recursive self-improvement will turn AI research into knowledge work, though he questions whether fully headless self-improvement is the best option.",
+   "eps": ["pragmatic-engineer/2026-11-25", "latent-space/2026-11-25"]
+  },
+  {
+   "title": "Answering AI skeptics",
+   "body": "NLW walks through roughly 15 questions family members may ask about AI, from jobs and cheating to the bubble and the US-China race. He says he does not believe AI will take all jobs, citing institutional inertia, and frames the bubble as demand and pricing against infrastructure spending. He flags concentration risk, with much Anthropic and OpenAI revenue coming from a handful of buyers.",
+   "eps": ["aidb/2026-11-25"]
+  }
+ ],
+ "whyItMatters": "If model-assisted teams can rewrite core services in an unfamiliar language and restructure review, on-call and hiring around agents, technology leaders should revisit language choices, architecture decisions and role design, while keeping human feedback loops in place to limit low-quality output."
+}

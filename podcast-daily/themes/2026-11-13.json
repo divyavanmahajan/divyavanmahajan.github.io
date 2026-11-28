@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-13",
+ "episodeCount": 2,
+ "headline": "NLW tracked how Jensen Huang's ouster from Nvidia has pushed chip export controls to the top of Washington's agenda, with hearings ahead. Practical AI looked at a quieter subject: using federated learning to train agents on private data.",
+ "themes": [
+  {
+   "title": "Washington moves on chip controls",
+   "body": "NLW says the Huang affair has galvanized a Cold War mentality in Washington and vaulted chip export controls, expected to attach to the NDAA, to the top of the agenda. Bloomberg reported Huang agreed to testify under oath in a closed-door hearing before Thanksgiving, which NLW expects to focus on what he knew about Megaspeed giving Chinese companies access to Nvidia chips.",
+   "eps": ["aidb/2026-11-13"]
+  },
+  {
+   "title": "Nvidia as financial backstop",
+   "body": "NLW notes that Nvidia stock lost 20 percent in the first three days of the saga, then bottomed when the resignation was announced. He points to the $500 billion financing vehicle Nvidia announced in August with six private equity firms, guaranteeing GPU residual value up to 25 percent of deal size, and asks what interim CEO Colette Kress means for that role.",
+   "eps": ["aidb/2026-11-13"]
+  },
+  {
+   "title": "Federated learning for private agents",
+   "body": "Lorenzo Sani of Flower Labs and Cambridge tells Practical AI that federated learning moves training to where the data is collected. He argues agent trajectories are private, since they hold user prompts and inputs from MCP servers and RAG systems, so federated learning is a natural way to train agents on them. He prefers open-weight models for privacy-heavy applications.",
+   "eps": ["practical-ai/2026-11-13"]
+  }
+ ],
+ "whyItMatters": "Export-control politics now reach directly into GPU supply and financing, and agent logs are emerging as sensitive data, so leaders should treat compute sourcing as a policy risk and agent trajectories as private data from the start."
+}

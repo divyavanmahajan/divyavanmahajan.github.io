@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-23",
+ "month": "2026-11",
+ "weekday": "Monday",
+ "generated": "2026-11-28",
+ "episodeCount": 1,
+ "counts": {
+  "aidb": 1
+ },
+ "headline": "Jensen Huang was reinstated as Nvidia CEO 11 days after resigning, with input from the White House, and NLW argues the episode marks a new kind of 'too big to fail' for AI and a shift in the balance between state and private power.",
+ "themes": [
+  {
+   "title": "Huang returns to Nvidia",
+   "body": "NLW recaps the scandal that pushed Huang out, including news of a second affair with an Nvidia executive, a suspected Chinese spy, Megaspeed and export controls. Nvidia's board said it had input from senior levels of the US government and saw no national security risk. Trump endorsed the decision on Truth Social, and NLW reports shares rose nearly 35 percent, adding about a trillion dollars in pre-market value.",
+   "eps": [
+    "aidb/2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo"
+   ]
+  },
+  {
+   "title": "Too big to fail, AI edition",
+   "body": "NLW argues Nvidia's rescue is a new flavor of too big to fail, driven by capital and soft power rather than financial contagion, and calls Nvidia the unofficial central bank of AI. He cites Paul Kedrosky's view that the White House runs AI capex as a proxy stimulus program, and sees the state-versus-private power balance as a major realignment that reaches model labs such as Anthropic.",
+   "eps": [
+    "aidb/2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo"
+   ]
+  }
+ ],
+ "whyItMatters": "When governments step in to protect the leadership of a critical AI supplier, technology leaders should treat vendor concentration and political exposure in their AI supply chain as strategic risks, not only commercial ones.",
+ "themesEpisodeCount": 1,
+ "episodes": [
+  {
+   "key": "aidb/2026-11-23-too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo",
+   "show": "aidb",
+   "showName": "The AI Daily Brief",
+   "date": "2026-11-23",
+   "slug": "too-big-to-fire-jensen-huang-is-back-as-nvidia-ceo",
+   "title": "Too Big to Fire: Jensen Huang Is Back as Nvidia CEO",
+   "url": "https://www.patreon.com/posts/176175943",
+   "youtube": null,
+   "guests": [],
+   "durationMin": null,
+   "summary": "The episode recaps the scandal that forced Jensen Huang to resign as Nvidia CEO (affairs, a suspected Chinese spy, Megaspeed and export controls) and the campaign that led to his reinstatement 11 days later after White House input. It covers the market surge on the news and argues the episode raises deep questions about state versus private power and a new form of 'too big to fail' for AI.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}

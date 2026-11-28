@@ -3,8 +3,10 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { podcastShows } from "../../podcast-shows.mjs";
 import { getDigests } from "../../lib/podcast-digests";
+import { getDailies, dayLabel } from "../../lib/podcast-daily";
 
 const latestDigest = getDigests()[0];
+const latestDaily = getDailies()[0];
 
 const episodes = (await getCollection("podcasts"))
     .filter((e) => !e.data.draft)
@@ -69,9 +71,20 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
             </p>
             <p class="intro-links">
                 <a href={`${base}podcasts/topics/`}>Browse by topic (all shows) →</a>
+                {latestDaily && <> &middot; <a href={`${base}podcasts/daily/`}>Daily summary, all shows →</a></>}
                 {latestDigest && <> &middot; <a href={`${base}podcasts/digest/${latestDigest.period}/`}>Monthly digest, all shows: {monthLabel(latestDigest.period)} →</a> <a class="monthly-all" href={`${base}podcasts/digest/`}>all months</a></>}
             </p>
         </header>
+
+        {latestDaily && (
+            <section class="daily">
+                <h2 class="section-heading">Latest daily summary</h2>
+                <a class="daily-title" href={`${base}podcasts/daily/${latestDaily.date}/`}>{dayLabel(latestDaily.date)}</a>
+                <span class="daily-meta">{latestDaily.episodeCount} episode{latestDaily.episodeCount === 1 ? "" : "s"}, all shows</span>
+                <a class="monthly-all" href={`${base}podcasts/daily/`}>all days</a>
+                <p>{latestDaily.headline}</p>
+            </section>
+        )}
 
         <section class="shows">
             {allShows.map((show) => (
@@ -129,6 +142,11 @@ const fmt = (d: Date) => d.toLocaleDateString("en-us", { year: "numeric", month:
     .show-meta { font-size: 0.75rem; font-family: monospace; color: var(--color-text-light); }
     .intro-links { margin: 0.75rem 0 0; font-size: 0.9rem; }
     .intro-links a { color: #4a6fa5; font-weight: 600; text-decoration: none; }
+    .daily { margin-bottom: 2rem; padding: 1rem 1.1rem; border-left: 3px solid var(--color-primary); background: rgba(0, 0, 0, 0.025); display: flex; flex-wrap: wrap; gap: 0.25rem 0.75rem; align-items: baseline; }
+    .daily .section-heading { flex-basis: 100%; margin-bottom: 0.25rem; }
+    .daily-title { font-weight: 700; color: var(--color-primary); text-decoration: none; }
+    .daily-meta { font-size: 0.75rem; font-family: monospace; color: var(--color-text-light); }
+    .daily p { flex-basis: 100%; margin: 0.25rem 0 0; font-size: 0.9rem; color: var(--color-text); line-height: 1.5; }
     .monthly { margin-bottom: 2.5rem; }
     .monthly-list { list-style: none; margin: 0; padding: 0; }
     .monthly-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; display: flex; flex-wrap: wrap; gap: 0.25rem 0.75rem; align-items: baseline; }

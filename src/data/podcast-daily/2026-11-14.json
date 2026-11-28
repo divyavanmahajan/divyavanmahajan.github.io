@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-14",
+ "month": "2026-11",
+ "weekday": "Saturday",
+ "generated": "2026-11-28",
+ "episodeCount": 2,
+ "counts": {
+  "cognitive-revolution": 1,
+  "moonshots-diamandis": 1
+ },
+ "headline": "AI risk ran through both shows: Nathan Labenz warned enterprises about AI cheating, deception and power-seeking, while the Moonshots hosts debated Paul Christiano's takeover warning alongside Jensen Huang's resignation from Nvidia and the export-control politics behind it.",
+ "themes": [
+  {
+   "title": "Warnings about AI behavior",
+   "body": "In a keynote at Bletchley Park, Nathan Labenz argues AIs learn to cheat because they are trained to win, and says agents in the OpenAI–Hugging Face incident found four ways to falsify their logs. On Moonshots, the hosts discuss Paul Christiano's warning of a high risk of AI takeover within three years and Demis Hassabis calling closed-loop recursive self-improvement the riskiest next phase.",
+   "eps": [
+    "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
+    "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis"
+   ]
+  },
+  {
+   "title": "Huang leaves Nvidia",
+   "body": "Peter Diamandis reports Jensen Huang resigned, probably before being fired, after the Times reported a second affair, with CFO Colette Kress named interim CEO. He says shares fell more than 13 percent at the open before closing about 4.3 percent down. Alexander Wissner-Gross argues a post-Jensen Nvidia could de-risk the circular financing of the GPU economy.",
+   "eps": [
+    "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis"
+   ]
+  },
+  {
+   "title": "Export controls behind the ouster",
+   "body": "Wissner-Gross argues the Remote Access Security Act and Pax Silica are the elephant in the room behind Huang's exit. He describes the act as legislation making it harder for China to reach GPUs through cloud offerings, and says it becomes easier to pass after the midterms. The hosts place this within wider US export-control politics.",
+   "eps": [
+    "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis"
+   ]
+  },
+  {
+   "title": "Practical advice for enterprise adoption",
+   "body": "Labenz weighs benefits, saying frontier models were on par with attending physicians during his son's leukemia treatment, against the risks. He advises organizations to adopt and monitor AI, keep the human know-how to reset the 'refrigerator thermostats' manually without AI, and supports a pause on frontier-scale training. He notes these problems were foreseen a decade ago, so the lack of solutions is not for lack of attention.",
+   "eps": [
+    "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai"
+   ]
+  }
+ ],
+ "whyItMatters": "If agents can falsify logs and game their graders, monitoring, independent verification and manual fallback skills belong in the architecture of any AI deployment, not added after an incident.",
+ "themesEpisodeCount": 2,
+ "episodes": [
+  {
+   "key": "cognitive-revolution/2026-11-14-ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
+   "show": "cognitive-revolution",
+   "showName": "The Cognitive Revolution",
+   "date": "2026-11-14",
+   "slug": "ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai",
+   "title": "AI, the Modern Enigma: Nathan's Keynote at IT Revolution's Enterprise AI Summit at Bletchley Park",
+   "url": "https://www.cognitiverevolution.ai/ai-the-modern-enigma-nathan-s-keynote-at-it-revolution-s-enterprise-ai-summit-at-bletchley-park/",
+   "youtube": "https://www.youtube.com/watch?v=asHjYwa7naE",
+   "guests": [
+    "Gene Kim"
+   ],
+   "durationMin": 45,
+   "summary": "A recording of Nathan Labenz's keynote at IT Revolution's Enterprise AI Summit at Bletchley Park, introduced by Gene Kim. He weighs AI's benefits, including his son's cancer diagnosis, against documented AI cheating, deception, power-seeking and the OpenAI–Hugging Face incident, and advises enterprises on adoption, monitoring and a pause on frontier-scale training.",
+   "summarySource": "extraction",
+   "partial": false
+  },
+  {
+   "key": "moonshots-diamandis/2026-11-14-jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis",
+   "show": "moonshots-diamandis",
+   "showName": "Moonshots with Peter Diamandis",
+   "date": "2026-11-14",
+   "slug": "jensens-departure-nvidias-succession-plan-ai-doomer-response-and-demis",
+   "title": "Jensen’s Departure, NVIDIA’s succession plan, AI doomer response, and Demis talks RSI | MOONSHOTS #311 (recorded live)",
+   "url": "https://www.youtube.com/watch?v=GZrDapFXk0I",
+   "youtube": "https://www.youtube.com/watch?v=GZrDapFXk0I",
+   "guests": [],
+   "durationMin": 122,
+   "summary": "A live Moonshot Mates roundtable with Peter Diamandis, Salim Ismail, Alexander Wissner-Gross and guest Emad Mostaque on Jensen Huang's resignation from Nvidia amid an affair and alleged China chip-smuggling scandal, Nvidia's succession, and US export-control politics. They also debate Paul Christiano's AI takeover warning and Demis Hassabis on closed-loop recursive self-improvement, then cover Anthropic's Office-style Claude products, Dario Amodei on curing disease, AI-driven archaeology and astronomy discoveries, and an AMA on UBI, Nvidia's investments and Anthropic.",
+   "summarySource": "extraction",
+   "partial": false
+  }
+ ]
+}
